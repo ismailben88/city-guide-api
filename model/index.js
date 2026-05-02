@@ -1,0 +1,16 @@
+module.exports = {
+  User:           require("./User"),
+  City:           require("./City"),
+  Category:       require("./Category"),
+  GuideProfile:   require("./GuideProfile"),
+  Place:          require("./Place"),
+  Event:          require("./Event"),
+  Score:          require("./Score"),
+  Comment:        require("./Comment"),
+  Media:          require("./Media"),
+  PendingRequest: require("./PendingRequest"),
+  Report:         require("./Report"),
+  AdminLog:       require("./AdminLog"),
+  Favorite:       require("./Favorite"),
+  Notification:   require("./Notification"),
+};

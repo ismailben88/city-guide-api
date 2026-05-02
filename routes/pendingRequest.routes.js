@@ -1,0 +1,15 @@
+// Alias direct vers les routes /admin/pendingRequests
+// Le frontend appelle /pendingRequests sans le préfixe /admin
+const router = require("express").Router();
+const ctrl   = require("../controllers/admin.controller");
+const { protect, restrict } = require("../middleware/auth");
+
+const isAdmin = [protect, restrict("admin")];
+
+router.get   ("/",            ...isAdmin, ctrl.getPendingRequests);
+router.get   ("/:id",         ...isAdmin, ctrl.getPendingRequestById);
+router.post  ("/",            protect,    ctrl.submitPendingRequest);
+router.patch ("/:id/approve", ...isAdmin, ctrl.approvePendingRequest);
+router.patch ("/:id/reject",  ...isAdmin, ctrl.rejectPendingRequest);
+
+module.exports = router;
