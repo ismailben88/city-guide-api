@@ -55,13 +55,20 @@ router.post("/", protect, async (req, res, next) => {
       return res.status(400).json({ message: "name, category et city sont obligatoires" });
     }
 
-    const [cityDoc, catDoc] = await Promise.all([
-      City.findOne({ name: { $regex: new RegExp(`^${city.trim()}$`, "i") } }),
-      Category.findOne({ name: { $regex: new RegExp(category.trim(), "i") } }),
-    ]);
-
+    const cityDoc = await City.findOne({ name: { $regex: new RegExp(`^${city.trim()}$`, "i") } });
     if (!cityDoc) return res.status(400).json({ message: `Ville introuvable : ${city}` });
-    if (!catDoc)  return res.status(400).json({ message: `Catégorie introuvable : ${category}` });
+
+    // Find existing category (case-insensitive) or create it on the fly
+    const catSlug = category.trim()
+      .toLowerCase()
+      .normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+    const catDoc = await Category.findOneAndUpdate(
+      { name: { $regex: new RegExp(`^${category.trim()}$`, "i") } },
+      { $setOnInsert: { name: category.trim(), slug: catSlug, status: "active" } },
+      { upsert: true, new: true }
+    );
 
     // Generate a unique slug from the name
     const baseSlug = name

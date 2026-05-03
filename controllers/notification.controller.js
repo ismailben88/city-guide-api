@@ -1,9 +1,9 @@
 const Notification = require("../model/Notification");
 
-// GET /notifications?userId=
+// GET /notifications
 exports.getNotifications = async (req, res, next) => {
   try {
-    const userId = req.query.userId || req.user._id;
+    const userId = req.user._id;
     const notifications = await Notification.find({ userId }).sort({ createdAt: -1 });
     res.json(notifications);
   } catch (err) { next(err); }
@@ -32,7 +32,7 @@ exports.markAsRead = async (req, res, next) => {
 // PATCH /notifications/read-all  — marquer toutes comme lues
 exports.markAllAsRead = async (req, res, next) => {
   try {
-    const userId = req.query.userId || req.user._id;
+    const userId = req.user._id;
     await Notification.updateMany({ userId, isRead: false }, { isRead: true });
     res.json({ message: "Toutes les notifications marquées comme lues" });
   } catch (err) { next(err); }
@@ -46,10 +46,10 @@ exports.deleteNotification = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
-// DELETE /notifications?userId=&isRead=true
+// DELETE /notifications — supprimer les lues
 exports.deleteReadNotifications = async (req, res, next) => {
   try {
-    const userId = req.query.userId || req.user._id;
+    const userId = req.user._id;
     await Notification.deleteMany({ userId, isRead: true });
     res.json({ message: "Notifications lues supprimées" });
   } catch (err) { next(err); }
