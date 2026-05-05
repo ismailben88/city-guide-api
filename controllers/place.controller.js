@@ -5,7 +5,8 @@ const PendingRequest = require("../model/PendingRequest");
 exports.getPlaces = async (req, res, next) => {
   try {
     const { cityId, categoryId, status = "active", isFeatured, page = 1, limit = 20 } = req.query;
-    const filter = { status };
+    const filter = {};
+    if (status !== "all") filter.status = status;  // "all" → no status filter (admin use)
     if (cityId) filter.cityId = cityId;
     if (categoryId) filter.categoryId = categoryId;
     if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";

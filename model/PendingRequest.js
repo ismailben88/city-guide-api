@@ -28,7 +28,8 @@ pendingRequestSchema.post("findOneAndUpdate", async function (doc) {
   if (doc.requestType === "business_verification") {
     await Place.findByIdAndUpdate(doc.placeId, {
       isVerifiedBusiness: true,
-      ownerId: doc.requestedBy,
+      status:             "active",
+      ownerId:            doc.requestedBy,
     });
     await AdminLog.create({
       adminId:    doc.reviewedBy,

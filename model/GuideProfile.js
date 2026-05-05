@@ -53,6 +53,7 @@ const guideProfileSchema = new Schema(
   { timestamps: true }
 );
 
+guideProfileSchema.index({ userId: 1 });
 guideProfileSchema.index({ cityIds: 1 });
 guideProfileSchema.index({ verificationStatus: 1 });
 guideProfileSchema.index({ averageRating: -1 });
