@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/event.controller");
-const { protect, restrict } = require("../middleware/auth");
+const { protect, restrict } = require("../middlewares/auth.middleware");
 
 router.get("/nearby", ctrl.getNearbyEvents);
 

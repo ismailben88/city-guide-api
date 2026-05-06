@@ -1,46 +1,35 @@
-const Category = require("../model/Category");
+const asyncHandler = require("../utils/asyncHandler");
+const ApiError     = require("../utils/ApiError");
+const Category     = require("../models/Category");
 
 // GET /categories
-exports.getCategories = async (req, res, next) => {
-  try {
-    const categories = await Category.find({ status: "active" }).sort({ name: 1 });
-    res.json(categories);
-  } catch (err) { next(err); }
-};
+exports.getCategories = asyncHandler(async (req, res) => {
+  const categories = await Category.find({ status: "active" }).sort({ name: 1 });
+  res.json(categories);
+});
 
 // GET /categories/:id
-exports.getCategoryById = async (req, res, next) => {
-  try {
-    const category = await Category.findById(req.params.id);
-    if (!category) return res.status(404).json({ message: "Catégorie introuvable" });
-    res.json(category);
-  } catch (err) { next(err); }
-};
+exports.getCategoryById = asyncHandler(async (req, res) => {
+  const category = await Category.findById(req.params.id);
+  if (!category) throw new ApiError(404, "Catégorie introuvable");
+  res.json(category);
+});
 
 // POST /categories
-exports.createCategory = async (req, res, next) => {
-  try {
-    const category = await Category.create(req.body);
-    res.status(201).json(category);
-  } catch (err) { next(err); }
-};
+exports.createCategory = asyncHandler(async (req, res) => {
+  const category = await Category.create(req.body);
+  res.status(201).json(category);
+});
 
 // PUT /categories/:id
-exports.updateCategory = async (req, res, next) => {
-  try {
-    const category = await Category.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-    if (!category) return res.status(404).json({ message: "Catégorie introuvable" });
-    res.json(category);
-  } catch (err) { next(err); }
-};
+exports.updateCategory = asyncHandler(async (req, res) => {
+  const category = await Category.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
+  if (!category) throw new ApiError(404, "Catégorie introuvable");
+  res.json(category);
+});
 
 // DELETE /categories/:id
-exports.deleteCategory = async (req, res, next) => {
-  try {
-    await Category.findByIdAndUpdate(req.params.id, { status: "inactive" });
-    res.json({ message: "Catégorie désactivée" });
-  } catch (err) { next(err); }
-};
+exports.deleteCategory = asyncHandler(async (req, res) => {
+  await Category.findByIdAndUpdate(req.params.id, { status: "inactive" });
+  res.json({ message: "Catégorie désactivée" });
+});

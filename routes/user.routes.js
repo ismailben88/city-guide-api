@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/user.controller");
-const { protect, restrict } = require("../middleware/auth");
-const upload = require("../middleware/upload");
+const { protect, restrict } = require("../middlewares/auth.middleware");
+const upload = require("../middlewares/upload.middleware");
 
 router.get   ("/",                            protect, restrict("admin"), ctrl.getUsers);
 router.get   ("/:id",                         protect, ctrl.getUserById);

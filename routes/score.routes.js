@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/score.controller");
-const { protect, restrict } = require("../middleware/auth");
+const { protect, restrict } = require("../middlewares/auth.middleware");
 
 router.get   ("/",          ctrl.getScores);
 router.get   ("/analytics", ctrl.getAnalytics);

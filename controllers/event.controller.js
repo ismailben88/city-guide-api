@@ -1,92 +1,84 @@
-const Event = require("../model/Event");
+const asyncHandler = require("../utils/asyncHandler");
+const ApiError     = require("../utils/ApiError");
+const Event        = require("../models/Event");
+const { getPagination } = require("../utils/pagination.utils");
+
+const POPULATE_EVENT = [
+  { path: "cityId",      select: "name slug" },
+  { path: "organizedBy", select: "firstName lastName avatarUrl" },
+];
 
 // GET /events
-exports.getEvents = async (req, res, next) => {
-  try {
-    const { cityId, status, isFeatured, page = 1, limit = 20 } = req.query;
-    const filter = {};
-    if (cityId) filter.cityId = cityId;
-    if (status) filter.status = status;
-    if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
+exports.getEvents = asyncHandler(async (req, res) => {
+  const { cityId, status, isFeatured, ...rest } = req.query;
+  const { skip, limit, page } = getPagination(rest);
 
-    const events = await Event.find(filter)
-      .populate("cityId", "name slug")
-      .populate("organizedBy", "firstName lastName avatarUrl")
-      .sort({ "dateRange.from": 1 })
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
+  const filter = {};
+  if (cityId)                   filter.cityId     = cityId;
+  if (status)                   filter.status     = status;
+  if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
 
-    res.json(events);
-  } catch (err) { next(err); }
-};
+  const events = await Event.find(filter)
+    .populate(POPULATE_EVENT)
+    .sort({ "dateRange.from": 1 })
+    .skip(skip)
+    .limit(limit);
+
+  res.json(events);
+});
 
 // GET /events/nearby
-exports.getNearbyEvents = async (req, res, next) => {
-  try {
-    const { lat, lng, radius = 10000 } = req.query;
-    const events = await Event.find({
-      location: {
-        $near: {
-          $geometry: { type: "Point", coordinates: [Number(lng), Number(lat)] },
-          $maxDistance: Number(radius),
-        },
+exports.getNearbyEvents = asyncHandler(async (req, res) => {
+  const { lat, lng, radius = 10000 } = req.query;
+  const events = await Event.find({
+    location: {
+      $near: {
+        $geometry:    { type: "Point", coordinates: [Number(lng), Number(lat)] },
+        $maxDistance: Number(radius),
       },
-    })
-      .populate("cityId", "name slug")
-      .limit(20);
+    },
+  })
+    .populate("cityId", "name slug")
+    .limit(20);
 
-    res.json(events);
-  } catch (err) { next(err); }
-};
+  res.json(events);
+});
 
 // GET /events/:id
-exports.getEventById = async (req, res, next) => {
-  try {
-    const event = await Event.findById(req.params.id)
-      .populate("cityId", "name slug")
-      .populate("organizedBy", "firstName lastName avatarUrl");
-
-    if (!event) return res.status(404).json({ message: "Événement introuvable" });
-    res.json(event);
-  } catch (err) { next(err); }
-};
+exports.getEventById = asyncHandler(async (req, res) => {
+  const event = await Event.findById(req.params.id).populate(POPULATE_EVENT);
+  if (!event) throw new ApiError(404, "Événement introuvable");
+  res.json(event);
+});
 
 // POST /events
-exports.createEvent = async (req, res, next) => {
-  try {
-    const event = await Event.create({ ...req.body, organizedBy: req.user._id });
-    res.status(201).json(event);
-  } catch (err) { next(err); }
-};
+exports.createEvent = asyncHandler(async (req, res) => {
+  const event = await Event.create({ ...req.body, organizedBy: req.user._id });
+  res.status(201).json(event);
+});
 
 // PUT /events/:id
-exports.updateEvent = async (req, res, next) => {
-  try {
-    const event = await Event.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-    if (!event) return res.status(404).json({ message: "Événement introuvable" });
-    res.json(event);
-  } catch (err) { next(err); }
-};
+exports.updateEvent = asyncHandler(async (req, res) => {
+  const event = await Event.findByIdAndUpdate(req.params.id, req.body, {
+    new: true, runValidators: true,
+  });
+  if (!event) throw new ApiError(404, "Événement introuvable");
+  res.json(event);
+});
 
 // DELETE /events/:id
-exports.deleteEvent = async (req, res, next) => {
-  try {
-    await Event.findByIdAndUpdate(req.params.id, { status: "cancelled" });
-    res.json({ message: "Événement annulé" });
-  } catch (err) { next(err); }
-};
+exports.deleteEvent = asyncHandler(async (req, res) => {
+  await Event.findByIdAndUpdate(req.params.id, { status: "cancelled" });
+  res.json({ message: "Événement annulé" });
+});
 
 // PATCH /events/:id/feature
-exports.toggleFeature = async (req, res, next) => {
-  try {
-    const event = await Event.findByIdAndUpdate(
-      req.params.id,
-      { isFeatured: req.body.isFeatured },
-      { new: true }
-    );
-    res.json({ isFeatured: event.isFeatured });
-  } catch (err) { next(err); }
-};
+exports.toggleFeature = asyncHandler(async (req, res) => {
+  const event = await Event.findByIdAndUpdate(
+    req.params.id,
+    { isFeatured: req.body.isFeatured },
+    { new: true }
+  );
+  if (!event) throw new ApiError(404, "Événement introuvable");
+  res.json({ isFeatured: event.isFeatured });
+});

@@ -1,91 +1,48 @@
-const User = require("../model/User");
+const asyncHandler = require("../utils/asyncHandler");
+const ApiError     = require("../utils/ApiError");
+const userService  = require("../services/user.service");
 
 // GET /users
-exports.getUsers = async (req, res, next) => {
-  try {
-    const { role, isActive, page = 1, limit = 20 } = req.query;
-    const filter = {};
-    if (role) filter.role = role;
-    if (isActive !== undefined) filter.isActive = isActive === "true";
-
-    const users = await User.find(filter)
-      .skip((page - 1) * limit)
-      .limit(Number(limit))
-      .sort({ createdAt: -1 });
-
-    res.json(users);
-  } catch (err) { next(err); }
-};
+exports.getUsers = asyncHandler(async (req, res) => {
+  const result = await userService.getUsers(req.query);
+  res.json(result);
+});
 
 // GET /users/:id
-exports.getUserById = async (req, res, next) => {
-  try {
-    const user = await User.findById(req.params.id);
-    if (!user) return res.status(404).json({ message: "Utilisateur introuvable" });
-    res.json(user);
-  } catch (err) { next(err); }
-};
+exports.getUserById = asyncHandler(async (req, res) => {
+  const user = await userService.getUserById(req.params.id);
+  res.json(user);
+});
 
 // PUT /users/:id
-exports.updateUser = async (req, res, next) => {
-  try {
-    const forbidden = ["passwordHash", "role", "isVerified"];
-    forbidden.forEach((f) => delete req.body[f]);
+exports.updateUser = asyncHandler(async (req, res) => {
+  const user = await userService.updateUser(req.params.id, req.body);
+  res.json(user);
+});
 
-    const user = await User.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-    if (!user) return res.status(404).json({ message: "Utilisateur introuvable" });
-    res.json(user);
-  } catch (err) { next(err); }
-};
-
-// DELETE /users/:id
-exports.deleteUser = async (req, res, next) => {
-  try {
-    await User.findByIdAndUpdate(req.params.id, { isActive: false });
-    res.json({ message: "Utilisateur désactivé" });
-  } catch (err) { next(err); }
-};
+// DELETE /users/:id — désactivation douce
+exports.deleteUser = asyncHandler(async (req, res) => {
+  await userService.deactivateUser(req.params.id);
+  res.json({ message: "Utilisateur désactivé" });
+});
 
 // POST /users/:id/avatar  (multipart/form-data — champ "avatar")
-exports.uploadAvatar = async (req, res, next) => {
-  try {
-    if (!req.file) return res.status(400).json({ message: "Aucun fichier reçu" });
-
-    const origin    = `${req.protocol}://${req.get("host")}`;
-    const avatarUrl = `${origin}/uploads/${req.file.filename}`;
-
-    const user = await User.findByIdAndUpdate(
-      req.params.id,
-      { avatarUrl },
-      { new: true }
-    );
-    res.json({ avatarUrl: user.avatarUrl });
-  } catch (err) { next(err); }
-};
+exports.uploadAvatar = asyncHandler(async (req, res) => {
+  if (!req.file) throw new ApiError(400, "Aucun fichier reçu");
+  const origin    = `${req.protocol}://${req.get("host")}`;
+  const avatarUrl = `${origin}/uploads/${req.file.filename}`;
+  const url       = await userService.setAvatarUrl(req.params.id, avatarUrl);
+  res.json({ avatarUrl: url });
+});
 
 // POST /users/:id/linked-accounts
-exports.addLinkedAccount = async (req, res, next) => {
-  try {
-    const user = await User.findByIdAndUpdate(
-      req.params.id,
-      { $push: { linkedAccounts: req.body } },
-      { new: true }
-    );
-    res.json(user.linkedAccounts);
-  } catch (err) { next(err); }
-};
+exports.addLinkedAccount = asyncHandler(async (req, res) => {
+  const accounts = await userService.addLinkedAccount(req.params.id, req.body);
+  res.json(accounts);
+});
 
 // DELETE /users/:id/linked-accounts/:provider
-exports.removeLinkedAccount = async (req, res, next) => {
-  try {
-    const user = await User.findByIdAndUpdate(
-      req.params.id,
-      { $pull: { linkedAccounts: { platform: req.params.provider } } },
-      { new: true }
-    );
-    res.json(user.linkedAccounts);
-  } catch (err) { next(err); }
-};
+exports.removeLinkedAccount = asyncHandler(async (req, res) => {
+  const accounts = await userService.removeLinkedAccount(req.params.id, req.params.provider);
+  res.json(accounts);
+});

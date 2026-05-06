@@ -2,7 +2,11 @@ const { Schema, model, Types } = require("mongoose");
 
 const eventSchema = new Schema(
   {
-    title:    { type: String, required: true, trim: true },
+    title:       { type: String, required: true, trim: true },
+    description: { type: String, default: "" },
+    coverImage:  { type: String, default: "" },
+    organizer:   { type: String, default: "" },
+    ticketPrice: { type: Number, default: 0 },
     location: {
       type:        { type: String, enum: ["Point"], default: "Point" },
       coordinates: { type: [Number], default: [0, 0] },
