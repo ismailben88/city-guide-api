@@ -2,7 +2,7 @@
 // Le frontend appelle /pendingRequests sans le préfixe /admin
 const router = require("express").Router();
 const ctrl   = require("../controllers/admin.controller");
-const { protect, restrict } = require("../middleware/auth");
+const { protect, restrict } = require("../middlewares/auth.middleware");
 
 const isAdmin = [protect, restrict("admin")];
 

@@ -1,9 +1,9 @@
 const router        = require("express").Router();
-const Place         = require("../model/Place");
-const PendingRequest= require("../model/PendingRequest");
-const City          = require("../model/City");
-const Category      = require("../model/Category");
-const { protect }   = require("../middleware/auth");
+const Place         = require("../models/Place");
+const PendingRequest= require("../models/PendingRequest");
+const City          = require("../models/City");
+const Category      = require("../models/Category");
+const { protect }   = require("../middlewares/auth.middleware");
 
 // Normalize a Place document to the shape BusinessSettings.jsx expects
 function toFrontend(doc) {

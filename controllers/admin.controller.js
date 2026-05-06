@@ -1,149 +1,131 @@
-const AdminLog       = require("../model/AdminLog");
-const PendingRequest = require("../model/PendingRequest");
-const Place          = require("../model/Place");
-const GuideProfile   = require("../model/GuideProfile");
-const User           = require("../model/User");
-const Event          = require("../model/Event");
-const Comment        = require("../model/Comment");
+const asyncHandler   = require("../utils/asyncHandler");
+const ApiError       = require("../utils/ApiError");
+const AdminLog       = require("../models/AdminLog");
+const PendingRequest = require("../models/PendingRequest");
+const Place          = require("../models/Place");
+const GuideProfile   = require("../models/GuideProfile");
+const User           = require("../models/User");
+const Event          = require("../models/Event");
+const Comment        = require("../models/Comment");
+const { getPagination } = require("../utils/pagination.utils");
 
-// ─── Pending Requests ────────────────────────────────────────────────────────
+// ─── Pending Requests ─────────────────────────────────────────────────────────
 
 // GET /pendingRequests
-exports.getPendingRequests = async (req, res, next) => {
-  try {
-    const { requestType, status = "pending", page = 1, limit = 20 } = req.query;
-    const filter = { status };
-    if (requestType) filter.requestType = requestType;
+exports.getPendingRequests = asyncHandler(async (req, res) => {
+  const { requestType, status = "pending", ...rest } = req.query;
+  const { skip, limit } = getPagination(rest);
 
-    const requests = await PendingRequest.find(filter)
-      .populate("requestedBy", "firstName lastName email avatarUrl")
-      .populate("placeId", "name slug")
-      .sort({ createdAt: -1 })
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
+  const filter = { status };
+  if (requestType) filter.requestType = requestType;
 
-    res.json(requests);
-  } catch (err) { next(err); }
-};
+  const requests = await PendingRequest.find(filter)
+    .populate("requestedBy", "firstName lastName email avatarUrl")
+    .populate("placeId", "name slug")
+    .sort({ createdAt: -1 })
+    .skip(skip)
+    .limit(limit);
+
+  res.json(requests);
+});
 
 // GET /pendingRequests/:id
-exports.getPendingRequestById = async (req, res, next) => {
-  try {
-    const request = await PendingRequest.findById(req.params.id)
-      .populate("requestedBy", "firstName lastName email")
-      .populate("placeId", "name slug");
+exports.getPendingRequestById = asyncHandler(async (req, res) => {
+  const request = await PendingRequest.findById(req.params.id)
+    .populate("requestedBy", "firstName lastName email")
+    .populate("placeId", "name slug");
 
-    if (!request) return res.status(404).json({ message: "Demande introuvable" });
-    res.json(request);
-  } catch (err) { next(err); }
-};
+  if (!request) throw new ApiError(404, "Demande introuvable");
+  res.json(request);
+});
 
 // POST /pendingRequests
-exports.submitPendingRequest = async (req, res, next) => {
-  try {
-    const request = await PendingRequest.create({
-      ...req.body,
-      requestedBy: req.user._id,
-    });
-    res.status(201).json(request);
-  } catch (err) { next(err); }
-};
+exports.submitPendingRequest = asyncHandler(async (req, res) => {
+  const request = await PendingRequest.create({ ...req.body, requestedBy: req.user._id });
+  res.status(201).json(request);
+});
 
 // PATCH /pendingRequests/:id/approve
-exports.approvePendingRequest = async (req, res, next) => {
-  try {
-    const request = await PendingRequest.findByIdAndUpdate(
-      req.params.id,
-      { status: "approved", reviewedBy: req.user._id },
-      { new: true }
-    );
-    // Les side-effects (isVerifiedBusiness, isGuide…) sont gérés par le hook
-    // post("findOneAndUpdate") dans schemas.js
-    res.json(request);
-  } catch (err) { next(err); }
-};
+exports.approvePendingRequest = asyncHandler(async (req, res) => {
+  const request = await PendingRequest.findByIdAndUpdate(
+    req.params.id,
+    { status: "approved", reviewedBy: req.user._id },
+    { new: true }
+  );
+  if (!request) throw new ApiError(404, "Demande introuvable");
+  res.json(request);
+});
 
 // PATCH /pendingRequests/:id/reject
-exports.rejectPendingRequest = async (req, res, next) => {
-  try {
-    const request = await PendingRequest.findByIdAndUpdate(
-      req.params.id,
-      {
-        status: "rejected",
-        reviewedBy: req.user._id,
-        payload: { ...req.body },
-      },
-      { new: true }
-    );
-    res.json(request);
-  } catch (err) { next(err); }
-};
+exports.rejectPendingRequest = asyncHandler(async (req, res) => {
+  const request = await PendingRequest.findByIdAndUpdate(
+    req.params.id,
+    { status: "rejected", reviewedBy: req.user._id, payload: req.body },
+    { new: true }
+  );
+  if (!request) throw new ApiError(404, "Demande introuvable");
+  res.json(request);
+});
 
 // ─── Admin Logs ───────────────────────────────────────────────────────────────
 
 // GET /adminLogs
-exports.getAdminLogs = async (req, res, next) => {
-  try {
-    const { targetType, targetId, action, page = 1, limit = 30 } = req.query;
-    const filter = {};
-    if (targetType) filter.targetType = targetType;
-    if (targetId) filter.targetId = targetId;
-    if (action) filter.action = action;
+exports.getAdminLogs = asyncHandler(async (req, res) => {
+  const { targetType, targetId, action, ...rest } = req.query;
+  const { skip, limit } = getPagination(rest);
 
-    const logs = await AdminLog.find(filter)
-      .populate("adminId", "firstName lastName")
-      .sort({ createdAt: -1 })
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
+  const filter = {};
+  if (targetType) filter.targetType = targetType;
+  if (targetId)   filter.targetId   = targetId;
+  if (action)     filter.action     = action;
 
-    res.json(logs);
-  } catch (err) { next(err); }
-};
+  const logs = await AdminLog.find(filter)
+    .populate("adminId", "firstName lastName")
+    .sort({ createdAt: -1 })
+    .skip(skip)
+    .limit(limit);
+
+  res.json(logs);
+});
 
 // POST /adminLogs
-exports.createAdminLog = async (req, res, next) => {
-  try {
-    const log = await AdminLog.create({ ...req.body, adminId: req.user._id });
-    res.status(201).json(log);
-  } catch (err) { next(err); }
-};
+exports.createAdminLog = asyncHandler(async (req, res) => {
+  const log = await AdminLog.create({ ...req.body, adminId: req.user._id });
+  res.status(201).json(log);
+});
 
 // ─── Dashboard ────────────────────────────────────────────────────────────────
 
 // GET /admin/stats
-exports.getStats = async (req, res, next) => {
-  try {
-    const [users, places, events, guides, pendingRequests, comments] = await Promise.all([
+exports.getStats = asyncHandler(async (req, res) => {
+  const [users, places, events, guides, pendingRequests, comments] = await Promise.all([
+    User.countDocuments({ isActive: true }),
+    Place.countDocuments({ status: "active" }),
+    Event.countDocuments({ status: "upcoming" }),
+    GuideProfile.countDocuments({ verificationStatus: "verified" }),
+    PendingRequest.countDocuments({ status: "pending" }),
+    Comment.countDocuments({ status: "active" }),
+  ]);
+
+  res.json({ users, places, events, guides, pendingRequests, comments });
+});
+
+// GET /admin/dashboard
+exports.getDashboard = asyncHandler(async (req, res) => {
+  const [counts, recentLogs, recentRequests] = await Promise.all([
+    Promise.all([
       User.countDocuments({ isActive: true }),
       Place.countDocuments({ status: "active" }),
       Event.countDocuments({ status: "upcoming" }),
       GuideProfile.countDocuments({ verificationStatus: "verified" }),
-      PendingRequest.countDocuments({ status: "pending" }),
-      Comment.countDocuments({ status: "active" }),
-    ]);
+    ]),
+    AdminLog.find().sort({ createdAt: -1 }).limit(10).populate("adminId", "firstName lastName"),
+    PendingRequest.find({ status: "pending" })
+      .sort({ createdAt: -1 })
+      .limit(5)
+      .populate("requestedBy", "firstName lastName"),
+  ]);
 
-    res.json({ users, places, events, guides, pendingRequests, comments });
-  } catch (err) { next(err); }
-};
-
-// GET /admin/dashboard
-exports.getDashboard = async (req, res, next) => {
-  try {
-    const [stats, recentLogs, recentRequests] = await Promise.all([
-      Promise.all([
-        User.countDocuments({ isActive: true }),
-        Place.countDocuments({ status: "active" }),
-        Event.countDocuments({ status: "upcoming" }),
-        GuideProfile.countDocuments({ verificationStatus: "verified" }),
-      ]),
-      AdminLog.find().sort({ createdAt: -1 }).limit(10).populate("adminId", "firstName lastName"),
-      PendingRequest.find({ status: "pending" })
-        .sort({ createdAt: -1 })
-        .limit(5)
-        .populate("requestedBy", "firstName lastName"),
-    ]);
-
-    const [users, places, events, guides] = stats;
-    res.json({ stats: { users, places, events, guides }, recentLogs, recentRequests });
-  } catch (err) { next(err); }
-};
+  const [users, places, events, guides] = counts;
+  res.json({ stats: { users, places, events, guides }, recentLogs, recentRequests });
+});

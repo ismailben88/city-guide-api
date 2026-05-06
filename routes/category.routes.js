@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/category.controller");
-const { protect, restrict } = require("../middleware/auth");
+const { protect, restrict } = require("../middlewares/auth.middleware");
 
 router.get   ("/",    ctrl.getCategories);
 router.get   ("/:id", ctrl.getCategoryById);

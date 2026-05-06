@@ -18,20 +18,20 @@ const path     = require("path");
 const fs       = require("fs");
 
 // ─── Modèles ─────────────────────────────────────────────────────────────────
-const User           = require("../model/User");
-const City           = require("../model/City");
-const Category       = require("../model/Category");
-const GuideProfile   = require("../model/GuideProfile");
-const Place          = require("../model/Place");
-const Event          = require("../model/Event");
-const Score          = require("../model/Score");
-const Comment        = require("../model/Comment");
-const Media          = require("../model/Media");
-const Favorite       = require("../model/Favorite");
-const Report         = require("../model/Report");
-const Notification   = require("../model/Notification");
-const PendingRequest = require("../model/PendingRequest");
-const AdminLog       = require("../model/AdminLog");
+const User           = require("../models/User");
+const City           = require("../models/City");
+const Category       = require("../models/Category");
+const GuideProfile   = require("../models/GuideProfile");
+const Place          = require("../models/Place");
+const Event          = require("../models/Event");
+const Score          = require("../models/Score");
+const Comment        = require("../models/Comment");
+const Media          = require("../models/Media");
+const Favorite       = require("../models/Favorite");
+const Report         = require("../models/Report");
+const Notification   = require("../models/Notification");
+const PendingRequest = require("../models/PendingRequest");
+const AdminLog       = require("../models/AdminLog");
 
 // ─── Chargement db.json ───────────────────────────────────────────────────────
 const dbPath = process.argv[2]
@@ -218,6 +218,10 @@ async function seedEvents() {
   const docs = (db.events || []).map((e) => ({
     _id:         newId(e.id),
     title:       e.title,
+    description: e.description  || "",
+    coverImage:  e.coverImage   || "",
+    organizer:   e.organizer    || "",
+    ticketPrice: e.ticketPrice  ?? 0,
     location:    e.location || { type: "Point", coordinates: [0, 0] },
     cityId:      mapId(e.cityId),
     dateRange:   {
