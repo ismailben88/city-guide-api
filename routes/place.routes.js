@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/place.controller");
-const { protect, restrict } = require("../middleware/auth");
-const upload = require("../middleware/upload");
+const { protect, restrict } = require("../middlewares/auth.middleware");
+const upload = require("../middlewares/upload.middleware");
 
 // Routes spécifiques AVANT /:id pour éviter les conflits
 router.get("/search",  ctrl.searchPlaces);

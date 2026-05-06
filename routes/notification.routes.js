@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/notification.controller");
-const { protect, restrict } = require("../middleware/auth");
+const { protect, restrict } = require("../middlewares/auth.middleware");
 
 // read-all AVANT /:id pour éviter le conflit de paramètre
 router.patch ("/read-all",   protect, ctrl.markAllAsRead);

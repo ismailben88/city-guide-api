@@ -1,165 +1,79 @@
-const Place          = require("../model/Place");
-const PendingRequest = require("../model/PendingRequest");
+const asyncHandler = require("../utils/asyncHandler");
+const ApiError     = require("../utils/ApiError");
+const placeService = require("../services/place.service");
 
 // GET /places
-exports.getPlaces = async (req, res, next) => {
-  try {
-    const { cityId, categoryId, status = "active", isFeatured, page = 1, limit = 20 } = req.query;
-    const filter = {};
-    if (status !== "all") filter.status = status;  // "all" → no status filter (admin use)
-    if (cityId) filter.cityId = cityId;
-    if (categoryId) filter.categoryId = categoryId;
-    if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
-
-    const places = await Place.find(filter)
-      .populate("cityId", "name slug")
-      .populate("categoryId", "name slug icon")
-      .sort({ isFeatured: -1, averageRating: -1 })
-      .skip((page - 1) * limit)
-      .limit(Number(limit));
-
-    res.json(places);
-  } catch (err) { next(err); }
-};
+exports.getPlaces = asyncHandler(async (req, res) => {
+  const result = await placeService.getPlaces(req.query);
+  res.json(result);
+});
 
 // GET /places/search
-exports.searchPlaces = async (req, res, next) => {
-  try {
-    const { q, cityId, categoryId } = req.query;
-    const filter = { status: "active" };
-    if (cityId) filter.cityId = cityId;
-    if (categoryId) filter.categoryId = categoryId;
-    if (q) filter.name = { $regex: q, $options: "i" };
-
-    const places = await Place.find(filter)
-      .populate("cityId", "name slug")
-      .populate("categoryId", "name slug icon")
-      .limit(50);
-
-    res.json(places);
-  } catch (err) { next(err); }
-};
+exports.searchPlaces = asyncHandler(async (req, res) => {
+  const places = await placeService.searchPlaces(req.query);
+  res.json(places);
+});
 
 // GET /places/nearby
-exports.getNearbyPlaces = async (req, res, next) => {
-  try {
-    const { lat, lng, radius = 5000 } = req.query;
-    const places = await Place.find({
-      status: "active",
-      location: {
-        $near: {
-          $geometry: { type: "Point", coordinates: [Number(lng), Number(lat)] },
-          $maxDistance: Number(radius),
-        },
-      },
-    })
-      .populate("cityId", "name slug")
-      .populate("categoryId", "name slug icon")
-      .limit(20);
-
-    res.json(places);
-  } catch (err) { next(err); }
-};
+exports.getNearbyPlaces = asyncHandler(async (req, res) => {
+  const places = await placeService.getNearbyPlaces(req.query);
+  res.json(places);
+});
 
 // GET /places/top
-exports.getTopPlaces = async (req, res, next) => {
-  try {
-    const { limit = 9 } = req.query;
-    const places = await Place.find({ status: "active" })
-      .populate("cityId", "name slug")
-      .populate("categoryId", "name slug icon")
-      .sort({ isFeatured: -1, reviewCount: -1 })
-      .limit(Number(limit));
-
-    res.json(places);
-  } catch (err) { next(err); }
-};
+exports.getTopPlaces = asyncHandler(async (req, res) => {
+  const places = await placeService.getTopPlaces(req.query.limit);
+  res.json(places);
+});
 
 // GET /places/:id
-exports.getPlaceById = async (req, res, next) => {
-  try {
-    if (!req.params.id || req.params.id === "undefined") {
-      return res.status(400).json({ message: "ID invalide" });
-    }
-    const place = await Place.findById(req.params.id)
-      .populate("cityId", "name slug")
-      .populate("categoryId", "name slug icon")
-      .populate("ownerId", "firstName lastName avatarUrl");
-
-    if (!place) return res.status(404).json({ message: "Place introuvable" });
-    res.json(place);
-  } catch (err) { next(err); }
-};
+exports.getPlaceById = asyncHandler(async (req, res) => {
+  const place = await placeService.getPlaceById(req.params.id);
+  res.json(place);
+});
 
 // POST /places
-exports.createPlace = async (req, res, next) => {
-  try {
-    const place = await Place.create(req.body);
-    res.status(201).json(place);
-  } catch (err) { next(err); }
-};
+exports.createPlace = asyncHandler(async (req, res) => {
+  const place = await placeService.createPlace(req.body);
+  res.status(201).json(place);
+});
 
 // PUT /places/:id
-exports.updatePlace = async (req, res, next) => {
-  try {
-    const place = await Place.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-    if (!place) return res.status(404).json({ message: "Place introuvable" });
-    res.json(place);
-  } catch (err) { next(err); }
-};
+exports.updatePlace = asyncHandler(async (req, res) => {
+  const place = await placeService.updatePlace(req.params.id, req.body);
+  res.json(place);
+});
 
 // DELETE /places/:id
-exports.deletePlace = async (req, res, next) => {
-  try {
-    await Place.findByIdAndUpdate(req.params.id, { status: "archived" });
-    res.json({ message: "Place archivée" });
-  } catch (err) { next(err); }
-};
+exports.deletePlace = asyncHandler(async (req, res) => {
+  await placeService.archivePlace(req.params.id);
+  res.json({ message: "Place archivée" });
+});
 
 // PATCH /places/:id/feature
-exports.toggleFeature = async (req, res, next) => {
-  try {
-    const place = await Place.findByIdAndUpdate(
-      req.params.id,
-      { isFeatured: req.body.isFeatured },
-      { new: true }
-    );
-    res.json({ isFeatured: place.isFeatured });
-  } catch (err) { next(err); }
-};
+exports.toggleFeature = asyncHandler(async (req, res) => {
+  const isFeatured = await placeService.toggleFeature(req.params.id, req.body.isFeatured);
+  res.json({ isFeatured });
+});
 
 // POST /places/:id/media  (multipart/form-data — champ "file")
-exports.uploadMedia = async (req, res, next) => {
-  try {
-    if (!req.file) return res.status(400).json({ message: "Aucun fichier reçu" });
-
-    const Media = require("../model/Media");
-    const ext   = req.file.mimetype.startsWith("video") ? "video" : "image";
-    const media = await Media.create({
-      url:        `/uploads/${req.file.filename}`,
-      type:       ext,
-      parentType: "Place",
-      parentId:   req.params.id,
-      uploadedBy: req.user._id,
-      caption:    req.body.caption || "",
-    });
-
-    res.status(201).json(media);
-  } catch (err) { next(err); }
-};
+exports.uploadMedia = asyncHandler(async (req, res) => {
+  if (!req.file) throw new ApiError(400, "Aucun fichier reçu");
+  const media = await placeService.attachMedia({
+    placeId: req.params.id,
+    file:    req.file,
+    caption: req.body.caption,
+    userId:  req.user._id,
+  });
+  res.status(201).json(media);
+});
 
 // POST /places/:id/claim
-exports.claimBusiness = async (req, res, next) => {
-  try {
-    const request = await PendingRequest.create({
-      requestType: "business_verification",
-      requestedBy: req.user._id,
-      placeId: req.params.id,
-      payload: req.body,
-    });
-    res.status(201).json(request);
-  } catch (err) { next(err); }
-};
+exports.claimBusiness = asyncHandler(async (req, res) => {
+  const request = await placeService.claimBusiness({
+    placeId: req.params.id,
+    userId:  req.user._id,
+    payload: req.body,
+  });
+  res.status(201).json(request);
+});

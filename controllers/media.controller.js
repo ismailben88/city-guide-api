@@ -1,59 +1,55 @@
-const Media = require("../model/Media");
+const asyncHandler = require("../utils/asyncHandler");
+const ApiError     = require("../utils/ApiError");
+const Media        = require("../models/Media");
 
 // GET /media?parentId=&parentType=
-exports.getMedia = async (req, res, next) => {
-  try {
-    const { parentId, parentType } = req.query;
-    const filter = {};
-    if (parentId) filter.parentId = parentId;
-    if (parentType) filter.parentType = parentType;
+exports.getMedia = asyncHandler(async (req, res) => {
+  const { parentId, parentType } = req.query;
+  const filter = {};
+  if (parentId)   filter.parentId   = parentId;
+  if (parentType) filter.parentType = parentType;
 
-    const media = await Media.find(filter)
-      .populate("uploadedBy", "firstName lastName")
-      .sort({ order: 1 });
+  const media = await Media.find(filter)
+    .populate("uploadedBy", "firstName lastName")
+    .sort({ order: 1 });
 
-    res.json(media);
-  } catch (err) { next(err); }
-};
+  res.json(media);
+});
 
 // POST /media  (multipart/form-data — champ "file")
-exports.uploadMedia = async (req, res, next) => {
-  try {
-    if (!req.file) return res.status(400).json({ message: "Aucun fichier reçu" });
+exports.uploadMedia = asyncHandler(async (req, res) => {
+  if (!req.file) throw new ApiError(400, "Aucun fichier reçu");
 
-    const ext  = req.file.mimetype.startsWith("video") ? "video" : "image";
-    const url  = `/uploads/${req.file.filename}`;
+  const type  = req.file.mimetype.startsWith("video") ? "video" : "image";
+  const media = await Media.create({
+    url:        `/uploads/${req.file.filename}`,
+    type,
+    parentType: req.body.parentType,
+    parentId:   req.body.parentId,
+    caption:    req.body.caption || "",
+    order:      Number(req.body.order) || 0,
+    uploadedBy: req.user._id,
+  });
 
-    const media = await Media.create({
-      url,
-      type:       ext,
-      parentType: req.body.parentType,
-      parentId:   req.body.parentId,
-      caption:    req.body.caption || "",
-      order:      Number(req.body.order) || 0,
-      uploadedBy: req.user._id,
-    });
-
-    res.status(201).json(media);
-  } catch (err) { next(err); }
-};
+  res.status(201).json(media);
+});
 
 // PATCH /media/:id/approve
-exports.approveMedia = async (req, res, next) => {
-  try {
-    const media = await Media.findByIdAndUpdate(
-      req.params.id,
-      { status: "approved" },
-      { new: true }
-    );
-    res.json(media);
-  } catch (err) { next(err); }
-};
+exports.approveMedia = asyncHandler(async (req, res) => {
+  const media = await Media.findByIdAndUpdate(req.params.id, { status: "approved" }, { new: true });
+  if (!media) throw new ApiError(404, "Média introuvable");
+  res.json(media);
+});
+
+// PATCH /media/:id/reject
+exports.rejectMedia = asyncHandler(async (req, res) => {
+  const media = await Media.findByIdAndUpdate(req.params.id, { status: "rejected" }, { new: true });
+  if (!media) throw new ApiError(404, "Média introuvable");
+  res.json(media);
+});
 
 // DELETE /media/:id
-exports.deleteMedia = async (req, res, next) => {
-  try {
-    await Media.findByIdAndDelete(req.params.id);
-    res.json({ message: "Média supprimé" });
-  } catch (err) { next(err); }
-};
+exports.deleteMedia = asyncHandler(async (req, res) => {
+  await Media.findByIdAndDelete(req.params.id);
+  res.json({ message: "Média supprimé" });
+});

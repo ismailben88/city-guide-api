@@ -1,8 +1,9 @@
-const multer = require("multer");
-const path   = require("path");
-const fs     = require("fs");
+const multer  = require("multer");
+const path    = require("path");
+const fs      = require("fs");
+const ApiError = require("../utils/ApiError");
+const { ALLOWED_FILE_TYPES, MAX_FILE_SIZE_MB } = require("../config/constants");
 
-// Crée le dossier uploads/ s'il n'existe pas
 const uploadDir = path.join(__dirname, "..", "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
@@ -15,15 +16,15 @@ const storage = multer.diskStorage({
 });
 
 const fileFilter = (req, file, cb) => {
-  const allowed = /jpeg|jpg|png|gif|webp|mp4|mov/;
   const ext = path.extname(file.originalname).toLowerCase();
-  allowed.test(ext) ? cb(null, true) : cb(new Error("Type de fichier non autorisé"));
+  if (ALLOWED_FILE_TYPES.test(ext)) return cb(null, true);
+  cb(new ApiError(400, "Type de fichier non autorisé"));
 };
 
 const upload = multer({
   storage,
   fileFilter,
-  limits: { fileSize: 10 * 1024 * 1024 }, // 10 MB max
+  limits: { fileSize: MAX_FILE_SIZE_MB * 1024 * 1024 },
 });
 
 module.exports = upload;
