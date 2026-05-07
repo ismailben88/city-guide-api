@@ -39,6 +39,25 @@ const deactivateUser = async (id) => {
   await User.findByIdAndUpdate(id, { isActive: false });
 };
 
+const changePassword = async (userId, currentPassword, newPassword) => {
+  if (!newPassword || newPassword.length < 8)
+    throw new ApiError(400, "Password must be at least 8 characters");
+
+  const user = await User.findById(userId).select("+passwordHash");
+  if (!user) throw new ApiError(404, "User not found");
+
+  const valid = await user.verifyPassword(currentPassword);
+  if (!valid) throw new ApiError(401, "Current password is incorrect");
+
+  user.passwordHash = newPassword;
+  await user.save();
+};
+
+const deactivateMyAccount = async (userId) => {
+  const user = await User.findByIdAndUpdate(userId, { isActive: false }, { new: true });
+  if (!user) throw new ApiError(404, "User not found");
+};
+
 const setAvatarUrl = async (id, avatarUrl) => {
   const user = await User.findByIdAndUpdate(id, { avatarUrl }, { new: true });
   if (!user) throw new ApiError(404, "Utilisateur introuvable");
@@ -68,6 +87,8 @@ module.exports = {
   getUserById,
   updateUser,
   deactivateUser,
+  changePassword,
+  deactivateMyAccount,
   setAvatarUrl,
   addLinkedAccount,
   removeLinkedAccount,
