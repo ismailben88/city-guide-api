@@ -40,6 +40,7 @@ const userSchema = new Schema(
 
     isVerified:  { type: Boolean, default: false },
     isActive:    { type: Boolean, default: true },
+    isPaused:    { type: Boolean, default: false },
     lastLoginAt: { type: Date },
   },
   { timestamps: true }

@@ -18,5 +18,6 @@ router.post  ("/adminLogs",  ...isAdmin, ctrl.createAdminLog);
 // Dashboard
 router.get   ("/stats",      ...isAdmin, ctrl.getStats);
 router.get   ("/dashboard",  ...isAdmin, ctrl.getDashboard);
+router.get   ("/analytics",  ...isAdmin, ctrl.getAnalytics);
 
 module.exports = router;

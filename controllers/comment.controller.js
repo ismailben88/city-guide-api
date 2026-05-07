@@ -1,6 +1,18 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Comment      = require("../models/Comment");
+const Score        = require("../models/Score");
+
+const SCORE_TARGETS = ["Place", "GuideProfile"];
+
+async function upsertScore(targetId, targetType, authorId, rating) {
+  if (!SCORE_TARGETS.includes(targetType) || !rating || rating < 1) return;
+  await Score.findOneAndUpdate(
+    { targetId, targetType, authorId },
+    { score: rating },
+    { upsert: true, new: true, runValidators: true }
+  );
+}
 
 // GET /comments?targetId=&targetType=&parentCommentId=
 exports.getComments = asyncHandler(async (req, res) => {
@@ -21,17 +33,21 @@ exports.getComments = asyncHandler(async (req, res) => {
 exports.postComment = asyncHandler(async (req, res) => {
   const comment = await Comment.create({ ...req.body, authorId: req.user._id });
   await comment.populate("authorId", "firstName lastName avatarUrl");
+  await upsertScore(req.body.targetId, req.body.targetType, req.user._id, req.body.rating);
   res.status(201).json(comment);
 });
 
 // PUT /comments/:id
 exports.updateComment = asyncHandler(async (req, res) => {
+  const update = { content: req.body.content };
+  if (req.body.rating !== undefined) update.rating = req.body.rating;
   const comment = await Comment.findOneAndUpdate(
     { _id: req.params.id, authorId: req.user._id },
-    { content: req.body.content },
+    update,
     { new: true, runValidators: true }
   );
   if (!comment) throw new ApiError(404, "Commentaire introuvable ou non autorisé");
+  await upsertScore(comment.targetId, comment.targetType, req.user._id, req.body.rating);
   res.json(comment);
 });
 
