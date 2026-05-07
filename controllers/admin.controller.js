@@ -7,6 +7,7 @@ const GuideProfile   = require("../models/GuideProfile");
 const User           = require("../models/User");
 const Event          = require("../models/Event");
 const Comment        = require("../models/Comment");
+const Report         = require("../models/Report");
 const Category       = require("../models/Category");
 const City           = require("../models/City");
 const { getPagination } = require("../utils/pagination.utils");
@@ -100,16 +101,53 @@ exports.createAdminLog = asyncHandler(async (req, res) => {
 
 // GET /admin/stats
 exports.getStats = asyncHandler(async (req, res) => {
-  const [users, places, events, guides, pendingRequests, comments] = await Promise.all([
+  const [users, places, events, guides, pendingRequests, comments, reports] = await Promise.all([
     User.countDocuments({ isActive: true }),
     Place.countDocuments({ status: "active" }),
     Event.countDocuments({ status: "upcoming" }),
     GuideProfile.countDocuments({ verificationStatus: "verified" }),
     PendingRequest.countDocuments({ status: "pending" }),
     Comment.countDocuments({ status: "active" }),
+    Report.countDocuments({ status: "open" }),
   ]);
 
-  res.json({ users, places, events, guides, pendingRequests, comments });
+  res.json({ users, places, events, guides, pendingRequests, comments, reports });
+});
+
+// ─── Admin Comment Moderation ─────────────────────────────────────────────────
+
+// GET /admin/comments
+exports.getAllComments = asyncHandler(async (req, res) => {
+  const { targetType, status, search, ...rest } = req.query;
+  const { skip, limit } = getPagination(rest);
+
+  const filter = {};
+  if (targetType) filter.targetType = targetType;
+  if (status)     filter.status     = status;
+  else            filter.status     = { $in: ["active", "deleted", "flagged"] };
+  if (search)     filter.content    = { $regex: search, $options: "i" };
+
+  const [comments, total] = await Promise.all([
+    Comment.find(filter)
+      .populate("authorId", "firstName lastName email avatarUrl")
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit),
+    Comment.countDocuments(filter),
+  ]);
+
+  res.json({ comments, total });
+});
+
+// ─── Admin User Status ────────────────────────────────────────────────────────
+
+// PATCH /admin/users/:id/status
+exports.setUserActive = asyncHandler(async (req, res) => {
+  const { isActive } = req.body;
+  if (typeof isActive !== "boolean") throw new ApiError(400, "isActive must be a boolean");
+  const user = await User.findByIdAndUpdate(req.params.id, { isActive }, { new: true });
+  if (!user) throw new ApiError(404, "User not found");
+  res.json(user);
 });
 
 // GET /admin/analytics
