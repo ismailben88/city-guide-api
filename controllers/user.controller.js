@@ -57,3 +57,18 @@ exports.removeLinkedAccount = asyncHandler(async (req, res) => {
   const accounts = await userService.removeLinkedAccount(req.params.id, req.params.provider);
   res.json(accounts);
 });
+
+// PATCH /users/me/password
+exports.changeMyPassword = asyncHandler(async (req, res) => {
+  const { currentPassword, newPassword } = req.body;
+  if (!currentPassword || !newPassword)
+    throw new ApiError(400, "currentPassword and newPassword are required");
+  await userService.changePassword(req.user._id, currentPassword, newPassword);
+  res.json({ message: "Password updated successfully" });
+});
+
+// DELETE /users/me — self-service account deactivation
+exports.deleteMyAccount = asyncHandler(async (req, res) => {
+  await userService.deactivateMyAccount(req.user._id);
+  res.json({ message: "Account deactivated" });
+});
