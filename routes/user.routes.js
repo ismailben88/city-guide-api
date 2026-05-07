@@ -6,6 +6,7 @@ const upload = require("../middlewares/upload.middleware");
 router.get   ("/",                            protect, restrict("admin"), ctrl.getUsers);
 router.get   ("/:id",                         protect, ctrl.getUserById);
 router.put   ("/:id",                         protect, ctrl.updateUser);
+router.patch ("/:id/role",                    protect, restrict("admin"), ctrl.updateRole);
 router.delete("/:id",                         protect, restrict("admin"), ctrl.deleteUser);
 router.post  ("/:id/avatar",                  protect, upload.single("avatar"), ctrl.uploadAvatar);
 router.post  ("/:id/linked-accounts",         protect, ctrl.addLinkedAccount);

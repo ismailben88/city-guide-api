@@ -20,10 +20,21 @@ exports.updateUser = asyncHandler(async (req, res) => {
   res.json(user);
 });
 
+// PATCH /users/:id/role  (admin only)
+exports.updateRole = asyncHandler(async (req, res) => {
+  const { role } = req.body;
+  const VALID_ROLES = ["visitor", "user", "guide", "entrepreneur", "admin"];
+  if (!role || !VALID_ROLES.includes(role)) throw new ApiError(400, "Invalid role");
+  const User = require("../models/User");
+  const user = await User.findByIdAndUpdate(req.params.id, { role }, { new: true });
+  if (!user) throw new ApiError(404, "User not found");
+  res.json(user);
+});
+
 // DELETE /users/:id — désactivation douce
 exports.deleteUser = asyncHandler(async (req, res) => {
   await userService.deactivateUser(req.params.id);
-  res.json({ message: "Utilisateur désactivé" });
+  res.json({ message: "User deactivated" });
 });
 
 // POST /users/:id/avatar  (multipart/form-data — champ "avatar")

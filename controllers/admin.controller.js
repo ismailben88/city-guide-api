@@ -7,6 +7,8 @@ const GuideProfile   = require("../models/GuideProfile");
 const User           = require("../models/User");
 const Event          = require("../models/Event");
 const Comment        = require("../models/Comment");
+const Category       = require("../models/Category");
+const City           = require("../models/City");
 const { getPagination } = require("../utils/pagination.utils");
 
 // ─── Pending Requests ─────────────────────────────────────────────────────────
@@ -108,6 +110,80 @@ exports.getStats = asyncHandler(async (req, res) => {
   ]);
 
   res.json({ users, places, events, guides, pendingRequests, comments });
+});
+
+// GET /admin/analytics
+exports.getAnalytics = asyncHandler(async (req, res) => {
+  const now   = new Date();
+  const since = new Date(now.getFullYear(), now.getMonth() - 5, 1); // last 6 months
+
+  const monthLabel = (y, m) => {
+    const d = new Date(y, m - 1, 1);
+    return d.toLocaleString("en-US", { month: "short", year: "2-digit" });
+  };
+
+  const fillMonths = (raw) => {
+    const map = {};
+    raw.forEach(({ _id, count }) => { map[`${_id.year}-${_id.month}`] = count; });
+    const result = [];
+    for (let i = 5; i >= 0; i--) {
+      const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      const y = d.getFullYear(), m = d.getMonth() + 1;
+      result.push({ month: monthLabel(y, m), count: map[`${y}-${m}`] || 0 });
+    }
+    return result;
+  };
+
+  const [
+    monthlyUsers,
+    monthlyEvents,
+    placesByCat,
+    placesByCity,
+    userRoles,
+    totalFeaturedPlaces,
+    totalFeaturedEvents,
+  ] = await Promise.all([
+    User.aggregate([
+      { $match: { createdAt: { $gte: since } } },
+      { $group: { _id: { year: { $year: "$createdAt" }, month: { $month: "$createdAt" } }, count: { $sum: 1 } } },
+    ]),
+    Event.aggregate([
+      { $match: { createdAt: { $gte: since } } },
+      { $group: { _id: { year: { $year: "$createdAt" }, month: { $month: "$createdAt" } }, count: { $sum: 1 } } },
+    ]),
+    Place.aggregate([
+      { $group: { _id: "$categoryId", count: { $sum: 1 } } },
+      { $lookup: { from: "categories", localField: "_id", foreignField: "_id", as: "cat" } },
+      { $unwind: { path: "$cat", preserveNullAndEmptyArrays: true } },
+      { $project: { name: { $ifNull: ["$cat.name", "Other"] }, icon: { $ifNull: ["$cat.icon", "📍"] }, count: 1 } },
+      { $sort: { count: -1 } },
+      { $limit: 8 },
+    ]),
+    Place.aggregate([
+      { $group: { _id: "$cityId", count: { $sum: 1 } } },
+      { $lookup: { from: "cities", localField: "_id", foreignField: "_id", as: "city" } },
+      { $unwind: { path: "$city", preserveNullAndEmptyArrays: true } },
+      { $project: { name: { $ifNull: ["$city.name", "Unknown"] }, count: 1 } },
+      { $sort: { count: -1 } },
+      { $limit: 8 },
+    ]),
+    User.aggregate([
+      { $group: { _id: "$role", count: { $sum: 1 } } },
+      { $project: { role: "$_id", count: 1, _id: 0 } },
+    ]),
+    Place.countDocuments({ isFeatured: true }),
+    Event.countDocuments({ isFeatured: true }),
+  ]);
+
+  res.json({
+    monthlyUsers:  fillMonths(monthlyUsers),
+    monthlyEvents: fillMonths(monthlyEvents),
+    placesByCategory: placesByCat.map((p) => ({ name: p.name, icon: p.icon, value: p.count })),
+    placesByCity:     placesByCity.map((p) => ({ city: p.name, places: p.count })),
+    userRoles:        userRoles.map((r) => ({ role: r.role || "unknown", count: r.count })),
+    featuredPlaces:   totalFeaturedPlaces,
+    featuredEvents:   totalFeaturedEvents,
+  });
 });
 
 // GET /admin/dashboard
