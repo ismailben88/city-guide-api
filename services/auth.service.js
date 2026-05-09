@@ -38,7 +38,7 @@ const loginUser = async ({ email, password }) => {
   return { token, user: toPublicUser(user) };
 };
 
-const googleAuth = async ({ googleId, email, name, avatar }) => {
+const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
   const parts     = (name || "").trim().split(/\s+/);
   const firstName = parts[0] || "User";
   const lastName  = parts.slice(1).join(" ") || "";
@@ -46,19 +46,17 @@ const googleAuth = async ({ googleId, email, name, avatar }) => {
   let user = await User.findOne({ email });
 
   if (user) {
-    // User exists — sign in directly, no password check needed (Google is authoritative)
     if (!user.isActive) throw new ApiError(403, "Compte désactivé");
     user.lastLoginAt = new Date();
     await user.save({ validateBeforeSave: false });
   } else {
-    // New user — create account
     user = await User.create({
       firstName,
       lastName,
       email,
-      authProvider: "google",
+      authProvider: provider,
       avatarUrl:    avatar || "",
-      passwordHash: `ggl_${googleId}`, // unusable password, can't be used to login directly
+      passwordHash: `${provider}_${accountId}`,
     });
   }
 
@@ -66,4 +64,10 @@ const googleAuth = async ({ googleId, email, name, avatar }) => {
   return { token, user: toPublicUser(user) };
 };
 
-module.exports = { registerUser, loginUser, googleAuth, toPublicUser };
+const googleAuth   = ({ googleId,   email, name, avatar }) =>
+  socialAuth({ provider: "google",   accountId: googleId,   email, name, avatar });
+
+const facebookAuth = ({ facebookId, email, name, avatar }) =>
+  socialAuth({ provider: "facebook", accountId: facebookId, email, name, avatar });
+
+module.exports = { registerUser, loginUser, googleAuth, facebookAuth, toPublicUser };

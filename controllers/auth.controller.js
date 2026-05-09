@@ -1,6 +1,6 @@
 const asyncHandler               = require("../utils/asyncHandler");
 const { signToken, verifyToken } = require("../utils/jwt.utils");
-const { registerUser, loginUser, googleAuth } = require("../services/auth.service");
+const { registerUser, loginUser, googleAuth, facebookAuth } = require("../services/auth.service");
 const ApiError = require("../utils/ApiError");
 const User = require("../models/User");
 
@@ -21,6 +21,14 @@ exports.googleAuth = asyncHandler(async (req, res) => {
   const { googleId, email, name, avatar } = req.body;
   if (!googleId || !email) throw new ApiError(400, "googleId and email are required");
   const result = await googleAuth({ googleId, email, name, avatar });
+  res.json(result);
+});
+
+// POST /auth/facebook
+exports.facebookAuth = asyncHandler(async (req, res) => {
+  const { facebookId, email, name, avatar } = req.body;
+  if (!facebookId || !email) throw new ApiError(400, "facebookId and email are required");
+  const result = await facebookAuth({ facebookId, email, name, avatar });
   res.json(result);
 });
 
