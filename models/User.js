@@ -35,6 +35,7 @@ const userSchema = new Schema(
         platform:  { type: String },
         accountId: { type: String },
         email:     { type: String },
+        name:      { type: String },
       },
     ],
 
