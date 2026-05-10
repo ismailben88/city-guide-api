@@ -18,6 +18,7 @@ router.use("/adminLogs",      require("./adminLog.routes"));
 router.use("/admin",          require("./admin.routes"));
 
 router.use("/chat",           require("./chat.routes"));
+router.use("/contact",        require("./contact.routes"));
 
 // Alias — le frontend appelle /guideProfiles et /guides
 const guideRouter = require("./guide.routes");
