@@ -72,3 +72,15 @@ exports.deleteMyAccount = asyncHandler(async (req, res) => {
   await userService.deactivateMyAccount(req.user._id);
   res.json({ message: "Account deactivated" });
 });
+
+// GET /users/me/notification-preferences
+exports.getMyNotifPrefs = asyncHandler(async (req, res) => {
+  const prefs = await userService.getNotifPrefs(req.user._id);
+  res.json(prefs);
+});
+
+// PUT /users/me/notification-preferences
+exports.setMyNotifPrefs = asyncHandler(async (req, res) => {
+  const prefs = await userService.setNotifPrefs(req.user._id, req.body);
+  res.json(prefs);
+});
