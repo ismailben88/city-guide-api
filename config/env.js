@@ -2,7 +2,8 @@
  * Valide les variables d'environnement requises au démarrage.
  * Lance une erreur explicite si une variable est manquante.
  */
-const required = ["MONGO_URI", "JWT_SECRET", "GROQ_API_KEY"];
+const required = ["MONGO_URI", "JWT_SECRET"];
+const optional = ["GROQ_API_KEY", "FRONTEND_URL"];
 
 const validateEnv = () => {
   const missing = required.filter((key) => !process.env[key]);
@@ -12,6 +13,9 @@ const validateEnv = () => {
       "Vérifiez votre fichier .env"
     );
   }
+  optional.forEach((key) => {
+    if (!process.env[key]) console.warn(`⚠️  Variable optionnelle manquante : ${key}`);
+  });
 };
 
 module.exports = { validateEnv };
