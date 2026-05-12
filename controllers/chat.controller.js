@@ -2,7 +2,7 @@ const asyncHandler = require("../utils/asyncHandler");
 const chatService = require("../services/chat.service");
 
 exports.sendMessage = asyncHandler(async (req, res) => {
-  const { message } = req.body;
+  const { message, sessionId } = req.body;
 
   if (!message || typeof message !== "string" || !message.trim()) {
     return res.status(400).json({
@@ -11,13 +11,17 @@ exports.sendMessage = asyncHandler(async (req, res) => {
     });
   }
 
-  const result = await chatService.processMessage(message.trim());
+  const result = await chatService.processMessage(
+    message.trim(),
+    sessionId || "default"
+  );
 
   res.json({
     success: true,
     data: {
-      response: result.response,
-      dbResults: result.dbResults,
+      message: result.message,
+      type: result.type,
+      data: result.data,
     },
   });
 });
