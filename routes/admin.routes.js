@@ -15,9 +15,31 @@ router.patch ("/pendingRequests/:id/reject", ...isAdmin, ctrl.rejectPendingReque
 router.get   ("/adminLogs",  ...isAdmin, ctrl.getAdminLogs);
 router.post  ("/adminLogs",  ...isAdmin, ctrl.createAdminLog);
 
-// Dashboard
+// Dashboard + Analytics
 router.get   ("/stats",      ...isAdmin, ctrl.getStats);
 router.get   ("/dashboard",  ...isAdmin, ctrl.getDashboard);
 router.get   ("/analytics",  ...isAdmin, ctrl.getAnalytics);
+
+// Comment moderation
+router.get   ("/comments",             ...isAdmin, ctrl.getAllComments);
+router.delete("/comments/:id",         ...isAdmin, async (req, res, next) => {
+  try {
+    const Comment = require("../models/Comment");
+    const c = await Comment.findByIdAndUpdate(req.params.id, { status: "deleted" }, { new: true });
+    if (!c) return res.status(404).json({ message: "Not found" });
+    res.json(c);
+  } catch (e) { next(e); }
+});
+router.patch ("/comments/:id/restore", ...isAdmin, async (req, res, next) => {
+  try {
+    const Comment = require("../models/Comment");
+    const c = await Comment.findByIdAndUpdate(req.params.id, { status: "active" }, { new: true });
+    if (!c) return res.status(404).json({ message: "Not found" });
+    res.json(c);
+  } catch (e) { next(e); }
+});
+
+// User status (activate / deactivate)
+router.patch ("/users/:id/status", ...isAdmin, ctrl.setUserActive);
 
 module.exports = router;

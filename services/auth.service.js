@@ -4,13 +4,15 @@ const { signToken } = require("../utils/jwt.utils");
 
 // Champs renvoyés au client après auth — jamais le passwordHash
 const toPublicUser = (user) => ({
-  id:         user._id,
-  firstName:  user.firstName,
-  lastName:   user.lastName,
-  email:      user.email,
-  role:       user.role,
-  avatarUrl:  user.avatarUrl,
-  isVerified: user.isVerified,
+  id:             user._id,
+  firstName:      user.firstName,
+  lastName:       user.lastName,
+  email:          user.email,
+  role:           user.role,
+  avatarUrl:      user.avatarUrl,
+  isVerified:     user.isVerified,
+  authProvider:   user.authProvider,
+  linkedAccounts: user.linkedAccounts || [],
 });
 
 const registerUser = async ({ firstName, lastName, email, password, authProvider, avatarUrl }) => {
@@ -36,4 +38,36 @@ const loginUser = async ({ email, password }) => {
   return { token, user: toPublicUser(user) };
 };
 
-module.exports = { registerUser, loginUser, toPublicUser };
+const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
+  const parts     = (name || "").trim().split(/\s+/);
+  const firstName = parts[0] || "User";
+  const lastName  = parts.slice(1).join(" ") || "";
+
+  let user = await User.findOne({ email });
+
+  if (user) {
+    if (!user.isActive) throw new ApiError(403, "Compte désactivé");
+    user.lastLoginAt = new Date();
+    await user.save({ validateBeforeSave: false });
+  } else {
+    user = await User.create({
+      firstName,
+      lastName,
+      email,
+      authProvider: provider,
+      avatarUrl:    avatar || "",
+      passwordHash: `${provider}_${accountId}`,
+    });
+  }
+
+  const token = signToken(user._id);
+  return { token, user: toPublicUser(user) };
+};
+
+const googleAuth   = ({ googleId,   email, name, avatar }) =>
+  socialAuth({ provider: "google",   accountId: googleId,   email, name, avatar });
+
+const facebookAuth = ({ facebookId, email, name, avatar }) =>
+  socialAuth({ provider: "facebook", accountId: facebookId, email, name, avatar });
+
+module.exports = { registerUser, loginUser, googleAuth, facebookAuth, toPublicUser };
