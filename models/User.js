@@ -35,13 +35,32 @@ const userSchema = new Schema(
         platform:  { type: String },
         accountId: { type: String },
         email:     { type: String },
+        name:      { type: String },
       },
     ],
 
     isVerified:  { type: Boolean, default: false },
     isActive:    { type: Boolean, default: true },
     isPaused:    { type: Boolean, default: false },
+    isEmailVerified: { type: Boolean, default: false },
     lastLoginAt: { type: Date },
+
+    notificationPreferences: {
+      type: Schema.Types.Mixed,
+      default: {
+        channels: {
+          bookings:  { email: true, push: true, sms: true  },
+          messages:  { email: true, push: true, sms: true  },
+          reviews:   { email: true, push: true, sms: false },
+          payouts:   { email: true, push: true, sms: false },
+          tips:      { email: true, push: true, sms: false },
+          digest:    { email: true, push: true, sms: false },
+        },
+        quietHours: { enabled: false, from: "22:00", until: "08:00" },
+        language: "en",
+        timezone: "Africa/Casablanca",
+      },
+    },
   },
   { timestamps: true }
 );

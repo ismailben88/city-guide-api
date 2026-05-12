@@ -4,6 +4,24 @@ const PendingRequest= require("../models/PendingRequest");
 const City          = require("../models/City");
 const Category      = require("../models/Category");
 const { protect }   = require("../middlewares/auth.middleware");
+const upload        = require("../middlewares/upload.middleware");
+
+// POST /businesses/:id/photos — upload photos for a business listing
+router.post("/:id/photos", protect, upload.array("photos", 6), async (req, res, next) => {
+  try {
+    if (!req.files || req.files.length === 0)
+      return res.status(400).json({ message: "No files received" });
+    const origin = `${req.protocol}://${req.get("host")}`;
+    const urls = req.files.map((f) => `${origin}/uploads/${f.filename}`);
+    const business = await Place.findByIdAndUpdate(
+      req.params.id,
+      { $push: { images: { $each: urls } } },
+      { new: true }
+    );
+    if (!business) return res.status(404).json({ message: "Business not found" });
+    res.json({ images: urls });
+  } catch (err) { next(err); }
+});
 
 // Normalize a Place document to the shape BusinessSettings.jsx expects
 function toFrontend(doc) {

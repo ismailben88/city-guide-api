@@ -82,6 +82,22 @@ const removeLinkedAccount = async (id, platform) => {
   return user.linkedAccounts;
 };
 
+const getNotifPrefs = async (userId) => {
+  const user = await User.findById(userId);
+  if (!user) throw new ApiError(404, "User not found");
+  return user.notificationPreferences || {};
+};
+
+const setNotifPrefs = async (userId, prefs) => {
+  const user = await User.findByIdAndUpdate(
+    userId,
+    { notificationPreferences: prefs },
+    { new: true, runValidators: true }
+  );
+  if (!user) throw new ApiError(404, "User not found");
+  return user.notificationPreferences;
+};
+
 module.exports = {
   getUsers,
   getUserById,
@@ -92,4 +108,6 @@ module.exports = {
   setAvatarUrl,
   addLinkedAccount,
   removeLinkedAccount,
+  getNotifPrefs,
+  setNotifPrefs,
 };
