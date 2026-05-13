@@ -4,7 +4,10 @@ const fs      = require("fs");
 const ApiError = require("../utils/ApiError");
 const { ALLOWED_FILE_TYPES, MAX_FILE_SIZE_MB } = require("../config/constants");
 
-const uploadDir = path.join(__dirname, "..", "uploads");
+// Use /tmp/uploads on Vercel (serverless), local uploads/ otherwise
+const uploadDir = process.env.VERCEL
+  ? "/tmp/uploads"
+  : path.join(__dirname, "..", "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
 const storage = multer.diskStorage({
