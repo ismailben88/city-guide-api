@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "seed": "node scripts/seed.js"
+    "seed": "node scripts/seeders/seed.js",
+    "seed:no-clean": "node scripts/seeders/seed.js --no-clean",
+    "seed:clean": "node scripts/seeders/clean.js",
+    "seed:legacy": "node scripts/seed.js"
   },
   "keywords": [],
   "author": "",
