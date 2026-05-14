@@ -7,6 +7,10 @@ const categorySchema = new Schema(
     icon:     { type: String, default: "" },
     parentId: { type: Types.ObjectId, ref: "Category", default: null },
     status:   { type: String, enum: ["active", "inactive"], default: "active" },
+
+    translations:      { type: Schema.Types.Mixed, default: {} },
+    sourceLang:        { type: String, default: "fr" },
+    translationStatus: { type: String, enum: ["pending", "done", "failed"], default: "pending" },
   },
   { timestamps: true }
 );

@@ -1,8 +1,9 @@
-const Place          = require("../models/Place");
-const PendingRequest = require("../models/PendingRequest");
-const Media          = require("../models/Media");
-const ApiError       = require("../utils/ApiError");
-const { getPagination } = require("../utils/pagination.utils");
+const Place               = require("../models/Place");
+const PendingRequest      = require("../models/PendingRequest");
+const Media               = require("../models/Media");
+const ApiError            = require("../utils/ApiError");
+const { getPagination }   = require("../utils/pagination.utils");
+const { translateFields } = require("./translate.service");
 
 const POPULATE_PLACE = [
   { path: "cityId",     select: "name slug" },
@@ -72,7 +73,27 @@ const getPlaceById = async (id) => {
   return place;
 };
 
-const createPlace = async (data) => Place.create(data);
+const createPlace = async (data) => {
+  const sourceLang = data.sourceLang || "fr";
+  const place = await Place.create({ ...data, sourceLang, translationStatus: "pending" });
+
+  const fields = {};
+  if (place.name)        fields.name        = place.name;
+  if (place.description) fields.description = place.description;
+  if (place.address)     fields.address     = place.address;
+
+  if (Object.keys(fields).length > 0) {
+    translateFields(fields, sourceLang)
+      .then((translations) =>
+        Place.findByIdAndUpdate(place._id, { translations, translationStatus: "done" })
+      )
+      .catch(() =>
+        Place.findByIdAndUpdate(place._id, { translationStatus: "failed" })
+      );
+  }
+
+  return place;
+};
 
 const updatePlace = async (id, data) => {
   const place = await Place.findByIdAndUpdate(id, data, { new: true, runValidators: true });

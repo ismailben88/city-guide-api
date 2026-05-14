@@ -21,6 +21,10 @@ const eventSchema = new Schema(
     organizedBy: { type: Types.ObjectId, ref: "User" },
     status:      { type: String, enum: ["upcoming", "ongoing", "cancelled", "past"], default: "upcoming" },
     isFeatured:  { type: Boolean, default: false },
+
+    translations:      { type: Schema.Types.Mixed, default: {} },
+    sourceLang:        { type: String, default: "fr" },
+    translationStatus: { type: String, enum: ["pending", "done", "failed"], default: "pending" },
   },
   { timestamps: true }
 );

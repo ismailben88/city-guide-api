@@ -10,6 +10,10 @@ const citySchema = new Schema(
       coordinates: { type: [Number], default: [0, 0] },
     },
     isActive: { type: Boolean, default: true },
+
+    translations:      { type: Schema.Types.Mixed, default: {} },
+    sourceLang:        { type: String, default: "fr" },
+    translationStatus: { type: String, enum: ["pending", "done", "failed"], default: "pending" },
   },
   { timestamps: true }
 );

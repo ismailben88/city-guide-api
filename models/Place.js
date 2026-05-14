@@ -25,6 +25,10 @@ const placeSchema = new Schema(
     status:     { type: String, enum: ["active", "archived", "pending"], default: "active" },
     isFeatured: { type: Boolean, default: false },
     priceRange: { type: String, default: "" },
+
+    translations:      { type: Schema.Types.Mixed, default: {} },
+    sourceLang:        { type: String, default: "fr" },
+    translationStatus: { type: String, enum: ["pending", "done", "failed"], default: "pending" },
   },
   { timestamps: true }
 );
