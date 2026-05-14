@@ -1,5 +1,5 @@
-const asyncHandler          = require("../utils/asyncHandler");
-const notificationService   = require("../services/notification.service");
+const asyncHandler        = require("../utils/asyncHandler");
+const notificationService = require("../services/notification.service");
 
 // GET /notifications
 exports.getNotifications = asyncHandler(async (req, res) => {
@@ -7,19 +7,25 @@ exports.getNotifications = asyncHandler(async (req, res) => {
   res.json(notifications);
 });
 
-// POST /notifications
+// GET /notifications/count — unread badge count
+exports.getUnreadCount = asyncHandler(async (req, res) => {
+  const count = await notificationService.getUnreadCount(req.user._id);
+  res.json({ count });
+});
+
+// POST /notifications — admin only
 exports.createNotification = asyncHandler(async (req, res) => {
-  const notification = await notificationService.create(req.body);
+  const notification = await notificationService.createAndEmit(req.body);
   res.status(201).json(notification);
 });
 
-// PATCH /notifications/:id — marquer comme lue
+// PATCH /notifications/:id — mark one as read
 exports.markAsRead = asyncHandler(async (req, res) => {
   const notification = await notificationService.markAsRead(req.params.id);
   res.json(notification);
 });
 
-// PATCH /notifications/read-all — marquer toutes comme lues
+// PATCH /notifications/read-all — mark all as read
 exports.markAllAsRead = asyncHandler(async (req, res) => {
   await notificationService.markAllAsRead(req.user._id);
   res.json({ message: "Toutes les notifications marquées comme lues" });
@@ -31,7 +37,7 @@ exports.deleteNotification = asyncHandler(async (req, res) => {
   res.json({ message: "Notification supprimée" });
 });
 
-// DELETE /notifications — supprimer les lues
+// DELETE /notifications — delete all read
 exports.deleteReadNotifications = asyncHandler(async (req, res) => {
   await notificationService.removeRead(req.user._id);
   res.json({ message: "Notifications lues supprimées" });

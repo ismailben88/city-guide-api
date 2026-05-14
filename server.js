@@ -3,12 +3,15 @@ require("dotenv").config();
 const { validateEnv } = require("./config/env");
 validateEnv();
 
+const http         = require("http");
+const { Server }   = require("socket.io");
 const express      = require("express");
 const cors         = require("cors");
 const path         = require("path");
 const connectDB    = require("./config/db");
 const apiRouter    = require("./routes/index");
 const errorHandler = require("./middlewares/error.middleware");
+const { setIO }    = require("./utils/socket");
 
 connectDB();
 
@@ -52,10 +55,40 @@ app.use((req, res) => res.status(404).json({ success: false, message: "Route int
 // ─── Gestionnaire d'erreurs global ───────────────────────────────────────────
 app.use(errorHandler);
 
+// ─── HTTP Server ──────────────────────────────────────────────────────────────
+const httpServer = http.createServer(app);
+
+// ─── Socket.IO ───────────────────────────────────────────────────────────────
+const io = new Server(httpServer, {
+  cors: {
+    origin: allowedOrigins,
+    methods: ["GET", "POST"],
+    credentials: true,
+  },
+  // Upgrade to websocket, fall back to polling
+  transports: ["websocket", "polling"],
+});
+
+// Register io singleton so services can emit without importing server.js
+setIO(io);
+
+io.on("connection", (socket) => {
+  // Client sends its userId right after connecting (from useNotificationSocket hook)
+  socket.on("join", (userId) => {
+    if (userId) {
+      socket.join(`user:${userId}`);
+    }
+  });
+
+  socket.on("disconnect", () => {});
+});
+
 // ─── Démarrage serveur (local uniquement — Vercel gère lui-même le serveur) ───
 if (require.main === module) {
   const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => console.log(`Serveur démarré sur le port ${PORT} ✓`));
+  httpServer.listen(PORT, () =>
+    console.log(`Server on port ${PORT} ✓  (Socket.IO ready)`)
+  );
 }
 
 module.exports = app;
