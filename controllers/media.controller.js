@@ -1,6 +1,7 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Media        = require("../models/Media");
+const { deleteUploadedFile } = require("../services/fileCleanup.service");
 
 // GET /media?parentId=&parentType=
 exports.getMedia = asyncHandler(async (req, res) => {
@@ -50,6 +51,7 @@ exports.rejectMedia = asyncHandler(async (req, res) => {
 
 // DELETE /media/:id
 exports.deleteMedia = asyncHandler(async (req, res) => {
-  await Media.findByIdAndDelete(req.params.id);
+  const media = await Media.findByIdAndDelete(req.params.id);
+  if (media) await deleteUploadedFile(media.url);
   res.json({ message: "Média supprimé" });
 });
