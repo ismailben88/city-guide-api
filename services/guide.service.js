@@ -1,10 +1,12 @@
 const GuideProfile   = require("../models/GuideProfile");
 const User           = require("../models/User");
+const Media          = require("../models/Media");
 const PendingRequest = require("../models/PendingRequest");
 const City           = require("../models/City");
 const ApiError       = require("../utils/ApiError");
 const { getPagination } = require("../utils/pagination.utils");
 const { Types } = require("mongoose");
+const { deleteUploadedFile, deleteUploadedFiles } = require("./fileCleanup.service");
 
 const POPULATE_GUIDE = [
   { path: "userId",  select: "firstName lastName avatarUrl email phone whatsapp instagram website role" },
@@ -94,6 +96,11 @@ const updateGuideProfile = async (id, data) => {
   const update = { ...data };
   if (update.cityIds) update.cityIds = await resolveCityIds(update.cityIds);
 
+  if (update.bannerUrl !== undefined) {
+    const old = await GuideProfile.findById(id).select("bannerUrl");
+    if (old?.bannerUrl) await deleteUploadedFile(old.bannerUrl);
+  }
+
   const guide = await GuideProfile.findByIdAndUpdate(id, update, { new: true, runValidators: true });
   if (!guide) throw new ApiError(404, "Guide introuvable");
   return toFrontend(guide);
@@ -101,7 +108,15 @@ const updateGuideProfile = async (id, data) => {
 
 const deleteGuideProfile = async (id) => {
   const guide = await GuideProfile.findByIdAndDelete(id);
-  if (guide) await User.findByIdAndUpdate(guide.userId, { isGuide: false });
+  if (!guide) return;
+
+  await User.findByIdAndUpdate(guide.userId, { isGuide: false });
+
+  if (guide.bannerUrl) await deleteUploadedFile(guide.bannerUrl);
+
+  const media = await Media.find({ parentId: id, parentType: "GuideProfile" });
+  await deleteUploadedFiles(media.map((m) => m.url));
+  await Media.deleteMany({ parentId: id, parentType: "GuideProfile" });
 };
 
 const updateAvailability = async (id, availability) => {

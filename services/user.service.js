@@ -1,6 +1,7 @@
 const User     = require("../models/User");
 const ApiError = require("../utils/ApiError");
 const { getPagination } = require("../utils/pagination.utils");
+const { deleteUploadedFile } = require("./fileCleanup.service");
 
 // Champs interdits lors d'une mise à jour par l'utilisateur lui-même
 const PROTECTED_FIELDS = ["passwordHash", "role", "isVerified", "isActive"];
@@ -59,9 +60,11 @@ const deactivateMyAccount = async (userId) => {
 };
 
 const setAvatarUrl = async (id, avatarUrl) => {
-  const user = await User.findByIdAndUpdate(id, { avatarUrl }, { new: true });
-  if (!user) throw new ApiError(404, "Utilisateur introuvable");
-  return user.avatarUrl;
+  const old = await User.findById(id).select("avatarUrl");
+  if (!old) throw new ApiError(404, "Utilisateur introuvable");
+  await deleteUploadedFile(old.avatarUrl);
+  await old.set({ avatarUrl }).save();
+  return old.avatarUrl;
 };
 
 const addLinkedAccount = async (id, accountData) => {

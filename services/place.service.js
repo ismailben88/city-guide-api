@@ -4,6 +4,7 @@ const Media               = require("../models/Media");
 const ApiError            = require("../utils/ApiError");
 const { getPagination }   = require("../utils/pagination.utils");
 const { translateFields } = require("./translate.service");
+const { deleteUploadedFiles } = require("./fileCleanup.service");
 
 const POPULATE_PLACE = [
   { path: "cityId",     select: "name slug" },
@@ -96,6 +97,13 @@ const createPlace = async (data) => {
 };
 
 const updatePlace = async (id, data) => {
+  if (Array.isArray(data.images)) {
+    const existing = await Place.findById(id).select("images");
+    if (existing) {
+      const removed = (existing.images ?? []).filter((img) => !data.images.includes(img));
+      await deleteUploadedFiles(removed);
+    }
+  }
   const place = await Place.findByIdAndUpdate(id, data, { new: true, runValidators: true });
   if (!place) throw new ApiError(404, "Place introuvable");
   return place;
