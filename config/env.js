@@ -3,7 +3,7 @@
  * Lance une erreur explicite si une variable est manquante.
  */
 const required = ["MONGO_URI", "JWT_SECRET"];
-const optional = ["GROQ_API_KEY", "FRONTEND_URL"];
+const optional = ["GROQ_API_KEY", "FRONTEND_URL", "MYMEMORY_EMAIL"];
 
 const validateEnv = () => {
   const missing = required.filter((key) => !process.env[key]);

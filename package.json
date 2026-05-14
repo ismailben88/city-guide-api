@@ -8,12 +8,14 @@
     "seed": "node scripts/seeders/seed.js",
     "seed:no-clean": "node scripts/seeders/seed.js --no-clean",
     "seed:clean": "node scripts/seeders/clean.js",
-    "seed:legacy": "node scripts/seed.js"
+    "seed:legacy": "node scripts/seed.js",
+    "translate": "node scripts/translateExisting.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/translate": "^9.4.1",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
