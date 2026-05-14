@@ -111,7 +111,9 @@ async function seedCities() {
 // ── 3. Categories ─────────────────────────────────────────────────────────────
 async function seedCategories() {
   console.log("▶  Seeding categories…");
-  for (const c of CATEGORIES_DATA) {
+
+  // Pass 1: parent categories (no parent field)
+  for (const c of CATEGORIES_DATA.filter(c => !c.parent)) {
     const doc = await Category.create({
       name:   c.name,
       slug:   c.slug,
@@ -121,6 +123,22 @@ async function seedCategories() {
     categoryBySlug[c.slug] = doc._id;
     if (c.key) categoryBySlug[c.key] = doc._id;
   }
+
+  // Pass 2: child categories — resolve parent slug → parentId ObjectId
+  for (const c of CATEGORIES_DATA.filter(c => c.parent)) {
+    const parentId = categoryBySlug[c.parent] || null;
+    if (!parentId) console.warn(`   WARN category "${c.slug}" — unknown parent: ${c.parent}`);
+    const doc = await Category.create({
+      name:     c.name,
+      slug:     c.slug,
+      icon:     c.icon || "",
+      parentId,
+      status:   "active",
+    });
+    categoryBySlug[c.slug] = doc._id;
+    if (c.key) categoryBySlug[c.key] = doc._id;
+  }
+
   console.log(`✓  ${CATEGORIES_DATA.length} categories seeded\n`);
 }
 
