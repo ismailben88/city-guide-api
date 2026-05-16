@@ -13,7 +13,11 @@ function getContext(sessionId) {
 function processMessage(sessionId, userMessage) {
   const extracted = contextExtractor.extractAll(userMessage);
   const currentContext = memoryService.getContext(sessionId);
-  const resolved = contextManager.resolve(currentContext, extracted, userMessage);
+  const resolved = contextManager.resolve(
+    currentContext,
+    extracted,
+    userMessage,
+  );
   memoryService.updateContext(sessionId, resolved);
   return { extracted, resolved };
 }
