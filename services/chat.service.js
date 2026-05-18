@@ -38,15 +38,16 @@ function buildFallbackMessage(type, rankedData, cityName, categoryName) {
   const top      = rankedData[0];
   const city     = cityName || "Morocco";
   const category = categoryName || "recommendations";
+  const ratingStr = top.averageRating > 0 ? ` a ${top.averageRating}/5 rating` : " great reviews";
 
   if (type === "guides") {
-    return `Here are the best available guides in ${city}. Our top pick has a ${top.averageRating}/5 rating with ${top.reviewCount || 0} reviews!`;
+    return `Here are the best available guides in ${city}. Our top pick has${ratingStr} with ${top.reviewCount || 0} reviews!`;
   }
   if (type === "places") {
-    return `Here are the best ${category} in ${city}. The top option has a ${top.averageRating}/5 rating!`;
+    return `Here are the best ${category} in ${city}. The top option has${ratingStr}!`;
   }
   if (type === "events") {
-    return `Here are upcoming events in ${city}. Check out the top event with ${top.averageRating ? `${top.averageRating}/5` : "great reviews"}!`;
+    return `Here are upcoming events in ${city}. Check out what's happening near you!`;
   }
   return `Here are our top ${category} in ${city}!`;
 }
@@ -61,6 +62,19 @@ async function processMessage(userMessage, sessionId) {
 
   const citySlug     = resolved.city;
   const categorySlug = resolved.category;
+
+  // Ask for city when user requested a category but no city has been established in the session
+  if (categorySlug && !citySlug) {
+    const clarifications = {
+      ar: "في أي مدينة مغربية تبحث؟ مثلاً: مراكش، الدار البيضاء، فاس، أكادير، أصيلة...",
+      fr: "Dans quelle ville marocaine cherchez-vous ? Par exemple : Marrakech, Casablanca, Fès, Agadir, Essaouira...",
+      es: "¿En qué ciudad de Marruecos busca? Por ejemplo: Marrakech, Casablanca, Fez, Agadir...",
+      en: "Which city in Morocco are you looking for? For example: Marrakech, Casablanca, Fès, Agadir, Essaouira...",
+    };
+    const clarification = clarifications[resolved.language] || clarifications.en;
+    contextService.saveMessages(sid, userMessage, clarification, "general", []);
+    return { message: clarification, type: "general", data: [], sessionId: sid };
+  }
 
   const dbResults = await searchService.runSearch(citySlug, categorySlug, resolved.language);
   const type      = determineType(categorySlug, dbResults);

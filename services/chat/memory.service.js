@@ -1,5 +1,5 @@
-const SESSION_TTL = 30 * 60 * 1000;
-const CLEANUP_INTERVAL = 5 * 60 * 1000;
+const SESSION_TTL = 24 * 60 * 60 * 1000;   // 24 hours — users plan trips across multiple visits
+const CLEANUP_INTERVAL = 60 * 60 * 1000;   // cleanup every hour
 const MAX_HISTORY = 20;
 
 const sessions = new Map();

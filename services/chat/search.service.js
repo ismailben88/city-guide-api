@@ -76,20 +76,18 @@ async function searchTopPlaces() {
   }
 }
 
-async function searchGuides(cityId, language) {
+// Language is NOT used as a DB filter — it becomes a scoring bonus in ranking.service.
+// A hard filter would return zero results when no guides speak the user's language,
+// which is worse UX than showing the best available guides with a language score applied.
+async function searchGuides(cityId) {
   try {
     const filter = { isCurrentlyAvailable: true, verificationStatus: "verified" };
-    if (cityId)   filter.cityIds = cityId;
-    if (language) filter.spokenLanguages = {
-      $elemMatch: language.length === 2
-        ? { $regex: new RegExp(`^${language}$`, "i") }
-        : { $regex: new RegExp(language, "i") },
-    };
+    if (cityId) filter.cityIds = cityId;
 
     return GuideProfile.find(filter)
       .populate("userId", "firstName lastName avatarUrl")
       .sort({ averageRating: -1 })
-      .limit(15);
+      .limit(20);   // fetch more so ranking can reorder by language bonus
   } catch (err) {
     console.error("[SearchService] Guides search error:", err.message);
     return [];
@@ -115,9 +113,9 @@ async function runSearch(citySlug, categorySlug, language) {
   const city = await searchCity(citySlug);
   const results = { city, category: null };
 
-  // Guides
+  // Guides — language passed separately for scoring, not DB filtering
   if (categorySlug === "guides") {
-    results.guides = await searchGuides(city?._id, language);
+    results.guides = await searchGuides(city?._id);
     return results;
   }
 

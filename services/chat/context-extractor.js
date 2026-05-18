@@ -84,11 +84,13 @@ function extractLanguage(message) {
   return null;
 }
 
-// Detect language from the script/characters used in the message
+// Detect language from the script/characters used in the message.
+// Returns "en" as default so the language always updates on every message,
+// preventing a single French/Arabic question from locking the session language forever.
 function autoDetectLanguage(message) {
   if (/[؀-ۿ]/.test(message)) return "ar";
   if (/\b(je|tu|il|elle|nous|vous|ils|les|des|du|est|sont|pour|avec|dans|sur|une|comment|quels?|meilleurs?)\b/i.test(message)) return "fr";
-  return null;
+  return "en";
 }
 
 function extractBudget(message) {
