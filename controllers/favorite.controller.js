@@ -9,7 +9,9 @@ exports.getFavorites = asyncHandler(async (req, res) => {
   if (targetType) filter.targetType = targetType;
   if (targetId)   filter.targetId   = targetId;
 
-  const favorites = await Favorite.find(filter).sort({ createdAt: -1 });
+  const favorites = await Favorite.find(filter)
+    .populate("targetId")
+    .sort({ createdAt: -1 });
   res.json(favorites);
 });
 
