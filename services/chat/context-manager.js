@@ -3,11 +3,10 @@ const { CITY_DISPLAY_NAMES } = require("./context-extractor");
 function resolve(currentContext, extracted, rawMessage) {
   const resolved = { ...currentContext };
 
-  // New city mentioned → fresh query, reset category and preferences
+  // New city mentioned → reset category only; preferences stay (they belong to the traveler, not the destination)
   if (extracted.city) {
     resolved.city = extracted.city;
     resolved.category = extracted.category || null;
-    resolved.preferences = [];
   } else if (extracted.category) {
     // New category detected → update it
     resolved.category = extracted.category;

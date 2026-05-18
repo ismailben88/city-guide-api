@@ -7,6 +7,9 @@ exports.sendMessage = asyncHandler(async (req, res) => {
   if (!message || typeof message !== "string" || !message.trim()) {
     return res.status(400).json({ success: false, message: "Message is required" });
   }
+  if (message.length > 1000) {
+    return res.status(400).json({ success: false, message: "Message too long (max 1000 characters)" });
+  }
 
   const result = await chatService.processMessage(message.trim(), sessionId);
 
