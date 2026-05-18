@@ -1,7 +1,7 @@
 const CITY_KEYWORDS = {
   // fuzzy patterns handle 1-2 letter typos for commonly misspelled cities
   marrakech:    /ma?rr?akech|marrakesh|مراكش/i,
-  fes:          /f[eè]s?|fez|فاس/i,
+  fes:          /\bf[eè]s\b|\bfez\b|فاس/i,
   casablanca:   /cas[ae]bl[ae]n[ck]a|dar el beida|الدار البيضاء|casa\b/i,
   rabat:        /\brabat\b|الرباط/i,
   tangier:      /tangi?e?r|tanger|طنجة/i,

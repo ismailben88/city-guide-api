@@ -4,15 +4,13 @@ const Category = require("../../models/Category");
 const GuideProfile = require("../../models/GuideProfile");
 const Event = require("../../models/Event");
 
+// Maps context-extractor slugs → real DB category slugs
 const CATEGORY_DB_SLUGS = {
-  restaurants: "restaurant",
-  cafes: "cafe",
-  hotels: "riad-stay",
-  beaches: "plage",
-  "site-historique": "site-historique",
-  musee: "musee",
-  "parc-jardin": "parc-jardin",
-  "marche-souk": "marche-souk",
+  "site-historique": "historical-sites",
+  musee:             "museums",
+  "parc-jardin":     "nature",
+  "marche-souk":     "shopping",
+  // restaurants, cafes, hotels, beaches, riads already match the DB slugs
 };
 
 async function searchCity(citySlug) {
@@ -27,21 +25,25 @@ async function searchCity(citySlug) {
 
 async function searchPlacesByCategory(cityId, categorySlug) {
   try {
-    let dbSlug = CATEGORY_DB_SLUGS[categorySlug] || categorySlug;
+    const dbSlug   = CATEGORY_DB_SLUGS[categorySlug] || categorySlug;
     const category = await Category.findOne({ slug: dbSlug, status: "active" });
     if (!category) {
       console.warn(`[SearchService] No category found for slug "${dbSlug}" (from "${categorySlug}")`);
       return { category: null, places: [] };
     }
 
-    const filter = { categoryId: category._id, status: "active" };
+    // Include places from sub-categories (e.g. "moroccan-cuisine" under "restaurants")
+    const subCategories = await Category.find({ parentId: category._id, status: "active" }, "_id");
+    const allCategoryIds = [category._id, ...subCategories.map((c) => c._id)];
+
+    const filter = { categoryId: { $in: allCategoryIds }, status: "active" };
     if (cityId) filter.cityId = cityId;
 
     const places = await Place.find(filter)
       .populate("cityId", "name slug")
       .populate("categoryId", "name slug icon")
       .sort({ averageRating: -1 })
-      .limit(15);
+      .limit(20);
 
     return { category, places };
   } catch (err) {
