@@ -1,170 +1,197 @@
-// 100 catégories — 20 parents + 80 enfants (5 par parent)
-// Les enfants référencent leur parent via le champ `parent` (slug du parent)
+// ─────────────────────────────────────────────────────────────────────────────
+//  categories.js — Professional icon-key system (NO emojis)
+//
+//  Icon values map to Lucide React component names on the frontend:
+//  e.g. icon:"utensils" → import { Utensils } from "lucide-react"
+//
+//  Structure: 20 parent categories + 60 subcategories (3 per parent)
+//  English-first  |  SEO-friendly slugs
+// ─────────────────────────────────────────────────────────────────────────────
 
 module.exports = [
-  // ══════════════════════════════════════════════════════════════════════════
-  // PARENTS (20)
-  // ══════════════════════════════════════════════════════════════════════════
-  { key:"restauration",    name:"Restauration & Gastronomie", slug:"restauration",    icon:"🍽️" },
-  { key:"hebergement",     name:"Hébergement",                slug:"hebergement",     icon:"🏠" },
-  { key:"patrimoine",      name:"Sites Historiques & Patrimoine", slug:"patrimoine",  icon:"🏛️" },
-  { key:"nature",          name:"Nature & Paysages",          slug:"nature",          icon:"🌿" },
-  { key:"plages",          name:"Plages & Sports Nautiques",  slug:"plages",          icon:"🏖️" },
-  { key:"shopping",        name:"Shopping & Artisanat",       slug:"shopping",        icon:"🛍️" },
-  { key:"bienetre",        name:"Bien-être & Spa",            slug:"bienetre",        icon:"💆" },
-  { key:"nocturne",        name:"Vie Nocturne & Divertissement", slug:"nocturne",     icon:"🌙" },
-  { key:"religion",        name:"Sites Religieux & Spirituels", slug:"religion",      icon:"🕌" },
-  { key:"art-musees",      name:"Art & Musées",               slug:"art-musees",      icon:"🎨" },
-  { key:"sports",          name:"Sports & Activités",         slug:"sports",          icon:"🏃" },
-  { key:"coworking",       name:"Coworking & Affaires",       slug:"coworking",       icon:"💻" },
-  { key:"excursions",      name:"Excursions & Circuits",      slug:"excursions",      icon:"🗺️" },
-  { key:"evenements",      name:"Événements & Festivals",     slug:"evenements",      icon:"🎉" },
-  { key:"panoramas",       name:"Points de Vue & Panoramas",  slug:"panoramas",       icon:"📸" },
-  { key:"street-food",     name:"Street Food & Marchés",      slug:"street-food",     icon:"🥙" },
-  { key:"terroir",         name:"Agriculture & Terroir",      slug:"terroir",         icon:"🌾" },
-  { key:"education",       name:"Éducation & Langue",         slug:"education",       icon:"📚" },
-  { key:"transport",       name:"Transport & Mobilité",       slug:"transport",       icon:"🚌" },
-  { key:"famille",         name:"Famille & Enfants",          slug:"famille",         icon:"❤️" },
 
   // ══════════════════════════════════════════════════════════════════════════
-  // ENFANTS — Restauration (5)
+  //  PARENT CATEGORIES (20)
   // ══════════════════════════════════════════════════════════════════════════
-  { key:"cuisine-marocaine",      name:"Cuisine marocaine traditionnelle", slug:"cuisine-marocaine",      icon:"🥘", parent:"restauration" },
-  { key:"fruits-de-mer",          name:"Fruits de mer & Poissons",         slug:"fruits-de-mer",          icon:"🦞", parent:"restauration" },
-  { key:"gastronomique",          name:"Restaurants gastronomiques",       slug:"gastronomique",          icon:"⭐", parent:"restauration" },
-  { key:"vegetarien",             name:"Végétarien & Vegan",               slug:"vegetarien",             icon:"🥗", parent:"restauration" },
-  { key:"brunch-cafes",           name:"Cafés & Brunchs",                  slug:"brunch-cafes",           icon:"☕", parent:"restauration" },
 
-  // ENFANTS — Hébergement (5)
-  { key:"riads",                  name:"Riads & Dar traditionnels",        slug:"riads",                  icon:"🏡", parent:"hebergement" },
-  { key:"hotels-luxe",            name:"Hôtels de luxe & Palaces",         slug:"hotels-luxe",            icon:"🏨", parent:"hebergement" },
-  { key:"auberges",               name:"Auberges de jeunesse & Hostels",   slug:"auberges",               icon:"🛏️", parent:"hebergement" },
-  { key:"maisons-hotes",          name:"Maisons d'hôtes & B&B",            slug:"maisons-hotes",          icon:"🏘️", parent:"hebergement" },
-  { key:"eco-lodges",             name:"Glamping & Éco-lodges",            slug:"eco-lodges",             icon:"⛺", parent:"hebergement" },
+  { key: "restaurants",      name: "Restaurants",          slug: "restaurants",      icon: "utensils"     },
+  { key: "cafes",            name: "Cafes & Rooftops",     slug: "cafes",            icon: "coffee"       },
+  { key: "hotels",           name: "Hotels",               slug: "hotels",           icon: "building-2"   },
+  { key: "riads",            name: "Riads",                slug: "riads",            icon: "home"         },
+  { key: "historical-sites", name: "Historical Sites",     slug: "historical-sites", icon: "landmark"     },
+  { key: "museums",          name: "Museums & Culture",    slug: "museums",          icon: "library"      },
+  { key: "beaches",          name: "Beaches",              slug: "beaches",          icon: "waves"        },
+  { key: "nature",           name: "Nature & Landscapes",  slug: "nature",           icon: "tree-pine"    },
+  { key: "desert",           name: "Desert Experiences",   slug: "desert",           icon: "sun"          },
+  { key: "shopping",         name: "Shopping & Souks",     slug: "shopping",         icon: "shopping-bag" },
+  { key: "wellness",         name: "Wellness & Spa",       slug: "wellness",         icon: "sparkles"     },
+  { key: "nightlife",        name: "Nightlife",            slug: "nightlife",        icon: "moon"         },
+  { key: "sports",           name: "Sports & Activities",  slug: "sports",           icon: "activity"     },
+  { key: "coworking",        name: "Coworking",            slug: "coworking",        icon: "laptop"       },
+  { key: "tours",            name: "Tours & Excursions",   slug: "tours",            icon: "map"          },
+  { key: "photography",      name: "Photography Spots",    slug: "photography",      icon: "camera"       },
+  { key: "family",           name: "Family Activities",    slug: "family",           icon: "users"        },
+  { key: "religious-sites",  name: "Religious Sites",      slug: "religious-sites",  icon: "building"     },
+  { key: "art-galleries",    name: "Art & Galleries",      slug: "art-galleries",    icon: "palette"      },
+  { key: "local-food",       name: "Street Food & Markets",slug: "local-food",       icon: "store"        },
 
-  // ENFANTS — Patrimoine (5)
-  { key:"medinas",                name:"Médinas & Vieilles villes",        slug:"medinas",                icon:"🧱", parent:"patrimoine" },
-  { key:"palais-kasbah",          name:"Palais & Kasbahs",                 slug:"palais-kasbah",          icon:"🏰", parent:"patrimoine" },
-  { key:"sites-romains",          name:"Sites archéologiques romains",     slug:"sites-romains",          icon:"🏺", parent:"patrimoine" },
-  { key:"ksour",                  name:"Ksour & Greniers collectifs",      slug:"ksour",                  icon:"🔺", parent:"patrimoine" },
-  { key:"remparts",               name:"Remparts & Fortifications",        slug:"remparts",               icon:"🗿", parent:"patrimoine" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Restaurants (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Nature (5)
-  { key:"atlas-montagne",         name:"Montagnes & Cols de l'Atlas",      slug:"atlas-montagne",         icon:"🏔️", parent:"nature" },
-  { key:"desert-ergs",            name:"Désert & Ergs sahariens",          slug:"desert-ergs",            icon:"🏜️", parent:"nature" },
-  { key:"gorges-canyons",         name:"Gorges & Canyons",                 slug:"gorges-canyons",         icon:"🪨", parent:"nature" },
-  { key:"forets",                 name:"Forêts & Zones naturelles",        slug:"forets",                 icon:"🌲", parent:"nature" },
-  { key:"cascades-sources",       name:"Cascades & Sources",               slug:"cascades-sources",       icon:"💧", parent:"nature" },
+  { key: "moroccan-cuisine", name: "Moroccan Cuisine",        slug: "moroccan-cuisine",  icon: "utensils",   parent: "restaurants" },
+  { key: "fine-dining",      name: "Fine Dining",             slug: "fine-dining",       icon: "star",       parent: "restaurants" },
+  { key: "seafood",          name: "Seafood & Fish",          slug: "seafood",           icon: "fish",       parent: "restaurants" },
 
-  // ENFANTS — Plages (5)
-  { key:"plages-atlantique",      name:"Plages atlantiques",               slug:"plages-atlantique",      icon:"🌊", parent:"plages" },
-  { key:"plages-mediterranee",    name:"Plages méditerranéennes",          slug:"plages-mediterranee",    icon:"🏊", parent:"plages" },
-  { key:"surf-bodyboard",         name:"Surf & Bodyboard",                 slug:"surf-bodyboard",         icon:"🏄", parent:"plages" },
-  { key:"kitesurf-windsurf",      name:"Kitesurf & Windsurf",              slug:"kitesurf-windsurf",      icon:"🪁", parent:"plages" },
-  { key:"plongee",                name:"Plongée & Snorkeling",             slug:"plongee",                icon:"🤿", parent:"plages" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Cafes & Rooftops (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Shopping (5)
-  { key:"souks",                  name:"Souks & Marchés traditionnels",    slug:"souks",                  icon:"🛒", parent:"shopping" },
-  { key:"maroquinerie",           name:"Maroquinerie & Cuir",              slug:"maroquinerie",           icon:"👜", parent:"shopping" },
-  { key:"bijoux-berberes",        name:"Bijoux & Argenterie berbère",      slug:"bijoux-berberes",        icon:"💍", parent:"shopping" },
-  { key:"tapis-textiles",         name:"Tapis & Tissage",                  slug:"tapis-textiles",         icon:"🧶", parent:"shopping" },
-  { key:"ceramiques",             name:"Céramiques & Poteries",            slug:"ceramiques",             icon:"🪔", parent:"shopping" },
+  { key: "rooftop-cafes",    name: "Rooftop Cafes",           slug: "rooftop-cafes",     icon: "coffee",     parent: "cafes" },
+  { key: "traditional-cafes",name: "Traditional Moroccan Cafes",slug:"traditional-cafes",icon: "cup-soda",   parent: "cafes" },
+  { key: "specialty-coffee", name: "Specialty Coffee",        slug: "specialty-coffee",  icon: "bean",       parent: "cafes" },
 
-  // ENFANTS — Bien-être (5)
-  { key:"hammams",                name:"Hammams traditionnels",            slug:"hammams",                icon:"♨️", parent:"bienetre" },
-  { key:"spas-luxe",              name:"Spas & Instituts de beauté",       slug:"spas-luxe",              icon:"💅", parent:"bienetre" },
-  { key:"massages-argan",         name:"Massages & Soins à l'argan",       slug:"massages-argan",         icon:"🫧", parent:"bienetre" },
-  { key:"yoga-meditation",        name:"Yoga & Méditation",                slug:"yoga-meditation",        icon:"🧘", parent:"bienetre" },
-  { key:"thalasso",               name:"Thalassothérapie & Thermes",       slug:"thalasso",               icon:"🌊", parent:"bienetre" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Hotels (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Vie Nocturne (5)
-  { key:"bars-lounges",           name:"Bars & Lounges",                   slug:"bars-lounges",           icon:"🍸", parent:"nocturne" },
-  { key:"clubs",                  name:"Clubs & Discothèques",             slug:"clubs",                  icon:"🎧", parent:"nocturne" },
-  { key:"cafes-concerts",         name:"Cafés-concerts & Live music",      slug:"cafes-concerts",         icon:"🎶", parent:"nocturne" },
-  { key:"folklore",               name:"Spectacles de folklore marocain",  slug:"folklore",               icon:"🪘", parent:"nocturne" },
-  { key:"cinemas-theatres",       name:"Cinémas & Théâtres",               slug:"cinemas-theatres",       icon:"🎭", parent:"nocturne" },
+  { key: "luxury-hotels",    name: "Luxury Hotels & Palaces", slug: "luxury-hotels",     icon: "crown",      parent: "hotels" },
+  { key: "boutique-hotels",  name: "Boutique Hotels",         slug: "boutique-hotels",   icon: "building-2", parent: "hotels" },
+  { key: "eco-lodges",       name: "Eco-Lodges & Glamping",   slug: "eco-lodges",        icon: "tent",       parent: "hotels" },
 
-  // ENFANTS — Religion (5)
-  { key:"mosquees",               name:"Mosquées historiques",             slug:"mosquees",               icon:"🕌", parent:"religion" },
-  { key:"mausolees",              name:"Mausolées & Zaouïas",              slug:"mausolees",              icon:"⭐", parent:"religion" },
-  { key:"synagogues",             name:"Synagogues & Patrimoine juif",     slug:"synagogues",             icon:"✡️", parent:"religion" },
-  { key:"moussems",               name:"Moussems & Pèlerinages",           slug:"moussems",               icon:"🚶", parent:"religion" },
-  { key:"medersas",               name:"Médersa & Enseignement islamique", slug:"medersas",               icon:"📖", parent:"religion" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Riads (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Art & Musées (5)
-  { key:"galeries",               name:"Galeries d'art contemporain",      slug:"galeries",               icon:"🖼️", parent:"art-musees" },
-  { key:"musees-ethno",           name:"Musées ethnographiques",           slug:"musees-ethno",           icon:"🏛️", parent:"art-musees" },
-  { key:"musees-archeo",          name:"Musées archéologiques",            slug:"musees-archeo",          icon:"⚱️", parent:"art-musees" },
-  { key:"ateliers-artisans",      name:"Ateliers d'artisans",              slug:"ateliers-artisans",      icon:"🪆", parent:"art-musees" },
-  { key:"street-art",             name:"Street art & Murale",              slug:"street-art",             icon:"🎨", parent:"art-musees" },
+  { key: "luxury-riads",     name: "Luxury Riads",            slug: "luxury-riads",      icon: "gem",        parent: "riads" },
+  { key: "heritage-riads",   name: "Heritage Riads",          slug: "heritage-riads",    icon: "home",       parent: "riads" },
+  { key: "guesthouse-riads", name: "Riad Guesthouses",        slug: "guesthouse-riads",  icon: "door-open",  parent: "riads" },
 
-  // ENFANTS — Sports (5)
-  { key:"randonnee",              name:"Randonnée & Trekking",             slug:"randonnee",              icon:"🥾", parent:"sports" },
-  { key:"golf",                   name:"Golf & Sports de balle",           slug:"golf",                   icon:"⛳", parent:"sports" },
-  { key:"equitation",             name:"Équitation & Fantasia",            slug:"equitation",             icon:"🐎", parent:"sports" },
-  { key:"sports-extremes",        name:"Sports extrêmes & Escalade",       slug:"sports-extremes",        icon:"🧗", parent:"sports" },
-  { key:"quad-4x4",               name:"Quad & 4×4 Désert",               slug:"quad-4x4",               icon:"🏎️", parent:"sports" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Historical Sites (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Coworking (5)
-  { key:"espaces-coworking",      name:"Espaces de coworking",             slug:"espaces-coworking",      icon:"🖥️", parent:"coworking" },
-  { key:"hubs-startup",           name:"Hubs d'innovation & Startups",     slug:"hubs-startup",           icon:"🚀", parent:"coworking" },
-  { key:"centres-affaires",       name:"Centres d'affaires",               slug:"centres-affaires",       icon:"🏢", parent:"coworking" },
-  { key:"campus",                 name:"Campus universitaires",            slug:"campus",                 icon:"🎓", parent:"coworking" },
-  { key:"salles-conf",            name:"Salles de conférence",             slug:"salles-conf",            icon:"📊", parent:"coworking" },
+  { key: "medinas",          name: "Medinas & Old Towns",     slug: "medinas",           icon: "map-pin",    parent: "historical-sites" },
+  { key: "palaces-kasbahs",  name: "Palaces & Kasbahs",       slug: "palaces-kasbahs",   icon: "castle",     parent: "historical-sites" },
+  { key: "roman-ruins",      name: "Roman & Ancient Ruins",   slug: "roman-ruins",       icon: "columns",    parent: "historical-sites" },
 
-  // ENFANTS — Excursions (5)
-  { key:"circuits-4x4",           name:"Circuits en 4×4 & Quad",          slug:"circuits-4x4",           icon:"🚙", parent:"excursions" },
-  { key:"dromadaire-trek",        name:"Trekking en dromadaire",           slug:"dromadaire-trek",        icon:"🐪", parent:"excursions" },
-  { key:"circuits-culturels",     name:"Circuits culturels guidés",        slug:"circuits-culturels",     icon:"🗺️", parent:"excursions" },
-  { key:"day-trips",              name:"Day trips & Demi-journées",        slug:"day-trips",              icon:"📅", parent:"excursions" },
-  { key:"tours-photo",            name:"Tours photographiques",            slug:"tours-photo",            icon:"📷", parent:"excursions" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Museums (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Événements (5)
-  { key:"festivals-musique",      name:"Festivals de musique",             slug:"festivals-musique",      icon:"🎵", parent:"evenements" },
-  { key:"festivals-cinema",       name:"Festivals de cinéma",              slug:"festivals-cinema",       icon:"🎬", parent:"evenements" },
-  { key:"salons-expo",            name:"Salons & Expositions",             slug:"salons-expo",            icon:"🏟️", parent:"evenements" },
-  { key:"fetes-locales",          name:"Fêtes locales & Moussems",         slug:"fetes-locales",          icon:"🎊", parent:"evenements" },
-  { key:"events-sportifs",        name:"Événements sportifs",              slug:"events-sportifs",        icon:"🏆", parent:"evenements" },
+  { key: "art-museums",      name: "Art Museums",             slug: "art-museums",       icon: "frame",      parent: "museums" },
+  { key: "history-museums",  name: "History & Archaeology",   slug: "history-museums",   icon: "scroll",     parent: "museums" },
+  { key: "craft-museums",    name: "Crafts & Traditional Arts",slug:"craft-museums",     icon: "scissors",   parent: "museums" },
 
-  // ENFANTS — Panoramas (5)
-  { key:"terrasses",              name:"Terrasses panoramiques",           slug:"terrasses",              icon:"🌅", parent:"panoramas" },
-  { key:"sommets",                name:"Sommets & Points culminants",      slug:"sommets",                icon:"⛰️", parent:"panoramas" },
-  { key:"falaises-cotes",         name:"Falaises & Côtes spectaculaires",  slug:"falaises-cotes",         icon:"🌊", parent:"panoramas" },
-  { key:"vues-villes",            name:"Vues sur la ville",                slug:"vues-villes",            icon:"🏙️", parent:"panoramas" },
-  { key:"couchers-soleil",        name:"Spots couchers de soleil",         slug:"couchers-soleil",        icon:"🌇", parent:"panoramas" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Beaches (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Street Food (5)
-  { key:"marches-nocturnes",      name:"Marchés nocturnes",                slug:"marches-nocturnes",      icon:"🌛", parent:"street-food" },
-  { key:"jus-frais",              name:"Jus frais & Smoothies",            slug:"jus-frais",              icon:"🍊", parent:"street-food" },
-  { key:"grillades",              name:"Grillades & Brochettes",           slug:"grillades",              icon:"🍢", parent:"street-food" },
-  { key:"patisseries",            name:"Pâtisseries & Msemen",             slug:"patisseries",            icon:"🥐", parent:"street-food" },
-  { key:"soupes",                 name:"Soupes & Harira",                  slug:"soupes",                 icon:"🍲", parent:"street-food" },
+  { key: "atlantic-beaches", name: "Atlantic Beaches",        slug: "atlantic-beaches",  icon: "waves",      parent: "beaches" },
+  { key: "med-beaches",      name: "Mediterranean Beaches",   slug: "med-beaches",       icon: "anchor",     parent: "beaches" },
+  { key: "surf-spots",       name: "Surf Spots",              slug: "surf-spots",        icon: "wind",       parent: "beaches" },
 
-  // ENFANTS — Terroir (5)
-  { key:"coop-argan",             name:"Coopératives d'argan",             slug:"coop-argan",             icon:"🫒", parent:"terroir" },
-  { key:"safran",                 name:"Plantations de safran",            slug:"safran",                 icon:"🌸", parent:"terroir" },
-  { key:"olivaies",               name:"Olivaies & Huileries",             slug:"olivaies",               icon:"🫙", parent:"terroir" },
-  { key:"dates-palmeraies",       name:"Palmeraies & Dattes",              slug:"dates-palmeraies",       icon:"🌴", parent:"terroir" },
-  { key:"marches-producteurs",    name:"Marchés de producteurs",           slug:"marches-producteurs",    icon:"🥕", parent:"terroir" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Nature (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Éducation (5)
-  { key:"ecoles-arabe",           name:"Cours d'arabe & Darija",           slug:"ecoles-arabe",           icon:"🗣️", parent:"education" },
-  { key:"cours-cuisine",          name:"Cours de cuisine marocaine",       slug:"cours-cuisine",          icon:"👨‍🍳", parent:"education" },
-  { key:"ateliers-artisanat",     name:"Ateliers d'artisanat",             slug:"ateliers-artisanat",     icon:"🎭", parent:"education" },
-  { key:"musees-peda",            name:"Musées pédagogiques",              slug:"musees-peda",            icon:"🔬", parent:"education" },
-  { key:"centres-culturels",      name:"Centres culturels & Instituts",    slug:"centres-culturels",      icon:"🏛️", parent:"education" },
+  { key: "mountains",        name: "Mountains & Atlas",       slug: "mountains",         icon: "mountain",   parent: "nature" },
+  { key: "waterfalls",       name: "Waterfalls & Gorges",     slug: "waterfalls",        icon: "droplets",   parent: "nature" },
+  { key: "national-parks",   name: "National Parks & Reserves",slug:"national-parks",   icon: "trees",      parent: "nature" },
 
-  // ENFANTS — Transport (5)
-  { key:"gares",                  name:"Gares ferroviaires ONCF",          slug:"gares",                  icon:"🚂", parent:"transport" },
-  { key:"aeroports",              name:"Aéroports",                        slug:"aeroports",              icon:"✈️", parent:"transport" },
-  { key:"ports-maritimes",        name:"Ports & Liaisons maritimes",       slug:"ports-maritimes",        icon:"⛴️", parent:"transport" },
-  { key:"location-voitures",      name:"Locations de voitures & Motos",    slug:"location-voitures",      icon:"🚗", parent:"transport" },
-  { key:"bus-ctm",                name:"Bus & CTM longue distance",        slug:"bus-ctm",                icon:"🚌", parent:"transport" },
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Desert (3)
+  // ══════════════════════════════════════════════════════════════════════════
 
-  // ENFANTS — Famille (5)
-  { key:"parcs-attractions",      name:"Parcs d'attractions",              slug:"parcs-attractions",      icon:"🎡", parent:"famille" },
-  { key:"zoos-aquariums",         name:"Zoos & Aquariums",                 slug:"zoos-aquariums",         icon:"🦁", parent:"famille" },
-  { key:"activites-enfants",      name:"Activités pour enfants",           slug:"activites-enfants",      icon:"🎠", parent:"famille" },
-  { key:"parcs-jeux",             name:"Parcs & Espaces de jeux",          slug:"parcs-jeux",             icon:"⛲", parent:"famille" },
-  { key:"restaurants-familiaux",  name:"Restaurants familiaux",            slug:"restaurants-familiaux",  icon:"👨‍👩‍👧", parent:"famille" },
+  { key: "desert-camps",     name: "Desert Camps",            slug: "desert-camps",      icon: "tent",       parent: "desert" },
+  { key: "camel-trekking",   name: "Camel Trekking",          slug: "camel-trekking",    icon: "footprints", parent: "desert" },
+  { key: "sand-dunes",       name: "Sand Dunes & Ergs",       slug: "sand-dunes",        icon: "sun",        parent: "desert" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Shopping (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "souks",            name: "Souks & Bazaars",         slug: "souks",             icon: "store",      parent: "shopping" },
+  { key: "berber-crafts",    name: "Berber Crafts & Rugs",    slug: "berber-crafts",     icon: "layers",     parent: "shopping" },
+  { key: "argan-products",   name: "Argan & Natural Products",slug: "argan-products",    icon: "leaf",       parent: "shopping" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Wellness (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "hammams",          name: "Traditional Hammams",     slug: "hammams",           icon: "thermometer",parent: "wellness" },
+  { key: "luxury-spas",      name: "Luxury Spas",             slug: "luxury-spas",       icon: "sparkles",   parent: "wellness" },
+  { key: "yoga-retreats",    name: "Yoga & Meditation",       slug: "yoga-retreats",     icon: "heart",      parent: "wellness" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Nightlife (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "bars-lounges",     name: "Bars & Lounges",          slug: "bars-lounges",      icon: "glass-water",parent: "nightlife" },
+  { key: "live-music",       name: "Live Music & Concerts",   slug: "live-music",        icon: "music-2",    parent: "nightlife" },
+  { key: "clubs",            name: "Clubs & Dance Floors",    slug: "clubs",             icon: "music",      parent: "nightlife" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Sports (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "hiking-trekking",  name: "Hiking & Trekking",       slug: "hiking-trekking",   icon: "footprints", parent: "sports" },
+  { key: "kitesurfing",      name: "Kitesurfing & Windsurfing",slug:"kitesurfing",        icon: "wind",       parent: "sports" },
+  { key: "golf",             name: "Golf",                    slug: "golf",              icon: "flag",       parent: "sports" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Coworking (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "coworking-spaces", name: "Coworking Spaces",        slug: "coworking-spaces",  icon: "laptop",     parent: "coworking" },
+  { key: "startup-hubs",     name: "Startup Hubs",            slug: "startup-hubs",      icon: "rocket",     parent: "coworking" },
+  { key: "business-centers", name: "Business Centers",        slug: "business-centers",  icon: "briefcase",  parent: "coworking" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Tours (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "city-tours",       name: "City Walking Tours",      slug: "city-tours",        icon: "map-pin",    parent: "tours" },
+  { key: "desert-tours",     name: "Desert Safari Tours",     slug: "desert-tours",      icon: "compass",    parent: "tours" },
+  { key: "food-tours",       name: "Food & Culinary Tours",   slug: "food-tours",        icon: "utensils",   parent: "tours" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Photography (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "sunset-spots",     name: "Sunset & Sunrise Spots",  slug: "sunset-spots",      icon: "sunset",     parent: "photography" },
+  { key: "rooftop-views",    name: "Rooftop & Terrace Views", slug: "rooftop-views",     icon: "building-2", parent: "photography" },
+  { key: "street-photography",name:"Street Photography",      slug:"street-photography", icon: "camera",     parent: "photography" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Family (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "theme-parks",      name: "Theme Parks & Attractions",slug:"theme-parks",       icon: "ferris-wheel",parent: "family" },
+  { key: "kids-activities",  name: "Kids Activities",          slug: "kids-activities",  icon: "baby",       parent: "family" },
+  { key: "family-beaches",   name: "Family-Friendly Beaches",  slug: "family-beaches",   icon: "umbrella",   parent: "family" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Religious Sites (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "mosques",          name: "Mosques",                 slug: "mosques",           icon: "building",   parent: "religious-sites" },
+  { key: "mausoleums",       name: "Mausoleums & Zaouias",    slug: "mausoleums",        icon: "monument",   parent: "religious-sites" },
+  { key: "medersas",         name: "Quranic Schools",         slug: "medersas",          icon: "scroll-text",parent: "religious-sites" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Art & Galleries (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "contemporary-art", name: "Contemporary Art Galleries",slug:"contemporary-art", icon: "frame",      parent: "art-galleries" },
+  { key: "artisan-workshops",name: "Artisan Workshops",        slug: "artisan-workshops", icon: "hammer",     parent: "art-galleries" },
+  { key: "street-art",       name: "Street Art & Murals",      slug: "street-art",        icon: "pen-tool",   parent: "art-galleries" },
+
+  // ══════════════════════════════════════════════════════════════════════════
+  //  SUBCATEGORIES — Local Food (3)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  { key: "street-food-stalls",name:"Street Food Stalls",       slug:"street-food-stalls", icon: "store",      parent: "local-food" },
+  { key: "food-markets",      name: "Food Markets & Souks",    slug: "food-markets",      icon: "shopping-cart",parent:"local-food" },
+  { key: "bakeries",          name: "Traditional Bakeries",    slug: "bakeries",          icon: "wheat",      parent: "local-food" },
 ];
