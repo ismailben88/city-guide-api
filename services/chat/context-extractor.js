@@ -131,7 +131,8 @@ function isProximityReference(message) {
 
 function isFollowUp(message) {
   const trimmed = message.trim();
-  return /^(et |and |also|aussi|et aussi|or |ou |what about|qu'en est-il|how about|show me also|و |أيضاً|كمان|كذلك)/i.test(trimmed);
+  return /^(et |and |also|aussi|et aussi|or |ou |what about|qu'en est-il|how about|show me also|و |أيضاً|كمان|كذلك)/i.test(trimmed)
+    || /\b(more|plus|encore|suite|other|autre|again|encore|show more|more results|اكثر|المزيد|أكثر|عرض المزيد|continue|continuer)\b/i.test(trimmed);
 }
 
 function extractAll(message) {
@@ -148,6 +149,35 @@ function extractAll(message) {
   };
 }
 
+const CITY_DISPLAY_NAMES = {
+  marrakech:    "Marrakech",
+  fes:          "Fès",
+  casablanca:   "Casablanca",
+  rabat:        "Rabat",
+  tangier:      "Tangier",
+  agadir:       "Agadir",
+  essaouira:    "Essaouira",
+  chefchaouen:  "Chefchaouen",
+  ouarzazate:   "Ouarzazate",
+  meknes:       "Meknès",
+  ifrane:       "Ifrane",
+  merzouga:     "Merzouga",
+  tetouan:      "Tétouan",
+  oujda:        "Oujda",
+  kenitra:      "Kénitra",
+  safi:         "Safi",
+  "el-jadida":  "El Jadida",
+  nador:        "Nador",
+  asilah:       "Asilah",
+  dakhla:       "Dakhla",
+  "al-hoceima": "Al Hoceima",
+  zagora:       "Zagora",
+  taroudant:    "Taroudant",
+  tiznit:       "Tiznit",
+  berkane:      "Berkane",
+  larache:      "Larache",
+};
+
 module.exports = {
   extractCity,
   extractCategory,
@@ -161,4 +191,5 @@ module.exports = {
   extractAll,
   CITY_KEYWORDS,
   CATEGORY_KEYWORDS,
+  CITY_DISPLAY_NAMES,
 };

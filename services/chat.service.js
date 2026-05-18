@@ -1,7 +1,8 @@
-const searchService = require("./chat/search.service");
+const { randomUUID } = require("crypto");
+const searchService  = require("./chat/search.service");
 const rankingService = require("./chat/ranking.service");
 const contextService = require("./chat/contextService");
-const promptBuilder = require("./chat/prompt-builder");
+const promptBuilder  = require("./chat/prompt-builder");
 
 let groq = null;
 
@@ -34,8 +35,8 @@ async function getGroqResponse(messages) {
 function buildFallbackMessage(type, rankedData, cityName, categoryName) {
   if (!rankedData?.length) return "No results found. Try a different city or category!";
 
-  const top = rankedData[0];
-  const city = cityName || "Morocco";
+  const top      = rankedData[0];
+  const city     = cityName || "Morocco";
   const category = categoryName || "recommendations";
 
   if (type === "guides") {
@@ -50,27 +51,31 @@ function buildFallbackMessage(type, rankedData, cityName, categoryName) {
   return `Here are our top ${category} in ${city}!`;
 }
 
-async function processMessage(userMessage, sessionId = "default") {
-  contextService.initSession(sessionId);
+async function processMessage(userMessage, sessionId) {
+  // Never use "default" — each client must own a unique session
+  const sid = sessionId && sessionId !== "default" ? sessionId : randomUUID();
 
-  const { resolved } = contextService.processMessage(sessionId, userMessage);
+  contextService.initSession(sid);
 
-  const citySlug = resolved.city;
+  const { resolved } = contextService.processMessage(sid, userMessage);
+
+  const citySlug     = resolved.city;
   const categorySlug = resolved.category;
 
   const dbResults = await searchService.runSearch(citySlug, categorySlug, resolved.language);
-  const type = determineType(categorySlug, dbResults);
-  const rawData = dbResults[type] || [];
+  const type      = determineType(categorySlug, dbResults);
+  const rawData   = dbResults[type] || [];
 
   let rankedData = [];
   if (rawData.length > 0) {
-    rankedData = rankingService.rank(type, rawData);
-    contextService.updateSearchContext(sessionId, type, rankedData, categorySlug);
+    // Pass resolved context so specialtyMatch can use preferences + userMessage
+    rankedData = rankingService.rank(type, rawData, resolved, userMessage);
+    contextService.updateSearchContext(sid, type, rankedData, categorySlug);
   }
 
-  const cityName = dbResults.city?.name || null;
+  const cityName     = dbResults.city?.name || null;
   const categoryName = dbResults.category?.name || categorySlug || null;
-  const history = contextService.getHistory(sessionId);
+  const history      = contextService.getHistory(sid);
 
   const messages = promptBuilder.buildFullPrompt(
     resolved,
@@ -90,9 +95,9 @@ async function processMessage(userMessage, sessionId = "default") {
     aiMessage = buildFallbackMessage(type, rankedData, cityName, categoryName);
   }
 
-  contextService.saveMessages(sessionId, userMessage, aiMessage, type, rankedData);
+  contextService.saveMessages(sid, userMessage, aiMessage, type, rankedData);
 
-  return { message: aiMessage, type, data: rankedData };
+  return { message: aiMessage, type, data: rankedData, sessionId: sid };
 }
 
 module.exports = { processMessage };
