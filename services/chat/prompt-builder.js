@@ -27,34 +27,7 @@ RESPONSE STYLE:
 ${langRule}`;
 }
 
-const CITY_DISPLAY_NAMES = {
-  marrakech:    "Marrakech",
-  fes:          "Fès",
-  casablanca:   "Casablanca",
-  rabat:        "Rabat",
-  tangier:      "Tangier",
-  agadir:       "Agadir",
-  essaouira:    "Essaouira",
-  chefchaouen:  "Chefchaouen",
-  ouarzazate:   "Ouarzazate",
-  meknes:       "Meknès",
-  ifrane:       "Ifrane",
-  merzouga:     "Merzouga",
-  tetouan:      "Tétouan",
-  oujda:        "Oujda",
-  kenitra:      "Kénitra",
-  safi:         "Safi",
-  "el-jadida":  "El Jadida",
-  nador:        "Nador",
-  asilah:       "Asilah",
-  dakhla:       "Dakhla",
-  "al-hoceima": "Al Hoceima",
-  zagora:       "Zagora",
-  taroudant:    "Taroudant",
-  tiznit:       "Tiznit",
-  berkane:      "Berkane",
-  larache:      "Larache",
-};
+const { CITY_DISPLAY_NAMES } = require("./context-extractor");
 
 function anonymizeGuideData(rankedData) {
   return rankedData.slice(0, 10).map((g, i) => {

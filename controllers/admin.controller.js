@@ -2,6 +2,7 @@ const asyncHandler   = require("../utils/asyncHandler");
 const ApiError       = require("../utils/ApiError");
 const adminService   = require("../services/admin.service");
 const AdminLog       = require("../models/AdminLog");
+const PendingRequest = require("../models/PendingRequest");
 const User           = require("../models/User");
 const Comment        = require("../models/Comment");
 
@@ -21,7 +22,6 @@ exports.getPendingRequestById = asyncHandler(async (req, res) => {
 
 // POST /pendingRequests
 exports.submitPendingRequest = asyncHandler(async (req, res) => {
-  const PendingRequest = require("../models/PendingRequest");
   const request = await PendingRequest.create({ ...req.body, requestedBy: req.user._id });
   res.status(201).json(request);
 });

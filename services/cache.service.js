@@ -1,6 +1,9 @@
 const NodeCache = require("node-cache");
 
-const cache = new NodeCache({ stdTTL: 300, checkperiod: 60 });
+// useClones: false — NodeCache uses the `clone` lib by default which crashes on Mongoose
+// documents that have compiled GeoJSON setters (location field). We never mutate cached
+// values directly, so cloning is unnecessary.
+const cache = new NodeCache({ stdTTL: 300, checkperiod: 60, useClones: false });
 
 const TTL = {
   CITIES:     3600, // 1h
