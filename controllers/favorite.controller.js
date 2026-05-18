@@ -2,11 +2,10 @@ const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Favorite     = require("../models/Favorite");
 
-// GET /favorites?userId=&targetType=&targetId=
+// GET /favorites — returns the authenticated user's own favorites
 exports.getFavorites = asyncHandler(async (req, res) => {
-  const { userId, targetType, targetId } = req.query;
-  const filter = {};
-  if (userId)     filter.userId     = userId;
+  const { targetType, targetId } = req.query;
+  const filter = { userId: req.user._id };
   if (targetType) filter.targetType = targetType;
   if (targetId)   filter.targetId   = targetId;
 
