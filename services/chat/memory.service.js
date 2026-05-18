@@ -11,7 +11,7 @@ let cleanupTimer = setInterval(() => {
       sessions.delete(id);
     }
   }
-}, CLEANUP_INTERVAL);
+}, CLEANUP_INTERVAL).unref(); // .unref() prevents the timer from blocking process exit
 
 class ConversationMemory {
   constructor(sessionId) {
