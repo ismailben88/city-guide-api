@@ -29,7 +29,10 @@ async function searchPlacesByCategory(cityId, categorySlug) {
   try {
     let dbSlug = CATEGORY_DB_SLUGS[categorySlug] || categorySlug;
     const category = await Category.findOne({ slug: dbSlug, status: "active" });
-    if (!category) return { category: null, places: [] };
+    if (!category) {
+      console.warn(`[SearchService] No category found for slug "${dbSlug}" (from "${categorySlug}")`);
+      return { category: null, places: [] };
+    }
 
     const filter = { categoryId: category._id, status: "active" };
     if (cityId) filter.cityId = cityId;
@@ -76,24 +79,17 @@ async function searchTopPlaces() {
 async function searchGuides(cityId, language) {
   try {
     const filter = { isCurrentlyAvailable: true, verificationStatus: "verified" };
-    if (cityId) filter.cityIds = cityId;
+    if (cityId)   filter.cityIds = cityId;
+    if (language) filter.spokenLanguages = {
+      $elemMatch: language.length === 2
+        ? { $regex: new RegExp(`^${language}$`, "i") }
+        : { $regex: new RegExp(language, "i") },
+    };
 
-    let guides = await GuideProfile.find(filter)
+    return GuideProfile.find(filter)
       .populate("userId", "firstName lastName avatarUrl")
       .sort({ averageRating: -1 })
       .limit(15);
-
-    if (language) {
-      const lang = language.toLowerCase();
-      guides = guides.filter((g) => {
-        const langs = (g.spokenLanguages || []).map((l) =>
-          typeof l === "string" ? l.toLowerCase() : (l.code || "").toLowerCase()
-        );
-        return langs.includes(lang);
-      });
-    }
-
-    return guides;
   } catch (err) {
     console.error("[SearchService] Guides search error:", err.message);
     return [];

@@ -1,9 +1,9 @@
-const User     = require("../models/User");
-const ApiError = require("../utils/ApiError");
+const User          = require("../models/User");
+const ApiError      = require("../utils/ApiError");
+const { USER_ROLES } = require("../config/constants");
 const { getPagination } = require("../utils/pagination.utils");
 const { deleteUploadedFile } = require("./fileCleanup.service");
 
-// Champs interdits lors d'une mise à jour par l'utilisateur lui-même
 const PROTECTED_FIELDS = ["passwordHash", "role", "isVerified", "isActive"];
 
 const getUsers = async (query) => {
@@ -30,8 +30,16 @@ const getUserById = async (id) => {
 
 const updateUser = async (id, body) => {
   PROTECTED_FIELDS.forEach((f) => delete body[f]);
-
   const user = await User.findByIdAndUpdate(id, body, { new: true, runValidators: true });
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
+  return user;
+};
+
+const updateRole = async (id, role) => {
+  const validRoles = Object.values(USER_ROLES);
+  if (!role || !validRoles.includes(role))
+    throw new ApiError(400, `Role invalide. Valeurs acceptées : ${validRoles.join(", ")}`);
+  const user = await User.findByIdAndUpdate(id, { role }, { new: true });
   if (!user) throw new ApiError(404, "Utilisateur introuvable");
   return user;
 };
@@ -42,13 +50,13 @@ const deactivateUser = async (id) => {
 
 const changePassword = async (userId, currentPassword, newPassword) => {
   if (!newPassword || newPassword.length < 8)
-    throw new ApiError(400, "Password must be at least 8 characters");
+    throw new ApiError(400, "Le mot de passe doit faire au moins 8 caractères");
 
   const user = await User.findById(userId).select("+passwordHash");
-  if (!user) throw new ApiError(404, "User not found");
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
 
   const valid = await user.verifyPassword(currentPassword);
-  if (!valid) throw new ApiError(401, "Current password is incorrect");
+  if (!valid) throw new ApiError(401, "Mot de passe actuel incorrect");
 
   user.passwordHash = newPassword;
   await user.save();
@@ -56,15 +64,16 @@ const changePassword = async (userId, currentPassword, newPassword) => {
 
 const deactivateMyAccount = async (userId) => {
   const user = await User.findByIdAndUpdate(userId, { isActive: false }, { new: true });
-  if (!user) throw new ApiError(404, "User not found");
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
 };
 
 const setAvatarUrl = async (id, avatarUrl) => {
-  const old = await User.findById(id).select("avatarUrl");
-  if (!old) throw new ApiError(404, "Utilisateur introuvable");
-  await deleteUploadedFile(old.avatarUrl);
-  await old.set({ avatarUrl }).save();
-  return old.avatarUrl;
+  const user = await User.findById(id).select("avatarUrl");
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
+  await deleteUploadedFile(user.avatarUrl);
+  user.avatarUrl = avatarUrl;
+  await user.save();
+  return user.avatarUrl;
 };
 
 const addLinkedAccount = async (id, accountData) => {
@@ -87,7 +96,7 @@ const removeLinkedAccount = async (id, platform) => {
 
 const getNotifPrefs = async (userId) => {
   const user = await User.findById(userId);
-  if (!user) throw new ApiError(404, "User not found");
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
   return user.notificationPreferences || {};
 };
 
@@ -97,7 +106,7 @@ const setNotifPrefs = async (userId, prefs) => {
     { notificationPreferences: prefs },
     { new: true, runValidators: true }
   );
-  if (!user) throw new ApiError(404, "User not found");
+  if (!user) throw new ApiError(404, "Utilisateur introuvable");
   return user.notificationPreferences;
 };
 
@@ -105,6 +114,7 @@ module.exports = {
   getUsers,
   getUserById,
   updateUser,
+  updateRole,
   deactivateUser,
   changePassword,
   deactivateMyAccount,

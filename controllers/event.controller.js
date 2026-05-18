@@ -1,7 +1,10 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Event        = require("../models/Event");
-const { getPagination } = require("../utils/pagination.utils");
+const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
+const cacheService = require("../services/cache.service");
+
+const PREFIX = "events";
 
 const POPULATE_EVENT = [
   { path: "cityId",      select: "name slug" },
@@ -10,6 +13,10 @@ const POPULATE_EVENT = [
 
 // GET /events
 exports.getEvents = asyncHandler(async (req, res) => {
+  const key    = cacheService.buildKey(PREFIX, req.query);
+  const cached = cacheService.get(key);
+  if (cached) return res.json(cached);
+
   const { cityId, status, isFeatured, ...rest } = req.query;
   const { skip, limit, page } = getPagination(rest);
 
@@ -18,13 +25,18 @@ exports.getEvents = asyncHandler(async (req, res) => {
   if (status)                   filter.status     = status;
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
 
-  const events = await Event.find(filter)
-    .populate(POPULATE_EVENT)
-    .sort({ "dateRange.from": 1 })
-    .skip(skip)
-    .limit(limit);
+  const [events, total] = await Promise.all([
+    Event.find(filter)
+      .populate(POPULATE_EVENT)
+      .sort({ "dateRange.from": 1 })
+      .skip(skip)
+      .limit(limit),
+    Event.countDocuments(filter),
+  ]);
 
-  res.json(events);
+  const result = { events, ...buildPaginationMeta(total, page, limit) };
+  cacheService.set(key, result, cacheService.TTL.EVENTS);
+  res.json(result);
 });
 
 // GET /events/nearby
@@ -46,14 +58,21 @@ exports.getNearbyEvents = asyncHandler(async (req, res) => {
 
 // GET /events/:id
 exports.getEventById = asyncHandler(async (req, res) => {
+  const key    = `${PREFIX}:id:${req.params.id}`;
+  const cached = cacheService.get(key);
+  if (cached) return res.json(cached);
+
   const event = await Event.findById(req.params.id).populate(POPULATE_EVENT);
   if (!event) throw new ApiError(404, "Événement introuvable");
+
+  cacheService.set(key, event, cacheService.TTL.EVENTS);
   res.json(event);
 });
 
 // POST /events
 exports.createEvent = asyncHandler(async (req, res) => {
   const event = await Event.create({ ...req.body, organizedBy: req.user._id });
+  cacheService.delByPrefix(PREFIX);
   res.status(201).json(event);
 });
 
@@ -63,12 +82,14 @@ exports.updateEvent = asyncHandler(async (req, res) => {
     new: true, runValidators: true,
   });
   if (!event) throw new ApiError(404, "Événement introuvable");
+  cacheService.delByPrefix(PREFIX);
   res.json(event);
 });
 
 // DELETE /events/:id
 exports.deleteEvent = asyncHandler(async (req, res) => {
   await Event.findByIdAndUpdate(req.params.id, { status: "cancelled" });
+  cacheService.delByPrefix(PREFIX);
   res.json({ message: "Événement annulé" });
 });
 
@@ -80,5 +101,6 @@ exports.toggleFeature = asyncHandler(async (req, res) => {
     { new: true }
   );
   if (!event) throw new ApiError(404, "Événement introuvable");
+  cacheService.delByPrefix(PREFIX);
   res.json({ isFeatured: event.isFeatured });
 });
