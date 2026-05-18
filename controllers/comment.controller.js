@@ -58,10 +58,12 @@ exports.deleteComment = asyncHandler(async (req, res) => {
 });
 
 // PATCH /comments/:id — toggle like
+// Body: { delta: 1 } to like, { delta: -1 } to unlike
 exports.toggleLike = asyncHandler(async (req, res) => {
+  const delta = req.body.delta === -1 ? -1 : 1;
   const comment = await Comment.findByIdAndUpdate(
     req.params.id,
-    { likeCount: req.body.likes },
+    { $inc: { likeCount: delta } },
     { new: true }
   );
   if (!comment) throw new ApiError(404, "Commentaire introuvable");

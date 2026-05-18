@@ -1,7 +1,7 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Event        = require("../models/Event");
-const { getPagination } = require("../utils/pagination.utils");
+const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
 const cacheService = require("../services/cache.service");
 
 const PREFIX = "events";
@@ -13,7 +13,7 @@ const POPULATE_EVENT = [
 
 // GET /events
 exports.getEvents = asyncHandler(async (req, res) => {
-  const key = cacheService.buildKey(PREFIX, req.query);
+  const key    = cacheService.buildKey(PREFIX, req.query);
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
 
@@ -25,14 +25,18 @@ exports.getEvents = asyncHandler(async (req, res) => {
   if (status)                   filter.status     = status;
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
 
-  const events = await Event.find(filter)
-    .populate(POPULATE_EVENT)
-    .sort({ "dateRange.from": 1 })
-    .skip(skip)
-    .limit(limit);
+  const [events, total] = await Promise.all([
+    Event.find(filter)
+      .populate(POPULATE_EVENT)
+      .sort({ "dateRange.from": 1 })
+      .skip(skip)
+      .limit(limit),
+    Event.countDocuments(filter),
+  ]);
 
-  cacheService.set(key, events, cacheService.TTL.EVENTS);
-  res.json(events);
+  const result = { events, ...buildPaginationMeta(total, page, limit) };
+  cacheService.set(key, result, cacheService.TTL.EVENTS);
+  res.json(result);
 });
 
 // GET /events/nearby
@@ -54,7 +58,7 @@ exports.getNearbyEvents = asyncHandler(async (req, res) => {
 
 // GET /events/:id
 exports.getEventById = asyncHandler(async (req, res) => {
-  const key = `${PREFIX}:id:${req.params.id}`;
+  const key    = `${PREFIX}:id:${req.params.id}`;
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
 
