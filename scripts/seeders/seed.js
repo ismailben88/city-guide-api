@@ -69,12 +69,11 @@ async function clean() {
 async function seedUsers() {
   console.log("▶  Seeding users…");
   for (const u of USERS_DATA) {
-    const passwordHash = await bcrypt.hash(u.password, 12);
     const doc = await User.create({
       firstName:   u.firstName,
       lastName:    u.lastName,
       email:       u.email,
-      passwordHash,
+      passwordHash: u.password, // pre-save hook hashes this
       role:        u.role  || "user",
       isGuide:     u.isGuide || false,
       isVerified:  u.isVerified !== undefined ? u.isVerified : true,
