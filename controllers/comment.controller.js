@@ -56,34 +56,43 @@ exports.getComments = asyncHandler(async (req, res) => {
 
 // POST /comments
 exports.postComment = asyncHandler(async (req, res) => {
+  const { targetId, targetType, parentCommentId, rating } = req.body;
+
+  // Self-review guard: top-level reviews only (replies are allowed from anyone)
+  if (!parentCommentId) {
+    const entity = await getEntityOwner(targetId, targetType);
+    if (entity?.ownerId && entity.ownerId.toString() === req.user._id.toString()) {
+      throw new ApiError(403, "You cannot review your own listing");
+    }
+  }
+
   const comment = await Comment.create({ ...req.body, authorId: req.user._id });
   await comment.populate("authorId", "firstName lastName avatarUrl");
-  await upsertScore(req.body.targetId, req.body.targetType, req.user._id, req.body.rating);
+  await upsertScore(targetId, targetType, req.user._id, rating);
 
   // Fire-and-forget notifications (never block the HTTP response)
   const authorName = [req.user.firstName, req.user.lastName].filter(Boolean).join(" ") || "Someone";
 
-  if (!req.body.parentCommentId) {
-    // Top-level review/comment → notify entity owner
-    getEntityOwner(req.body.targetId, req.body.targetType).then((entity) => {
+  if (!parentCommentId) {
+    // Top-level review/comment → notify entity owner (fire-and-forget)
+    getEntityOwner(targetId, targetType).then((entity) => {
       if (!entity?.ownerId) return;
-      if (entity.ownerId.toString() === req.user._id.toString()) return; // don't self-notify
-      notify.newReview(entity.ownerId, authorName, entity.entityName, req.body.targetId, req.user._id, req.body.targetType)
+      notify.newReview(entity.ownerId, authorName, entity.entityName, targetId, req.user._id, targetType)
         .catch(() => {});
     }).catch(() => {});
   } else {
     // Reply → notify parent comment author
-    Comment.findById(req.body.parentCommentId).select("authorId content").lean()
+    Comment.findById(parentCommentId).select("authorId content").lean()
       .then((parent) => {
         if (!parent?.authorId) return;
         if (parent.authorId.toString() === req.user._id.toString()) return; // don't self-notify
-        const targetPath = { Place: "places", GuideProfile: "guides", Event: "events" }[req.body.targetType] || "places";
+        const targetPath = { Place: "places", GuideProfile: "guides", Event: "events" }[targetType] || "places";
         const snippet    = (parent.content || "").slice(0, 50);
         notify.communityReply(
           parent.authorId,
           authorName,
           snippet,
-          `/${targetPath}/${req.body.targetId}`,
+          `/${targetPath}/${targetId}`,
           req.user._id
         ).catch(() => {});
       }).catch(() => {});
@@ -108,7 +117,23 @@ exports.updateComment = asyncHandler(async (req, res) => {
 
 // DELETE /comments/:id
 exports.deleteComment = asyncHandler(async (req, res) => {
-  await Comment.findByIdAndUpdate(req.params.id, { status: "deleted" });
+  // Only the author (or admin) may delete; use findOneAndUpdate to enforce ownership atomically
+  const query = req.user.role === "admin"
+    ? { _id: req.params.id }
+    : { _id: req.params.id, authorId: req.user._id };
+
+  const comment = await Comment.findOneAndUpdate(query, { status: "deleted" }, { new: true });
+  if (!comment) throw new ApiError(404, "Commentaire introuvable ou non autorisé");
+
+  // Remove the associated Score entry so averageRating recalculates correctly
+  if ((comment.rating ?? 0) > 0) {
+    await Score.findOneAndDelete({
+      targetId:   comment.targetId,
+      targetType: comment.targetType,
+      authorId:   comment.authorId,
+    });
+  }
+
   res.json({ message: "Commentaire supprimé" });
 });
 
