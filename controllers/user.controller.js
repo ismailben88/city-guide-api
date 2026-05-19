@@ -14,8 +14,15 @@ exports.getUserById = asyncHandler(async (req, res) => {
   res.json(user);
 });
 
+// Shared ownership guard — caller must be the target user or an admin
+function assertOwnership(req) {
+  if (req.params.id !== req.user._id.toString() && req.user.role !== "admin")
+    throw new ApiError(403, "Accès refusé");
+}
+
 // PUT /users/:id
 exports.updateUser = asyncHandler(async (req, res) => {
+  assertOwnership(req);
   const user = await userService.updateUser(req.params.id, req.body);
   res.json(user);
 });
@@ -34,6 +41,7 @@ exports.deleteUser = asyncHandler(async (req, res) => {
 
 // POST /users/:id/avatar  (multipart/form-data — champ "avatar")
 exports.uploadAvatar = asyncHandler(async (req, res) => {
+  assertOwnership(req);
   if (!req.file) throw new ApiError(400, "Aucun fichier reçu");
   const origin    = `${req.protocol}://${req.get("host")}`;
   const avatarUrl = `${origin}/uploads/${req.file.filename}`;
@@ -43,12 +51,14 @@ exports.uploadAvatar = asyncHandler(async (req, res) => {
 
 // POST /users/:id/linked-accounts
 exports.addLinkedAccount = asyncHandler(async (req, res) => {
+  assertOwnership(req);
   const accounts = await userService.addLinkedAccount(req.params.id, req.body);
   res.json(accounts);
 });
 
 // DELETE /users/:id/linked-accounts/:provider
 exports.removeLinkedAccount = asyncHandler(async (req, res) => {
+  assertOwnership(req);
   const accounts = await userService.removeLinkedAccount(req.params.id, req.params.provider);
   res.json(accounts);
 });
