@@ -19,9 +19,9 @@ exports.createNotification = asyncHandler(async (req, res) => {
   res.status(201).json(notification);
 });
 
-// PATCH /notifications/:id — mark one as read
+// PATCH /notifications/:id — mark one as read (ownership enforced in service)
 exports.markAsRead = asyncHandler(async (req, res) => {
-  const notification = await notificationService.markAsRead(req.params.id);
+  const notification = await notificationService.markAsRead(req.params.id, req.user._id);
   res.json(notification);
 });
 
@@ -31,9 +31,9 @@ exports.markAllAsRead = asyncHandler(async (req, res) => {
   res.json({ message: "Toutes les notifications marquées comme lues" });
 });
 
-// DELETE /notifications/:id
+// DELETE /notifications/:id (ownership enforced in service)
 exports.deleteNotification = asyncHandler(async (req, res) => {
-  await notificationService.remove(req.params.id);
+  await notificationService.remove(req.params.id, req.user._id);
   res.json({ message: "Notification supprimée" });
 });
 

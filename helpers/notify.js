@@ -1,9 +1,9 @@
 // notify.js — factory functions for every notification type.
-// Checks user preferences before creating a notification.
+// Checks user preferences AND quiet hours before creating a notification.
 //
 // Usage:
 //   const notify = require("../helpers/notify");
-//   await notify.newReview(place.userId, reviewer.name, place.name, place._id);
+//   await notify.newReview(place.ownerId, reviewer.name, place.name, place._id, reviewer._id, "Place");
 
 const notifService = require("../services/notification.service");
 const User         = require("../models/User");
@@ -18,7 +18,6 @@ const T = {
   COMMUNITY: "COMMUNITY",
 };
 
-// Maps notification type → user preference channel key
 const TYPE_TO_CHANNEL = {
   REVIEW:           "reviews",
   EVENT:            "events",
@@ -29,27 +28,37 @@ const TYPE_TO_CHANNEL = {
   SYSTEM_BROADCAST: "system",
 };
 
-// Check if the user has in-app notifications enabled for this type.
-// Defaults to true when preference is missing (safe fallback).
-async function isInAppEnabled(userId, type) {
+// Returns true if current local time falls inside the quiet-hours window.
+// Handles overnight ranges (e.g. 22:00 → 08:00).
+function isInQuietHours(quietHours) {
+  if (!quietHours?.enabled) return false;
   try {
-    const channelKey = TYPE_TO_CHANNEL[type] || "system";
-    // System broadcasts are never blocked
-    if (channelKey === "system") return true;
-
-    const user = await User.findById(userId).select("notificationPreferences").lean();
-    const ch   = user?.notificationPreferences?.channels?.[channelKey];
-    // If preference not found → default to enabled
-    return ch?.in_app !== false;
+    const now   = new Date();
+    const hhmm  = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
+    const from  = quietHours.from  || "22:00";
+    const until = quietHours.until || "08:00";
+    return from > until
+      ? hhmm >= from || hhmm < until   // overnight: 22:00–08:00
+      : hhmm >= from && hhmm < until;  // same-day:  08:00–20:00
   } catch {
-    return true; // never block on error
+    return false;
   }
 }
 
 async function send(userId, payload) {
   try {
-    const enabled = await isInAppEnabled(userId, payload.type);
-    if (!enabled) return;
+    const user  = await User.findById(userId).select("notificationPreferences").lean();
+    const prefs = user?.notificationPreferences ?? {};
+
+    // 1. Check in-app channel preference (system notifications are never blocked)
+    const channelKey = TYPE_TO_CHANNEL[payload.type] || "system";
+    if (channelKey !== "system") {
+      const ch = prefs?.channels?.[channelKey];
+      if (ch?.in_app === false) return;
+    }
+
+    // 2. Check quiet hours (system notifications bypass quiet hours)
+    if (payload.type !== T.SYSTEM && isInQuietHours(prefs?.quietHours)) return;
 
     await notifService.createAndEmit({
       userId,
@@ -67,30 +76,89 @@ async function send(userId, payload) {
   }
 }
 
-// ─── Specific notification factories ─────────────────────────────────────────
+// ─── Routing helpers ──────────────────────────────────────────────────────────
 
-const newReview = (ownerId, reviewerName, placeName, placeId, senderId = null) =>
-  send(ownerId, {
+const TARGET_META = {
+  Place:        { linkBase: "places", entityType: "place" },
+  GuideProfile: { linkBase: "guides", entityType: "guide" },
+  Event:        { linkBase: "events", entityType: "event" },
+};
+
+// ─── Review / Comment ─────────────────────────────────────────────────────────
+
+// New top-level review/comment on any entity (Place, GuideProfile, Event)
+const newReview = (ownerId, reviewerName, entityName, entityId, senderId = null, targetType = "Place") => {
+  const meta = TARGET_META[targetType] || TARGET_META.Place;
+  return send(ownerId, {
     type:       T.REVIEW,
     senderName: reviewerName,
     senderId,
-    title:      `New review on "${placeName}"`,
-    message:    `${reviewerName} left a review on your place.`,
-    link:       `/places/${placeId}`,
-    entityId:   placeId,
-    entityType: "place",
+    title:      `New review on "${entityName}"`,
+    message:    `${reviewerName} left a review.`,
+    link:       `/${meta.linkBase}/${entityId}`,
+    entityId,
+    entityType: meta.entityType,
+  });
+};
+
+// Reply to a comment/post
+const communityReply = (authorId, replierName, postTitle, postLink, senderId = null) =>
+  send(authorId, {
+    type:       T.COMMUNITY,
+    senderName: replierName,
+    senderId,
+    title:      `New reply on "${postTitle}"`,
+    message:    `${replierName} replied to your comment.`,
+    link:       postLink,
+    entityType: "user",
+    entityId:   senderId,
   });
 
-const newEventInCity = (userId, eventTitle, cityName, eventId) =>
+// ─── Guide verification ───────────────────────────────────────────────────────
+
+const newGuideVerified = (userId, guideName) =>
   send(userId, {
-    type:       T.EVENT,
-    senderName: "City Guide",
-    title:      `New event in ${cityName}`,
-    message:    `"${eventTitle}" is coming up in ${cityName}!`,
-    link:       `/events/${eventId}`,
-    entityId:   eventId,
-    entityType: "event",
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Guide Profile Verified!",
+    message:    `Congratulations ${guideName}! Your guide profile is now verified and visible to tourists.`,
+    link:       "/settings/profile/guide",
+    entityType: "guide",
   });
+
+const guideRejected = (userId, guideName) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Guide Application Update",
+    message:    `${guideName}, your guide application was not approved at this time. Contact support for more details.`,
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
+// ─── Business verification ────────────────────────────────────────────────────
+
+const businessVerified = (userId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Business Verified!",
+    message:    "Your business has been verified on City Guide. Your listing is now highlighted for visitors.",
+    link:       "/settings/profile/business",
+    entityType: "system",
+  });
+
+const businessRejected = (userId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Business Verification Update",
+    message:    "Your business verification request was not approved. Please contact support for details.",
+    link:       "/settings/profile/business",
+    entityType: "system",
+  });
+
+// ─── Bookings ─────────────────────────────────────────────────────────────────
 
 const bookingConfirmed = (userId, guideName, date, guideId = null) =>
   send(userId, {
@@ -114,6 +182,8 @@ const bookingRequest = (guideUserId, touristName, date, senderId = null) =>
     entityType: "booking",
   });
 
+// ─── Messages ─────────────────────────────────────────────────────────────────
+
 const newMessage = (recipientId, senderName, preview, senderId = null) =>
   send(recipientId, {
     type:       T.MESSAGE,
@@ -126,27 +196,20 @@ const newMessage = (recipientId, senderName, preview, senderId = null) =>
     entityId:   senderId,
   });
 
-const newGuideVerified = (userId, guideName) =>
+// ─── Events ───────────────────────────────────────────────────────────────────
+
+const newEventInCity = (userId, eventTitle, cityName, eventId) =>
   send(userId, {
-    type:       T.GUIDE,
-    senderName: "City Guide Team",
-    title:      "Guide Profile Verified!",
-    message:    `${guideName}, your guide profile is now verified and visible to tourists.`,
-    link:       "/settings/profile/guide",
-    entityType: "guide",
+    type:       T.EVENT,
+    senderName: "City Guide",
+    title:      `New event in ${cityName}`,
+    message:    `"${eventTitle}" is coming up in ${cityName}!`,
+    link:       `/events/${eventId}`,
+    entityId:   eventId,
+    entityType: "event",
   });
 
-const communityReply = (authorId, replierName, postTitle, postLink, senderId = null) =>
-  send(authorId, {
-    type:       T.COMMUNITY,
-    senderName: replierName,
-    senderId,
-    title:      `New reply on "${postTitle}"`,
-    message:    `${replierName} replied to your post.`,
-    link:       postLink,
-    entityType: "user",
-    entityId:   senderId,
-  });
+// ─── System broadcast ─────────────────────────────────────────────────────────
 
 const systemBroadcast = (userId, title, message, link = "") =>
   send(userId, {
@@ -161,12 +224,15 @@ const systemBroadcast = (userId, title, message, link = "") =>
 module.exports = {
   send,
   newReview,
-  newEventInCity,
+  communityReply,
+  newGuideVerified,
+  guideRejected,
+  businessVerified,
+  businessRejected,
   bookingConfirmed,
   bookingRequest,
   newMessage,
-  newGuideVerified,
-  communityReply,
+  newEventInCity,
   systemBroadcast,
   TYPE: T,
 };

@@ -2,6 +2,10 @@ const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Comment      = require("../models/Comment");
 const Score        = require("../models/Score");
+const Place        = require("../models/Place");
+const GuideProfile = require("../models/GuideProfile");
+const Event        = require("../models/Event");
+const notify       = require("../helpers/notify");
 
 const SCORE_TARGETS = ["Place", "GuideProfile"];
 
@@ -12,6 +16,27 @@ async function upsertScore(targetId, targetType, authorId, rating) {
     { score: rating },
     { upsert: true, new: true, runValidators: true }
   );
+}
+
+// Resolves the owner userId and display name for any comment target entity
+async function getEntityOwner(targetId, targetType) {
+  try {
+    if (targetType === "Place") {
+      const place = await Place.findById(targetId).select("ownerId name").lean();
+      return place?.ownerId ? { ownerId: place.ownerId, entityName: place.name } : null;
+    }
+    if (targetType === "GuideProfile") {
+      const guide = await GuideProfile.findById(targetId).select("userId").lean();
+      return guide?.userId ? { ownerId: guide.userId, entityName: "your guide profile" } : null;
+    }
+    if (targetType === "Event") {
+      const event = await Event.findById(targetId).select("organizedBy title").lean();
+      return event?.organizedBy ? { ownerId: event.organizedBy, entityName: event.title } : null;
+    }
+  } catch {
+    // never block on notification lookup failure
+  }
+  return null;
 }
 
 // GET /comments?targetId=&targetType=&parentCommentId=
@@ -34,6 +59,36 @@ exports.postComment = asyncHandler(async (req, res) => {
   const comment = await Comment.create({ ...req.body, authorId: req.user._id });
   await comment.populate("authorId", "firstName lastName avatarUrl");
   await upsertScore(req.body.targetId, req.body.targetType, req.user._id, req.body.rating);
+
+  // Fire-and-forget notifications (never block the HTTP response)
+  const authorName = [req.user.firstName, req.user.lastName].filter(Boolean).join(" ") || "Someone";
+
+  if (!req.body.parentCommentId) {
+    // Top-level review/comment → notify entity owner
+    getEntityOwner(req.body.targetId, req.body.targetType).then((entity) => {
+      if (!entity?.ownerId) return;
+      if (entity.ownerId.toString() === req.user._id.toString()) return; // don't self-notify
+      notify.newReview(entity.ownerId, authorName, entity.entityName, req.body.targetId, req.user._id, req.body.targetType)
+        .catch(() => {});
+    }).catch(() => {});
+  } else {
+    // Reply → notify parent comment author
+    Comment.findById(req.body.parentCommentId).select("authorId content").lean()
+      .then((parent) => {
+        if (!parent?.authorId) return;
+        if (parent.authorId.toString() === req.user._id.toString()) return; // don't self-notify
+        const targetPath = { Place: "places", GuideProfile: "guides", Event: "events" }[req.body.targetType] || "places";
+        const snippet    = (parent.content || "").slice(0, 50);
+        notify.communityReply(
+          parent.authorId,
+          authorName,
+          snippet,
+          `/${targetPath}/${req.body.targetId}`,
+          req.user._id
+        ).catch(() => {});
+      }).catch(() => {});
+  }
+
   res.status(201).json(comment);
 });
 
