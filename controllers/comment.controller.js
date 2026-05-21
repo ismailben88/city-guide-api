@@ -58,12 +58,20 @@ exports.getComments = asyncHandler(async (req, res) => {
 exports.postComment = asyncHandler(async (req, res) => {
   const { targetId, targetType, parentCommentId, rating } = req.body;
 
-  // Self-review guard: top-level reviews only (replies are allowed from anyone)
-  if (!parentCommentId) {
+  // Self-review guard: top-level reviews only, skip for website-level reviews
+  if (!parentCommentId && targetType !== "website") {
     const entity = await getEntityOwner(targetId, targetType);
     if (entity?.ownerId && entity.ownerId.toString() === req.user._id.toString()) {
       throw new ApiError(403, "You cannot review your own listing");
     }
+  }
+
+  // One website review per user
+  if (targetType === "website" && !parentCommentId) {
+    const existing = await Comment.findOne({
+      targetId, targetType, authorId: req.user._id, status: "active",
+    });
+    if (existing) throw new ApiError(409, "You have already submitted a review.");
   }
 
   const comment = await Comment.create({ ...req.body, authorId: req.user._id });

@@ -1,13 +1,13 @@
-const { Schema, model, Types } = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const commentSchema = new Schema(
   {
-    targetId:        { type: Types.ObjectId, required: true, refPath: "targetType" },
-    targetType:      { type: String, required: true, enum: ["Place", "GuideProfile", "Event"] },
-    authorId:        { type: Types.ObjectId, ref: "User", required: true },
+    targetId:        { type: Schema.Types.Mixed, required: true },
+    targetType:      { type: String, required: true, enum: ["Place", "GuideProfile", "Event", "website"] },
+    authorId:        { type: Schema.Types.ObjectId, ref: "User", required: true },
     content:         { type: String, required: true, maxlength: 1000, trim: true },
     rating:          { type: Number, default: 0, min: 0, max: 5 },
-    parentCommentId: { type: Types.ObjectId, ref: "Comment", default: null },
+    parentCommentId: { type: Schema.Types.ObjectId, ref: "Comment", default: null },
     status:          { type: String, enum: ["active", "deleted", "flagged"], default: "active" },
     likeCount:       { type: Number, default: 0 },
   },
