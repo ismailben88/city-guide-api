@@ -11,5 +11,6 @@ router.put   ("/:id",                protect, ctrl.updateGuideProfile);
 router.delete("/:id",                protect, restrict("admin"), ctrl.deleteGuideProfile);
 router.put   ("/:id/availability",   protect, ctrl.updateAvailability);
 router.post  ("/:id/verify-documents", protect, ctrl.submitVerificationDocuments);
+router.patch ("/:id/verify",           protect, restrict("admin"), ctrl.verifyGuideProfile);
 
 module.exports = router;

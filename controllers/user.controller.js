@@ -29,6 +29,8 @@ exports.updateUser = asyncHandler(async (req, res) => {
 
 // PATCH /users/:id/role  (admin only)
 exports.updateRole = asyncHandler(async (req, res) => {
+  if (req.params.id === req.user._id.toString())
+    throw new ApiError(400, "You cannot change your own role");
   const user = await userService.updateRole(req.params.id, req.body.role);
   res.json(user);
 });
