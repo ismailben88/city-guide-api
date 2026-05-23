@@ -5,13 +5,14 @@ validateEnv();
 
 const http         = require("http");
 const { Server }   = require("socket.io");
-const express      = require("express");
-const cors         = require("cors");
-const path         = require("path");
-const connectDB    = require("./config/db");
-const apiRouter    = require("./routes/index");
-const errorHandler = require("./middlewares/error.middleware");
-const { setIO }    = require("./utils/socket");
+const express        = require("express");
+const cors           = require("cors");
+const path           = require("path");
+const mongoSanitize  = require("express-mongo-sanitize");
+const connectDB      = require("./config/db");
+const apiRouter      = require("./routes/index");
+const errorHandler   = require("./middlewares/error.middleware");
+const { setIO }      = require("./utils/socket");
 
 connectDB();
 
@@ -34,6 +35,21 @@ app.use(cors({
 
 // ─── Middlewares globaux ──────────────────────────────────────────────────────
 app.use(express.json());
+// Strip MongoDB operators ($, .) from request inputs — prevents NoSQL injection.
+// Express 5 makes req.query a read-only getter, so we override it with a sanitized
+// data property rather than trying to reassign the getter directly.
+app.use((req, res, next) => {
+  if (req.body)   req.body   = mongoSanitize.sanitize(req.body);
+  if (req.params) req.params = mongoSanitize.sanitize(req.params);
+  const rawQuery = req.query;
+  if (rawQuery && Object.keys(rawQuery).length) {
+    Object.defineProperty(req, "query", {
+      configurable: true, writable: true, enumerable: true,
+      value: mongoSanitize.sanitize(rawQuery),
+    });
+  }
+  next();
+});
 
 // Serve uploads — /tmp/uploads on Vercel, ./uploads locally
 const uploadsDir = process.env.VERCEL

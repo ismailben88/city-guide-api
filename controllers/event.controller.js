@@ -1,8 +1,12 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Event        = require("../models/Event");
+const Place        = require("../models/Place");
+const Favorite     = require("../models/Favorite");
+const City         = require("../models/City");
 const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
 const cacheService = require("../services/cache.service");
+const notify       = require("../helpers/notify");
 
 const PREFIX = "events";
 
@@ -74,7 +78,31 @@ exports.createEvent = asyncHandler(async (req, res) => {
   const event = await Event.create({ ...req.body, organizedBy: req.user._id });
   cacheService.delByPrefix(PREFIX);
   res.status(201).json(event);
+
+  // Fire-and-forget: notify users who have favorited places in this event's city
+  if (event.cityId) {
+    notifyUsersInCity(event.cityId, event.title || event.name, event._id).catch(() => {});
+  }
 });
+
+async function notifyUsersInCity(cityId, eventTitle, eventId) {
+  const city = await City.findById(cityId).select("name").lean();
+  if (!city) return;
+
+  // Find places in this city, then users who favorited any of them
+  const places = await Place.find({ cityId }).select("_id").lean();
+  if (!places.length) return;
+  const placeIds = places.map((p) => p._id);
+
+  const favs = await Favorite.find({ targetType: "Place", targetId: { $in: placeIds } })
+    .select("userId").lean();
+  if (!favs.length) return;
+
+  const userIds = [...new Set(favs.map((f) => f.userId.toString()))];
+  await Promise.allSettled(
+    userIds.map((uid) => notify.newEventInCity(uid, eventTitle, city.name, eventId))
+  );
+}
 
 // PUT /events/:id
 exports.updateEvent = asyncHandler(async (req, res) => {

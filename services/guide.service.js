@@ -3,6 +3,7 @@ const User           = require("../models/User");
 const Media          = require("../models/Media");
 const PendingRequest = require("../models/PendingRequest");
 const City           = require("../models/City");
+const notify         = require("../helpers/notify");
 const ApiError       = require("../utils/ApiError");
 const { getPagination } = require("../utils/pagination.utils");
 const { Types } = require("mongoose");
@@ -45,14 +46,14 @@ const resolveCityIds = async (rawIds = []) => {
 };
 
 const getGuides = async (query) => {
-  const { cityId, userId, verificationStatus = "verified", ...rest } = query;
+  const { cityId, userId, ...rest } = query;
   const { skip, limit, page } = getPagination(rest);
 
   const filter = {};
   if (userId) {
     filter.userId = userId;
   } else {
-    filter.verificationStatus = verificationStatus;
+    filter.$or = [{ isPublished: true }, { verificationStatus: "verified" }];
     if (cityId) filter.cityIds = cityId;
   }
 
@@ -66,7 +67,7 @@ const getGuides = async (query) => {
 };
 
 const getNearbyGuides = async () => {
-  const guides = await GuideProfile.find({ verificationStatus: "verified" })
+  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }] })
     .populate(POPULATE_GUIDE)
     .limit(20);
   return guides.map(toFrontend);
@@ -84,21 +85,95 @@ const createGuideProfile = async (userId, data) => {
 
   const cityIds = await resolveCityIds(data.cityIds ?? []);
 
-  const [guide] = await Promise.all([
-    GuideProfile.create({ ...data, cityIds, userId }),
-    PendingRequest.create({ requestType: "guide_application", requestedBy: userId, payload: data }),
-  ]);
+  const guide = await GuideProfile.create({ ...data, cityIds, userId, verificationStatus: "unverified" });
+  await User.findByIdAndUpdate(userId, { isGuide: true });
+
+  // Create a pending request immediately so admin sees all new guide applications
+  await PendingRequest.create({
+    requestType: "guide_application",
+    requestedBy: userId,
+    payload:     { guideId: guide._id },
+  });
+
+  // Notify the user that their application was received
+  notify.guideApplicationReceived(userId).catch(() => {});
 
   return guide;
 };
 
-const updateGuideProfile = async (id, data) => {
-  const update = { ...data };
+const submitVerificationDocuments = async (guideId, userId, { idDocumentUrl, entrepreneurDocUrl }) => {
+  const guide = await GuideProfile.findById(guideId);
+  if (!guide) throw new ApiError(404, "Guide introuvable");
+  if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+  if (guide.verificationStatus === "verified") throw new ApiError(400, "Profil déjà vérifié");
+  if (!idDocumentUrl || !entrepreneurDocUrl) throw new ApiError(400, "Les deux documents sont requis");
+
+  const now = new Date();
+  await GuideProfile.findByIdAndUpdate(guideId, {
+    verificationStatus: "pending",
+    verificationDocuments: {
+      idDocument:      { url: idDocumentUrl,      uploadedAt: now },
+      entrepreneurDoc: { url: entrepreneurDocUrl, uploadedAt: now },
+    },
+  });
+
+  // Upsert a guide_verification request so admin can review the documents separately
+  await PendingRequest.findOneAndUpdate(
+    { requestedBy: userId, requestType: "guide_verification", status: "pending" },
+    { payload: { guideId, idDocumentUrl, entrepreneurDocUrl } },
+    { upsert: true, new: true }
+  );
+
+  notify.guideVerificationDocumentsReceived(userId).catch(() => {});
+
+  return { message: "Documents soumis pour vérification" };
+};
+
+// Fields users must never be able to modify directly
+const PROTECTED_FIELDS = new Set([
+  "userId", "isPublished", "verificationStatus", "verifiedBy",
+  "averageRating", "reviewCount",
+]);
+
+const updateGuideProfile = async (id, userId, data) => {
+  const existing = await GuideProfile.findById(id).select("userId bannerUrl");
+  if (!existing) throw new ApiError(404, "Guide introuvable");
+  if (existing.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+
+  // Strip any protected fields from the incoming payload
+  const update = Object.fromEntries(
+    Object.entries(data).filter(([k]) => !PROTECTED_FIELDS.has(k))
+  );
+
+  // Server-side validation
+  if (update.tagline !== undefined) {
+    const t = String(update.tagline).trim();
+    if (t.length > 0 && t.length < 10) throw new ApiError(400, "Tagline must be at least 10 characters");
+    if (t.length > 60)                  throw new ApiError(400, "Tagline must be 60 characters or fewer");
+  }
+  if (update.bio !== undefined) {
+    const b = String(update.bio).trim();
+    if (b.length > 0 && b.length < 30) throw new ApiError(400, "Bio must be at least 30 characters");
+    if (b.length > 600)                 throw new ApiError(400, "Bio must be 600 characters or fewer");
+  }
+  if (update.pricePerHour !== undefined) {
+    const p = Number(update.pricePerHour);
+    if (isNaN(p) || p < 0)    throw new ApiError(400, "Invalid price");
+    if (p > 0 && p < 50)      throw new ApiError(400, "Minimum rate is 50 MAD");
+    update.pricePerHour = p;
+  }
+
   if (update.cityIds) update.cityIds = await resolveCityIds(update.cityIds);
 
   if (update.bannerUrl !== undefined) {
-    const old = await GuideProfile.findById(id).select("bannerUrl");
-    if (old?.bannerUrl) await deleteUploadedFile(old.bannerUrl);
+    // Reject blob: / data: URLs — only accept server-relative or absolute http(s) paths
+    if (/^(blob:|data:)/i.test(update.bannerUrl)) {
+      delete update.bannerUrl;
+    } else {
+      if (existing.bannerUrl && existing.bannerUrl !== update.bannerUrl) {
+        await deleteUploadedFile(existing.bannerUrl);
+      }
+    }
   }
 
   const guide = await GuideProfile.findByIdAndUpdate(id, update, { new: true, runValidators: true });
@@ -130,6 +205,7 @@ module.exports = {
   getNearbyGuides,
   getGuideById,
   createGuideProfile,
+  submitVerificationDocuments,
   updateGuideProfile,
   deleteGuideProfile,
   updateAvailability,

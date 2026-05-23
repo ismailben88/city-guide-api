@@ -7,6 +7,7 @@ const Event          = require("../models/Event");
 const Comment        = require("../models/Comment");
 const Report         = require("../models/Report");
 const ApiError       = require("../utils/ApiError");
+const notify         = require("../helpers/notify");
 const { getPagination } = require("../utils/pagination.utils");
 
 // ─── Pending Requests ─────────────────────────────────────────────────────────
@@ -35,22 +36,100 @@ const getPendingRequestById = async (id) => {
 };
 
 const approvePendingRequest = async (id, adminId) => {
-  const request = await PendingRequest.findByIdAndUpdate(
-    id,
-    { status: "approved", reviewedBy: adminId },
-    { new: true }
-  );
+  const request = await PendingRequest.findById(id);
   if (!request) throw new ApiError(404, "Demande introuvable");
+  if (request.status !== "pending") throw new ApiError(400, "Cette demande a déjà été traitée");
+
+  request.status     = "approved";
+  request.reviewedBy = adminId;
+  await request.save();
+
+  const userId = request.requestedBy;
+
+  if (request.requestType === "guide_application") {
+    await GuideProfile.findOneAndUpdate({ userId }, { isPublished: true });
+    await AdminLog.create({
+      adminId, action: "approve_guide_application",
+      targetType: "GuideProfile", targetId: userId,
+      metadata: { requestId: id },
+    });
+    notify.guideProfilePublished(userId).catch(() => {});
+  }
+
+  if (request.requestType === "guide_verification") {
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, isPublished: true });
+    await User.findByIdAndUpdate(userId, { isGuide: true });
+    const user = await User.findById(userId).select("firstName").lean();
+    await AdminLog.create({
+      adminId, action: "approve_guide_verification",
+      targetType: "GuideProfile", targetId: userId,
+      metadata: { requestId: id },
+    });
+    notify.newGuideVerified(userId, user?.firstName || "Guide").catch(() => {});
+  }
+
+  if (request.requestType === "business_verification") {
+    const place = await Place.findByIdAndUpdate(
+      request.placeId,
+      { isVerifiedBusiness: true, status: "active", ownerId: userId },
+      { new: true }
+    );
+    await AdminLog.create({
+      adminId, action: "approve_business",
+      targetType: "Place", targetId: request.placeId,
+      metadata: { requestId: id },
+    });
+    notify.businessVerified(userId, place?.name || "", request.placeId).catch(() => {});
+  }
+
   return request;
 };
 
 const rejectPendingRequest = async (id, adminId, reason = "") => {
-  const request = await PendingRequest.findByIdAndUpdate(
-    id,
-    { status: "rejected", reviewedBy: adminId, reason },
-    { new: true }
-  );
+  const request = await PendingRequest.findById(id);
   if (!request) throw new ApiError(404, "Demande introuvable");
+  if (request.status !== "pending") throw new ApiError(400, "Cette demande a déjà été traitée");
+
+  request.status     = "rejected";
+  request.reviewedBy = adminId;
+  request.reason     = reason;
+  await request.save();
+
+  const userId = request.requestedBy;
+
+  if (request.requestType === "guide_application") {
+    await AdminLog.create({
+      adminId, action: "reject_guide_application",
+      targetType: "GuideProfile", targetId: userId,
+      metadata: { requestId: id, reason },
+    });
+    notify.guideApplicationRejected(userId).catch(() => {});
+  }
+
+  if (request.requestType === "guide_verification") {
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected" });
+    await AdminLog.create({
+      adminId, action: "reject_guide_verification",
+      targetType: "GuideProfile", targetId: userId,
+      metadata: { requestId: id, reason },
+    });
+    notify.guideVerificationRejected(userId).catch(() => {});
+  }
+
+  if (request.requestType === "business_verification") {
+    const place = await Place.findByIdAndUpdate(
+      request.placeId,
+      { status: "rejected", rejectionReason: reason || "" },
+      { new: true }
+    );
+    await AdminLog.create({
+      adminId, action: "reject_business",
+      targetType: "Place", targetId: request.placeId,
+      metadata: { requestId: id, reason },
+    });
+    notify.businessRejected(userId, place?.name || "", reason).catch(() => {});
+  }
+
   return request;
 };
 

@@ -22,8 +22,9 @@ const placeSchema = new Schema(
     address:     { type: String, default: "" },
     images:      { type: [String], default: [] },
 
-    status:     { type: String, enum: ["active", "archived", "pending"], default: "active" },
-    isFeatured: { type: Boolean, default: false },
+    status:          { type: String, enum: ["active", "archived", "pending", "rejected"], default: "active" },
+    rejectionReason: { type: String, default: "" },
+    isFeatured:      { type: Boolean, default: false },
     priceRange: { type: String, default: "" },
 
     translations:      { type: Schema.Types.Mixed, default: {} },

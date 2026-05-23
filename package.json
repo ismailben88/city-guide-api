@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-      "dev":   "nodemon server.js",
-  "restart": "npx kill-port 5000 && node server.js",
+    "dev": "nodemon server.js",
+    "restart": "npx kill-port 5000 && node server.js",
     "seed": "node scripts/seeders/seed.js",
     "seed:no-clean": "node scripts/seeders/seed.js --no-clean",
     "seed:clean": "node scripts/seeders/clean.js",
@@ -21,13 +21,16 @@
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^8.5.2",
     "groq-sdk": "^1.1.2",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.3.2",
     "multer": "^2.1.1",
     "node-cache": "^5.1.2",
-    "socket.io": "^4.8.3"
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.3",
+    "speakeasy": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"

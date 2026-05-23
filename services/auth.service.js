@@ -1,18 +1,30 @@
-const User     = require("../models/User");
-const ApiError = require("../utils/ApiError");
+const User         = require("../models/User");
+const Notification = require("../models/Notification");
+const ApiError     = require("../utils/ApiError");
 const { signToken } = require("../utils/jwt.utils");
+const notify       = require("../helpers/notify");
+
+// Send welcome + profile-reminder notifications the first time a user has none.
+// Called on login so existing users (registered before this code) also receive them.
+async function sendOnboardingIfNew(userId, firstName) {
+  const count = await Notification.countDocuments({ userId });
+  if (count === 0) {
+    await notify.welcomeUser(userId, firstName);
+    await notify.profileIncompleteReminder(userId);
+  }
+}
 
 // Champs renvoyés au client après auth — jamais le passwordHash
 const toPublicUser = (user) => ({
-  id:             user._id,
-  firstName:      user.firstName,
-  lastName:       user.lastName,
-  email:          user.email,
-  role:           user.role,
-  avatarUrl:      user.avatarUrl,
-  isVerified:     user.isVerified,
-  authProvider:   user.authProvider,
-  linkedAccounts: user.linkedAccounts || [],
+  id:               user._id,
+  firstName:        user.firstName,
+  lastName:         user.lastName,
+  email:            user.email,
+  role:             user.role,
+  avatarUrl:        user.avatarUrl,
+  isVerified:       user.isVerified,
+  authProvider:     user.authProvider,
+  linkedAccounts:   user.linkedAccounts   || [],
 });
 
 const registerUser = async ({ firstName, lastName, email, password, authProvider, avatarUrl }) => {
@@ -21,6 +33,11 @@ const registerUser = async ({ firstName, lastName, email, password, authProvider
 
   const user  = await User.create({ firstName, lastName, email, passwordHash: password, authProvider, avatarUrl });
   const token = signToken(user._id);
+
+  // Fire-and-forget: welcome + profile completion reminder
+  notify.welcomeUser(user._id, user.firstName).catch(() => {});
+  notify.profileIncompleteReminder(user._id).catch(() => {});
+
   return { token, user: toPublicUser(user) };
 };
 
@@ -33,6 +50,9 @@ const loginUser = async ({ email, password }) => {
 
   user.lastLoginAt = new Date();
   await user.save({ validateBeforeSave: false });
+
+  // Fire-and-forget: send onboarding notifications if user has never received any
+  sendOnboardingIfNew(user._id, user.firstName).catch(() => {});
 
   const token = signToken(user._id);
   return { token, user: toPublicUser(user) };
@@ -49,6 +69,8 @@ const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
     if (!user.isActive) throw new ApiError(403, "Compte désactivé");
     user.lastLoginAt = new Date();
     await user.save({ validateBeforeSave: false });
+    // Fire-and-forget: onboarding notifications for existing social users
+    sendOnboardingIfNew(user._id, user.firstName).catch(() => {});
   } else {
     user = await User.create({
       firstName,
@@ -58,6 +80,10 @@ const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
       avatarUrl:    avatar || "",
       passwordHash: `${provider}_${accountId}`,
     });
+
+    // Fire-and-forget: welcome new social auth users
+    notify.welcomeUser(user._id, user.firstName).catch(() => {});
+    notify.profileIncompleteReminder(user._id).catch(() => {});
   }
 
   const token = signToken(user._id);
