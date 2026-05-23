@@ -50,6 +50,12 @@ exports.deletePlace = asyncHandler(async (req, res) => {
   res.json({ message: "Place archivée" });
 });
 
+// DELETE /places/:id/permanent  (admin only)
+exports.permanentDeletePlace = asyncHandler(async (req, res) => {
+  await placeService.permanentDeletePlace(req.params.id);
+  res.json({ message: "Place définitivement supprimée" });
+});
+
 // PATCH /places/:id/feature
 exports.toggleFeature = asyncHandler(async (req, res) => {
   const isFeatured = await placeService.toggleFeature(req.params.id, req.body.isFeatured);
