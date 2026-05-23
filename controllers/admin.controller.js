@@ -136,6 +136,8 @@ exports.restoreComment = asyncHandler(async (req, res) => {
 exports.setUserActive = asyncHandler(async (req, res) => {
   const { isActive } = req.body;
   if (typeof isActive !== "boolean") throw new ApiError(400, "isActive doit être un booléen");
+  if (req.params.id === req.user._id.toString())
+    throw new ApiError(400, "You cannot deactivate your own account");
   const user = await User.findByIdAndUpdate(req.params.id, { isActive }, { new: true });
   if (!user) throw new ApiError(404, "Utilisateur introuvable");
   res.json(user);

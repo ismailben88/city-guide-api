@@ -22,24 +22,35 @@ router.get   ("/analytics",  ...isAdmin, ctrl.getAnalytics);
 
 // Comment moderation
 router.get   ("/comments",             ...isAdmin, ctrl.getAllComments);
-router.delete("/comments/:id",         ...isAdmin, async (req, res, next) => {
-  try {
-    const Comment = require("../models/Comment");
-    const c = await Comment.findByIdAndUpdate(req.params.id, { status: "deleted" }, { new: true });
-    if (!c) return res.status(404).json({ message: "Not found" });
-    res.json(c);
-  } catch (e) { next(e); }
-});
-router.patch ("/comments/:id/restore", ...isAdmin, async (req, res, next) => {
-  try {
-    const Comment = require("../models/Comment");
-    const c = await Comment.findByIdAndUpdate(req.params.id, { status: "active" }, { new: true });
-    if (!c) return res.status(404).json({ message: "Not found" });
-    res.json(c);
-  } catch (e) { next(e); }
-});
+router.delete("/comments/:id",         ...isAdmin, ctrl.softDeleteComment);
+router.patch ("/comments/:id/restore", ...isAdmin, ctrl.restoreComment);
 
 // User status (activate / deactivate)
 router.patch ("/users/:id/status", ...isAdmin, ctrl.setUserActive);
+
+// All guide profiles (admin view — bypasses isPublished/verified filter)
+router.get("/guides", ...isAdmin, async (req, res, next) => {
+  try {
+    const GuideProfile = require("../models/GuideProfile");
+    const { getPagination } = require("../utils/pagination.utils");
+    const { verificationStatus } = req.query;
+    const { skip, limit } = getPagination(req.query);
+
+    const filter = {};
+    if (verificationStatus) filter.verificationStatus = verificationStatus;
+
+    const [guides, total] = await Promise.all([
+      GuideProfile.find(filter)
+        .populate("userId", "firstName lastName email avatarUrl")
+        .populate("cityIds", "name")
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(limit),
+      GuideProfile.countDocuments(filter),
+    ]);
+
+    res.json({ guides, total });
+  } catch (e) { next(e); }
+});
 
 module.exports = router;

@@ -142,7 +142,7 @@ const getAdminLogs = async (query) => {
   const filter = {};
   if (targetType) filter.targetType = targetType;
   if (targetId)   filter.targetId   = targetId;
-  if (action)     filter.action     = action;
+  if (action)     filter.action     = { $regex: action, $options: "i" };
 
   return AdminLog.find(filter)
     .populate("adminId", "firstName lastName")

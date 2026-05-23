@@ -72,3 +72,22 @@ exports.submitVerificationDocuments = asyncHandler(async (req, res) => {
   cacheService.delByPrefix(PREFIX);
   res.json(result);
 });
+
+// PATCH /guideProfiles/:id/verify  (admin only)
+exports.verifyGuideProfile = asyncHandler(async (req, res) => {
+  const GuideProfile = require("../models/GuideProfile");
+  const ApiError     = require("../utils/ApiError");
+  const { status } = req.body;
+  const VALID = ["unverified", "pending", "verified", "rejected"];
+  if (!VALID.includes(status)) throw new ApiError(400, "Invalid verification status");
+
+  const guide = await GuideProfile.findByIdAndUpdate(
+    req.params.id,
+    { verificationStatus: status, verifiedBy: req.user._id },
+    { new: true }
+  ).populate("userId", "firstName lastName email avatarUrl");
+
+  if (!guide) throw new ApiError(404, "Guide profile not found");
+  cacheService.delByPrefix(PREFIX);
+  res.json(guide);
+});
