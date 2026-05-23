@@ -1,6 +1,7 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Event        = require("../models/Event");
+const AdminLog     = require("../models/AdminLog");
 const Place        = require("../models/Place");
 const Favorite     = require("../models/Favorite");
 const City         = require("../models/City");
@@ -116,8 +117,21 @@ exports.updateEvent = asyncHandler(async (req, res) => {
 
 // DELETE /events/:id
 exports.deleteEvent = asyncHandler(async (req, res) => {
+  const event = await Event.findById(req.params.id).select("title status");
+  if (!event) throw new ApiError(404, "Événement introuvable");
+  if (event.status === "cancelled") throw new ApiError(400, "Événement déjà annulé");
+
   await Event.findByIdAndUpdate(req.params.id, { status: "cancelled" });
   cacheService.delByPrefix(PREFIX);
+
+  await AdminLog.create({
+    adminId: req.user._id,
+    action: "cancel_event",
+    targetType: "Event",
+    targetId: event._id,
+    metadata: { title: event.title },
+  });
+
   res.json({ message: "Événement annulé" });
 });
 
@@ -130,5 +144,14 @@ exports.toggleFeature = asyncHandler(async (req, res) => {
   );
   if (!event) throw new ApiError(404, "Événement introuvable");
   cacheService.delByPrefix(PREFIX);
+
+  await AdminLog.create({
+    adminId: req.user._id,
+    action: req.body.isFeatured ? "feature_event" : "unfeature_event",
+    targetType: "Event",
+    targetId: event._id,
+    metadata: { title: event.title },
+  });
+
   res.json({ isFeatured: event.isFeatured });
 });
