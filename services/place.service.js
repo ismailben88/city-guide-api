@@ -136,6 +136,14 @@ const archivePlace = async (id) => {
   await Place.findByIdAndUpdate(id, { status: "archived" });
 };
 
+const permanentDeletePlace = async (id) => {
+  const place = await Place.findByIdAndDelete(id);
+  if (!place) throw new ApiError(404, "Place introuvable");
+  if (place.images?.length) {
+    await deleteUploadedFiles(place.images);
+  }
+};
+
 const toggleFeature = async (id, isFeatured) => {
   const place = await Place.findByIdAndUpdate(id, { isFeatured }, { new: true });
   if (!place) throw new ApiError(404, "Place introuvable");
@@ -173,6 +181,7 @@ module.exports = {
   createPlace,
   updatePlace,
   archivePlace,
+  permanentDeletePlace,
   toggleFeature,
   attachMedia,
   claimBusiness,
