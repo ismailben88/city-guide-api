@@ -11,7 +11,10 @@ exports.getCategories = asyncHandler(async (req, res) => {
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
 
-  const categories = await Category.find({ status: "active" }).sort({ name: 1 });
+  const { status = "active" } = req.query;
+  const filter = status === "all" ? {} : { status };
+
+  const categories = await Category.find(filter).sort({ name: 1 });
 
   cacheService.set(key, categories, cacheService.TTL.CATEGORIES);
   res.json(categories);
