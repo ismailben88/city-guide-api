@@ -1,10 +1,23 @@
 const Place               = require("../models/Place");
+const Favorite            = require("../models/Favorite");
 const PendingRequest      = require("../models/PendingRequest");
 const Media               = require("../models/Media");
 const ApiError            = require("../utils/ApiError");
 const { getPagination }   = require("../utils/pagination.utils");
 const { translateFields } = require("./translate.service");
 const { deleteUploadedFiles } = require("./fileCleanup.service");
+const notify              = require("../helpers/notify");
+
+// Notify all users who favorited a place — fire-and-forget helper
+async function notifyFavoriters(placeId, placeName, type) {
+  const favs = await Favorite.find({ targetId: placeId, targetType: "Place" }).select("userId").lean();
+  if (!favs.length) return;
+  const userIds = [...new Set(favs.map((f) => f.userId.toString()))];
+  const fn = type === "featured" ? notify.savedPlaceFeatured
+           : type === "active"   ? notify.savedPlaceNowActive
+           :                       notify.savedPlaceUpdated;
+  await Promise.allSettled(userIds.map((uid) => fn(uid, placeName, placeId)));
+}
 
 const POPULATE_PLACE = [
   { path: "cityId",     select: "name slug" },
@@ -104,8 +117,18 @@ const updatePlace = async (id, data) => {
       await deleteUploadedFiles(removed);
     }
   }
-  const place = await Place.findByIdAndUpdate(id, data, { new: true, runValidators: true });
+
+  const before = await Place.findById(id).select("status").lean();
+  const place  = await Place.findByIdAndUpdate(id, data, { new: true, runValidators: true });
   if (!place) throw new ApiError(404, "Place introuvable");
+
+  // Notify favoriting users: status became active, or general content update
+  if (data.status === "active" && before?.status !== "active") {
+    notifyFavoriters(place._id, place.name, "active").catch(() => {});
+  } else if (Object.keys(data).some((k) => ["name", "description", "address", "images", "priceRange"].includes(k))) {
+    notifyFavoriters(place._id, place.name, "updated").catch(() => {});
+  }
+
   return place;
 };
 
@@ -116,6 +139,7 @@ const archivePlace = async (id) => {
 const toggleFeature = async (id, isFeatured) => {
   const place = await Place.findByIdAndUpdate(id, { isFeatured }, { new: true });
   if (!place) throw new ApiError(404, "Place introuvable");
+  if (isFeatured) notifyFavoriters(place._id, place.name, "featured").catch(() => {});
   return place.isFeatured;
 };
 
