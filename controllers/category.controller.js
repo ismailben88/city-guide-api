@@ -48,9 +48,10 @@ exports.updateCategory = asyncHandler(async (req, res) => {
   res.json(category);
 });
 
-// DELETE /categories/:id
+// DELETE /categories/:id  — permanent hard delete
 exports.deleteCategory = asyncHandler(async (req, res) => {
-  await Category.findByIdAndUpdate(req.params.id, { status: "inactive" });
+  const category = await Category.findByIdAndDelete(req.params.id);
+  if (!category) throw new ApiError(404, "Catégorie introuvable");
   cacheService.delByPrefix(PREFIX);
-  res.json({ message: "Catégorie désactivée" });
+  res.json({ message: "Catégorie supprimée" });
 });
