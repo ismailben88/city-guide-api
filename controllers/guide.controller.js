@@ -43,7 +43,7 @@ exports.createGuideProfile = asyncHandler(async (req, res) => {
 
 // PUT /guideProfiles/:id
 exports.updateGuideProfile = asyncHandler(async (req, res) => {
-  const guide = await guideService.updateGuideProfile(req.params.id, req.body);
+  const guide = await guideService.updateGuideProfile(req.params.id, req.user._id, req.body);
   cacheService.delByPrefix(PREFIX);
   res.json(guide);
 });
@@ -60,4 +60,15 @@ exports.updateAvailability = asyncHandler(async (req, res) => {
   const availability = await guideService.updateAvailability(req.params.id, req.body.availability);
   cacheService.delByPrefix(PREFIX);
   res.json({ availability });
+});
+
+// POST /guideProfiles/:id/verify-documents
+exports.submitVerificationDocuments = asyncHandler(async (req, res) => {
+  const result = await guideService.submitVerificationDocuments(
+    req.params.id,
+    req.user._id,
+    req.body,
+  );
+  cacheService.delByPrefix(PREFIX);
+  res.json(result);
 });
