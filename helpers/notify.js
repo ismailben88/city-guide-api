@@ -116,6 +116,56 @@ const communityReply = (authorId, replierName, postTitle, postLink, senderId = n
 
 // ─── Guide verification ───────────────────────────────────────────────────────
 
+const guideApplicationReceived = (userId) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Guide application received",
+    message:    "Your guide profile is under review. We'll let you know once it's published.",
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
+const guideProfilePublished = (userId) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Your guide profile is live!",
+    message:    "Your application was approved. Your profile is now visible to travelers. Upload your ID to become a verified guide.",
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
+const guideApplicationRejected = (userId) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Guide application not approved",
+    message:    "Your guide application was reviewed but could not be approved at this time. Contact support for more details.",
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
+const guideVerificationDocumentsReceived = (userId) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Verification documents received",
+    message:    "We've received your ID and guide certificate. You'll be notified once our team completes the review — usually within 24 hours.",
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
+const guideVerificationRejected = (userId) =>
+  send(userId, {
+    type:       T.GUIDE,
+    senderName: "City Guide Team",
+    title:      "Verification not approved",
+    message:    "We could not verify your guide documents. Please check that they are clear and valid, then resubmit.",
+    link:       "/settings/profile/guide",
+    entityType: "guide",
+  });
+
 const newGuideVerified = (userId, guideName) =>
   send(userId, {
     type:       T.GUIDE,
@@ -138,23 +188,81 @@ const guideRejected = (userId, guideName) =>
 
 // ─── Business verification ────────────────────────────────────────────────────
 
-const businessVerified = (userId) =>
+const businessVerified = (userId, businessName = "", placeId = null) =>
   send(userId, {
     type:       T.SYSTEM,
     senderName: "City Guide Team",
-    title:      "Business Verified!",
-    message:    "Your business has been verified on City Guide. Your listing is now highlighted for visitors.",
+    title:      "Business listing approved!",
+    message:    businessName
+      ? `"${businessName}" is now live on City Guide. Travellers can discover it right away.`
+      : "Your business listing is now live on City Guide.",
+    link:       "/settings/profile/business",
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const businessRejected = (userId, businessName = "", reason = "") =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Business listing not approved",
+    message:    reason
+      ? `Your listing${businessName ? ` "${businessName}"` : ""} was not approved: ${reason}. You can edit and resubmit.`
+      : `Your listing${businessName ? ` "${businessName}"` : ""} was not approved. You may edit and resubmit it.`,
     link:       "/settings/profile/business",
     entityType: "system",
   });
 
-const businessRejected = (userId) =>
+const businessSubmitted = (userId, businessName, placeId = null) =>
   send(userId, {
     type:       T.SYSTEM,
     senderName: "City Guide Team",
-    title:      "Business Verification Update",
-    message:    "Your business verification request was not approved. Please contact support for details.",
+    title:      "Listing submitted for review",
+    message:    `"${businessName}" is under review. We'll notify you once it's approved — usually within 48 hours.`,
     link:       "/settings/profile/business",
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const businessUpdated = (userId, businessName, placeId = null) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Listing updated",
+    message:    `Your listing "${businessName}" was updated successfully.`,
+    link:       "/settings/profile/business",
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const businessDeleted = (userId, businessName) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Listing removed",
+    message:    `Your listing "${businessName}" has been removed from City Guide.`,
+    link:       "/settings/profile/business",
+    entityType: "system",
+  });
+
+const adminBusinessSubmitted = (adminId, ownerName, businessName, placeId = null) =>
+  send(adminId, {
+    type:       T.SYSTEM,
+    senderName: ownerName,
+    title:      "New listing awaiting review",
+    message:    `${ownerName} submitted "${businessName}" for approval.`,
+    link:       "/admin/requests",
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const adminBusinessDeleted = (adminId, ownerName, businessName) =>
+  send(adminId, {
+    type:       T.SYSTEM,
+    senderName: ownerName,
+    title:      "Business listing removed",
+    message:    `${ownerName} deleted their listing "${businessName}".`,
+    link:       "/admin/requests",
     entityType: "system",
   });
 
@@ -221,18 +329,90 @@ const systemBroadcast = (userId, title, message, link = "") =>
     entityType: "system",
   });
 
+// ─── Welcome & onboarding ─────────────────────────────────────────────────────
+
+const welcomeUser = (userId, firstName) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      `Welcome to City Guide, ${firstName}!`,
+    message:    "Start exploring places, upcoming events, and local guides in your city.",
+    link:       "/explore",
+    entityType: "system",
+  });
+
+const profileIncompleteReminder = (userId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide Team",
+    title:      "Complete your profile",
+    message:    "Add your city, a profile photo, and a few personal details to get personalised recommendations.",
+    link:       "/settings/personal",
+    entityType: "system",
+  });
+
+// ─── Saved places ─────────────────────────────────────────────────────────────
+
+const savedPlaceUpdated = (userId, placeName, placeId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide",
+    title:      `"${placeName}" has been updated`,
+    message:    "A place you saved was updated with new information. Check what's changed.",
+    link:       `/places/${placeId}`,
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const savedPlaceFeatured = (userId, placeName, placeId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide",
+    title:      `"${placeName}" is now featured`,
+    message:    "A place you saved has been highlighted as a top destination on City Guide.",
+    link:       `/places/${placeId}`,
+    entityId:   placeId,
+    entityType: "place",
+  });
+
+const savedPlaceNowActive = (userId, placeName, placeId) =>
+  send(userId, {
+    type:       T.SYSTEM,
+    senderName: "City Guide",
+    title:      `"${placeName}" is now open`,
+    message:    "Good news — a place you saved is now active and welcoming visitors.",
+    link:       `/places/${placeId}`,
+    entityId:   placeId,
+    entityType: "place",
+  });
+
 module.exports = {
   send,
   newReview,
   communityReply,
+  guideApplicationReceived,
+  guideProfilePublished,
+  guideApplicationRejected,
+  guideVerificationDocumentsReceived,
+  guideVerificationRejected,
   newGuideVerified,
   guideRejected,
   businessVerified,
   businessRejected,
+  businessSubmitted,
+  businessUpdated,
+  businessDeleted,
+  adminBusinessSubmitted,
+  adminBusinessDeleted,
   bookingConfirmed,
   bookingRequest,
   newMessage,
   newEventInCity,
   systemBroadcast,
+  welcomeUser,
+  profileIncompleteReminder,
+  savedPlaceUpdated,
+  savedPlaceFeatured,
+  savedPlaceNowActive,
   TYPE: T,
 };

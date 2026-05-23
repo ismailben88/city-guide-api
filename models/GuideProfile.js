@@ -30,6 +30,7 @@ const guideProfileSchema = new Schema(
     cityIds:      [{ type: Types.ObjectId, ref: "City" }],
     pricePerHour: { type: Number, default: 0, min: 0 },
 
+    isPublished:          { type: Boolean, default: false },
     isCurrentlyAvailable: { type: Boolean, default: true },
 
     schedule:         { type: [daySchema], default: [] },
@@ -42,8 +43,13 @@ const guideProfileSchema = new Schema(
 
     verificationStatus: {
       type:    String,
-      enum:    ["pending", "verified", "rejected"],
-      default: "pending",
+      enum:    ["unverified", "pending", "verified", "rejected"],
+      default: "unverified",
+    },
+
+    verificationDocuments: {
+      idDocument:      { url: { type: String, default: "" }, uploadedAt: { type: Date, default: null } },
+      entrepreneurDoc: { url: { type: String, default: "" }, uploadedAt: { type: Date, default: null } },
     },
 
     averageRating: { type: Number, default: 0, min: 0, max: 5 },
@@ -54,6 +60,7 @@ const guideProfileSchema = new Schema(
 );
 
 guideProfileSchema.index({ cityIds: 1 });
+guideProfileSchema.index({ isPublished: 1 });
 guideProfileSchema.index({ verificationStatus: 1 });
 guideProfileSchema.index({ averageRating: -1 });
 
