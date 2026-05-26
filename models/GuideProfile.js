@@ -55,6 +55,8 @@ const guideProfileSchema = new Schema(
     averageRating: { type: Number, default: 0, min: 0, max: 5 },
     reviewCount:   { type: Number, default: 0 },
     verifiedBy:    { type: Types.ObjectId, ref: "User", default: null },
+
+    certified: { type: Boolean, default: false },
   },
   { timestamps: true }
 );
@@ -62,6 +64,7 @@ const guideProfileSchema = new Schema(
 guideProfileSchema.index({ cityIds: 1 });
 guideProfileSchema.index({ isPublished: 1 });
 guideProfileSchema.index({ verificationStatus: 1 });
+guideProfileSchema.index({ certified: 1 });
 guideProfileSchema.index({ averageRating: -1 });
 
 module.exports = model("GuideProfile", guideProfileSchema);

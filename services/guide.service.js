@@ -53,7 +53,7 @@ const getGuides = async (query) => {
   if (userId) {
     filter.userId = userId;
   } else {
-    filter.$or = [{ isPublished: true }, { verificationStatus: "verified" }];
+    filter.$or = [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }];
     if (cityId) filter.cityIds = cityId;
   }
 
@@ -67,7 +67,7 @@ const getGuides = async (query) => {
 };
 
 const getNearbyGuides = async () => {
-  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }] })
+  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }] })
     .populate(POPULATE_GUIDE)
     .limit(20);
   return guides.map(toFrontend);
@@ -132,7 +132,7 @@ const submitVerificationDocuments = async (guideId, userId, { idDocumentUrl, ent
 // Fields users must never be able to modify directly
 const PROTECTED_FIELDS = new Set([
   "userId", "isPublished", "verificationStatus", "verifiedBy",
-  "averageRating", "reviewCount",
+  "averageRating", "reviewCount", "certified",
 ]);
 
 const updateGuideProfile = async (id, userId, data) => {
