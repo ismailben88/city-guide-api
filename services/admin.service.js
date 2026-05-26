@@ -57,7 +57,7 @@ const approvePendingRequest = async (id, adminId) => {
   }
 
   if (request.requestType === "guide_verification") {
-    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, isPublished: true });
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, isPublished: true, certified: true });
     await User.findByIdAndUpdate(userId, { isGuide: true });
     const user = await User.findById(userId).select("firstName").lean();
     await AdminLog.create({
@@ -107,7 +107,7 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
   }
 
   if (request.requestType === "guide_verification") {
-    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected" });
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected", certified: false });
     await AdminLog.create({
       adminId, action: "reject_guide_verification",
       targetType: "GuideProfile", targetId: userId,
