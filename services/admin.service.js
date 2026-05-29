@@ -303,7 +303,7 @@ const getAnalytics = async () => {
 // ─── Comment Moderation ───────────────────────────────────────────────────────
 
 const getAllComments = async (query) => {
-  const { targetType, status, search, ...rest } = query;
+  const { targetType, status, search, sortBy, sortDir, ...rest } = query;
   const { skip, limit } = getPagination(rest);
 
   const filter = {};
@@ -311,10 +311,14 @@ const getAllComments = async (query) => {
   filter.status = status || { $in: ["active", "deleted", "flagged"] };
   if (search)     filter.content = { $regex: search, $options: "i" };
 
+  const VALID_SORT = ["createdAt", "rating", "likeCount"];
+  const sortField  = VALID_SORT.includes(sortBy) ? sortBy : "createdAt";
+  const sortOrder  = sortDir === "asc" ? 1 : -1;
+
   const [comments, total] = await Promise.all([
     Comment.find(filter)
       .populate("authorId", "firstName lastName email avatarUrl")
-      .sort({ createdAt: -1 })
+      .sort({ [sortField]: sortOrder })
       .skip(skip)
       .limit(limit),
     Comment.countDocuments(filter),
