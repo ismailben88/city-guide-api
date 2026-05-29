@@ -6,5 +6,6 @@ router.get   ("/",             protect, restrict("admin"), ctrl.getReports);
 router.post  ("/",             protect, ctrl.submitReport);
 router.patch ("/:id/review",   protect, restrict("admin"), ctrl.reviewReport);
 router.patch ("/:id/resolve",  protect, restrict("admin"), ctrl.resolveReport);
+router.patch ("/:id/reopen",   protect, restrict("admin"), ctrl.reopenReport);
 
 module.exports = router;
