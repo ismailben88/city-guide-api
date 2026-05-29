@@ -22,18 +22,28 @@ exports.getEvents = asyncHandler(async (req, res) => {
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
 
-  const { cityId, status, isFeatured, ...rest } = req.query;
+  const { cityId, status, isFeatured, search, isFree, dateFrom, dateTo, sortBy = "dateRange.from", sortDir = "asc", ...rest } = req.query;
   const { skip, limit, page } = getPagination(rest);
 
   const filter = {};
   if (cityId)                   filter.cityId     = cityId;
   if (status)                   filter.status     = status;
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
+  if (isFree === "true")        filter.ticketPrice = 0;
+  if (search)                   filter.title      = { $regex: search, $options: "i" };
+  if (dateFrom || dateTo) {
+    filter["dateRange.from"] = {};
+    if (dateFrom) filter["dateRange.from"].$gte = new Date(dateFrom);
+    if (dateTo)   filter["dateRange.from"].$lte = new Date(dateTo);
+  }
+
+  const sortField = ["dateRange.from", "createdAt", "title"].includes(sortBy) ? sortBy : "dateRange.from";
+  const sortOrder = sortDir === "desc" ? -1 : 1;
 
   const [events, total] = await Promise.all([
     Event.find(filter)
       .populate(POPULATE_EVENT)
-      .sort({ "dateRange.from": 1 })
+      .sort({ [sortField]: sortOrder })
       .skip(skip)
       .limit(limit),
     Event.countDocuments(filter),
@@ -133,6 +143,16 @@ exports.deleteEvent = asyncHandler(async (req, res) => {
   });
 
   res.json({ message: "Événement annulé" });
+});
+
+// PATCH /events/:id/cover  (multipart — field "file")
+exports.uploadCover = asyncHandler(async (req, res) => {
+  if (!req.file) throw new ApiError(400, "No file provided");
+  const url   = `/uploads/${req.file.filename}`;
+  const event = await Event.findByIdAndUpdate(req.params.id, { coverImage: url }, { new: true });
+  if (!event) throw new ApiError(404, "Événement introuvable");
+  cacheService.delByPrefix(PREFIX);
+  res.json({ url });
 });
 
 // PATCH /events/:id/feature
