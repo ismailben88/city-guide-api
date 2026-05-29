@@ -1,7 +1,7 @@
 /**
- * Master Test Runner — User Profile System
+ * Master Test Runner — City Guide Backend
  *
- * Runs all profile test suites sequentially and prints a combined report.
+ * Runs all test suites sequentially and prints a combined report.
  *
  * Prerequisites:
  *   - Backend running on http://localhost:5000  (or set API_URL env var)
@@ -19,16 +19,56 @@
 const { BASE } = require("./helpers/client");
 
 const SUITES = [
-  { name: "01 — Authentication",         module: "./profile/01_auth.test"         },
-  { name: "02 — Profile CRUD",           module: "./profile/02_profile_crud.test" },
-  { name: "03 — Password & Security",    module: "./profile/03_password_security.test" },
-  { name: "04 — Notification Prefs",     module: "./profile/04_notifications.test" },
-  { name: "05 — Authorization",          module: "./profile/05_authorization.test" },
+  // ── Profile System ───────────────────────────────────────────────────────
+  { name: "01 — Authentication",              module: "./profile/01_auth.test"              },
+  { name: "02 — Profile CRUD",                module: "./profile/02_profile_crud.test"      },
+  { name: "03 — Password & Security",         module: "./profile/03_password_security.test" },
+  { name: "04 — Notification Prefs",          module: "./profile/04_notifications.test"     },
+  { name: "05 — Authorization",               module: "./profile/05_authorization.test"     },
+  { name: "06 — Auth Extended",               module: "./profile/06_auth_extended.test"     },
+  // ── Places ───────────────────────────────────────────────────────────────
+  { name: "07 — Places CRUD",                 module: "./places/01_places_crud.test"        },
+  { name: "08 — Places Search & Discovery",   module: "./places/02_places_search.test"      },
+  // ── Events ───────────────────────────────────────────────────────────────
+  { name: "09 — Events CRUD",                 module: "./events/01_events_crud.test"        },
+  // ── Cities ───────────────────────────────────────────────────────────────
+  { name: "10 — Cities CRUD",                 module: "./cities/01_cities.test"             },
+  // ── Categories ───────────────────────────────────────────────────────────
+  { name: "11 — Categories CRUD",             module: "./categories/01_categories.test"     },
+  // ── Comments ─────────────────────────────────────────────────────────────
+  { name: "12 — Comments CRUD",               module: "./comments/01_comments.test"         },
+  // ── Favorites ────────────────────────────────────────────────────────────
+  { name: "13 — Favorites CRUD",              module: "./favorites/01_favorites.test"       },
+  // ── Search ───────────────────────────────────────────────────────────────
+  { name: "14 — Cross-Resource Search",       module: "./search/01_search.test"             },
+  // ── Media ────────────────────────────────────────────────────────────────
+  { name: "15 — Media Upload",                module: "./media/01_media.test"               },
+  // ── Scores ───────────────────────────────────────────────────────────────
+  { name: "16 — Scores & Ratings",            module: "./scores/01_scores.test"             },
+  // ── Notifications API ────────────────────────────────────────────────────
+  { name: "17 — Notifications API",           module: "./notifications/01_notifications_api.test" },
+  // ── Contact ──────────────────────────────────────────────────────────────
+  { name: "18 — Contact Form",                module: "./contact/01_contact.test"           },
+  // ── Chat ─────────────────────────────────────────────────────────────────
+  { name: "19 — Chat / AI Assistant",         module: "./chat/01_chat.test"                 },
+  // ── Businesses ───────────────────────────────────────────────────────────
+  { name: "20 — Businesses",                  module: "./businesses/01_businesses.test"     },
+  // ── Admin ────────────────────────────────────────────────────────────────
+  { name: "21 — Admin Dashboard",             module: "./admin/01_admin.test"               },
+  { name: "22 — Admin Extended",              module: "./admin/02_admin_extended.test"      },
+  { name: "23 — Admin Reports",               module: "./admin/03_admin_reports.test"       },
+  // ── Home Page ────────────────────────────────────────────────────────────
+  { name: "24 — Home Places",                 module: "./home/04_home_places.test"          },
+  { name: "25 — Home Categories",             module: "./home/05_home_categories.test"      },
+  { name: "26 — Home Cities",                 module: "./home/06_home_cities.test"          },
+  { name: "27 — Home Events",                 module: "./home/07_home_events.test"          },
+  { name: "28 — Home Guides",                 module: "./home/08_home_guides.test"          },
+  { name: "29 — Home Auth",                   module: "./home/09_home_auth.test"            },
 ];
 
 async function main() {
   console.log("\n\x1b[1m\x1b[36m══════════════════════════════════════════════════════\x1b[0m");
-  console.log("\x1b[1m\x1b[36m  City Guide — User Profile Test Suite\x1b[0m");
+  console.log("\x1b[1m\x1b[36m  City Guide — Backend Integration Test Suite\x1b[0m");
   console.log(`\x1b[1m\x1b[36m  API: ${BASE}\x1b[0m`);
   console.log("\x1b[1m\x1b[36m══════════════════════════════════════════════════════\x1b[0m");
 
