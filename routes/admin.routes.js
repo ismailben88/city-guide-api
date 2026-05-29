@@ -29,28 +29,6 @@ router.patch ("/comments/:id/restore", ...isAdmin, ctrl.restoreComment);
 router.patch ("/users/:id/status", ...isAdmin, ctrl.setUserActive);
 
 // All guide profiles (admin view — bypasses isPublished/verified filter)
-router.get("/guides", ...isAdmin, async (req, res, next) => {
-  try {
-    const GuideProfile = require("../models/GuideProfile");
-    const { getPagination } = require("../utils/pagination.utils");
-    const { verificationStatus } = req.query;
-    const { skip, limit } = getPagination(req.query);
-
-    const filter = {};
-    if (verificationStatus) filter.verificationStatus = verificationStatus;
-
-    const [guides, total] = await Promise.all([
-      GuideProfile.find(filter)
-        .populate("userId", "firstName lastName email avatarUrl")
-        .populate("cityIds", "name")
-        .sort({ createdAt: -1 })
-        .skip(skip)
-        .limit(limit),
-      GuideProfile.countDocuments(filter),
-    ]);
-
-    res.json({ guides, total });
-  } catch (e) { next(e); }
-});
+router.get("/guides", ...isAdmin, ctrl.getAllGuides);
 
 module.exports = router;

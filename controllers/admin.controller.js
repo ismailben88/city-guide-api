@@ -118,6 +118,46 @@ exports.restoreComment = asyncHandler(async (req, res) => {
   res.json(comment);
 });
 
+// ─── Guide Profiles (admin) ───────────────────────────────────────────────────
+
+// GET /admin/guides
+exports.getAllGuides = asyncHandler(async (req, res) => {
+  const GuideProfile = require("../models/GuideProfile");
+  const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
+
+  const { verificationStatus, cityId, certified, isPublished, search, ...rest } = req.query;
+  const { skip, limit, page } = getPagination(rest);
+
+  const filter = {};
+  if (verificationStatus) filter.verificationStatus = verificationStatus;
+  if (cityId)             filter.cityIds = cityId;
+  if (certified  !== undefined) filter.certified  = certified  === "true";
+  if (isPublished !== undefined) filter.isPublished = isPublished === "true";
+
+  if (search) {
+    const matchingUsers = await User.find({
+      $or: [
+        { firstName: { $regex: search, $options: "i" } },
+        { lastName:  { $regex: search, $options: "i" } },
+        { email:     { $regex: search, $options: "i" } },
+      ],
+    }).select("_id").lean();
+    filter.userId = { $in: matchingUsers.map((u) => u._id) };
+  }
+
+  const [guides, total] = await Promise.all([
+    GuideProfile.find(filter)
+      .populate("userId",  "firstName lastName email avatarUrl")
+      .populate("cityIds", "name")
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit),
+    GuideProfile.countDocuments(filter),
+  ]);
+
+  res.json({ guides, total, ...buildPaginationMeta(total, page, limit) });
+});
+
 // ─── User Management ─────────────────────────────────────────────────────────
 
 // PATCH /admin/users/:id/status
