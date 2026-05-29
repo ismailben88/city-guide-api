@@ -4,7 +4,7 @@ const mediaSchema = new Schema(
   {
     url:        { type: String, required: true },
     type:       { type: String, enum: ["image", "video"], default: "image" },
-    parentType: { type: String, required: true, enum: ["Place", "GuideProfile", "Event"] },
+    parentType: { type: String, required: true, enum: ["Place", "GuideProfile", "Event", "User"] },
     parentId:   { type: Types.ObjectId, required: true, refPath: "parentType" },
     uploadedBy: { type: Types.ObjectId, ref: "User", required: true },
     order:      { type: Number, default: 0 },

@@ -130,18 +130,20 @@ const guideProfilePublished = (userId) =>
   send(userId, {
     type:       T.GUIDE,
     senderName: "City Guide Team",
-    title:      "Your guide profile is live!",
-    message:    "Your application was approved. Your profile is now visible to travelers. Upload your ID to become a verified guide.",
+    title:      "Your guide application was approved!",
+    message:    "Your guide application was approved. Your profile is now live. You can now apply for certification from your settings.",
     link:       "/settings/profile/guide",
     entityType: "guide",
   });
 
-const guideApplicationRejected = (userId) =>
+const guideApplicationRejected = (userId, reason = "") =>
   send(userId, {
     type:       T.GUIDE,
     senderName: "City Guide Team",
     title:      "Guide application not approved",
-    message:    "Your guide application was reviewed but could not be approved at this time. Contact support for more details.",
+    message:    reason
+      ? `Your guide application was not approved. Reason: ${reason}`
+      : "Your guide application was not approved. Contact support for more details.",
     link:       "/settings/profile/guide",
     entityType: "guide",
   });
@@ -156,12 +158,14 @@ const guideVerificationDocumentsReceived = (userId) =>
     entityType: "guide",
   });
 
-const guideVerificationRejected = (userId) =>
+const guideVerificationRejected = (userId, reason = "") =>
   send(userId, {
     type:       T.GUIDE,
     senderName: "City Guide Team",
-    title:      "Verification not approved",
-    message:    "We could not verify your guide documents. Please check that they are clear and valid, then resubmit.",
+    title:      "Certification not approved",
+    message:    reason
+      ? `Certification not approved. Reason: ${reason}. You can resubmit from settings.`
+      : "Certification not approved. Please check your documents are clear and valid, then resubmit.",
     link:       "/settings/profile/guide",
     entityType: "guide",
   });
@@ -170,10 +174,30 @@ const newGuideVerified = (userId, guideName) =>
   send(userId, {
     type:       T.GUIDE,
     senderName: "City Guide Team",
-    title:      "Guide Profile Verified!",
-    message:    `Congratulations ${guideName}! Your guide profile is now verified and visible to tourists.`,
+    title:      "You are now a certified guide!",
+    message:    `Congratulations ${guideName}! You are now a certified guide. Your badge is live.`,
     link:       "/settings/profile/guide",
     entityType: "guide",
+  });
+
+const adminGuideApplicationSubmitted = (adminId, userName) =>
+  send(adminId, {
+    type:       T.SYSTEM,
+    senderName: userName,
+    title:      "New guide application",
+    message:    `New guide application from ${userName}.`,
+    link:       "/admin/requests",
+    entityType: "system",
+  });
+
+const adminGuideVerificationSubmitted = (adminId, userName) =>
+  send(adminId, {
+    type:       T.SYSTEM,
+    senderName: userName,
+    title:      "Guide certification request",
+    message:    `Guide certification request from ${userName}.`,
+    link:       "/admin/requests",
+    entityType: "system",
   });
 
 const guideRejected = (userId, guideName) =>
@@ -397,6 +421,8 @@ module.exports = {
   guideVerificationRejected,
   newGuideVerified,
   guideRejected,
+  adminGuideApplicationSubmitted,
+  adminGuideVerificationSubmitted,
   businessVerified,
   businessRejected,
   businessSubmitted,
