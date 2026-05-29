@@ -8,6 +8,7 @@ const Comment        = require("../models/Comment");
 const Report         = require("../models/Report");
 const ApiError       = require("../utils/ApiError");
 const notify         = require("../helpers/notify");
+const cacheService   = require("./cache.service");
 const { getPagination } = require("../utils/pagination.utils");
 
 // ─── Pending Requests ─────────────────────────────────────────────────────────
@@ -61,6 +62,7 @@ const approvePendingRequest = async (id, adminId) => {
       certified:          false,
     });
     await User.findByIdAndUpdate(userId, { isGuide: true });
+    cacheService.delByPrefix("guides");
     await AdminLog.create({
       adminId, action: "approve_guide_application",
       targetType: "GuideProfile", targetId: userId,
@@ -72,6 +74,7 @@ const approvePendingRequest = async (id, adminId) => {
   if (request.requestType === "guide_verification") {
     const user = await User.findById(userId).select("firstName").lean();
     await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, certified: true });
+    cacheService.delByPrefix("guides");
     await AdminLog.create({
       adminId, action: "approve_guide_verification",
       targetType: "GuideProfile", targetId: userId,
@@ -120,6 +123,7 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
 
   if (request.requestType === "guide_verification") {
     await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected" });
+    cacheService.delByPrefix("guides");
     await AdminLog.create({
       adminId, action: "reject_guide_verification",
       targetType: "GuideProfile", targetId: userId,
