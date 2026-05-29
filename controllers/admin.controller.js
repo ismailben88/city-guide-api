@@ -7,6 +7,13 @@ const User           = require("../models/User");
 const Comment        = require("../models/Comment");
 const notify         = require("../helpers/notify");
 
+async function notifyAdmins(fn) {
+  try {
+    const admins = await User.find({ role: "admin" }).select("_id").lean();
+    admins.forEach((a) => fn(a._id).catch(() => {}));
+  } catch { /* non-critical */ }
+}
+
 // ─── Pending Requests ─────────────────────────────────────────────────────────
 
 // GET /pendingRequests
@@ -21,56 +28,37 @@ exports.getPendingRequestById = asyncHandler(async (req, res) => {
   res.json(request);
 });
 
+// GET /pendingRequests/mine
+exports.getMyPendingRequests = asyncHandler(async (req, res) => {
+  const requests = await PendingRequest.find({ requestedBy: req.user._id }).sort({ createdAt: -1 });
+  res.json(requests);
+});
+
 // POST /pendingRequests
 exports.submitPendingRequest = asyncHandler(async (req, res) => {
   const request = await PendingRequest.create({ ...req.body, requestedBy: req.user._id });
+
+  // Notify all admins (fire-and-forget)
+  const user = await User.findById(req.user._id).select("firstName lastName").lean();
+  const userName = user ? `${user.firstName} ${user.lastName}`.trim() : "A user";
+  if (req.body.requestType === "guide_application") {
+    notifyAdmins((adminId) => notify.adminGuideApplicationSubmitted(adminId, userName));
+  } else if (req.body.requestType === "guide_verification") {
+    notifyAdmins((adminId) => notify.adminGuideVerificationSubmitted(adminId, userName));
+  }
+
   res.status(201).json(request);
 });
 
 // PATCH /pendingRequests/:id/approve
 exports.approvePendingRequest = asyncHandler(async (req, res) => {
-  // Fetch request info before mutation so we have requestedBy populated
-  const pending = await PendingRequest.findById(req.params.id)
-    .populate("requestedBy", "firstName lastName")
-    .lean();
-
   const request = await adminService.approvePendingRequest(req.params.id, req.user._id);
-
-  // Notify the applicant (fire-and-forget)
-  if (pending?.requestedBy && pending.status === "pending") {
-    const applicant = pending.requestedBy;
-    const fullName  = [applicant.firstName, applicant.lastName].filter(Boolean).join(" ") || "User";
-
-    if (pending.requestType === "guide_application") {
-      notify.newGuideVerified(applicant._id, fullName).catch(() => {});
-    } else if (pending.requestType === "business_verification") {
-      notify.businessVerified(applicant._id).catch(() => {});
-    }
-  }
-
   res.json(request);
 });
 
 // PATCH /pendingRequests/:id/reject
 exports.rejectPendingRequest = asyncHandler(async (req, res) => {
-  const pending = await PendingRequest.findById(req.params.id)
-    .populate("requestedBy", "firstName lastName")
-    .lean();
-
   const request = await adminService.rejectPendingRequest(req.params.id, req.user._id, req.body.reason);
-
-  // Notify the applicant (fire-and-forget)
-  if (pending?.requestedBy && pending.status === "pending") {
-    const applicant = pending.requestedBy;
-    const fullName  = [applicant.firstName, applicant.lastName].filter(Boolean).join(" ") || "User";
-
-    if (pending.requestType === "guide_application") {
-      notify.guideRejected(applicant._id, fullName).catch(() => {});
-    } else if (pending.requestType === "business_verification") {
-      notify.businessRejected(applicant._id).catch(() => {});
-    }
-  }
-
   res.json(request);
 });
 
