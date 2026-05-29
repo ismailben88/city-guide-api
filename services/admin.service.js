@@ -2,13 +2,24 @@ const AdminLog       = require("../models/AdminLog");
 const PendingRequest = require("../models/PendingRequest");
 const Place          = require("../models/Place");
 const GuideProfile   = require("../models/GuideProfile");
+const Media          = require("../models/Media");
 const User           = require("../models/User");
 const Event          = require("../models/Event");
 const Comment        = require("../models/Comment");
 const Report         = require("../models/Report");
 const ApiError       = require("../utils/ApiError");
 const notify         = require("../helpers/notify");
+const cacheService   = require("./cache.service");
+const { deleteUploadedFiles } = require("./fileCleanup.service");
 const { getPagination } = require("../utils/pagination.utils");
+
+// Purge verification documents from DB + disk — called after any guide_verification decision
+async function purgeVerificationDocs(payload = {}) {
+  const urls = [payload.idDocumentUrl, payload.entrepreneurDocUrl].filter(Boolean);
+  if (!urls.length) return;
+  await Media.deleteMany({ url: { $in: urls } });
+  await deleteUploadedFiles(urls).catch(() => {});
+}
 
 // ─── Pending Requests ─────────────────────────────────────────────────────────
 
@@ -47,7 +58,21 @@ const approvePendingRequest = async (id, adminId) => {
   const userId = request.requestedBy;
 
   if (request.requestType === "guide_application") {
-    await GuideProfile.findOneAndUpdate({ userId }, { isPublished: true });
+    const { bio = "", tagline = "", specialties = [], spokenLanguages = [], cityIds = [], pricePerHour = 0 } = request.payload || {};
+    await GuideProfile.create({
+      userId,
+      bio,
+      tagline,
+      specialties,
+      spokenLanguages,
+      cityIds,
+      pricePerHour,
+      isPublished:        true,
+      verificationStatus: "unverified",
+      certified:          false,
+    });
+    await User.findByIdAndUpdate(userId, { isGuide: true });
+    cacheService.delByPrefix("guides");
     await AdminLog.create({
       adminId, action: "approve_guide_application",
       targetType: "GuideProfile", targetId: userId,
@@ -57,9 +82,10 @@ const approvePendingRequest = async (id, adminId) => {
   }
 
   if (request.requestType === "guide_verification") {
-    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, isPublished: true, certified: true });
-    await User.findByIdAndUpdate(userId, { isGuide: true });
     const user = await User.findById(userId).select("firstName").lean();
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "verified", verifiedBy: adminId, certified: true });
+    cacheService.delByPrefix("guides");
+    purgeVerificationDocs(request.payload).catch(() => {});
     await AdminLog.create({
       adminId, action: "approve_guide_verification",
       targetType: "GuideProfile", targetId: userId,
@@ -103,17 +129,19 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
       targetType: "GuideProfile", targetId: userId,
       metadata: { requestId: id, reason },
     });
-    notify.guideApplicationRejected(userId).catch(() => {});
+    notify.guideApplicationRejected(userId, reason).catch(() => {});
   }
 
   if (request.requestType === "guide_verification") {
-    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected", certified: false });
+    await GuideProfile.findOneAndUpdate({ userId }, { verificationStatus: "rejected" });
+    cacheService.delByPrefix("guides");
+    purgeVerificationDocs(request.payload).catch(() => {});
     await AdminLog.create({
       adminId, action: "reject_guide_verification",
       targetType: "GuideProfile", targetId: userId,
       metadata: { requestId: id, reason },
     });
-    notify.guideVerificationRejected(userId).catch(() => {});
+    notify.guideVerificationRejected(userId, reason).catch(() => {});
   }
 
   if (request.requestType === "business_verification") {
