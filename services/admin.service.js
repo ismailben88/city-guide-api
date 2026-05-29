@@ -32,7 +32,7 @@ const getPendingRequests = async (query) => {
 
   return PendingRequest.find(filter)
     .populate("requestedBy", "firstName lastName email avatarUrl")
-    .populate("placeId", "name slug")
+    .populate("placeId", "name slug city category address isVerifiedBusiness status")
     .sort({ createdAt: -1 })
     .skip(skip)
     .limit(limit);
@@ -40,8 +40,8 @@ const getPendingRequests = async (query) => {
 
 const getPendingRequestById = async (id) => {
   const request = await PendingRequest.findById(id)
-    .populate("requestedBy", "firstName lastName email")
-    .populate("placeId", "name slug");
+    .populate("requestedBy", "firstName lastName email avatarUrl")
+    .populate("placeId", "name slug city category address isVerifiedBusiness status");
   if (!request) throw new ApiError(404, "Demande introuvable");
   return request;
 };
