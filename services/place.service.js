@@ -25,19 +25,29 @@ const POPULATE_PLACE = [
 ];
 
 const getPlaces = async (query) => {
-  const { cityId, categoryId, status = "active", isFeatured, ...rest } = query;
+  const {
+    cityId, categoryId, status = "active", isFeatured, isVerifiedBusiness,
+    search, sortBy = "createdAt", sortDir = "desc",
+    ...rest
+  } = query;
   const { skip, limit, page } = getPagination(rest);
 
   const filter = {};
-  if (status !== "all")         filter.status     = status;
-  if (cityId)                   filter.cityId     = cityId;
-  if (categoryId)               filter.categoryId = categoryId;
-  if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
+  if (status !== "all")               filter.status             = status;
+  if (cityId)                         filter.cityId             = cityId;
+  if (categoryId)                     filter.categoryId         = categoryId;
+  if (isFeatured         !== undefined) filter.isFeatured       = isFeatured         === "true";
+  if (isVerifiedBusiness !== undefined) filter.isVerifiedBusiness = isVerifiedBusiness === "true";
+  if (search)                         filter.name               = { $regex: search, $options: "i" };
+
+  const VALID_SORT = ["name", "createdAt", "averageRating", "reviewCount"];
+  const sortField  = VALID_SORT.includes(sortBy) ? sortBy : "createdAt";
+  const sortOrder  = sortDir === "asc" ? 1 : -1;
 
   const [places, total] = await Promise.all([
     Place.find(filter)
       .populate(POPULATE_PLACE)
-      .sort({ isFeatured: -1, averageRating: -1 })
+      .sort({ [sortField]: sortOrder })
       .skip(skip)
       .limit(limit),
     Place.countDocuments(filter),

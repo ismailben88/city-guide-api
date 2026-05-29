@@ -73,6 +73,38 @@ exports.submitVerificationDocuments = asyncHandler(async (req, res) => {
   res.json(result);
 });
 
+// PATCH /guideProfiles/:id/certified  (admin only)
+exports.toggleCertified = asyncHandler(async (req, res) => {
+  const GuideProfile = require("../models/GuideProfile");
+  const ApiError     = require("../utils/ApiError");
+  const { certified } = req.body;
+  if (typeof certified !== "boolean") throw new ApiError(400, "certified must be boolean");
+  const guide = await GuideProfile.findByIdAndUpdate(
+    req.params.id,
+    { certified },
+    { new: true }
+  );
+  if (!guide) throw new ApiError(404, "Guide profile not found");
+  cacheService.delByPrefix(PREFIX);
+  res.json({ certified: guide.certified });
+});
+
+// PATCH /guideProfiles/:id/publish  (admin only)
+exports.togglePublish = asyncHandler(async (req, res) => {
+  const GuideProfile = require("../models/GuideProfile");
+  const ApiError     = require("../utils/ApiError");
+  const { isPublished } = req.body;
+  if (typeof isPublished !== "boolean") throw new ApiError(400, "isPublished must be boolean");
+  const guide = await GuideProfile.findByIdAndUpdate(
+    req.params.id,
+    { isPublished },
+    { new: true }
+  );
+  if (!guide) throw new ApiError(404, "Guide profile not found");
+  cacheService.delByPrefix(PREFIX);
+  res.json({ isPublished: guide.isPublished });
+});
+
 // PATCH /guideProfiles/:id/verify  (admin only)
 exports.verifyGuideProfile = asyncHandler(async (req, res) => {
   const GuideProfile = require("../models/GuideProfile");

@@ -58,19 +58,25 @@ const approvePendingRequest = async (id, adminId) => {
   const userId = request.requestedBy;
 
   if (request.requestType === "guide_application") {
-    const { bio = "", tagline = "", specialties = [], spokenLanguages = [], cityIds = [], pricePerHour = 0 } = request.payload || {};
-    await GuideProfile.create({
-      userId,
-      bio,
-      tagline,
-      specialties,
-      spokenLanguages,
-      cityIds,
-      pricePerHour,
-      isPublished:        true,
-      verificationStatus: "unverified",
-      certified:          false,
-    });
+    const payload = request.payload || {};
+
+    if (payload.guideId) {
+      // Profile was pre-created by the user via the BecomeGuide form — just approve it
+      await GuideProfile.findByIdAndUpdate(payload.guideId, {
+        verificationStatus: "verified",
+        isPublished:        true,
+      });
+    } else {
+      // Application-only flow: no profile exists yet — create from payload
+      const { bio = "", tagline = "", specialties = [], spokenLanguages = [], cityIds = [], pricePerHour = 0 } = payload;
+      await GuideProfile.create({
+        userId, bio, tagline, specialties, spokenLanguages, cityIds, pricePerHour,
+        isPublished:        true,
+        verificationStatus: "verified",
+        certified:          false,
+      });
+    }
+
     await User.findByIdAndUpdate(userId, { isGuide: true });
     cacheService.delByPrefix("guides");
     await AdminLog.create({
@@ -124,6 +130,13 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
   const userId = request.requestedBy;
 
   if (request.requestType === "guide_application") {
+    const payload = request.payload || {};
+    if (payload.guideId) {
+      // Remove the pre-created profile since the application is rejected
+      await GuideProfile.findByIdAndDelete(payload.guideId);
+      await User.findByIdAndUpdate(userId, { isGuide: false });
+      cacheService.delByPrefix("guides");
+    }
     await AdminLog.create({
       adminId, action: "reject_guide_application",
       targetType: "GuideProfile", targetId: userId,
