@@ -58,7 +58,7 @@ router.get("/", async (req, res, next) => {
     if (req.query.mine || req.query.ownerId) {
       // Require authentication for private listing view
       await new Promise((resolve, reject) => protect(req, res, (err) => err ? reject(err) : resolve()));
-      filter = { ownerId: req.user._id };
+      filter = { ownerId: req.user._id, status: { $ne: "archived" } };
     } else {
       filter = { isVerifiedBusiness: true, status: "active" };
     }
