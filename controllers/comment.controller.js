@@ -6,16 +6,32 @@ const Place        = require("../models/Place");
 const GuideProfile = require("../models/GuideProfile");
 const Event        = require("../models/Event");
 const notify       = require("../helpers/notify");
+const { Types }    = require("mongoose");
 
 const SCORE_TARGETS = ["Place", "GuideProfile"];
 
 async function upsertScore(targetId, targetType, authorId, rating) {
-  if (!SCORE_TARGETS.includes(targetType) || !rating || rating < 1) return;
+  if (!SCORE_TARGETS.includes(targetType) || !rating || rating < 1) return false;
   await Score.findOneAndUpdate(
     { targetId, targetType, authorId },
-    { score: rating },
+    { $set: { score: rating } },
     { upsert: true, new: true, runValidators: true }
   );
+  return true;
+}
+
+// Recalculate and persist averageRating + reviewCount on Place or GuideProfile.
+// Called explicitly so the update is guaranteed before the HTTP response leaves.
+async function recalcRating(targetId, targetType) {
+  if (!SCORE_TARGETS.includes(targetType)) return;
+  const stats = await Score.aggregate([
+    { $match: { targetId: new Types.ObjectId(targetId), targetType } },
+    { $group: { _id: null, avg: { $avg: "$score" }, count: { $sum: 1 } } },
+  ]);
+  const avg   = stats[0] ? +stats[0].avg.toFixed(2) : 0;
+  const count = stats[0] ? stats[0].count            : 0;
+  const Model = targetType === "Place" ? Place : GuideProfile;
+  await Model.findByIdAndUpdate(targetId, { averageRating: avg, reviewCount: count });
 }
 
 // Resolves the owner userId and display name for any comment target entity
@@ -76,7 +92,8 @@ exports.postComment = asyncHandler(async (req, res) => {
 
   const comment = await Comment.create({ ...req.body, authorId: req.user._id });
   await comment.populate("authorId", "firstName lastName avatarUrl");
-  await upsertScore(targetId, targetType, req.user._id, rating);
+  const scoreChanged = await upsertScore(targetId, targetType, req.user._id, rating);
+  if (scoreChanged) await recalcRating(targetId, targetType);
 
   // Fire-and-forget notifications (never block the HTTP response)
   const authorName = [req.user.firstName, req.user.lastName].filter(Boolean).join(" ") || "Someone";
@@ -119,7 +136,8 @@ exports.updateComment = asyncHandler(async (req, res) => {
     { new: true, runValidators: true }
   );
   if (!comment) throw new ApiError(404, "Commentaire introuvable ou non autorisé");
-  await upsertScore(comment.targetId, comment.targetType, req.user._id, req.body.rating);
+  const scoreUpdated = await upsertScore(comment.targetId, comment.targetType, req.user._id, req.body.rating);
+  if (scoreUpdated) await recalcRating(comment.targetId, comment.targetType);
   res.json(comment);
 });
 
@@ -133,13 +151,14 @@ exports.deleteComment = asyncHandler(async (req, res) => {
   const comment = await Comment.findOneAndUpdate(query, { status: "deleted" }, { new: true });
   if (!comment) throw new ApiError(404, "Commentaire introuvable ou non autorisé");
 
-  // Remove the associated Score entry so averageRating recalculates correctly
+  // Remove the associated Score and immediately recalculate averageRating
   if ((comment.rating ?? 0) > 0) {
     await Score.findOneAndDelete({
       targetId:   comment.targetId,
       targetType: comment.targetType,
       authorId:   comment.authorId,
     });
+    await recalcRating(comment.targetId, comment.targetType);
   }
 
   res.json({ message: "Commentaire supprimé" });

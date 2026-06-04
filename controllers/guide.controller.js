@@ -73,6 +73,27 @@ exports.submitVerificationDocuments = asyncHandler(async (req, res) => {
   res.json(result);
 });
 
+// PATCH /guideProfiles/:id/pause  (owner only)
+exports.pauseGuide = asyncHandler(async (req, res) => {
+  await guideService.pauseGuideProfile(req.params.id, req.user._id);
+  cacheService.delByPrefix(PREFIX);
+  res.json({ isPaused: true });
+});
+
+// PATCH /guideProfiles/:id/resume  (owner only)
+exports.resumeGuide = asyncHandler(async (req, res) => {
+  await guideService.resumeGuideProfile(req.params.id, req.user._id);
+  cacheService.delByPrefix(PREFIX);
+  res.json({ isPaused: false });
+});
+
+// DELETE /guideProfiles/:id/self  (owner only)
+exports.selfDeleteGuideProfile = asyncHandler(async (req, res) => {
+  await guideService.selfDeleteGuideProfile(req.params.id, req.user._id);
+  cacheService.delByPrefix(PREFIX);
+  res.json({ message: "Profil guide supprimé" });
+});
+
 // PATCH /guideProfiles/:id/certified  (admin only)
 exports.toggleCertified = asyncHandler(async (req, res) => {
   const GuideProfile = require("../models/GuideProfile");

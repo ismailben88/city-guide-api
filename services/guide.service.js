@@ -54,6 +54,7 @@ const getGuides = async (query) => {
     filter.userId = userId;
   } else {
     filter.$or = [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }];
+    filter.isPaused = { $ne: true };
     if (cityId) filter.cityIds = cityId;
   }
 
@@ -67,7 +68,7 @@ const getGuides = async (query) => {
 };
 
 const getNearbyGuides = async () => {
-  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }] })
+  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }], isPaused: { $ne: true } })
     .populate(POPULATE_GUIDE)
     .limit(20);
   return guides.map(toFrontend);
@@ -200,6 +201,36 @@ const updateAvailability = async (id, availability) => {
   return guide.availability;
 };
 
+const pauseGuideProfile = async (id, userId) => {
+  const guide = await GuideProfile.findById(id).select("userId");
+  if (!guide) throw new ApiError(404, "Guide introuvable");
+  if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+  await GuideProfile.findByIdAndUpdate(id, { isPaused: true });
+  return { isPaused: true };
+};
+
+const resumeGuideProfile = async (id, userId) => {
+  const guide = await GuideProfile.findById(id).select("userId");
+  if (!guide) throw new ApiError(404, "Guide introuvable");
+  if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+  await GuideProfile.findByIdAndUpdate(id, { isPaused: false });
+  return { isPaused: false };
+};
+
+const selfDeleteGuideProfile = async (id, userId) => {
+  const guide = await GuideProfile.findById(id).select("userId bannerUrl");
+  if (!guide) return;
+  if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+
+  await GuideProfile.findByIdAndDelete(id);
+  await User.findByIdAndUpdate(userId, { isGuide: false });
+
+  if (guide.bannerUrl) await deleteUploadedFile(guide.bannerUrl);
+  const media = await Media.find({ parentId: id, parentType: "GuideProfile" });
+  await deleteUploadedFiles(media.map((m) => m.url));
+  await Media.deleteMany({ parentId: id, parentType: "GuideProfile" });
+};
+
 module.exports = {
   getGuides,
   getNearbyGuides,
@@ -209,4 +240,7 @@ module.exports = {
   updateGuideProfile,
   deleteGuideProfile,
   updateAvailability,
+  pauseGuideProfile,
+  resumeGuideProfile,
+  selfDeleteGuideProfile,
 };
