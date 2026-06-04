@@ -31,6 +31,7 @@ const guideProfileSchema = new Schema(
     pricePerHour: { type: Number, default: 0, min: 0 },
 
     isPublished:          { type: Boolean, default: false },
+    isPaused:             { type: Boolean, default: false },
     isCurrentlyAvailable: { type: Boolean, default: true },
 
     schedule:         { type: [daySchema], default: [] },
