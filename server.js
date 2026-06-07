@@ -13,6 +13,7 @@ const connectDB      = require("./config/db");
 const apiRouter      = require("./routes/index");
 const errorHandler   = require("./middlewares/error.middleware");
 const { setIO }      = require("./utils/socket");
+const { injectSpeedInsights } = require("./utils/speedInsights");
 
 connectDB();
 
@@ -35,6 +36,8 @@ app.use(cors({
 
 // ─── Middlewares globaux ──────────────────────────────────────────────────────
 app.use(express.json());
+// Inject Vercel Speed Insights into HTML responses (only in production on Vercel)
+app.use(injectSpeedInsights);
 // Strip MongoDB operators ($, .) from request inputs — prevents NoSQL injection.
 // Express 5 makes req.query a read-only getter, so we override it with a sanitized
 // data property rather than trying to reassign the getter directly.
