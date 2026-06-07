@@ -18,6 +18,12 @@ const eventSchema = new Schema(
       to:   { type: Date },
     },
 
+    category: {
+      type: String,
+      enum: ["concert", "exhibition", "theatre", "sport", "festival", "music", "culture", "art", "workshop", "other"],
+      default: "other",
+    },
+
     organizedBy: { type: Types.ObjectId, ref: "User" },
     status:      { type: String, enum: ["upcoming", "ongoing", "cancelled", "past"], default: "upcoming" },
     isFeatured:  { type: Boolean, default: false },
