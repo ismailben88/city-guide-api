@@ -11,6 +11,7 @@ module.exports = [
 
   {
     title: "Marrakech International Film Festival (FIFM)",
+    category: "culture",
     description: "One of the world's most glamorous film festivals, FIFM brings Hollywood A-listers, Bollywood legends, and world cinema auteurs to Marrakech each November. Outdoor screenings in Jemaa el-Fna, masterclasses with directors, and the prestigious Étoile d'Or award ceremony make this a highlight of the global film calendar. Past guests include Martin Scorsese, Cate Blanchett, and Leonardo DiCaprio.",
     coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80&auto=format&fit=crop",
     organizer: "FIFM Foundation",
@@ -23,6 +24,7 @@ module.exports = [
   },
   {
     title: "Marrakech International Marathon",
+    category: "sport",
     description: "One of Africa's most scenic marathons, attracting over 10,000 runners from 60 countries through a course that winds past ancient ramparts, the Palmeraie palm grove, and the pink walls of the medina. The race starts and finishes in Jemaa el-Fna and includes a half marathon and 10km categories. Spectators line the route throughout the old city.",
     coverImage: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80&auto=format&fit=crop",
     organizer: "Marrakech Running Club",
@@ -35,6 +37,7 @@ module.exports = [
   },
   {
     title: "Marrakech du Rire Comedy Festival",
+    category: "theatre",
     description: "Founded by comedian Jamel Debbouze, Marrakech du Rire is North Africa's premier stand-up comedy festival, held each June in Marrakech's most spectacular venues. It features French-language comedians from Morocco, France, Algeria, and the broader Francophone world performing in riads, outdoor theatres, and the Palais Badia. One of Morocco's most talked-about cultural events.",
     coverImage: "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=800&q=80&auto=format&fit=crop",
     organizer: "Jamel Debbouze Productions",
@@ -47,6 +50,7 @@ module.exports = [
   },
   {
     title: "Marrakech Biennale",
+    category: "art",
     description: "A biennial contemporary art festival that transforms Marrakech's medina into one enormous gallery, with site-specific installations, performance art, and exhibitions spread across riads, souks, and public spaces. International and Moroccan artists engage with the city's architecture and cultural context, creating works that would be impossible anywhere else on earth.",
     coverImage: "https://images.unsplash.com/photo-1531219432768-9f540ce91ef3?w=800&q=80&auto=format&fit=crop",
     organizer: "Marrakech Biennale Foundation",
@@ -59,6 +63,7 @@ module.exports = [
   },
   {
     title: "Atlas Electronic Festival",
+    category: "music",
     description: "A cutting-edge electronic music festival held in a dramatic outdoor setting in the foothills of the Atlas Mountains near Marrakech. Atlas Electronic features internationally acclaimed DJs and live electronic acts performing across multiple stages as the sun sets over the mountain landscape — one of the most visually spectacular festival settings in the world.",
     coverImage: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80&auto=format&fit=crop",
     organizer: "Atlas Electronic",
@@ -71,6 +76,7 @@ module.exports = [
   },
   {
     title: "Marrakech Popular Arts Festival",
+    category: "culture",
     description: "One of Morocco's oldest cultural festivals, the Marrakech Popular Arts Festival fills Jemaa el-Fna and the surrounding medina with traditional Berber performers, gnaoua musicians, Andalusian orchestras, acrobats, and folk dancers from across Morocco. Free and open to all, it celebrates the living heritage of Moroccan popular culture over seven days each July.",
     coverImage: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80&auto=format&fit=crop",
     organizer: "Ministry of Culture — Marrakech",
@@ -88,6 +94,7 @@ module.exports = [
 
   {
     title: "Mawazine — Rhythms of the World Festival",
+    category: "music",
     description: "One of the world's largest music festivals by attendance, Mawazine brings over 2.5 million spectators to Rabat each May and June for ten days of free and ticketed concerts across seven stages. The festival has hosted Beyoncé, Rihanna, Drake, Carlos Santana, and Mariah Carey. The outdoor stages in Salé and Chellah offer unforgettable settings for world-class performances.",
     coverImage: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&q=80&auto=format&fit=crop",
     organizer: "Maroc Cultures Association",
@@ -100,6 +107,7 @@ module.exports = [
   },
   {
     title: "Chellah Jazz Festival",
+    category: "music",
     description: "A uniquely atmospheric jazz festival held in the ancient Chellah necropolis in Rabat, where Roman ruins and Merenid tombs provide a sublime outdoor concert setting. International jazz artists perform as storks circle overhead and candlelight illuminates the ancient stone — one of the most magical concert experiences in the world. Free entry.",
     coverImage: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80&auto=format&fit=crop",
     organizer: "Rabat Cultural Events",
@@ -112,6 +120,7 @@ module.exports = [
   },
   {
     title: "Rabat International Marathon",
+    category: "sport",
     description: "Morocco's capital marathon follows a spectacular course through Rabat's UNESCO World Heritage sites — past the Hassan Tower, through the Kasbah of the Udayas, along the Bou Regreg riverfront, and through the medina. The race attracts elite African runners and recreational participants from 40 countries in an increasingly competitive field.",
     coverImage: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80&auto=format&fit=crop",
     organizer: "FAR Athletics Federation",
@@ -124,6 +133,7 @@ module.exports = [
   },
   {
     title: "Feast of the Throne — National Celebration",
+    category: "culture",
     description: "Morocco's most important national holiday, celebrated across the country on July 30th to mark the anniversary of King Mohammed VI's accession to the throne in 1999. In Rabat, the Royal Palace hosts official ceremonies and military parades, while the entire city celebrates with concerts, fireworks, traditional performances, and illuminated public spaces throughout the night.",
     coverImage: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80&auto=format&fit=crop",
     organizer: "Royal Cabinet of Morocco",
@@ -141,6 +151,7 @@ module.exports = [
 
   {
     title: "L'Boulevard — Urban Culture Festival",
+    category: "music",
     description: "Morocco's premier urban music and culture festival, L'Boulevard has nurtured the Casablanca hip-hop, rock, and electronic scene since 2005. Held in Casablanca each July over four days, it features local and international artists across multiple stages alongside street art exhibitions, skateboarding competitions, and battles. The defining festival of Morocco's young urban generation.",
     coverImage: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80&auto=format&fit=crop",
     organizer: "Hoba Hoba Spirit",
@@ -153,6 +164,7 @@ module.exports = [
   },
   {
     title: "Casa Fashion Week",
+    category: "exhibition",
     description: "Morocco's most prestigious fashion event, Casa Fashion Week showcases the country's top designers alongside international guest brands in Casablanca's most iconic venues. The week-long event includes runway shows, showrooms, industry panels, and networking events celebrating the growing Moroccan fashion industry and its intersection with North African and global trends.",
     coverImage: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=80&auto=format&fit=crop",
     organizer: "Casa Fashion Week Organisation",
@@ -165,6 +177,7 @@ module.exports = [
   },
   {
     title: "International Furniture & Interior Design Exhibition",
+    category: "exhibition",
     description: "Morocco's largest trade fair for furniture, interior design, and architecture, held annually in the Casablanca Exhibition Centre. The event attracts over 500 exhibitors and 50,000 visitors from across Africa and the Middle East, showcasing Moroccan artisan craftsmanship alongside international design trends. Open to trade and general public.",
     coverImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80&auto=format&fit=crop",
     organizer: "Office des Foires de Casablanca",
@@ -182,6 +195,7 @@ module.exports = [
 
   {
     title: "Fes Festival of World Sacred Music",
+    category: "music",
     description: "One of the world's most spiritually profound music festivals, held in the ancient medina of Fes each June. The festival brings Sufi masters, gospel choirs, Tibetan monks, flamenco artists, and classical musicians from six continents to perform in the Bab Al Makina palace courtyard and historic medina venues. A profound celebration of music as a universal spiritual language.",
     coverImage: "https://images.unsplash.com/photo-1514190051997-0f6f39ca5cde?w=800&q=80&auto=format&fit=crop",
     organizer: "Foundation of the Fes Festival",
@@ -194,6 +208,7 @@ module.exports = [
   },
   {
     title: "Fes Forum — Africa and the Digital World",
+    category: "workshop",
     description: "An annual international forum in Fes bringing together African leaders, tech entrepreneurs, investors, and academics to discuss digital transformation, innovation, and the future of the African technology ecosystem. Held in the historic Batha Museum complex, it combines TED-style talks, workshops, and networking events over three days.",
     coverImage: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80&auto=format&fit=crop",
     organizer: "Fes Forum Foundation",
@@ -206,6 +221,7 @@ module.exports = [
   },
   {
     title: "Andalusian Music Festival of Fes",
+    category: "music",
     description: "A celebration of Moroccan Andalusian music — the classical tradition brought to the Maghreb by Muslims and Jews expelled from Spain in 1492. Leading orchestras from Fes, Rabat, Tetouan, and international guest ensembles perform the Malhun, Gharnati, and Ala repertoires in the sublime acoustics of the Bou Inania Madrasa and Dar Batha Museum.",
     coverImage: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80&auto=format&fit=crop",
     organizer: "Fes Music Conservation Academy",
@@ -223,6 +239,7 @@ module.exports = [
 
   {
     title: "Gnaoua World Music Festival",
+    category: "music",
     description: "The world's greatest gnaoua music festival, drawing over 500,000 visitors to Essaouira across four days each June. Masters of the gnaoua tradition — healing musicians of sub-Saharan African descent — perform ritual Lila ceremonies alongside fusions with international jazz, blues, and reggae artists. All main stage concerts are free. The soul of Morocco, amplified.",
     coverImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&q=80&auto=format&fit=crop",
     organizer: "Association Essaouira Mogador",
@@ -235,6 +252,7 @@ module.exports = [
   },
   {
     title: "Essaouira Kite & Windsurf World Cup",
+    category: "sport",
     description: "The Essaouira Mogador Kite & Windsurf World Cup is an annual IKA-sanctioned competition that takes advantage of the city's legendary trade winds. Professional kiteboarders from 30 nations compete in freestyle, big air, and slalom disciplines along the beach in front of the historic ramparts — a spectacular free public event.",
     coverImage: "https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=800&q=80&auto=format&fit=crop",
     organizer: "IKA — International Kiteboarding Association",
@@ -252,6 +270,7 @@ module.exports = [
 
   {
     title: "Timitar — Signs & Cultures Festival",
+    category: "music",
     description: "Named after the Tifinagh script symbol meaning 'sign', Timitar is the largest Amazigh (Berber) music festival in the world. Held annually on Agadir's beachfront, it celebrates Amazigh culture through music with Moroccan Berber artists alongside world music performers from sub-Saharan Africa, the Americas, and Europe. All main stage concerts are free.",
     coverImage: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80&auto=format&fit=crop",
     organizer: "Agadir Province Cultural Council",
@@ -264,6 +283,7 @@ module.exports = [
   },
   {
     title: "Agadir International Surf Competition",
+    category: "sport",
     description: "An ISA-sanctioned international surfing competition held at Taghazout's world-famous Anchor Point break north of Agadir. Professional surfers from the WSL and aspiring competitors from Morocco's growing surf scene compete for rankings points in one of the world's most beautiful contest settings. Free public viewing on the headland above the point.",
     coverImage: "https://images.unsplash.com/photo-1519671282429-b44660ead0a7?w=800&q=80&auto=format&fit=crop",
     organizer: "Moroccan Surfing Federation",
@@ -281,6 +301,7 @@ module.exports = [
 
   {
     title: "Tanjazz International Jazz Festival",
+    category: "music",
     description: "One of Africa's most beloved jazz festivals, Tanjazz takes place in Tangier each September, using the city's legendary Café Hafa, the Kasbah Museum, and the Mendoubia Gardens as venues. International jazz, fusion, soul, and blues artists perform over five evenings in a city that has inspired writers and musicians for over a century.",
     coverImage: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&q=80&auto=format&fit=crop",
     organizer: "Association Tanjazz",
@@ -293,6 +314,7 @@ module.exports = [
   },
   {
     title: "Asilah Moussem International Arts Festival",
+    category: "art",
     description: "Held in the whitewashed coastal town of Asilah near Tangier each August, this internationally celebrated festival combines a summer arts festival with a cultural symposium. Artists are invited to paint murals directly onto the town's walls, transforming the entire medina into an open-air gallery. A unique, long-running experiment in community arts patronage.",
     coverImage: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80&auto=format&fit=crop",
     organizer: "Al Mouhit Foundation — Asilah",
@@ -310,6 +332,7 @@ module.exports = [
 
   {
     title: "Meknes International Film Festival",
+    category: "culture",
     description: "A growing international documentary and fiction film festival set in the imperial city of Meknes, with screenings in historic venues including Bab Mansour square and the Lahdim Palace. The festival focuses on African and Arab cinema, providing a platform for emerging filmmakers from the continent and the Arab world alongside international guest films.",
     coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80&auto=format&fit=crop",
     organizer: "Meknes Cinema Association",
@@ -327,6 +350,7 @@ module.exports = [
 
   {
     title: "Marathon des Sables",
+    category: "sport",
     description: "Described as 'the toughest footrace on Earth', the Marathon des Sables is a 6-day, 250-km ultramarathon across the Moroccan Sahara near Merzouga. Competitors from 50+ countries carry all their food and equipment and face temperatures up to 50°C, sand dunes, and rocky terrain. Since 1986, it has been the ultimate endurance challenge and bucket-list achievement.",
     coverImage: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&q=80&auto=format&fit=crop",
     organizer: "Marathon des Sables Organisation",
@@ -339,6 +363,7 @@ module.exports = [
   },
   {
     title: "Sahara Music Festival",
+    category: "music",
     description: "A three-day music and culture festival set in the Erg Chebbi dunes near Merzouga, the Sahara Music Festival celebrates traditional Saharan and Berber music alongside world music and electronic sets. Luxury desert camps provide accommodation, and the festival stages are set directly in the dunes for a truly once-in-a-lifetime concert experience under the Milky Way.",
     coverImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&q=80&auto=format&fit=crop",
     organizer: "Sahara Music Events",
@@ -356,6 +381,7 @@ module.exports = [
 
   {
     title: "Dakhla Downwinder Kite Festival",
+    category: "sport",
     description: "The world's premier kiteboarding downwind race, the Dakhla Downwinder runs 35km along the lagoon and Atlantic coast in consistent 25-knot trade winds. Over 300 professional and amateur kiteboarders compete in this IKA-sanctioned event, which also features freestyle shows, light wind racing, and a beach festival with music and local cuisine. Spectacular free spectator sport.",
     coverImage: "https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=800&q=80&auto=format&fit=crop",
     organizer: "Dakhla Attitude & IKA",
@@ -373,6 +399,7 @@ module.exports = [
 
   {
     title: "Chefchaouen International Mountain Film Festival",
+    category: "culture",
     description: "A documentary film festival dedicated to mountain cultures, adventure, and the natural environment, held annually in the blue city of Chefchaouen. Screenings of mountain documentaries from the Rif, Atlas, Himalayas, Alps, and Andes are combined with outdoor film nights, hiking events, and panel discussions with mountaineers, conservationists, and filmmakers.",
     coverImage: "https://images.unsplash.com/photo-1570524096943-de3b7e9af00f?w=800&q=80&auto=format&fit=crop",
     organizer: "Chefchaouen Cultural Foundation",
