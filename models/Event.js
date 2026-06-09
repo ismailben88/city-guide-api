@@ -38,5 +38,17 @@ const eventSchema = new Schema(
 eventSchema.index({ location: "2dsphere" });
 eventSchema.index({ cityId: 1, "dateRange.from": 1 });
 eventSchema.index({ status: 1, isFeatured: 1 });
+// Filter "upcoming/this_week/this_month" in EventsPage hits this hot path.
+eventSchema.index({ status: 1, "dateRange.from": 1 });
+eventSchema.index({ category: 1, status: 1, "dateRange.from": 1 });
+eventSchema.index({ organizedBy: 1, createdAt: -1 });
+
+// Validate that dateRange.to >= dateRange.from when both are present.
+eventSchema.pre("validate", function (next) {
+  if (this.dateRange?.to && this.dateRange?.from && this.dateRange.to < this.dateRange.from) {
+    return next(new Error("dateRange.to must be greater than or equal to dateRange.from"));
+  }
+  next();
+});
 
 module.exports = model("Event", eventSchema);

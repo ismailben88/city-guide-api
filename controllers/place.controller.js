@@ -2,6 +2,30 @@ const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const placeService = require("../services/place.service");
 
+// Fields a regular user (e.g. a business owner) is allowed to set.
+// `ownerId`, `isVerifiedBusiness`, `isFeatured`, `status`, `rejectionReason`,
+// `averageRating`, `reviewCount`, `translations`, `translationStatus` are
+// admin-only or system-managed and are stripped to prevent mass-assignment.
+const PLACE_USER_FIELDS = new Set([
+  "name", "slug", "categoryId", "cityId", "location",
+  "description", "address", "images",
+  "phone", "website", "openingHours", "tags",
+  "priceRange", "entryFee", "sourceLang",
+]);
+
+const PLACE_ADMIN_ONLY = new Set([
+  "isVerifiedBusiness", "isFeatured", "status", "rejectionReason", "ownerId",
+]);
+
+function pickAllowed(body, allowed, adminAllowed, isAdmin) {
+  const out = {};
+  for (const k of Object.keys(body || {})) {
+    if (allowed.has(k)) out[k] = body[k];
+    else if (isAdmin && adminAllowed.has(k)) out[k] = body[k];
+  }
+  return out;
+}
+
 // GET /places
 exports.getPlaces = asyncHandler(async (req, res) => {
   const result = await placeService.getPlaces(req.query);
@@ -43,13 +67,19 @@ exports.getPlaceById = asyncHandler(async (req, res) => {
 
 // POST /places
 exports.createPlace = asyncHandler(async (req, res) => {
-  const place = await placeService.createPlace(req.body);
+  const safe = pickAllowed(req.body, PLACE_USER_FIELDS, PLACE_ADMIN_ONLY, req.user?.role === "admin");
+  // Stamp the creator as ownerId when a non-admin business user posts.
+  if (req.user && req.user.role !== "admin" && !safe.ownerId) {
+    safe.ownerId = req.user._id;
+  }
+  const place = await placeService.createPlace(safe);
   res.status(201).json(place);
 });
 
 // PUT /places/:id
 exports.updatePlace = asyncHandler(async (req, res) => {
-  const place = await placeService.updatePlace(req.params.id, req.body);
+  const safe = pickAllowed(req.body, PLACE_USER_FIELDS, PLACE_ADMIN_ONLY, req.user?.role === "admin");
+  const place = await placeService.updatePlace(req.params.id, safe);
   res.json(place);
 });
 

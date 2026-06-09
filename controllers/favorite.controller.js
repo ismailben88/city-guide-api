@@ -18,6 +18,7 @@ exports.getFavorites = asyncHandler(async (req, res) => {
 // POST /favorites
 exports.addFavorite = asyncHandler(async (req, res) => {
   const { targetId, targetType } = req.body;
+  if (!targetId || !targetType) throw new ApiError(400, "targetId and targetType are required");
   try {
     const favorite = await Favorite.create({ userId: req.user._id, targetId, targetType });
     res.status(201).json(favorite);
@@ -28,7 +29,13 @@ exports.addFavorite = asyncHandler(async (req, res) => {
 });
 
 // DELETE /favorites/:id
+// SECURITY: scoped by both _id AND userId to prevent IDOR — a user with a
+// known favorite ID belonging to someone else must not be able to delete it.
 exports.deleteFavorite = asyncHandler(async (req, res) => {
-  await Favorite.findByIdAndDelete(req.params.id);
+  const deleted = await Favorite.findOneAndDelete({
+    _id:    req.params.id,
+    userId: req.user._id,
+  });
+  if (!deleted) throw new ApiError(404, "Favori introuvable");
   res.json({ message: "Retiré des favoris" });
 });

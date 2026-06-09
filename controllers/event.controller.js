@@ -6,6 +6,7 @@ const Place        = require("../models/Place");
 const Favorite     = require("../models/Favorite");
 const City         = require("../models/City");
 const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
+const { escapeRegex } = require("../utils/regex.utils");
 const cacheService = require("../services/cache.service");
 const notify       = require("../helpers/notify");
 
@@ -15,6 +16,22 @@ const POPULATE_EVENT = [
   { path: "cityId",      select: "name slug" },
   { path: "organizedBy", select: "firstName lastName avatarUrl" },
 ];
+
+// Fields a regular user may set when creating or updating an event.
+// `isFeatured`, `organizedBy`, `translationStatus`, etc. are admin-only and
+// are stripped here to prevent mass-assignment via crafted `req.body`.
+const EVENT_USER_FIELDS = new Set([
+  "title", "description", "coverImage", "organizer", "ticketPrice",
+  "location", "cityId", "dateRange", "category",
+]);
+
+function pickUserFields(body, allowed) {
+  const out = {};
+  for (const k of Object.keys(body || {})) {
+    if (allowed.has(k)) out[k] = body[k];
+  }
+  return out;
+}
 
 // GET /events
 exports.getEvents = asyncHandler(async (req, res) => {
@@ -30,7 +47,7 @@ exports.getEvents = asyncHandler(async (req, res) => {
   if (status)                   filter.status     = status;
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
   if (isFree === "true")        filter.ticketPrice = 0;
-  if (search)                   filter.title      = { $regex: search, $options: "i" };
+  if (search)                   filter.title      = { $regex: escapeRegex(search), $options: "i" };
   if (dateFrom || dateTo) {
     filter["dateRange.from"] = {};
     if (dateFrom) filter["dateRange.from"].$gte = new Date(dateFrom);
@@ -86,7 +103,13 @@ exports.getEventById = asyncHandler(async (req, res) => {
 
 // POST /events
 exports.createEvent = asyncHandler(async (req, res) => {
-  const event = await Event.create({ ...req.body, organizedBy: req.user._id });
+  const safe = pickUserFields(req.body, EVENT_USER_FIELDS);
+  // Admins may also pass isFeatured & status; preserve those for admin callers.
+  if (req.user?.role === "admin") {
+    if (req.body.isFeatured !== undefined) safe.isFeatured = req.body.isFeatured;
+    if (req.body.status     !== undefined) safe.status     = req.body.status;
+  }
+  const event = await Event.create({ ...safe, organizedBy: req.user._id });
   cacheService.delByPrefix(PREFIX);
   res.status(201).json(event);
 
@@ -117,7 +140,12 @@ async function notifyUsersInCity(cityId, eventTitle, eventId) {
 
 // PUT /events/:id
 exports.updateEvent = asyncHandler(async (req, res) => {
-  const event = await Event.findByIdAndUpdate(req.params.id, req.body, {
+  const safe = pickUserFields(req.body, EVENT_USER_FIELDS);
+  if (req.user?.role === "admin") {
+    if (req.body.isFeatured !== undefined) safe.isFeatured = req.body.isFeatured;
+    if (req.body.status     !== undefined) safe.status     = req.body.status;
+  }
+  const event = await Event.findByIdAndUpdate(req.params.id, safe, {
     new: true, runValidators: true,
   });
   if (!event) throw new ApiError(404, "Événement introuvable");

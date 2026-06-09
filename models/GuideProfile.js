@@ -67,5 +67,9 @@ guideProfileSchema.index({ isPublished: 1 });
 guideProfileSchema.index({ verificationStatus: 1 });
 guideProfileSchema.index({ certified: 1 });
 guideProfileSchema.index({ averageRating: -1 });
+// Hot path: GuidesPage featured listing — published + certified + top-rated.
+guideProfileSchema.index({ isPublished: 1, certified: 1, averageRating: -1 });
+// Hot path: GuidesPage filter by city — published only, sorted by rating.
+guideProfileSchema.index({ isPublished: 1, cityIds: 1, averageRating: -1 });
 
 module.exports = model("GuideProfile", guideProfileSchema);

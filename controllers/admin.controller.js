@@ -1,5 +1,6 @@
 const asyncHandler   = require("../utils/asyncHandler");
 const ApiError       = require("../utils/ApiError");
+const { escapeRegex } = require("../utils/regex.utils");
 const adminService   = require("../services/admin.service");
 const AdminLog       = require("../models/AdminLog");
 const PendingRequest = require("../models/PendingRequest");
@@ -135,11 +136,12 @@ exports.getAllGuides = asyncHandler(async (req, res) => {
   if (isPublished !== undefined) filter.isPublished = isPublished === "true";
 
   if (search) {
+    const safe = escapeRegex(search);
     const matchingUsers = await User.find({
       $or: [
-        { firstName: { $regex: search, $options: "i" } },
-        { lastName:  { $regex: search, $options: "i" } },
-        { email:     { $regex: search, $options: "i" } },
+        { firstName: { $regex: safe, $options: "i" } },
+        { lastName:  { $regex: safe, $options: "i" } },
+        { email:     { $regex: safe, $options: "i" } },
       ],
     }).select("_id").lean();
     filter.userId = { $in: matchingUsers.map((u) => u._id) };
