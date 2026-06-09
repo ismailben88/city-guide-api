@@ -1,0 +1,5389 @@
+{
+  "city": "tinghir",
+  "fetched_at": "2026-06-08T11:45:18.614Z",
+  "raw_count": 613,
+  "places": [
+    {
+      "osm_id": "node/389673802",
+      "name": "La Petite Gorge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-petite-gorge-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583437,
+          31.574838
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "La Petite Gorge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/389681583",
+      "name": "Hotel-Camping Addout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-camping-addout-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534572,
+          31.681019
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel-Camping Addout",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/622166126",
+      "name": "Gorges",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gorges-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.53928,
+          31.506116
+        ]
+      },
+      "osm_tags": {
+        "name": "Gorges",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/624625215",
+      "name": "Camp l'Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-l-atlas-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585014,
+          31.553009
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp l'Atlas",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704490220",
+      "name": "Le Soleil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-soleil-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.589631,
+          31.547766
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Le Soleil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704495690",
+      "name": "Le Petit Gorge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-petit-gorge-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583926,
+          31.60605
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Petit Gorge",
+        "tourism": "attraction",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704495693",
+      "name": "Auberge La Festival",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-la-festival-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.561731,
+          31.620576
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge La Festival",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954684023",
+      "name": "La Kasba",
+      "name_fr": "La Kasba",
+      "name_ar": null,
+      "slug": "la-kasba-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.529544,
+          31.52325
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Kasba",
+        "name:es": "La Kasba",
+        "name:fr": "La Kasba",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1081244595",
+      "name": "Mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.552581,
+          31.531309
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1081244672",
+      "name": "Kasbah Omari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-omari-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.552332,
+          31.531238
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kasbah Omari"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1142415899",
+      "name": "Cafe Restaurant Tizmoutine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-tizmoutine-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.35996,
+          31.4549
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cafe Restaurant Tizmoutine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1142416058",
+      "name": "Tizmoutine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizmoutine-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.360104,
+          31.454924
+        ]
+      },
+      "osm_tags": {
+        "name": "Tizmoutine",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1143573900",
+      "name": "Zakar Charif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zakar-charif-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580536,
+          31.55779
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Zakar Charif",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1143573915",
+      "name": "Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.58501,
+          31.553165
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Atlas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1328834042",
+      "name": "Mriya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mriya-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.567713,
+          31.543263
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Mriya"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329986585",
+      "name": "El Mabrouk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-mabrouk-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.546463,
+          31.529778
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "El Mabrouk"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1330011875",
+      "name": "Etoile des Gorges",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "etoile-des-gorges-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.5912,
+          31.583246
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Etoile des Gorges",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1330011884",
+      "name": "La Source Des Poissons Sacres",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-source-des-poissons-sacres-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585333,
+          31.554446
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Source Des Poissons Sacres",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1705648016",
+      "name": "Ljam3",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ljam3-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.386485,
+          31.459157
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Ljam3",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833053903",
+      "name": "Auberge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.550077,
+          31.735668
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833053907",
+      "name": "Bougafer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bougafer-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.541575,
+          31.503817
+        ]
+      },
+      "osm_tags": {
+        "name": "Bougafer",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833053911",
+      "name": "Kasbah Lamsg",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-lamsg-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.543653,
+          31.50139
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Lamsg",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833054264",
+      "name": "Tamtattouchte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tamtattouchte-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.548447,
+          31.670186
+        ]
+      },
+      "osm_tags": {
+        "name": "Tamtattouchte",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1845437269",
+      "name": "Hotel Tomboctou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tomboctou-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "Avenue Bir Anzarane, Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.533497,
+          31.515483
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:postcode": "45800",
+        "addr:street": "Avenue Bir Anzarane",
+        "email": "info@hoteltomboctou.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Tomboctou",
+        "phone": "+212 5 24 83 51 91",
+        "tourism": "hotel",
+        "website": "https://www.hoteltomboctou.com/",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hoteltomboctou.com/",
+      "phone": "+212 5 24 83 51 91",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2017052398",
+      "name": "Chez Michele",
+      "name_fr": "Chez Michele",
+      "name_ar": null,
+      "slug": "chez-michele-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531662,
+          31.526035
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Michele",
+        "name:fr": "Chez Michele"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2017052417",
+      "name": "Kasbah Dar Bassou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-dar-bassou-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "Avenue Bir Anzarane, Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.533838,
+          31.515599
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:postcode": "45800",
+        "addr:street": "Avenue Bir Anzarane",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kasbah Dar Bassou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2017052419",
+      "name": "Kasba",
+      "name_fr": "Kasba",
+      "name_ar": null,
+      "slug": "kasba-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.529471,
+          31.52364
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kasba",
+        "name:es": "Kasba",
+        "name:fr": "Kasba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2017053782",
+      "name": "Hotel Agdal lowcost",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-agdal-lowcost-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.530577,
+          31.522258
+        ]
+      },
+      "osm_tags": {
+        "FIXME": "name",
+        "name": "Hotel Agdal lowcost",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2017054102",
+      "name": "Riad des Palmiers",
+      "name_fr": "Riad des Palmiers",
+      "name_ar": null,
+      "slug": "riad-des-palmiers-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531186,
+          31.526063
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad des Palmiers",
+        "name:fr": "Riad des Palmiers",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025594",
+      "name": "Adrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adrar-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.522373,
+          31.683097
+        ]
+      },
+      "osm_tags": {
+        "name": "Adrar",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025596",
+      "name": "Afsou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afsou-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.543806,
+          31.673955
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "correct position?",
+        "name": "Afsou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025616",
+      "name": "Amazigh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amazigh-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534802,
+          31.680151
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Amazigh",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025618",
+      "name": "Auberge Adrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-adrar-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.522504,
+          31.683292
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Adrar",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025625",
+      "name": "El Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-mansour-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.590899,
+          31.583505
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "El Mansour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025635",
+      "name": "Kasbah Amazir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-amazir-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.581077,
+          31.556307
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Kasbah Amazir",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025640",
+      "name": "La Vallee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vallee-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.591176,
+          31.583315
+        ]
+      },
+      "osm_tags": {
+        "name": "La Vallee",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025641",
+      "name": "Le Ciel Bleu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-ciel-bleu-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.586588,
+          31.579216
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Ciel Bleu",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134025642",
+      "name": "Le Lac",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-lac-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.58526,
+          31.553782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Lac",
+        "tourism": "hotel;camping"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134028970",
+      "name": "Riad Toudra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-toudra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.587325,
+          31.578547
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Toudra",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134028991",
+      "name": "Tafouyt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tafouyt-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534172,
+          31.679625
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "correct position?",
+        "name": "Tafouyt",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2134028993",
+      "name": "Cafè Restaurant Tamda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-tamda-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.548092,
+          31.671811
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "correct position?",
+        "name": "Cafè Restaurant Tamda",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2199291867",
+      "name": "Ksar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.527921,
+          31.519446
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2199311372",
+      "name": "Maison d'Hotes Aicha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-aicha-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583093,
+          31.576368
+        ]
+      },
+      "osm_tags": {
+        "email": "maison-aicha@yahoo.fr",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Maison d'Hotes Aicha",
+        "phone": "+212 5 24 89 52 10",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 89 52 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2302767639",
+      "name": "Maison d'hôte Panoramique des Gorges",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hote-panoramique-des-gorges-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.588774,
+          31.579314
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison d'hôte Panoramique des Gorges",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2312523015",
+      "name": "La Maison de Valentine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-maison-de-valentine-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.587717,
+          31.578133
+        ]
+      },
+      "osm_tags": {
+        "name": "La Maison de Valentine",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2338702971",
+      "name": "mémoire des martyres",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "memoire-des-martyres-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.530856,
+          31.521542
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "name": "mémoire des martyres",
+        "name:es": "Memoria de los Mártires"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2354148315",
+      "name": "Hotel Oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-oasis-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.532932,
+          31.52085
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-14",
+        "name": "Hotel Oasis",
+        "name:es": "Hotel Oasis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2354148578",
+      "name": "Izdar n souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "izdar-n-souk-tinghir",
+      "category": "souks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.529492,
+          31.519274
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Izdar n souk"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2355314248",
+      "name": "Hotel Salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-salam-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531702,
+          31.520359
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Salam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2355314249",
+      "name": "Hotel Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-todra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531466,
+          31.52058
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-14",
+        "name": "Hotel Todra",
+        "name:es": "Hotel Todra",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2355314273",
+      "name": "Souq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souq-tinghir",
+      "category": "souks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.540696,
+          31.500591
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souq"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415668609",
+      "name": "Ourti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ourti-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.542036,
+          31.49883
+        ]
+      },
+      "osm_tags": {
+        "name": "Ourti",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415670059",
+      "name": "Camp Le Soleil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-le-soleil-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.589893,
+          31.547643
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Le Soleil",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415671471",
+      "name": "Camp Hôtel Azlag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-hotel-azlag-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.589321,
+          31.548479
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Hôtel Azlag",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415672175",
+      "name": "Source des Poissons Sacree",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "source-des-poissons-sacree-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585308,
+          31.554797
+        ]
+      },
+      "osm_tags": {
+        "name": "Source des Poissons Sacree",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415674099",
+      "name": "Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "essalam-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.55107,
+          31.679447
+        ]
+      },
+      "osm_tags": {
+        "name": "Essalam",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415677579",
+      "name": "Addoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "addoud-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534515,
+          31.680894
+        ]
+      },
+      "osm_tags": {
+        "name": "Addoud",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415678501",
+      "name": "Taghrot",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taghrot-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.5501,
+          31.735734
+        ]
+      },
+      "osm_tags": {
+        "name": "Taghrot",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2816964666",
+      "name": "les Cafes Martin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-cafes-martin-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "19, Rue Senhaja, Tighir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535737,
+          31.517431
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tighir",
+        "addr:housenumber": "19",
+        "addr:street": "Rue Senhaja",
+        "amenity": "cafe",
+        "name": "les Cafes Martin",
+        "phone": "022616837",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "022616837",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2877977206",
+      "name": "Coeur de la palmeraie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "coeur-de-la-palmeraie-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.582497,
+          31.550566
+        ]
+      },
+      "osm_tags": {
+        "name": "Coeur de la palmeraie",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2878409926",
+      "name": "Ancienne Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ancienne-kasbah-tinghir",
+      "category": "roman-ruins",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.582807,
+          31.553743
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Ancienne Kasbah",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2878489473",
+      "name": "Chez Ahmed",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-ahmed-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.584927,
+          31.554584
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "description": "Aghbalou Imareghn",
+        "name": "Chez Ahmed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3811962282",
+      "name": "Vivalti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "vivalti-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535321,
+          31.51835
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Vivalti"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3811968799",
+      "name": "LA Perla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-perla-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535442,
+          31.518211
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "LA Perla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3811973057",
+      "name": "chez Michel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-michel-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535013,
+          31.518299
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "chez Michel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3811978655",
+      "name": "Aswak Tinghir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aswak-tinghir-tinghir",
+      "category": "food-markets",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536011,
+          31.517544
+        ]
+      },
+      "osm_tags": {
+        "name": "Aswak Tinghir",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3812026505",
+      "name": "Agdal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "agdal-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.530589,
+          31.52217
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Agdal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3812032770",
+      "name": "tiydrine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tiydrine-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.532418,
+          31.533182
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "tiydrine",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3812071111",
+      "name": "OMAR café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "omar-cafe-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531633,
+          31.521618
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "OMAR café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3812071112",
+      "name": "chkokote",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chkokote-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531445,
+          31.521581
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "chkokote"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3812071113",
+      "name": "Mabrouka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mabrouka-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531289,
+          31.521657
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Mabrouka"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3814753910",
+      "name": "Lina Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lina-palace-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.539421,
+          31.505583
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Lina Palace"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3814760449",
+      "name": "Tichka Mosuqe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tichka-mosuqe-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.54194,
+          31.506738
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Tichka Mosuqe",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3814786935",
+      "name": "Oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "Tinerhir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.532908,
+          31.520759
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinerhir",
+        "amenity": "cafe",
+        "name": "Oasis",
+        "name:es": "Oasis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3814786936",
+      "name": "café voyageurs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-voyageurs-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.532873,
+          31.520091
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "café voyageurs"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3814788761",
+      "name": "al-Quds café مقهى أورشليم",
+      "name_fr": "al-Quds café",
+      "name_ar": "مقهى أورشليم",
+      "slug": "al-quds-cafe-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.53097,
+          31.521158
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "al-Quds café مقهى أورشليم",
+        "name:ar": "مقهى أورشليم",
+        "name:es": "Café Jerusalén",
+        "name:fr": "al-Quds café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242841989",
+      "name": "Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.538968,
+          31.511905
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-14",
+        "name": "Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4264530463",
+      "name": "Kasbah Taborithe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-taborithe-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.58045,
+          31.567106
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Kasbah Taborithe",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4265272864",
+      "name": "Hike and chill",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hike-and-chill-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.527965,
+          31.520474
+        ]
+      },
+      "osm_tags": {
+        "name": "Hike and chill",
+        "smoking": "separated",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4438731193",
+      "name": "Cafe Central",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-central-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531606,
+          31.520519
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Cafe Central",
+        "name:ro": "Cafe Central"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4513904965",
+      "name": "Auberge des Cavaliers du Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-des-cavaliers-du-todra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.586547,
+          31.578562
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge des Cavaliers du Todra",
+        "tourism": "hotel",
+        "website": "auberge-cavaliers-todra.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "auberge-cavaliers-todra.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4739631886",
+      "name": "Dar Tiwira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tiwira-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.579118,
+          31.579608
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dar Tiwira",
+        "rooms": "7",
+        "smoking": "outside",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4775947422",
+      "name": "Ait Dani",
+      "name_fr": null,
+      "name_ar": "ايت داني",
+      "slug": "ait-dani-tinghir",
+      "category": "palaces-kasbahs",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534328,
+          31.532501
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "ايت داني",
+        "name:ar": "ايت داني",
+        "name:en": "Ait Dani",
+        "phone": "+212 6 11 20 99 29"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 11 20 99 29",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4777835821",
+      "name": "chez jawad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-jawad-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.513794,
+          31.525752
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "chez jawad",
+        "opening_hours": "Mo-Su 08:00-08:00, 22:00-22:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-08:00, 22:00-22:00"
+    },
+    {
+      "osm_id": "node/5011850621",
+      "name": "Riad Al Anwar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-al-anwar-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "54",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531221,
+          31.510169
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "54",
+        "addr:postcode": "45800",
+        "name:en": "Riad Al Anwar",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5064206221",
+      "name": "Chams",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chams-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.542715,
+          31.500241
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Chams"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5248678922",
+      "name": "Hard",
+      "name_fr": "Difficile",
+      "name_ar": null,
+      "slug": "hard-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.575575,
+          31.553592
+        ]
+      },
+      "osm_tags": {
+        "name": "Difficile",
+        "name:en": "Hard",
+        "name:fr": "Difficile",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5248679221",
+      "name": "Really excellente",
+      "name_fr": "Patisserie top qualité",
+      "name_ar": null,
+      "slug": "really-excellente-tinghir",
+      "category": "bakeries",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.537974,
+          31.51481
+        ]
+      },
+      "osm_tags": {
+        "name": "Patisserie top qualité",
+        "name:en": "Really excellente",
+        "name:fr": "Patisserie top qualité",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5260118429",
+      "name": "Guest House  Amande",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "guest-house-amande-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.584189,
+          31.573408
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Guest House Amande",
+        "name:en": "Guest House  Amande",
+        "phone": "0212 700 701 835",
+        "rooms": "4",
+        "tourism": "guest_house",
+        "website": "https://todora-amande.jimdo.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://todora-amande.jimdo.com",
+      "phone": "0212 700 701 835",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5301016823",
+      "name": "Panorama Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panorama-todra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "Tinghir, Souss-Massa-Draâ, Morocco",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.581136,
+          31.548327
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "458000",
+        "addr:street": "Tinghir, Souss-Massa-Draâ, Morocco",
+        "internet_access": "wlan",
+        "name": "Gorge Toudra maison d'hote Panoramatodra",
+        "name:en": "Panorama Todra",
+        "phone": "+212 6 77 00 49 72",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 77 00 49 72",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5334768735",
+      "name": "Kasbah Petit Nomade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-petit-nomade-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.556341,
+          31.527581
+        ]
+      },
+      "osm_tags": {
+        "email": "k.petitnomade@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kasbah Petit Nomade",
+        "operator": "Lahcen BOUYAD",
+        "phone": "+212 6 68 49 58 38",
+        "tourism": "hotel",
+        "website": "https://www.kasbah-petitnomade.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbah-petitnomade.com/",
+      "phone": "+212 6 68 49 58 38",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5345318223",
+      "name": "Cafe Ourti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ourti-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.542911,
+          31.499395
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Ourti"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5345721622",
+      "name": "Aijam Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aijam-cafe-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.538966,
+          31.507863
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Aijam Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5347396842",
+      "name": "Pattiserie Peigue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pattiserie-peigue-tinghir",
+      "category": "bakeries",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.538132,
+          31.514683
+        ]
+      },
+      "osm_tags": {
+        "name": "Pattiserie Peigue",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5390468946",
+      "name": "Mouksit Lahcen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mouksit-lahcen-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "112, Tidrine",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535027,
+          31.532908
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "112",
+        "addr:postcode": "20000",
+        "addr:street": "Tidrine",
+        "internet_access": "wlan",
+        "name:en": "Mouksit Lahcen",
+        "opening_hours": "24/7",
+        "operator": "Mouksit",
+        "phone": "+212 6 11 20 99 29",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 11 20 99 29",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5484808621",
+      "name": "Mosquée De ICherban",
+      "name_fr": null,
+      "name_ar": "مسجد إشربان",
+      "slug": "mosquee-de-icherban-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534775,
+          31.533775
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "مسجد إشربان",
+        "name:ar": "مسجد إشربان",
+        "name:en": "Mosquée De ICherban",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5592109921",
+      "name": "A Secret Garden - Aventures Verticales Maroc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "a-secret-garden-aventures-verticales-maroc-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585879,
+          31.577992
+        ]
+      },
+      "osm_tags": {
+        "name": "A Secret Garden - Aventures Verticales Maroc",
+        "operator": "Julio",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5692094224",
+      "name": "Ushbi shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ushbi-shop-tinghir",
+      "category": "food-markets",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535086,
+          31.534037
+        ]
+      },
+      "osm_tags": {
+        "name": "Ushbi shop",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5692094225",
+      "name": "Shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shop-tinghir",
+      "category": "food-markets",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.52945,
+          31.531778
+        ]
+      },
+      "osm_tags": {
+        "name": "Hammu Kaddi",
+        "name:en": "Shop",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016462106",
+      "name": "Douar Ait Boujane",
+      "name_fr": null,
+      "name_ar": "دوار آيت بوجان",
+      "slug": "douar-ait-boujane-tinghir",
+      "category": "roman-ruins",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.541392,
+          31.534022
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Douar Ait Boujane",
+        "name:ar": "دوار آيت بوجان"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016462107",
+      "name": "Ksar Affsalou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-affsalou-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.556919,
+          31.544313
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar Affsalou",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6080898401",
+      "name": "Ruines Ksar Ihjjamen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ruines-ksar-ihjjamen-tinghir",
+      "category": "roman-ruins",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.574783,
+          31.552125
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Ruines Ksar Ihjjamen",
+        "opening_hours": "24/7",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/6134148385",
+      "name": "Gorge photos tall",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gorge-photos-tall-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.590087,
+          31.585441
+        ]
+      },
+      "osm_tags": {
+        "name": "Gorge photos tall",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6388752585",
+      "name": "Chez Aziz",
+      "name_fr": null,
+      "name_ar": "Chez Aziz / pizza berbère",
+      "slug": "chez-aziz-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.529357,
+          31.519485
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Aziz",
+        "name:ar": "Chez Aziz / pizza berbère"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6431677985",
+      "name": "Kasbah Tikwit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tikwit-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "La citė Ishmarine",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.556362,
+          31.527794
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "La citė Ishmarine",
+        "internet_access": "wlan",
+        "name": "Kasbah Tikwit",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+33 6 75 53 53 86",
+        "tourism": "guest_house",
+        "website": "https://www.kasbah-tikwit.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbah-tikwit.com/",
+      "phone": "+33 6 75 53 53 86",
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-21:00"
+    },
+    {
+      "osm_id": "node/6835370986",
+      "name": "Yasmina restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yasmina-restaurant-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.542937,
+          31.500724
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:postcode": "45800",
+        "amenity": "restaurant",
+        "description:zh": "团餐",
+        "name": "Milkbar Elyasmina restaurant",
+        "name:en": "Yasmina restaurant",
+        "note": "check the exact location",
+        "phone": "+212 6 77 90 96 38"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 77 90 96 38",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7022331282",
+      "name": "Restaurant Inass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-inass-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.545483,
+          31.527993
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Inass",
+        "phone": "+212 524833300",
+        "phone:mobile": "+212 666664798"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 524833300",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7032294439",
+      "name": "La belle étoile",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-belle-etoile-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583879,
+          31.574242
+        ]
+      },
+      "osm_tags": {
+        "name": "La belle étoile",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7032378850",
+      "name": "La fleur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-fleur-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.588678,
+          31.579091
+        ]
+      },
+      "osm_tags": {
+        "name": "La fleur",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035773472",
+      "name": "Talamine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "talamine-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.369368,
+          31.457225
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Talamine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035775028",
+      "name": "Tamassinte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tamassinte-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.502004,
+          31.515791
+        ]
+      },
+      "osm_tags": {
+        "name": "Tamassinte",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035776073",
+      "name": "My house",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "my-house-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.588085,
+          31.578693
+        ]
+      },
+      "osm_tags": {
+        "name": "My house",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035789607",
+      "name": "Chez Med",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-med-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.584599,
+          31.578447
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Med",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035791598",
+      "name": "Inass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "inass-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.545708,
+          31.527954
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Inass"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035794669",
+      "name": "o3ti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "o3ti-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.422451,
+          31.481122
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "o3ti"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7191585585",
+      "name": "city view",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "city-view-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.533582,
+          31.521922
+        ]
+      },
+      "osm_tags": {
+        "name:en": "city view",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7194026485",
+      "name": "berber house",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-house-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.607763,
+          31.570024
+        ]
+      },
+      "osm_tags": {
+        "name:en": "berber house",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7194026585",
+      "name": "canyons view",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "canyons-view-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.609523,
+          31.573763
+        ]
+      },
+      "osm_tags": {
+        "name:en": "canyons view",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7618525443",
+      "name": "Afoude Nimsw9ne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afoude-nimsw9ne-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.432102,
+          31.481256
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Afoude Nimsw9ne"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632601053",
+      "name": "imi nighrme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imi-nighrme-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.421786,
+          31.475497
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "imi nighrme"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632601054",
+      "name": "arhbiye nt9bilte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arhbiye-nt9bilte-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.421936,
+          31.475552
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "arhbiye nt9bilte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632601056",
+      "name": "Assagme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "assagme-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.421245,
+          31.477087
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Assagme"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632618106",
+      "name": "9iyada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "9iyada-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.42024,
+          31.480318
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "9iyada"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632618135",
+      "name": "Tirhbiyine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tirhbiyine-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.421505,
+          31.476158
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Tirhbiyine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632618136",
+      "name": "Bouyfouloussne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bouyfouloussne-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.422221,
+          31.476842
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Bouyfouloussne"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632618147",
+      "name": "Ljam3e akdime",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ljam3e-akdime-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.412541,
+          31.476314
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Ljam3e akdime",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632618149",
+      "name": "Hmame nait 3lla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hmame-nait-3lla-tinghir",
+      "category": "hammams",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.416615,
+          31.47726
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hmame nait 3lla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632971235",
+      "name": "Ait Hda Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ait-hda-brahim-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.432071,
+          31.480618
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Ait Hda Brahim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7632978568",
+      "name": "Ljir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ljir-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.425535,
+          31.479053
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Ljir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8321449024",
+      "name": "Tighmert",
+      "name_fr": null,
+      "name_ar": "Tighremt n Tgoumast",
+      "slug": "tighmert-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.516957,
+          31.503111
+        ]
+      },
+      "osm_tags": {
+        "name": "Tighmert",
+        "name:ar": "Tighremt n Tgoumast",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9656841917",
+      "name": "Auberge Traditionelle",
+      "name_fr": null,
+      "name_ar": "Auberge Hostel Traditionell",
+      "slug": "auberge-traditionelle-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "52122, Est rue et El Aassi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.549852,
+          31.668403
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "52122",
+        "addr:street": "Est rue et El Aassi",
+        "internet_access": "wlan",
+        "name": "Auberge Traditionelle",
+        "name:ar": "Auberge Hostel Traditionell",
+        "opening_hours": "24/7",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/9798429017",
+      "name": "via Ferrata",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "via-ferrata-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.595649,
+          31.588591
+        ]
+      },
+      "osm_tags": {
+        "name": "vis",
+        "name:en": "via Ferrata",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10757510234",
+      "name": "Riad Dar Bab Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-bab-todra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.545481,
+          31.524661
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Dar Bab Todra",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10766287405",
+      "name": "Auberge camping Tizmoutine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-camping-tizmoutine-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.349306,
+          31.452132
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Auberge camping Tizmoutine",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10871656393",
+      "name": "Todgha Gorge",
+      "name_fr": "Gorges du Todra",
+      "name_ar": null,
+      "slug": "todgha-gorge-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.591495,
+          31.587352
+        ]
+      },
+      "osm_tags": {
+        "int_name": "Todgha Canyon;Todra Gorge;Gorges du Todra",
+        "name": "Gorges du Toudra",
+        "name:de": "Todra-Schlucht",
+        "name:en": "Todgha Gorge",
+        "name:es": "Gargantas del Todra",
+        "name:fr": "Gorges du Todra",
+        "name:it": "Gole di Todra",
+        "name:pt": "Desfiladeiro de Todra;Gargantas de Todra;Garganta do Todra",
+        "place": "locality",
+        "tourism": "attraction",
+        "wikipedia": "fr:Gorges du Toudra"
+      },
+      "wikidata": null,
+      "wikipedia": "fr:Gorges du Toudra",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10943947705",
+      "name": "Auberge Ali",
+      "name_fr": "Auberge Ali",
+      "name_ar": null,
+      "slug": "auberge-ali-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.574401,
+          31.545663
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Auberge Ali",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11452019176",
+      "name": "Hotel restaurant \"Azul\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-azul-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585557,
+          31.553581
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel restaurant \"Azul\"",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11510728369",
+      "name": "Camping Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-atlas-tinghir",
+      "category": "desert-camps",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585354,
+          31.553184
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Atlas",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11510733369",
+      "name": "Todra Gorges",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "todra-gorges-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.591614,
+          31.583953
+        ]
+      },
+      "osm_tags": {
+        "name": "Todra Gorges",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11730999015",
+      "name": "La Vallée des Kasbahs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vallee-des-kasbahs-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.539119,
+          31.511608
+        ]
+      },
+      "osm_tags": {
+        "name": "La Vallée des Kasbahs",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11732205984",
+      "name": "Mini Market Ouaza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mini-market-ouaza-tinghir",
+      "category": "food-markets",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536288,
+          31.517583
+        ]
+      },
+      "osm_tags": {
+        "name": "Mini Market Ouaza",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11775484526",
+      "name": "PALMERAIE Guest House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palmeraie-guest-house-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.577975,
+          31.547552
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "PALMERAIE Guest House",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11876775969",
+      "name": "Dar Ayour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-ayour-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.588365,
+          31.578272
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Ayour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12250160966",
+      "name": "Dar Ait Barra Chez l’habitant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-ait-barra-chez-l-habitant-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.563079,
+          31.540718
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Dar Ait Barra Chez l’habitant",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "phone": "+212 6 73 09 80 48"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 09 80 48",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-23:00"
+    },
+    {
+      "osm_id": "node/12415378802",
+      "name": "Dar Al Médina.",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-medina-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.535428,
+          31.517971
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Al Médina.",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12695087601",
+      "name": "Dar Relax Hostel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-relax-hostel-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583974,
+          31.574282
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Relax Hostel",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12871586163",
+      "name": "Les Jardins De Todgha gorges",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-jardins-de-todgha-gorges-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "703, Gorges de Todgha ait baha Tinghir draa Tafelalte,, Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585492,
+          31.576696
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:housenumber": "703",
+        "addr:postcode": "45800",
+        "addr:street": "Gorges de Todgha ait baha Tinghir draa Tafelalte,",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Les Jardins De Todgha gorges",
+        "phone": "+212 6 87 92 85 19",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 87 92 85 19",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13207036302",
+      "name": "Vue sur la palmeraie et la vallée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "vue-sur-la-palmeraie-et-la-vallee-tinghir",
+      "category": "sunset-spots",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.571803,
+          31.545411
+        ]
+      },
+      "osm_tags": {
+        "name": "Vue sur la palmeraie et la vallée",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13282700701",
+      "name": "Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-tinghir",
+      "category": "food-markets",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.558312,
+          31.484761
+        ]
+      },
+      "osm_tags": {
+        "name": "Carrefour",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13320310201",
+      "name": "Les Chandelles - Maison d'Hotes Tindtine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-chandelles-maison-d-hotes-tindtine-tinghir",
+      "category": "riads",
+      "city": "tinghir",
+      "address": "GFG3+22, Avenue Mohamed V شارع الحسن الثاني",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.547266,
+          31.525097
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "GFG3+22",
+        "addr:postcode": "45800",
+        "addr:street": "Avenue Mohamed V شارع الحسن الثاني",
+        "internet_access": "wlan",
+        "name": "Les Chandelles - Maison d'Hotes Tindtine",
+        "phone": "+212 6 40 76 48 74",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 40 76 48 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13688597605",
+      "name": "Happy Nomad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "happy-nomad-tinghir",
+      "category": "moroccan-cuisine",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580987,
+          31.578108
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Happy Nomad",
+        "phone": "+212 6 13 04 01 00",
+        "website": "http://www.happynomadmorocco.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.happynomadmorocco.com",
+      "phone": "+212 6 13 04 01 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690945281",
+      "name": "Cafe Restaurant Mouhib",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-mouhib-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.577634,
+          31.546965
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Mouhib"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/140793062",
+      "name": "Auberge Baddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-baddou-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.548244,
+          31.670724
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Baddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/140793063",
+      "name": "Les Amis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-amis-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.552285,
+          31.666828
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Les Amis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/140793064",
+      "name": "Dar Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-essalam-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.550891,
+          31.667807
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Dar Essalam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/174030347",
+      "name": "Tabesbast",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tabesbast-tinghir",
+      "category": "roman-ruins",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.389428,
+          31.458695
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "historic": "ruins",
+        "name": "Tabesbast"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191126000",
+      "name": "Riad Agraw",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-agraw-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.534703,
+          31.515534
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad Agraw",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/209738905",
+      "name": "Rando au-dessus Gorges du Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rando-au-dessus-gorges-du-todra-tinghir",
+      "category": "hiking-trekking",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.60408,
+          31.581544
+        ]
+      },
+      "osm_tags": {
+        "highway": "path",
+        "name": "Rando au-dessus Gorges du Todra",
+        "sac_scale": "mountain_hiking",
+        "source": "geometry: strava.com heatmap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/225045512",
+      "name": "Jardin Public",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-public-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531934,
+          31.52074
+        ]
+      },
+      "osm_tags": {
+        "barrier": "fence",
+        "leisure": "park",
+        "name": "Jardin Public",
+        "name:es": "Jardín Público"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/226640387",
+      "name": "sidi maskour سيدي مسكور",
+      "name_fr": "sidi maskour",
+      "name_ar": "سيدي مسكور",
+      "slug": "sidi-maskour-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.52809,
+          31.518319
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "sidi maskour سيدي مسكور",
+        "name:ar": "سيدي مسكور",
+        "name:fr": "sidi maskour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/226640390",
+      "name": "Marabout Sidi Smain",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marabout-sidi-smain-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.528388,
+          31.518248
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Marabout Sidi Smain",
+        "religion": "muslim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/284010649",
+      "name": "Source des poissons sacrés",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "source-des-poissons-sacres-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585135,
+          31.554577
+        ]
+      },
+      "osm_tags": {
+        "name": "Source des poissons sacrés",
+        "natural": "water",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/284011930",
+      "name": "Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tinghir",
+      "category": "roman-ruins",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.581987,
+          31.553147
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/377804062",
+      "name": "jerda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jerda-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.541776,
+          31.500937
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "jerda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/377807191",
+      "name": "Gorges de Todgha Aghbalou N Todra",
+      "name_fr": "Gorges du Todra",
+      "name_ar": null,
+      "slug": "gorges-de-todgha-aghbalou-n-todra-tinghir",
+      "category": "historical-sites",
+      "city": "tinghir",
+      "address": "Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.592924,
+          31.588404
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:postcode": "45800",
+        "area": "yes",
+        "name": "Gorges de Todgha Aghbalou N Todra",
+        "name:de": "Todra-Schlucht",
+        "name:es": "Gargantas del Todra",
+        "name:fr": "Gorges du Todra",
+        "name:it": "Gole di Todra",
+        "tourism": "attraction",
+        "wikidata": "Q3111026",
+        "wikimedia_commons": "Category:Todgha Gorge",
+        "wikipedia": "en:Todgha Gorge"
+      },
+      "wikidata": "Q3111026",
+      "wikipedia": "en:Todgha Gorge",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378057697",
+      "name": "Parc de distraction",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-de-distraction-tinghir",
+      "category": "national-parks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.529161,
+          31.50413
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc de distraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378059593",
+      "name": "Hôtel Saghro",
+      "name_fr": "Hôtel Saghro",
+      "name_ar": null,
+      "slug": "hotel-saghro-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531623,
+          31.52344
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Saghro",
+        "name:fr": "Hôtel Saghro",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378059814",
+      "name": "Afanour Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afanour-mosque-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.524637,
+          31.52999
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Afanour Mosque",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378060503",
+      "name": "Masjid Tichka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-tichka-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.54192,
+          31.506677
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Tichka",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378060506",
+      "name": "Bibliothèque & Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bibliotheque-mosque-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.5397,
+          31.513597
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Bibliothèque & Mosque",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378060515",
+      "name": "Barraoui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "barraoui-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.540584,
+          31.504151
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Barraoui",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378062176",
+      "name": "Hassan II mosque",
+      "name_fr": "mosquée Hassan II",
+      "name_ar": "مسجد الحسن الثاني",
+      "slug": "hassan-ii-mosque-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.533072,
+          31.52014
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name:ar": "مسجد الحسن الثاني",
+        "name:en": "Hassan II mosque",
+        "name:fr": "mosquée Hassan II",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378063301",
+      "name": "Tumert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tumert-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536235,
+          31.516856
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Tumert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/378063302",
+      "name": "Yasmina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yasmina-tinghir",
+      "category": "cafes",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536325,
+          31.516696
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Yasmina",
+        "operator": "Salama"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/422059473",
+      "name": "Mosquée et medersa Ikelane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-et-medersa-ikelane-tinghir",
+      "category": "mosques",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.5245,
+          31.528303
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée et medersa Ikelane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/429893479",
+      "name": "Sidi Khokht",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-khokht-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.537074,
+          31.526091
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Khokht",
+        "religion": "muslim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/430716669",
+      "name": "grain de sable",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grain-de-sable-tinghir",
+      "category": "berber-crafts",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.52799,
+          31.518461
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "grain de sable",
+        "shop": "antiques"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/722053147",
+      "name": "Nafora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nafora-tinghir",
+      "category": "souks",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.530573,
+          31.52068
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Nafora"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754253686",
+      "name": "Sidi Mohammad Tamasint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mohammad-tamasint-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.572906,
+          31.659032
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "description": "The marabout and tomb were located in what is now the dam lake. In 2022, the tomb was moved to a new building north of Tamtatoucht.",
+        "historic": "tomb",
+        "name": "Sidi Mohammad Tamasint",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754253687",
+      "name": "Sidi Waritan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-waritan-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583928,
+          31.572072
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Waritan",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/845931744",
+      "name": "CAFE RESTAURANT JANNAT",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-jannat-tinghir",
+      "category": "restaurants",
+      "city": "tinghir",
+      "address": "Avenue Mohamed V شارع الحسن الثاني, Tighir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536575,
+          31.516452
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tighir",
+        "addr:postcode": "45800",
+        "addr:street": "Avenue Mohamed V شارع الحسن الثاني",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger;coffee_shop;ice_cream;italian;kebab",
+        "diet:dairy_free": "yes",
+        "diet:egg_free": "yes",
+        "diet:fruitarian": "yes",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "diet:lactose_free": "yes",
+        "diet:meat": "yes",
+        "diet:organic": "yes",
+        "diet:plant-based": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "CAFE RESTAURANT JANNAT",
+        "opening_hours": "24/7",
+        "phone": "+212 6 61 63 31 91",
+        "website": "https://www.google.com/maps/place/CAFE+RESTAURANT+JANNAT/@31.5165901,-5.5366065,15z/data=!4m12!1m6!3m5!1s0x0:0x76a385918a276276!2sCAFE+RESTAURANT+JANNAT!8m2!3d31.5165901!4d-5.5366065!3m4!1s0x0:0x76a385918a276276!8m2!3d31.5165901!4d-5.5366065"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.google.com/maps/place/CAFE+RESTAURANT+JANNAT/@31.5165901,-5.5366065,15z/data=!4m12!1m6!3m5!1s0x0:0x76a385918a276276!2sCAFE+RESTAURANT+JANNAT!8m2!3d31.5165901!4d-5.5366065!3m4!1s0x0:0x76a385918a276276!8m2!3d31.5165901!4d-5.5366065",
+      "phone": "+212 6 61 63 31 91",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "way/1075484901",
+      "name": "Sidi Mouhammad Tamassint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mouhammad-tamassint-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.53742,
+          31.692231
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "description": "The marabout and tomb were located in what is now the dam lake. In 2022, the tomb was moved to this new building.",
+        "historic": "tomb",
+        "name": "Sidi Mouhammad Tamassint",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886187",
+      "name": "Sidi Mouhammad bin Abdallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mouhammad-bin-abdallah-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583026,
+          31.577497
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mouhammad bin Abdallah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886188",
+      "name": "Sidi Abdelkrimm",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdelkrimm-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.540773,
+          31.534769
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdelkrimm",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886189",
+      "name": "Sidi al Haj Amar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-haj-amar-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.54188,
+          31.533861
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Haj Amar",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886190",
+      "name": "Sidi Bouahayt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bouahayt-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.547046,
+          31.533211
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bouahayt",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886191",
+      "name": "Moulay Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-ali-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.552841,
+          31.540187
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886192",
+      "name": "Moulay Mouhammad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-mouhammad-tinghir",
+      "category": "mausoleums",
+      "city": "tinghir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.554818,
+          31.541522
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Mouhammad",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1499354424",
+      "name": "Riad les roches Todra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-les-roches-todra-tinghir",
+      "category": "hotels",
+      "city": "tinghir",
+      "address": "Tinghir",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580418,
+          31.557944
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tinghir",
+        "addr:place": "Todgha Gorge",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "image": "https://www.google.com/maps/place/kasbah+Les+Roches/@31.557842,-5.5802235,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICBjenNgQE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAPNQkAE2cqmYFB9Olyshux85gFga3uAJMS-1R9jkzPHrQEeBop4fmlclt40UhZV",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "mobile": "+212 6 61 93 08 33",
+        "name": "Riad les roches Todra",
+        "rooms": "18",
+        "smoking": "isolated",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

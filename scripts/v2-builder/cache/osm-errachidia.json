@@ -1,0 +1,1625 @@
+{
+  "city": "errachidia",
+  "fetched_at": "2026-06-08T11:45:08.800Z",
+  "raw_count": 229,
+  "places": [
+    {
+      "osm_id": "node/1025409396",
+      "name": "Hotel Meski",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-meski-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "Av. Moulay Ali Charif, Er Rachidia",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.43299,
+          31.923455
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Er Rachidia",
+        "addr:street": "Av. Moulay Ali Charif",
+        "name": "Hotel Meski",
+        "phone": "055 57 20 65",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "055 57 20 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1025432741",
+      "name": "Café Restaurant \"La Source Bleue de Meski\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-la-source-bleue-de-meski-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.283624,
+          31.856862
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Café Restaurant \"La Source Bleue de Meski\""
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1025472477",
+      "name": "Cafe Restaurant Valle de Ziz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-valle-de-ziz-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.239105,
+          31.79032
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Valle de Ziz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1123485801",
+      "name": "Mosquee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-errachidia",
+      "category": "mosques",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.387322,
+          32.081243
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquee",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1123485812",
+      "name": "Auberge Palma Ziz Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-palma-ziz-hotel-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.387969,
+          32.077396
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Palma Ziz Hotel",
+        "source": "survey",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1123674521",
+      "name": "Cafe Snack Restaurant Atlanta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-snack-restaurant-atlanta-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.4274,
+          31.929124
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cafe Snack Restaurant Atlanta"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1125036066",
+      "name": "La Source Bleue de Meski",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-source-bleue-de-meski-errachidia",
+      "category": "historical-sites",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.281992,
+          31.856448
+        ]
+      },
+      "osm_tags": {
+        "name": "La Source Bleue de Meski",
+        "name:ca": "font blava de Meski",
+        "natural": "spring",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329595714",
+      "name": "Reservoir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "reservoir-errachidia",
+      "category": "sunset-spots",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.436643,
+          32.027367
+        ]
+      },
+      "osm_tags": {
+        "name": "Reservoir",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2312523059",
+      "name": "Café ELmatar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-elmatar-errachidia",
+      "category": "bars-lounges",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.403994,
+          31.935993
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Café ELmatar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2328543454",
+      "name": "Le Riad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-riad-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.464109,
+          31.914555
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Riad",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2640184993",
+      "name": "Kasbat Aferdou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbat-aferdou-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.463032,
+          31.914743
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbat Aferdou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649087073",
+      "name": "Mosquée Pont Oued Ziz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-pont-oued-ziz-errachidia",
+      "category": "mosques",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.423485,
+          31.933412
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Pont Oued Ziz",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649087074",
+      "name": "Supermarché centre",
+      "name_fr": null,
+      "name_ar": "سوبرماركت المركز",
+      "slug": "supermarche-centre-errachidia",
+      "category": "food-markets",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.425774,
+          31.931228
+        ]
+      },
+      "osm_tags": {
+        "name": "Supermarché centre",
+        "name:ar": "سوبرماركت المركز",
+        "name:es": "Supermercado Centro",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649089916",
+      "name": "Milán ميلانو",
+      "name_fr": null,
+      "name_ar": "ميلانو",
+      "slug": "milan-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "الرشيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.426581,
+          31.930095
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "الرشيدية",
+        "addr:city:ar": "الرشيدية",
+        "amenity": "cafe",
+        "name": "Milán ميلانو",
+        "name:ar": "ميلانو",
+        "name:es": "Milán",
+        "name:it": "Milano"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649090301",
+      "name": "Café Noujoum",
+      "name_fr": null,
+      "name_ar": "مقهى النجوم",
+      "slug": "cafe-noujoum-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.427189,
+          31.928354
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Noujoum",
+        "name:ar": "مقهى النجوم",
+        "name:es": "Café Nugúm"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649094403",
+      "name": "Mosquée Al Ihssan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-ihssan-errachidia",
+      "category": "mosques",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.419646,
+          31.915615
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Al Ihssan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2649099156",
+      "name": "Café Rotana",
+      "name_fr": null,
+      "name_ar": "مقهى روتانا",
+      "slug": "cafe-rotana-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.425486,
+          31.928515
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Rotana",
+        "name:ar": "مقهى روتانا",
+        "name:es": "Café Rotana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3157063328",
+      "name": "1140",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "1140-errachidia",
+      "category": "mountains",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.476459,
+          31.986857
+        ]
+      },
+      "osm_tags": {
+        "name": "1140",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3303983561",
+      "name": "Camp Auberge Au vieux ksar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-auberge-au-vieux-ksar-errachidia",
+      "category": "desert-camps",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.283,
+          31.858065
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Auberge Au vieux ksar",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3438945698",
+      "name": "Marjane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjane-errachidia",
+      "category": "food-markets",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.453536,
+          31.931149
+        ]
+      },
+      "osm_tags": {
+        "brand": "Marjane",
+        "brand:wikidata": "Q2055692",
+        "name": "Marjane",
+        "operator": "Marjane Market",
+        "shop": "supermarket",
+        "website": "https://www.acima.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.acima.ma/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4294764001",
+      "name": "Cafe retaurant Echajara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-retaurant-echajara-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "38, Avenue Moulay Ali Cherif",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.42664,
+          31.929745
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "38",
+        "addr:postcode": "52000",
+        "addr:street": "Avenue Moulay Ali Cherif",
+        "amenity": "cafe",
+        "cuisine": "moroccan",
+        "internet_access": "wlan",
+        "name": "Cafe retaurant Echajara",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+212 6 70 13 75 72"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 70 13 75 72",
+      "stars": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "osm_id": "node/5056550921",
+      "name": "café girona",
+      "name_fr": "café girona",
+      "name_ar": "مقهى جيرونا",
+      "slug": "cafe-girona-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "شارع الحي الجامعي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.452099,
+          31.939734
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "شارع الحي الجامعي",
+        "amenity": "cafe",
+        "name": "café girona مقهى جيرونا",
+        "name:ar": "مقهى جيرونا",
+        "name:en": "café girona",
+        "name:fr": "café girona"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6627507909",
+      "name": "Luna del Fuego",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "luna-del-fuego-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.368061,
+          32.113317
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Luna del Fuego",
+        "outdoor_seating": "yes",
+        "takeaway": "no",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6904097585",
+      "name": "Dam viewpoint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dam-viewpoint-errachidia",
+      "category": "sunset-spots",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.412775,
+          32.044914
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Dam viewpoint",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6904097586",
+      "name": "Valley viewpoint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "valley-viewpoint-errachidia",
+      "category": "sunset-spots",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.388107,
+          32.072864
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Valley viewpoint",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7272874847",
+      "name": "Ighiz Inn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ighiz-inn-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.452918,
+          31.915647
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Ighiz Inn"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8856748936",
+      "name": "Doha",
+      "name_fr": null,
+      "name_ar": "الدوحة",
+      "slug": "doha-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.424234,
+          31.931926
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "contact:phone": "+212 6 61 46 68 16",
+        "name": "Doha",
+        "name:ar": "الدوحة",
+        "name:azb": "دوحه",
+        "name:de": "Doha",
+        "name:el": "Ντόχα",
+        "name:es": "Doha",
+        "name:grc": "Δοχή",
+        "name:pa": "ਦੋਹਾ",
+        "name:ug": "دوھا",
+        "name:ur": "دوحہ"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 46 68 16",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8861189317",
+      "name": "Marina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marina-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.426825,
+          31.931526
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "مارينا",
+        "name:en": "Marina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8863671717",
+      "name": "Sindibad",
+      "name_fr": null,
+      "name_ar": "سندباد",
+      "slug": "sindibad-errachidia",
+      "category": "local-food",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.425805,
+          31.928517
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "سندباد",
+        "name:ar": "سندباد",
+        "name:azb": "سندباد",
+        "name:de": "Sindbad",
+        "name:en": "Sindibad",
+        "name:es": "Simbad",
+        "name:ur": "سندباد"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8864020872",
+      "name": "Local Specialities and Cosmetic Products",
+      "name_fr": null,
+      "name_ar": "التخصصات المحلية ومستحضرات التجميل",
+      "slug": "local-specialities-and-cosmetic-products-errachidia",
+      "category": "food-markets",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.422954,
+          31.927079
+        ]
+      },
+      "osm_tags": {
+        "name": "Spécialités Locales et Produits Cosmétiques",
+        "name:ar": "التخصصات المحلية ومستحضرات التجميل",
+        "name:de": "Lokale Spezialitäten und Kosmetikprodukte",
+        "name:en": "Local Specialities and Cosmetic Products",
+        "name:es": "Especialidades Locales y Productos Cosméticos",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9192800421",
+      "name": "Café rond-point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-rond-point-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.447219,
+          31.918625
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café rond-point"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9192978298",
+      "name": "Dima Cinq Cinq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dima-cinq-cinq-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.42595,
+          31.930196
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Dima Cinq Cinq",
+        "name:es": "Dima Cinco Cinco",
+        "phone": "+212 8 08 54 64 53"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 8 08 54 64 53",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9912712269",
+      "name": "Salma Palms Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salma-palms-hotel-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.265605,
+          31.865381
+        ]
+      },
+      "osm_tags": {
+        "name": "Salma Palms Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9930004417",
+      "name": "MOUMOU",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moumou-errachidia",
+      "category": "riads",
+      "city": "errachidia",
+      "address": "NR 126",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.438886,
+          31.916612
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "NR 126",
+        "addr:postcode": "52000",
+        "name": "مومو",
+        "name:en": "MOUMOU",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10261115409",
+      "name": "Écologie Oasis Tafilalt Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecologie-oasis-tafilalt-hotel-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.407884,
+          31.932627
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Écologie Oasis Tafilalt Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10770780105",
+      "name": "Centre comercial de produits locale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "centre-comercial-de-produits-locale-errachidia",
+      "category": "food-markets",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.452592,
+          31.931185
+        ]
+      },
+      "osm_tags": {
+        "name": "Centre comercial de produits locale",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10926108606",
+      "name": "Dar Yan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-yan-errachidia",
+      "category": "national-parks",
+      "city": "errachidia",
+      "address": "N17, rue fath devant hotel kenzi Rissani, Errachidia",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.422336,
+          31.936638
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Errachidia",
+        "addr:housenumber": "N17",
+        "addr:postcode": "52000",
+        "addr:street": "rue fath devant hotel kenzi Rissani",
+        "leisure": "park",
+        "name": "Dar Yan",
+        "opening_hours": "24/7",
+        "operator": "guest house",
+        "operator:type": "privado"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/11367541011",
+      "name": "Middle Kasba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "middle-kasba-errachidia",
+      "category": "roman-ruins",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.354579,
+          31.899982
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "Middle Kasba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11367541012",
+      "name": "Kasba Lakdima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasba-lakdima-errachidia",
+      "category": "roman-ruins",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.343558,
+          31.890154
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "Kasba Lakdima"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11367541045",
+      "name": "Ksar Sidi Bou Abdellah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-sidi-bou-abdellah-errachidia",
+      "category": "roman-ruins",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.369439,
+          31.903703
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "Ksar Sidi Bou Abdellah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12165324702",
+      "name": "Café Délice",
+      "name_fr": "Café Délice",
+      "name_ar": null,
+      "slug": "cafe-delice-errachidia",
+      "category": "cafes",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.427511,
+          31.932085
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:fr": "Café Délice",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378303",
+      "name": "Hôtel Fekri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-fekri-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.425211,
+          31.929557
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hôtel Fekri",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378603",
+      "name": "Milano",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "milano-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.426575,
+          31.92998
+        ]
+      },
+      "osm_tags": {
+        "name": "Milano",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12696761756",
+      "name": "Souk Meski",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-meski-errachidia",
+      "category": "souks",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.283542,
+          31.862663
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Meski"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13740992903",
+      "name": "Meski Aufstieg zum alten Ksar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "meski-aufstieg-zum-alten-ksar-errachidia",
+      "category": "historical-sites",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.28357,
+          31.851744
+        ]
+      },
+      "osm_tags": {
+        "name": "Meski Aufstieg zum alten Ksar",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13740992904",
+      "name": "Meski Brücke zu den Ruinen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "meski-brucke-zu-den-ruinen-errachidia",
+      "category": "roman-ruins",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.285833,
+          31.856944
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Meski Brücke zu den Ruinen"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/957174565",
+      "name": "Restaurant Imilchil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-imilchil-errachidia",
+      "category": "restaurants",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.425162,
+          31.93071
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Restaurant Imilchil"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/957174567",
+      "name": "Hotel Kenzi Rissani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-kenzi-rissani-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "BP3, Avenue Moulay Ali Cherif",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.42121,
+          31.935304
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "BP3",
+        "addr:street": "Avenue Moulay Ali Cherif",
+        "building": "yes",
+        "email": "rissani@kenzi-hotels.com",
+        "internet_access": "yes",
+        "name": "Hotel Kenzi Rissani",
+        "phone": "+212 5 35 57 25 84",
+        "tourism": "hotel",
+        "website": "https://www.kenzi-hotels.com/kenzi-rissani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kenzi-hotels.com/kenzi-rissani",
+      "phone": "+212 5 35 57 25 84",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/995178473",
+      "name": "Auberge Tinit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tinit-errachidia",
+      "category": "hotels",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.454888,
+          31.916502
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "email": "infotinit@gmail.com",
+        "name": "Auberge Tinit",
+        "phone": "+212 5 35 79 17 59",
+        "tourism": "hotel",
+        "website": "https://auberge-tinit.info/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://auberge-tinit.info/",
+      "phone": "+212 5 35 79 17 59",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/996044838",
+      "name": "Mercado de Errachidía",
+      "name_fr": null,
+      "name_ar": "سوق الرشيدية",
+      "slug": "mercado-de-errachidia-errachidia",
+      "category": "souks",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.423323,
+          31.92691
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Mercado de Errachidía",
+        "name:ar": "سوق الرشيدية",
+        "name:es": "Mercado de Errachidía",
+        "name:ur": "سوق الرشیدیہ"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356687456",
+      "name": "Moulay Omar al Khanafi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-omar-al-khanafi-errachidia",
+      "category": "mausoleums",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.241916,
+          31.799343
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Omar al Khanafi",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356687458",
+      "name": "Moulay Omar al Khanafi l'ancien",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-omar-al-khanafi-l-ancien-errachidia",
+      "category": "mausoleums",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.241918,
+          31.798872
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Omar al Khanafi l'ancien",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356687462",
+      "name": "Sidi Mkbara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mkbara-errachidia",
+      "category": "mausoleums",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.43642,
+          31.943808
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mkbara",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356687463",
+      "name": "Sidi ou Sa'id (Fnou)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ou-sa-id-fnou-errachidia",
+      "category": "mausoleums",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.444294,
+          31.945666
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi ou Sa'id (Fnou)",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1390443305",
+      "name": "parc pedagogique",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-pedagogique-errachidia",
+      "category": "national-parks",
+      "city": "errachidia",
+      "address": "Boulevard Marche Verte, Errachidia ⵉⵎⵜⵖⴻⵔⵏ الرشيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.409385,
+          31.943529
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Errachidia ⵉⵎⵜⵖⴻⵔⵏ الرشيدية",
+        "addr:street": "Boulevard Marche Verte",
+        "leisure": "park",
+        "name": "parc pedagogique"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/1268663",
+      "name": "Réservoir du Barrage Al Hassan Addakhil",
+      "name_fr": "Réservoir du Barrage Al Hassan Addakhil",
+      "name_ar": null,
+      "slug": "reservoir-du-barrage-al-hassan-addakhil-errachidia",
+      "category": "historical-sites",
+      "city": "errachidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.445273,
+          32.013952
+        ]
+      },
+      "osm_tags": {
+        "name": "Réservoir du Barrage Al Hassan Addakhil",
+        "name:fr": "Réservoir du Barrage Al Hassan Addakhil",
+        "natural": "water",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "water": "reservoir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

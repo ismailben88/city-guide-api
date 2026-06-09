@@ -1,0 +1,3394 @@
+{
+  "city": "mirleft",
+  "fetched_at": "2026-06-08T11:37:54.835Z",
+  "raw_count": 921,
+  "places": [
+    {
+      "osm_id": "node/256918420",
+      "name": "Rocher Tagadirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rocher-tagadirt-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.053593,
+          29.568369
+        ]
+      },
+      "osm_tags": {
+        "name": "Rocher Tagadirt",
+        "natural": "cliff",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/256921673",
+      "name": "Hotel Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlas-mirleft",
+      "category": "moroccan-cuisine",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032932,
+          29.580247
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "internet_access": "wlan",
+        "name": "Hotel Atlas",
+        "phone": "+49 528719309",
+        "tourism": "hotel",
+        "website": "http://www.atlas-mirleft.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.atlas-mirleft.com",
+      "phone": "+49 528719309",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/256922057",
+      "name": "Aftas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aftas-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.046969,
+          29.578766
+        ]
+      },
+      "osm_tags": {
+        "name": "Aftas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/256922568",
+      "name": "Hotel Resto Albertih",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-resto-albertih-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033225,
+          29.581593
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Resto Albertih",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/698660547",
+      "name": "Cafe Afriquia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-afriquia-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.72174,
+          29.6663
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Afriquia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1065908241",
+      "name": "Le Soleil Couchant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-soleil-couchant-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.051494,
+          29.568967
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Le Soleil Couchant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1065908439",
+      "name": "Dar Najmat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-najmat-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.05183,
+          29.570625
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Najmat",
+        "phone": "+212 5 28 71 90 56",
+        "tourism": "hotel",
+        "website": "https://www.darnajmat.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darnajmat.com/",
+      "phone": "+212 5 28 71 90 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1110175625",
+      "name": "Les trois Chameaux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-trois-chameaux-mirleft",
+      "category": "luxury-hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.026152,
+          29.580338
+        ]
+      },
+      "osm_tags": {
+        "beds": "50",
+        "internet_access": "wlan",
+        "name": "Les trois Chameaux",
+        "phone": "+212 5 28 71 91 87",
+        "rooms": "25",
+        "stars": "4",
+        "survey:date": "2021-11-05",
+        "swimming_pool": "yes",
+        "tourism": "hotel",
+        "website": "http://www.3chameaux.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.3chameaux.com",
+      "phone": "+212 5 28 71 91 87",
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1110176418",
+      "name": "Kashba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kashba-mirleft",
+      "category": "palaces-kasbahs",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.025905,
+          29.578589
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Kashba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1635110403",
+      "name": "Cafe/Resto du Centre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-resto-du-centre-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.034625,
+          29.579793
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe/Resto du Centre"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1712890074",
+      "name": "Auberge Chez Abdoul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-abdoul-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.115529,
+          29.446555
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Chez Abdoul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1797676894",
+      "name": "mirleft imi ntourga les amicales ميرلفت إيمي انتركا الأصدقاء",
+      "name_fr": "mirleft imi ntourga les amicales",
+      "name_ar": "ميرلفت إيمي انتركا الأصدقاء",
+      "slug": "mirleft-imi-ntourga-les-amicales-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.039526,
+          29.589622
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "85350",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "hotel123mirleft@gmail.com",
+        "name": "mirleft imi ntourga les amicales ميرلفت إيمي انتركا الأصدقاء",
+        "name:ar": "ميرلفت إيمي انتركا الأصدقاء",
+        "name:fr": "mirleft imi ntourga les amicales",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/1797677233",
+      "name": "Sally's B&B سليز بي أند بي",
+      "name_fr": "Sally's B&B",
+      "name_ar": "سليز بي أند بي",
+      "slug": "sally-s-b-b-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.039758,
+          29.589645
+        ]
+      },
+      "osm_tags": {
+        "email": "sallyhaggas@hotmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sally's B&B سليز بي أند بي",
+        "name:ar": "سليز بي أند بي",
+        "name:fr": "Sally's B&B",
+        "operator": "سلي هكاس",
+        "operator:ar": "سلي هكاس",
+        "operator:fr": "Sally Haggas",
+        "phone": "+212 6 61 46 98 88",
+        "tourism": "hotel",
+        "website": "www.sallymirleft.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.sallymirleft.com",
+      "phone": "+212 6 61 46 98 88",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834072203",
+      "name": "Hotel La Fontaine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-la-fontaine-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.724697,
+          29.694924
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel La Fontaine",
+        "name:de": "Hotel La Fontaine",
+        "name:es": "Hotel La Fontaine",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2073488757",
+      "name": "Camping International de Tiznit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-international-de-tiznit-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726062,
+          29.69446
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping International de Tiznit",
+        "name:es": "Camping International de Tiznit",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2148130928",
+      "name": "Idou Tiznit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "idou-tiznit-mirleft",
+      "category": "food-markets",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726641,
+          29.692739
+        ]
+      },
+      "osm_tags": {
+        "name": "Idou Tiznit",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2235499101",
+      "name": "Camp Tazerzite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-tazerzite-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.721064,
+          29.642484
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Tazerzite",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158216",
+      "name": "Aftas Trip",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aftas-trip-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "Γλυφάδα - Λιμνιώνας",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.019208,
+          29.610919
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Γλυφάδα - Λιμνιώνας",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Aftas Trip",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158224",
+      "name": "Café Souss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-souss-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.727556,
+          29.692375
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Souss",
+        "name:es": "Café Sus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298163237",
+      "name": "Snack Café Kwis Laz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-cafe-kwis-laz-mirleft",
+      "category": "local-food",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.723548,
+          29.692087
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack Café Kwis Laz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2419962763",
+      "name": "Ait Babmrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ait-babmrane-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052191,
+          29.566245
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ait Babmrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2419962764",
+      "name": "Bivouac Du Soleil Couchant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-du-soleil-couchant-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.05147,
+          29.569066
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac Du Soleil Couchant",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2419962766",
+      "name": "Hotel Mirleft",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-mirleft-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.034994,
+          29.578834
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Mirleft",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2935645979",
+      "name": "Mosquee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.732126,
+          29.697142
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquee",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305531145",
+      "name": "Camp Erkounte Park",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-erkounte-park-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.067724,
+          29.508598
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Erkounte Park",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3306212608",
+      "name": "Targua International Camping",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "targua-international-camping-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.730669,
+          29.713418
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "Targua International Camping",
+        "operator": "Mohammed",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3424556950",
+      "name": "Riad Janoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-janoub-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.722619,
+          29.698902
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Janoub",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3439095811",
+      "name": "posst//K: p . u",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "posst-k-p-u-mirleft",
+      "category": "sunset-spots",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.754693,
+          29.679207
+        ]
+      },
+      "osm_tags": {
+        "name": "posst//K: p . u",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3439106893",
+      "name": "post / K // p .u",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "post-k-p-u-mirleft",
+      "category": "sunset-spots",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.750936,
+          29.694081
+        ]
+      },
+      "osm_tags": {
+        "name": "post / K // p .u",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3672991236",
+      "name": "Legzira Arc",
+      "name_fr": "Legzira Arc",
+      "name_ar": null,
+      "slug": "legzira-arc-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.121338,
+          29.439726
+        ]
+      },
+      "osm_tags": {
+        "name": "Legzira Arc",
+        "name:fr": "Legzira Arc",
+        "natural": "arch",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3796766950",
+      "name": "Sidi El Wafi Tomb",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-el-wafi-tomb-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.063768,
+          29.539744
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Sidi El Wafi Tomb",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3938390532",
+      "name": "Mini-Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mini-market-mirleft",
+      "category": "food-markets",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.036503,
+          29.581979
+        ]
+      },
+      "osm_tags": {
+        "name": "Mini-Market",
+        "opening_hours": "Opens 8 am",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Opens 8 am"
+    },
+    {
+      "osm_id": "node/3938390857",
+      "name": "Villa Lili Mirleft فيلا ليلي ميرلفت",
+      "name_fr": "Villa Lili Mirleft",
+      "name_ar": "فيلا ليلي ميرلفت",
+      "slug": "villa-lili-mirleft-mirleft",
+      "category": "riads",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.041638,
+          29.587383
+        ]
+      },
+      "osm_tags": {
+        "name": "Villa Lili Mirleft فيلا ليلي ميرلفت",
+        "name:ar": "فيلا ليلي ميرلفت",
+        "name:fr": "Villa Lili Mirleft",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3939400973",
+      "name": "Patisserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisserie-mirleft",
+      "category": "bakeries",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032731,
+          29.578964
+        ]
+      },
+      "osm_tags": {
+        "name": "Patisserie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4027640311",
+      "name": "Riad Tigmi Kenza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-tigmi-kenza-mirleft",
+      "category": "riads",
+      "city": "mirleft",
+      "address": "30, Al Mourabitine Hay Idzekri, Tiznit ⵜⵉⵣⵏⵉⵜ تزنيت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.729992,
+          29.697607
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tiznit ⵜⵉⵣⵏⵉⵜ تزنيت",
+        "addr:housenumber": "30",
+        "addr:street": "Al Mourabitine Hay Idzekri",
+        "name": "Riad Tigmi Kenza",
+        "phone": "+212 5 28 60 03 62",
+        "tourism": "guest_house",
+        "website": "http://www.tigmikenza.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.tigmikenza.com",
+      "phone": "+212 5 28 60 03 62",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4040410267",
+      "name": "A l'ombre du Figuier",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "a-l-ombre-du-figuier-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.730594,
+          29.698031
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "A l'ombre du Figuier",
+        "phone": "+212 5 28 86 12 04"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 86 12 04",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111804416",
+      "name": "Le Ksar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-ksar-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.044627,
+          29.580301
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Ksar",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111804417",
+      "name": "Le Nomade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-nomade-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.043546,
+          29.57996
+        ]
+      },
+      "osm_tags": {
+        "capacity:caravans": "10",
+        "caravans": "yes",
+        "fee": "yes",
+        "name": "Le Nomade",
+        "payment:cash": "yes",
+        "static_caravans": "no",
+        "tents": "no",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111821880",
+      "name": "Hotel du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-du-sud-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033084,
+          29.58043
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+        "name": "Hotel du Sud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111821881",
+      "name": "La Bonne Franquette",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-bonne-franquette-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033007,
+          29.580433
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "La Bonne Franquette"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111821882",
+      "name": "Ayour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ayour-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032991,
+          29.580344
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ayour"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111821883",
+      "name": "Cheux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cheux-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.03276,
+          29.580307
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Mirleft ⵎⵉⵔⵍⴼⵜ ميرلفت",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cheux"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4115199689",
+      "name": "Al Houria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-houria-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "9, Avenue Hassan II",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.729437,
+          29.693627
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Avenue Hassan II",
+        "name": "Al Houria",
+        "phone": "+212 528863433",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 528863433",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4324218891",
+      "name": "Café aftas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-aftas-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.047111,
+          29.578523
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café aftas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4498253365",
+      "name": "Tafougt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tafougt-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033022,
+          29.580996
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tafougt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4502034689",
+      "name": "Hotel Tafoukt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tafoukt-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "20, Main Commercial Street",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033019,
+          29.580763
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "20",
+        "addr:postcode": "85300",
+        "addr:street": "Main Commercial Street",
+        "internet_access": "wlan",
+        "name:en": "Hotel Tafoukt",
+        "opening_hours": "24/7",
+        "phone": "+212 5 28 71 90 77",
+        "tourism": "hotel",
+        "website": "http://tafoukt.free.fr"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://tafoukt.free.fr",
+      "phone": "+212 5 28 71 90 77",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4503821590",
+      "name": "oasis pool fed by pipes",
+      "name_fr": "Place de la Source bleue",
+      "name_ar": null,
+      "slug": "oasis-pool-fed-by-pipes-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "1, place de la source bleue",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726846,
+          29.700487
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "83000",
+        "addr:street": "place de la source bleue",
+        "name": "Place de la Source bleue",
+        "name:en": "oasis pool fed by pipes",
+        "name:fr": "Place de la Source bleue",
+        "opening_hours": "24/7",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4503821591",
+      "name": "kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "1, Camino Qasba",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726628,
+          29.700008
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Camino Qasba",
+        "addr:street:es": "Camino Qasba",
+        "name": "Qasba",
+        "name:en": "kasbah",
+        "name:es": "Qasba",
+        "opening_hours": "Mo 10:00-22:00",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo 10:00-22:00"
+    },
+    {
+      "osm_id": "node/4504307194",
+      "name": "Hotel Mauritania",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-mauritania-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.724439,
+          29.691548
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Hotel Mauritania",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4686726746",
+      "name": "Tarfaya Apartments",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tarfaya-apartments-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.035983,
+          29.583494
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Tarfaya Apartments",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4693658291",
+      "name": "Tigmi Ayour Apartment",
+      "name_fr": "Tigmi Ayour Appartements",
+      "name_ar": "دار القمر للشقق المؤثثة",
+      "slug": "tigmi-ayour-apartment-mirleft",
+      "category": "riads",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.034099,
+          29.580815
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Tigmi Ayour Appartements دار القمر للشقق المؤثثة",
+        "name:ar": "دار القمر للشقق المؤثثة",
+        "name:en": "Tigmi Ayour Apartment",
+        "name:fr": "Tigmi Ayour Appartements",
+        "opening_hours": "24/7",
+        "operator": "Abdelrahim",
+        "phone": "+212 6 71 50 13 98",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 71 50 13 98",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5155959771",
+      "name": "Souk Mirhleft",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-mirhleft-mirleft",
+      "category": "souks",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.03322,
+          29.580892
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Mirhleft"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5284610022",
+      "name": "Bijouterie Bab Alkhmis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bijouterie-bab-alkhmis-mirleft",
+      "category": "shopping",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.728196,
+          29.703031
+        ]
+      },
+      "osm_tags": {
+        "name": "Bijouterie Bab Alkhmis",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5284638022",
+      "name": "Supermarkt Al Izdihar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "supermarkt-al-izdihar-mirleft",
+      "category": "food-markets",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.728915,
+          29.693185
+        ]
+      },
+      "osm_tags": {
+        "name": "Supermarkt Al Izdihar",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5284638023",
+      "name": "Berber Bijous Shop Fabricage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-bijous-shop-fabricage-mirleft",
+      "category": "shopping",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726678,
+          29.700631
+        ]
+      },
+      "osm_tags": {
+        "name": "Berber Bijous Shop Fabricage",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5702272029",
+      "name": "Tifawin Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tifawin-cafe-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032819,
+          29.580037
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Tifawin Cafe"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5838946185",
+      "name": "The Big Blue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "the-big-blue-mirleft",
+      "category": "riads",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.051288,
+          29.573707
+        ]
+      },
+      "osm_tags": {
+        "name": "The Big Blue",
+        "tourism": "guest_house",
+        "website": "https://abnb.me/GxdWOcRSsP"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://abnb.me/GxdWOcRSsP",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016394882",
+      "name": "Restaurant \"Chez Abdoul\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-chez-abdoul-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.11559,
+          29.446444
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant \"Chez Abdoul\""
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016421438",
+      "name": "Place du Mechouar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-du-mechouar-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731317,
+          29.696997
+        ]
+      },
+      "osm_tags": {
+        "name": "Place du Mechouar",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6032577542",
+      "name": "Maison du Soleil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-du-soleil-mirleft",
+      "category": "riads",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731251,
+          29.702672
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison du Soleil",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6111652187",
+      "name": "Silver-souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "silver-souk-mirleft",
+      "category": "shopping",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731785,
+          29.696659
+        ]
+      },
+      "osm_tags": {
+        "name": "Silver-souk",
+        "opening_hours": "24/7",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/6111663886",
+      "name": "Mosquee Idzekri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-idzekri-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.729257,
+          29.698399
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquee Idzekri",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6111832385",
+      "name": "La Source Blue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-source-blue-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.726983,
+          29.700506
+        ]
+      },
+      "osm_tags": {
+        "name": "La Source Blue",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6113241086",
+      "name": "Alimentation General",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alimentation-general-mirleft",
+      "category": "food-markets",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.733,
+          29.697232
+        ]
+      },
+      "osm_tags": {
+        "name": "Alimentation General",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6113241088",
+      "name": "Boulangerie et pâtisserie Cardinal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-et-patisserie-cardinal-mirleft",
+      "category": "bakeries",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.729272,
+          29.699772
+        ]
+      },
+      "osm_tags": {
+        "name": "Boulangerie et pâtisserie Cardinal",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6116717189",
+      "name": "Timizar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "timizar-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731737,
+          29.697058
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Timizar",
+        "opening_hours": "24/7"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/6116779387",
+      "name": "Yves Rocher",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yves-rocher-mirleft",
+      "category": "argan-products",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.732465,
+          29.697283
+        ]
+      },
+      "osm_tags": {
+        "name": "Yves Rocher",
+        "shop": "cosmetics"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6176493485",
+      "name": "Mirleft Tayought Guesthouse",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mirleft-tayought-guesthouse-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.034002,
+          29.58158
+        ]
+      },
+      "osm_tags": {
+        "name": "Mirleft Tayought Guesthouse",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6188103885",
+      "name": "Sand dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sand-dunes-mirleft",
+      "category": "sunset-spots",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.948462,
+          29.707915
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Sand dunes",
+        "name:ru": "Песчаные дюны",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7068927191",
+      "name": "Café restaurant Tigmi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-tigmi-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.741963,
+          29.695155
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café restaurant Tigmi",
+        "opening_hours": "07:00-23:00",
+        "phone": "+212 5 28 86 40 01",
+        "survey:date": "2019-12-19"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 86 40 01",
+      "stars": null,
+      "opening_hours": "07:00-23:00"
+    },
+    {
+      "osm_id": "node/7216728987",
+      "name": "BIJOUX Traditionels",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bijoux-traditionels-mirleft",
+      "category": "shopping",
+      "city": "mirleft",
+      "address": "307, Sidi Boujbara",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.722414,
+          29.701719
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "307",
+        "addr:street": "Sidi Boujbara",
+        "name": "BIJOUX Traditionels",
+        "opening_hours": "24/7",
+        "phone": "+212 6 70 96 82 73",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 70 96 82 73",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/7916867885",
+      "name": "HOTEL SADEK",
+      "name_fr": "HOTEL SADEK",
+      "name_ar": "فندق صديق",
+      "slug": "hotel-sadek-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.732195,
+          29.693625
+        ]
+      },
+      "osm_tags": {
+        "name": "فندق صديق",
+        "name:ar": "فندق صديق",
+        "name:en": "HOTEL SADEK",
+        "name:fr": "HOTEL SADEK",
+        "phone": "+212 8 08 51 01 18",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 8 08 51 01 18",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8397961643",
+      "name": "Hotel Paris",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-paris-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.725637,
+          29.692025
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Paris",
+        "name:de": "Hotel Paris",
+        "name:es": "Hotel París",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8397961645",
+      "name": "Idou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "idou-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.725648,
+          29.692574
+        ]
+      },
+      "osm_tags": {
+        "name": "Idou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9604226917",
+      "name": "Snap Pizza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snap-pizza-mirleft",
+      "category": "local-food",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.729679,
+          29.697415
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snap Pizza"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10303426309",
+      "name": "bab targwa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-targwa-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.725331,
+          29.703951
+        ]
+      },
+      "osm_tags": {
+        "name": "bab targwa",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10308551909",
+      "name": "Mr Linin Fish and Chips",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mr-linin-fish-and-chips-mirleft",
+      "category": "local-food",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.033558,
+          29.580478
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Mr Linin Fish and Chips"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10537029311",
+      "name": "Atlantic Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlantic-cafe-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032874,
+          29.58016
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Atlantic Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10548659410",
+      "name": "Hotel des Touristes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-des-touristes-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731572,
+          29.698004
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel des Touristes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10562362310",
+      "name": "Tayought",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tayought-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.032962,
+          29.580569
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tayought"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10567855609",
+      "name": "Very good food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "very-good-food-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.72849,
+          29.701754
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Very good food"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10733196907",
+      "name": "Le Lieu",
+      "name_fr": "Le Lieu",
+      "name_ar": null,
+      "slug": "le-lieu-mirleft",
+      "category": "moroccan-cuisine",
+      "city": "mirleft",
+      "address": "273, Imp.issaoui, rue Haddada",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.73106,
+          29.697012
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "273",
+        "addr:postcode": "85000",
+        "addr:street": "Imp.issaoui, rue Haddada",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "email": "riadlelieu@hotmail.fr",
+        "internet_access": "wlan",
+        "name:fr": "Le Lieu",
+        "phone": "+212 6 15 93 59 34"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 15 93 59 34",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10733197006",
+      "name": "Camping Timbar",
+      "name_fr": "Camping Timbar",
+      "name_ar": null,
+      "slug": "camping-timbar-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "Hors Bab Lkhmis, Hay Dou Targa - Tiznit",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.73057,
+          29.705043
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "85000",
+        "addr:street": "Hors Bab Lkhmis, Hay Dou Targa - Tiznit",
+        "name:fr": "Camping Timbar",
+        "phone": "+212 528 865 689",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 528 865 689",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10779316399",
+      "name": "La Ville Nouvelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-ville-nouvelle-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.732216,
+          29.69524
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "La Ville Nouvelle"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11212660537",
+      "name": "Coffee alfath",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "coffee-alfath-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.816108,
+          29.52574
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "مقهى الفتح",
+        "name:en": "Coffee alfath",
+        "opening_hours": "Mo-Su 09:00-22:15"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-22:15"
+    },
+    {
+      "osm_id": "node/11541724102",
+      "name": "Café et Restaurant du Camping Paradis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-et-restaurant-du-camping-paradis-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "Corniche Aglou, Marokko",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.848108,
+          29.786138
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Corniche Aglou, Marokko",
+        "amenity": "restaurant",
+        "name": "Café et Restaurant du Camping Paradis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12124085325",
+      "name": "Location Ido mallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "location-ido-mallah-mirleft",
+      "category": "historical-sites",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.805734,
+          29.766526
+        ]
+      },
+      "osm_tags": {
+        "destroyed": "yes",
+        "historic": "memorial",
+        "name": "Location Ido mallah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12287759401",
+      "name": "Hôtel Bellevue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-bellevue-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.730257,
+          29.697529
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Bellevue",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12420406801",
+      "name": "Chems",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chems-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.724356,
+          29.692811
+        ]
+      },
+      "osm_tags": {
+        "name": "Chems",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12443711018",
+      "name": "Wood Stock",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wood-stock-mirleft",
+      "category": "cafes",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.047184,
+          29.578667
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Wood Stock"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13089510001",
+      "name": "Camp Municipal D'Aglou تخييم أغلو البلدي",
+      "name_fr": "Camp Municipal D'Aglou",
+      "name_ar": "تخييم أغلو البلدي",
+      "slug": "camp-municipal-d-aglou-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.847437,
+          29.78563
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Municipal D'Aglou تخييم أغلو البلدي",
+        "name:ar": "تخييم أغلو البلدي",
+        "name:fr": "Camp Municipal D'Aglou",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13184847016",
+      "name": "Sidi Mouhammad ou Abdallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mouhammad-ou-abdallah-mirleft",
+      "category": "mausoleums",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052338,
+          29.567354
+        ]
+      },
+      "osm_tags": {
+        "historic": "tomb",
+        "name": "Sidi Mouhammad ou Abdallah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13264760302",
+      "name": "Legzira, Wohnmobil Stellplatz in der Ferienanlage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "legzira-wohnmobil-stellplatz-in-der-ferienanlage-mirleft",
+      "category": "desert-camps",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.114401,
+          29.446261
+        ]
+      },
+      "osm_tags": {
+        "name": "Legzira, Wohnmobil Stellplatz in der Ferienanlage",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13360618178",
+      "name": "Tizuzaf",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizuzaf-mirleft",
+      "category": "shopping",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.731554,
+          29.696837
+        ]
+      },
+      "osm_tags": {
+        "name": "Tizuzaf",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13360618179",
+      "name": "Hotel Samy B",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-samy-b-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.723546,
+          29.69387
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Samy B",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13360618180",
+      "name": "Restaurant Samy B",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-samy-b-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.723629,
+          29.69392
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Samy B"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13406021380",
+      "name": "ZanZan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zanzan-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.0337,
+          29.58182
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "ZanZan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13586974401",
+      "name": "Pieds dans l'eau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pieds-dans-l-eau-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.116251,
+          29.445847
+        ]
+      },
+      "osm_tags": {
+        "name": "Pieds dans l'eau",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725141",
+      "name": "Marabout Beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marabout-beach-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052993,
+          29.568606
+        ]
+      },
+      "osm_tags": {
+        "name": "Marabout Beach",
+        "name:en": "Marabout Beach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725189",
+      "name": "Imi Ntarga Beach",
+      "name_fr": "Plage Imi Ntarga",
+      "name_ar": "شاطئ إيمي انتركا",
+      "slug": "imi-ntarga-beach-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.03749,
+          29.591577
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Imi Ntarga ⵉⵎⵉ ⵏⵜⴰⵔⴳⴰ شاطئ إيمي انتركا",
+        "name:ar": "شاطئ إيمي انتركا",
+        "name:ber": "ⵉⵎⵉ ⵏⵜⴰⵔⴳⴰ",
+        "name:en": "Imi Ntarga Beach",
+        "name:fr": "Plage Imi Ntarga",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725294",
+      "name": "Plage de Tamehrocht ⵜⴰⵎⵃⵔⵓⵛⵜ شاطئ تامحروشت",
+      "name_fr": "Plage de Tamehrocht",
+      "name_ar": "شاطئ تامحروشت",
+      "slug": "plage-de-tamehrocht-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.058372,
+          29.553687
+        ]
+      },
+      "osm_tags": {
+        "alt_name:fr": "Plage Sauvage",
+        "name": "Plage de Tamehrocht ⵜⴰⵎⵃⵔⵓⵛⵜ شاطئ تامحروشت",
+        "name:ar": "شاطئ تامحروشت",
+        "name:ber": "ⵜⴰⵎⵃⵔⵓⵛⵜ",
+        "name:fr": "Plage de Tamehrocht",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725306",
+      "name": "Sidi lwafi Beach",
+      "name_fr": "Plage de Sidi lwafi",
+      "name_ar": "شاطئ سيدي الوافي",
+      "slug": "sidi-lwafi-beach-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.067575,
+          29.537146
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Sidi lwafi شاطئ سيدي الوافي",
+        "name:ar": "شاطئ سيدي الوافي",
+        "name:en": "Sidi lwafi Beach",
+        "name:fr": "Plage de Sidi lwafi",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725327",
+      "name": "Plage aftas --- dwar rkont",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-aftas-dwar-rkont-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.071571,
+          29.515054
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage aftas --- dwar rkont",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725460",
+      "name": "Plage Ftaysa hda dwar rkont",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-ftaysa-hda-dwar-rkont-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.078905,
+          29.499838
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Ftaysa hda dwar rkont",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725594",
+      "name": "Aftas Beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aftas-beach-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.047888,
+          29.578277
+        ]
+      },
+      "osm_tags": {
+        "name": "Aftas Beach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/159192837",
+      "name": "Plage Legzira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-legzira-mirleft",
+      "category": "beaches",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.118151,
+          29.443695
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Legzira",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/242263214",
+      "name": "Nid d’Aigle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nid-d-aigle-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.931494,
+          29.700534
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Nid d’Aigle",
+        "note": "Restaurant et auberge",
+        "tourism": "hotel",
+        "website": "https://www.nidaigle.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.nidaigle.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755665969",
+      "name": "Sidi Bou al Fadayl",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bou-al-fadayl-mirleft",
+      "category": "mausoleums",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.960806,
+          29.680844
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bou al Fadayl",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757530513",
+      "name": "Sidi Abderhamane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abderhamane-mirleft",
+      "category": "mausoleums",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.728791,
+          29.698578
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abderhamane",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759407554",
+      "name": "Mosquee Assouna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-assouna-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.734609,
+          29.696971
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee Assouna",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/904250869",
+      "name": "Paris",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paris-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.72562,
+          29.691993
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Paris",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1119055985",
+      "name": "مسجد الكبير لميراللفت",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.037351,
+          29.580114
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "مسجد الكبير لميراللفت",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1137880764",
+      "name": "Ocean Dunes house",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ocean-dunes-house-mirleft",
+      "category": "restaurants",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.94949,
+          29.705978
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Ocean Dunes house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1415725014",
+      "name": "Masjid Assafae",
+      "name_fr": "Mosquée Assafae",
+      "name_ar": "مسجد الصفاء",
+      "slug": "masjid-assafae-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.718488,
+          29.683317
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "مسجد الصفاء",
+        "name:ar": "مسجد الصفاء",
+        "name:en": "Masjid Assafae",
+        "name:fr": "Mosquée Assafae",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1415725017",
+      "name": "Masjid Uthman Ibn Aafan",
+      "name_fr": "Mosquée Uthman Bno Aafan",
+      "name_ar": null,
+      "slug": "masjid-uthman-ibn-aafan-mirleft",
+      "category": "mosques",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.712648,
+          29.679886
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "مسجد عثمان بن عفان",
+        "name:en": "Masjid Uthman Ibn Aafan",
+        "name:fr": "Mosquée Uthman Bno Aafan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1518983516",
+      "name": "Aftas Trip Eco Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aftas-trip-eco-lodge-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.019354,
+          29.610965
+        ]
+      },
+      "osm_tags": {
+        "air_conditioning": "no",
+        "barrier": "wall",
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Aftas Trip Eco Lodge",
+        "rooms": "24",
+        "smoking": "separated",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1518984702",
+      "name": "Hamam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-mirleft",
+      "category": "hammams",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.01913,
+          29.611179
+        ]
+      },
+      "osm_tags": {
+        "access": "permit",
+        "amenity": "public_bath",
+        "building": "yes",
+        "building:colour": "white",
+        "building:levels": "1",
+        "building:levels:underground": "0",
+        "building:material": "sandstone",
+        "building:use": "hotel",
+        "name": "Hamam",
+        "operator": "Aftas Trip",
+        "roof:colour": "white",
+        "roof:material": "concrete",
+        "roof:shape": "flat",
+        "shower": "yes",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2749345",
+      "name": "Hotel Tiznit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tiznit-mirleft",
+      "category": "hotels",
+      "city": "mirleft",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.724137,
+          29.691946
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Tiznit",
+        "name:de": "Hotel Tiznit",
+        "name:es": "Hotel Tiznit",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

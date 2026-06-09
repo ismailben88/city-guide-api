@@ -26,6 +26,15 @@ exports.getTopPlaces = asyncHandler(async (req, res) => {
   res.json(places);
 });
 
+// GET /places/top-per-city?perCity=6&minRating=4
+exports.getTopPerCity = asyncHandler(async (req, res) => {
+  const places = await placeService.getTopPerCity({
+    perCity:   req.query.perCity,
+    minRating: req.query.minRating,
+  });
+  res.json(places);
+});
+
 // GET /places/:id
 exports.getPlaceById = asyncHandler(async (req, res) => {
   const place = await placeService.getPlaceById(req.params.id);

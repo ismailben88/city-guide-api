@@ -10,6 +10,7 @@ const TTL = {
   CATEGORIES: 3600, // 1h
   GUIDES:      600, // 10 min
   EVENTS:      300, // 5 min
+  PLACES:      600, // 10 min — top-per-city aggregations
 };
 
 const buildKey = (prefix, query = {}) => {

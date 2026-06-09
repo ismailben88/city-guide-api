@@ -1,0 +1,5832 @@
+{
+  "city": "ouarzazate",
+  "fetched_at": "2026-06-08T11:43:30.174Z",
+  "raw_count": 651,
+  "places": [
+    {
+      "osm_id": "node/318771709",
+      "name": "Atlas Studios",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-studios-ouarzazate",
+      "category": "historical-sites",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.966914,
+          30.941782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "studio",
+        "name": "Atlas Studios",
+        "phone": "+212 5 24 88 22 23",
+        "studio": "video",
+        "tourism": "attraction",
+        "website": "https://ouarzazatestudios.com/",
+        "wikidata": "Q757166",
+        "wikimedia_commons": "Category:Atlas Corporation Studios",
+        "wikipedia": "en:Atlas Corporation Studios"
+      },
+      "wikidata": "Q757166",
+      "wikipedia": "en:Atlas Corporation Studios",
+      "website": "https://ouarzazatestudios.com/",
+      "phone": "+212 5 24 88 22 23",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/318772007",
+      "name": "Marché Couvert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-couvert-ouarzazate",
+      "category": "souks",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920095,
+          30.922889
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Couvert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439251201",
+      "name": "Kasbah de Tifoultoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-de-tifoultoute-ouarzazate",
+      "category": "palaces-kasbahs",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.990421,
+          30.926595
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Kasbah de Tifoultoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439317333",
+      "name": "La Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.899885,
+          30.920889
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan;regional",
+        "internet_access": "wlan",
+        "name": "La Kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439425011",
+      "name": "Chez Dimitri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-dimitri-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "Av. Mohamed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915262,
+          30.920556
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Av. Mohamed V",
+        "amenity": "restaurant",
+        "name": "Chez Dimitri"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439425013",
+      "name": "Supermarché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "supermarche-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915337,
+          30.920209
+        ]
+      },
+      "osm_tags": {
+        "alcohol": "yes",
+        "name": "Supermarché",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/621322550",
+      "name": "Taourirt Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taourirt-kasbah-ouarzazate",
+      "category": "history-museums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.899434,
+          30.920124
+        ]
+      },
+      "osm_tags": {
+        "name": "Taourirt Kasbah",
+        "name:zh": "陶瑞特城堡",
+        "tourism": "museum",
+        "wikidata": "Q16593169",
+        "wikimedia_commons": "Category:Kasbah Taourirt",
+        "wikipedia": "en:Kasbah Taourirt"
+      },
+      "wikidata": "Q16593169",
+      "wikipedia": "en:Kasbah Taourirt",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/664490982",
+      "name": "La Vallee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vallee-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911155,
+          30.902991
+        ]
+      },
+      "osm_tags": {
+        "name": "La Vallee",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704490194",
+      "name": "Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91602,
+          30.920958
+        ]
+      },
+      "osm_tags": {
+        "name": "Atlas",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954684000",
+      "name": "Dar Bladi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bladi-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.880208,
+          30.905429
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Bladi",
+        "phone": "+212 5 24 85 43 50",
+        "tourism": "hotel",
+        "website": "https://darbladi-ouarzazate.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://darbladi-ouarzazate.com/",
+      "phone": "+212 5 24 85 43 50",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954684017",
+      "name": "Dar Daif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-daif-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.879801,
+          30.905816
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Daif",
+        "phone": "+212 6 61 57 64 05",
+        "tourism": "hotel",
+        "website": "https://dardaif.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dardaif.ma/",
+      "phone": "+212 6 61 57 64 05",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1161748255",
+      "name": "Le Musée Régional de la Résistance et de l'Armée de Liberation",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-musee-regional-de-la-resistance-et-de-l-armee-de-liberation-ouarzazate",
+      "category": "history-museums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92016,
+          30.929908
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Musée Régional de la Résistance et de l'Armée de Liberation",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1161748311",
+      "name": "Cae Mehdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cae-mehdi-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91449,
+          30.920596
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cae Mehdi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1175041317",
+      "name": "Le Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-carrefour-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104805,
+          30.975008
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Carrefour",
+        "source": "survey",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1245723176",
+      "name": "La Terrasse des Délices",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-terrasse-des-delices-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.944587,
+          30.823607
+        ]
+      },
+      "osm_tags": {
+        "name": "La Terrasse des Délices",
+        "phone": "+212 6 68 51 56 40",
+        "rooms": "30",
+        "tourism": "hotel",
+        "website": "https://terrassedesdelices.com/",
+        "wheelchair": "no",
+        "wifi": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://terrassedesdelices.com/",
+      "phone": "+212 6 68 51 56 40",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1245736363",
+      "name": "Hema",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hema-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "Avenue Moulay Ettahar Bed Abdulkarim",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.928472,
+          30.926642
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Moulay Ettahar Bed Abdulkarim",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "الهمة",
+        "name:en": "Hema",
+        "opening_hours": "PH,Mo-Su 08:00-22:45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "PH,Mo-Su 08:00-22:45"
+    },
+    {
+      "osm_id": "node/1834471250",
+      "name": "Dar Kamar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-kamar-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898887,
+          30.919273
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Kamar",
+        "tourism": "guest_house",
+        "website": "http://www.darkamar.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.darkamar.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834471264",
+      "name": "Filmset",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "filmset-ouarzazate",
+      "category": "historical-sites",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.072643,
+          31.017721
+        ]
+      },
+      "osm_tags": {
+        "name": "Filmset",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834473717",
+      "name": "Rabab Bazaar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rabab-bazaar-ouarzazate",
+      "category": "souks",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915168,
+          30.920216
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Rabab Bazaar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834473718",
+      "name": "Rose Noir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rose-noir-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.899203,
+          30.920165
+        ]
+      },
+      "osm_tags": {
+        "name": "Rose Noir",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902468",
+      "name": "Akabar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "akabar-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.905806,
+          30.919218
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Akabar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902487",
+      "name": "Cae Tamda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cae-tamda-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914765,
+          30.920565
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cae Tamda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902488",
+      "name": "Cuisine divers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cuisine-divers-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913733,
+          30.921729
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Cuisine divers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902489",
+      "name": "Des Habouss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "des-habouss-ouarzazate",
+      "category": "bakeries",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914278,
+          30.921631
+        ]
+      },
+      "osm_tags": {
+        "name": "Des Habouss",
+        "phone": "+212 44 882699",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 44 882699",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902490",
+      "name": "El Mouahidine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-mouahidine-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913877,
+          30.921719
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "El Mouahidine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902491",
+      "name": "Galas Café Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "galas-cafe-restaurant-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912248,
+          30.920362
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Galas Café Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902492",
+      "name": "Hotel Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-essalam-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915016,
+          30.920236
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Essalam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902493",
+      "name": "Hotel Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-royal-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915109,
+          30.920556
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Hotel Royal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902495",
+      "name": "La Fibule",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-fibule-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915521,
+          30.920517
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Fibule"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904303",
+      "name": "Bab Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-sahara-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913366,
+          30.921747
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "internet_access": "wlan",
+        "internet_access:password": "babsahara@2024",
+        "internet_access:ssid": "HOTEL_BABSAHARA_4G",
+        "name": "Bab Sahara",
+        "stars": "2",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 2,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904423",
+      "name": "Salon de The Habous",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salon-de-the-habous-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914171,
+          30.921707
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Salon de The Habous"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904424",
+      "name": "Snack El Hassania",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-el-hassania-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915444,
+          30.920987
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack El Hassania"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2038773610",
+      "name": "Douyria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "douyria-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897778,
+          30.921566
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Douyria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2038773617",
+      "name": "Esapce",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "esapce-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.889555,
+          30.928223
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Esapce"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2038773621",
+      "name": "Fint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fint-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898513,
+          30.921218
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Fint",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2038773632",
+      "name": "Le Petit Gourmand",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-petit-gourmand-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.896262,
+          30.923701
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Petit Gourmand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2078788728",
+      "name": "Mosquée Al Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-massira-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.922061,
+          30.933701
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Al Massira",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2079957987",
+      "name": "Mosquée Ait kdif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ait-kdif-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.879044,
+          30.92525
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Ait kdif",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2270444267",
+      "name": "La Roche Noire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-roche-noire-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.950335,
+          30.821321
+        ]
+      },
+      "osm_tags": {
+        "email": "oasis.fint@gmail.com",
+        "internet_access": "no",
+        "name": "La Roche Noire",
+        "phone": "+212 5 26 40 56 89",
+        "rooms": "6",
+        "smoking": "yes",
+        "tourism": "hotel",
+        "website": "https://www.larochenoire-oasis-fint.com/",
+        "wheelchair": "no",
+        "wifi": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.larochenoire-oasis-fint.com/",
+      "phone": "+212 5 26 40 56 89",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2329883238",
+      "name": "Azoul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azoul-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923475,
+          30.921666
+        ]
+      },
+      "osm_tags": {
+        "name": "Azoul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2329883271",
+      "name": "St Exupery",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "st-exupery-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "Bvd. Moulay Abdellah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.890652,
+          30.926915
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Bvd. Moulay Abdellah",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "St Exupery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2415649094",
+      "name": "Dar Alfoursanne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-alfoursanne-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.846224,
+          30.860929
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Alfoursanne",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2422190523",
+      "name": "Hotel Zaghro",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-zaghro-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "193",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911556,
+          30.900381
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "193",
+        "addr:postcode": "45000",
+        "email": "hotelrestaurantzaghro@yahoo.fr",
+        "internet_access": "wlan",
+        "name": "Hotel Zaghro",
+        "phone": "+212 5 24 85 41 35",
+        "tourism": "hotel",
+        "website": "https://www.hotel-zaghro.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotel-zaghro.com/",
+      "phone": "+212 5 24 85 41 35",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2439312293",
+      "name": "Jardin des Aromes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-des-aromes-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915414,
+          30.920242
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Jardin des Aromes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517638240",
+      "name": "Auberge le carfour Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-le-carfour-ben-haddou-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104741,
+          30.97522
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge le carfour Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639665",
+      "name": "Camping Auberge l'escale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-auberge-l-escale-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097671,
+          30.975165
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Auberge l'escale",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639675",
+      "name": "Hotel l'Escale de Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-l-escale-de-ouarzazate-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "route national 10",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097728,
+          30.975088
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "route national 10",
+        "bar": "yes",
+        "capacity": "10",
+        "charge": "Entre 30 Euro chambre (room) double 85 pour une chambre (room) family",
+        "fee": "yes",
+        "fixme": "jeux enfant et petanque = yes; télévision = yes; air conditioned = yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hotel l'Escale de Ouarzazate",
+        "operator": "naoual",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "restaurant": "yes",
+        "rooms": "10",
+        "swimming_pool": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639899",
+      "name": "Maison d'hôtes Tigminou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-tigminou-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097446,
+          30.976177
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison d'hôtes Tigminou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517641895",
+      "name": "Imoudal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imoudal-ouarzazate",
+      "category": "bakeries",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92639,
+          30.922326
+        ]
+      },
+      "osm_tags": {
+        "name": "Imoudal",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2519675248",
+      "name": "La Rose Des Sables Restaurant Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-rose-des-sables-restaurant-pizzeria-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911567,
+          30.903029
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "La Rose Des Sables Restaurant Pizzeria",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2878519248",
+      "name": "La Pirgola",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-pirgola-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.6475,
+          31.000619
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "La Pirgola"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2975917867",
+      "name": "Patisserie El Janoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisserie-el-janoub-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912437,
+          30.921152
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Patisserie El Janoub"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3470331467",
+      "name": "Restaurant 3Thés",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-3thes-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910945,
+          30.921226
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Restaurant 3Thés"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3773122195",
+      "name": "Dar Al Aafia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-aafia-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914507,
+          30.894875
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Al Aafia",
+        "tourism": "hotel",
+        "website": "http://www.daralaafia-ouarzazate.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.daralaafia-ouarzazate.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4160087298",
+      "name": "Riad Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ouarzazate-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898686,
+          30.929411
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2025-10-28",
+        "name": "Riad Ouarzazate",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4160133589",
+      "name": "Le petit riad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-petit-riad-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.89733,
+          30.930431
+        ]
+      },
+      "osm_tags": {
+        "name": "Le petit riad",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4217528989",
+      "name": "Marmar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marmar-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue Moulay Abdellah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924318,
+          30.928291
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Moulay Abdellah",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Marmar",
+        "phone": "+212 5 24 88 88 87",
+        "smoking": "separated",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "hotel-marmar.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "hotel-marmar.com",
+      "phone": "+212 5 24 88 88 87",
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4248672856",
+      "name": "Lions",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lions-ouarzazate",
+      "category": "historical-sites",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.967549,
+          30.942519
+        ]
+      },
+      "osm_tags": {
+        "name": "Lions",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4248688220",
+      "name": "Ship",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ship-ouarzazate",
+      "category": "historical-sites",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.965212,
+          30.942346
+        ]
+      },
+      "osm_tags": {
+        "name": "Ship",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4344447593",
+      "name": "Snack Resto Elbahja",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-resto-elbahja-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924893,
+          30.924253
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan;local",
+        "name": "Snack Resto Elbahja"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4370237292",
+      "name": "Chez Nabil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-nabil-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911795,
+          30.922931
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Nabil"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4370394093",
+      "name": "Candys",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "candys-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903329,
+          30.926707
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Candys"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4370423792",
+      "name": "Pizzeria Fantasía",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-fantasia-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903347,
+          30.925828
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Pizzeria Fantasía"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4579789996",
+      "name": "Cinema Riad",
+      "name_fr": "Cinema Eden",
+      "name_ar": null,
+      "slug": "cinema-riad-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916334,
+          30.904972
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Cinema Eden",
+        "name:en": "Cinema Riad",
+        "name:fr": "Cinema Eden",
+        "tourism": "hostel",
+        "website": "https://www.cinema-riad-ouarzazate.booked.net/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.cinema-riad-ouarzazate.booked.net/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4723228498",
+      "name": "afoulki hotel",
+      "name_fr": "Hôtel afoulki",
+      "name_ar": "فندق افولكي",
+      "slug": "afoulki-hotel-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903886,
+          30.927325
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "internet_access": "wlan",
+        "name": "Hôtel Amsterdam",
+        "name:ar": "فندق افولكي",
+        "name:en": "afoulki hotel",
+        "name:fr": "Hôtel afoulki",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4725934392",
+      "name": "Boulangerie Paris مخبزة باريس",
+      "name_fr": "Boulangerie Paris",
+      "name_ar": "مخبزة باريس",
+      "slug": "boulangerie-paris-ouarzazate",
+      "category": "bakeries",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.901494,
+          30.928034
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "name": "Boulangerie Paris مخبزة باريس",
+        "name:ar": "مخبزة باريس",
+        "name:fr": "Boulangerie Paris",
+        "opening_hours": "Mo-Su 06:30-21:30",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 06:30-21:30"
+    },
+    {
+      "osm_id": "node/4725936992",
+      "name": "Afoulki افولكي",
+      "name_fr": "Afoulki",
+      "name_ar": "افولكي",
+      "slug": "afoulki-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903394,
+          30.927195
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "amenity": "restaurant",
+        "cuisine": "arab;moroccan;coffee_shop;french",
+        "internet_access": "wlan",
+        "name": "Afoulki افولكي",
+        "name:ar": "افولكي",
+        "name:fr": "Afoulki",
+        "opening_hours": "Mo-Su 07:00-00:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-00:00"
+    },
+    {
+      "osm_id": "node/4725948792",
+      "name": "Amsterdam امستردام",
+      "name_fr": "Amsterdam",
+      "name_ar": "امستردام",
+      "slug": "amsterdam-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903778,
+          30.927359
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "amenity": "cafe",
+        "cuisine": "moroccan;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Amsterdam امستردام",
+        "name:ar": "امستردام",
+        "name:fr": "Amsterdam",
+        "opening_hours": "Mo-Su 07:00-00:00",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-00:00"
+    },
+    {
+      "osm_id": "node/4727624602",
+      "name": "Amaziz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amaziz-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.904449,
+          30.927529
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Amaziz",
+        "smoking": "outside"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4727624604",
+      "name": "Chinzen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chinzen-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.901116,
+          30.928129
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Chinzen",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4744846124",
+      "name": "Golf royal Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "golf-royal-ouarzazate-ouarzazate",
+      "category": "golf",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.72968,
+          30.968626
+        ]
+      },
+      "osm_tags": {
+        "leisure": "golf_course",
+        "name": "Golf royal Ouarzazate"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4837475208",
+      "name": "La Kasbah des Sables",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-des-sables-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "195, Hay Aït Kdif, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.878391,
+          30.924522
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:housenumber": "195",
+        "addr:postcode": "45000",
+        "addr:street": "Hay Aït Kdif",
+        "amenity": "restaurant",
+        "name": "La Kasbah des Sables",
+        "phone": "+212 524 88 54 28",
+        "website": "http://www.lakasbahdessables.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.lakasbahdessables.com",
+      "phone": "+212 524 88 54 28",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5211047534",
+      "name": "Dar Joud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-joud-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104317,
+          30.97753
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Joud",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5238042767",
+      "name": "Dades Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dades-market-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911855,
+          30.923046
+        ]
+      },
+      "osm_tags": {
+        "name": "Dades Market",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5238042772",
+      "name": "Hôtel Les Jardins de Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-les-jardins-de-ouarzazate-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911074,
+          30.904236
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Les Jardins de Ouarzazate",
+        "rooms": "31",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "http://hotel-les-jardins-de-ouarzazate.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://hotel-les-jardins-de-ouarzazate.com/",
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5257314527",
+      "name": "Riad Bouchedor",
+      "name_fr": "Riad Bouchedor",
+      "name_ar": "رياض بوشدور",
+      "slug": "riad-bouchedor-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "tajda",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.894726,
+          30.896759
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "tajda",
+        "email": "riadbouchedor@gmail.com",
+        "internet_access": "wlan",
+        "name": "Riad Bouchedor رياض بوشدور",
+        "name:ar": "رياض بوشدور",
+        "name:en": "Riad Bouchedor",
+        "name:fr": "Riad Bouchedor",
+        "opening_hours": "24/7",
+        "operator": "booking.com",
+        "phone": "+212 5 24 85 49 68",
+        "tourism": "hotel",
+        "website": "https://www.riadbouchedor.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadbouchedor.com/",
+      "phone": "+212 5 24 85 49 68",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5265310325",
+      "name": "La voyagers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-voyagers-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911846,
+          30.920505
+        ]
+      },
+      "osm_tags": {
+        "name:en": "La voyagers",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5359469973",
+      "name": "Riad Restaurant Ksar Ben Youssef",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-restaurant-ksar-ben-youssef-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898626,
+          30.89334
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Restaurant Ksar Ben Youssef",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5461466121",
+      "name": "Accord majeur",
+      "name_fr": null,
+      "name_ar": "اكورد مجور",
+      "slug": "accord-majeur-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910282,
+          30.923507
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "اكورد مجور",
+        "name:ar": "اكورد مجور",
+        "name:en": "Accord majeur"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5667895521",
+      "name": "Labyrinth Du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "labyrinth-du-sud-ouarzazate",
+      "category": "shopping",
+      "city": "ouarzazate",
+      "address": "Boulevard Mohammed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.899454,
+          30.900966
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Mohammed V",
+        "name:en": "Labyrinth Du Sud",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5777014956",
+      "name": "Amanar Ouarzazate Boutique Hotel & Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amanar-ouarzazate-boutique-hotel-spa-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "RUe Erraha, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907938,
+          30.924591
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "addr:street": "RUe Erraha",
+        "name": "Amanar Ouarzazate Boutique Hotel & Spa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5996691485",
+      "name": "La Gironde",
+      "name_fr": "La Gironde",
+      "name_ar": null,
+      "slug": "la-gironde-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "83, Rue des FAR",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.919563,
+          30.921354
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "83",
+        "addr:postcode": "45000",
+        "addr:street": "Rue des FAR",
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "name": "La Gironde",
+        "name:de": "La Gironde",
+        "name:en": "La Gironde",
+        "name:fr": "La Gironde",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-23:00"
+    },
+    {
+      "osm_id": "node/6083534586",
+      "name": "الركن الذهبي",
+      "name_fr": "Coin d'or",
+      "name_ar": "الركن الذهبي",
+      "slug": "ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907824,
+          30.92599
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "الركن الذهبي",
+        "name:ar": "الركن الذهبي",
+        "name:fr": "Coin d'or"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6179165085",
+      "name": "View on solar station",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-on-solar-station-ouarzazate",
+      "category": "sunset-spots",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.855961,
+          31.058907
+        ]
+      },
+      "osm_tags": {
+        "name:en": "View on solar station",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6192865585",
+      "name": "Sabrine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sabrine-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898259,
+          30.920442
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Sabrine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6242644686",
+      "name": "Lake Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lake-ouarzazate-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.755489,
+          30.961019
+        ]
+      },
+      "osm_tags": {
+        "fee": "no",
+        "name": "Lake Ouarzazate",
+        "name:nl": "Meer Ouarzazate",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6303750385",
+      "name": "Snack Souss",
+      "name_fr": null,
+      "name_ar": "Snack Souss & Sandwich 12 dirhams",
+      "slug": "snack-souss-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915054,
+          30.92136
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich;moroccan",
+        "name": "Snack Souss",
+        "name:ar": "Snack Souss & Sandwich 12 dirhams"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186098",
+      "name": "Tafarnout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tafarnout-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.927349,
+          30.925476
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza;sandwich",
+        "name:en": "Tafarnout"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186891",
+      "name": "Oscar Fast Food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oscar-fast-food-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915522,
+          30.92026
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza;moroccan;local",
+        "name:en": "Oscar Fast Food"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186986",
+      "name": "Libre service",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "libre-service-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92707,
+          30.92506
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Libre service",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6641922785",
+      "name": "Mini market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mini-market-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "Tarmikt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91012,
+          30.901985
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Tarmikt",
+        "internet_access": "wlan",
+        "name": "Mini market",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "phone": "+212 6 12 24 65 57",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 12 24 65 57",
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-00:00"
+    },
+    {
+      "osm_id": "node/6834202085",
+      "name": "Maison Saharienne Bougafer (Artisanat Berbere) - Carpet Shop (SCAM!)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-saharienne-bougafer-artisanat-berbere-carpet-shop-scam-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "En face de Station Afriquia sur la route principale de Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907513,
+          30.898431
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "En face de Station Afriquia sur la route principale de Zagora",
+        "name:de": "Maison Saharienne Bougafer (Artisanat Berbere) - Teppiche (Betrugsmasche!)",
+        "name:en": "Maison Saharienne Bougafer (Artisanat Berbere) - Carpet Shop (SCAM!)",
+        "phone": "024854207",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "024854207",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6973433689",
+      "name": "La maison du lac",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-maison-du-lac-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.735264,
+          30.965924
+        ]
+      },
+      "osm_tags": {
+        "name": "La maison du lac",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980153979",
+      "name": "Café Assarag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-assarag-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911293,
+          30.902737
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Assarag"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980190528",
+      "name": "Café al Hizame",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-hizame-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.926851,
+          30.927375
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café al Hizame"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980194311",
+      "name": "Café Valencia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-valencia-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.89996,
+          30.928107
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Valencia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980195015",
+      "name": "Hotel Nadia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-nadia-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911572,
+          30.90283
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Nadia",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980199191",
+      "name": "La Halte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-halte-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912276,
+          30.921176
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Halte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980202725",
+      "name": "Snack Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-pizzeria-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.900484,
+          30.92794
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack Pizzeria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980206407",
+      "name": "Aigle Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aigle-hotel-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897326,
+          30.922911
+        ]
+      },
+      "osm_tags": {
+        "name": "Aigle Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7032203213",
+      "name": "Séville",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "seville-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.973081,
+          30.938781
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Séville"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7089433085",
+      "name": "Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.919276,
+          30.91994
+        ]
+      },
+      "osm_tags": {
+        "brand": "Carrefour",
+        "brand:wikidata": "Q217599",
+        "name": "Carrefour",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7090382186",
+      "name": "Ouchtou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouchtou-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916754,
+          30.931558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Ouchtou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7090641785",
+      "name": "The old Synagogue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "the-old-synagogue-ouarzazate",
+      "category": "history-museums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897956,
+          30.919452
+        ]
+      },
+      "osm_tags": {
+        "contact:facebook": "https://www.facebook.com/theoldsynagogue/",
+        "fixme": "Please check position (does not match with the one given by operator)",
+        "image": "File:SynagogueOuarzazate1.jpg",
+        "name:en": "The old Synagogue",
+        "name:he": "בית כנסת",
+        "tourism": "museum",
+        "website": "https://the-old-synagogue.business.site",
+        "wikidata": "Q103826502",
+        "wikimedia_commons": "Category:Bet Knesset Synagogue"
+      },
+      "wikidata": "Q103826502",
+      "wikipedia": null,
+      "website": "https://the-old-synagogue.business.site",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7092823685",
+      "name": "View point of Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-point-of-ouarzazate-ouarzazate",
+      "category": "sunset-spots",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916589,
+          30.919335
+        ]
+      },
+      "osm_tags": {
+        "name:en": "View point of Ouarzazate",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7092823785",
+      "name": "View point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-point-ouarzazate",
+      "category": "sunset-spots",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916158,
+          30.918351
+        ]
+      },
+      "osm_tags": {
+        "name:en": "View point",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7098059875",
+      "name": "Snack Abdou Pizzaria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-abdou-pizzaria-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898104,
+          30.92054
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack Abdou Pizzaria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7098061227",
+      "name": "Snack Hassan Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-hassan-pizzeria-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898187,
+          30.920502
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack Hassan Pizzeria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7403053687",
+      "name": "Dar Bergui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bergui-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Siddi Hssain;Siddi Hssayne Ben Naser",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.918137,
+          30.927348
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Siddi Hssain;Siddi Hssayne Ben Naser",
+        "name": "Dar Bergui",
+        "name:es": "Riad Dar Bergui",
+        "phone": "+212 6 68 67 51 64",
+        "tourism": "hotel",
+        "website": "http://www.darbergui.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.darbergui.com",
+      "phone": "+212 6 68 67 51 64",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8227916234",
+      "name": "Riad Ksar Aylan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ksar-aylan-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "611, Tigami El Jadid Tarmight, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907657,
+          30.900513
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:housenumber": "611",
+        "addr:postcode": "45000",
+        "addr:street": "Tigami El Jadid Tarmight",
+        "guest_house": "Riad",
+        "internet_access": "wlan",
+        "name": "Riad Ksar Aylan",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9052047510",
+      "name": "Nebras",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nebras-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "454, Hay Mohammady Avenue Moulay Ettahar Bed Abdulkarim, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.937358,
+          30.939526
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:housenumber": "454",
+        "addr:postcode": "45000",
+        "addr:street": "Hay Mohammady Avenue Moulay Ettahar Bed Abdulkarim",
+        "name": "Nebras",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "opening_hours:covid19": "Mo-Sa 09:00-21:00",
+        "operator": "Nebras",
+        "payment:cash": "yes",
+        "phone": "+212 6 67 48 73 71",
+        "shop": "supermarket",
+        "website": "https://www.nebras.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.nebras.ma/",
+      "phone": "+212 6 67 48 73 71",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-22:00"
+    },
+    {
+      "osm_id": "node/9404648168",
+      "name": "Camping Atlas View",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-atlas-view-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.103794,
+          31.014237
+        ]
+      },
+      "osm_tags": {
+        "email": "houma798@gmail.com",
+        "name": "Camping Atlas View",
+        "phone": "+212 6 64 44 15 30",
+        "tourism": "camp_site",
+        "website": "https://chezhouma.blogspot.com/?m=1"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://chezhouma.blogspot.com/?m=1",
+      "phone": "+212 6 64 44 15 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9656306984",
+      "name": "Dar Chamaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-chamaa-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.895812,
+          30.903726
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Chamaa",
+        "tourism": "hotel",
+        "website": "http://www.darchamaa.com/en/en_inicio.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.darchamaa.com/en/en_inicio.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9864084464",
+      "name": "Ecolodge l'ile de Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecolodge-l-ile-de-ouarzazate-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.857565,
+          30.906177
+        ]
+      },
+      "osm_tags": {
+        "name": "Ecolodge l'ile de Ouarzazate",
+        "phone": "+212 6 66 17 76 10",
+        "tourism": "hotel",
+        "website": "https://ecolodgelile.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://ecolodgelile.com/",
+      "phone": "+212 6 66 17 76 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9864084514",
+      "name": "Riad Hanan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-hanan-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.870125,
+          30.904264
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Hanan",
+        "phone": "+212 6 11 17 49 51",
+        "tourism": "hotel",
+        "website": "https://riadhanan.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://riadhanan.com/",
+      "phone": "+212 6 11 17 49 51",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9951416817",
+      "name": "Etoiles 5",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "etoiles-5-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909723,
+          30.925832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Etoiles 5"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003073799",
+      "name": "Complexe Al Baraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "complexe-al-baraka-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.983964,
+          30.939798
+        ]
+      },
+      "osm_tags": {
+        "name": "Complexe Al Baraka",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10112119717",
+      "name": "kasbah tazentoute",
+      "name_fr": "kasbah tazentoute",
+      "name_ar": null,
+      "slug": "kasbah-tazentoute-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.092336,
+          30.969248
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "kasbah tazentoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10262097620",
+      "name": "Cafe Etmel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-etmel-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917152,
+          30.920412
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;tea",
+        "internet_access": "wlan",
+        "name:en": "Cafe Etmel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10561762709",
+      "name": "Mini Market Massine",
+      "name_fr": null,
+      "name_ar": "ⵜⴰⵅⴼⵉⴹⴰⵜ ⵎⴰⵙⵉⵏ",
+      "slug": "mini-market-massine-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.901883,
+          30.896192
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "email": "Mostaphaouhssaine@Gmail.com",
+        "internet_access": "wlan",
+        "name": "تخفيضات ماسين",
+        "name:ar": "ⵜⴰⵅⴼⵉⴹⴰⵜ ⵎⴰⵙⵉⵏ",
+        "name:en": "Mini Market Massine",
+        "opening_hours": "Mo-Su 08:00-00:00",
+        "phone": "+212 6 06 06 33 66",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 06 06 33 66",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-00:00"
+    },
+    {
+      "osm_id": "node/10689310205",
+      "name": "Le bivouac des aigles",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-bivouac-des-aigles-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.940973,
+          30.819015
+        ]
+      },
+      "osm_tags": {
+        "name": "Le bivouac des aigles",
+        "tourism": "guest_house",
+        "website": "http://bivouac-des-aigles.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://bivouac-des-aigles.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10701493506",
+      "name": "Chez Ghalil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-ghalil-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909682,
+          30.903337
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Ghalil",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10797702405",
+      "name": "Riad Chay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-chay-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.985945,
+          30.930571
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Riad Chay",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10941761231",
+      "name": "Kasbah Rayane Ait Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-rayane-ait-ben-haddou-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.111684,
+          31.040096
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Rayane Ait Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11030163705",
+      "name": "Baali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "baali-ouarzazate",
+      "category": "boutique-hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.901913,
+          30.928538
+        ]
+      },
+      "osm_tags": {
+        "name": "Baali",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11077224905",
+      "name": "Hostel Riad Amlal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hostel-riad-amlal-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917305,
+          30.920896
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Hostel Riad Amlal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11207599170",
+      "name": "Palm Grove restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palm-grove-restaurant-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898009,
+          30.904115
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "Position should be checked",
+        "name": "Palm Grove restaurant",
+        "organic": "yes",
+        "website": "https://www.ecolodge-palmeraie-ouarzazate.com/en/restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ecolodge-palmeraie-ouarzazate.com/en/restaurant",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11224076989",
+      "name": "Atbir House",
+      "name_fr": null,
+      "name_ar": "أتبير هوس",
+      "slug": "atbir-house-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897381,
+          30.928864
+        ]
+      },
+      "osm_tags": {
+        "name": "Atbir House",
+        "name:ar": "أتبير هوس",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11417980871",
+      "name": "Afgo residence",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afgo-residence-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue el Ouaha Tarmigt Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910883,
+          30.900658
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue el Ouaha Tarmigt Ouarzazate",
+        "internet_access": "wlan",
+        "name:en": "Afgo residence",
+        "phone": "+212 6 31 39 20 33",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 31 39 20 33",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11684194135",
+      "name": "Auberge Tissili",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tissili-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.949389,
+          30.821209
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Tissili",
+        "phone": "+212 6 53 98 91 37",
+        "tourism": "hotel",
+        "website": "https://www.oasisfint.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.oasisfint.com/",
+      "phone": "+212 6 53 98 91 37",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11771896087",
+      "name": "Git d'etape nomade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "git-d-etape-nomade-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "224, Tarmigte",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.896083,
+          30.902121
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "224",
+        "addr:street": "Tarmigte",
+        "contact:email": "contact@gitetapenomade.com",
+        "contact:phone": "+212 6 26 42 63 07",
+        "contact:website": "www.gitetapenomade.com",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Git d'etape nomade",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.gitetapenomade.com",
+      "phone": "+212 6 26 42 63 07",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11830963171",
+      "name": "Café de Rennes",
+      "name_fr": "Café de Rennes",
+      "name_ar": null,
+      "slug": "cafe-de-rennes-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.949943,
+          30.943971
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:fr": "Café de Rennes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11861844969",
+      "name": "Hotel Rayyan l'Escale",
+      "name_fr": "Hotel Rayyal l'Escale",
+      "name_ar": null,
+      "slug": "hotel-rayyan-l-escale-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.901897,
+          30.918607
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Rayyan l'Escale",
+        "name:fr": "Hotel Rayyal l'Escale",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12081787472",
+      "name": "Jus Master",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jus-master-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912418,
+          30.923596
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Jus Master"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12208942402",
+      "name": "La Grilla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-grilla-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.9103,
+          30.926015
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Grilla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12407562683",
+      "name": "Auberge De la Jeunesse",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-de-la-jeunesse-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Inzbiatan Commune Territoriale Tarmigt, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923119,
+          30.90256
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "54000",
+        "addr:street": "Inzbiatan Commune Territoriale Tarmigt",
+        "guest_house": "hostel",
+        "name": "Auberge De la Jeunesse",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12604627901",
+      "name": "Hotel Iazal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-iazal-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.927562,
+          30.927408
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Iazal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652732457",
+      "name": "Aswak Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aswak-ouarzazate-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.895073,
+          30.926503
+        ]
+      },
+      "osm_tags": {
+        "name": "Aswak Ouarzazate",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652732458",
+      "name": "Superette Lahroumi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-lahroumi-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917604,
+          30.93283
+        ]
+      },
+      "osm_tags": {
+        "name": "Superette Lahroumi",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13037948703",
+      "name": "Bivouac Lot of Stars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-lot-of-stars-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897242,
+          30.909027
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac Lot of Stars",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13065966501",
+      "name": "Complexe d'artisanat traditionnel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "complexe-d-artisanat-traditionnel-ouarzazate",
+      "category": "berber-crafts",
+      "city": "ouarzazate",
+      "address": "Avenue Mohamed V شارع الحسن الثاني",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898983,
+          30.920993
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohamed V شارع الحسن الثاني",
+        "name": "Complexe d'artisanat traditionnel",
+        "shop": "art"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13320026786",
+      "name": "La Gazelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-gazelle-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.926367,
+          30.923814
+        ]
+      },
+      "osm_tags": {
+        "name": "La Gazelle",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13711261010",
+      "name": "Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912641,
+          30.924389
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13713157336",
+      "name": "Snack iyad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-iyad-ouarzazate",
+      "category": "local-food",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.904425,
+          30.927412
+        ]
+      },
+      "osm_tags": {
+        "air_conditioning": "no",
+        "amenity": "fast_food",
+        "changing_table": "no",
+        "name": "Snack iyad",
+        "takeaway": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13713158291",
+      "name": "Hostel Assafar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hostel-assafar-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.904307,
+          30.927313
+        ]
+      },
+      "osm_tags": {
+        "name": "Hostel Assafar",
+        "phone": "+212 6 96 47 22 26",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 47 22 26",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13723708983",
+      "name": "New Assafar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "new-assafar-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.904379,
+          30.927328
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "New Assafar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13724753156",
+      "name": "Café Restaurant chez Jarir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-chez-jarir-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.647412,
+          31.000733
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant chez Jarir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13724837858",
+      "name": "Café Mouhdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-mouhdi-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.651824,
+          30.998703
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Mouhdi",
+        "phone": "+212 6 37 71 35 55"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 37 71 35 55",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13724847937",
+      "name": "Supérette",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-ouarzazate",
+      "category": "food-markets",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.649953,
+          30.999422
+        ]
+      },
+      "osm_tags": {
+        "name": "Supérette",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13724859109",
+      "name": "Café Souihla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-souihla-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.65063,
+          30.999194
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Souihla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13724871807",
+      "name": "Snack- Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-restaurant-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.649903,
+          30.999465
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack- Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13866660581",
+      "name": "Kasbah Zitoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-zitoune-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.999021,
+          30.921365
+        ]
+      },
+      "osm_tags": {
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kasbah Zitoune",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13915282014",
+      "name": "Tajali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tajali-ouarzazate",
+      "category": "restaurants",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907443,
+          30.921992
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tajali"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/140647686",
+      "name": "Club Hanane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "club-hanane-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.908933,
+          30.925161
+        ]
+      },
+      "osm_tags": {
+        "name": "Club Hanane",
+        "operator": "yes",
+        "smoking": "separated",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/141126429",
+      "name": "Glacier 3 Mars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "glacier-3-mars-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924134,
+          30.921976
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Glacier 3 Mars"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191607409",
+      "name": "Municipal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "municipal-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.887407,
+          30.923014
+        ]
+      },
+      "osm_tags": {
+        "name": "Municipal",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191607426",
+      "name": "Marché central",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-central-ouarzazate",
+      "category": "souks",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915392,
+          30.921192
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "landuse": "commercial",
+        "name": "Marché central"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191873480",
+      "name": "Camping de l'Escale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-de-l-escale-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "route national 10, Ouarzazate tazentoute",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097694,
+          30.974753
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "addr:city": "Ouarzazate tazentoute",
+        "addr:postcode": "45000",
+        "addr:street": "route national 10",
+        "barrier": "wall",
+        "capacity": "40",
+        "charge": "7 Euro Electricité 2 euro",
+        "fee": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Camping de l'Escale",
+        "operator": "naoual",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa_debit": "yes",
+        "swimming_pool": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/215384306",
+      "name": "Ecolodoge Palmeraie Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecolodoge-palmeraie-ouarzazate-ouarzazate",
+      "category": "riads",
+      "city": "ouarzazate",
+      "address": "Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.898243,
+          30.903947
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:hamlet": "Tarmigte",
+        "addr:place": "Tajda",
+        "addr:postcode": "45000",
+        "barrier": "wall",
+        "caravans": "no",
+        "contact:facebook": "https://www.facebook.com/EcolodgeOuarzazate",
+        "contact:mobile": "+212 676666064",
+        "contact:phone": "+212 524854237",
+        "contact:website": "https://www.ecolodge-palmeraie-ouarzazate.com",
+        "description": "The city bus stops at 150m of our place. From the city center, take the green buses \"luxe\" (lines 2 or 4).",
+        "guest_house": "bungalows",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Ecolodoge Palmeraie Ouarzazate",
+        "operator": "Adel Laadraoui",
+        "tents": "no",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ecolodge-palmeraie-ouarzazate.com",
+      "phone": "+212 524854237",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/217743856",
+      "name": "Sidi Allah Moussa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-allah-moussa-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.943369,
+          30.819759
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Allah Moussa",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/224158241",
+      "name": "Marché hebdomadaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-hebdomadaire-ouarzazate",
+      "category": "souks",
+      "city": "ouarzazate",
+      "address": "Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.935242,
+          30.936039
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "amenity": "marketplace",
+        "name": "Marché hebdomadaire",
+        "opening_hours": "Su"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Su"
+    },
+    {
+      "osm_id": "way/224528136",
+      "name": "Café Noura",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-noura-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92543,
+          30.922379
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Noura"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/224528137",
+      "name": "Café septièmle art",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-septiemle-art-ouarzazate",
+      "category": "cafes",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.925256,
+          30.922766
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café septièmle art"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310493575",
+      "name": "Mosquée Mohammed VI",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mohammed-vi-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914991,
+          30.928272
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Mohammed VI",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/388339514",
+      "name": "Kenzi Azghor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kenzi-azghor-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.90786,
+          30.920552
+        ]
+      },
+      "osm_tags": {
+        "name": "Kenzi Azghor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/388339515",
+      "name": "New Belere Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "new-belere-hotel-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.906089,
+          30.920509
+        ]
+      },
+      "osm_tags": {
+        "name": "New Belere Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/388339516",
+      "name": "Karam Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "karam-palace-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue Molay Rachid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.904834,
+          30.919997
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Molay Rachid",
+        "name": "Karam Palace",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/398995913",
+      "name": "Mosquée Al Wahda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-wahda-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903509,
+          30.928582
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Wahda",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/398995915",
+      "name": "Mosquéé El wahda Sofla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-el-wahda-sofla-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897531,
+          30.930109
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquéé El wahda Sofla",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/398996144",
+      "name": "Mosquée Somalie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-somalie-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91699,
+          30.919921
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Somalie",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399065494",
+      "name": "Musée de Cinéma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musee-de-cinema-ouarzazate",
+      "category": "history-museums",
+      "city": "ouarzazate",
+      "address": "Avenue Mohamed V, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.900016,
+          30.921578
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Mohamed V",
+        "building": "yes",
+        "name": "Musée de Cinéma",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399103381",
+      "name": "Mosquée Al mouqaouma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-mouqaouma-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923127,
+          30.92628
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al mouqaouma",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399134058",
+      "name": "Mosquée Al Qouds",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-qouds-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.89173,
+          30.925698
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Qouds",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399134059",
+      "name": "Mosquée Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-essalam-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.887674,
+          30.929014
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Mosquée Essalam",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399135351",
+      "name": "Hotel Ouarzazate Le Zat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ouarzazate-le-zat-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.884755,
+          30.924687
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Ouarzazate Le Zat",
+        "tourism": "hotel",
+        "website": "https://hotel-ouarzazate-zat.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://hotel-ouarzazate-zat.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399289644",
+      "name": "Mosque El Wazgitia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-el-wazgitia-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.896632,
+          30.923568
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosque El Wazgitia",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399301511",
+      "name": "Mesla مصلى",
+      "name_fr": "Mesla",
+      "name_ar": "مصلى",
+      "slug": "mesla-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "Avenue Moulay Abdellah, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909896,
+          30.930314
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Moulay Abdellah",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mesla مصلى",
+        "name:ar": "مصلى",
+        "name:fr": "Mesla",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399301523",
+      "name": "Ibis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ibis-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue Molay Rachid, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.903402,
+          30.92007
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Molay Rachid",
+        "brand": "Ibis",
+        "brand:wikidata": "Q920166",
+        "name": "Ibis",
+        "operator": "Accor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399311846",
+      "name": "Mercure",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mercure-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.902428,
+          30.919445
+        ]
+      },
+      "osm_tags": {
+        "brand": "Mercure",
+        "brand:wikidata": "Q1709809",
+        "name": "Mercure",
+        "operator": "Accor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399341768",
+      "name": "Berbere Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berbere-palace-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Rue Al-Mansour Ad-Dabhi, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909287,
+          30.923731
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:street": "Rue Al-Mansour Ad-Dabhi",
+        "name": "Berbere Palace",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399341769",
+      "name": "La Palmeraie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-palmeraie-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "Avenue Al Maghreb Al Arabi, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909571,
+          30.924863
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "name": "La Palmeraie",
+        "smoking": "separated",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399343351",
+      "name": "Al Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-massira-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.922057,
+          30.933649
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Al Massira",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399343694",
+      "name": "HCAR",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hcar-ouarzazate",
+      "category": "history-museums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920171,
+          30.92985
+        ]
+      },
+      "osm_tags": {
+        "name": "HCAR",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399552989",
+      "name": "Ait Kdif ⴰⵢⵜ ⴽⴷⵉⴼ ايت كديف",
+      "name_fr": "Ait Kdif",
+      "name_ar": "ايت كديف",
+      "slug": "ait-kdif-ouarzazate",
+      "category": "mosques",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.879146,
+          30.925019
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Ait Kdif ⴰⵢⵜ ⴽⴷⵉⴼ ايت كديف",
+        "name:ar": "ايت كديف",
+        "name:ber": "ⴰⵢⵜ ⴽⴷⵉⴼ",
+        "name:fr": "Ait Kdif",
+        "name:zgh": "ⴰⵢⵜ ⴽⴷⵉⴼ",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/412883009",
+      "name": "Oscar Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oscar-hotel-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.96739,
+          30.941205
+        ]
+      },
+      "osm_tags": {
+        "name": "Oscar Hotel",
+        "phone": "+212 5 24 88 22 12",
+        "tourism": "hotel",
+        "website": "https://oscarhotelbyatlasstudios.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://oscarhotelbyatlasstudios.com/",
+      "phone": "+212 5 24 88 22 12",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/750544638",
+      "name": "Hotel Maghni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-maghni-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.928807,
+          30.92363
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Maghni",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754253685",
+      "name": "Sidi Jafr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-jafr-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.103768,
+          30.979796
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Jafr",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642244",
+      "name": "Sidi Abelrahman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abelrahman-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.098743,
+          30.983314
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abelrahman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756080927",
+      "name": "Sidi Mohammad ou Charki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mohammad-ou-charki-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.966648,
+          30.919335
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohammad ou Charki",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757871147",
+      "name": "Midi Hemma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "midi-hemma-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.879652,
+          30.906111
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Midi Hemma",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442663",
+      "name": "Sidi Tidli",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-tidli-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.030769,
+          30.844382
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Tidli",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759825534",
+      "name": "Hotel Dar Rita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dar-rita-ouarzazate",
+      "category": "luxury-hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.931838,
+          30.922739
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Dar Rita",
+        "rooms": "8",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.darrita.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darrita.com/",
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759835130",
+      "name": "Perle du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "perle-du-sud-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920033,
+          30.920493
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Perle du Sud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692419",
+      "name": "Sidi Ahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahma-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.123084,
+          30.940352
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahma",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1209110292",
+      "name": "Abandoned Movie Set of Temple Mount Jerusalem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abandoned-movie-set-of-temple-mount-jerusalem-ouarzazate",
+      "category": "roman-ruins",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.99768,
+          30.911814
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "ruins",
+        "name": "Abandoned Movie Set of Temple Mount Jerusalem",
+        "wheelchair": "no",
+        "wikipedia": "https://de.wikipedia.org/wiki/Killing_Jesus?wprov=sfla1"
+      },
+      "wikidata": null,
+      "wikipedia": "https://de.wikipedia.org/wiki/Killing_Jesus?wprov=sfla1",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1221039021",
+      "name": "Sidi Hounsal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-hounsal-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.093315,
+          30.967489
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Hounsal",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1224660884",
+      "name": "Open Area",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "open-area-ouarzazate",
+      "category": "national-parks",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.884815,
+          30.92932
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Open Area"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1224873964",
+      "name": "Sidi Outhman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-outhman-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.940744,
+          30.912849
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Outhman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1238909048",
+      "name": "Sidi Dâoûd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-daoud-ouarzazate",
+      "category": "mausoleums",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.892156,
+          30.923194
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Dâoûd",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1240429598",
+      "name": "Ouarzazate - P32",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouarzazate-p32-ouarzazate",
+      "category": "desert-camps",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.764463,
+          30.977907
+        ]
+      },
+      "osm_tags": {
+        "name": "Ouarzazate - P32",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1267222327",
+      "name": "Oz Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oz-palace-ouarzazate",
+      "category": "hotels",
+      "city": "ouarzazate",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.897135,
+          30.903623
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "name": "Oz Palace",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

@@ -1,0 +1,3439 @@
+{
+  "city": "mhamid",
+  "fetched_at": "2026-06-08T11:49:39.669Z",
+  "raw_count": 376,
+  "places": [
+    {
+      "osm_id": "node/1226388019",
+      "name": "Holal Oasis spring هلال واحة الربيع",
+      "name_fr": "Holal Oasis spring",
+      "name_ar": "هلال واحة الربيع",
+      "slug": "holal-oasis-spring-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.119143,
+          29.882647
+        ]
+      },
+      "osm_tags": {
+        "ele": "530.0",
+        "name": "Holal Oasis spring هلال واحة الربيع",
+        "name:ar": "هلال واحة الربيع",
+        "name:fr": "Holal Oasis spring",
+        "shop": "yes",
+        "tourism": "attraction",
+        "wpt_symbol": "Drinking Water"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226388021",
+      "name": "Carrefour des Nomades - hotel - restaurant - piscine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-des-nomades-hotel-restaurant-piscine-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.663746,
+          29.829348
+        ]
+      },
+      "osm_tags": {
+        "email": "car.nomade@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Carrefour des Nomades - hotel - restaurant - piscine",
+        "phone": "+212 6 21 49 91 65",
+        "rooms": "12",
+        "tourism": "hotel",
+        "website": "https://www.carrefourdesnomades.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.carrefourdesnomades.com/",
+      "phone": "+212 6 21 49 91 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226389589",
+      "name": "Ali's camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ali-s-camp-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.187119,
+          29.821712
+        ]
+      },
+      "osm_tags": {
+        "name": "Ali's camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1495623599",
+      "name": "Nomadic Life",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomadic-life-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.729451,
+          29.807025
+        ]
+      },
+      "osm_tags": {
+        "name": "Nomadic Life",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1495623620",
+      "name": "Lion dune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lion-dune-mhamid",
+      "category": "mountains",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.995516,
+          29.681495
+        ]
+      },
+      "osm_tags": {
+        "name": "Zahar - Lion Dune",
+        "name:cs": "Lví duna",
+        "name:en": "Lion dune",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1756189463",
+      "name": "Camping Auberge el Khaima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-auberge-el-khaima-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.721624,
+          29.820896
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "no",
+        "name": "Camping Auberge el Khaima",
+        "tourism": "camp_site",
+        "website": "www.aubergelkhaima.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.aubergelkhaima.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1769480546",
+      "name": "Bab Rimal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-rimal-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.68205,
+          29.827168
+        ]
+      },
+      "osm_tags": {
+        "name": "Bab Rimal",
+        "phone": "00212-(0)-66716856",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "00212-(0)-66716856",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762397",
+      "name": "Ait Atta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ait-atta-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.586816,
+          29.95787
+        ]
+      },
+      "osm_tags": {
+        "name": "Ait Atta",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762404",
+      "name": "Belle Ville",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "belle-ville-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.582876,
+          29.978665
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Belle Ville",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762411",
+      "name": "Cafe Restaurant La Kasbah مقهى ومطعم القصبة",
+      "name_fr": "Cafe Restaurant La Kasbah",
+      "name_ar": "مقهى ومطعم القصبة",
+      "slug": "cafe-restaurant-la-kasbah-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.654667,
+          29.830001
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant La Kasbah مقهى ومطعم القصبة",
+        "name:ar": "مقهى ومطعم القصبة",
+        "name:fr": "Cafe Restaurant La Kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762427",
+      "name": "Chez Hamada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-hamada-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.720352,
+          29.82105
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-16",
+        "name": "Chez Hamada",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762432",
+      "name": "Dunes Dor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dunes-dor-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.720124,
+          29.825298
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Dunes Dor",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762439",
+      "name": "Elghizlane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "elghizlane-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.721105,
+          29.825111
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Elghizlane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762445",
+      "name": "Essada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "essada-mhamid",
+      "category": "cafes",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583584,
+          29.98132
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Essada",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762455",
+      "name": "Kasbah Sahara Services",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-sahara-services-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.713361,
+          29.828929
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Sahara Services",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762458",
+      "name": "L'Oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-oasis-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.582444,
+          29.975956
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "L'Oasis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274765032",
+      "name": "Snack Cafe Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-cafe-restaurant-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.720292,
+          29.825347
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Snack Cafe Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433497204",
+      "name": "Jnane-Dar Diafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-dar-diafa-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.68211,
+          30.261302
+        ]
+      },
+      "osm_tags": {
+        "name": "Jnane-Dar Diafa",
+        "tourism": "camp_site",
+        "website": "https://www.jnanedar.ch/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.jnanedar.ch/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433499449",
+      "name": "SaharaSky",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saharasky-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.609718,
+          30.236441
+        ]
+      },
+      "osm_tags": {
+        "name": "SaharaSky",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433500313",
+      "name": "Bni Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bni-ali-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.556097,
+          30.187619
+        ]
+      },
+      "osm_tags": {
+        "name": "Bni Ali",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433500933",
+      "name": "Les Palmeraies",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-palmeraies-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580084,
+          29.972074
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Palmeraies",
+        "tourism": "camp_site",
+        "website": "https://www.saharasalvaje.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.saharasalvaje.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433508155",
+      "name": "Kasbah Ouled Driss قصبة أولاد إدريس",
+      "name_fr": "Kasbah Ouled Driss",
+      "name_ar": "قصبة أولاد إدريس",
+      "slug": "kasbah-ouled-driss-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.655314,
+          29.829329
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Ouled Driss قصبة أولاد إدريس",
+        "name:ar": "قصبة أولاد إدريس",
+        "name:fr": "Kasbah Ouled Driss",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433509400",
+      "name": "Carrefour des Nomades - camping - restaurant - piscine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-des-nomades-camping-restaurant-piscine-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "N9, Ouled Driss (Mhamid)",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.664309,
+          29.829083
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouled Driss (Mhamid)",
+        "addr:street": "N9",
+        "capacity": "15",
+        "fee": "yes",
+        "internet_access": "yes",
+        "name": "Carrefour des Nomades - camping - restaurant - piscine",
+        "tourism": "camp_site",
+        "website": "https://www.carrefourdesnomades.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.carrefourdesnomades.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433513130",
+      "name": "Hamada du Draa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamada-du-draa-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.720378,
+          29.821266
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Hamada du Draa",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.hamada-sahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hamada-sahara.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433517010",
+      "name": "La Boussole",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-boussole-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.731741,
+          29.827262
+        ]
+      },
+      "osm_tags": {
+        "name": "La Boussole",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433518567",
+      "name": "Iguidi Tours",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "iguidi-tours-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.743328,
+          29.838261
+        ]
+      },
+      "osm_tags": {
+        "name": "Iguidi Tours",
+        "tourism": "caravan_site",
+        "website": "https://www.iguiditours.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.iguiditours.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433523530",
+      "name": "Erg Chegaga",
+      "name_fr": null,
+      "name_ar": "عرق شقاق",
+      "slug": "erg-chegaga-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.209516,
+          29.849215
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "الضاية الحمراء",
+        "caravans": "no",
+        "drinking_water": "no",
+        "internet_access": "no",
+        "name": "Erg Chegaga عرق شقاق",
+        "name:ar": "عرق شقاق",
+        "name:en": "Erg Chegaga",
+        "note": "only temporary camp sites",
+        "openfire": "yes",
+        "shop": "no",
+        "shower": "no",
+        "smoking": "yes",
+        "surface": "sand",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "waste_disposal": "no",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2786319591",
+      "name": "Berber desert camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-desert-camp-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.230651,
+          29.857027
+        ]
+      },
+      "osm_tags": {
+        "caravans": "no",
+        "drinking_water": "no",
+        "internet_access": "no",
+        "name": "Berber desert camp",
+        "name:it": "Berber desert camp",
+        "note": "only temporary camp sites",
+        "openfire": "yes",
+        "shop": "no",
+        "shower": "no",
+        "smoking": "yes",
+        "surface": "sand",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "waste_disposal": "no",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2786402692",
+      "name": "Bivouac Bab Rimal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-bab-rimal-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.203198,
+          29.845089
+        ]
+      },
+      "osm_tags": {
+        "caravans": "no",
+        "description": "only temporary camp sites",
+        "drinking_water": "no",
+        "internet_access": "no",
+        "name": "Bivouac Bab Rimal",
+        "openfire": "yes",
+        "shop": "no",
+        "shower": "no",
+        "smoking": "yes",
+        "surface": "sand",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "waste_disposal": "no",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305525267",
+      "name": "Camp La Boussole du Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-la-boussole-du-sahara-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.732586,
+          29.828503
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp La Boussole du Sahara",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305525525",
+      "name": "Camp Auberge Kasbah Aladin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-auberge-kasbah-aladin-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.739856,
+          29.806122
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Auberge Kasbah Aladin",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3517555543",
+      "name": "Ksar palmeraie de Bounou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-palmeraie-de-bounou-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.676161,
+          29.821591
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar palmeraie de Bounou",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3659113469",
+      "name": "kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-mhamid",
+      "category": "roman-ruins",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.633585,
+          29.83462
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3813684557",
+      "name": "Camp Erg Chegaga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-erg-chegaga-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.028677,
+          29.809719
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Erg Chegaga",
+        "note": "N 29°48.630 W6°01.677",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242841024",
+      "name": "Hotel Dar Azawd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dar-azawd-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.668125,
+          29.829046
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Dar Azawd",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242841589",
+      "name": "Kasbah Draa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-draa-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.667847,
+          29.828675
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Draa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4253436692",
+      "name": "دار الضيافة",
+      "name_fr": null,
+      "name_ar": "دار الضيافة",
+      "slug": "mhamid",
+      "category": "cafes",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682143,
+          30.261178
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "chicken;burger;cake;arab;grill;friture;croatian;fish;coffee_shop;turkish;moroccan;ice_cream",
+        "internet_access": "wlan",
+        "name": "دار الضيافة",
+        "name:ar": "دار الضيافة"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4430989197",
+      "name": "pass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pass-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.368983,
+          30.078111
+        ]
+      },
+      "osm_tags": {
+        "name:en": "pass",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4697367380",
+      "name": "Bivouak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouak-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.68205,
+          29.879527
+        ]
+      },
+      "osm_tags": {
+        "description": "we came here with houcein elatmani from oued atmani",
+        "name": "Bivouak",
+        "phone": "+212 6 97 48 30 58",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 97 48 30 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4697368322",
+      "name": "Dar Mhamid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-mhamid-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.724011,
+          29.826809
+        ]
+      },
+      "osm_tags": {
+        "description": "Maisons d' hôtes",
+        "name": "Dar Mhamid",
+        "phone": "+212 652 118078",
+        "tourism": "hotel",
+        "website": "https://www.darmhamid.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darmhamid.com/",
+      "phone": "+212 652 118078",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4733905995",
+      "name": "Erg Zher",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erg-zher-mhamid",
+      "category": "sand-dunes",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.006475,
+          29.675428
+        ]
+      },
+      "osm_tags": {
+        "name": "Erg Zher",
+        "natural": "dune"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4904242545",
+      "name": "Rass Nkhel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rass-nkhel-mhamid",
+      "category": "sand-dunes",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.761114,
+          29.819331
+        ]
+      },
+      "osm_tags": {
+        "name": "Rass Nkhel",
+        "natural": "dune"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4904242546",
+      "name": "Kamp Sidi Naji",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kamp-sidi-naji-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839582,
+          29.731882
+        ]
+      },
+      "osm_tags": {
+        "camp_site": "basic",
+        "name": "Kamp Sidi Naji",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4904242547",
+      "name": "Kamp Zher",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kamp-zher-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.987099,
+          29.683358
+        ]
+      },
+      "osm_tags": {
+        "camp_site": "basic",
+        "name": "Kamp Zher",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5310003429",
+      "name": "Port Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "port-sahara-mhamid",
+      "category": "local-food",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583088,
+          29.981883
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Port Sahara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5320637521",
+      "name": "La belle vue Chez Mustapha المنظر الجميل عند مصطفى",
+      "name_fr": "La belle vue Chez Mustapha",
+      "name_ar": "المنظر الجميل عند مصطفى",
+      "slug": "la-belle-vue-chez-mustapha-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.654496,
+          29.830149
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La belle vue Chez Mustapha المنظر الجميل عند مصطفى",
+        "name:ar": "المنظر الجميل عند مصطفى",
+        "name:fr": "La belle vue Chez Mustapha"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5320722221",
+      "name": "Musee Maison Traditionel متحف البيت التقليدي",
+      "name_fr": "Musee Maison Traditionel",
+      "name_ar": "متحف البيت التقليدي",
+      "slug": "musee-maison-traditionel-mhamid",
+      "category": "history-museums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.654349,
+          29.830535
+        ]
+      },
+      "osm_tags": {
+        "name": "Musee Maison Traditionel متحف البيت التقليدي",
+        "name:ar": "متحف البيت التقليدي",
+        "name:fr": "Musee Maison Traditionel",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5383301822",
+      "name": "Mbark's Desert Nomad Berber Camp",
+      "name_fr": "Bivouac Berber Chez Mbark",
+      "name_ar": null,
+      "slug": "mbark-s-desert-nomad-berber-camp-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.757191,
+          29.877562
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Bivouac Berber Chez Mbark",
+        "name:en": "Mbark's Desert Nomad Berber Camp",
+        "name:fr": "Bivouac Berber Chez Mbark",
+        "name:tr": "Mbark'ın Göçebe Çöl Kampı",
+        "operator": "Mbark",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5473830099",
+      "name": "Caravane de reves",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravane-de-reves-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.72053,
+          29.825444
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Caravane de reves",
+        "phone": "+212 6 70 02 00 33",
+        "website": "www.caravane-de-reves.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.caravane-de-reves.com",
+      "phone": "+212 6 70 02 00 33",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5506469596",
+      "name": "Hotel Kasbah Azalay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-kasbah-azalay-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.718188,
+          29.821101
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Kasbah Azalay",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5506469597",
+      "name": "Bivouac azmamarh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-azmamarh-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.700601,
+          29.84541
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "no",
+        "name": "Bivouac azmamarh",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6116774545",
+      "name": "Auberge Erg Zahar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-erg-zahar-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.065125,
+          29.704723
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Erg Zahar",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6148088545",
+      "name": "Camping Esprit Désert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-esprit-desert-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "Palmeraie, Douar Bounou - Oulad Driss - Mhamid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.667453,
+          29.827921
+        ]
+      },
+      "osm_tags": {
+        "access": "private",
+        "addr:city": "Douar Bounou - Oulad Driss - Mhamid",
+        "addr:street": "Palmeraie",
+        "capacity": "30",
+        "fee": "yes",
+        "internet_access": "yes",
+        "name": "Camping Esprit Désert",
+        "operator": "Jonac Philippe- 00212 6 59 51 67 99",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6179298286",
+      "name": "Deutch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "deutch-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "laagba",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682226,
+          30.261294
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45600",
+        "addr:street": "laagba",
+        "email": "traveljnanedar@gmail.com",
+        "internet_access": "wlan",
+        "name": "Jnanedardiafa",
+        "name:en": "Deutch",
+        "phone": "+212 6 61 34 81 49",
+        "tourism": "guest_house",
+        "website": "http://JNANEDARDIAFA.COM"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://JNANEDARDIAFA.COM",
+      "phone": "+212 6 61 34 81 49",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6287192885",
+      "name": "Bivouac Sahara peace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-sahara-peace-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.671594,
+          29.919426
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac Sahara peace",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6288463485",
+      "name": "Restaurant Sahara peace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-sahara-peace-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.671255,
+          29.919256
+        ]
+      },
+      "osm_tags": {
+        "name": "Restaurant Sahara peace",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6391619285",
+      "name": "Ksar Ksebt el Alouj",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-ksebt-el-alouj-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.692119,
+          29.805049
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "name": "Ksar Ksebt el Alouj"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6405234188",
+      "name": "Zaouiya naciria",
+      "name_fr": "Francais",
+      "name_ar": "Jnanedardiafa",
+      "slug": "zaouiya-naciria-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "77, laagba",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682258,
+          30.261124
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "77",
+        "addr:postcode": "45600",
+        "addr:street": "laagba",
+        "email": "traveljnanedar@gmail.com",
+        "internet_access": "wlan",
+        "name": "Zaouiya naciria",
+        "name:ar": "Jnanedardiafa",
+        "name:fr": "Francais",
+        "operator": "itisalate",
+        "phone": "+212 6 61 34 81 49",
+        "tourism": "guest_house",
+        "website": "https://www.jnane-dardiafa.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.jnane-dardiafa.com/",
+      "phone": "+212 6 61 34 81 49",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7139625587",
+      "name": "Erg Chigaga Safaris",
+      "name_fr": "Safaris Erg Chigaga",
+      "name_ar": "اجواء عرق الشكاكة",
+      "slug": "erg-chigaga-safaris-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "N9, Mhamid, Piste to Erg Chegaga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.728282,
+          29.827801
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "N9, Mhamid",
+        "addr:postcode": "47402",
+        "addr:street": "Piste to Erg Chegaga",
+        "email": "desertatmospher@gmail.com",
+        "name": "اجواء عرق الشكاكة",
+        "name:ar": "اجواء عرق الشكاكة",
+        "name:en": "Erg Chigaga Safaris",
+        "name:fr": "Safaris Erg Chigaga",
+        "phone": "+212 6 19 88 31 05",
+        "tourism": "attraction",
+        "website": "https://www.tripadvisor.fr/AttractionProductReview-g664990-d15604143-Chigaga_Dunes_4x4_Safari_Sand_boarding_Camel_Riding_Day_Trip_from_M_Hamid-M_Hamid_.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.tripadvisor.fr/AttractionProductReview-g664990-d15604143-Chigaga_Dunes_4x4_Safari_Sand_boarding_Camel_Riding_Day_Trip_from_M_Hamid-M_Hamid_.html",
+      "phone": "+212 6 19 88 31 05",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7263638685",
+      "name": "Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.235991,
+          29.863952
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7710695059",
+      "name": "NOMADS LIFE STYLE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomads-life-style-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "Atmospher Erg Chigaga, RR703, Mhamid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.736677,
+          29.833192
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Mhamid",
+        "addr:housenumber": "Atmospher Erg Chigaga",
+        "addr:postcode": "47402",
+        "addr:street": "RR703",
+        "backcountry": "yes",
+        "name": "NOMADS LIFE STYLE",
+        "opening_hours": "24/7",
+        "operator": "Desert Atmosphere",
+        "operator:type": "public",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/8396618318",
+      "name": "Dar Yaya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-yaya-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.726072,
+          29.82816
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Yaya",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9795297817",
+      "name": "Dar Talmoudi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-talmoudi-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "29,90758° N, 5,53279° W",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.532724,
+          29.907659
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45500",
+        "addr:street": "29,90758° N, 5,53279° W",
+        "email": "dartalmoudi@gmail.com",
+        "internet_access": "wlan",
+        "name": "دار التلمودي",
+        "name:en": "Dar Talmoudi",
+        "opening_hours": "24/7",
+        "phone": "+212 6 72 72 90 18",
+        "tourism": "guest_house",
+        "website": "https://www.dartalmoudi.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dartalmoudi.com/",
+      "phone": "+212 6 72 72 90 18",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/10311340087",
+      "name": "Brahim Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "brahim-camp-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.734255,
+          29.838639
+        ]
+      },
+      "osm_tags": {
+        "camp_site": "standard",
+        "capacity:caravans": "10",
+        "capacity:tents": "5",
+        "caravans": "yes",
+        "charge": "3 euro",
+        "fee": "yes",
+        "name": "Brahim Camp",
+        "operator": "brahim labdaa",
+        "payment:cash": "yes",
+        "static_caravans": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10537549509",
+      "name": "Auberge L'oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-l-oasis-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.734266,
+          29.809028
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge L'oasis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10802524005",
+      "name": "Major elle désert camp",
+      "name_fr": "Major elle désert camp",
+      "name_ar": null,
+      "slug": "major-elle-desert-camp-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.657523,
+          29.876822
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Major elle désert camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10802524105",
+      "name": "Manor elle désert camp",
+      "name_fr": "Manor elle désert camp",
+      "name_ar": null,
+      "slug": "manor-elle-desert-camp-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.65576,
+          29.877163
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Manor elle désert camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10804553806",
+      "name": "Kasbah Ait Isfoul",
+      "name_fr": "Kasbah Ait Isfoul",
+      "name_ar": null,
+      "slug": "kasbah-ait-isfoul-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.541231,
+          30.013781
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Kasbah Ait Isfoul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10923522241",
+      "name": "1000",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "1000-mhamid",
+      "category": "mountains",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.567099,
+          30.130263
+        ]
+      },
+      "osm_tags": {
+        "name": "1000",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10923522242",
+      "name": "1010",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "1010-mhamid",
+      "category": "mountains",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.5433,
+          30.144403
+        ]
+      },
+      "osm_tags": {
+        "name": "1010",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10923522243",
+      "name": "1020",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "1020-mhamid",
+      "category": "mountains",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.531616,
+          30.152159
+        ]
+      },
+      "osm_tags": {
+        "name": "1020",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11366925348",
+      "name": "Berber Oasis camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-oasis-camp-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682278,
+          29.82392
+        ]
+      },
+      "osm_tags": {
+        "name": "Berber Oasis camp",
+        "tourism": "guest_house",
+        "website": "https://www.berberoasiscamp.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.berberoasiscamp.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11366925386",
+      "name": "Oasis Mille et une nuits",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-mille-et-une-nuits-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.66742,
+          29.83211
+        ]
+      },
+      "osm_tags": {
+        "name": "Oasis Mille et une nuits",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11369160743",
+      "name": "Tigida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tigida-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682934,
+          29.823358
+        ]
+      },
+      "osm_tags": {
+        "name": "Tigida",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11369160744",
+      "name": "Dar Sidi Bounou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-sidi-bounou-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.677888,
+          29.824543
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Sidi Bounou",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11371517783",
+      "name": "Le Drom Blanc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-drom-blanc-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.677923,
+          29.817527
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Drom Blanc",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11371519880",
+      "name": "Riad Ma bonne étoile",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ma-bonne-etoile-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.668361,
+          29.833017
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Ma bonne étoile",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11371519911",
+      "name": "La Kasbah des Sables",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-des-sables-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.676037,
+          29.824583
+        ]
+      },
+      "osm_tags": {
+        "name": "La Kasbah des Sables",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11684037314",
+      "name": "Camp Dar Mhamid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-dar-mhamid-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.205458,
+          29.841791
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Dar Mhamid",
+        "phone": "+212 652 118078",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.darmhamid.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darmhamid.com/",
+      "phone": "+212 652 118078",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11839037556",
+      "name": "Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dunes-mhamid",
+      "category": "sunset-spots",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.517043,
+          29.782936
+        ]
+      },
+      "osm_tags": {
+        "name": "Dunes",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11839037561",
+      "name": "Nomad Camp Ground",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomad-camp-ground-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.521042,
+          29.822786
+        ]
+      },
+      "osm_tags": {
+        "backcountry": "yes",
+        "name": "Nomad Camp Ground",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11841394063",
+      "name": "Dune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dune-mhamid",
+      "category": "sunset-spots",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.521904,
+          29.827803
+        ]
+      },
+      "osm_tags": {
+        "name": "Dune",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11847619727",
+      "name": "Souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-mhamid",
+      "category": "souks",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.585015,
+          29.982473
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk",
+        "opening_hours": "Th (big),Su (small)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Th (big),Su (small)"
+    },
+    {
+      "osm_id": "node/11869286545",
+      "name": "Camp Bivouac Hassi Smara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-bivouac-hassi-smara-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.755004,
+          29.834035
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Bivouac Hassi Smara",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11926871569",
+      "name": "BERTAM DUNES",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bertam-dunes-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.808762,
+          29.870436
+        ]
+      },
+      "osm_tags": {
+        "name:en": "BERTAM DUNES",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12194398813",
+      "name": "Masmouda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masmouda-mhamid",
+      "category": "mountains",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.42115,
+          29.846005
+        ]
+      },
+      "osm_tags": {
+        "ele": "642",
+        "name": "Masmouda",
+        "natural": "peak",
+        "wikidata": "Q27515169",
+        "wikipedia": "ceb:Masmouda (bungtod sa Moroko, Région de Souss-Massa-Drâa)"
+      },
+      "wikidata": "Q27515169",
+      "wikipedia": "ceb:Masmouda (bungtod sa Moroko, Région de Souss-Massa-Drâa)",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12468600725",
+      "name": "Desert Camp Chraika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-camp-chraika-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "Road to Desert Camp, M'hamid El Ghizlane",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.738173,
+          29.838559
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "M'hamid El Ghizlane",
+        "addr:postcode": "47402",
+        "addr:street": "Road to Desert Camp",
+        "amenity": "restaurant",
+        "cuisine": "regional;moroccan",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Desert Camp Chraika",
+        "opening_hours": "06:00-22:00",
+        "phone": "+212 645 020 842",
+        "website": "https://desert-stories.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://desert-stories.com",
+      "phone": "+212 645 020 842",
+      "stars": null,
+      "opening_hours": "06:00-22:00"
+    },
+    {
+      "osm_id": "node/12729562336",
+      "name": "Nomad Desert Campe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomad-desert-campe-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "RR703, M'Hamid El Ghizlane",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.747484,
+          29.840042
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "M'Hamid El Ghizlane",
+        "addr:postcode": "47402",
+        "addr:street": "RR703",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity:caravans": "5",
+        "capacity:persons": "5",
+        "capacity:tents": "3",
+        "fee": "yes",
+        "name": "Nomad Desert Campe",
+        "operator": "Mohammed",
+        "payment:cash": "yes",
+        "payment:paypal": "yes",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12945126002",
+      "name": "Feeling of Desert Chigaga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "feeling-of-desert-chigaga-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.223081,
+          29.85603
+        ]
+      },
+      "osm_tags": {
+        "caravans": "no",
+        "drinking_water": "no",
+        "internet_access": "no",
+        "name": "Feeling of Desert Chigaga",
+        "note": "only temporary camp sites",
+        "openfire": "yes",
+        "shop": "no",
+        "shower": "no",
+        "smoking": "yes",
+        "surface": "sand",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "waste_disposal": "no",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13195930901",
+      "name": "Four a Chaux, Historische Sehenswürdigkeit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "four-a-chaux-historische-sehenswurdigkeit-mhamid",
+      "category": "roman-ruins",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.600458,
+          29.848803
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Four a Chaux, Historische Sehenswürdigkeit"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13363366709",
+      "name": "Ahmad in the dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ahmad-in-the-dunes-mhamid",
+      "category": "national-parks",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.536461,
+          30.009048
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Ahmad in the dunes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13542841228",
+      "name": "Cafe Restaurant Camping chez Hassan Oasis Sacrée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-camping-chez-hassan-oasis-sacree-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.117526,
+          29.882957
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Camping chez Hassan Oasis Sacrée"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13542841342",
+      "name": "Dar Zitoune Tagounite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-zitoune-tagounite-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580086,
+          29.971498
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Zitoune Tagounite",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13704308943",
+      "name": "Camp Auberge Sahara Marokko",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-auberge-sahara-marokko-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "M'Hamid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.726935,
+          29.802505
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "M'Hamid",
+        "contact:instagram": "campsaharamarokko",
+        "email": "saharamarokko1@gmail.com",
+        "internet_access": "yes",
+        "name": "Camp Auberge Sahara Marokko",
+        "operator": "Mohsin Nassak",
+        "phone": "+212 6 12 70 35 31",
+        "rooms": "4",
+        "tourism": "hotel",
+        "website": "https://saharamarokko.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://saharamarokko.com/",
+      "phone": "+212 6 12 70 35 31",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13705543339",
+      "name": "Essada café restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "essada-cafe-restaurant-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583571,
+          29.981436
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Essada café restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13705545067",
+      "name": "Café Restaurant du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-du-sud-mhamid",
+      "category": "restaurants",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.583824,
+          29.981451
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant du Sud"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13705983784",
+      "name": "Chill and welcoming flat in Tagounite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chill-and-welcoming-flat-in-tagounite-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "route de Tagounite",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.580598,
+          29.970303
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "route de Tagounite",
+        "description": "Chambre d'hôte très simple et tranquille",
+        "name": "Chill and welcoming flat in Tagounite",
+        "phone": "+212 6 68 78 49 39",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 68 78 49 39",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13708157860",
+      "name": "Boulangerie de la victoire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-de-la-victoire-mhamid",
+      "category": "bakeries",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.722523,
+          29.826152
+        ]
+      },
+      "osm_tags": {
+        "name": "Boulangerie de la victoire",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/89548070",
+      "name": "Kasbah Hotel SaharaSky",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-hotel-saharasky-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.607711,
+          30.236687
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:postcode": "45900",
+        "building": "service",
+        "email": "resa@saharasky.com",
+        "internet_access": "wlan",
+        "name": "Kasbah Hotel SaharaSky",
+        "phone": "+212 6 67 35 19 43",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "http://www.hotel-sahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotel-sahara.com/",
+      "phone": "+212 6 67 35 19 43",
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/181678567",
+      "name": "Chez le Pacha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-le-pacha-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.671844,
+          29.825689
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez le Pacha",
+        "tourism": "hotel",
+        "website": "https://www.chezlepacha.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.chezlepacha.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/218207442",
+      "name": "Sbai Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sbai-palace-mhamid",
+      "category": "hotels",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.680515,
+          29.825155
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2025-10-31",
+        "name": "Sbai Palace",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/225179090",
+      "name": "Erg Chigaga ⵉⴷⵀⴰⵏ ⵏ ⵛⵉⴳⴰⴳⴰ عرق شقاق",
+      "name_fr": "Erg Chigaga",
+      "name_ar": "عرق شقاق",
+      "slug": "erg-chigaga-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.284379,
+          29.841152
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "الضاية الحمراء",
+        "alt_name:cs": "erg Šegaga",
+        "desert": "erg",
+        "name": "Erg Chigaga ⵉⴷⵀⴰⵏ ⵏ ⵛⵉⴳⴰⴳⴰ عرق شقاق",
+        "name:ar": "عرق شقاق",
+        "name:ber": "ⵉⴷⵀⴰⵏ ⵏ ⵛⵉⴳⴰⴳⴰ",
+        "name:cs": "erg Šigaga",
+        "name:es": "Dunas de Chigaga",
+        "name:fr": "Erg Chigaga",
+        "natural": "sand",
+        "short_name:cs": "Šigaga",
+        "surface": "sand",
+        "tourism": "attraction",
+        "wikidata": "Q15615066",
+        "wikimedia_commons": "Category:Chegaga",
+        "wikipedia": "en:Erg Chigaga"
+      },
+      "wikidata": "Q15615066",
+      "wikipedia": "en:Erg Chigaga",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/240320716",
+      "name": "Dune de Tinfou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dune-de-tinfou-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.602537,
+          30.241144
+        ]
+      },
+      "osm_tags": {
+        "desert": "erg",
+        "landcover": "sand",
+        "name": "Dune de Tinfou",
+        "natural": "sand",
+        "surface": "sand",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/273828301",
+      "name": "Sidi Abd Er Rahman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abd-er-rahman-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.118868,
+          29.882264
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abd Er Rahman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310438826",
+      "name": "Erg Sedrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erg-sedrar-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.119452,
+          29.754617
+        ]
+      },
+      "osm_tags": {
+        "desert": "erg",
+        "name": "Erg Sedrar",
+        "natural": "sand",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310438827",
+      "name": "Erg Smar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erg-smar-mhamid",
+      "category": "historical-sites",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.084079,
+          29.713758
+        ]
+      },
+      "osm_tags": {
+        "desert": "erg",
+        "name": "Erg Smar",
+        "natural": "sand",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/401309026",
+      "name": "Iriqui National Park",
+      "name_fr": "Parc National d'Iriqui",
+      "name_ar": "المتنزه الوطني إيريكي",
+      "slug": "iriqui-national-park-mhamid",
+      "category": "national-parks",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.385617,
+          29.832631
+        ]
+      },
+      "osm_tags": {
+        "boundary": "national_park",
+        "leisure": "nature_reserve",
+        "name": "Parc National d'Iriqui المتنزه الوطني إيريكي",
+        "name:ar": "المتنزه الوطني إيريكي",
+        "name:ber": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵉⵕⵉⵇⵉ",
+        "name:en": "Iriqui National Park",
+        "name:fr": "Parc National d'Iriqui",
+        "protect_class": "2",
+        "wikidata": "Q3364435",
+        "wikipedia": "ar:المتنزه الوطني إيريكي"
+      },
+      "wikidata": "Q3364435",
+      "wikipedia": "ar:المتنزه الوطني إيريكي",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/478906792",
+      "name": "Camp Chegaga Chez le Pacha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-chegaga-chez-le-pacha-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.171124,
+          29.819567
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "no",
+        "name": "Camp Chegaga Chez le Pacha",
+        "operator": "Chez le Pacha",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486424194",
+      "name": "Caravane Rose du Sable",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravane-rose-du-sable-mhamid",
+      "category": "desert-camps",
+      "city": "mhamid",
+      "address": "N9, Kasr Bounou",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.666569,
+          29.826769
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "N9",
+        "addr:street": "Kasr Bounou",
+        "name": "Caravane Rose du Sable",
+        "operator": "Brahim Ahansal",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/531701076",
+      "name": "Sidi Naji",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-naji-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837915,
+          29.735119
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Naji",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754399826",
+      "name": "Sidi Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.706394,
+          30.261126
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755511541",
+      "name": "Lalla Kabira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-kabira-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.661713,
+          30.241202
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Lalla Kabira",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051559",
+      "name": "Sidi Ahmad Ali Ansari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-ali-ansari-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.680242,
+          30.260254
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad Ali Ansari",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758755664",
+      "name": "Sidi Tayab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-tayab-mhamid",
+      "category": "mausoleums",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.691921,
+          30.257923
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Tayab",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1273090523",
+      "name": "B'n'B \"Desert-Inspiration\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "b-n-b-desert-inspiration-mhamid",
+      "category": "riads",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.588099,
+          29.936388
+        ]
+      },
+      "osm_tags": {
+        "building": "house",
+        "description": "Laundry 50Dhs",
+        "email": "linda.binzegger@outlook.com",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "B'n'B \"Desert-Inspiration\"",
+        "operator": "Desert-Inspiration.com",
+        "rooms": "3",
+        "tourism": "guest_house",
+        "website": "https://www.desert-inspiration.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.desert-inspiration.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1275798833",
+      "name": "Old Watch Tower",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "old-watch-tower-mhamid",
+      "category": "roman-ruins",
+      "city": "mhamid",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.601662,
+          29.913357
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "historic": "ruins",
+        "name": "Old Watch Tower"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

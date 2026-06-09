@@ -1,0 +1,7526 @@
+{
+  "city": "merzouga",
+  "fetched_at": "2026-06-08T11:44:49.909Z",
+  "raw_count": 598,
+  "places": [
+    {
+      "osm_id": "node/543335632",
+      "name": "Museum of Fossils and Minerals",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "museum-of-fossils-and-minerals-merzouga",
+      "category": "history-museums",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.258259,
+          31.405548
+        ]
+      },
+      "osm_tags": {
+        "name": "Museum of Fossils and Minerals",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704497889",
+      "name": "La Baracka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-baracka-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.029557,
+          31.196459
+        ]
+      },
+      "osm_tags": {
+        "name": "La Baracka",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/974201644",
+      "name": "Ocean des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ocean-des-dunes-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025977,
+          31.143002
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Ocean des Dunes",
+        "source": "survey",
+        "tourism": "caravan_site",
+        "website": "https://www.aubergeoceandesdunes.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.aubergeoceandesdunes.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1026275335",
+      "name": "Hotel Tafilalet",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tafilalet-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Route N13, Arfoud",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.230794,
+          31.440177
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Arfoud",
+        "addr:street": "Route N13",
+        "name": "Hotel Tafilalet",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1026275634",
+      "name": "Kasbah-Hotel Chergui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-hotel-chergui-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "km 5.5, Route de Arfoud a Er-Rachidia, Maadid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.209085,
+          31.489379
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Maadid",
+        "addr:housenumber": "km 5.5",
+        "addr:postcode": "52200",
+        "addr:street": "Route de Arfoud a Er-Rachidia",
+        "fax": "+212 5 35 57 81 70",
+        "name": "Kasbah-Hotel Chergui",
+        "phone": "+212 5 35 57 85 04",
+        "tourism": "hotel",
+        "website": "http://www.hotelchergui.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotelchergui.com",
+      "phone": "+212 5 35 57 85 04",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1125539604",
+      "name": "Kasbah Xaluca Maadid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-xaluca-maadid-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Route de Arfoud a Er-Rachidia, Maadid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.214174,
+          31.487818
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Maadid",
+        "addr:street": "Route de Arfoud a Er-Rachidia",
+        "name": "Kasbah Xaluca Maadid",
+        "tourism": "hotel",
+        "website": "https://xaluca.com/en/hotel/arfoud/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://xaluca.com/en/hotel/arfoud/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1125539607",
+      "name": "Cafe Restaurant Karla مقهى ومطعم كارلا",
+      "name_fr": "Cafe Restaurant Karla",
+      "name_ar": "مقهى ومطعم كارلا",
+      "slug": "cafe-restaurant-karla-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.217042,
+          31.481642
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cafe Restaurant Karla مقهى ومطعم كارلا",
+        "name:ar": "مقهى ومطعم كارلا",
+        "name:fr": "Cafe Restaurant Karla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1129537770",
+      "name": "Mausolée Moulay Ali Cherif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mausolee-moulay-ali-cherif-merzouga",
+      "category": "mosques",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.253063,
+          31.279653
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mausolée Moulay Ali Cherif",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1129656298",
+      "name": "Mosquee ⵜⵉⵎⵣⴳⵉⴷⴰ مسجد قصر المعاديد",
+      "name_fr": "Mosquee",
+      "name_ar": "مسجد قصر المعاديد",
+      "slug": "mosquee-merzouga",
+      "category": "mosques",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.215891,
+          31.46683
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquee ⵜⵉⵎⵣⴳⵉⴷⴰ مسجد قصر المعاديد",
+        "name:ar": "مسجد قصر المعاديد",
+        "name:ber": "ⵜⵉⵎⵣⴳⵉⴷⴰ",
+        "name:fr": "Mosquee",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1129656420",
+      "name": "Hotel Chez Gaby",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-chez-gaby-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.236801,
+          31.42992
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Chez Gaby",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1328895436",
+      "name": "Lunch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lunch-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.231643,
+          31.43354
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Lunch"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329471871",
+      "name": "Old Quarry",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "old-quarry-merzouga",
+      "category": "roman-ruins",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.108978,
+          31.36779
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Old Quarry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329478633",
+      "name": "Fossil Rocks",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fossil-rocks-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.109932,
+          31.368001
+        ]
+      },
+      "osm_tags": {
+        "name": "Fossil Rocks",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329488012",
+      "name": "Auberge du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-du-sud-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024001,
+          31.209763
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge du Sud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329542949",
+      "name": "Desert Night Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-night-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005981,
+          31.176834
+        ]
+      },
+      "osm_tags": {
+        "name": "Desert Night Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329556760",
+      "name": "Sand Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sand-dunes-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010859,
+          31.066472
+        ]
+      },
+      "osm_tags": {
+        "name": "Sand Dunes",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329556767",
+      "name": "Restaurant Gnaoua Chez Zaid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-gnaoua-chez-zaid-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004902,
+          31.031313
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "contact:email": "bivouac.zaid@gmail.com",
+        "cuisine": "regional",
+        "name": "Restaurant Gnaoua Chez Zaid",
+        "phone": "+212 667510714"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 667510714",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329567413",
+      "name": "Des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "des-dunes-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "Av. Moulay Ismil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.230319,
+          31.442273
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Av. Moulay Ismil",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Des Dunes",
+        "website": "www.restaurantedesdunes.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.restaurantedesdunes.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1432488879",
+      "name": "Les Roches",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-roches-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005804,
+          31.097772
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Roches",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1432495222",
+      "name": "Camp Auberge Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-auberge-sahara-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.019245,
+          31.136162
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Auberge Sahara",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1744199675",
+      "name": "Hotel Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-merzouga-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.265238,
+          31.283478
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Merzouga",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1769480543",
+      "name": "Ksar Sania",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-sania-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007442,
+          31.084878
+        ]
+      },
+      "osm_tags": {
+        "fax": "055 57 74-30",
+        "name": "Ksar Sania",
+        "phone": "055 57 74-14",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "055 57 74-14",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1845437267",
+      "name": "Auberge Kasbah Derkaoua",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-kasbah-derkaoua-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.091875,
+          31.29009
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Kasbah Derkaoua",
+        "tourism": "hotel",
+        "website": "http://www.aubergederkaoua.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.aubergederkaoua.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2015234854",
+      "name": "Auberge Rose Du Sable",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-rose-du-sable-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.008924,
+          31.080843
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Auberge Rose Du Sable",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2015234857",
+      "name": "Chez Michele Desert Inn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-michele-desert-inn-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.092256,
+          31.290278
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Michele Desert Inn",
+        "name:ca": "Pista Citroen intermig",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2015234859",
+      "name": "Fossil quarry",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fossil-quarry-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.166448,
+          31.376686
+        ]
+      },
+      "osm_tags": {
+        "name": "Fossil quarry",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2015234864",
+      "name": "Kasbah Said Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-said-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.105235,
+          31.314114
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Said Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2056814272",
+      "name": "Golden Camp Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "golden-camp-merzouga-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.966609,
+          31.083419
+        ]
+      },
+      "osm_tags": {
+        "backcountry": "yes",
+        "caravans": "no",
+        "drinking_water": "no",
+        "name": "Golden Camp Merzouga",
+        "note": "only temporary camp sites",
+        "openfire": "yes",
+        "shop": "no",
+        "shower": "no",
+        "surface": "sand",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "waste_disposal": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2128796997",
+      "name": "Chez Abdesalam Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-abdesalam-cafe-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.231467,
+          31.439879
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Abdesalam Cafe"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2257319139",
+      "name": "Essalama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "essalama-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.271423,
+          31.281474
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Essalama"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2257319153",
+      "name": "Maison Touareg",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-touareg-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.253915,
+          31.290409
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison Touareg",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2312523058",
+      "name": "Café Nora مطعم نورا",
+      "name_fr": "Café Nora",
+      "name_ar": "مطعم نورا",
+      "slug": "cafe-nora-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007714,
+          31.03791
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Nora مطعم نورا",
+        "name:ar": "مطعم نورا",
+        "name:fr": "Café Nora"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2417375580",
+      "name": "Chez Karla عند كارلا",
+      "name_fr": "Chez Karla",
+      "name_ar": "عند كارلا",
+      "slug": "chez-karla-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.217052,
+          31.481739
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Karla عند كارلا",
+        "name:ar": "عند كارلا",
+        "name:fr": "Chez Karla",
+        "tourism": "camp_site",
+        "website": "www.camping-karla.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.camping-karla.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2417377458",
+      "name": "Kasbah Erg Chebbi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-erg-chebbi-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.032075,
+          31.183045
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Erg Chebbi",
+        "tourism": "caravan_site",
+        "website": "http://www.kasbahergchebbi.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.kasbahergchebbi.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2417377703",
+      "name": "Nasser Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nasser-palace-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.026307,
+          31.144532
+        ]
+      },
+      "osm_tags": {
+        "name": "Nasser Palace",
+        "tourism": "caravan_site",
+        "website": "https://www.nasserpalace.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.nasserpalace.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2417384675",
+      "name": "Ksar Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-merzouga-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.017994,
+          31.132736
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar Merzouga",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423888872",
+      "name": "Tamlalt تملايت",
+      "name_fr": "Tamlalt",
+      "name_ar": "تملايت",
+      "slug": "tamlalt-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.009339,
+          31.107956
+        ]
+      },
+      "osm_tags": {
+        "name": "Tamlalt تملايت",
+        "name:ar": "تملايت",
+        "name:fr": "Tamlalt",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423890446",
+      "name": "Le petit prince",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-petit-prince-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.006419,
+          31.098547
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Le petit prince",
+        "tourism": "camp_site",
+        "website": "http://www.lepetitprince-merzouga.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.lepetitprince-merzouga.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423893031",
+      "name": "La Liberte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-liberte-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004126,
+          31.093772
+        ]
+      },
+      "osm_tags": {
+        "name": "La Liberte",
+        "tourism": "caravan_site",
+        "website": "http://www.laliberte.net76.net"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.laliberte.net76.net",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423895194",
+      "name": "Lac de Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lac-de-sahara-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004035,
+          31.092814
+        ]
+      },
+      "osm_tags": {
+        "name": "Lac de Sahara",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423900148",
+      "name": "La Gazelle Bleu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-gazelle-bleu-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004404,
+          31.090964
+        ]
+      },
+      "osm_tags": {
+        "name": "La Gazelle Bleu",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423904924",
+      "name": "Auberge le Touareg",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-le-touareg-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.008885,
+          31.086062
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge le Touareg",
+        "tourism": "caravan_site",
+        "website": "https://hotelkasbahletouareg.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://hotelkasbahletouareg.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423911596",
+      "name": "Les Pyramides",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-pyramides-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.006843,
+          31.086711
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Pyramides",
+        "tourism": "camp_site",
+        "website": "https://www.lespyramidesmerzouga.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.lespyramidesmerzouga.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423912417",
+      "name": "Rose de Sable",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rose-de-sable-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.008351,
+          31.080644
+        ]
+      },
+      "osm_tags": {
+        "name": "Rose de Sable",
+        "tourism": "camp_site",
+        "website": "http://www.aubergerosedesable.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.aubergerosedesable.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423914061",
+      "name": "La Tradition",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-tradition-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007082,
+          31.081282
+        ]
+      },
+      "osm_tags": {
+        "name": "La Tradition",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2423915441",
+      "name": "Les Portes du Dessert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-portes-du-dessert-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010128,
+          31.079863
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Portes du Dessert",
+        "tourism": "caravan_site",
+        "website": "https://lesportesdudesert.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://lesportesdudesert.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2425131686",
+      "name": "Palais des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-des-dunes-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.01319,
+          31.073022
+        ]
+      },
+      "osm_tags": {
+        "name": "Palais des Dunes",
+        "tourism": "hotel",
+        "website": "https://www.palaisdesdunes.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.palaisdesdunes.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2425134904",
+      "name": "Nomad Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomad-palace-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.996946,
+          31.046163
+        ]
+      },
+      "osm_tags": {
+        "name": "Nomad Palace",
+        "tourism": "caravan_site",
+        "website": "https://www.hotelnomadpalace.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotelnomadpalace.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2425135896",
+      "name": "Biwak Znigue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "biwak-znigue-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.94267,
+          30.980187
+        ]
+      },
+      "osm_tags": {
+        "name": "Biwak Znigue",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2432006598",
+      "name": "Ouzina Rimal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouzina-rimal-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.203897,
+          30.74765
+        ]
+      },
+      "osm_tags": {
+        "name": "Ouzina Rimal",
+        "tourism": "caravan_site",
+        "website": "https://www.ouzinarimal.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ouzinarimal.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2432009675",
+      "name": "Kasbah Ouzina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ouzina-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.195963,
+          30.750548
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Ouzina",
+        "tourism": "hotel",
+        "website": "https://www.ouzina.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ouzina.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2432015587",
+      "name": "Auberges Hassi Ouzina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberges-hassi-ouzina-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.159574,
+          30.779333
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberges Hassi Ouzina",
+        "tourism": "hostel",
+        "website": "https://www.aubergehassiouzina.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.aubergehassiouzina.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2432016589",
+      "name": "Auberge Tazoult",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tazoult-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.162763,
+          30.81279
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Tazoult",
+        "tourism": "caravan_site",
+        "website": "https://www.booking.com/hotel/ma/auberge-tazoult-ouzina.fr.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/auberge-tazoult-ouzina.fr.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2477850542",
+      "name": "Riad Merzouga رياض مرزوكة",
+      "name_fr": "Riad Merzouga",
+      "name_ar": "رياض مرزوكة",
+      "slug": "riad-merzouga-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.012429,
+          31.107569
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Merzouga رياض مرزوكة",
+        "name:ar": "رياض مرزوكة",
+        "name:fr": "Riad Merzouga",
+        "tourism": "guest_house",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3157777292",
+      "name": "Lala Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lala-merzouga-merzouga",
+      "category": "sand-dunes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.978173,
+          31.146331
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Lala Lallia",
+        "name": "Lala Merzouga",
+        "natural": "dune"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3159920348",
+      "name": "Site de gravures rupestres de Taouz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "site-de-gravures-rupestres-de-taouz-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.037526,
+          30.910622
+        ]
+      },
+      "osm_tags": {
+        "name": "Site de gravures rupestres de Taouz",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3159920349",
+      "name": "Auberge \"Itrane Sahara\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-itrane-sahara-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.141446,
+          30.881024
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Auberge \"Itrane Sahara\""
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3293477429",
+      "name": "Riad Ouzina TGM",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ouzina-tgm-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.22721,
+          30.744994
+        ]
+      },
+      "osm_tags": {
+        "email": "info@familymoroccotour.com",
+        "internet_access": "terminal",
+        "name": "Riad Ouzina TGM",
+        "operator": "Family Morocco Tour",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+34 668 80 86 20",
+        "rooms": "9",
+        "tourism": "hostel",
+        "website": "https://www.riadouzinatgm.com/",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadouzinatgm.com/",
+      "phone": "+34 668 80 86 20",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3302268757",
+      "name": "Camp Chez Karla تخييم عند كارلا",
+      "name_fr": "Camp Chez Karla",
+      "name_ar": "تخييم عند كارلا",
+      "slug": "camp-chez-karla-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.216473,
+          31.476021
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Chez Karla تخييم عند كارلا",
+        "name:ar": "تخييم عند كارلا",
+        "name:fr": "Camp Chez Karla",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3304383076",
+      "name": "Camp Auberge La vallée des dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-auberge-la-vallee-des-dunes-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.022863,
+          31.13567
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Auberge La vallée des dunes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3304396656",
+      "name": "Camp Chez Tirhi Suerte Local",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-chez-tirhi-suerte-local-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.012027,
+          31.124548
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Chez Tirhi Suerte Local",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3359885846",
+      "name": "Camp Ksar Sania",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-ksar-sania-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.008167,
+          31.084667
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Ksar Sania",
+        "note": "Camp Ksar Sania",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3438245571",
+      "name": "Soleil bleu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "soleil-bleu-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.015114,
+          31.123849
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Soleil bleu",
+        "tourism": "guest_house",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3683631660",
+      "name": "Auberge l'Oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-l-oasis-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Hassilabiad, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024439,
+          31.141858
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:postcode": "52202",
+        "addr:street": "Hassilabiad",
+        "email": "aubergeoasismerzouga@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Auberge l'Oasis",
+        "operator": "Les Frêres Oubana",
+        "phone": "+212 6 01 12 42 50",
+        "tourism": "hotel",
+        "tourism_1": "camping",
+        "website": "https://www.aubergeoasismerzouga.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.aubergeoasismerzouga.com/",
+      "phone": "+212 6 01 12 42 50",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3728999385",
+      "name": "Ali el Cojo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ali-el-cojo-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Hassi labied, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.028104,
+          31.14632
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:street": "Hassi labied",
+        "name": "Ali el Cojo",
+        "name:ca": "Ali el cojo",
+        "phone": "+212 5355 77037",
+        "tourism": "hotel",
+        "website": "http://www.alielcojo.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.alielcojo.com/",
+      "phone": "+212 5355 77037",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4145113286",
+      "name": "Maison Merzouga Guest House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-merzouga-guest-house-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025924,
+          31.138668
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison Merzouga Guest House",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4146320789",
+      "name": "Panorama Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panorama-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.265239,
+          31.282397
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Panorama Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233790790",
+      "name": "Auberge Kasbah des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-kasbah-des-dunes-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.009897,
+          31.085435
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Auberge Kasbah des Dunes",
+        "phone": "+212 5 35 57 72 87",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 35 57 72 87",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233834390",
+      "name": "Sabaku Tour Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sabaku-tour-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.027193,
+          31.139913
+        ]
+      },
+      "osm_tags": {
+        "name": "Sabaku Tour Camp",
+        "phone": "+212 6 77 44 83 19",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 77 44 83 19",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4264530465",
+      "name": "Kasbah biouvak Lahmada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-biouvak-lahmada-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.991588,
+          31.215326
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah biouvak Lahmada",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4552477889",
+      "name": "Ksar bicha",
+      "name_fr": "Ksar bicha",
+      "name_ar": "قصر بيشا",
+      "slug": "ksar-bicha-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010242,
+          31.107105
+        ]
+      },
+      "osm_tags": {
+        "addr:postbox": "40",
+        "addr:postcode": "52202",
+        "email": "ksarbicha@gmail.com",
+        "internet_access": "wlan",
+        "name": "Ksar bicha قصر بيشا",
+        "name:ar": "قصر بيشا",
+        "name:de": "Ksar bicha",
+        "name:en": "Ksar bicha",
+        "name:fr": "Ksar bicha",
+        "opening_hours": "24/7",
+        "phone": "+212 535 57 7113",
+        "tourism": "hotel",
+        "website": "http://www.ksarbicha.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.ksarbicha.com",
+      "phone": "+212 535 57 7113",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4731807963",
+      "name": "Bivouac Merzouga Experience",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-merzouga-experience-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.995596,
+          31.012507
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52202",
+        "email": "merzouga.experience@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Bivouac Merzouga Experience",
+        "phone": "+212 6 67 41 31 31",
+        "tourism": "hostel",
+        "website": "http://www.merzouga-experience.com/eg/accueil.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.merzouga-experience.com/eg/accueil.html",
+      "phone": "+212 6 67 41 31 31",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4737914721",
+      "name": "La Maison Rurale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-maison-rurale-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Taouz",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00786,
+          31.083081
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52202",
+        "addr:street": "Taouz",
+        "email": "lamaisonrurale@hotmail.fr",
+        "internet_access": "wlan",
+        "name": "La Maison Rurale",
+        "operator": "Chez M'barek",
+        "phone": "+212 6 61 88 85 54",
+        "tourism": "hotel",
+        "website": "http://www.lamaisonrurale.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.lamaisonrurale.com",
+      "phone": "+212 6 61 88 85 54",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5005013158",
+      "name": "Riad Tadarte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-tadarte-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.027489,
+          31.141857
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Riad Tadarte",
+        "phone": "+212 6 67 25 39 10",
+        "tourism": "hotel",
+        "website": "https://www.riadtadarte.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadtadarte.com/",
+      "phone": "+212 6 67 25 39 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5069291924",
+      "name": "Café Restaurant Slimania",
+      "name_fr": "Café Restaurant Slimania",
+      "name_ar": null,
+      "slug": "cafe-restaurant-slimania-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.266519,
+          31.282048
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "contact:facebook": "https://www.facebook.com/faisal.solaimani.94/",
+        "contact:instagram": "https://www.instagram.com/slimaniaresto/",
+        "cuisine": "regional",
+        "name": "Café Restaurant Slimania",
+        "name:fr": "Café Restaurant Slimania",
+        "note": "Good Vibe, good music and good food.",
+        "phone": "+212 6 06 83 82 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 06 83 82 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5138978923",
+      "name": "Nasser Palace Camping Site",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nasser-palace-camping-site-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.006299,
+          31.175829
+        ]
+      },
+      "osm_tags": {
+        "name": "Nasser Palace Camping Site",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5234962022",
+      "name": "Ksar Bicha hotel",
+      "name_fr": "Hôtel Ksar Bicha",
+      "name_ar": "فندق قصر بيشة",
+      "slug": "ksar-bicha-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010093,
+          31.107174
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52202",
+        "email": "ksarbicha@gmail.com",
+        "internet_access": "wlan",
+        "name": "Hôtel Ksar Bicha فندق قصر بيشة",
+        "name:ar": "فندق قصر بيشة",
+        "name:de": "Ksar Bicha unterkunft",
+        "name:en": "Ksar Bicha hotel",
+        "name:es": "Ksar Bicha albergue",
+        "name:fr": "Hôtel Ksar Bicha",
+        "opening_hours": "24/7",
+        "phone": "+212 535577113",
+        "tourism": "hotel",
+        "website": "http://www.ksarbicha.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.ksarbicha.com",
+      "phone": "+212 535577113",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5252560321",
+      "name": "Hassilabied Snack",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hassilabied-snack-merzouga",
+      "category": "moroccan-cuisine",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024832,
+          31.140071
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Hassilabied Snack"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5285457122",
+      "name": "J&N",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "j-n-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.011658,
+          31.095025
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "J&N"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306952724",
+      "name": "Dar Gamra Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-gamra-lodge-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.006827,
+          31.093623
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "Dar Gamra Lodge",
+        "operator": "Barak",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5320149921",
+      "name": "Jordi i Naima",
+      "name_fr": "Jordi i Naima",
+      "name_ar": null,
+      "slug": "jordi-i-naima-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.019717,
+          31.105094
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "internet_access": "wlan",
+        "name": "Jordi i Naima",
+        "name:ca": "Jordi i Naima",
+        "name:en": "Jordi i Naima",
+        "name:fr": "Jordi i Naima",
+        "opening_hours": "24/7",
+        "phone": "+212 6 61 63 15 91"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 63 15 91",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5331808522",
+      "name": "stiki shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "stiki-shop-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024679,
+          31.140084
+        ]
+      },
+      "osm_tags": {
+        "name": "stiki shop",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5331812321",
+      "name": "Alimation",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alimation-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024284,
+          31.139304
+        ]
+      },
+      "osm_tags": {
+        "name": "Alimation",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5333530322",
+      "name": "Alimentation KemKem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alimentation-kemkem-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025262,
+          31.139983
+        ]
+      },
+      "osm_tags": {
+        "name": "Alimentation KemKem",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5333744523",
+      "name": "Desert Berber Camp",
+      "name_fr": null,
+      "name_ar": "مخيم بربر الصحراء",
+      "slug": "desert-berber-camp-merzouga",
+      "category": "mountains",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005655,
+          31.112042
+        ]
+      },
+      "osm_tags": {
+        "email": "desertberbercamp@gmail.com",
+        "fax": "+212 613 604 863",
+        "name": "Desert Berber Camp مخيم بربر الصحراء",
+        "name:ar": "مخيم بربر الصحراء",
+        "name:en": "Desert Berber Camp",
+        "natural": "peak",
+        "tourism": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5339483023",
+      "name": "Chez Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-ali-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010934,
+          31.096
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Ali",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5339488623",
+      "name": "Les Amis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-amis-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013961,
+          31.097147
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Les Amis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5359186221",
+      "name": "Auberge Kasbah Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-kasbah-merzouga-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004971,
+          31.089533
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-15",
+        "name": "Auberge Kasbah Merzouga",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5397202422",
+      "name": "Mezguida",
+      "name_fr": null,
+      "name_ar": "قصر مزكيدة",
+      "slug": "mezguida-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "Mezguida",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.258791,
+          31.323367
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52450",
+        "addr:street": "Mezguida",
+        "name": "قصر مزكيدة",
+        "name:ar": "قصر مزكيدة",
+        "name:en": "Mezguida",
+        "opening_hours": "24/7",
+        "tourism": "attraction",
+        "website": "https://www.mezguida.blogspot.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.mezguida.blogspot.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5427643621",
+      "name": "Le Gout du Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-gout-du-sahara-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010494,
+          31.097008
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Le Gout du Sahara",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5516619637",
+      "name": "Riad Madu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-madu-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.032684,
+          31.147938
+        ]
+      },
+      "osm_tags": {
+        "email": "riadmadu@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Riad Madu",
+        "phone": "+212 5 35 57 87 40",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 35 57 87 40",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5518502623",
+      "name": "Chez Fatima",
+      "name_fr": "Chez Fatima",
+      "name_ar": null,
+      "slug": "chez-fatima-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.01646,
+          31.100001
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Chez Fatima",
+        "name:fr": "Chez Fatima",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5527872221",
+      "name": "tipico erfroud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tipico-erfroud-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.233507,
+          31.435354
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "tipico erfroud"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5575325821",
+      "name": "KamKam Dunes Tents",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kamkam-dunes-tents-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.940539,
+          31.173397
+        ]
+      },
+      "osm_tags": {
+        "name": "KamKam Dunes Tents",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5713167077",
+      "name": "Lahmada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lahmada-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.979425,
+          31.217474
+        ]
+      },
+      "osm_tags": {
+        "name": "Lahmada",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5713167078",
+      "name": "Auberge Sahara Garden",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-sahara-garden-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "الرشيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.977467,
+          31.21587
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "الرشيدية",
+        "name": "Auberge Sahara Garden",
+        "phone": "+212 6 62 08 09 29",
+        "tourism": "guest_house",
+        "website": "sahara-garden.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "sahara-garden.com",
+      "phone": "+212 6 62 08 09 29",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5713167084",
+      "name": "Oasis Luxury camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-luxury-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.978941,
+          31.216994
+        ]
+      },
+      "osm_tags": {
+        "name": "Oasis Luxury camp",
+        "phone": "+212 6 68 65 33 48",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 68 65 33 48",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5713167085",
+      "name": "Palmeras e Dunas - Luxury Auberge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palmeras-e-dunas-luxury-auberge-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.984389,
+          31.217609
+        ]
+      },
+      "osm_tags": {
+        "name": "Palmeras e Dunas - Luxury Auberge",
+        "phone": "+212 5 35 57 61 44",
+        "tourism": "guest_house",
+        "website": "palmerasydunas.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "palmerasydunas.com",
+      "phone": "+212 5 35 57 61 44",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5713179563",
+      "name": "Sultan Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sultan-luxury-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.955077,
+          31.220329
+        ]
+      },
+      "osm_tags": {
+        "name": "Sultan Luxury Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5859255885",
+      "name": "Mouhou Apartment",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mouhou-apartment-merzouga",
+      "category": "boutique-hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.01565,
+          31.094892
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52202",
+        "internet_access": "wlan",
+        "name": "Mouhou Apartment",
+        "operator": "Hassan Mouhou",
+        "phone": "+212 6 73 55 54 08",
+        "tourism": "apartment",
+        "website": "https://mouhou-apartment.business.site/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://mouhou-apartment.business.site/",
+      "phone": "+212 6 73 55 54 08",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5937916565",
+      "name": "Khamlia Desert Hotel",
+      "name_fr": null,
+      "name_ar": "فندق خملية الصحراء",
+      "slug": "khamlia-desert-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00707,
+          31.035261
+        ]
+      },
+      "osm_tags": {
+        "name": "Khamlia Desert Hotel فندق خملية الصحراء",
+        "name:ar": "فندق خملية الصحراء",
+        "name:en": "Khamlia Desert Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016446892",
+      "name": "Borj Est",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "borj-est-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.21732,
+          31.433884
+        ]
+      },
+      "osm_tags": {
+        "name": "Borj Est",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6045625590",
+      "name": "Gara Medouar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gara-medouar-merzouga",
+      "category": "palaces-kasbahs",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.399721,
+          31.300033
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Jebel Mudawwar;Gara Mdouar;Mdoura",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "loc_name": "Portuguese Prison",
+        "name": "Gara Medouar",
+        "tourism": "attraction",
+        "wikidata": "Q30242699",
+        "wikimedia_commons": "Category:Gara Medouar",
+        "wikipedia": "en:Gara Medouar"
+      },
+      "wikidata": "Q30242699",
+      "wikipedia": "en:Gara Medouar",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6143552055",
+      "name": "Dunes Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dunes-luxury-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.979792,
+          31.191661
+        ]
+      },
+      "osm_tags": {
+        "email": "dunesluxurycamp@gmail.com",
+        "name": "Dunes Luxury Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6145237301",
+      "name": "Café Restaurant Merzouga",
+      "name_fr": "Café Restaurant Merzouga",
+      "name_ar": null,
+      "slug": "cafe-restaurant-merzouga-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.015749,
+          31.104125
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Restaurant Merzouga",
+        "name:fr": "Café Restaurant Merzouga"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6149532696",
+      "name": "Jdadid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jdadid-merzouga",
+      "category": "roman-ruins",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.150836,
+          30.860324
+        ]
+      },
+      "osm_tags": {
+        "archaeological_site": "petroglyph",
+        "historic": "archaeological_site",
+        "name": "Jdadid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6149532697",
+      "name": "Hammada do Guir Waterfalls Viewpoint",
+      "name_fr": "Point de vue des Cascades de Hammada do Guir",
+      "name_ar": null,
+      "slug": "hammada-do-guir-waterfalls-viewpoint-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.878147,
+          31.478738
+        ]
+      },
+      "osm_tags": {
+        "name": "Hammada do Guir Waterfall Viewpoint",
+        "name:en": "Hammada do Guir Waterfalls Viewpoint",
+        "name:fr": "Point de vue des Cascades de Hammada do Guir",
+        "name:pt": "Mirador das Cascatas de Hammada do Guir",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6179132785",
+      "name": "Mustapha camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mustapha-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.969435,
+          31.079665
+        ]
+      },
+      "osm_tags": {
+        "name": "Mustapha camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6208710585",
+      "name": "Le Cedre Snack",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-cedre-snack-merzouga",
+      "category": "local-food",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010237,
+          31.097072
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger;diner;pasta;sandwich",
+        "name:en": "Le Cedre Snack"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6338280713",
+      "name": "Hassan’s Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hassan-s-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.0294,
+          31.143733
+        ]
+      },
+      "osm_tags": {
+        "name": "Hassan’s Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6345103686",
+      "name": "Wilderness Hostel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wilderness-hostel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024428,
+          31.139024
+        ]
+      },
+      "osm_tags": {
+        "name": "Wilderness Hostel",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6393989490",
+      "name": "Cafe restaurant AMBAOUI",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-ambaoui-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.257676,
+          31.287825
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe restaurant AMBAOUI"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418187585",
+      "name": "Transsahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "transsahara-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010793,
+          31.09572
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Transsahara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418187586",
+      "name": "Cafe L'expert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-l-expert-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010766,
+          31.095756
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "tea;moroccan;coffee_shop",
+        "internet_access": "wlan",
+        "name:en": "Cafe L'expert",
+        "name:pt": "Café L'expert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418187685",
+      "name": "La grotte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-grotte-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010974,
+          31.095859
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "La grotte",
+        "name:pt": "La grotte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418955189",
+      "name": "Kanz Erremal desert camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kanz-erremal-desert-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.997859,
+          31.136076
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Kanz Erremal desert camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6437100579",
+      "name": "Grande Dune de Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grande-dune-de-merzouga-merzouga",
+      "category": "mountains",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.992352,
+          31.077739
+        ]
+      },
+      "osm_tags": {
+        "name": "Grande Dune de Merzouga",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6604070968",
+      "name": "L'homme du desert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-homme-du-desert-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.017607,
+          31.0585
+        ]
+      },
+      "osm_tags": {
+        "name": "L'homme du desert",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6637033398",
+      "name": "Auberge La Source",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-la-source-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024678,
+          31.142173
+        ]
+      },
+      "osm_tags": {
+        "access": "customers",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "leisure": "swimming_pool",
+        "name": "Auberge La Source",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6644725585",
+      "name": "Jasmina hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jasmina-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.988688,
+          31.213552
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Jasmina hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6832980185",
+      "name": "مطعم رغيف اللحم المغربي",
+      "name_fr": null,
+      "name_ar": "مطعم رغيف اللحم المغربي",
+      "slug": "merzouga",
+      "category": "local-food",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.006401,
+          31.035514
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "مطعم رغيف اللحم المغربي",
+        "name:ar": "مطعم رغيف اللحم المغربي",
+        "name:zh": "摩洛哥肉饼餐厅"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6834062698",
+      "name": "Sahara Mirage Camp 8",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-mirage-camp-8-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.962619,
+          31.092298
+        ]
+      },
+      "osm_tags": {
+        "name": "Sahara Mirage Camp 8",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6834079685",
+      "name": "Sahara Desert Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-desert-luxury-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.965227,
+          31.08945
+        ]
+      },
+      "osm_tags": {
+        "name": "Sahara Desert Luxury Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6975941785",
+      "name": "Abandoned French Village ruins",
+      "name_fr": "Village Français Abandonné",
+      "name_ar": null,
+      "slug": "abandoned-french-village-ruins-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.950189,
+          31.041584
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Abandoned French Village ruins",
+        "name:fr": "Village Français Abandonné",
+        "name:ru": "Руины французского поселения",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7098291508",
+      "name": "Kasbah Le Berger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-le-berger-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00532,
+          31.046595
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Le Berger",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7122264185",
+      "name": "Riad Kasbah Aiour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-kasbah-aiour-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Ksar Hassi Labied",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.01657,
+          31.132232
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "52202",
+        "addr:street": "Ksar Hassi Labied",
+        "internet_access": "wlan",
+        "name": "Riad Kasbah Aiour",
+        "opening_hours": "24/7",
+        "phone": "+212 6 62 80 44 68",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 62 80 44 68",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/7122288785",
+      "name": "Cafe snack Hamid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-snack-hamid-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.026301,
+          31.142022
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan",
+        "name": "Cafe snack Hamid",
+        "opening_hours": "24/7",
+        "phone": "+212 6 67 06 90 78",
+        "website": "https://cafesnackhamid.business.site/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://cafesnackhamid.business.site/",
+      "phone": "+212 6 67 06 90 78",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/7178760085",
+      "name": "Cafe Restaurant Tazra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-tazra-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.011145,
+          31.076252
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "tea;coffee_shop;local",
+        "internet_access": "wlan",
+        "name": "Cafe Restaurant Tazra",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-22:00"
+    },
+    {
+      "osm_id": "node/7187665786",
+      "name": "Chez Moreno",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-moreno-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.014475,
+          31.098046
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "tea;cake;breakfast;coffee_shop;local",
+        "email": "merzougatour@gmail.com",
+        "internet_access": "wlan",
+        "name": "Chez Moreno",
+        "phone": "+212 6 73 28 38 98"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 28 38 98",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8881292777",
+      "name": "Riad Dar Mari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-mari-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00972,
+          31.108021
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Dar Mari",
+        "phone": "+212 6 10 69 36 19",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 10 69 36 19",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9182579986",
+      "name": "La Baraka",
+      "name_fr": "La Baraka",
+      "name_ar": null,
+      "slug": "la-baraka-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.267239,
+          31.280762
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "yes",
+        "name": "مطعم البركة (La Baraka)",
+        "name:de": "La Baraka",
+        "name:en": "La Baraka",
+        "name:es": "La Baraka",
+        "name:fr": "La Baraka"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9212157317",
+      "name": "Desert Backpackers Hostel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-backpackers-hostel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010149,
+          31.110055
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Desert Backpackers Hostel",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9329475118",
+      "name": "Morocco National 4x4 Auto Museum",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "morocco-national-4x4-auto-museum-merzouga",
+      "category": "history-museums",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.012116,
+          31.072015
+        ]
+      },
+      "osm_tags": {
+        "name": "متحف السيارات العتيقة مرزوكة",
+        "name:en": "Morocco National 4x4 Auto Museum",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9916791974",
+      "name": "Shop Artman Sagaoue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shop-artman-sagaoue-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.13507,
+          31.355679
+        ]
+      },
+      "osm_tags": {
+        "name": "Shop Artman Sagaoue",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9945863801",
+      "name": "Planet Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "planet-sahara-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007129,
+          31.093996
+        ]
+      },
+      "osm_tags": {
+        "name": "Planet Sahara",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9963716517",
+      "name": "Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "merzouga-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007933,
+          31.10004
+        ]
+      },
+      "osm_tags": {
+        "email": "chezyoussef@gmail.com",
+        "internet_access": "wlan",
+        "name": "Chez Youssef",
+        "name:de": "Merzouga",
+        "name:en": "Merzouga",
+        "phone": "+212 6 66 36 71 74",
+        "tourism": "hostel",
+        "website": "http://www.chezyoussef.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.chezyoussef.com",
+      "phone": "+212 6 66 36 71 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10111179346",
+      "name": "Africa Desert Apartment",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "africa-desert-apartment-merzouga",
+      "category": "boutique-hotels",
+      "city": "merzouga",
+      "address": "001, Africa Desert Merzouga, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00499,
+          31.096806
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:housenumber": "001",
+        "addr:postcode": "52202",
+        "addr:street": "Africa Desert Merzouga",
+        "email": "africadesertservices@gmail.com",
+        "name": "Africa Desert Apartment",
+        "operator": "Zakaria",
+        "phone": "+212 6 69 25 66 59",
+        "rooms": "2",
+        "source": "booking.com",
+        "tourism": "apartment",
+        "website": "https://www.booking.com/hotel/ma/click-desert-apartment.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/click-desert-apartment.html",
+      "phone": "+212 6 69 25 66 59",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10111179351",
+      "name": "Africa Desert Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "africa-desert-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "Africa Desert Merzouga, Africa Desert Merzouga, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004756,
+          31.096753
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "addr:city": "Merzouga",
+        "addr:housenumber": "Africa Desert Merzouga",
+        "addr:postcode": "52202",
+        "addr:street": "Africa Desert Merzouga",
+        "capacity:caravans": "5",
+        "capacity:persons": "10",
+        "charge": "5 EUR",
+        "fee": "yes",
+        "name": "Africa Desert Camp",
+        "operator": "Ouadidou",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10259149285",
+      "name": "La Khaima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-khaima-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00754,
+          31.101141
+        ]
+      },
+      "osm_tags": {
+        "beds": "20",
+        "caravans": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "La Khaima",
+        "nudism": "no",
+        "rooms": "10",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10657853605",
+      "name": "Ghost Town View Point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ghost-town-view-point-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.950695,
+          31.037775
+        ]
+      },
+      "osm_tags": {
+        "name": "Ghost Town View Point",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10657964907",
+      "name": "Water well campground",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "water-well-campground-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.165757,
+          31.498722
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Water well campground",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10768451205",
+      "name": "Rose Rocks Canyon",
+      "name_fr": "Gorges des Roches Roses",
+      "name_ar": null,
+      "slug": "rose-rocks-canyon-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.722051,
+          31.443118
+        ]
+      },
+      "osm_tags": {
+        "name": "Gorges des Roches Roses",
+        "name:en": "Rose Rocks Canyon",
+        "name:fr": "Gorges des Roches Roses",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10768451206",
+      "name": "Moutain top overview",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moutain-top-overview-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.717425,
+          31.416172
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Moutain top overview",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10768451207",
+      "name": "Falling Rock Gorge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "falling-rock-gorge-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.803121,
+          31.458771
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Falling Rock Gorge",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10827782705",
+      "name": "Desert Villa Boutique Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-villa-boutique-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Tamaright Garden Corner, 52202, Marokko",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.00666,
+          31.097011
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Tamaright Garden Corner, 52202, Marokko",
+        "internet_access": "wlan",
+        "name:en": "Desert Villa Boutique Hotel",
+        "name:nl": "Desert Villa Boutique Hotel",
+        "phone": "+212 6 69 18 98 76",
+        "tourism": "hotel",
+        "website": "https://www.desertvillamerzouga.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.desertvillamerzouga.com/",
+      "phone": "+212 6 69 18 98 76",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11215607337",
+      "name": "Campamento",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "campamento-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.943493,
+          31.228954
+        ]
+      },
+      "osm_tags": {
+        "name": "Campamento",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11215607437",
+      "name": "Jardin Kotori",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-kotori-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.943264,
+          31.217099
+        ]
+      },
+      "osm_tags": {
+        "camp_site": "serviced",
+        "description": "Luxury Desert Camp",
+        "internet_access": "wlan",
+        "name": "Jardin Kotori",
+        "name:ca": "Campament",
+        "reservation": "yes",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://jardinkotori.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://jardinkotori.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11215607537",
+      "name": "Carvasar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carvasar-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.031139,
+          31.148127
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Carvasar",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11258515938",
+      "name": "Antoine du Saint-Exupéry",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "antoine-du-saint-exupery-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.028726,
+          31.201708
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "name:en": "Antoine du Saint-Exupéry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11288583943",
+      "name": "Sand River Crossing",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sand-river-crossing-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.145337,
+          30.793685
+        ]
+      },
+      "osm_tags": {
+        "name": "Sand River Crossing",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11339231072",
+      "name": "Salla à manger de Nico",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salla-a-manger-de-nico-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.847214,
+          30.951671
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Salla à manger de Nico"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11554479153",
+      "name": "Sahara Sky Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-sky-luxury-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.951829,
+          31.215517
+        ]
+      },
+      "osm_tags": {
+        "fee": "yes",
+        "name": "Sahara Sky Luxury Camp",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11560471120",
+      "name": "herboriste sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "herboriste-sahara-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024057,
+          31.138808
+        ]
+      },
+      "osm_tags": {
+        "description": "Der Inhaber spricht deutsch",
+        "name": "herboriste sahara",
+        "shop": "spices"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11589855489",
+      "name": "Hotel chez Toupi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-chez-toupi-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024018,
+          31.138386
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel chez Toupi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11630788070",
+      "name": "Backcountry Campsite",
+      "name_fr": "Selvage Campsite",
+      "name_ar": null,
+      "slug": "backcountry-campsite-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.417345,
+          30.876172
+        ]
+      },
+      "osm_tags": {
+        "backcountry": "yes",
+        "name": "Backcountry Campsite",
+        "name:fr": "Selvage Campsite",
+        "name:pt": "Campismo Selvagem",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11734586329",
+      "name": "Panorama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panorama-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016004,
+          31.11487
+        ]
+      },
+      "osm_tags": {
+        "name": "Panorama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11778573156",
+      "name": "Dar Tafouyte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tafouyte-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.011867,
+          31.11069
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dar Tafouyte",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11854315843",
+      "name": "Riad Dar Poublanc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-poublanc-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Hassi Labiad Merzouga, Merzouga, 52202, Maroc",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.029105,
+          31.144326
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Hassi Labiad Merzouga, Merzouga, 52202, Maroc",
+        "name": "Riad Dar Poublanc",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11874904270",
+      "name": "Riad les jardins de Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-les-jardins-de-merzouga-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Garden Walk",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.022909,
+          31.13958
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Garden Walk",
+        "internet_access": "wlan",
+        "name": "Riad les jardins de Merzouga",
+        "tourism": "hotel",
+        "website": "http://lesgardinddemerzouga.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://lesgardinddemerzouga.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11897623750",
+      "name": "Sijilmasa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sijilmasa-merzouga",
+      "category": "roman-ruins",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.276178,
+          31.285275
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "Sijilmasa",
+        "wikidata": "Q1334331",
+        "wikimedia_commons": "Category:Sijilmasa",
+        "wikipedia": "ast:Sijilmasa"
+      },
+      "wikidata": "Q1334331",
+      "wikipedia": "ast:Sijilmasa",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12253389902",
+      "name": "Berber Place",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-place-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.017541,
+          31.121529
+        ]
+      },
+      "osm_tags": {
+        "name": "Berber Place",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378402",
+      "name": "Riad Lghiam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-lghiam-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.254034,
+          31.277509
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Lghiam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378604",
+      "name": "Dar Lamrani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-lamrani-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.26411,
+          31.282199
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Lamrani",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378605",
+      "name": "Said appartement",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "said-appartement-merzouga",
+      "category": "boutique-hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.015823,
+          31.102498
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Said appartement",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378606",
+      "name": "Snack alafrah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-alafrah-merzouga",
+      "category": "local-food",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010943,
+          31.09558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack alafrah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12453102980",
+      "name": "Shop Station Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shop-station-merzouga-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.030403,
+          31.114323
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-12-26",
+        "name": "Shop Station Merzouga",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652661672",
+      "name": "Shop Diafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shop-diafa-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016343,
+          31.10095
+        ]
+      },
+      "osm_tags": {
+        "name": "Shop Diafa",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652661674",
+      "name": "Marche Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-merzouga-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.015966,
+          31.104488
+        ]
+      },
+      "osm_tags": {
+        "name": "Marche Merzouga",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652661675",
+      "name": "BM Shop Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bm-shop-merzouga-merzouga",
+      "category": "food-markets",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.009773,
+          31.097718
+        ]
+      },
+      "osm_tags": {
+        "name": "BM Shop Merzouga",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12696763418",
+      "name": "Ksar Abouam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-abouam-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.269052,
+          31.28178
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar Abouam",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12696770593",
+      "name": "Stadttor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "stadttor-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.270556,
+          31.282423
+        ]
+      },
+      "osm_tags": {
+        "name": "Stadttor",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13173833341",
+      "name": "Grand Dune View Point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grand-dune-view-point-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.991318,
+          31.079083
+        ]
+      },
+      "osm_tags": {
+        "name": "Grand Dune View Point",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13362886141",
+      "name": "saharion peublo camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saharion-peublo-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "Erg Chebbi,Hassilabied ,Merzouga,, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.940319,
+          31.175353
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "addr:city": "Merzouga",
+        "addr:postcode": "52202",
+        "addr:street": "Erg Chebbi,Hassilabied ,Merzouga,",
+        "camp_site": "serviced",
+        "capacity:persons": "22",
+        "capacity:tents": "14",
+        "loc_name": "hassilabied",
+        "mapillary": "saharion peublo camp",
+        "name": "saharion peublo camp",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "static_caravans": "yes",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13367005201",
+      "name": "Café Menara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-menara-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.259498,
+          31.287301
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Menara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13581934254",
+      "name": "Riad Merzouga Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-merzouga-dunes-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "Ksar Tabomiat, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.019328,
+          31.056466
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:postcode": "52202",
+        "addr:street": "Ksar Tabomiat",
+        "email": "riadmerzougadunes@gmail.com",
+        "guest_house": "hotel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad Merzouga Dunes",
+        "phone": "+212 6 76 59 52 02; +212 6 76 25 11 40",
+        "tourism": "guest_house",
+        "website": "https://www.riadmerzougadunes.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadmerzougadunes.com/",
+      "phone": "+212 6 76 59 52 02; +212 6 76 25 11 40",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690956786",
+      "name": "Tenere",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tenere-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010757,
+          31.096342
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tenere",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690981351",
+      "name": "Snack Milano",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-milano-merzouga",
+      "category": "local-food",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010316,
+          31.096462
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack Milano",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690981587",
+      "name": "Riad Azawad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-azawad-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.010003,
+          31.081475
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Azawad",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690984293",
+      "name": "Dream Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dream-cafe-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016896,
+          31.100107
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Dream Cafe",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690999388",
+      "name": "Amira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amira-merzouga",
+      "category": "bakeries",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.230152,
+          31.433407
+        ]
+      },
+      "osm_tags": {
+        "name": "Amira",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13691031438",
+      "name": "Cafè Zizi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-zizi-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.230126,
+          31.433463
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafè Zizi",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13691757301",
+      "name": "Marrakech Chez La Main De Fatima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marrakech-chez-la-main-de-fatima-merzouga",
+      "category": "moroccan-cuisine",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.019664,
+          31.104791
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Marrakech Chez La Main De Fatima"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13695599622",
+      "name": "Cafe Litteraire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-litteraire-merzouga",
+      "category": "cafes",
+      "city": "merzouga",
+      "address": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005675,
+          31.033976
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+        "amenity": "cafe",
+        "name": "Cafe Litteraire",
+        "opening_hours": "Mo-Sa 10:00-18:00; ph off",
+        "operator": "Johanna & Lachen",
+        "phone": "+212 6 68 75 38 86"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 68 75 38 86",
+      "stars": null,
+      "opening_hours": "Mo-Sa 10:00-18:00; ph off"
+    },
+    {
+      "osm_id": "node/13695599623",
+      "name": "Chez Les Artistes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-les-artistes-merzouga",
+      "category": "contemporary-art",
+      "city": "merzouga",
+      "address": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005681,
+          31.034002
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+        "name": "Chez Les Artistes",
+        "opening_hours": "Mo-Sa 10:00-18:00; ph off",
+        "operator": "Johanna & Lachen",
+        "phone": "+212 6 68 75 38 86",
+        "tourism": "gallery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 68 75 38 86",
+      "stars": null,
+      "opening_hours": "Mo-Sa 10:00-18:00; ph off"
+    },
+    {
+      "osm_id": "node/13695643450",
+      "name": "Boulangerie Patisserie Jdaid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-patisserie-jdaid-merzouga",
+      "category": "bakeries",
+      "city": "merzouga",
+      "address": "Jdeid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.162915,
+          30.848272
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Jdeid",
+        "name": "Boulangerie Patisserie Jdaid",
+        "phone": "+212 7 53 57 56 03",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 7 53 57 56 03",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13696458988",
+      "name": "Snack hassan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-hassan-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "Hassilabied",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025572,
+          31.140487
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Hassilabied",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Snack hassan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13700894779",
+      "name": "Dar Shifa Shanti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-shifa-shanti-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "Merzouga ⵎⴰⵔⵣⵓⴳⴰ مرزوكة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.01505,
+          31.109621
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga ⵎⴰⵔⵣⵓⴳⴰ مرزوكة",
+        "guest_house": "pension",
+        "mobile": "+212 7 68 25 40 33",
+        "name": "Dar Shifa Shanti",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13700894782",
+      "name": "Dar Oussidi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-oussidi-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "Merzouga ⵎⴰⵔⵣⵓⴳⴰ مرزوكة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013699,
+          31.100888
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga ⵎⴰⵔⵣⵓⴳⴰ مرزوكة",
+        "addr:postcode": "BP99",
+        "email": "contact@dar-oussidi.com",
+        "guest_house": "pension",
+        "mobile": "+49 176 27 45 84 97",
+        "name": "Dar Oussidi",
+        "operator": "Barak Oussidi",
+        "phone": "+212 6 61 92 00 00",
+        "tourism": "guest_house",
+        "website": "https://www.dar-oussidi.com/en/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dar-oussidi.com/en/",
+      "phone": "+212 6 61 92 00 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13722713351",
+      "name": "Sahara Dunes Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-dunes-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.965307,
+          31.246511
+        ]
+      },
+      "osm_tags": {
+        "name": "Sahara Dunes Camp",
+        "tourism": "camp_site",
+        "website": "https://www.saharadunescamp.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.saharadunescamp.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13740178501",
+      "name": "Erg Chebbi, Grand Dune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erg-chebbi-grand-dune-merzouga",
+      "category": "sunset-spots",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.008954,
+          31.147339
+        ]
+      },
+      "osm_tags": {
+        "name": "Erg Chebbi, Grand Dune",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/37081239",
+      "name": "Erg Chebbi",
+      "name_fr": "Erg Chebbi",
+      "name_ar": "عرق الشبي",
+      "slug": "erg-chebbi-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.976111,
+          31.138093
+        ]
+      },
+      "osm_tags": {
+        "desert": "erg",
+        "name": "Erg Chebbi ⵉⴷⵀⴰⵏ ⵛⴱⴱⵉ عرق الشبي",
+        "name:ar": "عرق الشبي",
+        "name:ber": "ⵉⴷⵀⴰⵏ ⵛⴱⴱⵉ",
+        "name:en": "Erg Chebbi",
+        "name:fr": "Erg Chebbi",
+        "natural": "sand",
+        "surface": "sand",
+        "tourism": "attraction",
+        "wikidata": "Q146219",
+        "wikimedia_commons": "Category:Erg Chebbi",
+        "wikipedia": "ar:عرق الشبي",
+        "wikipedia:ar": "عرق الشبي",
+        "wikipedia:en": "Erg Chebbi"
+      },
+      "wikidata": "Q146219",
+      "wikipedia": "ar:عرق الشبي",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/97170433",
+      "name": "Auberge Riad Nour نزل رياض نور",
+      "name_fr": "Auberge Riad Nour",
+      "name_ar": "نزل رياض نور",
+      "slug": "auberge-riad-nour-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.217343,
+          31.480594
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "fax": "+212 55 57 77 48",
+        "name": "Auberge Riad Nour نزل رياض نور",
+        "name:ar": "نزل رياض نور",
+        "name:fr": "Auberge Riad Nour",
+        "phone": "+212 55 57 77 48",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 55 57 77 48",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/97560218",
+      "name": "Ksar M'Aadid ⵇⵚⵕ ⵎⵄⴰⴹⵉⴹ قصر المعاديد",
+      "name_fr": "Ksar M'Aadid",
+      "name_ar": "قصر المعاديد",
+      "slug": "ksar-m-aadid-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.215244,
+          31.466507
+        ]
+      },
+      "osm_tags": {
+        "barrier": "city_wall",
+        "historic": "yes",
+        "name": "Ksar M'Aadid ⵇⵚⵕ ⵎⵄⴰⴹⵉⴹ قصر المعاديد",
+        "name:ar": "قصر المعاديد",
+        "name:ber": "ⵇⵚⵕ ⵎⵄⴰⴹⵉⴹ",
+        "name:fr": "Ksar M'Aadid",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/101820697",
+      "name": "Rissani Souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rissani-souk-merzouga",
+      "category": "souks",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.266261,
+          31.281292
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Rissani Souk",
+        "source": "Bing"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/125239775",
+      "name": "Mosquée de Merzouga",
+      "name_fr": "Mosquée de Merzouga",
+      "name_ar": null,
+      "slug": "mosquee-de-merzouga-merzouga",
+      "category": "mosques",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.014806,
+          31.098154
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Mosquée de Merzouga",
+        "name:fr": "Mosquée de Merzouga",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/125240978",
+      "name": "Chez Julia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-julia-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.014233,
+          31.099061
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Chez Julia",
+        "source": "llll",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/178691677",
+      "name": "Ksar Al Fida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-al-fida-merzouga",
+      "category": "history-museums",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.250895,
+          31.308191
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Ksar Al Fida",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/202923166",
+      "name": "Complexe Turistique de Morzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "complexe-turistique-de-morzouga-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005852,
+          31.089428
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Complexe Turistique de Morzouga",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216064385",
+      "name": "Palais Du Desert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-du-desert-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.262547,
+          31.422549
+        ]
+      },
+      "osm_tags": {
+        "name": "Palais Du Desert",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216064690",
+      "name": "Hôtel Belere Erfoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-belere-erfoud-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.246258,
+          31.416902
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Belere Erfoud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216064691",
+      "name": "Elati Hotel",
+      "name_fr": null,
+      "name_ar": "فندق إلتي",
+      "slug": "elati-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.244847,
+          31.418819
+        ]
+      },
+      "osm_tags": {
+        "name": "فندق إلتي",
+        "name:ar": "فندق إلتي",
+        "name:en": "Elati Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216374149",
+      "name": "Camping Tifina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-tifina-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.272584,
+          31.381656
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "caravans": "yes",
+        "changing_table": "yes",
+        "cuisine": "regional",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drinking_water": "yes",
+        "name": "Camping Tifina",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "tents": "no",
+        "toilets": "yes",
+        "toilets:wheelchair": "limited",
+        "tourism": "camp_site",
+        "website": "https://www.tifina-maroc.com/",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.tifina-maroc.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216374194",
+      "name": "Palm's Hotel Club",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palm-s-hotel-club-merzouga",
+      "category": "luxury-hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.248128,
+          31.409321
+        ]
+      },
+      "osm_tags": {
+        "name": "Palm's Hotel Club",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216374232",
+      "name": "Tahiri Museum Fossils & Minerals",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tahiri-museum-fossils-minerals-merzouga",
+      "category": "history-museums",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.29079,
+          31.349884
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "fee": "yes",
+        "name": "Tahiri Museum Fossils & Minerals",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/216729411",
+      "name": "Kasbah Tombouctou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tombouctou-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013815,
+          31.127838
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "landuse": "commercial",
+        "name": "Kasbah Tombouctou",
+        "operator": "Grup Xaluca",
+        "phone": "+212 535 577091",
+        "phone:mobile": "+212 661 236993",
+        "tourism": "hotel",
+        "website": "https://www.xaluca.com/en/hotel/kasbah-hotel-tombouctou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.xaluca.com/en/hotel/kasbah-hotel-tombouctou",
+      "phone": "+212 535 577091",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/245211599",
+      "name": "Xaluca Belle Étoile",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "xaluca-belle-etoile-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013812,
+          31.21783
+        ]
+      },
+      "osm_tags": {
+        "name": "Xaluca Belle Étoile",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310350443",
+      "name": "Kasbah Tizimi Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tizimi-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.245582,
+          31.429422
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "barrier": "wall",
+        "check_date": "2024-03-15",
+        "name": "Kasbah Tizimi Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310350548",
+      "name": "Manar Marbre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "manar-marbre-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.242048,
+          31.429892
+        ]
+      },
+      "osm_tags": {
+        "landuse": "retail",
+        "name": "Manar Marbre",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310361269",
+      "name": "Kasbah Kanz Erremal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-kanz-erremal-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Touz Azi el Bide, Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.014383,
+          31.129027
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:street": "Touz Azi el Bide",
+        "contact:email": "info@kanzerremal.com",
+        "contact:phone": "+212 5 35578482",
+        "contact:website": "https://www.kanzerremal.com",
+        "landuse": "commercial",
+        "name": "Kasbah Kanz Erremal",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kanzerremal.com",
+      "phone": "+212 5 35578482",
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310361270",
+      "name": "Dar el Janub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-el-janub-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013162,
+          31.126432
+        ]
+      },
+      "osm_tags": {
+        "landuse": "commercial",
+        "name": "Dar el Janub",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310361705",
+      "name": "Auberge Chez Thiri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-thiri-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.011879,
+          31.124271
+        ]
+      },
+      "osm_tags": {
+        "landuse": "commercial",
+        "name": "Auberge Chez Thiri",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310361706",
+      "name": "Auberge Takojt نزل تاقجت",
+      "name_fr": "Auberge Takojt",
+      "name_ar": "نزل تاقجت",
+      "slug": "auberge-takojt-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007433,
+          31.114871
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "contact:website": "http://www.takojt.com/",
+        "internet_access": "wlan",
+        "landuse": "commercial",
+        "name": "Auberge Takojt نزل تاقجت",
+        "name:ar": "نزل تاقجت",
+        "name:fr": "Auberge Takojt",
+        "smoking": "yes",
+        "tourism": "hotel",
+        "website": "http://www.takojt.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.takojt.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362414",
+      "name": "Albergue Amazir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "albergue-amazir-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016066,
+          31.130617
+        ]
+      },
+      "osm_tags": {
+        "landuse": "commercial",
+        "name": "Albergue Amazir",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362415",
+      "name": "Kasbah Mohayut",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-mohayut-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016548,
+          31.131494
+        ]
+      },
+      "osm_tags": {
+        "contact:email": "mohamezan@yahoo.fr",
+        "contact:phone": "+212 666 039 185",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "landuse": "commercial",
+        "name": "Kasbah Mohayut",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 666 039 185",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362470",
+      "name": "Haven La Chance Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "haven-la-chance-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.018965,
+          31.133876
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "landuse": "commercial",
+        "name": "Haven La Chance Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362910",
+      "name": "Les Flammants Roses",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-flammants-roses-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.024443,
+          31.136821
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "building": "yes",
+        "name": "Les Flammants Roses",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362911",
+      "name": "Hotels Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotels-sahara-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.019848,
+          31.135999
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "barrier": "wall",
+        "name": "Hotels Sahara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310362912",
+      "name": "Riad Aicha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-aicha-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025238,
+          31.140794
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "building:use": "hotel",
+        "name": "Riad Aicha",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310363397",
+      "name": "La Vallée des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vallee-des-dunes-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.022906,
+          31.135605
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "landuse": "commercial",
+        "name": "La Vallée des Dunes",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310364231",
+      "name": "Kasbah Sable d'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-sable-d-or-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.023485,
+          31.138403
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "contact:website": "http://www.kasbah-sable-dor.com/",
+        "name": "Kasbah Sable d'Or",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.kasbah-sable-dor.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310371250",
+      "name": "Hotel Nasser Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-nasser-palace-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.026588,
+          31.144415
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "barrier": "wall",
+        "contact:website": "http://www.nasserpalace.com/",
+        "name": "Hotel Nasser Palace",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.nasserpalace.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310371340",
+      "name": "Tamariste",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tamariste-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.02784,
+          31.144547
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "contact:website": "http://www.kasbahtamariste.com/",
+        "name": "Tamariste",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.kasbahtamariste.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/325559739",
+      "name": "Erg de Ouzina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erg-de-ouzina-merzouga",
+      "category": "historical-sites",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.195361,
+          30.783462
+        ]
+      },
+      "osm_tags": {
+        "landform": "dune_system",
+        "name": "Erg de Ouzina",
+        "natural": "sand",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/358502380",
+      "name": "Auberge Africa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-africa-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.004677,
+          31.094928
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "addr:postcode": "52202",
+        "name": "Auberge Africa",
+        "tourism": "hotel",
+        "tourism_1": "caravan_site",
+        "website": "https://www.auberge-africa.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.auberge-africa.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/491726220",
+      "name": "Kasbah Azalay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-azalay-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005846,
+          31.111549
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "email": "kasbah.azalay@yahoo.com",
+        "name": "Kasbah Azalay",
+        "phone": "+212 667 259 952",
+        "tourism": "hotel",
+        "website": "https://www.kasbahazalay.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbahazalay.com/",
+      "phone": "+212 667 259 952",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/493428045",
+      "name": "Chez les Habitants",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-les-habitants-merzouga",
+      "category": "riads",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016682,
+          31.067334
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Chez les Habitants",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/541710377",
+      "name": "Kasbah Panorama قصبة بانوراما",
+      "name_fr": "Kasbah Panorama",
+      "name_ar": "قصبة بانوراما",
+      "slug": "kasbah-panorama-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.013079,
+          31.114452
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "check_date": "2024-03-15",
+        "name": "Kasbah Panorama قصبة بانوراما",
+        "name:ar": "قصبة بانوراما",
+        "name:fr": "Kasbah Panorama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/548173277",
+      "name": "Auberge Palmeras Y Dunas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-palmeras-y-dunas-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.983353,
+          31.217292
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2025-10-27",
+        "name": "Auberge Palmeras Y Dunas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/600747355",
+      "name": "Mosquee Tighmert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tighmert-merzouga",
+      "category": "mosques",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.982349,
+          31.224177
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee Tighmert",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/634195896",
+      "name": "La Rose du Desert وردة الصحراء",
+      "name_fr": "La Rose du Desert",
+      "name_ar": "وردة الصحراء",
+      "slug": "la-rose-du-desert-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.223163,
+          31.455015
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-17",
+        "name": "La Rose du Desert وردة الصحراء",
+        "name:ar": "وردة الصحراء",
+        "name:fr": "La Rose du Desert",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/730014744",
+      "name": "Hotel Maison Chez Nous",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-maison-chez-nous-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.007612,
+          31.08367
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "building": "yes",
+        "name": "Hotel Maison Chez Nous",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756225547",
+      "name": "Sidi Moulay Ali Charif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moulay-ali-charif-merzouga",
+      "category": "mausoleums",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.32067,
+          31.30042
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moulay Ali Charif",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/902414825",
+      "name": "Ouzina Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouzina-mosque-merzouga",
+      "category": "mosques",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.14836,
+          30.765923
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Ouzina Mosque",
+        "religion": "muslim",
+        "wikidata": "Q138217974"
+      },
+      "wikidata": "Q138217974",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112053661",
+      "name": "Merzouga Desert Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "merzouga-desert-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.966169,
+          31.087314
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Merzouga Desert Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112055521",
+      "name": "Desert Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.969892,
+          31.086689
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Desert Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061600",
+      "name": "Merzouga Dunes Luxury Camps",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "merzouga-dunes-luxury-camps-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.98947,
+          31.058112
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Merzouga Dunes Luxury Camps",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061602",
+      "name": "Sanmao Luxury Desert Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sanmao-luxury-desert-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.987658,
+          31.05864
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Sanmao Luxury Desert Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061603",
+      "name": "AMIRA Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amira-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.98717,
+          31.05888
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "internet_access": "yes",
+        "landuse": "commercial",
+        "name": "AMIRA Camp",
+        "phone": "+212 6 35 20 29 43",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 35 20 29 43",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061604",
+      "name": "Sahara Starlight Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-starlight-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.985506,
+          31.058978
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Sahara Starlight Camp",
+        "phone": "+212 6 66 14 65 05",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 14 65 05",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061605",
+      "name": "Magic Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "magic-luxury-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.985017,
+          31.060213
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Magic Luxury Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1112061606",
+      "name": "Caravanserai Luxury Desert Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravanserai-luxury-desert-camp-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.98287,
+          31.059866
+        ]
+      },
+      "osm_tags": {
+        "hotel": "camp_site",
+        "landuse": "commercial",
+        "name": "Caravanserai Luxury Desert Camp",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1125285622",
+      "name": "Haven La Chance",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "haven-la-chance-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.016424,
+          31.134615
+        ]
+      },
+      "osm_tags": {
+        "name": "Haven La Chance",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1186067132",
+      "name": "Hotel Riad Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-riad-ali-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005488,
+          31.096518
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "name": "Hotel Riad Ali",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1236273682",
+      "name": "Desert Luxury Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "desert-luxury-camp-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.922095,
+          30.993679
+        ]
+      },
+      "osm_tags": {
+        "name": "Desert Luxury Camp",
+        "tourism": "camp_site",
+        "website": "https://desertluxurycamp.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://desertluxurycamp.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1331674907",
+      "name": "Camping Ocean des Dunes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-ocean-des-dunes-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.025984,
+          31.1431
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "caravans": "yes",
+        "landuse": "commercial",
+        "name": "Camping Ocean des Dunes",
+        "tents": "yes",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1350750528",
+      "name": "Restaurant Nomad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-nomad-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.015667,
+          31.057831
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Restaurant Nomad",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "+212 6 61 42 91 49"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 42 91 49",
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-17:00"
+    },
+    {
+      "osm_id": "way/1350751084",
+      "name": "Café Restaurant Chez Ibrahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-chez-ibrahim-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.005483,
+          31.036461
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Khamlia ⵅⵎⵍⵢⵢⴰ خملية",
+        "addr:postcode": "52202",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Café Restaurant Chez Ibrahim",
+        "phone": "+212 6 66 14 71 61"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 14 71 61",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1365466516",
+      "name": "Camping Chez les habitants",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-chez-les-habitants-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.162397,
+          30.847406
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Chez les habitants",
+        "phone": "+212 6 72 21 89 66",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 72 21 89 66",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1365466517",
+      "name": "Nomadic Camping",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomadic-camping-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.164939,
+          30.846227
+        ]
+      },
+      "osm_tags": {
+        "name": "Nomadic Camping",
+        "phone": "+212 6 76 71 36 07",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 76 71 36 07",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1372169459",
+      "name": "Nomad Palace Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomad-palace-hotel-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.996579,
+          31.046289
+        ]
+      },
+      "osm_tags": {
+        "barrier": "city_wall",
+        "historic": "citywalls",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "landuse": "commercial",
+        "material": "stone",
+        "name": "Nomad Palace Hotel",
+        "tourism": "hotel",
+        "website": "https://www.hotelnomadpalace.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotelnomadpalace.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1494768208",
+      "name": "Secret du Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "secret-du-sahara-merzouga",
+      "category": "desert-camps",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.029269,
+          31.147857
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Secret du Sahara",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1519564931",
+      "name": "Riad Belvedere",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-belvedere-merzouga",
+      "category": "restaurants",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.262723,
+          30.754114
+        ]
+      },
+      "osm_tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "building": "hotel",
+        "contact:facebook": "https://www.facebook.com/riadbelvedere",
+        "contact:phone": "+212 661 288809",
+        "contact:whatsapp": "+212 661-288809",
+        "cuisine": "maroccan",
+        "diet:halal": "yes",
+        "hotel": "riad",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad Belvedere",
+        "outdoor_seating": "yes",
+        "parking": "yes",
+        "parking:fee": "no",
+        "room_service": "yes",
+        "swimming_pool": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 661 288809",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2320427",
+      "name": "Les Dunes Dor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-dunes-dor-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "Merzouga",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.027344,
+          31.201534
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Merzouga",
+        "building": "yes",
+        "name": "Les Dunes Dor",
+        "phone": "+212 6 61 35 06 65",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "http://www.aubergedunesdor.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.aubergedunesdor.com",
+      "phone": "+212 6 61 35 06 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2866789",
+      "name": "Kasbah Ennasra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ennasra-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.291821,
+          31.289246
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Kasbah Ennasra",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/4137637",
+      "name": "Palais Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-royal-merzouga",
+      "category": "national-parks",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.235949,
+          31.446081
+        ]
+      },
+      "osm_tags": {
+        "access": "permissive",
+        "leisure": "park",
+        "name": "Palais Royal",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/18794909",
+      "name": "Porte de Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "porte-de-sahara-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.173326,
+          30.764957
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "contact:facebook": "https://www.facebook.com/portedesahara/",
+        "email": "portedesahara@gmail.com",
+        "fax": "+212 535 578 385",
+        "name": "Porte de Sahara",
+        "phone": "+212 661 737 692; +212 668 605 934; +34 650 733 275",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://portedesahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://portedesahara.com/",
+      "phone": "+212 661 737 692; +212 668 605 934; +34 650 733 275",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/20392256",
+      "name": "Chez Belkacem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-belkacem-merzouga",
+      "category": "hotels",
+      "city": "merzouga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.014469,
+          31.097664
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Chez Belkacem",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

@@ -1,0 +1,2943 @@
+{
+  "city": "zagora",
+  "fetched_at": "2026-06-08T11:47:26.561Z",
+  "raw_count": 333,
+  "places": [
+    {
+      "osm_id": "node/439366801",
+      "name": "Hôtel Restaurant Kasbah Asmaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-kasbah-asmaa-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.830461,
+          30.319489
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Hôtel Restaurant Kasbah Asmaa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/620616829",
+      "name": "Djebel Zagora جبل زاكورة",
+      "name_fr": "Djebel Zagora",
+      "name_ar": "جبل زاكورة",
+      "slug": "djebel-zagora-zagora",
+      "category": "mountains",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.81873,
+          30.320761
+        ]
+      },
+      "osm_tags": {
+        "ele": "960",
+        "name": "Djebel Zagora جبل زاكورة",
+        "name:ar": "جبل زاكورة",
+        "name:es": "Gabal Zagora",
+        "name:fr": "Djebel Zagora",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/622472510",
+      "name": "Hôtel des Amis",
+      "name_fr": "Hôtel des Amis",
+      "name_ar": null,
+      "slug": "hotel-des-amis-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "زاكورة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.838545,
+          30.327076
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "زاكورة",
+        "addr:city:ar": "زاكورة",
+        "addr:city:es": "Zagora",
+        "name": "Hôtel des Amis",
+        "name:es": "Hotel de Amigos",
+        "name:fr": "Hôtel des Amis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704495654",
+      "name": "Oasis Palmier",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-palmier-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.825826,
+          30.323635
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Oasis Palmier",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "www.oasispalmier.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.oasispalmier.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1028386877",
+      "name": "Hôtel Riad Salam",
+      "name_fr": "Hôtel Riad Salam",
+      "name_ar": null,
+      "slug": "hotel-riad-salam-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837742,
+          30.333639
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "name": "Hôtel Riad Salam",
+        "name:fr": "Hôtel Riad Salam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1028386959",
+      "name": "Hôtel La Palmeraie",
+      "name_fr": "Hôtel La Palmeraie",
+      "name_ar": null,
+      "slug": "hotel-la-palmeraie-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Avenue Mohamed V, Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.840655,
+          30.323649
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:pobox": "B.P. 40",
+        "addr:postcode": "49500",
+        "addr:street": "Avenue Mohamed V",
+        "email": "palmeraie_zagora@manara.ma",
+        "fax": "+212 524 84 78 78",
+        "name": "Hôtel La Palmeraie",
+        "name:fr": "Hôtel La Palmeraie",
+        "phone": "+212 524 84 70 08",
+        "tourism": "hotel",
+        "website": "www.lapalmerie-zagora.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.lapalmerie-zagora.com",
+      "phone": "+212 524 84 70 08",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226388011",
+      "name": "Rose des Sables",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rose-des-sables-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.835647,
+          30.329331
+        ]
+      },
+      "osm_tags": {
+        "name": "Rose des Sables",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1432504240",
+      "name": "Souk السوق",
+      "name_fr": "Souk",
+      "name_ar": "السوق",
+      "slug": "souk-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.895257,
+          30.441989
+        ]
+      },
+      "osm_tags": {
+        "name": "Souk السوق",
+        "name:ar": "السوق",
+        "name:es": "El Zoco",
+        "name:fr": "Souk",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1545013573",
+      "name": "Riad Lamane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-lamane-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Amezrou",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.830509,
+          30.315225
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Amezrou",
+        "name": "Riad Lamane",
+        "phone": "+212 524 848 388",
+        "tourism": "hotel",
+        "url": "http://www.riadlamane.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 524 848 388",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1721146437",
+      "name": "La Petite Kashbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-petite-kashbah-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.82815,
+          30.312867
+        ]
+      },
+      "osm_tags": {
+        "cuisine": "regional",
+        "name": "La Petite Kashbah",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1797513987",
+      "name": "Le Sauvage Noble",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-sauvage-noble-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Tissergate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.857131,
+          30.394024
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tissergate",
+        "email": "sauvage.noble@yahoo.de",
+        "name": "Le Sauvage Noble",
+        "operator": "Abdellah Najji",
+        "phone": "+212 661 34 84 13",
+        "tourism": "hotel",
+        "website": "www.sauvage-noble.org"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.sauvage-noble.org",
+      "phone": "+212 661 34 84 13",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1819160113",
+      "name": "Caravane du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravane-du-sud-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.827442,
+          30.318388
+        ]
+      },
+      "osm_tags": {
+        "name": "Caravane du Sud",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1819195176",
+      "name": "Dar Raha Zagora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-raha-zagora-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.825939,
+          30.308967
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Raha Zagora",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1819195177",
+      "name": "Hotel La Perle du Draa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-la-perle-du-draa-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.813055,
+          30.306602
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel La Perle du Draa",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1819195180",
+      "name": "Marché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.838652,
+          30.329194
+        ]
+      },
+      "osm_tags": {
+        "name": "Marché",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1819195181",
+      "name": "Mosquée Amzrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-amzrou-zagora",
+      "category": "mosques",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.824433,
+          30.308525
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Amzrou",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2261841435",
+      "name": "Camping Oued Draa - Restaurant (sur commande)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-oued-draa-restaurant-sur-commande-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "10 km avant Zagora, Rbat Lhjar",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.869991,
+          30.406867
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Rbat Lhjar",
+        "addr:postcode": "45 900",
+        "addr:street": "10 km avant Zagora",
+        "name": "Camping Oued Draa - Restaurant (sur commande)",
+        "operator": "Abdelali FADILI",
+        "phone": "+212 6 67 49 45 32",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 67 49 45 32",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2261841456",
+      "name": "Kasbah Ziwana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ziwana-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.859691,
+          30.396255
+        ]
+      },
+      "osm_tags": {
+        "FIXME": "position",
+        "name": "Kasbah Ziwana",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2261842347",
+      "name": "Ryadksarmalal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ryadksarmalal-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.931168,
+          30.433797
+        ]
+      },
+      "osm_tags": {
+        "name": "Ryadksarmalal",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2261842355",
+      "name": "Zagour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zagour-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.827375,
+          30.318832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Zagour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2274762418",
+      "name": "Camping Palmerie d'Amezrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-palmerie-d-amezrou-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.829832,
+          30.314746
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Camping Palmerie d'Amezrou",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2292874580",
+      "name": "Gite Hotel Prends ton temps",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-hotel-prends-ton-temps-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.831962,
+          30.337838
+        ]
+      },
+      "osm_tags": {
+        "designation": "Gite",
+        "name": "Gite Hotel Prends ton temps",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2355879632",
+      "name": "Café Oscar",
+      "name_fr": "Café Oscar",
+      "name_ar": null,
+      "slug": "cafe-oscar-zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.838423,
+          30.33053
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café Oscar",
+        "name:fr": "Café Oscar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2355956668",
+      "name": "Tombouctou 52 jours",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tombouctou-52-jours-zagora",
+      "category": "historical-sites",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.842278,
+          30.323434
+        ]
+      },
+      "osm_tags": {
+        "name": "Tombouctou 52 jours",
+        "tourism": "attraction",
+        "wikidata": "Q122382004"
+      },
+      "wikidata": "Q122382004",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2432067137",
+      "name": "Chez Hassan Aguergour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-hassan-aguergour-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.851482,
+          30.384907
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Hassan Aguergour",
+        "tourism": "camp_site",
+        "website": "www.desert-evasion-tours.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.desert-evasion-tours.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433482083",
+      "name": "Camp L'oasis enchantée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-l-oasis-enchantee-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.841315,
+          30.371846
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp L'oasis enchantée",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433485097",
+      "name": "Camping Prends ton Temps",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-prends-ton-temps-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.832184,
+          30.337894
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Prends ton Temps",
+        "tourism": "camp_site",
+        "website": "www.prendstontemps.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.prendstontemps.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433497204",
+      "name": "Jnane-Dar Diafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-dar-diafa-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.68211,
+          30.261302
+        ]
+      },
+      "osm_tags": {
+        "name": "Jnane-Dar Diafa",
+        "tourism": "camp_site",
+        "website": "https://www.jnanedar.ch/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.jnanedar.ch/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2433499449",
+      "name": "SaharaSky",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saharasky-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.609718,
+          30.236441
+        ]
+      },
+      "osm_tags": {
+        "name": "SaharaSky",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3423042440",
+      "name": "Auberge Chez Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-ali-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839184,
+          30.322184
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-02-25",
+        "internet_access": "wlan",
+        "name": "Auberge Chez Ali",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3439716406",
+      "name": "Villa Zagora - Ma Villa au Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "villa-zagora-ma-villa-au-sahara-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "Route de Nekhla, Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.827921,
+          30.319134
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:street": "Route de Nekhla",
+        "name": "Villa Zagora - Ma Villa au Sahara",
+        "tourism": "guest_house",
+        "website": "http://mavillaausahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://mavillaausahara.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3536041871",
+      "name": "Musée des arts et traditions de la vallée du Drâa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musee-des-arts-et-traditions-de-la-vallee-du-draa-zagora",
+      "category": "history-museums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.858908,
+          30.396455
+        ]
+      },
+      "osm_tags": {
+        "name": "Musée des arts et traditions de la vallée du Drâa",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741930875",
+      "name": "Palais Asmaa",
+      "name_fr": "Palais Asmaa",
+      "name_ar": null,
+      "slug": "palais-asmaa-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.827544,
+          30.320111
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:postcode": "45900",
+        "name": "Palais Asmaa",
+        "name:fr": "Palais Asmaa",
+        "phone": "+212 5 24 84 75 55",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 84 75 55",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197578915",
+      "name": "Petit souk (Soirée)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "petit-souk-soiree-zagora",
+      "category": "souks",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.836034,
+          30.334464
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Petit souk (Soirée)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242837720",
+      "name": "Pizzeria Omar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-omar-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837238,
+          30.331337
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pizzeria Omar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242840479",
+      "name": "Laitiére Islam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "laitiere-islam-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.835572,
+          30.331126
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Laitiére Islam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4247637922",
+      "name": "mosquée Timtig مسجد تمتيك",
+      "name_fr": "mosquée Timtig",
+      "name_ar": "مسجد تمتيك",
+      "slug": "mosquee-timtig-zagora",
+      "category": "mosques",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.738945,
+          30.285442
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "description": "N 30° 16' 48'' W 5° 43' 48''",
+        "name": "mosquée Timtig مسجد تمتيك",
+        "name:ar": "مسجد تمتيك",
+        "name:fr": "mosquée Timtig",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4253436692",
+      "name": "دار الضيافة",
+      "name_fr": null,
+      "name_ar": "دار الضيافة",
+      "slug": "zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682143,
+          30.261178
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "chicken;burger;cake;arab;grill;friture;croatian;fish;coffee_shop;turkish;moroccan;ice_cream",
+        "internet_access": "wlan",
+        "name": "دار الضيافة",
+        "name:ar": "دار الضيافة"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4329278891",
+      "name": "Zagora زاكورة",
+      "name_fr": null,
+      "name_ar": "زاكورة",
+      "slug": "zagora-zagora",
+      "category": "sunset-spots",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.840339,
+          30.322816
+        ]
+      },
+      "osm_tags": {
+        "name": "Zagora زاكورة",
+        "name:ar": "زاكورة",
+        "name:de": "Zagora",
+        "name:es": "Zagora",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4530830574",
+      "name": "Boulangerie-Patisserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-patisserie-zagora",
+      "category": "bakeries",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.836606,
+          30.331383
+        ]
+      },
+      "osm_tags": {
+        "description": "Boulangerie",
+        "name": "Boulangerie-Patisserie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4562489612",
+      "name": "Kasbah Sirocco",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-sirocco-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.827597,
+          30.319742
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Sirocco",
+        "tourism": "hotel",
+        "website": "https://www.kasbah-sirocco.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbah-sirocco.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5318006221",
+      "name": "Kiosk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kiosk-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.835049,
+          30.328882
+        ]
+      },
+      "osm_tags": {
+        "name": "Kiosk",
+        "name:nl": "Kruidenier",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5318827324",
+      "name": "Dromadaire Gourmand",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dromadaire-gourmand-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837902,
+          30.345746
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Dromadaire Gourmand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5318847521",
+      "name": "Pâtisserie Boulangerie",
+      "name_fr": "Pâtisserie Boulangerie",
+      "name_ar": null,
+      "slug": "patisserie-boulangerie-zagora",
+      "category": "bakeries",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.836651,
+          30.330448
+        ]
+      },
+      "osm_tags": {
+        "name": "Pâtisserie Boulangerie",
+        "name:fr": "Pâtisserie Boulangerie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5332908121",
+      "name": "Marwa Café Réstaurant Snack",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marwa-cafe-restaurant-snack-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837511,
+          30.335737
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Marwa Café Réstaurant Snack",
+        "name:en": "Marwa Café Réstaurant Snack",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6121856277",
+      "name": "Asaada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asaada-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839132,
+          30.325841
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Asaada"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6121857202",
+      "name": "Tombouctou تمبكتو",
+      "name_fr": "Tombouctou",
+      "name_ar": "تمبكتو",
+      "slug": "tombouctou-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "زاكورة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839307,
+          30.325556
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "زاكورة",
+        "addr:city:ar": "زاكورة",
+        "addr:city:es": "Zagora",
+        "amenity": "restaurant",
+        "name": "Tombouctou تمبكتو",
+        "name:ar": "تمبكتو",
+        "name:de": "Timbuktu",
+        "name:es": "Tombuctú",
+        "name:fr": "Tombouctou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6179298286",
+      "name": "Deutch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "deutch-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "laagba",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682226,
+          30.261294
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45600",
+        "addr:street": "laagba",
+        "email": "traveljnanedar@gmail.com",
+        "internet_access": "wlan",
+        "name": "Jnanedardiafa",
+        "name:en": "Deutch",
+        "phone": "+212 6 61 34 81 49",
+        "tourism": "guest_house",
+        "website": "http://JNANEDARDIAFA.COM"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://JNANEDARDIAFA.COM",
+      "phone": "+212 6 61 34 81 49",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6292820586",
+      "name": "Riad Marrat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-marrat-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.830347,
+          30.310158
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "Riad Marrat",
+        "tourism": "hotel",
+        "website": "https://riadmarrat-zagora.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://riadmarrat-zagora.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6385100685",
+      "name": "Riad Zagora Palm",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-zagora-palm-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.840341,
+          30.377215
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Zagora Palm",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6405234188",
+      "name": "Zaouiya naciria",
+      "name_fr": "Francais",
+      "name_ar": "Jnanedardiafa",
+      "slug": "zaouiya-naciria-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "77, laagba",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.682258,
+          30.261124
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "77",
+        "addr:postcode": "45600",
+        "addr:street": "laagba",
+        "email": "traveljnanedar@gmail.com",
+        "internet_access": "wlan",
+        "name": "Zaouiya naciria",
+        "name:ar": "Jnanedardiafa",
+        "name:fr": "Francais",
+        "operator": "itisalate",
+        "phone": "+212 6 61 34 81 49",
+        "tourism": "guest_house",
+        "website": "https://www.jnane-dardiafa.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.jnane-dardiafa.com/",
+      "phone": "+212 6 61 34 81 49",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6827051861",
+      "name": "Camping Les Jardins de Zagora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-les-jardins-de-zagora-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.833669,
+          30.3285
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Les Jardins de Zagora",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7077775685",
+      "name": "Riad Fennec Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-fennec-sahara-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "16, Hay Draa rue",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.833864,
+          30.332567
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Hay Draa rue",
+        "internet_access": "wlan",
+        "name:en": "Riad Fennec Sahara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7275041516",
+      "name": "Riad Le Jasmin Du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-le-jasmin-du-sud-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Avenue Med V Hay Tansita Khchaa, Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837823,
+          30.345097
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:street": "Avenue Med V Hay Tansita Khchaa",
+        "internet_access": "wlan",
+        "name": "Riad Le Jasmin Du Sud",
+        "rooms": "9",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10274163009",
+      "name": "Texas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "texas-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837551,
+          30.331151
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan;pasta;pizza;sandwich",
+        "level": "0",
+        "name": "Texas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10742152605",
+      "name": "chez Tata galette berbere",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-tata-galette-berbere-zagora",
+      "category": "local-food",
+      "city": "zagora",
+      "address": "Avenue Mohamed V شارع الحسن الثاني",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837737,
+          30.330357
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohamed V شارع الحسن الثاني",
+        "amenity": "fast_food",
+        "cuisine": "moroccan",
+        "name": "chez Tata galette berbere"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11843787981",
+      "name": "Park with Dinosaur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park-with-dinosaur-zagora",
+      "category": "national-parks",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837144,
+          30.338934
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Park with Dinosaur"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11919548164",
+      "name": "Riad Tagmadart ferme d'hóte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-tagmadart-ferme-d-hote-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.824696,
+          30.303728
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Tagmadart ferme d'hóte",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12384202213",
+      "name": "Café restaurant El Mouttaki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-el-mouttaki-zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839213,
+          30.348682
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café restaurant El Mouttaki",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "phone": "+212 6 67 85 49 36",
+        "website": "https://www.elmouttaki.online/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.elmouttaki.online/",
+      "phone": "+212 6 67 85 49 36",
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-24:00"
+    },
+    {
+      "osm_id": "node/12605447782",
+      "name": "Al-Akhawain",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-akhawain-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837611,
+          30.336823
+        ]
+      },
+      "osm_tags": {
+        "name": "Al-Akhawain",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12686461252",
+      "name": "Hotel Ternata",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ternata-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837559,
+          30.343099
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Ternata",
+        "phone": "+212 6 66 14 03 86",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 14 03 86",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12724291189",
+      "name": "Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.836105,
+          30.330081
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pizzeria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12842679329",
+      "name": "Riad Dar Zaouia ",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-zaouia-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.835954,
+          30.324659
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Dar Zaouia ",
+        "phone": "+212 648233915",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 648233915",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12842922424",
+      "name": "Café Restaurant El Khayma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-el-khayma-zagora",
+      "category": "restaurants",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837502,
+          30.331221
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant El Khayma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12980153302",
+      "name": "Snack restaurant café Elfirdaus",
+      "name_fr": "Snack restaurant café Elfirdaus",
+      "name_ar": null,
+      "slug": "snack-restaurant-cafe-elfirdaus-zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.839955,
+          30.35321
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:fr": "Snack restaurant café Elfirdaus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13269660147",
+      "name": "Oasis Tilogui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-tilogui-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Route Toulgui",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.76398,
+          30.294123
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Route Toulgui",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Oasis Tilogui",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13542841346",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-zagora",
+      "category": "hammams",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.834989,
+          30.326682
+        ]
+      },
+      "osm_tags": {
+        "amenity": "public_bath",
+        "bath:type": "hammam",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13596043701",
+      "name": "Serenity Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "serenity-lodge-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.831251,
+          30.310485
+        ]
+      },
+      "osm_tags": {
+        "name": "Serenity Lodge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690926090",
+      "name": "Le Café Littéraire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-cafe-litteraire-zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.840151,
+          30.324413
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Le Café Littéraire",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690999713",
+      "name": "El Hadioui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-hadioui-zagora",
+      "category": "bakeries",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.837414,
+          30.329434
+        ]
+      },
+      "osm_tags": {
+        "name": "El Hadioui",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13703179636",
+      "name": "Épicerie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "epicerie-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.900287,
+          30.443052
+        ]
+      },
+      "osm_tags": {
+        "name": "Épicerie",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13703198393",
+      "name": "Supérette",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-zagora",
+      "category": "food-markets",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.89788,
+          30.442015
+        ]
+      },
+      "osm_tags": {
+        "name": "Supérette",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13703235211",
+      "name": "Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-zagora",
+      "category": "cafes",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.900121,
+          30.443245
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13706003837",
+      "name": "Karité Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "karite-sahara-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "Hay Mansour Edahbi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.83545,
+          30.33668
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Hay Mansour Edahbi",
+        "name": "Karité Sahara",
+        "phone": "+212 6 33 30 66 65",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 33 30 66 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13732789501",
+      "name": "Riad Le petit jardin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-le-petit-jardin-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.841683,
+          30.347457
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Le petit jardin",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/89548070",
+      "name": "Kasbah Hotel SaharaSky",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-hotel-saharasky-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "Zagora",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.607711,
+          30.236687
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Zagora",
+        "addr:postcode": "45900",
+        "building": "service",
+        "email": "resa@saharasky.com",
+        "internet_access": "wlan",
+        "name": "Kasbah Hotel SaharaSky",
+        "phone": "+212 6 67 35 19 43",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "http://www.hotel-sahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotel-sahara.com/",
+      "phone": "+212 6 67 35 19 43",
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/125554298",
+      "name": "Transsita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "transsita-zagora",
+      "category": "mosques",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.834135,
+          30.33868
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Transsita",
+        "religion": "muslim",
+        "source": "bing"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/240320716",
+      "name": "Dune de Tinfou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dune-de-tinfou-zagora",
+      "category": "historical-sites",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.602537,
+          30.241144
+        ]
+      },
+      "osm_tags": {
+        "desert": "erg",
+        "landcover": "sand",
+        "name": "Dune de Tinfou",
+        "natural": "sand",
+        "surface": "sand",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/304112389",
+      "name": "Hôtel Le Tinsouline",
+      "name_fr": "Hôtel Le Tinsouline",
+      "name_ar": null,
+      "slug": "hotel-le-tinsouline-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.833759,
+          30.327814
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hôtel Le Tinsouline",
+        "name:fr": "Hôtel Le Tinsouline",
+        "tourism": "hotel",
+        "wikidata": "Q122382033"
+      },
+      "wikidata": "Q122382033",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/376585353",
+      "name": "Riad Soleil du Monde",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-soleil-du-monde-zagora",
+      "category": "riads",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.831801,
+          30.312013
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad Soleil du Monde",
+        "rooms": "4",
+        "smoking": "yes",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/419752714",
+      "name": "Traversée Oued Draa (Attetion si eau forte)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "traversee-oued-draa-attetion-si-eau-forte-zagora",
+      "category": "hiking-trekking",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.813687,
+          30.353709
+        ]
+      },
+      "osm_tags": {
+        "bicycle": "no",
+        "ford": "yes",
+        "highway": "path",
+        "name": "Traversée Oued Draa (Attetion si eau forte)",
+        "sac_scale": "hiking",
+        "surface": "gravel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/428109125",
+      "name": "Ferme Hanane جنان حنان",
+      "name_fr": "Ferme Hanane",
+      "name_ar": "جنان حنان",
+      "slug": "ferme-hanane-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.766761,
+          30.283071
+        ]
+      },
+      "osm_tags": {
+        "name": "Ferme Hanane جنان حنان",
+        "name:ar": "جنان حنان",
+        "name:fr": "Ferme Hanane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/428183719",
+      "name": "mausolée Moulay Ahmed Ben Larbi ضريح مولاي أحمد بن العربي",
+      "name_fr": "mausolée Moulay Ahmed Ben Larbi",
+      "name_ar": "ضريح مولاي أحمد بن العربي",
+      "slug": "mausolee-moulay-ahmed-ben-larbi-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.7446,
+          30.283039
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "mausolée Moulay Ahmed Ben Larbi ضريح مولاي أحمد بن العربي",
+        "name:ar": "ضريح مولاي أحمد بن العربي",
+        "name:fr": "mausolée Moulay Ahmed Ben Larbi",
+        "religion": "muslim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/558577203",
+      "name": "Camping Palmeraie d'Amezrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-palmeraie-d-amezrou-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.830262,
+          30.314026
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Palmeraie d'Amezrou",
+        "phone": "+212 6 67 59 62 89",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 67 59 62 89",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/558577602",
+      "name": "Souk du soir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-du-soir-zagora",
+      "category": "souks",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.835764,
+          30.335183
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk du soir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/568536267",
+      "name": "Camping gite PARADIS TOUAREG",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-gite-paradis-touareg-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.832986,
+          30.331118
+        ]
+      },
+      "osm_tags": {
+        "capacity": "30",
+        "internet_access": "yes",
+        "name": "Camping gite PARADIS TOUAREG",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754399826",
+      "name": "Sidi Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.706394,
+          30.261126
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755511541",
+      "name": "Lalla Kabira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-kabira-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.661713,
+          30.241202
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Lalla Kabira",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756025012",
+      "name": "Sidi Mouhammad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mouhammad-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.794986,
+          30.385195
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mouhammad",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051556",
+      "name": "Sidi Abderrahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abderrahim-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.008051,
+          30.475312
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abderrahim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051557",
+      "name": "Sidi Moulay Ali bin Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moulay-ali-bin-ali-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.001665,
+          30.472322
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moulay Ali bin Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051558",
+      "name": "Sidi Mohammad Bin Lahsan سيدي محمد بن الحسن",
+      "name_fr": "Sidi Mohammad Bin Lahsan",
+      "name_ar": "سيدي محمد بن الحسن",
+      "slug": "sidi-mohammad-bin-lahsan-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.927963,
+          30.462674
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohammad Bin Lahsan سيدي محمد بن الحسن",
+        "name:ar": "سيدي محمد بن الحسن",
+        "name:es": "Sidi Mohamed Bin Lahsan",
+        "name:fr": "Sidi Mohammad Bin Lahsan",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051559",
+      "name": "Sidi Ahmad Ali Ansari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-ali-ansari-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.680242,
+          30.260254
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad Ali Ansari",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051560",
+      "name": "Sidi Daoud ou Ahmad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-daoud-ou-ahmad-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.870898,
+          30.406079
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Daoud ou Ahmad",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756225551",
+      "name": "Sidi Qdhy Hâh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-qdhy-hah-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.858256,
+          30.437941
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Qdhy Hâh",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758755664",
+      "name": "Sidi Tayab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-tayab-zagora",
+      "category": "mausoleums",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.691921,
+          30.257923
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Tayab",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1236242147",
+      "name": "La Fibule Zagora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-fibule-zagora-zagora",
+      "category": "hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.82935,
+          30.317899
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "La Fibule Zagora",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1236252638",
+      "name": "Camping Sindibad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-sindibad-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.83343,
+          30.32612
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "internet_access": "wlan",
+        "name": "Camping Sindibad",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1236317625",
+      "name": "Camping le Jardín de Zagora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-le-jardin-de-zagora-zagora",
+      "category": "desert-camps",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.832775,
+          30.328752
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping le Jardín de Zagora",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1236334387",
+      "name": "Souk hebdomadaire de Zagora",
+      "name_fr": null,
+      "name_ar": "سوق زاكورة الأسبوعي",
+      "slug": "souk-hebdomadaire-de-zagora-zagora",
+      "category": "souks",
+      "city": "zagora",
+      "address": "زاكورة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.851705,
+          30.326857
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "زاكورة",
+        "amenity": "marketplace",
+        "name": "Souk hebdomadaire de Zagora",
+        "name:ar": "سوق زاكورة الأسبوعي",
+        "name:ary": "سوق زاكورة الأسبوعي"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2871628",
+      "name": "Hôtel Reda",
+      "name_fr": "Hôtel Reda",
+      "name_ar": null,
+      "slug": "hotel-reda-zagora",
+      "category": "luxury-hotels",
+      "city": "zagora",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.836887,
+          30.320271
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Reda",
+        "name:fr": "Hôtel Reda",
+        "stars": "4",
+        "tourism": "hotel",
+        "type": "site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    }
+  ]
+}

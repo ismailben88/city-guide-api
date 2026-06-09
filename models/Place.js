@@ -22,10 +22,16 @@ const placeSchema = new Schema(
     address:     { type: String, default: "" },
     images:      { type: [String], default: [] },
 
+    phone:        { type: String, default: "" },
+    website:      { type: String, default: "" },
+    openingHours: { type: String, default: "" },
+    tags:         { type: [String], default: [] },
+
     status:          { type: String, enum: ["active", "archived", "pending", "rejected"], default: "active" },
     rejectionReason: { type: String, default: "" },
     isFeatured:      { type: Boolean, default: false },
     priceRange: { type: String, default: "" },
+    entryFee:   { type: Number, default: null },
 
     translations:      { type: Schema.Types.Mixed, default: {} },
     sourceLang:        { type: String, default: "fr" },
@@ -38,5 +44,10 @@ placeSchema.index({ location: "2dsphere" });
 placeSchema.index({ cityId: 1, categoryId: 1 });
 placeSchema.index({ status: 1, isFeatured: 1 });
 placeSchema.index({ averageRating: -1 });
+// Hot homepage / explore paths: top-rated active places per city/category
+placeSchema.index({ status: 1, averageRating: -1 });
+placeSchema.index({ status: 1, cityId: 1, averageRating: -1 });
+placeSchema.index({ status: 1, categoryId: 1, averageRating: -1 });
+placeSchema.index({ status: 1, isFeatured: 1, averageRating: -1 });
 
 module.exports = model("Place", placeSchema);

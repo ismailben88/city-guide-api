@@ -25,12 +25,17 @@ async function upsertScore(targetId, targetType, authorId, rating) {
 // Always awaited before the HTTP response so the frontend refetch sees fresh data.
 async function recalcRating(targetId, targetType) {
   if (!SCORE_TARGETS.includes(targetType)) return;
+  const objId = new Types.ObjectId(targetId);
+  const commentFilter = {
+    targetId: { $in: [String(objId), objId] },
+    targetType, parentCommentId: null, status: "active",
+  };
   const [scoreStats, commentCount] = await Promise.all([
     Score.aggregate([
-      { $match: { targetId: new Types.ObjectId(targetId), targetType } },
+      { $match: { targetId: objId, targetType } },
       { $group: { _id: null, avg: { $avg: "$score" } } },
     ]),
-    Comment.countDocuments({ targetId, targetType, parentCommentId: null, status: "active" }),
+    Comment.countDocuments(commentFilter),
   ]);
   const avg   = scoreStats[0] ? +scoreStats[0].avg.toFixed(2) : 0;
   const Model = targetType === "Place" ? Place : GuideProfile;
@@ -59,10 +64,18 @@ async function getEntityOwner(targetId, targetType) {
 }
 
 // GET /comments?targetId=&targetType=&parentCommentId=
+// Comment.targetId is Schema.Types.Mixed → historic docs store it as String,
+// new docs as ObjectId. Match both forms so seed + live data coexist.
 exports.getComments = asyncHandler(async (req, res) => {
   const { targetId, targetType, parentCommentId } = req.query;
   const filter = { status: "active" };
-  if (targetId   && targetId   !== "undefined") filter.targetId   = targetId;
+  if (targetId && targetId !== "undefined") {
+    if (Types.ObjectId.isValid(targetId) && String(new Types.ObjectId(targetId)) === targetId) {
+      filter.targetId = { $in: [targetId, new Types.ObjectId(targetId)] };
+    } else {
+      filter.targetId = targetId;
+    }
+  }
   if (targetType && targetType !== "undefined") filter.targetType = targetType;
   filter.parentCommentId = parentCommentId || null;
 
@@ -76,6 +89,11 @@ exports.getComments = asyncHandler(async (req, res) => {
 // POST /comments
 exports.postComment = asyncHandler(async (req, res) => {
   const { targetId, targetType, parentCommentId, rating } = req.body;
+
+  // Normalize targetId to ObjectId for SCORE_TARGETS so all docs share one form
+  const normalizedTargetId = SCORE_TARGETS.includes(targetType) && Types.ObjectId.isValid(targetId)
+    ? new Types.ObjectId(targetId)
+    : targetId;
 
   // Self-review guard: top-level reviews only, skip for website-level reviews
   if (!parentCommentId && targetType !== "website") {
@@ -93,7 +111,7 @@ exports.postComment = asyncHandler(async (req, res) => {
     if (existing) throw new ApiError(409, "You have already submitted a review.");
   }
 
-  const comment = await Comment.create({ ...req.body, authorId: req.user._id });
+  const comment = await Comment.create({ ...req.body, targetId: normalizedTargetId, authorId: req.user._id });
   await comment.populate("authorId", "firstName lastName avatarUrl");
   await upsertScore(targetId, targetType, req.user._id, rating);
   // Recalc for every top-level comment so reviewCount always reflects the full count.

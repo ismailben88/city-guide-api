@@ -10,12 +10,18 @@ const { translateFields } = require("../services/translate.service");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const BATCH = 50;
 
-const COLLECTIONS = [
-  { Model: Place,    fields: ["name", "description", "address"], label: "Places"     },
-  { Model: City,     fields: ["name", "region"],                 label: "Cities"     },
-  { Model: Category, fields: ["name"],                           label: "Categories" },
-  { Model: Event,    fields: ["title", "description"],           label: "Events"     },
+const ALL_COLLECTIONS = [
+  { key: "places",     Model: Place,    fields: ["name", "description", "address"], label: "Places"     },
+  { key: "cities",     Model: City,     fields: ["name", "region"],                 label: "Cities"     },
+  { key: "categories", Model: Category, fields: ["name"],                           label: "Categories" },
+  { key: "events",     Model: Event,    fields: ["title", "description"],           label: "Events"     },
 ];
+
+// CLI: node translateExisting.js cities categories events    (skip places)
+const cliFilter = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const COLLECTIONS = cliFilter.length
+  ? ALL_COLLECTIONS.filter((c) => cliFilter.includes(c.key))
+  : ALL_COLLECTIONS;
 
 const translateCollection = async ({ Model, fields, label }) => {
   const docs = await Model.find({ translationStatus: { $ne: "done" } }).lean();
@@ -60,8 +66,10 @@ const translateCollection = async ({ Model, fields, label }) => {
 };
 
 const run = async () => {
-  await mongoose.connect(process.env.MONGO_URI);
-  console.log("✓ Connecté à MongoDB\n");
+  await mongoose.connect(process.env.MONGO_URI, {
+    dbName: process.env.DB_NAME || undefined,
+  });
+  console.log(`✓ Connecté à MongoDB (${mongoose.connection.name})\n`);
 
   for (const config of COLLECTIONS) {
     await translateCollection(config);
