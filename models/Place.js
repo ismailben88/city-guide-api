@@ -54,4 +54,14 @@ placeSchema.index({ ownerId: 1, updatedAt: -1 });
 // Verified-business listings on category pages.
 placeSchema.index({ status: 1, isVerifiedBusiness: 1 });
 
+// ── Indexes added for the paginated /places contract ───────────────────────
+// `_id: 1` at the tail gives the planner a stable tie-breaker which keeps
+// `skip/limit` cursors deterministic (no duplicate or skipped rows when two
+// docs share the same cityId/category).
+placeSchema.index({ cityId: 1, categoryId: 1, _id: 1 });
+// Hot path for the "popular per city" sort preset.
+placeSchema.index({ cityId: 1, averageRating: -1 });
+// Full-text search across name + description (used by ?search=...).
+placeSchema.index({ name: "text", description: "text" });
+
 module.exports = model("Place", placeSchema);

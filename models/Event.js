@@ -43,6 +43,13 @@ eventSchema.index({ status: 1, "dateRange.from": 1 });
 eventSchema.index({ category: 1, status: 1, "dateRange.from": 1 });
 eventSchema.index({ organizedBy: 1, createdAt: -1 });
 
+// ── Indexes added for the paginated /events contract ──────────────────────
+// `_id` tail gives the planner a deterministic cursor for skip/limit.
+eventSchema.index({ cityId: 1, category: 1, status: 1, _id: 1 });
+// Standalone date index — useful for `?sort=date_asc/date_desc` without a
+// status filter.
+eventSchema.index({ "dateRange.from": 1 });
+
 // Validate that dateRange.to >= dateRange.from when both are present.
 eventSchema.pre("validate", function (next) {
   if (this.dateRange?.to && this.dateRange?.from && this.dateRange.to < this.dateRange.from) {

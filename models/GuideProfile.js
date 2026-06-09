@@ -72,4 +72,14 @@ guideProfileSchema.index({ isPublished: 1, certified: 1, averageRating: -1 });
 // Hot path: GuidesPage filter by city — published only, sorted by rating.
 guideProfileSchema.index({ isPublished: 1, cityIds: 1, averageRating: -1 });
 
+// ── Indexes added for the paginated /guideProfiles contract ────────────────
+// NOTE: MongoDB cannot build a compound index over two array fields
+// (cityIds + specialties are both arrays → "parallel arrays" error). We
+// keep two single-array compounds; the planner picks the cheapest and
+// filters the other array in memory.
+guideProfileSchema.index({ cityIds: 1, _id: 1 });
+guideProfileSchema.index({ specialties: 1, _id: 1 });
+// Mirrors the most common `?city=...&sort=rating` query.
+guideProfileSchema.index({ cityIds: 1, averageRating: -1 });
+
 module.exports = model("GuideProfile", guideProfileSchema);
