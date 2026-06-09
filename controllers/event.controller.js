@@ -5,12 +5,37 @@ const AdminLog     = require("../models/AdminLog");
 const Place        = require("../models/Place");
 const Favorite     = require("../models/Favorite");
 const City         = require("../models/City");
-const { getPagination, buildPaginationMeta } = require("../utils/pagination.utils");
 const { escapeRegex } = require("../utils/regex.utils");
 const cacheService = require("../services/cache.service");
 const notify       = require("../helpers/notify");
 
 const PREFIX = "events";
+
+// ── Pagination + sort presets (new GET /events contract) ───────────────────
+const EVENT_DEFAULT_LIMIT = 20;
+const EVENT_MAX_LIMIT     = 100;
+
+// Each preset is a ready-to-use Mongo sort spec. `popular` mirrors the
+// homepage heuristic: featured events first, then chronological.
+const EVENT_SORT_PRESETS = {
+  date_asc:  { "dateRange.from": 1 },
+  date_desc: { "dateRange.from": -1 },
+  popular:   { isFeatured: -1, "dateRange.from": 1 },
+};
+
+const isEventObjectId = (v) => typeof v === "string" && /^[a-f0-9]{24}$/i.test(v);
+
+/**
+ * Resolve a city query value (slug or ObjectId) to an ObjectId.
+ * Returns `undefined` when not found so the caller can 404, `null` when no
+ * value was supplied (filter is then left untouched).
+ */
+async function resolveEventCityId(value) {
+  if (!value) return null;
+  if (isEventObjectId(value)) return value;
+  const doc = await City.findOne({ slug: String(value).toLowerCase() }).select("_id");
+  return doc ? doc._id : undefined;
+}
 
 const POPULATE_EVENT = [
   { path: "cityId",      select: "name slug" },
@@ -34,16 +59,51 @@ function pickUserFields(body, allowed) {
 }
 
 // GET /events
+//
+// Query params (all optional):
+//   city      string  city slug ("fes") OR ObjectId
+//   category  string  matches the enum on the model
+//   status    string  "upcoming" | "ongoing" | "past" | "cancelled"
+//   page      number  default 1
+//   limit     number  default 20, max 100
+//   sort      string  "date_asc" | "date_desc" | "popular"  default "date_asc"
+//   search    string  case-insensitive substring on `title`
+//
+// Backward-compatible passthroughs: cityId, isFeatured, isFree, dateFrom,
+// dateTo, sortBy, sortDir.
+//
+// Response shape (new contract):
+//   { data, pagination: { page, limit, total, totalPages, hasNextPage, hasPrevPage } }
+// Also retains legacy fields (`events`, `total`, `hasNext`, `hasPrev`).
 exports.getEvents = asyncHandler(async (req, res) => {
   const key    = cacheService.buildKey(PREFIX, req.query);
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
 
-  const { cityId, status, isFeatured, search, isFree, dateFrom, dateTo, sortBy = "dateRange.from", sortDir = "asc", ...rest } = req.query;
-  const { skip, limit, page } = getPagination(rest);
+  const {
+    city, category, status, isFeatured, search, isFree, dateFrom, dateTo,
+    sort, sortBy = "dateRange.from", sortDir = "asc",
+    page, limit,
+    cityId: rawCityId,
+    ...rest
+  } = req.query;
 
+  // Sanitise pagination — clamp to safe range, default to spec values.
+  const safePage  = Math.max(1, parseInt(page, 10)  || 1);
+  const safeLimit = Math.min(EVENT_MAX_LIMIT, Math.max(1, parseInt(limit, 10) || EVENT_DEFAULT_LIMIT));
+
+  // Resolve city slug → ObjectId if needed. A `city` slug that doesn't
+  // match anything is a hard 404 (per spec); a missing param is fine.
+  const resolvedCityId = await resolveEventCityId(city);
+  if (city && resolvedCityId === undefined) {
+    throw new ApiError(404, `City "${city}" not found`);
+  }
+
+  // Build filter — same logic as before, plus the new `category` field.
   const filter = {};
-  if (cityId)                   filter.cityId     = cityId;
+  const effectiveCityId = resolvedCityId ?? rawCityId;
+  if (effectiveCityId)          filter.cityId     = effectiveCityId;
+  if (category)                 filter.category   = category;
   if (status)                   filter.status     = status;
   if (isFeatured !== undefined) filter.isFeatured = isFeatured === "true";
   if (isFree === "true")        filter.ticketPrice = 0;
@@ -54,19 +114,46 @@ exports.getEvents = asyncHandler(async (req, res) => {
     if (dateTo)   filter["dateRange.from"].$lte = new Date(dateTo);
   }
 
-  const sortField = ["dateRange.from", "createdAt", "title"].includes(sortBy) ? sortBy : "dateRange.from";
-  const sortOrder = sortDir === "desc" ? -1 : 1;
+  // Pick the sort spec: preset wins over legacy sortBy/sortDir if present.
+  let sortSpec;
+  if (sort && EVENT_SORT_PRESETS[sort]) {
+    sortSpec = EVENT_SORT_PRESETS[sort];
+  } else {
+    const sortField = ["dateRange.from", "createdAt", "title"].includes(sortBy) ? sortBy : "dateRange.from";
+    const sortOrder = sortDir === "desc" ? -1 : 1;
+    sortSpec = { [sortField]: sortOrder };
+  }
 
+  const skip = (safePage - 1) * safeLimit;
   const [events, total] = await Promise.all([
     Event.find(filter)
       .populate(POPULATE_EVENT)
-      .sort({ [sortField]: sortOrder })
+      .sort(sortSpec)
       .skip(skip)
-      .limit(limit),
+      .limit(safeLimit),
     Event.countDocuments(filter),
   ]);
 
-  const result = { events, ...buildPaginationMeta(total, page, limit) };
+  const totalPages = total === 0 ? 0 : Math.ceil(total / safeLimit);
+  const result = {
+    data: events,
+    pagination: {
+      page:        safePage,
+      limit:       safeLimit,
+      total,
+      totalPages,
+      hasNextPage: safePage < totalPages,
+      hasPrevPage: safePage > 1,
+    },
+    // ── Legacy fields ─────────────────────────────────────────────────────
+    events,
+    total,
+    page:  safePage,
+    limit: safeLimit,
+    totalPages,
+    hasNext: safePage < totalPages,
+    hasPrev: safePage > 1,
+  };
   cacheService.set(key, result, cacheService.TTL.EVENTS);
   res.json(result);
 });
