@@ -17,5 +17,7 @@ const commentSchema = new Schema(
 commentSchema.index({ targetId: 1, targetType: 1, parentCommentId: 1 });
 commentSchema.index({ authorId: 1 });
 commentSchema.index({ status: 1 });
+// Hot path: listing reviews for a target, newest first.
+commentSchema.index({ targetId: 1, targetType: 1, status: 1, createdAt: -1 });
 
 module.exports = model("Comment", commentSchema);

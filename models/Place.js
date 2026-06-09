@@ -49,5 +49,9 @@ placeSchema.index({ status: 1, averageRating: -1 });
 placeSchema.index({ status: 1, cityId: 1, averageRating: -1 });
 placeSchema.index({ status: 1, categoryId: 1, averageRating: -1 });
 placeSchema.index({ status: 1, isFeatured: 1, averageRating: -1 });
+// Business dashboard: places owned by a user — sorted by recent edit.
+placeSchema.index({ ownerId: 1, updatedAt: -1 });
+// Verified-business listings on category pages.
+placeSchema.index({ status: 1, isVerifiedBusiness: 1 });
 
 module.exports = model("Place", placeSchema);
