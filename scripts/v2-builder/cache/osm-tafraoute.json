@@ -1,0 +1,3184 @@
+{
+  "city": "tafraoute",
+  "fetched_at": "2026-06-08T11:40:07.282Z",
+  "raw_count": 2231,
+  "places": [
+    {
+      "osm_id": "node/387849615",
+      "name": "Yamina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yamina-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.96118,
+          29.76635
+        ]
+      },
+      "osm_tags": {
+        "email": "maison.yamina@gmail.com",
+        "name": "Yamina",
+        "phone": "+212 6 70 52 38 83",
+        "tourism": "hotel",
+        "website": "http://www.yamina-tafraout.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.yamina-tafraout.com/",
+      "phone": "+212 6 70 52 38 83",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/595776237",
+      "name": "muslim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "muslim-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.976435,
+          29.721181
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "muslim",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/595776474",
+      "name": "Hotel saint antoine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-saint-antoine-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "av.mokhtar soussi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.976468,
+          29.719541
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "85450",
+        "addr:street": "av.mokhtar soussi",
+        "brand": "hotel",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hotel saint antoine",
+        "rooms": "24",
+        "smoking": "outside",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/622497323",
+      "name": "Hotel, Restaurant Tanger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-tanger-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972777,
+          29.720807
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Hotel, Restaurant Tanger",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/622497328",
+      "name": "la gazelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-gazelle-tafraoute",
+      "category": "roman-ruins",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.98851,
+          29.711434
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "la gazelle",
+        "name:cs": "Gazela",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/622506617",
+      "name": "Chez Massaoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-massaoud-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.867469,
+          29.542787
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan",
+        "name": "Chez Massaoud",
+        "phone": "+212 6 70 79 35 67",
+        "website": "http://facebook.com/bonjourchezmessaoud"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://facebook.com/bonjourchezmessaoud",
+      "phone": "+212 6 70 79 35 67",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/921597235",
+      "name": "Tizourgane تيزرڭان",
+      "name_fr": "Tizourgane",
+      "name_ar": null,
+      "slug": "tizourgane-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.001876,
+          29.886858
+        ]
+      },
+      "osm_tags": {
+        "name": "Tizourgane تيزرڭان",
+        "name:fr": "Tizourgane",
+        "place": "village",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1116980711",
+      "name": "Chez Amaliya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-amaliya-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.96739,
+          29.753169
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Amaliya",
+        "phone": "+212 528 80 00 65",
+        "tourism": "hotel",
+        "website": "https://www.chezamaliya.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.chezamaliya.com/",
+      "phone": "+212 528 80 00 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1138961262",
+      "name": "La Maison Traditionelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-maison-traditionelle-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.942804,
+          29.764806
+        ]
+      },
+      "osm_tags": {
+        "email": "maisondhote@gmail.com",
+        "name": "La Maison Traditionelle",
+        "phone": "00212 (0) 66 91 77 68",
+        "tourism": "hotel",
+        "website": "https://www.tafraout.info/maison_traditionnelle_oumsnate/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.tafraout.info/maison_traditionnelle_oumsnate/",
+      "phone": "00212 (0) 66 91 77 68",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1138963233",
+      "name": "Kasbah Tizourgane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tizourgane-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.001859,
+          29.88694
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Tizourgane",
+        "tourism": "hotel",
+        "wikidata": "Q63191869",
+        "wikimedia_commons": "Category:Tizourgane",
+        "wikipedia": "de:Tizourgane"
+      },
+      "wikidata": "Q63191869",
+      "wikipedia": "de:Tizourgane",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1496452727",
+      "name": "Maison Assounfo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-assounfo-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.003008,
+          29.702413
+        ]
+      },
+      "osm_tags": {
+        "email": "akay-22@hotmail.com",
+        "name": "Maison Assounfo",
+        "phone": "+212 6 73 41 78 48",
+        "smoking": "no",
+        "tourism": "guest_house",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 41 78 48",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1836794582",
+      "name": "Kasbah Ouaklim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ouaklim-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.999474,
+          29.701954
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Ouaklim",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1896708933",
+      "name": "Tamzait",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tamzait-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.943971,
+          29.581229
+        ]
+      },
+      "osm_tags": {
+        "name": "Tamzait",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2023547499",
+      "name": "Bed & breakfast",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bed-breakfast-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878286,
+          29.548062
+        ]
+      },
+      "osm_tags": {
+        "name": "Bed & breakfast",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2046676140",
+      "name": "Agadir أكادير",
+      "name_fr": "Agadir",
+      "name_ar": "أكادير",
+      "slug": "agadir-tafraoute",
+      "category": "palaces-kasbahs",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.832355,
+          29.866755
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Agadir أكادير",
+        "name:ar": "أكادير",
+        "name:fr": "Agadir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2063335833",
+      "name": "Agadir Amzouar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "agadir-amzouar-tafraoute",
+      "category": "palaces-kasbahs",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.74912,
+          29.82768
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Agadir Amzouar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2076484418",
+      "name": "Camp la Vallée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-la-vallee-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.958709,
+          29.756116
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Camp la Vallée",
+        "power_supply": "yes",
+        "shower": "yes",
+        "source": "claude91 gps",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2078523680",
+      "name": "Sidi Mzal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mzal-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888178,
+          29.800185
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "designation": "MSQE",
+        "name": "Sidi Mzal",
+        "religion": "muslim",
+        "source": "www.geonames.org"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081443066",
+      "name": "A Tete Du Lion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "a-tete-du-lion-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.959571,
+          29.754631
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "A Tete Du Lion",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081443067",
+      "name": "Argana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "argana-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.970009,
+          29.716547
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Argana",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081443068",
+      "name": "Auberge Et Gite Lkest",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-et-gite-lkest-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.94337,
+          29.759884
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Et Gite Lkest",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081443069",
+      "name": "Camp L'arganier D'almmelne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-l-arganier-d-almmelne-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.962183,
+          29.755874
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Camp L'arganier D'almmelne",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081445864",
+      "name": "Redouane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "redouane-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972493,
+          29.720405
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Redouane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2081445867",
+      "name": "Tafraout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tafraout-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.971847,
+          29.72
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tafraout",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2296317320",
+      "name": "Adrar Mqorn",
+      "name_fr": "Adrar Mqorn",
+      "name_ar": "أدرار امكورن",
+      "slug": "adrar-mqorn-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.912384,
+          29.676649
+        ]
+      },
+      "osm_tags": {
+        "ele": "2344",
+        "name": "Adrar Mqorn",
+        "name:ar": "أدرار امكورن",
+        "name:en": "Adrar Mqorn",
+        "name:fr": "Adrar Mqorn",
+        "natural": "peak",
+        "source": "Carte EWP-WCP"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2296317331",
+      "name": "Lion's Head",
+      "name_fr": "La Tête de Lion",
+      "name_ar": "رأس الأسد",
+      "slug": "lion-s-head-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.969731,
+          29.779246
+        ]
+      },
+      "osm_tags": {
+        "ele": "1750",
+        "name": "Lion's Head ⴰⴳⴰⵢⵓ ⵏ ⵉⴼⵉⵙ رأس الأسد",
+        "name:ar": "رأس الأسد",
+        "name:ber": "ⴰⴳⴰⵢⵓ ⵏ ⵉⴼⵉⵙ",
+        "name:en": "Lion's Head",
+        "name:fr": "La Tête de Lion",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2296317338",
+      "name": "Adrar Iguer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adrar-iguer-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.935945,
+          29.603486
+        ]
+      },
+      "osm_tags": {
+        "ele": "2030",
+        "name": "Adrar Iguer",
+        "natural": "peak",
+        "source": "Carte EWP-WCP"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2296317342",
+      "name": "Jebel L'Kest",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jebel-l-kest-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.034886,
+          29.795019
+        ]
+      },
+      "osm_tags": {
+        "ele": "2359",
+        "name": "Jebel L'Kest",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap",
+        "wikipedia": "en:Mount_Lkest"
+      },
+      "wikidata": null,
+      "wikipedia": "en:Mount_Lkest",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2296368668",
+      "name": "Tighawn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tighawn-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.006025,
+          29.602534
+        ]
+      },
+      "osm_tags": {
+        "ele": "1600",
+        "name": "Tighawn",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2297859520",
+      "name": "Twin Peaks",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "twin-peaks-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.814384,
+          29.68088
+        ]
+      },
+      "osm_tags": {
+        "ele": "1850",
+        "name": "Twin Peaks",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158217",
+      "name": "Alfath",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alfath-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.971467,
+          29.719569
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Alfath"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158223",
+      "name": "Cafe Restaurant Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-atlas-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.974355,
+          29.719659
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Atlas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158227",
+      "name": "L'Etoile Du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-etoile-du-sud-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.975146,
+          29.720759
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "L'Etoile Du Sud"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2298158228",
+      "name": "Maison Afoulki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-afoulki-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.970422,
+          29.716831
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison Afoulki",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2486801792",
+      "name": "Gîte Amakhir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-amakhir-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.188453,
+          29.821185
+        ]
+      },
+      "osm_tags": {
+        "name": "Gîte Amakhir",
+        "phone": "+212 6 66 09 62 74",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 09 62 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2488663165",
+      "name": "Grotte potier",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grotte-potier-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.157633,
+          29.806939
+        ]
+      },
+      "osm_tags": {
+        "name": "Grotte potier",
+        "natural": "cave_entrance",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2581899344",
+      "name": "tilila auberge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tilila-auberge-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "Tafraout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.970488,
+          29.764291
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tafraout",
+        "addr:place": "Assegaour",
+        "addr:postcode": "85450",
+        "alt_name": "Auberge Tilila",
+        "name": "tilila auberge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2641794091",
+      "name": "Belfaz Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "belfaz-mosque-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "Douar Awala, Tafraout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.997429,
+          29.613064
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tafraout",
+        "addr:postcode": "85485",
+        "addr:street": "Douar Awala",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Belfaz Mosque",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305945385",
+      "name": "Camping Granite Rose",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-granite-rose-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "RR104, Tafraout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.98437,
+          29.717286
+        ]
+      },
+      "osm_tags": {
+        "access": "customers",
+        "addr:city": "Tafraout",
+        "addr:street": "RR104",
+        "capacity:caravans": "30",
+        "charge": "100MAD",
+        "fee": "yes",
+        "name": "Camping Granite Rose",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305951046",
+      "name": "Camping les Trois Palmiers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-les-trois-palmiers-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.979775,
+          29.721774
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping les Trois Palmiers",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4189050689",
+      "name": "Al Khaima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-khaima-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.948303,
+          29.867705
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Al Khaima"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4461341189",
+      "name": "cafè chez Omar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-chez-omar-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.850889,
+          29.528821
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "cafè chez Omar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4513408890",
+      "name": "Aylim great rock",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aylim-great-rock-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.119852,
+          29.796704
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Aylim great rock",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4937775416",
+      "name": "Chapeau Napoleon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chapeau-napoleon-tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.966737,
+          29.696887
+        ]
+      },
+      "osm_tags": {
+        "name": "Chapeau Napoleon",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4941870740",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-tafraoute",
+      "category": "hammams",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.968737,
+          29.72128
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4942300537",
+      "name": "Maison Traditionnelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-traditionnelle-tafraoute",
+      "category": "history-museums",
+      "city": "tafraoute",
+      "address": "Oumnenat",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.942976,
+          29.76477
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Oumnenat",
+        "name": "Maison Traditionnelle",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4942972241",
+      "name": "Maison Traditionelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-traditionelle-tafraoute",
+      "category": "history-museums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.986903,
+          29.70982
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison Traditionelle",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4942972274",
+      "name": "Museum of Resistance",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "museum-of-resistance-tafraoute",
+      "category": "history-museums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.978895,
+          29.717276
+        ]
+      },
+      "osm_tags": {
+        "name": "Museum of Resistance",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4992806049",
+      "name": "Targa n'Timellilin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "targa-n-timellilin-tafraoute",
+      "category": "national-parks",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.038786,
+          29.747772
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Targa n'Timellilin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4992806055",
+      "name": "Timzgid n'Ogelz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "timzgid-n-ogelz-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.040326,
+          29.749952
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Timzgid n'Ogelz",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4992806072",
+      "name": "Timzgid Wofor n'Ait Talb",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "timzgid-wofor-n-ait-talb-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.040616,
+          29.747158
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Timzgid Wofor n'Ait Talb",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4995130783",
+      "name": "Tahanout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tahanout-tafraoute",
+      "category": "food-markets",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.041736,
+          29.749448
+        ]
+      },
+      "osm_tags": {
+        "name": "Tahanout",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5109731222",
+      "name": "Le Marrakech",
+      "name_fr": "Le Marrakech",
+      "name_ar": null,
+      "slug": "le-marrakech-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.974018,
+          29.720717
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Marrakech",
+        "name:fr": "Le Marrakech"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5340519522",
+      "name": "View on Lion's Head",
+      "name_fr": "La vue a Tête de Lion",
+      "name_ar": null,
+      "slug": "view-on-lion-s-head-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.960763,
+          29.750234
+        ]
+      },
+      "osm_tags": {
+        "name": "La vue a Tête de Lion",
+        "name:en": "View on Lion's Head",
+        "name:fr": "La vue a Tête de Lion",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5355110965",
+      "name": "Azur Tafraout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azur-tafraout-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.978813,
+          29.715144
+        ]
+      },
+      "osm_tags": {
+        "name": "Azur Tafraout",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5435193121",
+      "name": "taghatine",
+      "name_fr": "taghatine",
+      "name_ar": null,
+      "slug": "taghatine-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.194162,
+          29.672346
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "taghatine",
+        "name:fr": "taghatine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5532927022",
+      "name": "Hotel L' Arganier d' Ammelne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-l-arganier-d-ammelne-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.962218,
+          29.755845
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel L' Arganier d' Ammelne",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5544895246",
+      "name": "La KASBAH",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.97118,
+          29.718696
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La KASBAH"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5544895247",
+      "name": "Maison du Troc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-du-troc-tafraoute",
+      "category": "berber-crafts",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.970823,
+          29.718408
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison du Troc",
+        "shop": "carpet"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5548697321",
+      "name": "Hotel appart agranier tafraoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-appart-agranier-tafraoute-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.974426,
+          29.722098
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hotel appart agranier tafraoute",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5570516596",
+      "name": "Coopérative féminine AFRA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cooperative-feminine-afra-tafraoute",
+      "category": "argan-products",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.973859,
+          29.719974
+        ]
+      },
+      "osm_tags": {
+        "name": "Coopérative féminine AFRA",
+        "operator": "Ibn Tissen",
+        "shop": "cosmetics"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5838989685",
+      "name": "Chez Nadia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-nadia-tafraoute",
+      "category": "moroccan-cuisine",
+      "city": "tafraoute",
+      "address": "boulevard Moukhtar Soussi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.978179,
+          29.718112
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "boulevard Moukhtar Soussi",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Chez Nadia",
+        "phone": "+212 6 48 77 64 73",
+        "website": "https://www.google.com/maps?cid=5662910168897258212"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.google.com/maps?cid=5662910168897258212",
+      "phone": "+212 6 48 77 64 73",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6003224485",
+      "name": "Maison d'hôte arganino",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hote-arganino-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.973967,
+          29.719728
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Maison d'hôte arganino",
+        "phone": "+212 6 15 11 65 21",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 15 11 65 21",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6030194218",
+      "name": "جبل أماكور",
+      "name_fr": null,
+      "name_ar": "جبل أماكور",
+      "slug": "tafraoute",
+      "category": "mountains",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.924348,
+          29.699179
+        ]
+      },
+      "osm_tags": {
+        "name": "جبل أماكور",
+        "name:ar": "جبل أماكور",
+        "natural": "peak",
+        "wikidata": "Q27529408"
+      },
+      "wikidata": "Q27529408",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6032586764",
+      "name": "Maison Tigmi Ozro",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-tigmi-ozro-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.978497,
+          29.717513
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison Tigmi Ozro",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6138032948",
+      "name": "stone engravings",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "stone-engravings-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.100606,
+          29.696224
+        ]
+      },
+      "osm_tags": {
+        "name": "stone engravings",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6574859586",
+      "name": "Bio Beldi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bio-beldi-tafraoute",
+      "category": "moroccan-cuisine",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.005463,
+          29.753585
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name:de": "Bio Beldi",
+        "name:en": "Bio Beldi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8039816500",
+      "name": "Tililan Pass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tililan-pass-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.093531,
+          29.741407
+        ]
+      },
+      "osm_tags": {
+        "name": "Tililan Pass",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9214494517",
+      "name": "painted stones",
+      "name_fr": "les pierres peintes",
+      "name_ar": null,
+      "slug": "painted-stones-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.977099,
+          29.678663
+        ]
+      },
+      "osm_tags": {
+        "name": "الصخور الملونة",
+        "name:en": "painted stones",
+        "name:fr": "les pierres peintes",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10282835810",
+      "name": "Espace Harbaz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-harbaz-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.974545,
+          29.721626
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger;chicken;coffee_shop;diner;friture;local;moroccan",
+        "email": "espaceharbaz@gmail.com",
+        "name:en": "Espace Harbaz",
+        "phone": "+212 6 70 80 31 51"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 70 80 31 51",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10284796609",
+      "name": "Café Les Deux Palmiers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-les-deux-palmiers-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.946938,
+          29.856844
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Les Deux Palmiers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10314631233",
+      "name": "Auberge Ait Mansour Hanane. Chez Abdou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-ait-mansour-hanane-chez-abdou-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878016,
+          29.547763
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Ait Mansour Hanane. Chez Abdou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10596101062",
+      "name": "bon endroit pour bivouac",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bon-endroit-pour-bivouac-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.953557,
+          29.775803
+        ]
+      },
+      "osm_tags": {
+        "name": "bon endroit pour bivouac",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10833880006",
+      "name": "Mosquée Tidli n'Ait Abbas",
+      "name_fr": null,
+      "name_ar": "مسجد تيدلي نايت عباس",
+      "slug": "mosquee-tidli-n-ait-abbas-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.129073,
+          29.583408
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Tidli n'Ait Abbas",
+        "name:ar": "مسجد تيدلي نايت عباس",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11049207523",
+      "name": "mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tafraoute",
+      "category": "mosques",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.124146,
+          29.820584
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12015987369",
+      "name": "cafe ait toufaoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ait-toufaoute-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.904078,
+          29.819595
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "مقهى ايت توفاوت",
+        "name:en": "cafe ait toufaoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12127384125",
+      "name": "Shop selling tobacco and making jewellery",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shop-selling-tobacco-and-making-jewellery-tafraoute",
+      "category": "shopping",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.090468,
+          29.640086
+        ]
+      },
+      "osm_tags": {
+        "is_in:city": "Mellah tahala",
+        "name": "Shop selling tobacco and making jewellery",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12127384130",
+      "name": "Old market in the mellah of Tahala",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "old-market-in-the-mellah-of-tahala-tafraoute",
+      "category": "souks",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.094228,
+          29.639465
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "is_in:city": "Tahala",
+        "name": "Old market in the mellah of Tahala"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12271295576",
+      "name": "Iskki Asnfou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "iskki-asnfou-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.912702,
+          29.745057
+        ]
+      },
+      "osm_tags": {
+        "name": "Iskki Asnfou",
+        "phone": "+212 6 67 59 92 99",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 67 59 92 99",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12289806801",
+      "name": "Hôtel Les Amis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-les-amis-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.971776,
+          29.720374
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Les Amis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13169594301",
+      "name": "Café Tizi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-tizi-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.045932,
+          29.774734
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan",
+        "name": "Café Tizi",
+        "phone": "+212 6 66 81 69 73"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 81 69 73",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13176366219",
+      "name": "El Malara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-malara-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.016027,
+          29.687316
+        ]
+      },
+      "osm_tags": {
+        "name": "El Malara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13566126101",
+      "name": "Auberge Tagtout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tagtout-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.987746,
+          29.721618
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Auberge Tagtout",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/172829229",
+      "name": "Les Amandiers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-amandiers-tafraoute",
+      "category": "luxury-hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.974484,
+          29.717805
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Les Amandiers",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/178118101",
+      "name": "Palmeraie d'Ait Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palmeraie-d-ait-mansour-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.868608,
+          29.542719
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Ait Mansour Palm Grove",
+        "landuse": "orchard",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "name": "Palmeraie d'Ait Mansour",
+        "produce": "date",
+        "tourism": "attraction",
+        "trees": "date_palms"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191546571",
+      "name": "Les Rochers Peints",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-rochers-peints-tafraoute",
+      "category": "restaurants",
+      "city": "tafraoute",
+      "address": "Tafraoute",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.976829,
+          29.717275
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tafraoute",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Les Rochers Peints",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191553307",
+      "name": "Granite Rose",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "granite-rose-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.984416,
+          29.717239
+        ]
+      },
+      "osm_tags": {
+        "name": "Granite Rose",
+        "tourism": "camp_site",
+        "website": "www.camping-graniterose.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.camping-graniterose.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/192145378",
+      "name": "Sidi Staralah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-staralah-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.994917,
+          29.892152
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Staralah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/197950484",
+      "name": "Camp L'arganier d'Ammelne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-l-arganier-d-ammelne-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.962284,
+          29.75585
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp L'arganier d'Ammelne",
+        "tourism": "camp_site",
+        "website": "https://www.arganierammelne.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.arganierammelne.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/197950485",
+      "name": "Camp Les 3 Palmiers Tafraoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-les-3-palmiers-tafraoute-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.9798,
+          29.721879
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Camp Les 3 Palmiers Tafraoute",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/197950486",
+      "name": "Camp Tazka Tafraoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-tazka-tafraoute-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.986448,
+          29.715341
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Tazka Tafraoute",
+        "tourism": "camp_site",
+        "website": "www.campingtazka.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.campingtazka.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/203056593",
+      "name": "Ifral",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ifral-tafraoute",
+      "category": "roman-ruins",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.961674,
+          29.793513
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Ifral"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/544488415",
+      "name": "Camping La Fleur D’Amanouz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-la-fleur-d-amanouz-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.022472,
+          29.577774
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Hôtel la Fleur D Amanouz",
+        "name": "Camping La Fleur D’Amanouz",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/544488534",
+      "name": "Hotel gite ''La Vallée de Tarsouate''",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-gite-la-vallee-de-tarsouate-tafraoute",
+      "category": "riads",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.02239,
+          29.578302
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Hôtel la Fleur D Amanouz",
+        "building": "yes",
+        "name": "Hotel gite ''La Vallée de Tarsouate''",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/727760049",
+      "name": "Hotel Espace Tifaouine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-espace-tifaouine-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972364,
+          29.722427
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Hotel Espace Tifaouine",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756062256",
+      "name": "Zawiat Tagouramt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zawiat-tagouramt-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878961,
+          29.631159
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Zawiat Tagouramt",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757360739",
+      "name": "Sidi Missaoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-missaoud-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.008832,
+          29.873712
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Missaoud",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757530500",
+      "name": "Sidi Bouhiya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bouhiya-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.953694,
+          29.749207
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bouhiya",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757530501",
+      "name": "Sidi Anamer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-anamer-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.123418,
+          29.544794
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Anamer",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757530502",
+      "name": "Sidi Anamer le vieux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-anamer-le-vieux-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.123238,
+          29.545052
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Anamer le vieux",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758508362",
+      "name": "Sidi Abdeljabbar ⵙⵉⴷⵉ ⵄⴰⴱⴷ ⵍⵊⴰⴱⴱⴰⵔ سيدي عبد الجبّار",
+      "name_fr": "Sidi Abdeljabbar",
+      "name_ar": "سيدي عبد الجبّار",
+      "slug": "sidi-abdeljabbar-tafraoute",
+      "category": "mausoleums",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.890811,
+          29.741561
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdeljabbar ⵙⵉⴷⵉ ⵄⴰⴱⴷ ⵍⵊⴰⴱⴱⴰⵔ سيدي عبد الجبّار",
+        "name:ar": "سيدي عبد الجبّار",
+        "name:ber": "ⵙⵉⴷⵉ ⵄⴰⴱⴷ ⵍⵊⴰⴱⴱⴰⵔ",
+        "name:fr": "Sidi Abdeljabbar",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758944626",
+      "name": "Hotel Tanger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tanger-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972729,
+          29.720813
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Hotel Tanger",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758950312",
+      "name": "Hotel Salama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-salama-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972888,
+          29.72017
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Hotel Salama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759065346",
+      "name": "Hotel Redouane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-redouane-tafraoute",
+      "category": "hotels",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.972338,
+          29.720247
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Redouane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/862987347",
+      "name": "Cafè Ait Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ait-mansour-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.864115,
+          29.540283
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cafè Ait Mansour"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/862989932",
+      "name": "Cafè Restaurant Chez Mustapha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-chez-mustapha-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.863855,
+          29.539782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cafè Restaurant Chez Mustapha"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1151970759",
+      "name": "roches colorées",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "roches-colorees-tafraoute",
+      "category": "historical-sites",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.973936,
+          29.668987
+        ]
+      },
+      "osm_tags": {
+        "area": "yes",
+        "name": "roches colorées",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1234298303",
+      "name": "Camping tete de Lion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-tete-de-lion-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "Ammelne ⴰⵎⵍⴰⵏ أملن",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.966685,
+          29.753271
+        ]
+      },
+      "osm_tags": {
+        "access": "customers",
+        "addr:city": "Ammelne ⴰⵎⵍⴰⵏ أملن",
+        "caravans": "yes",
+        "charge": "105MAD",
+        "fee": "yes",
+        "name": "Camping tete de Lion",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.camping-tafraoute.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.camping-tafraoute.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356662128",
+      "name": "Petit Momo & Said",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "petit-momo-said-tafraoute",
+      "category": "desert-camps",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.978109,
+          29.724036
+        ]
+      },
+      "osm_tags": {
+        "name": "Petit Momo & Said",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1393965108",
+      "name": "Café Tighawn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-tighawn-tafraoute",
+      "category": "cafes",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.006119,
+          29.611856
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café Tighawn"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1497159698",
+      "name": "Ourti Ait Mbark (ighil zougaghn)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ourti-ait-mbark-ighil-zougaghn-tafraoute",
+      "category": "national-parks",
+      "city": "tafraoute",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.018619,
+          29.580693
+        ]
+      },
+      "osm_tags": {
+        "access": "private",
+        "fee": "yes",
+        "garden:type": "vegetable_garden",
+        "leisure": "garden",
+        "name": "Ourti Ait Mbark (ighil zougaghn)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

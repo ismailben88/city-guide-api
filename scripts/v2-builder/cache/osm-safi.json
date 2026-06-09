@@ -1,0 +1,3929 @@
+{
+  "city": "safi",
+  "fetched_at": "2026-06-08T11:20:30.789Z",
+  "raw_count": 326,
+  "places": [
+    {
+      "osm_id": "node/1342152964",
+      "name": "asima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asima-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.226601,
+          32.288417
+        ]
+      },
+      "osm_tags": {
+        "name": "asima",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1350447430",
+      "name": "مسجد درب مولاي الحسن",
+      "name_fr": null,
+      "name_ar": "مسجد درب مولاي الحسن",
+      "slug": "safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229643,
+          32.306059
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "مسجد درب مولاي الحسن",
+        "name:ar": "مسجد درب مولاي الحسن",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1356588047",
+      "name": "mosque al mohsinine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-al-mohsinine-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.224836,
+          32.289232
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosque al mohsinine",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1357929942",
+      "name": "California",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "california-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.228775,
+          32.285841
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "California"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1363063180",
+      "name": "Tajine",
+      "name_fr": "Tajine",
+      "name_ar": null,
+      "slug": "tajine-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233904,
+          32.294873
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "ساحة قصر العمالة",
+        "alt_name:fr": "Place du palais de travail",
+        "name": "Tajine",
+        "name:fr": "Tajine",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1363076497",
+      "name": "la grande mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-grande-mosquee-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241641,
+          32.298326
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "la grande mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1363619468",
+      "name": "mosque a takwa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-a-takwa-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.240077,
+          32.318472
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosque a takwa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1365515741",
+      "name": "El Kilani Market",
+      "name_fr": "Marché El Kilani",
+      "name_ar": "سوق الكيلاني",
+      "slug": "el-kilani-market-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241907,
+          32.292011
+        ]
+      },
+      "osm_tags": {
+        "name": "Marché El Kilani سوق الكيلاني",
+        "name:ar": "سوق الكيلاني",
+        "name:en": "El Kilani Market",
+        "name:fr": "Marché El Kilani",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1365515754",
+      "name": "souk al 3afarit dimanche",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-al-3afarit-dimanche-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239369,
+          32.287485
+        ]
+      },
+      "osm_tags": {
+        "name": "souk al 3afarit dimanche",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1365541090",
+      "name": "oscor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oscor-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.227449,
+          32.289979
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "oscor"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1366773031",
+      "name": "Bab Agro (Gate of Agrou)",
+      "name_fr": "Bab Agrou ( Porte de Agrou)",
+      "name_ar": "باب آكرو",
+      "slug": "bab-agro-gate-of-agrou-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23817,
+          32.298588
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Bab Agrou ( Porte de Agrou) باب آكرو",
+        "name:ar": "باب آكرو",
+        "name:en": "Bab Agro (Gate of Agrou)",
+        "name:fr": "Bab Agrou ( Porte de Agrou)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1366796881",
+      "name": "abda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abda-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.230962,
+          32.286638
+        ]
+      },
+      "osm_tags": {
+        "name": "abda",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1366796891",
+      "name": "Restaurent Maistro (Safi )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurent-maistro-safi-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.232341,
+          32.291486
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurent Maistro (Safi )"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1366810529",
+      "name": "café plateau (Safi )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-plateau-safi-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.235329,
+          32.293481
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "café plateau (Safi )"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1366810539",
+      "name": "Cafe Glacier Asala (Safi )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-glacier-asala-safi-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233784,
+          32.293259
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Glacier Asala (Safi )"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1367867325",
+      "name": "Mosquée Sidi Mohammed Sharif مسجد سيدي محمد الشريف",
+      "name_fr": "Mosquée Sidi Mohammed Sharif",
+      "name_ar": "مسجد سيدي محمد الشريف",
+      "slug": "mosquee-sidi-mohammed-sharif-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229592,
+          32.311268
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Sidi Mohammed Sharif مسجد سيدي محمد الشريف",
+        "name:ar": "مسجد سيدي محمد الشريف",
+        "name:fr": "Mosquée Sidi Mohammed Sharif",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1371203049",
+      "name": "Bab Shaaba باب الشعبة",
+      "name_fr": "Bab Shaaba",
+      "name_ar": "باب الشعبة",
+      "slug": "bab-shaaba-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239828,
+          32.299824
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Bab Shaaba باب الشعبة",
+        "name:ar": "باب الشعبة",
+        "name:de": "Bab Shaaba",
+        "name:es": "Bab Shaaba",
+        "name:fr": "Bab Shaaba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1379300916",
+      "name": "Dar el Caid Aissa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-el-caid-aissa-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.020081,
+          32.414789
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Dar el Caid Aissa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1423386281",
+      "name": "Majestic",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "majestic-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243168,
+          32.297671
+        ]
+      },
+      "osm_tags": {
+        "name": "Majestic",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1423699317",
+      "name": "Bab Alkhadid باب الخديد",
+      "name_fr": "Bab Alkhadid",
+      "name_ar": "باب الخديد",
+      "slug": "bab-alkhadid-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241816,
+          32.297582
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Bab Alkhadid باب الخديد",
+        "name:ar": "باب الخديد",
+        "name:fr": "Bab Alkhadid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1425338662",
+      "name": "Bab Almaesara باب المعصرة",
+      "name_fr": "Bab Almaesara",
+      "name_ar": "باب المعصرة",
+      "slug": "bab-almaesara-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243071,
+          32.298821
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Bab Almaesara باب المعصرة",
+        "name:ar": "باب المعصرة",
+        "name:fr": "Bab Almaesara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1769480545",
+      "name": "Lalla Fatna ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+      "name_fr": "Lalla Fatna",
+      "name_ar": null,
+      "slug": "lalla-fatna-safi",
+      "category": "desert-camps",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.262585,
+          32.397567
+        ]
+      },
+      "osm_tags": {
+        "name": "Lalla Fatna ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+        "name:ber": "ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+        "name:fr": "Lalla Fatna",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2106698642",
+      "name": "Mosquée Lbyar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-lbyar-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.249134,
+          32.270008
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Lbyar",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2113552781",
+      "name": "Riad Le Cheval Blanc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-le-cheval-blanc-safi",
+      "category": "riads",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242902,
+          32.29822
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Le Cheval Blanc",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2715779109",
+      "name": "Café ElFarass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-elfarass-safi",
+      "category": "specialty-coffee",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.227796,
+          32.282388
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Café ElFarass"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2715779156",
+      "name": "Widady",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "widady-safi",
+      "category": "local-food",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229014,
+          32.2814
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Widady"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2716962318",
+      "name": "Mosqué",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.227963,
+          32.283527
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosqué",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2716965573",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.228183,
+          32.280665
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2716965574",
+      "name": "snack saada wydadi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-saada-wydadi-safi",
+      "category": "local-food",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229099,
+          32.281341
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "fish",
+        "name": "snack saada wydadi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2717050906",
+      "name": "Mosquée Chekouri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-chekouri-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.222701,
+          32.281871
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Chekouri",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2717068864",
+      "name": "Zenith",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zenith-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233285,
+          32.294674
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Zenith"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3452735748",
+      "name": "Café Requin Bleu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-requin-bleu-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.221253,
+          32.290193
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Café Requin Bleu",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3740753351",
+      "name": "café benaychour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-benaychour-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.248307,
+          32.26215
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "café benaychour",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3740755397",
+      "name": "café ouazzani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ouazzani-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.248396,
+          32.261586
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "café ouazzani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3740755423",
+      "name": "Sidi abdel jabar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdel-jabar-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.24836,
+          32.263264
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Sidi abdel jabar",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3740764744",
+      "name": "el omari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-omari-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.247746,
+          32.263043
+        ]
+      },
+      "osm_tags": {
+        "name": "el omari",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741446621",
+      "name": "hamam jamila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-jamila-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.246888,
+          32.265771
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "hamam jamila"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741446622",
+      "name": "hamam lkayd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-lkayd-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.245323,
+          32.265962
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "hamam lkayd"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741452201",
+      "name": "Hamam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.248234,
+          32.263973
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hamam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741455103",
+      "name": "hamam lbosta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-lbosta-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.249636,
+          32.256655
+        ]
+      },
+      "osm_tags": {
+        "amenity": "public_bath",
+        "name": "hamam lbosta"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741478560",
+      "name": "souk nsaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-nsaa-safi",
+      "category": "souks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.246063,
+          32.264637
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "souk nsaa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741524583",
+      "name": "ouazzani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouazzani-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.244643,
+          32.265522
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "ouazzani",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741524584",
+      "name": "aanba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aanba-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.244615,
+          32.263148
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "aanba",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3741524586",
+      "name": "Doukalaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "doukalaa-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.250896,
+          32.25358
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Doukalaa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4109710937",
+      "name": "Café Le Phénicien",
+      "name_fr": "Café Le Phénicien",
+      "name_ar": null,
+      "slug": "cafe-le-phenicien-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241805,
+          32.306649
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Café Le Phénicien",
+        "name:fr": "Café Le Phénicien"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4347127895",
+      "name": "SafCity",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "safcity-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Avenue Moulay Ismail",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229069,
+          32.294267
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Moulay Ismail",
+        "amenity": "cafe",
+        "name": "SafCity"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4347156490",
+      "name": "Niagara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "niagara-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Avenue Moulay Ismail",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229053,
+          32.294311
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Moulay Ismail",
+        "amenity": "cafe",
+        "name": "Niagara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4461165389",
+      "name": "Marjane مرجان",
+      "name_fr": "Marjane",
+      "name_ar": "مرجان",
+      "slug": "marjane-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.215329,
+          32.298153
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjane مرجان",
+        "name:ar": "مرجان",
+        "name:fr": "Marjane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4462551539",
+      "name": "Mosquée Douar Sfa مسجد دوار الصفا",
+      "name_fr": "Mosquée Douar Sfa",
+      "name_ar": "مسجد دوار الصفا",
+      "slug": "mosquee-douar-sfa-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.219083,
+          32.289815
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Douar Sfa مسجد دوار الصفا",
+        "name:ar": "مسجد دوار الصفا",
+        "name:fr": "Mosquée Douar Sfa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4463584928",
+      "name": "TACO",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taco-safi",
+      "category": "local-food",
+      "city": "safi",
+      "address": "rue taib benhima, SAFI",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233654,
+          32.293792
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "SAFI",
+        "addr:postcode": "46000",
+        "addr:street": "rue taib benhima",
+        "amenity": "fast_food",
+        "cuisine": "pizza,_plats,_pâtes,_tacos",
+        "delivery": "yes",
+        "name": "TACO",
+        "opening_hours": "12:00-00:00",
+        "phone": "+212 5 24 62 18 18",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 62 18 18",
+      "stars": null,
+      "opening_hours": "12:00-00:00"
+    },
+    {
+      "osm_id": "node/4463587054",
+      "name": "La cascade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-cascade-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233225,
+          32.293998
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La cascade"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4463587110",
+      "name": "Café Riyad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-riyad-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233722,
+          32.293724
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Café Riyad",
+        "opening_hours": "06:00-23:00",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "06:00-23:00"
+    },
+    {
+      "osm_id": "node/4463589690",
+      "name": "Tartine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tartine-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233325,
+          32.294214
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tartine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4464198189",
+      "name": "Café Rihab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-rihab-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Avenue de la Liberté شارع الحرية, آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.232451,
+          32.2919
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "آسفي",
+        "addr:city:ar": "آسفي",
+        "addr:city:es": "Safí",
+        "addr:postcode": "46000",
+        "addr:street": "Avenue de la Liberté شارع الحرية",
+        "addr:street:ar": "شارع الحرية",
+        "addr:street:es": "Avenida Libertad",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Rihab",
+        "name:es": "Café Rihab",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 06:00-22:00"
+    },
+    {
+      "osm_id": "node/4464279089",
+      "name": "Mosquée Assalam",
+      "name_fr": "Mosquée Assalam",
+      "name_ar": null,
+      "slug": "mosquee-assalam-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.249815,
+          32.257212
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "46000",
+        "amenity": "place_of_worship",
+        "name": "Mosquée Assalam",
+        "name:fr": "Mosquée Assalam",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5105135225",
+      "name": "Café Le Jardin",
+      "name_fr": "Café Le Jardin",
+      "name_ar": null,
+      "slug": "cafe-le-jardin-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.237308,
+          32.301729
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Le Jardin",
+        "name:fr": "Café Le Jardin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5105217421",
+      "name": "Café Dourcas",
+      "name_fr": "Café Dourcas",
+      "name_ar": null,
+      "slug": "cafe-dourcas-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Avenue Lafkih El Haskouri",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.225816,
+          32.322249
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Lafkih El Haskouri",
+        "amenity": "cafe",
+        "name": "Café Dourcas",
+        "name:fr": "Café Dourcas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5111782228",
+      "name": "Addahabiya",
+      "name_fr": "Addahabiya",
+      "name_ar": null,
+      "slug": "addahabiya-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239669,
+          32.290567
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Addahabiya",
+        "name:fr": "Addahabiya"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5111782230",
+      "name": "Café Colibris",
+      "name_fr": "Café Colibris",
+      "name_ar": null,
+      "slug": "cafe-colibris-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241052,
+          32.290539
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Colibris",
+        "name:fr": "Café Colibris"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5253601221",
+      "name": "Souk Medina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-medina-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242659,
+          32.298645
+        ]
+      },
+      "osm_tags": {
+        "name": "Souk Medina",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5254624521",
+      "name": "Café Khay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-khay-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241213,
+          32.295689
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Café Khay"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5325785821",
+      "name": "Sunset and ocean viewpoint",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sunset-and-ocean-viewpoint-safi",
+      "category": "sunset-spots",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.277718,
+          32.3443
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Sunset and ocean viewpoint",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5448344623",
+      "name": "Marchandis alimentaire محل مواد غدائية",
+      "name_fr": "Marchandis alimentaire",
+      "name_ar": "محل مواد غدائية",
+      "slug": "marchandis-alimentaire-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.227325,
+          32.308164
+        ]
+      },
+      "osm_tags": {
+        "name": "Marchandis alimentaire محل مواد غدائية",
+        "name:ar": "محل مواد غدائية",
+        "name:fr": "Marchandis alimentaire",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Sa 09:00-20:00"
+    },
+    {
+      "osm_id": "node/5598807521",
+      "name": "Café Jour Et Nuit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-jour-et-nuit-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.234202,
+          32.293898
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Jour Et Nuit"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5782862553",
+      "name": "Chez Hosni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-hosni-safi",
+      "category": "moroccan-cuisine",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239126,
+          32.30025
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name:en": "Chez Hosni",
+        "phone": "+212 6 60 05 23 23"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 60 05 23 23",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6075692385",
+      "name": "Pattiserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pattiserie-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242848,
+          32.291306
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Pattiserie"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6960806485",
+      "name": "Ali’s Family",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ali-s-family-safi",
+      "category": "historical-sites",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.24105,
+          32.268841
+        ]
+      },
+      "osm_tags": {
+        "name": "Ali’s Family",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8554256656",
+      "name": "boulangerie & patisserie OUKAIMDEN",
+      "name_fr": null,
+      "name_ar": "مقهى و حلويات اوكيمدن",
+      "slug": "boulangerie-patisserie-oukaimden-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Avenue Sidi Mohamed Ben Abdellah, SAFI",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.234708,
+          32.293609
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "SAFI",
+        "addr:postcode": "46000",
+        "addr:street": "Avenue Sidi Mohamed Ben Abdellah",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "oukaimden",
+        "name": "boulangerie & patisserie OUKAIMDEN",
+        "name:ar": "مقهى و حلويات اوكيمدن",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 06:00-23:00"
+    },
+    {
+      "osm_id": "node/8910920137",
+      "name": "Hotel Riad Asif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-riad-asif-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "11, Place de l'Indépendance, آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243459,
+          32.296324
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "آسفي",
+        "addr:city:ar": "آسفي",
+        "addr:city:es": "Safí",
+        "addr:housenumber": "11",
+        "addr:street": "Place de l'Indépendance",
+        "name": "Hotel Riad Asif",
+        "name:es": "Hotel Riad Asif",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8957878977",
+      "name": "Epicerie Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "epicerie-brahim-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "Rue El Koutoubia شارع الكتبية, Safi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229886,
+          32.321145
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Safi",
+        "addr:street": "Rue El Koutoubia شارع الكتبية",
+        "currency:others": "yes",
+        "diet:halal": "yes",
+        "name": "Epicerie Brahim",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8957889046",
+      "name": "Cafe Alyassamine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-alyassamine-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.230284,
+          32.321005
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional;coffee_shop",
+        "name": "Cafe Alyassamine",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9261695816",
+      "name": "Café Mzoughen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-mzoughen-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.231853,
+          32.324998
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Mzoughen"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9262950762",
+      "name": "Café Ocean",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ocean-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.258892,
+          32.323121
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Ocean",
+        "phone": "+212 5 24 66 77 66"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 66 77 66",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10571425711",
+      "name": "Hotel Essaouira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-essaouira-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243125,
+          32.298149
+        ]
+      },
+      "osm_tags": {
+        "name": "فندق الصويرة",
+        "name:en": "Hotel Essaouira",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11063121405",
+      "name": "Calypso Medina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "calypso-medina-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "كرنيش آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.245219,
+          32.292645
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "46000",
+        "addr:street": "كرنيش آسفي",
+        "amenity": "restaurant",
+        "name": "Calypso Medina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11799193811",
+      "name": "wzanifood",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wzanifood-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "Avenue Ennasr شارع النصر, Safi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.22868,
+          32.317537
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Safi",
+        "addr:postcode": "46000",
+        "addr:street": "Avenue Ennasr شارع النصر",
+        "amenity": "restaurant",
+        "brand": "wzanifood",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=61555486837415&mibextid=LQQJ4d",
+        "cuisine": "fast_food;pizza;burger;tacos",
+        "diet:halal": "yes",
+        "email": "wzanifood@gmail.com",
+        "name": "wzanifood",
+        "opening_hours": "24/7",
+        "phone": "+212 6 60 87 29 89",
+        "website": "https://www.instagram.com/wzanifood?igsh=OHBsZmF5dml6cWho"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.instagram.com/wzanifood?igsh=OHBsZmF5dml6cWho",
+      "phone": "+212 6 60 87 29 89",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/12522998771",
+      "name": "Lalla Oum Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-oum-ali-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242948,
+          32.298125
+        ]
+      },
+      "osm_tags": {
+        "historic": "tomb",
+        "name": "Lalla Oum Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12616329372",
+      "name": "L'îlot Châtain",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-ilot-chatain-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.258582,
+          32.32301
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "L'îlot Châtain"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13105421711",
+      "name": "Hamam Hatim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-hatim-safi",
+      "category": "hammams",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.232569,
+          32.297628
+        ]
+      },
+      "osm_tags": {
+        "amenity": "public_bath",
+        "bath:type": "hammam",
+        "female": "yes",
+        "gender_segregated": "yes",
+        "male": "yes",
+        "name": "Hamam Hatim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13248341901",
+      "name": "Riad Safi",
+      "name_fr": "Riad Safi",
+      "name_ar": null,
+      "slug": "riad-safi-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239831,
+          32.299088
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Riad Safi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13248556502",
+      "name": "Le Rooftop",
+      "name_fr": "Le Rooftop",
+      "name_ar": null,
+      "slug": "le-rooftop-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.244195,
+          32.295677
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Le Rooftop"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13672013274",
+      "name": "Mouchoirs fish",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mouchoirs-fish-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.241233,
+          32.309199
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Mouchoirs fish"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690945283",
+      "name": "Cafe des Rempapts",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-des-rempapts-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242927,
+          32.298843
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe des Rempapts",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690966252",
+      "name": "Hotel d'Honneur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-d-honneur-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242882,
+          32.298525
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel d'Honneur",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690992536",
+      "name": "Hotel de Paris",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-de-paris-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243083,
+          32.298044
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel de Paris",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13788171108",
+      "name": "Pizzeria street",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-street-safi",
+      "category": "restaurants",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.231894,
+          32.282465
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pizzeria street"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13788171501",
+      "name": "Café France",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-france-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.242887,
+          32.291007
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café France"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119926365",
+      "name": "Hôtel Atlantide",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlantide-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "Rue Ibnou Badis",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239679,
+          32.29461
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue Ibnou Badis",
+        "name": "Hôtel Atlantide",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119926371",
+      "name": "Golden Tulip Farah Safi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "golden-tulip-farah-safi-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "Avenue Zerktouni, SAFI آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23894,
+          32.295575
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "SAFI آسفي",
+        "addr:postcode": "46000",
+        "addr:street": "Avenue Zerktouni",
+        "name": "Golden Tulip Farah Safi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119926373",
+      "name": "Arts City",
+      "name_fr": "Cité des Arts",
+      "name_ar": "مديمة الفنون",
+      "slug": "arts-city-safi",
+      "category": "contemporary-art",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.237094,
+          32.296623
+        ]
+      },
+      "osm_tags": {
+        "name": "Cité des Arts مديمة الفنون",
+        "name:ar": "مديمة الفنون",
+        "name:en": "Arts City",
+        "name:fr": "Cité des Arts",
+        "tourism": "gallery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119935024",
+      "name": "marche cite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-cite-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.232541,
+          32.29348
+        ]
+      },
+      "osm_tags": {
+        "name": "marche cite",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119935028",
+      "name": "assif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "assif-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233052,
+          32.294
+        ]
+      },
+      "osm_tags": {
+        "name": "assif",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/119936624",
+      "name": "les mimousas (Safi )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-mimousas-safi-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233323,
+          32.291373
+        ]
+      },
+      "osm_tags": {
+        "name": "les mimousas (Safi )",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/120026678",
+      "name": "Camp International de Safi Amun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-international-de-safi-amun-safi",
+      "category": "desert-camps",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23793,
+          32.317011
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp International de Safi Amun",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/120440847",
+      "name": "souk azib darey",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-azib-darey-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.219919,
+          32.291989
+        ]
+      },
+      "osm_tags": {
+        "name": "souk azib darey",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/120840246",
+      "name": "Mosquée Omar Ibn Al Khattab مسجد عمر إبن الخطاب",
+      "name_fr": "Mosquée Omar Ibn Al Khattab",
+      "name_ar": "مسجد عمر إبن الخطاب",
+      "slug": "mosquee-omar-ibn-al-khattab-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.229376,
+          32.321165
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Omar Ibn Al Khattab مسجد عمر إبن الخطاب",
+        "name:ar": "مسجد عمر إبن الخطاب",
+        "name:fr": "Mosquée Omar Ibn Al Khattab",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/121103420",
+      "name": "souk biyada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-biyada-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.235548,
+          32.305875
+        ]
+      },
+      "osm_tags": {
+        "name": "souk biyada",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122259803",
+      "name": "Mossala",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mossala-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.216848,
+          32.301091
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mossala",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122259808",
+      "name": "saniya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saniya-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23241,
+          32.281073
+        ]
+      },
+      "osm_tags": {
+        "name": "saniya",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122268019",
+      "name": "Projet Label Vie à Safi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "projet-label-vie-a-safi-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.234624,
+          32.293042
+        ]
+      },
+      "osm_tags": {
+        "name": "Projet Label Vie à Safi",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122269837",
+      "name": "iconomat OCP",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "iconomat-ocp-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.230823,
+          32.293474
+        ]
+      },
+      "osm_tags": {
+        "name": "iconomat OCP",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122461736",
+      "name": "sewayekat jrayefate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sewayekat-jrayefate-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.223341,
+          32.285834
+        ]
+      },
+      "osm_tags": {
+        "name": "sewayekat jrayefate",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/122462343",
+      "name": "Parque Hasán II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parque-hasan-ii-safi",
+      "category": "national-parks",
+      "city": "safi",
+      "address": "آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23436,
+          32.282327
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "آسفي",
+        "addr:city:ar": "آسفي",
+        "addr:city:es": "Safí",
+        "designation": "hassan 2",
+        "leisure": "park",
+        "name": "Parque Hasán II",
+        "name:es": "Parque Hasán II"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/123762925",
+      "name": "Plage de Safi شاطئ آسفي",
+      "name_fr": "Plage de Safi",
+      "name_ar": "شاطئ آسفي",
+      "slug": "plage-de-safi-safi",
+      "category": "beaches",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.251881,
+          32.316777
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Safi شاطئ آسفي",
+        "name:ar": "شاطئ آسفي",
+        "name:fr": "Plage de Safi",
+        "natural": "beach",
+        "surface": "sand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/123980992",
+      "name": "Mosqué Rmal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-rmal-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.122941,
+          32.440875
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosqué Rmal",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/129199311",
+      "name": "Cathédrale Portugaise",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cathedrale-portugaise-safi",
+      "category": "roman-ruins",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.2416,
+          32.298507
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Cathédrale Portugaise"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/129241250",
+      "name": "Sidi Bou Dahab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bou-dahab-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.24313,
+          32.29867
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bou Dahab",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/289368719",
+      "name": "Avocat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "avocat-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "rue ibn battouta, safi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.228046,
+          32.295444
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "safi",
+        "addr:postcode": "46000",
+        "addr:street": "rue ibn battouta",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Avocat",
+        "smoking": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/319524331",
+      "name": "Jamaat Ouled Salmane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jamaat-ouled-salmane-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.164196,
+          32.119942
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jamaat Ouled Salmane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/319533197",
+      "name": "Souk Ejdid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-ejdid-safi",
+      "category": "souks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.07626,
+          32.118931
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Ejdid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/319549567",
+      "name": "Souk Labhayem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-labhayem-safi",
+      "category": "souks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.134841,
+          32.437921
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Labhayem"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/320480472",
+      "name": "Ancien Souk Tlat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ancien-souk-tlat-safi",
+      "category": "souks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.97832,
+          32.257373
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Ancien Souk Tlat"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/320480473",
+      "name": "Nouveau Souk Tlat Hebdomadaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nouveau-souk-tlat-hebdomadaire-safi",
+      "category": "souks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.973647,
+          32.254675
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Nouveau Souk Tlat Hebdomadaire"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323022470",
+      "name": "Darih Sidi Bouzid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "darih-sidi-bouzid-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.255162,
+          32.321923
+        ]
+      },
+      "osm_tags": {
+        "building": "public",
+        "historic": "tomb",
+        "name": "Darih Sidi Bouzid",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323024301",
+      "name": "Hotel Atlantique",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlantique-safi",
+      "category": "hotels",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.256652,
+          32.322975
+        ]
+      },
+      "osm_tags": {
+        "landuse": "residential",
+        "name": "Hotel Atlantique",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323025885",
+      "name": "Mosque Moulim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-moulim-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.249614,
+          32.319758
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosque Moulim",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/324435209",
+      "name": "Plage Lalla Fatna ⴰⴼⵜⴰⵙ ⵏ ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+      "name_fr": "Plage Lalla Fatna",
+      "name_ar": null,
+      "slug": "plage-lalla-fatna-safi",
+      "category": "beaches",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.260759,
+          32.400597
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Lalla Fatna ⴰⴼⵜⴰⵙ ⵏ ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+        "name:ber": "ⴰⴼⵜⴰⵙ ⵏ ⵍⴰⵍⵍⴰ ⴼⴰⵟⵏⴰ",
+        "name:fr": "Plage Lalla Fatna",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/324435212",
+      "name": "Plage Lamaachate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-lamaachate-safi",
+      "category": "beaches",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.250168,
+          32.415133
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Lamaachate",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/431451956",
+      "name": "Mosquée Saydna Ibrahim El Khalil مسجد سيدنا ابراهيم الخليل",
+      "name_fr": "Mosquée Saydna Ibrahim El Khalil",
+      "name_ar": "مسجد سيدنا ابراهيم الخليل",
+      "slug": "mosquee-saydna-ibrahim-el-khalil-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.233447,
+          32.314226
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Saydna Ibrahim El Khalil مسجد سيدنا ابراهيم الخليل",
+        "name:ar": "مسجد سيدنا ابراهيم الخليل",
+        "name:fr": "Mosquée Saydna Ibrahim El Khalil",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/481548253",
+      "name": "no edificable sdau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "no-edificable-sdau-safi",
+      "category": "national-parks",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.271401,
+          32.366385
+        ]
+      },
+      "osm_tags": {
+        "boundary": "protected_area",
+        "name": "no edificable sdau"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/584756227",
+      "name": "marjane supermarket",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjane-supermarket-safi",
+      "category": "food-markets",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.215596,
+          32.297375
+        ]
+      },
+      "osm_tags": {
+        "name": "marjane supermarket",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/684976686",
+      "name": "Bel fatmi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bel-fatmi-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.246006,
+          32.261013
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Bel fatmi",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/685145390",
+      "name": "Zine Abbidine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zine-abbidine-safi",
+      "category": "mosques",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.232941,
+          32.281554
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Zine Abbidine",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756021759",
+      "name": "Sidi Khlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-khlil-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.281147,
+          32.351631
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Khlil",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756021760",
+      "name": "Sidi Binkrara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-binkrara-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.284316,
+          32.374569
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Binkrara",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756080913",
+      "name": "Sidi Abdelkrim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdelkrim-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.223678,
+          32.309171
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdelkrim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757409123",
+      "name": "Sidi Bouchta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bouchta-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.259846,
+          32.506794
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bouchta",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757409125",
+      "name": "Sidi Ahmad bin Mouman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-bin-mouman-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.243867,
+          32.296794
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad bin Mouman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758397367",
+      "name": "Sidi Bih",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bih-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.24155,
+          32.303499
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bih",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758397368",
+      "name": "Sidi Mohammed Charif",
+      "name_fr": null,
+      "name_ar": "سيدي محمد الشريف",
+      "slug": "sidi-mohammed-charif-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239159,
+          32.300962
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "آسفي",
+        "addr:city:ar": "آسفي",
+        "addr:city:es": "Safí",
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohammed Charif",
+        "name:ar": "سيدي محمد الشريف",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758397369",
+      "name": "Sidi Mohamed al Chariq",
+      "name_fr": null,
+      "name_ar": "سيدي محمد الشريف",
+      "slug": "sidi-mohamed-al-chariq-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.239637,
+          32.30068
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohamed al Chariq",
+        "name:ar": "سيدي محمد الشريف",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758397370",
+      "name": "Sidi Ali al Gaila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-al-gaila-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.238682,
+          32.300051
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali al Gaila",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758404789",
+      "name": "Sidi Mansour",
+      "name_fr": null,
+      "name_ar": "سيدي منصور",
+      "slug": "sidi-mansour-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.23859,
+          32.300337
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mansour",
+        "name:ar": "سيدي منصور",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758404790",
+      "name": "Sidi Ghazi Bin Kacim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ghazi-bin-kacim-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.238884,
+          32.299445
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ghazi Bin Kacim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758404791",
+      "name": "Lalla Aicha Oum al Knabich",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-aicha-oum-al-knabich-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.240182,
+          32.298631
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Lalla Aicha Oum al Knabich",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1292165883",
+      "name": "Cappucino Café & Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cappucino-cafe-restaurant-safi",
+      "category": "cafes",
+      "city": "safi",
+      "address": "Sidi Bouzid, Safi آسفي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.258232,
+          32.322836
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Safi آسفي",
+        "addr:postcode": "46030",
+        "addr:street": "Sidi Bouzid",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop;pizza;sushi;regional;chicken;seafood;juice;cake;dessert",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cappucino Café & Restaurant",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 93 23 98 74",
+        "website": "https://le-menu.ma/fr/safi/cappuccino?utm_source=cappuccino__safi&utm_medium=openstreetmap&utm_campaign=Open+Street+Map"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://le-menu.ma/fr/safi/cappuccino?utm_source=cappuccino__safi&utm_medium=openstreetmap&utm_campaign=Open+Street+Map",
+      "phone": "+212 6 93 23 98 74",
+      "stars": null,
+      "opening_hours": "Mo-Su 06:00-23:00"
+    },
+    {
+      "osm_id": "way/1350859700",
+      "name": "Sidi Lahsan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-lahsan-safi",
+      "category": "mausoleums",
+      "city": "safi",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.240285,
+          32.414902
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Lahsan",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

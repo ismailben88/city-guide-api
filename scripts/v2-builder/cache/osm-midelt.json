@@ -1,0 +1,1886 @@
+{
+  "city": "midelt",
+  "fetched_at": "2026-06-08T11:50:30.435Z",
+  "raw_count": 321,
+  "places": [
+    {
+      "osm_id": "node/1023483549",
+      "name": "Hotel Ayachi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ayachi-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.734442,
+          32.681448
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Ayachi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1023483650",
+      "name": "Hotel Kasbah Asmaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-kasbah-asmaa-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "km 3 dir. Errachidia, Route N13, Midelt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.713299,
+          32.681562
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Midelt",
+        "addr:housenumber": "km 3 dir. Errachidia",
+        "addr:street": "Route N13",
+        "fax": "+212 35 58 39 45",
+        "name": "Hotel Kasbah Asmaa",
+        "phone": "+212 35 58 04 08",
+        "smoking": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 35 58 04 08",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329782648",
+      "name": "Truckers cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "truckers-cafe-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.506106,
+          32.593499
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Truckers cafe"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329786382",
+      "name": "View",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-midelt",
+      "category": "sunset-spots",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.532183,
+          32.629589
+        ]
+      },
+      "osm_tags": {
+        "name": "View",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329813394",
+      "name": "Tourist Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tourist-cafe-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.743056,
+          32.681543
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tourist Cafe"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329813398",
+      "name": "Kashba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kashba-midelt",
+      "category": "sunset-spots",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.749028,
+          32.681597
+        ]
+      },
+      "osm_tags": {
+        "name": "Kashba",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329813405",
+      "name": "Hôtel ksar Timnay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ksar-timnay-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.918737,
+          32.751902
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel ksar Timnay",
+        "tourism": "hotel",
+        "website": "https://ksar-timnay.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://ksar-timnay.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1576683277",
+      "name": "Kzar Timnay Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kzar-timnay-camp-midelt",
+      "category": "desert-camps",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.919307,
+          32.752311
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Kzar Timnay Camp",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://ksar-timnay.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://ksar-timnay.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1709971766",
+      "name": "Hotel Boughafer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-boughafer-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742735,
+          32.68277
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Boughafer",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2154669507",
+      "name": "Riad Mimouna de Timnay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-mimouna-de-timnay-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.91912,
+          32.752628
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2025-06-12",
+        "name": "Riad Mimouna de Timnay",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2678524151",
+      "name": "Rond Point La Pomme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rond-point-la-pomme-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.740841,
+          32.67979
+        ]
+      },
+      "osm_tags": {
+        "name": "Rond Point La Pomme",
+        "name:zh": "苹果小镇",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3156632022",
+      "name": "Café Imilchil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-imilchil-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "Midelt ميدلت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.734842,
+          32.67985
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Midelt ميدلت",
+        "amenity": "cafe",
+        "check_date": "2026-03-27",
+        "name": "Café Imilchil"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3439010965",
+      "name": "Marjane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjane-midelt",
+      "category": "food-markets",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.731456,
+          32.677589
+        ]
+      },
+      "osm_tags": {
+        "fixme": "location is approximate",
+        "name": "Marjane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4460155425",
+      "name": "Mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.740433,
+          32.675321
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4460155426",
+      "name": "Lastras",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lastras-midelt",
+      "category": "food-markets",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.740273,
+          32.675381
+        ]
+      },
+      "osm_tags": {
+        "name": "Lastras",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4460352590",
+      "name": "Ferme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ferme-midelt",
+      "category": "national-parks",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.734531,
+          32.684737
+        ]
+      },
+      "osm_tags": {
+        "leisure": "garden",
+        "name": "Ferme"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4483041771",
+      "name": "Hotel Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ali-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "22, Rue Ibn Yassin, Midelt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742498,
+          32.682594
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Midelt",
+        "addr:housenumber": "22",
+        "addr:street": "Rue Ibn Yassin",
+        "name": "Hotel Ali",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4507380189",
+      "name": "Diafa",
+      "name_fr": "Diafa",
+      "name_ar": "مطعم الضياف",
+      "slug": "diafa-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.727031,
+          32.679558
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Adiafa",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Diafa مطعم الضياف",
+        "name:ar": "مطعم الضياف",
+        "name:en": "Diafa",
+        "name:fr": "Diafa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4545555490",
+      "name": "Restaurant ba-azizi",
+      "name_fr": null,
+      "name_ar": "مطعم با عزيزي",
+      "slug": "restaurant-ba-azizi-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.727118,
+          32.679751
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "مطعم با عزيزي",
+        "name:ar": "مطعم با عزيزي",
+        "name:en": "Restaurant ba-azizi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4746622223",
+      "name": "CAFE EDOHHA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-edohha-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.746963,
+          32.688802
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Eddoha",
+        "name:en": "CAFE EDOHHA"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221578977",
+      "name": "Café Ben Abbou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ben-abbou-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.714232,
+          32.681873
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Ben Abbou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221578991",
+      "name": "Hanane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hanane-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.627457,
+          32.666898
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Hanane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221699060",
+      "name": "Marjana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjana-midelt",
+      "category": "bakeries",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.728305,
+          32.679463
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjana",
+        "shop": "bakery",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221699061",
+      "name": "Coffee Islam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "coffee-islam-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.730315,
+          32.678552
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Coffee Islam",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221699071",
+      "name": "Café BH",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-bh-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.728415,
+          32.677978
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café BH",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221699092",
+      "name": "Taous",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taous-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.730054,
+          32.678989
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Taous",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5244954561",
+      "name": "Taddart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taddart-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.788339,
+          32.706941
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Taddart",
+        "phone": "+212 535 580228",
+        "website": "http://www.hotel-taddart.ma/Restauration.php"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotel-taddart.ma/Restauration.php",
+      "phone": "+212 535 580228",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5529275128",
+      "name": "Tizi n'Taghaumt pass (1907 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-taghaumt-pass-1907-m-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.532273,
+          32.628685
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Taghaumt pass (1907 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5530188321",
+      "name": "Tizi n'Tazigtaout pass (1728 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-tazigtaout-pass-1728-m-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.767416,
+          32.585275
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Tazigtaout pass (1728 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5530260921",
+      "name": "Tizi Ou Adil pass (2968 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-ou-adil-pass-2968-m-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.824429,
+          32.476985
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi Ou Adil pass (2968 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6044661985",
+      "name": "Café Restaurant Rihab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-rihab-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.748216,
+          32.683617
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Café Restaurant Rihab"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6110525188",
+      "name": "Kasbah des Noyers des Berrem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-des-noyers-des-berrem-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.7604,
+          32.644825
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Kasbah des Noyers des Berrem",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6878969003",
+      "name": "L'escale Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-escale-restaurant-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.727235,
+          32.679551
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "L'escale Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7048473685",
+      "name": "The good stop 2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "the-good-stop-2-midelt",
+      "category": "riads",
+      "city": "midelt",
+      "address": "51, 51 rue Outhelli 51",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.737636,
+          32.687409
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "51",
+        "addr:street": "51 rue Outhelli 51",
+        "internet_access": "wlan",
+        "name:en": "The good stop 2",
+        "opening_hours": "24/7",
+        "tourism": "guest_house",
+        "website": "https://www.booking.com/Share-oiuKG1"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/Share-oiuKG1",
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/7093051112",
+      "name": "Hotel Nice 06",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-nice-06-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.746829,
+          32.688468
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Nice 06",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7095383022",
+      "name": "Cafe Nice 06",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-nice-06-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.746887,
+          32.688614
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Nice 06"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9368292107",
+      "name": "Restaurant Merzouga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-merzouga-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.743308,
+          32.681963
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Merzouga"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10227766350",
+      "name": "XLaz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "xlaz-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.740048,
+          32.6843
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "XLaz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11551807999",
+      "name": "Cirque de Jaafar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cirque-de-jaafar-midelt",
+      "category": "historical-sites",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.921515,
+          32.545826
+        ]
+      },
+      "osm_tags": {
+        "name": "Cirque de Jaafar",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11725384069",
+      "name": "Restaurant 7",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-7-midelt",
+      "category": "restaurants",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.917945,
+          32.751213
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Restaurant 7"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11738859822",
+      "name": "Arij",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arij-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.666014,
+          32.680133
+        ]
+      },
+      "osm_tags": {
+        "name": "Arij",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11898067166",
+      "name": "Cafe Belle Vue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-belle-vue-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.743003,
+          32.68059
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Belle Vue"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12081787375",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-midelt",
+      "category": "hammams",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.739981,
+          32.686138
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12695084801",
+      "name": "Coopérative Tourisme Social Maison D'hôtes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cooperative-tourisme-social-maison-d-hotes-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.728964,
+          32.680137
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Coopérative Tourisme Social Maison D'hôtes",
+        "tourism": "hostel",
+        "website": "https://www.booking.com/hotel/ma/cooperative-tourisme-social-maison-d-hotes.de.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/cooperative-tourisme-social-maison-d-hotes.de.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13685511711",
+      "name": "Imilchil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imilchil-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "Midelt ميدلت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.734792,
+          32.679957
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Midelt ميدلت",
+        "check_date": "2026-03-27",
+        "name": "Imilchil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/262192329",
+      "name": "Le Pin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-pin-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.740256,
+          32.679635
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Le Pin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/262193364",
+      "name": "Café au Printemps",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-au-printemps-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742459,
+          32.683405
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café au Printemps"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/262554756",
+      "name": "Jardin la Cascade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-la-cascade-midelt",
+      "category": "national-parks",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.741752,
+          32.681587
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin la Cascade"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/263324142",
+      "name": "Mosquée Nor مسجد النور",
+      "name_fr": "Mosquée Nor",
+      "name_ar": "مسجد النور",
+      "slug": "mosquee-nor-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.748751,
+          32.688253
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Mosquée Nor مسجد النور",
+        "name:ar": "مسجد النور",
+        "name:fr": "Mosquée Nor",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/289448765",
+      "name": "swika Midelt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "swika-midelt-midelt",
+      "category": "souks",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.743737,
+          32.682121
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "swika Midelt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/289449543",
+      "name": "café Zohor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-zohor-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742746,
+          32.683537
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "café Zohor"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/289449544",
+      "name": "Café de la Gare Routière",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-de-la-gare-routiere-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742901,
+          32.68318
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café de la Gare Routière"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/289449693",
+      "name": "Café Marché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-marche-midelt",
+      "category": "cafes",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.743001,
+          32.682799
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café Marché"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/367079772",
+      "name": "Mosquée An-nour مسجد النور",
+      "name_fr": "Mosquée An-nour",
+      "name_ar": "مسجد النور",
+      "slug": "mosquee-an-nour-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.732506,
+          32.689018
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée An-nour مسجد النور",
+        "name:ar": "مسجد النور",
+        "name:fr": "Mosquée An-nour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/396277232",
+      "name": "Haut Atlas Oriental National Park",
+      "name_fr": "Parc National du Haut Atlas Oriental",
+      "name_ar": "متنزه قومي الأطلس الكبير الشرقي",
+      "slug": "haut-atlas-oriental-national-park-midelt",
+      "category": "national-parks",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.190184,
+          32.329286
+        ]
+      },
+      "osm_tags": {
+        "boundary": "national_park",
+        "leisure": "nature_reserve",
+        "name": "Parc National du Haut Atlas Oriental متنزه قومي الأطلس الكبير الشرقي",
+        "name:ar": "متنزه قومي الأطلس الكبير الشرقي",
+        "name:ber": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⴰⵟⵍⴰⵙ ⵎⵇⵇⵓⵕⵏ ⴰⴳⵎⵓⴹⴰⵏ",
+        "name:de": "Nationalpark Hoher Atlas",
+        "name:en": "Haut Atlas Oriental National Park",
+        "name:fr": "Parc National du Haut Atlas Oriental",
+        "protect_class": "2",
+        "short_name:ar": "الأطلس الكبير الشرقي",
+        "wikidata": "Q3364517",
+        "wikipedia": "en:Haut Atlas Oriental National Park"
+      },
+      "wikidata": "Q3364517",
+      "wikipedia": "en:Haut Atlas Oriental National Park",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/445702630",
+      "name": "Riad Villa Mildelt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-villa-mildelt-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.737326,
+          32.668817
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad Villa Mildelt",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/449045500",
+      "name": "Midelt el Ayachi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "midelt-el-ayachi-midelt",
+      "category": "desert-camps",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.737534,
+          32.677712
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "caravans": "yes",
+        "name": "Midelt el Ayachi",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/449045501",
+      "name": "El Ayachi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-ayachi-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "Midelt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.738132,
+          32.678178
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Midelt",
+        "name": "El Ayachi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/450225548",
+      "name": "Mosquée Saoudia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-saoudia-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742163,
+          32.682424
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Saoudia",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/450225551",
+      "name": "Hotel Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlas-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.742848,
+          32.682084
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Atlas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476119557",
+      "name": "Masjid Ait Mansour مسجد آيت منصور",
+      "name_fr": "Masjid Ait Mansour",
+      "name_ar": "مسجد آيت منصور",
+      "slug": "masjid-ait-mansour-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.738694,
+          32.690729
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Ait Mansour مسجد آيت منصور",
+        "name:ar": "مسجد آيت منصور",
+        "name:fr": "Masjid Ait Mansour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476119728",
+      "name": "Masjid Omar bin Abdul Aziz مسجد عمر بن عبد العزيز",
+      "name_fr": "Masjid Omar bin Abdul Aziz",
+      "name_ar": "مسجد عمر بن عبد العزيز",
+      "slug": "masjid-omar-bin-abdul-aziz-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.739999,
+          32.687628
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Omar bin Abdul Aziz مسجد عمر بن عبد العزيز",
+        "name:ar": "مسجد عمر بن عبد العزيز",
+        "name:fr": "Masjid Omar bin Abdul Aziz",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476119825",
+      "name": "Masjid Badr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-badr-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.741307,
+          32.68467
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Badr",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476122030",
+      "name": "Masjid Riyadh مسجد الرياض",
+      "name_fr": "Masjid Riyadh",
+      "name_ar": "مسجد الرياض",
+      "slug": "masjid-riyadh-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.728876,
+          32.676071
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Riyadh مسجد الرياض",
+        "name:ar": "مسجد الرياض",
+        "name:fr": "Masjid Riyadh",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476124691",
+      "name": "Masjid Ait Bertat مسجد ايت برتات",
+      "name_fr": "Masjid Ait Bertat",
+      "name_ar": "مسجد ايت برتات",
+      "slug": "masjid-ait-bertat-midelt",
+      "category": "mosques",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.741247,
+          32.69112
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Ait Bertat مسجد ايت برتات",
+        "name:ar": "مسجد ايت برتات",
+        "name:fr": "Masjid Ait Bertat",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/509681661",
+      "name": "Hotel Taddart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-taddart-midelt",
+      "category": "hotels",
+      "city": "midelt",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.788358,
+          32.707201
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Taddart",
+        "phone": "+212 535 580228",
+        "tourism": "hotel",
+        "website": "http://www.hotel-taddart.ma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotel-taddart.ma",
+      "phone": "+212 535 580228",
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

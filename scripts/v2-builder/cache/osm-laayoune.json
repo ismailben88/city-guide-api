@@ -1,0 +1,2367 @@
+{
+  "city": "laayoune",
+  "fetched_at": "2026-06-08T11:43:19.669Z",
+  "raw_count": 228,
+  "places": [
+    {
+      "osm_id": "node/1900294488",
+      "name": "Hotel Nagjir Plage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-nagjir-plage-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.389173,
+          27.189624
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Nagjir Plage",
+        "smoking": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2178819066",
+      "name": "Nagjir",
+      "name_fr": "Nagjir",
+      "name_ar": null,
+      "slug": "nagjir-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "6, Place de la Résistance",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.198186,
+          27.150227
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "70000",
+        "addr:street": "Place de la Résistance",
+        "designation": "****",
+        "internet_access": "wlan",
+        "name": "Nagjir",
+        "name:fr": "Nagjir",
+        "phone": "+212 5 28 89 41 68",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 89 41 68",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3303998220",
+      "name": "Bivouac possible",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-possible-laayoune",
+      "category": "desert-camps",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.388184,
+          27.191119
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac possible",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3348552201",
+      "name": "Samir",
+      "name_fr": "Samir",
+      "name_ar": null,
+      "slug": "samir-laayoune",
+      "category": "food-markets",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.234018,
+          27.151687
+        ]
+      },
+      "osm_tags": {
+        "name": "Samir",
+        "name:fr": "Samir",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4105639389",
+      "name": "Dar al Wazir دار الوزير",
+      "name_fr": "Dar al Wazir",
+      "name_ar": "دار الوزير",
+      "slug": "dar-al-wazir-laayoune",
+      "category": "riads",
+      "city": "laayoune",
+      "address": "شارع الخمسون",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.177473,
+          27.138467
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "شارع الخمسون",
+        "name": "Dar al Wazir دار الوزير",
+        "name:ar": "دار الوزير",
+        "name:fr": "Dar al Wazir",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4318668289",
+      "name": "Hôtel Salwan",
+      "name_fr": "Hôtel Salwan",
+      "name_ar": null,
+      "slug": "hotel-salwan-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.187397,
+          27.1427
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Salwan",
+        "name:fr": "Hôtel Salwan",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4487643692",
+      "name": "Via Fleuor فيا فلور",
+      "name_fr": "Via Fleuor",
+      "name_ar": "فيا فلور",
+      "slug": "via-fleuor-laayoune",
+      "category": "local-food",
+      "city": "laayoune",
+      "address": "Place al-Mokkawama, Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.197867,
+          27.150045
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "addr:postcode": "70000",
+        "addr:street": "Place al-Mokkawama",
+        "amenity": "fast_food",
+        "cuisine": "fish;burger;soba;sandwich;sausage;seafood;pizza;chicken;fish_and_chips;spanish;arab;kebab;italian_pizza",
+        "email": "ourhou41@gmail.com",
+        "internet_access": "wlan",
+        "name": "Via Fleuor فيا فلور",
+        "name:ar": "فيا فلور",
+        "name:fr": "Via Fleuor",
+        "opening_hours": "Mo-Su 10:00-03:00",
+        "phone": "+212 6 30 52 56 78"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 30 52 56 78",
+      "stars": null,
+      "opening_hours": "Mo-Su 10:00-03:00"
+    },
+    {
+      "osm_id": "node/4569639590",
+      "name": "Hôtel Rimal Sahara فندق رمال الصحراء",
+      "name_fr": "Hôtel Rimal Sahara",
+      "name_ar": "فندق رمال الصحراء",
+      "slug": "hotel-rimal-sahara-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "شارع ابن بطوطة, العيون",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.217084,
+          27.163248
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "العيون",
+        "addr:postcode": "70000",
+        "addr:street": "شارع ابن بطوطة",
+        "name": "Hôtel Rimal Sahara فندق رمال الصحراء",
+        "name:ar": "فندق رمال الصحراء",
+        "name:fr": "Hôtel Rimal Sahara",
+        "phone": "+212 5 28 99 61 00",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 99 61 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4906746473",
+      "name": "Hôtel Rif فندق الريف",
+      "name_fr": "Hôtel Rif",
+      "name_ar": "فندق الريف",
+      "slug": "hotel-rif-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.205351,
+          27.16418
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Rif فندق الريف",
+        "name:ar": "فندق الريف",
+        "name:fr": "Hôtel Rif",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4936297433",
+      "name": "Arabisque",
+      "name_fr": "Arabisque",
+      "name_ar": null,
+      "slug": "arabisque-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203405,
+          27.163539
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Arabisque",
+        "name:fr": "Arabisque",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4936297434",
+      "name": "La Fontaine",
+      "name_fr": "La Fontaine",
+      "name_ar": null,
+      "slug": "la-fontaine-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203401,
+          27.163601
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "La Fontaine",
+        "name:fr": "La Fontaine",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4954594122",
+      "name": "Ahl al-Makki أهل المكي",
+      "name_fr": "Ahl al-Makki",
+      "name_ar": "اهل المكي",
+      "slug": "ahl-al-makki-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "Place Dchira",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.197372,
+          27.150745
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Place Dchira",
+        "internet_access": "wlan",
+        "name": "Ahl al-Makki أهل المكي",
+        "name:ar": "اهل المكي",
+        "name:fr": "Ahl al-Makki",
+        "opening_hours": "Mo-Su 00:00-24:00",
+        "operator": "300",
+        "phone": "+212 528994983",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 528994983",
+      "stars": null,
+      "opening_hours": "Mo-Su 00:00-24:00"
+    },
+    {
+      "osm_id": "node/5077973854",
+      "name": "Hôtel Parador",
+      "name_fr": "Hôtel Parador",
+      "name_ar": null,
+      "slug": "hotel-parador-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.204594,
+          27.15993
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hôtel Parador",
+        "name:de": "Hotel Parador",
+        "name:es": "Hotel Parador",
+        "name:fr": "Hôtel Parador",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5138033886",
+      "name": "Café Ariha",
+      "name_fr": "Café Ariha",
+      "name_ar": null,
+      "slug": "cafe-ariha-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.200644,
+          27.155985
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Ariha",
+        "name:fr": "Café Ariha"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5300017406",
+      "name": "Mosque Al Imam Chadili",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-al-imam-chadili-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.400342,
+          27.17099
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "مسجد الإمام الشاذلي",
+        "name:en": "Mosque Al Imam Chadili",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5300017417",
+      "name": "Café Rawan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-rawan-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.401016,
+          27.173016
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Rawan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5300017454",
+      "name": "Café Coquillage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-coquillage-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.400376,
+          27.173974
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Coquillage"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5300017469",
+      "name": "Mogador",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mogador-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.39408,
+          27.176282
+        ]
+      },
+      "osm_tags": {
+        "name": "Mogador",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5683631521",
+      "name": "Hôtel Zaamour",
+      "name_fr": "Hôtel Zaamour",
+      "name_ar": null,
+      "slug": "hotel-zaamour-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.200659,
+          27.150058
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hôtel Zaamour",
+        "name:fr": "Hôtel Zaamour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5742460021",
+      "name": "McDonald's",
+      "name_fr": "McDonald's",
+      "name_ar": "ماكدونالدز",
+      "slug": "mcdonald-s-laayoune",
+      "category": "local-food",
+      "city": "laayoune",
+      "address": "Place Dchira, Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.199673,
+          27.15023
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "addr:city:fr": "Laâyoune",
+        "addr:postcode": "70000",
+        "addr:street": "Place Dchira",
+        "addr:street:fr": "Place Dchira",
+        "amenity": "fast_food",
+        "brand": "ماكدونالدز",
+        "brand:ar": "ماكدونالدز",
+        "brand:de": "McDonald's",
+        "brand:en": "McDonald's",
+        "brand:fr": "McDonald's",
+        "brand:ru": "Макдональдс",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "fr:McDonald's",
+        "cuisine": "burger",
+        "name": "ماكدونالدز",
+        "name:ar": "ماكدونالدز",
+        "name:de": "McDonald's",
+        "name:en": "McDonald's",
+        "name:fr": "McDonald's",
+        "name:ru": "Макдональдс",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6025003085",
+      "name": "Snack titanic",
+      "name_fr": "Snack titanic",
+      "name_ar": "سناك تيتانيك",
+      "slug": "snack-titanic-laayoune",
+      "category": "local-food",
+      "city": "laayoune",
+      "address": "Lotissement el ouahda bloc D lot aouda n804",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.172955,
+          27.136692
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "70000",
+        "addr:street": "Lotissement el ouahda bloc D lot aouda n804",
+        "amenity": "fast_food",
+        "cuisine": "burger;steak_house;sandwich",
+        "email": "snack.titanic@gmail.com",
+        "name": "Snack titanic سناك تيتانيك",
+        "name:ar": "سناك تيتانيك",
+        "name:en": "Snack titanic",
+        "name:fr": "Snack titanic",
+        "opening_hours": "Mo-Su 10:00-23:30",
+        "phone": "+212 633550942",
+        "website": "https://m.facebook.com/Snack.Titanic1/?ref"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://m.facebook.com/Snack.Titanic1/?ref",
+      "phone": "+212 633550942",
+      "stars": null,
+      "opening_hours": "Mo-Su 10:00-23:30"
+    },
+    {
+      "osm_id": "node/6088632961",
+      "name": "Gout de Fès",
+      "name_fr": "Gout de Fès",
+      "name_ar": null,
+      "slug": "gout-de-fes-laayoune",
+      "category": "restaurants",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.200433,
+          27.151557
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Gout de Fès",
+        "name:fr": "Gout de Fès"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6187777185",
+      "name": "Tajin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tajin-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202043,
+          27.162146
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Tajin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6187781885",
+      "name": "Kedai Roti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kedai-roti-laayoune",
+      "category": "bakeries",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203175,
+          27.16109
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Kedai Roti",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6188417885",
+      "name": "Lamadone",
+      "name_fr": "Lamadone",
+      "name_ar": null,
+      "slug": "lamadone-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.200352,
+          27.151477
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Lamadone",
+        "name:fr": "Lamadone"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6188601885",
+      "name": "Perah Lemon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "perah-lemon-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.201728,
+          27.153843
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Perah Lemon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6221076286",
+      "name": "Ichwa Frappés aux Fruits et Omelettes",
+      "name_fr": "Ichwa Frappés aux Fruits et Omelettes",
+      "name_ar": null,
+      "slug": "ichwa-frappes-aux-fruits-et-omelettes-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202808,
+          27.156882
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "addr:city:fr": "Laâyoune",
+        "amenity": "cafe",
+        "name": "Ichwa Frappés aux Fruits et Omelettes",
+        "name:fr": "Ichwa Frappés aux Fruits et Omelettes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6793975885",
+      "name": "Sanmao Ancienne Résidence",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sanmao-ancienne-residence-laayoune",
+      "category": "historical-sites",
+      "city": "laayoune",
+      "address": "44, Boulevard Mohamed Al Khallouqi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.213709,
+          27.161257
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "44",
+        "addr:street": "Boulevard Mohamed Al Khallouqi",
+        "name": "Sanmao Ancienne Résidence",
+        "name:zh": "三毛故居",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7178769989",
+      "name": "Ville Marocaine de Laâyoune مدينة العيون المغربية",
+      "name_fr": "Ville Marocaine de Laâyoune",
+      "name_ar": "مدينة العيون المغربية",
+      "slug": "ville-marocaine-de-laayoune-laayoune",
+      "category": "historical-sites",
+      "city": "laayoune",
+      "address": "Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.198152,
+          27.156853
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "name": "Ville Marocaine de Laâyoune مدينة العيون المغربية",
+        "name:ar": "مدينة العيون المغربية",
+        "name:fr": "Ville Marocaine de Laâyoune",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7178772089",
+      "name": "Ville de Laâyoune مدينة العيون",
+      "name_fr": "Ville de Laâyoune",
+      "name_ar": "مدينة العيون",
+      "slug": "ville-de-laayoune-laayoune",
+      "category": "historical-sites",
+      "city": "laayoune",
+      "address": "Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.189649,
+          27.152586
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "name": "Ville de Laâyoune مدينة العيون",
+        "name:ar": "مدينة العيون",
+        "name:fr": "Ville de Laâyoune",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7191588085",
+      "name": "Hôtel Granada",
+      "name_fr": "Hôtel Granada",
+      "name_ar": null,
+      "slug": "hotel-granada-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.410238,
+          27.096465
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Granada",
+        "name:fr": "Hôtel Granada",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7424822892",
+      "name": "Rio del Mar Aparthotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rio-del-mar-aparthotel-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.400743,
+          27.166948
+        ]
+      },
+      "osm_tags": {
+        "name": "Rio del Mar Aparthotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8638080418",
+      "name": "Café Mazagan مقهى مزكان",
+      "name_fr": "Café Mazagan",
+      "name_ar": "مقهى مزكان",
+      "slug": "cafe-mazagan-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.201361,
+          27.162188
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Mazagan مقهى مزكان",
+        "name:ar": "مقهى مزكان",
+        "name:fr": "Café Mazagan",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-22:00"
+    },
+    {
+      "osm_id": "node/9643529517",
+      "name": "Hôtel Beauport",
+      "name_fr": "Hôtel Beauport",
+      "name_ar": null,
+      "slug": "hotel-beauport-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "145, Avenida Príncipe Heredero, El Marsa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.412184,
+          27.099946
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "El Marsa",
+        "addr:city:es": "El Marsa",
+        "addr:housenumber": "145",
+        "addr:street": "Avenida Príncipe Heredero",
+        "addr:street:es": "Avenida Príncipe Heredero",
+        "name": "Hôtel Beauport",
+        "name:fr": "Hôtel Beauport",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9644565118",
+      "name": "Café Beauport",
+      "name_fr": "Café Beauport",
+      "name_ar": null,
+      "slug": "cafe-beauport-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "145, Avenida Príncipe Heredero, El Marsa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.41194,
+          27.100181
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "El Marsa",
+        "addr:city:es": "El Marsa",
+        "addr:housenumber": "145",
+        "addr:street": "Avenida Príncipe Heredero",
+        "addr:street:es": "Avenida Príncipe Heredero",
+        "amenity": "cafe",
+        "name": "Café Beauport",
+        "name:es": "Café Beauport",
+        "name:fr": "Café Beauport"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9644565817",
+      "name": "Restaurante Beauport",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurante-beauport-laayoune",
+      "category": "restaurants",
+      "city": "laayoune",
+      "address": "145, Avenida Príncipe Heredero, El Marsa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.412219,
+          27.099954
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "El Marsa",
+        "addr:city:es": "El Marsa",
+        "addr:housenumber": "145",
+        "addr:street": "Avenida Príncipe Heredero",
+        "addr:street:es": "Avenida Príncipe Heredero",
+        "amenity": "restaurant",
+        "name": "Restaurante Beauport",
+        "name:es": "Restaurante Beauport"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9830996975",
+      "name": "résidence BABEL",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "residence-babel-laayoune",
+      "category": "boutique-hotels",
+      "city": "laayoune",
+      "address": "bd moustakbal, Laayoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.17021,
+          27.130092
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laayoune",
+        "addr:postcode": "70004",
+        "addr:street": "bd moustakbal",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "résidence BABEL",
+        "phone": "+212 7 08 41 26 40",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 7 08 41 26 40",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10731369507",
+      "name": "كرارة الشيخ اميدان تادخست بوكراع العيون",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "laayoune",
+      "category": "riads",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.20558,
+          26.939504
+        ]
+      },
+      "osm_tags": {
+        "name": "كرارة الشيخ اميدان تادخست بوكراع العيون",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10779411486",
+      "name": "Food Lounge Qwiindy",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "food-lounge-qwiindy-laayoune",
+      "category": "restaurants",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.200027,
+          27.156371
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;italian",
+        "name": "Food Lounge Qwiindy"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10779411487",
+      "name": "Hôtel Sahariano",
+      "name_fr": "Hôtel Sahariano",
+      "name_ar": null,
+      "slug": "hotel-sahariano-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.19717,
+          27.151521
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Sahariano",
+        "name:fr": "Hôtel Sahariano",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11091107405",
+      "name": "Café Rio",
+      "name_fr": "Café Rio",
+      "name_ar": null,
+      "slug": "cafe-rio-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "Boulevard de la Mecque",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.197779,
+          27.151418
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "70000",
+        "addr:street": "Boulevard de la Mecque",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Rio",
+        "name:fr": "Café Rio"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11403951669",
+      "name": "Essahel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "essahel-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "111",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.199147,
+          27.148978
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "111",
+        "internet_access": "wlan",
+        "name": "فندق الساحل",
+        "name:en": "Essahel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11477229086",
+      "name": "coffee shop Colombia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "coffee-shop-colombia-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "Rue Khnifra زنقة خنيفرة, Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202392,
+          27.150561
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "addr:street": "Rue Khnifra زنقة خنيفرة",
+        "amenity": "cafe",
+        "cuisine": "coffee",
+        "internet_access": "yes",
+        "name": "coffee shop Colombia",
+        "opening_hours": "Mo-Su 08:00-02:00",
+        "phone": "+212 7 71 80 63 35",
+        "website": "https://www.instagram.com/coffee.shop.colombia?igsh=MTBveGtueGhiZXh2MQ=="
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.instagram.com/coffee.shop.colombia?igsh=MTBveGtueGhiZXh2MQ==",
+      "phone": "+212 7 71 80 63 35",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-02:00"
+    },
+    {
+      "osm_id": "node/11757227149",
+      "name": "star hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "star-hotel-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.184498,
+          27.125111
+        ]
+      },
+      "osm_tags": {
+        "brand": "AC Hotel",
+        "brand:wikidata": "Q5653536",
+        "name": "star hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11757232469",
+      "name": "maamoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maamoun-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202158,
+          27.151851
+        ]
+      },
+      "osm_tags": {
+        "name": "maamoun",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11824945270",
+      "name": "شارع 50",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "50-laayoune",
+      "category": "cafes",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.174403,
+          27.137534
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "شارع 50"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12274188903",
+      "name": "Hôtel Dcheira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dcheira-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.199826,
+          27.149725
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Dcheira",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13918535100",
+      "name": "Andre Luxury Apart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "andre-luxury-apart-laayoune",
+      "category": "boutique-hotels",
+      "city": "laayoune",
+      "address": "05, Avenue Hassan II شارع الحسن الثاني, Laâyoune العيون",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.20599,
+          27.162638
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune العيون",
+        "addr:housename": "residence ocp",
+        "addr:housenumber": "05",
+        "addr:postcode": "70000",
+        "addr:street": "Avenue Hassan II شارع الحسن الثاني",
+        "internet_access:fee": "no",
+        "name": "Andre Luxury Apart",
+        "operator": "Andre Luxury Apart",
+        "phone": "+212669224224",
+        "rooms": "3",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212669224224",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/229372356",
+      "name": "Mosquée Moulad alah",
+      "name_fr": "Mosquée Moulay Abd el Aziz",
+      "name_ar": null,
+      "slug": "mosquee-moulad-alah-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.204539,
+          27.157196
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Moulad alah",
+        "name:fr": "Mosquée Moulay Abd el Aziz",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/229924218",
+      "name": "Mosquée Derham",
+      "name_fr": "Mosquée Derham",
+      "name_ar": null,
+      "slug": "mosquee-derham-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "Rond Point El Houda, Laâyoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.198079,
+          27.135431
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune",
+        "addr:street": "Rond Point El Houda",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Derham",
+        "name:fr": "Mosquée Derham",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/229924696",
+      "name": "Mosquée Miftah al Hamd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-miftah-al-hamd-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.188047,
+          27.138646
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Miftah al Hamd",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/247543284",
+      "name": "ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ali-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.120655,
+          27.253008
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "ali"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/316630932",
+      "name": "Marché Municipal سوق البلدية",
+      "name_fr": "Marché Municipal",
+      "name_ar": "سوق البلدية",
+      "slug": "marche-municipal-laayoune",
+      "category": "souks",
+      "city": "laayoune",
+      "address": "العيون",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.21801,
+          27.160266
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "العيون",
+        "amenity": "marketplace",
+        "name": "Marché Municipal سوق البلدية",
+        "name:ar": "سوق البلدية",
+        "name:fr": "Marché Municipal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/316636984",
+      "name": "Place Ibn Battouta ساحة ابن بطوطة",
+      "name_fr": "Place Ibn Battouta",
+      "name_ar": "ساحة ابن بطوطة",
+      "slug": "place-ibn-battouta-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.216468,
+          27.160989
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place Ibn Battouta ساحة ابن بطوطة",
+        "name:ar": "ساحة ابن بطوطة",
+        "name:fr": "Place Ibn Battouta"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/316777001",
+      "name": "Jardin",
+      "name_fr": "Jardin",
+      "name_ar": null,
+      "slug": "jardin-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "Avenida Enahda, El Marsa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.413228,
+          27.099407
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "El Marsa",
+        "addr:city:es": "El Marsa",
+        "addr:street": "Avenida Enahda",
+        "addr:street:es": "Avenida Enahda",
+        "leisure": "park",
+        "name": "Jardin",
+        "name:es": "Jardín",
+        "name:fr": "Jardin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/607707452",
+      "name": "Mosquée Arraha مسجد الحسن الثاني",
+      "name_fr": "Mosquée Arraha",
+      "name_ar": "مسجد الحسن الثاني",
+      "slug": "mosquee-arraha-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.176156,
+          27.124744
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Mosquée Arraha مسجد الحسن الثاني",
+        "name:ar": "مسجد الحسن الثاني",
+        "name:fr": "Mosquée Arraha",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/608987579",
+      "name": "Jardin Al Wahda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-al-wahda-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.160332,
+          27.140598
+        ]
+      },
+      "osm_tags": {
+        "fee": "no",
+        "leisure": "garden",
+        "name": "Jardin Al Wahda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/628412159",
+      "name": "Hotel San Mao Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-san-mao-sahara-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "Boulevard sidi Boya, laayoune",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.216314,
+          27.163115
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "laayoune",
+        "addr:postcode": "70000",
+        "addr:street": "Boulevard sidi Boya",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "SANMAO",
+        "name": "Hotel San Mao Sahara",
+        "rooms": "0",
+        "smoking": "yes",
+        "stars": "2",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 2,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/635320717",
+      "name": "Hôtel Lakouara",
+      "name_fr": "Hôtel Lakouara",
+      "name_ar": null,
+      "slug": "hotel-lakouara-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.205359,
+          27.162241
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hôtel Lakouara",
+        "name:de": "Hotel Lakouara",
+        "name:es": "Hotel Lakouara",
+        "name:fr": "Hôtel Lakouara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/642021046",
+      "name": "La Grande Bibliothèque المكتبة الكبرى",
+      "name_fr": "La Grande Bibliothèque",
+      "name_ar": "المكتبة الكبرى",
+      "slug": "la-grande-bibliotheque-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203992,
+          27.146885
+        ]
+      },
+      "osm_tags": {
+        "leisure": "garden",
+        "name": "La Grande Bibliothèque المكتبة الكبرى",
+        "name:ar": "المكتبة الكبرى",
+        "name:fr": "La Grande Bibliothèque"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1034649303",
+      "name": "Plage de Laâyoune",
+      "name_fr": "Plage de Laâyoune",
+      "name_ar": null,
+      "slug": "plage-de-laayoune-laayoune",
+      "category": "beaches",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.420777,
+          27.091186
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Laâyoune",
+        "name:es": "Playa de El Aaiún",
+        "name:fr": "Plage de Laâyoune",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1092476391",
+      "name": "Place de la Résistance",
+      "name_fr": "Place de la Résistance",
+      "name_ar": null,
+      "slug": "place-de-la-resistance-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "Place de la Résistance",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.197637,
+          27.15007
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Place de la Résistance",
+        "addr:street:fr": "Place de la Résistance",
+        "leisure": "park",
+        "name": "Place de la Résistance",
+        "name:fr": "Place de la Résistance"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1098678391",
+      "name": "سوق الماشية Marché aux Bestiaux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-aux-bestiaux-laayoune",
+      "category": "souks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.206468,
+          27.111942
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "سوق الماشية Marché aux Bestiaux"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1264839580",
+      "name": "hotel safariyat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-safariyat-laayoune",
+      "category": "hotels",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203092,
+          27.156651
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "hotel safariyat",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1264839641",
+      "name": "xhiwat bladi restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "xhiwat-bladi-restaurant-laayoune",
+      "category": "restaurants",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.203042,
+          27.156475
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "xhiwat bladi restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1264986401",
+      "name": "السوق النموذجي 25 مارس",
+      "name_fr": "Marché 25 Mars",
+      "name_ar": null,
+      "slug": "25-laayoune",
+      "category": "souks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.153181,
+          27.130551
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "السوق النموذجي 25 مارس",
+        "name:fr": "Marché 25 Mars"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1265947180",
+      "name": "Mosquée EL MASSIRA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-el-massira-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.159304,
+          27.133764
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée EL MASSIRA",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266314236",
+      "name": "Marché aux légumes et fruits en gros",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-aux-legumes-et-fruits-en-gros-laayoune",
+      "category": "souks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.184569,
+          27.152254
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché aux légumes et fruits en gros"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266493378",
+      "name": "مسجد الوحدة بلوك I",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "i-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.152854,
+          27.135738
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "مسجد الوحدة بلوك I",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266645421",
+      "name": "Mosquée oum lmouminine Khadija Bint Khuwaylid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-oum-lmouminine-khadija-bint-khuwaylid-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.197409,
+          27.156036
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée oum lmouminine Khadija Bint Khuwaylid",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266807166",
+      "name": "dar dyafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-dyafa-laayoune",
+      "category": "riads",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202923,
+          27.157768
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "dar dyafa",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266928420",
+      "name": "Mosquée SAKIYA AL HAMRA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-sakiya-al-hamra-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.18757,
+          27.158418
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée SAKIYA AL HAMRA",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266950367",
+      "name": "Mosquée KHALID BNOU LWALID",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-khalid-bnou-lwalid-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.18123,
+          27.134199
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée KHALID BNOU LWALID",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266956305",
+      "name": "Mosquée IMAM CHAFII",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-imam-chafii-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.17002,
+          27.131835
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée IMAM CHAFII",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1266958720",
+      "name": "Mosquée AL AMAL",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-amal-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.167668,
+          27.12905
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée AL AMAL",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1267487942",
+      "name": "arhman muskim mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arhman-muskim-mosque-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.202205,
+          27.157892
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "arhman muskim mosque",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1268383887",
+      "name": "Mosquée 84",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-84-laayoune",
+      "category": "mosques",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.167692,
+          27.144178
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée 84",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1279760117",
+      "name": "Saïd Chengriha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "said-chengriha-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "Laâyoune العيون",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.166745,
+          27.10392
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Laâyoune العيون",
+        "leisure": "park",
+        "name": "Saïd Chengriha",
+        "operator": "jardin public",
+        "operator:type": "public"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1449860091",
+      "name": "Jardin Ibn Rochd",
+      "name_fr": null,
+      "name_ar": "حديقة ابن رشد",
+      "slug": "jardin-ibn-rochd-laayoune",
+      "category": "national-parks",
+      "city": "laayoune",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -13.19048,
+          27.156439
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin Ibn Rochd",
+        "name:ar": "حديقة ابن رشد"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

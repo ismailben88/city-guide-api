@@ -1,0 +1,7447 @@
+{
+  "city": "asni",
+  "fetched_at": "2026-06-08T11:50:20.961Z",
+  "raw_count": 2065,
+  "places": [
+    {
+      "osm_id": "node/87828608",
+      "name": "Toubkal",
+      "name_fr": "Jbel Toubkal",
+      "name_ar": "جبل توبقال",
+      "slug": "toubkal-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914944,
+          31.059832
+        ]
+      },
+      "osm_tags": {
+        "alt_name:en": "Tubkal",
+        "ele": "4167",
+        "int_name": "Jabal Tūbqāl",
+        "isolation": "2078",
+        "name": "Jbel Toubkal جبل توبقال",
+        "name:ar": "جبل توبقال",
+        "name:ber": "ⵜⵓⴱⵇⴰⵍ",
+        "name:cs": "Džabal Tubkal",
+        "name:de": "Jbel Toubkal",
+        "name:en": "Toubkal",
+        "name:fr": "Jbel Toubkal",
+        "name:ru": "Тубкаль",
+        "name:uk": "Тубкаль",
+        "natural": "peak",
+        "note": "Altitud elipsoidal tomada en 2022 fue 4219. La altura del geoide EGM2008 es de 62 m, luego, teóricamente, la altura ortométrica debería ser 4157 m y no la que indican todos los mapas, que es la altitud otrométrica que dan todos los GNSS que no tienen en c",
+        "prominence": "3747",
+        "ref:refuges.info": "4192",
+        "source:prominence": "4167-420 (El Meniaa)",
+        "wikidata": "Q503433",
+        "wikimedia_commons": "Category:Jbel Toubkal",
+        "wikipedia": "fr:Djebel Toubkal"
+      },
+      "wikidata": "Q503433",
+      "wikipedia": "fr:Djebel Toubkal",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/87828619",
+      "name": "Kasbah Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-toubkal-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919032,
+          31.132571
+        ]
+      },
+      "osm_tags": {
+        "created_by": "JOSM",
+        "name": "Kasbah Toubkal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/87828621",
+      "name": "Dar Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-imlil-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918643,
+          31.135629
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Imlil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/286290371",
+      "name": "Hotel Le Maquis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-le-maquis-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.746926,
+          31.313592
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Le Maquis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/309969119",
+      "name": "Jardin de Timalizene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-de-timalizene-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.752297,
+          31.34132
+        ]
+      },
+      "osm_tags": {
+        "name": "Jardin de Timalizene",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954902552",
+      "name": "Auberge Lepiney",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-lepiney-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.925785,
+          31.134354
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Lepiney",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1074922700",
+      "name": "Timesguida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "timesguida-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.947127,
+          31.036491
+        ]
+      },
+      "osm_tags": {
+        "ele": "4088",
+        "name": "Timesguida",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226305791",
+      "name": "Aguerd-n-Ourtene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aguerd-n-ourtene-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.770261,
+          31.192936
+        ]
+      },
+      "osm_tags": {
+        "ele": "1960.0",
+        "name": "Aguerd-n-Ourtene",
+        "operator": "Gite d'Etape",
+        "tourism": "hostel",
+        "wpt_symbol": "Residence"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226364853",
+      "name": "Gites d'Etape",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gites-d-etape-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.7685,
+          31.194183
+        ]
+      },
+      "osm_tags": {
+        "ele": "1968.0",
+        "name": "Gites d'Etape",
+        "tourism": "hostel",
+        "wpt_symbol": "Residence"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724011526",
+      "name": "Azzaden Trekking Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azzaden-trekking-lodge-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "BP31 Asni, Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.975657,
+          31.135295
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "addr:street": "BP31 Asni",
+        "name": "Azzaden Trekking Lodge",
+        "rooms": "4",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724011545",
+      "name": "Famille Ait Hammou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "famille-ait-hammou-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Ait Souka",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914871,
+          31.138002
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ait Souka",
+        "name": "Famille Ait Hammou",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724012303",
+      "name": "Guest house Imsker",
+      "name_fr": "Gîte Imsker",
+      "name_ar": "مأوى إمسكر",
+      "slug": "guest-house-imsker-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.938512,
+          31.205501
+        ]
+      },
+      "osm_tags": {
+        "ele": "1440",
+        "name": "Gîte Imsker مأوى إمسكر",
+        "name:ar": "مأوى إمسكر",
+        "name:en": "Guest house Imsker",
+        "name:fr": "Gîte Imsker",
+        "opening_hours": "24/7",
+        "operator": "El housseine",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/1833948106",
+      "name": "Hotel Au Sanglier Qui Fume",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-au-sanglier-qui-fume-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.074351,
+          31.177008
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Au Sanglier Qui Fume",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834362234",
+      "name": "souk asni ⵙⵙⵓⵇ ⵏ ⴰⵙⵏⵉ",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-asni-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978425,
+          31.249252
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "souk asni ⵙⵙⵓⵇ ⵏ ⴰⵙⵏⵉ",
+        "opening_hours": "Sa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Sa"
+    },
+    {
+      "osm_id": "node/1947789150",
+      "name": "Kasbah Angour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-angour-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942901,
+          31.325517
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Angour",
+        "phone": "+212 5244 8 41 21",
+        "tourism": "hotel",
+        "website": "https://kasbahangour.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://kasbahangour.com/",
+      "phone": "+212 5244 8 41 21",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1968136432",
+      "name": "Hotel Topourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-topourika-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.739511,
+          31.309671
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Topourika",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2062150145",
+      "name": "Hotel Top Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-top-ourika-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.721694,
+          31.300883
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Top Ourika",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2098987210",
+      "name": "Taourirt-n-Ikis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taourirt-n-ikis-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.779723,
+          31.219486
+        ]
+      },
+      "osm_tags": {
+        "ele": "3195",
+        "name": "Taourirt-n-Ikis",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2098987212",
+      "name": "Tirsafene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tirsafene-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.814368,
+          31.218968
+        ]
+      },
+      "osm_tags": {
+        "ele": "3066",
+        "name": "Tirsafene",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2138956992",
+      "name": "Restaurant Dar Assarou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-dar-assarou-asni",
+      "category": "moroccan-cuisine",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916694,
+          31.135639
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Restaurant Dar Assarou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2138957020",
+      "name": "Dar Assarou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-assarou-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916765,
+          31.135655
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "designation": "Guest House 1st Category",
+        "name": "Dar Assarou",
+        "smoking": "outside",
+        "source": "Tourism Office",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2186773999",
+      "name": "Akioud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "akioud-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.949666,
+          31.046547
+        ]
+      },
+      "osm_tags": {
+        "ele": "4035",
+        "name": "Akioud",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370493475",
+      "name": "Aourirt n'Ouassif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aourirt-n-ouassif-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903922,
+          31.155168
+        ]
+      },
+      "osm_tags": {
+        "ele": "2726",
+        "name": "Aourirt n'Ouassif",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763782",
+      "name": "Bou Iguenouane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bou-iguenouane-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.812332,
+          31.135747
+        ]
+      },
+      "osm_tags": {
+        "ele": "3882",
+        "name": "Bou Iguenouane",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763786",
+      "name": "Aksoual",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aksoual-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.85838,
+          31.118591
+        ]
+      },
+      "osm_tags": {
+        "ele": "3912",
+        "name": "Aksoual",
+        "natural": "peak",
+        "wikidata": "Q27529317"
+      },
+      "wikidata": "Q27529317",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763800",
+      "name": "Jbel Angmer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jbel-angmer-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.793277,
+          31.151541
+        ]
+      },
+      "osm_tags": {
+        "ele": "3860",
+        "name": "Jbel Angmer",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411975842",
+      "name": "Lepiney",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lepiney-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.928662,
+          31.134266
+        ]
+      },
+      "osm_tags": {
+        "name": "Lepiney",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411984516",
+      "name": "Au Sanglier qui Fume",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "au-sanglier-qui-fume-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.074402,
+          31.177082
+        ]
+      },
+      "osm_tags": {
+        "name": "Au Sanglier qui Fume",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411988265",
+      "name": "La Bergerie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-bergerie-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.057793,
+          31.193332
+        ]
+      },
+      "osm_tags": {
+        "name": "La Bergerie",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2444303853",
+      "name": "Douar Samra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "douar-samra-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903982,
+          31.141686
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "email": "bonjour@douar-samra.net",
+        "name": "Douar Samra",
+        "tourism": "hotel",
+        "website": "https://www.douar-samra.net/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.douar-samra.net/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2637082461",
+      "name": "Aroumd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aroumd-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91703,
+          31.124832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Aroumd",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3050777570",
+      "name": "Auberge Mazik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-mazik-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.92974,
+          31.135231
+        ]
+      },
+      "osm_tags": {
+        "email": "azdourviajes@hotmail.fr",
+        "internet_access": "no",
+        "name": "Auberge Mazik",
+        "phone": "+212 661 240 811",
+        "tourism": "hostel",
+        "website": "http://www.azdourlahcen.com/",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.azdourlahcen.com/",
+      "phone": "+212 661 240 811",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3097315570",
+      "name": "Café Pied de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-pied-de-toubkal-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917434,
+          31.086424
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Pied de Toubkal",
+        "name:hu": "Kávézó a Toubkal lábánál",
+        "phone": "+212 6 59 97 38 81"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 59 97 38 81",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3101189987",
+      "name": "Gite Atlas Mazik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-atlas-mazik-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926926,
+          31.136476
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Atlas Mazik",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3145428402",
+      "name": "Jnane Tahihit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-tahihit-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Douar Makhfamane, Lalla Takarkoust",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.16607,
+          31.332138
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Lalla Takarkoust",
+        "addr:postcode": "40000",
+        "addr:street": "Douar Makhfamane",
+        "comment": "Superbe ferme d'hôtes",
+        "name": "Jnane Tahihit",
+        "operator": "Carole et Robert",
+        "phone": "+212 70 96 59 70",
+        "tourism": "hotel",
+        "website": "https://jnane-tihihit.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://jnane-tihihit.com/",
+      "phone": "+212 70 96 59 70",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3203582762",
+      "name": "Kasbah Tamadot",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tamadot-asni",
+      "category": "luxury-hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.971105,
+          31.222119
+        ]
+      },
+      "osm_tags": {
+        "brand": "Virgin Limited Edition",
+        "name": "Kasbah Tamadot",
+        "phone": "+212 5 24 36 82 00",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.virginlimitededition.com/en/kasbah-tamadot"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.virginlimitededition.com/en/kasbah-tamadot",
+      "phone": "+212 5 24 36 82 00",
+      "stars": 5,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3371981840",
+      "name": "Berber House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-house-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.775053,
+          31.357995
+        ]
+      },
+      "osm_tags": {
+        "name": "Berber House",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277193",
+      "name": "Accueil - Info Point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "accueil-info-point-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.941992,
+          31.305741
+        ]
+      },
+      "osm_tags": {
+        "name": "Accueil - Info Point",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277194",
+      "name": "Entrée Terres d'Amanar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "entree-terres-d-amanar-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943095,
+          31.313882
+        ]
+      },
+      "osm_tags": {
+        "name": "Entrée Terres d'Amanar",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277195",
+      "name": "Espace Acropark",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-acropark-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.944088,
+          31.303648
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Acropark",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277196",
+      "name": "Espace Hébergement",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-hebergement-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943413,
+          31.307625
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Hébergement",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277198",
+      "name": "Espace Park Aerien",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-park-aerien-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942146,
+          31.303859
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Park Aerien",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277199",
+      "name": "Espace Piscine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-piscine-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.941476,
+          31.308552
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Piscine",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277200",
+      "name": "Espace Quad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-quad-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942521,
+          31.305919
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Quad",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277201",
+      "name": "Espace Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-restaurant-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94124,
+          31.308892
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Restaurant",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277202",
+      "name": "Espace Tir à l'Arc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-tir-a-l-arc-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94171,
+          31.306595
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Tir à l'Arc",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277203",
+      "name": "Espace VTT - MTB",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-vtt-mtb-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942447,
+          31.305707
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace VTT - MTB",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277204",
+      "name": "Espace chevaux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-chevaux-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943511,
+          31.313435
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace chevaux",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277205",
+      "name": "Terres D'Amanar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "terres-d-amanar-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94151,
+          31.309994
+        ]
+      },
+      "osm_tags": {
+        "name": "Terres D'Amanar",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3731023754",
+      "name": "Mountain Guide",
+      "name_fr": "Guide De Montagne",
+      "name_ar": null,
+      "slug": "mountain-guide-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920613,
+          31.136554
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:pobox": "BP 5",
+        "addr:postcode": "42152",
+        "name": "Guide De Montagne",
+        "name:en": "Mountain Guide",
+        "name:fr": "Guide De Montagne",
+        "operator": "LAHCEN ASQUARRAY",
+        "shop": "supermarket",
+        "tourism": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3749647424",
+      "name": "Riad Atlas Prestige",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-prestige-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920174,
+          31.133626
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Atlas Prestige",
+        "tourism": "hotel",
+        "website": "https://www.atlas-prestige.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.atlas-prestige.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3903735214",
+      "name": "2200 m",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "2200-m-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918245,
+          31.105442
+        ]
+      },
+      "osm_tags": {
+        "ele": "2200",
+        "name": "2200 m",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3912994761",
+      "name": "Relais Du Lac",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "relais-du-lac-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.147184,
+          31.342143
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Relais Du Lac"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3914807936",
+      "name": "Toubkal Western Peak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-western-peak-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.924561,
+          31.055885
+        ]
+      },
+      "osm_tags": {
+        "ele": "4018",
+        "name": "Toubkal Sommet ouest",
+        "name:en": "Toubkal Western Peak",
+        "name:es": "Toubkal oeste",
+        "name:hu": "Toubkal nyugati csúcs",
+        "natural": "peak",
+        "note": "Altitud elipsoidal menos altura geoide en ese punto según EGM2008",
+        "source": "gps"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3917617579",
+      "name": "Café Ouissemeln",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ouissemeln-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.912969,
+          31.097576
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Café Ouissemeln",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 50 54 76 74"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 50 54 76 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4037173443",
+      "name": "Riad Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-toubkal-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917902,
+          31.135401
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "email": "riadatlastoubkal@gmail.com",
+        "name": "Riad Atlas Toubkal",
+        "tourism": "hotel",
+        "website": "https://riad-atlas-toubkal.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://riad-atlas-toubkal.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111769943",
+      "name": "Le Mouflon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-mouflon-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.081922,
+          31.174984
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Mouflon",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111769944",
+      "name": "Auberge Chez Momo II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-momo-ii-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.077488,
+          31.173701
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Chez Momo II",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/ma/auberge-chez-momo.en-gb.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/auberge-chez-momo.en-gb.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4139695094",
+      "name": "Chez Juju",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-juju-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.861802,
+          31.203906
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Juju",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4159710248",
+      "name": "Anima Heller's Garden",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "anima-heller-s-garden-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.827928,
+          31.402756
+        ]
+      },
+      "osm_tags": {
+        "name:de": "Garten André Heller",
+        "name:en": "Anima Heller's Garden",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4163939491",
+      "name": "Riad Dar Oussagou (Ouassaggou)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-oussagou-ouassaggou-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.9102,
+          31.137989
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "email": "contact@guesthouseouassaggou.com",
+        "guest_house": "pension",
+        "internet_access": "wlan",
+        "name": "Riad Dar Oussagou (Ouassaggou)",
+        "phone": "+212 667 491352",
+        "tourism": "guest_house",
+        "website": "https://www.guesthouseouassaggou.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.guesthouseouassaggou.com",
+      "phone": "+212 667 491352",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4314487189",
+      "name": "Café Chamharouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-chamharouch-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.912833,
+          31.098675
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Chamharouch",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4314487289",
+      "name": "Hotel Solei Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-solei-imlil-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920303,
+          31.136891
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Solei Imlil",
+        "ref:refuges.info": "4190",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4476883189",
+      "name": "fb cafe-aljazira asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fb-cafe-aljazira-asni-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "203",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.98058,
+          31.248887
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "203",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;tea;moroccan",
+        "fixme": "incorrect position",
+        "internet_access": "wlan",
+        "name": "cafe restaurant Al Jazeera Asni",
+        "name:en": "fb cafe-aljazira asni",
+        "phone": "+212 5 24 48 56 71"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 48 56 71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4515574130",
+      "name": "Le jardin du safran",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-jardin-du-safran-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.788725,
+          31.376852
+        ]
+      },
+      "osm_tags": {
+        "name": "Le jardin du safran",
+        "tourism": "attraction",
+        "website": "www.safran-ourika.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.safran-ourika.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4558864790",
+      "name": "Dar Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-atlas-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Ait Souka Imlil, Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911364,
+          31.139457
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "addr:street": "Ait Souka Imlil",
+        "email": "daradouss@gmail.com",
+        "guest_house": "albergue",
+        "internet_access": "wlan",
+        "name": "Dar Adouss",
+        "name:en": "Dar Atlas",
+        "name:nl": "Dar Adous",
+        "opening_hours": "24/7",
+        "operator": "Lahcen ALAHIANE",
+        "phone": "+212 6 66 57 26 38",
+        "rooms": "8",
+        "tourism": "guest_house",
+        "website": "https://redcitygetaways.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://redcitygetaways.com",
+      "phone": "+212 6 66 57 26 38",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4587210839",
+      "name": "Café Tizi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-tizi-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.888813,
+          31.148321
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan;tea",
+        "ele": "2302",
+        "name": "Café Tizi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4587214574",
+      "name": "Camping Tachdirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-tachdirt-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.843704,
+          31.148699
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "contact:instagram": "camping_tachdirt",
+        "email": "simo@gmail.com",
+        "name:en": "Camping Tachdirt",
+        "phone": "+212648668631",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212648668631",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4688818289",
+      "name": "Atri",
+      "name_fr": "Atri",
+      "name_ar": "اتري",
+      "slug": "atri-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.04843,
+          31.197458
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "african;arab;barbecue;breakfast;kebab;regional;tea;turkish",
+        "diet:vegetarian": "yes",
+        "name": "Atri اتري",
+        "name:ar": "اتري",
+        "name:en": "Atri",
+        "name:fr": "Atri",
+        "opening_hours": "Mo-Su 08:00-23:30",
+        "phone": "+212 696 202257"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 696 202257",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-23:30"
+    },
+    {
+      "osm_id": "node/4721899978",
+      "name": "DAR IMPERIAL",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-imperial-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "AREMD, IMLIL, Aroumd",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.915574,
+          31.126428
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Aroumd",
+        "addr:housenumber": "AREMD",
+        "addr:postcode": "42152",
+        "addr:street": "IMLIL",
+        "ele": "2000",
+        "internet_access": "yes",
+        "internet_access:ssid": "Internet adsl",
+        "name": "DAR IMPERIAL",
+        "operator": "ALOJAMIENTO RURAL",
+        "rooms": "9",
+        "smoking": "separated",
+        "tourism": "guest_house",
+        "website": "https://www.darimperial.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darimperial.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4743071008",
+      "name": "Dar Adrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-adrar-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920283,
+          31.133413
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Adrar",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/ma/dar-adrar.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/dar-adrar.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747221420",
+      "name": "Ras Ouanoukrim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ras-ouanoukrim-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.9458,
+          31.041536
+        ]
+      },
+      "osm_tags": {
+        "ele": "4083",
+        "name": "Ras Ouanoukrim",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223021",
+      "name": "Biiguinoussenne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "biiguinoussenne-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.950288,
+          31.065771
+        ]
+      },
+      "osm_tags": {
+        "ele": "3976",
+        "name": "Biiguinoussenne",
+        "natural": "peak",
+        "note": "4002m is not correct as it’s the ellipsoidal altitude, 3976m is the orthometric elevation (means above the sea) and was measured through a survey, please don’t change it back, thanks"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223022",
+      "name": "Afella",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afella-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952278,
+          31.052488
+        ]
+      },
+      "osm_tags": {
+        "ele": "4043",
+        "name": "Afella",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223023",
+      "name": "Talat n'Ifri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "talat-n-ifri-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.959829,
+          31.058472
+        ]
+      },
+      "osm_tags": {
+        "ele": "3980",
+        "name": "Talat n'Ifri",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223036",
+      "name": "Igger n'Abdeli",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "igger-n-abdeli-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.930435,
+          31.035379
+        ]
+      },
+      "osm_tags": {
+        "ele": "3815",
+        "name": "Igger n'Abdeli",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223037",
+      "name": "Bou Ouzzal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bou-ouzzal-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.934403,
+          31.043225
+        ]
+      },
+      "osm_tags": {
+        "ele": "3860",
+        "name": "Bou Ouzzal",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4763620661",
+      "name": "Tagadirt Bour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tagadirt-bour-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.097195,
+          31.152145
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tagadirt Bour",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4778457505",
+      "name": "Ecomuseé Berbere",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecomusee-berbere-asni",
+      "category": "history-museums",
+      "city": "asni",
+      "address": "Tafza",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.778755,
+          31.357807
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tafza",
+        "name": "Ecomuseé Berbere",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4917515828",
+      "name": "Epave moteur avion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "epave-moteur-avion-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917311,
+          31.06849
+        ]
+      },
+      "osm_tags": {
+        "name": "Epave moteur avion",
+        "natural": "peak",
+        "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4917532223",
+      "name": "Tombe des passagers de l'avion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tombe-des-passagers-de-l-avion-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.929761,
+          31.068194
+        ]
+      },
+      "osm_tags": {
+        "historic": "tomb",
+        "name": "Tombe des passagers de l'avion",
+        "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5129080621",
+      "name": "Youth hostel Asni",
+      "name_fr": null,
+      "name_ar": "مأوى الشباب أسني Youth hostel Asni",
+      "slug": "youth-hostel-asni-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.97896,
+          31.248089
+        ]
+      },
+      "osm_tags": {
+        "name": "مأوى الشباب أسني Youth hostel Asni",
+        "name:ar": "مأوى الشباب أسني Youth hostel Asni",
+        "name:en": "Youth hostel Asni",
+        "opening_hours": "24/7",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5129117921",
+      "name": "Camping",
+      "name_fr": null,
+      "name_ar": "مكان للتخييم",
+      "slug": "camping-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.930932,
+          31.202361
+        ]
+      },
+      "osm_tags": {
+        "name": "مكان للتخييم",
+        "name:ar": "مكان للتخييم",
+        "name:en": "Camping",
+        "opening_hours": "24/7",
+        "operator": "Edda Houssa",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5292506421",
+      "name": "atlas imoula",
+      "name_fr": null,
+      "name_ar": "دار الضيافة أطلس ايمولا",
+      "slug": "atlas-imoula-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.913531,
+          31.146394
+        ]
+      },
+      "osm_tags": {
+        "name": "دار الضيافة أطلس ايمولا",
+        "name:ar": "دار الضيافة أطلس ايمولا",
+        "name:en": "atlas imoula",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5318901721",
+      "name": "Café Restaurant Nzaha",
+      "name_fr": "Café Restaurant Nzaha",
+      "name_ar": null,
+      "slug": "cafe-restaurant-nzaha-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "Tahannaout تحناوت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946846,
+          31.362232
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahannaout تحناوت",
+        "amenity": "restaurant",
+        "cuisine": "regional;pizza",
+        "name": "Café Restaurant Nzaha",
+        "name:fr": "Café Restaurant Nzaha",
+        "outdoor_seating": "yes",
+        "phone": "+212-5 24 48 51 70/71"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212-5 24 48 51 70/71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5411780726",
+      "name": "Auberge Dar Tifrouine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-dar-tifrouine-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Lalla Takarkoust",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.130232,
+          31.35136
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Lalla Takarkoust",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Auberge Dar Tifrouine",
+        "rooms": "9",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5456914659",
+      "name": "Ksar Sharma",
+      "name_fr": "Ksar Sharma",
+      "name_ar": null,
+      "slug": "ksar-sharma-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.048977,
+          31.198901
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar Sharma",
+        "name:fr": "Ksar Sharma",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5459364105",
+      "name": "La Kasbah d'Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-d-ourika-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.722353,
+          31.301254
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Kasbah d'Ourika",
+        "phone": "+212 5 25 97 75 70"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 25 97 75 70",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5529275126",
+      "name": "Tizi n'Ou Addi pass (2934 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-ou-addi-pass-2934-m-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.85176,
+          31.171862
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Ou Addi pass (2934 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5530112322",
+      "name": "Tizi n'Tamatert pass (2358 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-tamatert-pass-2358-m-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.883948,
+          31.146542
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Tamatert pass (2358 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5586569222",
+      "name": "Chalet Mostapha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chalet-mostapha-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.864848,
+          31.207118
+        ]
+      },
+      "osm_tags": {
+        "name": "Chalet Mostapha",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5641658501",
+      "name": "مسجد دوار الشهيدة",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.009621,
+          31.421158
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "مسجد دوار الشهيدة",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5884263588",
+      "name": "Free Camping",
+      "name_fr": "Camping gratuit",
+      "name_ar": null,
+      "slug": "free-camping-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.860685,
+          31.060926
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping gratuit",
+        "name:en": "Free Camping",
+        "name:fr": "Camping gratuit",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5986231486",
+      "name": "Roches Aremd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "roches-aremd-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916088,
+          31.12649
+        ]
+      },
+      "osm_tags": {
+        "name": "Roches Aremd",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6022944045",
+      "name": "Tamatert Guesthouse",
+      "name_fr": "Gîte Tamatert",
+      "name_ar": null,
+      "slug": "tamatert-guesthouse-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.906938,
+          31.141588
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "check_date": "2026-05-14",
+        "email": "tamatert32@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Gîte Tamatert",
+        "name:en": "Tamatert Guesthouse",
+        "name:fr": "Gîte Tamatert",
+        "phone": "+212 662091240",
+        "tourism": "guest_house",
+        "website": "https://www.atlasguest.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.atlasguest.com/",
+      "phone": "+212 662091240",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068851545",
+      "name": "Dar Ait Souka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-ait-souka-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.910054,
+          31.139822
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Ait Souka",
+        "phone": "+212 6 68 04 53 10",
+        "tourism": "guest_house",
+        "website": "https://www.dar-aitsouka.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dar-aitsouka.com/",
+      "phone": "+212 6 68 04 53 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068870902",
+      "name": "Musque Ikkiss Amssakrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musque-ikkiss-amssakrou-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.889481,
+          31.166045
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Musque Ikkiss Amssakrou",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068899021",
+      "name": "Café entre les vallées",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-entre-les-vallees-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.860107,
+          31.151081
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café entre les vallées",
+        "phone": "+212 6 10 48 68 30"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 10 48 68 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6092869386",
+      "name": "Waterfall",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "waterfall-asni",
+      "category": "sunset-spots",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914637,
+          31.129771
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Waterfall",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6103701099",
+      "name": "Ouirgane Eco-Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouirgane-eco-lodge-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.045181,
+          31.186224
+        ]
+      },
+      "osm_tags": {
+        "name": "Ouirgane Eco-Lodge",
+        "tourism": "hotel",
+        "website": "https://www.ouirgane-ecolodge.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ouirgane-ecolodge.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6149624785",
+      "name": "Gite Tamsoulte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-tamsoulte-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927984,
+          31.135662
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Tamsoulte",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356885",
+      "name": "Décollage Parapente",
+      "name_fr": "Décollage Parapente",
+      "name_ar": null,
+      "slug": "decollage-parapente-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.065482,
+          31.297118
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Décollage Parapente",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356886",
+      "name": "Décollage Parapente Aznag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "decollage-parapente-aznag-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.072176,
+          31.294675
+        ]
+      },
+      "osm_tags": {
+        "name": "Décollage Parapente Aznag",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356887",
+      "name": "Chez Latifa",
+      "name_fr": "Chez Latifa",
+      "name_ar": null,
+      "slug": "chez-latifa-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.093627,
+          31.300679
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:fr": "Chez Latifa",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356985",
+      "name": "Aznag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aznag-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.072943,
+          31.294261
+        ]
+      },
+      "osm_tags": {
+        "name": "Aznag",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6365496466",
+      "name": "Toubkal Ecolodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-ecolodge-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.906118,
+          31.142184
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "contact:facebook": "riadToubkalecolodge",
+        "email": "rachidtour@gmail.com",
+        "internet_access": "wlan",
+        "name": "Toubkal Ecolodge",
+        "tourism": "guest_house",
+        "website": "https://www.toubkalecolodge.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.toubkalecolodge.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6366309286",
+      "name": "Le Patio du Lac",
+      "name_fr": "Le Patio du Lac",
+      "name_ar": null,
+      "slug": "le-patio-du-lac-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.130433,
+          31.352294
+        ]
+      },
+      "osm_tags": {
+        "contact:facebook": "lepatiodulac",
+        "contact:tripadvisor": "1526796",
+        "internet_access": "wlan",
+        "name": "Le Patio du Lac",
+        "name:fr": "Le Patio du Lac",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6391961685",
+      "name": "Dar Atlas Charme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-atlas-charme-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil 40000 morocco",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903353,
+          31.142005
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Imlil 40000 morocco",
+        "check_date": "2026-05-14",
+        "name": "Dar Atlas Charme",
+        "phone": "+212657794841",
+        "rooms": "3",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212657794841",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6412099033",
+      "name": "Mosquée IMAM MALEK",
+      "name_fr": null,
+      "name_ar": "مسجد الإمام مالك",
+      "slug": "mosquee-imam-malek-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.93549,
+          31.360288
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée IMAM MALEK",
+        "name:ar": "مسجد الإمام مالك",
+        "name:ary": "مسجد الإمام مالك",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6430084985",
+      "name": "Gite Ogog Tachedirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-ogog-tachedirt-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.841384,
+          31.155258
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Ogog Tachedirt",
+        "phone": "+212 6 96 02 90 13",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 02 90 13",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6434265393",
+      "name": "BERBER LODGE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-lodge-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.068505,
+          31.421428
+        ]
+      },
+      "osm_tags": {
+        "name": "BERBER LODGE",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6761188451",
+      "name": "Imouzzer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imouzzer-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91248,
+          31.066181
+        ]
+      },
+      "osm_tags": {
+        "ele": "3966",
+        "name": "Imouzzer",
+        "natural": "peak",
+        "note": "La altitud que estaba puesta anteriormente, superior a 4000 m no era la ortométrica, sino la elipsoidal claramente"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6761188522",
+      "name": "Afella norte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afella-norte-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.951283,
+          31.055867
+        ]
+      },
+      "osm_tags": {
+        "ele": "4025",
+        "name": "Afella norte",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6966667426",
+      "name": "Aiguille d'Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aiguille-d-ifni-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91278,
+          31.059241
+        ]
+      },
+      "osm_tags": {
+        "ele": "4080",
+        "name": "Aiguille d'Ifni",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980170278",
+      "name": "Angour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "angour-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.825498,
+          31.174776
+        ]
+      },
+      "osm_tags": {
+        "ele": "3616",
+        "name": "Angour",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980175141",
+      "name": "Mount Oukaimeden",
+      "name_fr": null,
+      "name_ar": "جبل أوكايمدن",
+      "slug": "mount-oukaimeden-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.862142,
+          31.182178
+        ]
+      },
+      "osm_tags": {
+        "ele": "3255",
+        "name": "Adrar n' Oukaïmeden",
+        "name:ar": "جبل أوكايمدن",
+        "name:en": "Mount Oukaimeden",
+        "name:zgh": "ⴰⴷⵔⴰⵔ ⵏ ⵓⴽⴰⵢⴻⵎⴷⴰⵏ",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980177524",
+      "name": "Adrar Hadj",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adrar-hadj-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.945479,
+          31.107947
+        ]
+      },
+      "osm_tags": {
+        "ele": "3140",
+        "name": "Adrar Hadj",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6987671385",
+      "name": "Atlas Chateau (true location)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-chateau-true-location-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911366,
+          31.140701
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Atlas Chateau (true location)",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7025510092",
+      "name": "Les Terrasses du Lac Marrakech",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-terrasses-du-lac-marrakech-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "Lac De Lalla Takarkoust",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.151921,
+          31.339279
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Lac De Lalla Takarkoust",
+        "amenity": "restaurant",
+        "name": "Les Terrasses du Lac Marrakech",
+        "opening_hours": "Mo-Su 12:00-15:00, 19:00-21:00",
+        "phone": "+212 6 14 08 73 22",
+        "tourism": "hotel",
+        "website": "https://lesterrassesdulacmarrakech.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://lesterrassesdulacmarrakech.com/",
+      "phone": "+212 6 14 08 73 22",
+      "stars": null,
+      "opening_hours": "Mo-Su 12:00-15:00, 19:00-21:00"
+    },
+    {
+      "osm_id": "node/7086622285",
+      "name": "added values view",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "added-values-view-asni",
+      "category": "sunset-spots",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.061473,
+          31.265158
+        ]
+      },
+      "osm_tags": {
+        "name:en": "added values view",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7137075485",
+      "name": "Dar Tassa (Correct Location)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tassa-correct-location-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.027643,
+          31.163896
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Tassa (Correct Location)",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7177792785",
+      "name": "oriiika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oriiika-asni",
+      "category": "sunset-spots",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.983398,
+          31.477938
+        ]
+      },
+      "osm_tags": {
+        "name": "oriiika",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7207135285",
+      "name": "beautiful shop with everything you need",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beautiful-shop-with-everything-you-need-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.805464,
+          31.37682
+        ]
+      },
+      "osm_tags": {
+        "name": "Brahim Ouinzal",
+        "name:en": "beautiful shop with everything you need",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7216745886",
+      "name": "Imouzzer café very good fruit juice 15MAD",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imouzzer-cafe-very-good-fruit-juice-15mad-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.804921,
+          31.377071
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Imouzzer café",
+        "name:en": "Imouzzer café very good fruit juice 15MAD"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7216745887",
+      "name": "Big souk every MONDAY ALL DAY LONG",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "big-souk-every-monday-all-day-long-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.778953,
+          31.375385
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Big souk every MONDAY ALL DAY LONG"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7216771085",
+      "name": "Bakery traditional marrocan pastries, cakes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bakery-traditional-marrocan-pastries-cakes-asni",
+      "category": "bakeries",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.805165,
+          31.376788
+        ]
+      },
+      "osm_tags": {
+        "name": "Bakery",
+        "name:en": "Bakery traditional marrocan pastries, cakes",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7216771086",
+      "name": "Fruits and veggies good price",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fruits-and-veggies-good-price-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.805234,
+          31.376828
+        ]
+      },
+      "osm_tags": {
+        "name": "Fruits and veggies good price",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7216771185",
+      "name": "Fruits and veggies ORGANIC",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fruits-and-veggies-organic-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.804758,
+          31.376539
+        ]
+      },
+      "osm_tags": {
+        "name": "Fruits and veggies ORGANIC",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7223529986",
+      "name": "House and body care (great hammam gloves)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "house-and-body-care-great-hammam-gloves-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.797481,
+          31.372972
+        ]
+      },
+      "osm_tags": {
+        "name": "House and body care (great hammam gloves)",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7223529988",
+      "name": "Woven History Museum",
+      "name_fr": "Musée de l'histoire tissée",
+      "name_ar": null,
+      "slug": "woven-history-museum-asni",
+      "category": "history-museums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.798313,
+          31.371332
+        ]
+      },
+      "osm_tags": {
+        "name": "Woven History Museum",
+        "name:fr": "Musée de l'histoire tissée",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7223529989",
+      "name": "Resto Suisse (seating and take away)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "resto-suisse-seating-and-take-away-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.798145,
+          31.371135
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Resto Suisse (seating and take away)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7223530085",
+      "name": "Mamouchthka restaurant (very good French and english speaking) DIVINE FOOD + VIEW",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mamouchthka-restaurant-very-good-french-and-english-speaking-divine-food-view-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.795742,
+          31.366923
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Mamouchthka restaurant (very good French and english speaking) DIVINE FOOD + VIEW"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7705143986",
+      "name": "Cafe Restaurant Tazrbit",
+      "name_fr": null,
+      "name_ar": "مطعم مقهى تزربت",
+      "slug": "cafe-restaurant-tazrbit-asni",
+      "category": "moroccan-cuisine",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.083464,
+          31.175042
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "email": "caferestaurant.tazrbit@gmail.com",
+        "name": "مطعم مقهى تزربت",
+        "name:ar": "مطعم مقهى تزربت",
+        "name:en": "Cafe Restaurant Tazrbit",
+        "phone": "+212 6 26 82 48 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 26 82 48 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8255011585",
+      "name": "Djebel n'Ouhattar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "djebel-n-ouhattar-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.818811,
+          31.199046
+        ]
+      },
+      "osm_tags": {
+        "ele": "3246",
+        "name": "Djebel n'Ouhattar",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8388552317",
+      "name": "La muraille de l'Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-muraille-de-l-ourika-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.794203,
+          31.366852
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La muraille de l'Ourika",
+        "opening_hours": "Mo-Su,PH 09:00-21:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su,PH 09:00-21:00"
+    },
+    {
+      "osm_id": "node/8390282017",
+      "name": "Marrakech Desert Dome",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marrakech-desert-dome-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Route d’Amizmiz Barrage Lalla Takerkoust",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.141463,
+          31.38625
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "40000",
+        "addr:street": "Route d’Amizmiz Barrage Lalla Takerkoust",
+        "name:en": "Marrakech Desert Dome",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8390288218",
+      "name": "Cafe Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-atlas-toubkal-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919061,
+          31.13612
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "42152",
+        "amenity": "cafe",
+        "name:en": "Cafe Atlas Toubkal",
+        "opening_hours": "Mo-Su 09:00-18:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-18:00"
+    },
+    {
+      "osm_id": "node/8390302617",
+      "name": "Dar Itrane - Superbe Maison Berbère",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-itrane-superbe-maison-berbere-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Route d’Amizmiz",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.063723,
+          31.41415
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "40000",
+        "addr:street": "Route d’Amizmiz",
+        "name:en": "Dar Itrane - Superbe Maison Berbère",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8392255417",
+      "name": "Bucle Imlil Aremd Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bucle-imlil-aremd-imlil-asni",
+      "category": "sunset-spots",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926839,
+          31.134179
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Bucle Imlil Aremd Imlil",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8392265617",
+      "name": "Tuesday Weekly Market",
+      "name_fr": "Souk Hebdomadaire Mardi",
+      "name_ar": null,
+      "slug": "tuesday-weekly-market-asni",
+      "category": "food-markets",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.232919,
+          31.219773
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "42100",
+        "name": "سوق الثلاثاء",
+        "name:en": "Tuesday Weekly Market",
+        "name:fr": "Souk Hebdomadaire Mardi",
+        "opening_hours": "Tu 07:00-13:00",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Tu 07:00-13:00"
+    },
+    {
+      "osm_id": "node/8392271517",
+      "name": "Ourika Valley",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ourika-valley-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.751827,
+          31.344454
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Ourika Valley",
+        "opening_hours": "24/7",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/8881292776",
+      "name": "Les jardins du Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-jardins-du-toubkal-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.90251,
+          31.14282
+        ]
+      },
+      "osm_tags": {
+        "name": "Les jardins du Toubkal",
+        "phone": "+212 6 61 25 36 00",
+        "tourism": "hotel",
+        "website": "lesjardinsdutoubkal.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "lesjardinsdutoubkal.com",
+      "phone": "+212 6 61 25 36 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8944774505",
+      "name": "Kasbah Aftica",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-aftica-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.04797,
+          31.165964
+        ]
+      },
+      "osm_tags": {
+        "email": "info@kasbahafrica.com",
+        "name": "Kasbah Aftica",
+        "phone": "+212 5 24 35 71 85",
+        "tourism": "hotel",
+        "website": "https://www.kasbahafrica.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbahafrica.com/",
+      "phone": "+212 5 24 35 71 85",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9051390978",
+      "name": "Tichki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tichki-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "Douar Talaoul Path",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.888576,
+          31.088656
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Douar Talaoul Path",
+        "ele": "3753",
+        "name": "Tichki",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9105812309",
+      "name": "Dome d'Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dome-d-ifni-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.90332,
+          31.053675
+        ]
+      },
+      "osm_tags": {
+        "description": "peak",
+        "ele": "3876",
+        "name": "Dome d'Ifni",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9105820554",
+      "name": "Afekhoi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afekhoi-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903799,
+          31.075201
+        ]
+      },
+      "osm_tags": {
+        "ele": "3755",
+        "name": "Afekhoi",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9169939241",
+      "name": "Saida Berber House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saida-berber-house-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.10978,
+          31.212311
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "yes",
+        "name": "Saida Berber House",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9169950920",
+      "name": "Logement Imouzar (watch out for bedbugs)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "logement-imouzar-watch-out-for-bedbugs-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.782889,
+          31.18252
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "no",
+        "name": "Logement Imouzar (watch out for bedbugs)",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9775473617",
+      "name": "TatfiBio Cooperative (Argan oil making)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tatfibio-cooperative-argan-oil-making-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.127118,
+          31.370198
+        ]
+      },
+      "osm_tags": {
+        "name:en": "TatfiBio Cooperative (Argan oil making)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9775474517",
+      "name": "Dar Amadine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-amadine-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919403,
+          31.131595
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Amadine",
+        "tourism": "guest_house",
+        "website": "https://daramadine.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://daramadine.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9831648060",
+      "name": "Chez Aicha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-aicha-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.933819,
+          31.362365
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Aicha",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9927985917",
+      "name": "ourika Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ourika-lodge-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.773579,
+          31.360698
+        ]
+      },
+      "osm_tags": {
+        "name": "ourika Lodge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003051405",
+      "name": "Mount Toubkal Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mount-toubkal-lodge-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918078,
+          31.124842
+        ]
+      },
+      "osm_tags": {
+        "name": "Mount Toubkal Lodge",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10154783917",
+      "name": "Riad Malak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-malak-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.078079,
+          31.174427
+        ]
+      },
+      "osm_tags": {
+        "email": "contact@riadmalak.com",
+        "name": "Riad Malak",
+        "phone": "+212 674 679 435",
+        "tourism": "guest_house",
+        "website": "https://www.riadmalak.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadmalak.com",
+      "phone": "+212 674 679 435",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10260888484",
+      "name": "Imi n'Ouasif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imi-n-ouasif-asni",
+      "category": "desert-camps",
+      "city": "asni",
+      "address": "Douar Talaoul Path",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918203,
+          31.042471
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Douar Talaoul Path",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "name": "Imi n'Ouasif",
+        "note": "no buildings present!",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10586772027",
+      "name": "Amazigh Familly Riad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amazigh-familly-riad-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926486,
+          31.137787
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Amazigh Familly Riad",
+        "note": "Name modified (Family -> Familly) as it is locally indicated",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767135",
+      "name": "Café grand atlas asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-grand-atlas-asni-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.981634,
+          31.247519
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café grand atlas asni"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767136",
+      "name": "Boulangerie Pâtisserie Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-patisserie-asni-asni",
+      "category": "bakeries",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.979729,
+          31.249429
+        ]
+      },
+      "osm_tags": {
+        "name": "Boulangerie Pâtisserie Asni",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767137",
+      "name": "Ajiaire tagines",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ajiaire-tagines-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978399,
+          31.250297
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Ajiaire tagines"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767138",
+      "name": "CAFE RESTAURANT AWRIK",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-awrik-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978332,
+          31.250371
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "CAFE RESTAURANT AWRIK"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767145",
+      "name": "Toubkal Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-pizzeria-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978263,
+          31.25088
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Toubkal Pizzeria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767147",
+      "name": "Dar Al Oumouma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-oumouma-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978148,
+          31.251133
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Al Oumouma",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10808921005",
+      "name": "Hôtel Le Flouka",
+      "name_fr": "Hôtel Le Flouka",
+      "name_ar": null,
+      "slug": "hotel-le-flouka-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.147615,
+          31.340065
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Hôtel Le Flouka",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10837257105",
+      "name": "Kasbah Imoula",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-imoula-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920049,
+          31.135869
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Kasbah Imoula",
+        "opening_hours": "24/7",
+        "phone": "+212 6 61 14 01 05",
+        "website": "http://Kasbahimoula.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://Kasbahimoula.com",
+      "phone": "+212 6 61 14 01 05",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/10871824205",
+      "name": "Atlas Tichka",
+      "name_fr": "Atlas Tichka",
+      "name_ar": null,
+      "slug": "atlas-tichka-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91736,
+          31.136721
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Atlas Tichka"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10951317132",
+      "name": "Tassgimout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tassgimout-asni",
+      "category": "mountains",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.954012,
+          31.127108
+        ]
+      },
+      "osm_tags": {
+        "name": "Tassgimout",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10981676733",
+      "name": "Tawont n'Tkhssa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tawont-n-tkhssa-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918076,
+          31.105825
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tawont n'Tkhssa",
+        "opening_hours:signed": "no",
+        "phone": "+212 673 91 14 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 673 91 14 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11048205061",
+      "name": "Gite Village Gliz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-village-gliz-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.884939,
+          31.19524
+        ]
+      },
+      "osm_tags": {
+        "email": "hassan1mahtot@gmail.com",
+        "name": "Gite Village Gliz",
+        "phone": "+212 645190567",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 645190567",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11049103887",
+      "name": "Auberge Matat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-matat-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946158,
+          31.156173
+        ]
+      },
+      "osm_tags": {
+        "email": "aubegematat@gmail.com",
+        "name": "Auberge Matat",
+        "phone": "+212 648 71 99 83",
+        "tourism": "hostel",
+        "website": "https://www.aubergematat.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.aubergematat.com",
+      "phone": "+212 648 71 99 83",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11051496651",
+      "name": "Camping Auberge Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-auberge-atlas-toubkal-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.921415,
+          31.123287
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Auberge Atlas Toubkal",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11053502955",
+      "name": "Café Restaurant Bab Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-bab-toubkal-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919367,
+          31.127978
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant Bab Toubkal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11182734275",
+      "name": "Gite Tizi Oussem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-tizi-oussem-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.973373,
+          31.117608
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Tizi Oussem",
+        "phone": "+212 673 27 95 58",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 673 27 95 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11766584568",
+      "name": "Riad ASLDA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-aslda-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.970568,
+          31.249593
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad ASLDA",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11922025771",
+      "name": "Shortcut to Tinerhourhine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shortcut-to-tinerhourhine-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.890509,
+          31.164479
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Shortcut to Tinerhourhine",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11922048869",
+      "name": "Shortcut to Ikkiss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shortcut-to-ikkiss-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.885023,
+          31.158548
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Shortcut to Ikkiss",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11925376169",
+      "name": "Gite panorama",
+      "name_fr": "Gite panorama",
+      "name_ar": null,
+      "slug": "gite-panorama-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920281,
+          31.132715
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "42152",
+        "internet_access": "wlan",
+        "name:en": "Gite panorama",
+        "name:fr": "Gite panorama",
+        "phone": "+212 6 66 08 07 65",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 08 07 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11940385877",
+      "name": "Jardin bio-aromatique d‘Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-bio-aromatique-d-ourika-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.784386,
+          31.38038
+        ]
+      },
+      "osm_tags": {
+        "name": "Jardin bio-aromatique d‘Ourika",
+        "tourism": "attraction",
+        "url": "https://www.jardin-bioaromatique-ourika.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12061377570",
+      "name": "Les Etoiles de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-etoiles-de-toubkal-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920749,
+          31.136901
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;moroccan",
+        "name": "Les Etoiles de Toubkal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12061386970",
+      "name": "Kasbah Agounsane & Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-agounsane-spa-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.801689,
+          31.35608
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Agounsane & Spa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12061386971",
+      "name": "Azaghar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azaghar-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.798031,
+          31.371619
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Azaghar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12388201873",
+      "name": "Dar Tizi Mizik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tizi-mizik-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927777,
+          31.133837
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Tizi Mizik",
+        "tourism": "guest_house",
+        "website": "https://www.natur-atlas.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.natur-atlas.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12471754401",
+      "name": "Imlil Valley Gargen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imlil-valley-gargen-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919968,
+          31.135123
+        ]
+      },
+      "osm_tags": {
+        "email": "aziambrahim60@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Imlil Valley Gargen",
+        "phone": "+212 5 24 48 52 16",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 48 52 16",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12511045861",
+      "name": "Auberge Hassan",
+      "name_fr": "Chez Hassan",
+      "name_ar": null,
+      "slug": "auberge-hassan-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.929406,
+          31.135103
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Hassan",
+        "name:fr": "Chez Hassan",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12538512103",
+      "name": "Flouka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "flouka-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.147187,
+          31.341631
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Flouka",
+        "outdoor_seating": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12824534641",
+      "name": "Kasbah Beldi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-beldi-asni",
+      "category": "moroccan-cuisine",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.141447,
+          31.316073
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Kasbah Beldi",
+        "outdoor_seating": "yes",
+        "website": "https://kasbahbeldi.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://kasbahbeldi.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12836497401",
+      "name": "Jnane Ayam atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-ayam-atlas-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.774971,
+          31.36687
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Jnane Ayam atlas",
+        "phone": "+221663723060",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+221663723060",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12896348201",
+      "name": "Maison d'hôte Khalid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hote-khalid-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Tamatert",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.902528,
+          31.142442
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Tamatert",
+        "internet_access": "wlan",
+        "name": "Maison d'hôte Khalid",
+        "opening_hours": "24/7",
+        "phone": "+212 6 73 10 62 07",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 10 62 07",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/12954586601",
+      "name": "Camping Afnan Agafay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-afnan-agafay-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.147217,
+          31.394235
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Afnan Agafay",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13267115801",
+      "name": "Snack moulid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-moulid-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920142,
+          31.136193
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "american;chicken;pizza",
+        "name": "Snack moulid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13662744801",
+      "name": "Annexe Les Mouflons",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "annexe-les-mouflons-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "Commune d'Asni, Village d'Imlil, Commune d'Asni, El Houz - Marrakech Village d'Imlil, Marrakech 4215",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.922263,
+          31.135422
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Commune d'Asni, Village d'Imlil, Commune d'Asni, El Houz - Marrakech Village d'Imlil, Marrakech 4215",
+        "amenity": "restaurant",
+        "contact:instagram": "annexelesmouflons",
+        "cuisine": "breakfast;burger;cake;coffee_shop;deli;diner;fine_dining",
+        "name": "Annexe Les Mouflons",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+212 5 24 44 97 67"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 44 97 67",
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-21:00"
+    },
+    {
+      "osm_id": "node/13685089202",
+      "name": "Café 38",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-38-asni",
+      "category": "moroccan-cuisine",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.77606,
+          31.357644
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "internet_access": "wlan",
+        "name": "Café 38"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045124",
+      "name": "Smile House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "smile-house-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917027,
+          31.136578
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "smilehouseimlil@gmail.com",
+        "guest_house": "pension",
+        "mobile": "+212 6 62 05 82 51",
+        "name": "Smile House",
+        "phone": "+212 5 24 48 48 15",
+        "tourism": "guest_house",
+        "website": "https://www.smilehouseimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.smilehouseimlil.com",
+      "phone": "+212 5 24 48 48 15",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045129",
+      "name": "Afla Views",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afla-views-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911073,
+          31.139211
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "air_conditioning": "yes",
+        "contact:instagram": "afla_views",
+        "email": "contactaflaviews@gmail.com",
+        "internet_access": "wlan",
+        "name": "Afla Views",
+        "phone": "+212 6 48 70 82 41",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 48 70 82 41",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045133",
+      "name": "Riad Jnane Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-jnane-imlil-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916634,
+          31.134526
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "riadjnaneimlil@gmail.com",
+        "mobile": "+212 6 68 85 10 01",
+        "name": "Riad Jnane Imlil",
+        "phone": "+212 5 24 48 47 04",
+        "tourism": "guest_house",
+        "website": "https://www.riadjnaneimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadjnaneimlil.com",
+      "phone": "+212 5 24 48 47 04",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045134",
+      "name": "Snack Koukouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-koukouch-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918605,
+          31.136034
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "fast_food",
+        "cuisine": "Burger, Pizza, Sandwich",
+        "name": "Snack Koukouch"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045136",
+      "name": "Riad otos views",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-otos-views-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911221,
+          31.13952
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "riadotosv@gmail.com",
+        "name": "Riad otos views",
+        "phone": "+212 6 76 55 94 56",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 76 55 94 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045144",
+      "name": "Riad Atlas Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-imlil-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914923,
+          31.136403
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:place": "Douar Targa Imoula",
+        "email": "riadatlasimlil@gmail.com",
+        "mobile": "+212 6 67 94 12 60",
+        "name": "Riad Atlas Imlil",
+        "phone": "+212 6 67 27 78 41",
+        "tourism": "guest_house",
+        "website": "https://www.riadatlasimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadatlasimlil.com",
+      "phone": "+212 6 67 27 78 41",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045149",
+      "name": "Cafe & Snack Tamazirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-snack-tamazirt-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916163,
+          31.13555
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "cafe",
+        "name": "Cafe & Snack Tamazirt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13789815166",
+      "name": "targa imoula luxe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "targa-imoula-luxe-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "22003",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917026,
+          31.135859
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "22003",
+        "addr:housename": "targa imoula luxe",
+        "addr:place": "Targa Imoula",
+        "email": "essalmi266@gmail.com",
+        "guest_house": "guest_house",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "targa imoula luxe",
+        "phone": "+212602319606",
+        "rooms": "10",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212602319606",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818618901",
+      "name": "Cafe Tiflot",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-tiflot-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.128222,
+          31.35144
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cafe Tiflot"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818861301",
+      "name": "Dar Noureddine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-noureddine-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.131151,
+          31.352306
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Noureddine",
+        "phone": "+212666032929",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212666032929",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13824585201",
+      "name": "Snack Jamal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-jamal-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.13205,
+          31.359158
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "grill;moroccan;pizza;sandwich",
+        "name": "Snack Jamal",
+        "opening_hours": "Mo-Su 09:00-01:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-01:00"
+    },
+    {
+      "osm_id": "node/13846883781",
+      "name": "Cafe Hucein",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-hucein-asni",
+      "category": "specialty-coffee",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.923793,
+          31.156561
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Hucein",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13847065615",
+      "name": "House of Brothers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "house-of-brothers-asni",
+      "category": "riads",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.976149,
+          31.134642
+        ]
+      },
+      "osm_tags": {
+        "level": "1",
+        "name": "House of Brothers",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13901391827",
+      "name": "Buggy Trip Marrakech",
+      "name_fr": "Buggy Trip Marrakech",
+      "name_ar": null,
+      "slug": "buggy-trip-marrakech-asni",
+      "category": "historical-sites",
+      "city": "asni",
+      "address": "Station Afriquia, Km 16 route d'Amizmiz, Marrakech",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.082057,
+          31.443671
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Marrakech",
+        "addr:postcode": "40000",
+        "addr:street": "Station Afriquia, Km 16 route d'Amizmiz",
+        "attraction": "atv",
+        "contact:instagram": "buggytripmarrakech",
+        "contact:whatsapp": "+212 7 07 01 44 44",
+        "country": "MA",
+        "description": "Guided Can-Am buggy and quad tours in Agafay Desert. Meeting point and fleet base.",
+        "email": "bookings@buggytripmarrakech.com",
+        "name": "Buggy Trip Marrakech",
+        "name:en": "Buggy Trip Marrakech",
+        "name:fr": "Buggy Trip Marrakech",
+        "office": "tour_operator",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+212 7 07 01 44 44",
+        "tourism": "attraction",
+        "website": "https://buggytripmarrakech.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://buggytripmarrakech.com",
+      "phone": "+212 7 07 01 44 44",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-21:00"
+    },
+    {
+      "osm_id": "way/60232620",
+      "name": "Arumd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arumd-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.921727,
+          31.123084
+        ]
+      },
+      "osm_tags": {
+        "name": "Arumd",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/250768130",
+      "name": "Arumd-Sidi Chamarouch-CAF Refuge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arumd-sidi-chamarouch-caf-refuge-asni",
+      "category": "hiking-trekking",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917326,
+          31.109448
+        ]
+      },
+      "osm_tags": {
+        "highway": "path",
+        "name": "Arumd-Sidi Chamarouch-CAF Refuge",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/282509049",
+      "name": "AppartHotel Nzaha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "apparthotel-nzaha-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Centre Tahannaout, Tahannaout تحناوت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946691,
+          31.362676
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahannaout تحناوت",
+        "addr:street": "Centre Tahannaout",
+        "building": "yes",
+        "building:levels": "2",
+        "email": "nzahahotel@gmail.com",
+        "fax": "+ 212-5 24 48 51 73",
+        "internet_access": "yes",
+        "name": "AppartHotel Nzaha",
+        "phone": "+212-5 24 48 51 70/71",
+        "tourism": "hotel",
+        "website": "https://www.hotelnzaha.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotelnzaha.com/",
+      "phone": "+212-5 24 48 51 70/71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/318729555",
+      "name": "Mosquée Ait Souka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ait-souka-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "Ait Souka",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911109,
+          31.140404
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ait Souka",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Ait Souka",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/330244376",
+      "name": "Berber Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berber-market-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.747693,
+          31.314914
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Berber Market",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/360640157",
+      "name": "Masjid Mouley Brahim مسجد مولاي إبراهيم",
+      "name_fr": "Masjid Mouley Brahim",
+      "name_ar": "مسجد مولاي إبراهيم",
+      "slug": "masjid-mouley-brahim-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.968545,
+          31.285987
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "1",
+        "denomination": "sunni",
+        "name": "Masjid Mouley Brahim مسجد مولاي إبراهيم",
+        "name:ar": "مسجد مولاي إبراهيم",
+        "name:fr": "Masjid Mouley Brahim",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/383046157",
+      "name": "Ecomusée du Parc national de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecomusee-du-parc-national-de-toubkal-asni",
+      "category": "history-museums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.970282,
+          31.218953
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Ecomusée du Parc national de Toubkal",
+        "source": "Parc national de Toubkal",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/390560473",
+      "name": "Kasbah Bab Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-bab-ourika-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.763157,
+          31.358674
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Kasbah Bab Ourika",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/398852978",
+      "name": "Souk Tnine Ourika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-tnine-ourika-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.778677,
+          31.375464
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Tnine Ourika"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/414833310",
+      "name": "Anima - Le Retour du Paradis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "anima-le-retour-du-paradis-asni",
+      "category": "national-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.827331,
+          31.401735
+        ]
+      },
+      "osm_tags": {
+        "email": "info@anima-garden.com",
+        "leisure": "garden",
+        "name": "Anima - Le Retour du Paradis",
+        "operator": "Anima Sarl A.U.",
+        "phone": "+212 524 48 20 22",
+        "tourism": "attraction",
+        "website": "https://www.anima-garden.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.anima-garden.com/",
+      "phone": "+212 524 48 20 22",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/431827743",
+      "name": "Hotel Vallee Verte Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-vallee-verte-asni-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.984845,
+          31.236019
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Vallee Verte Asni",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/431828029",
+      "name": "Auberge Jeunesse Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-jeunesse-asni-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.979106,
+          31.247888
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Auberge Jeunesse Asni",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/477458519",
+      "name": "Casa  Lalla Takerkoust",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-lalla-takerkoust-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.130944,
+          31.352082
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Casa  Lalla Takerkoust",
+        "opening_hours": "Mo-Su 12:30-19:30",
+        "outdoor_seating": "yes",
+        "phone": "+212675480103",
+        "smoking": "yes",
+        "website": "http://casalallatakerkoust.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://casalallatakerkoust.com",
+      "phone": "+212675480103",
+      "stars": null,
+      "opening_hours": "Mo-Su 12:30-19:30"
+    },
+    {
+      "osm_id": "way/477458520",
+      "name": "Dar Ouzguita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-ouzguita-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.130985,
+          31.352381
+        ]
+      },
+      "osm_tags": {
+        "email": "darouzguita@hotmail.com",
+        "internet_access": "yes",
+        "name": "Dar Ouzguita",
+        "phone": "+212 6 62 42 13 11",
+        "rooms": "5",
+        "smoking": "yes",
+        "tourism": "hotel",
+        "website": "http://www.darouzguita.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.darouzguita.com",
+      "phone": "+212 6 62 42 13 11",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/483913556",
+      "name": "Le Paradis du Safran",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-paradis-du-safran-asni",
+      "category": "national-parks",
+      "city": "asni",
+      "address": "Ourika أوريكة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.795982,
+          31.389461
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ourika أوريكة",
+        "contact:email": "info@paradis-du-safran.com",
+        "garden:type": "botanical",
+        "leisure": "garden",
+        "name": "Le Paradis du Safran",
+        "phone": "+212 628796979",
+        "website": "http://paradis-du-safran.com",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://paradis-du-safran.com",
+      "phone": "+212 628796979",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/484437254",
+      "name": "Asni Souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asni-souk-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978466,
+          31.24904
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Asni Souk",
+        "opening_hours": "Sa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Sa"
+    },
+    {
+      "osm_id": "way/484592528",
+      "name": "Agrab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "agrab-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.806574,
+          31.376721
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Agrab",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/525228972",
+      "name": "Domaine Malika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "domaine-malika-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.055654,
+          31.194747
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Domaine Malika",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/585637315",
+      "name": "Domaine de la Roseraie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "domaine-de-la-roseraie-asni",
+      "category": "luxury-hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.07262,
+          31.17827
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Domaine de la Roseraie",
+        "smoking": "separated",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/586833391",
+      "name": "Tigmi Tachddirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tigmi-tachddirt-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "4000, Douar Tachddirt, Tacheddirt ⵜⴰⵛⴷⴷⵉⵔⵜ",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.845386,
+          31.155798
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tacheddirt ⵜⴰⵛⴷⴷⵉⵔⵜ",
+        "addr:housenumber": "4000",
+        "addr:street": "Douar Tachddirt",
+        "building": "yes",
+        "name": "Tigmi Tachddirt",
+        "phone": "+212 6 67 59 11 47",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 67 59 11 47",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/684407688",
+      "name": "Souk de Tahannaout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-de-tahannaout-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926667,
+          31.362102
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk de Tahannaout",
+        "opening_hours": "Tu"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Tu"
+    },
+    {
+      "osm_id": "way/684419328",
+      "name": "Café Jnane Zaytoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-jnane-zaytoun-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94767,
+          31.3704
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Jnane Zaytoun",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/684640485",
+      "name": "Le Jardin des Roses",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-jardin-des-roses-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Tahannout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952187,
+          31.386991
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahannout",
+        "addr:place": "Km 28, Route de Tahanoute",
+        "addr:postcode": "42300",
+        "internet_access": "wlan",
+        "name": "Le Jardin des Roses",
+        "phone": "+212 5 24 48 47 56",
+        "rooms": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 48 47 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/700641330",
+      "name": "TIGMI NOMADE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tigmi-nomade-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "Tahanout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927644,
+          31.338851
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahanout",
+        "addr:postcode": "42300",
+        "building": "yes",
+        "email": "momo@tigminomade.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "TIGMI NOMADE",
+        "payment:cash": "yes",
+        "phone": "+212 6 62 10 56 00",
+        "tourism": "hotel",
+        "website": "https://tigminomade.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://tigminomade.com/",
+      "phone": "+212 6 62 10 56 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/705960560",
+      "name": "Moschee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moschee-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.974609,
+          31.364206
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Moschee",
+        "religion": "muslim",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/705960589",
+      "name": "Kinderdorf Dar Bouidar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kinderdorf-dar-bouidar-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.977686,
+          31.363408
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "arab",
+        "name": "Kinderdorf Dar Bouidar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755519933",
+      "name": "Sidi Ahmad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.227033,
+          31.269028
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755654863",
+      "name": "Sidi Abdoullah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdoullah-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.137688,
+          31.42552
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdoullah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755665958",
+      "name": "Moulay Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-brahim-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.063685,
+          31.168737
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Brahim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755665959",
+      "name": "al Mouatamib Bin Abbas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-mouatamib-bin-abbas-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.798047,
+          31.422403
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "al Mouatamib Bin Abbas",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755946164",
+      "name": "Sidi Halim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-halim-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.231499,
+          31.21838
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Halim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051565",
+      "name": "Sidi Ali ou Moughit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-ou-moughit-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952265,
+          31.351725
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali ou Moughit",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756072477",
+      "name": "Sidi Mohammad ou Fars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mohammad-ou-fars-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.93895,
+          31.366684
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohammad ou Fars",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275887",
+      "name": "Sidi Salah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-salah-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.955437,
+          31.342095
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Salah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275888",
+      "name": "Sidi Moulay Brahim Ben Ahmed Mghari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moulay-brahim-ben-ahmed-mghari-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.964944,
+          31.286142
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moulay Brahim Ben Ahmed Mghari",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275893",
+      "name": "Sidi Ali ou Fars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-ou-fars-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.805902,
+          31.272751
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali ou Fars",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/833586999",
+      "name": "L'amandier",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-amandier-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.048454,
+          31.18459
+        ]
+      },
+      "osm_tags": {
+        "name": "L'amandier",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/886778140",
+      "name": "Palais médiéval d'Aghmat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-medieval-d-aghmat-asni",
+      "category": "roman-ruins",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.804627,
+          31.422438
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "medieval",
+        "name": "Palais médiéval d'Aghmat",
+        "ruins": "building"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/997555990",
+      "name": "Toubkal National Park",
+      "name_fr": "Parc National de Toubkal",
+      "name_ar": "المنتزه الوطني لتوبقال",
+      "slug": "toubkal-national-park-asni",
+      "category": "national-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.866699,
+          31.087712
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "منتزه توبقال الوطني;متنزه توبقال الوطني",
+        "boundary": "national_park",
+        "communication:amateur_radio:pota": "MA-0010",
+        "leisure": "nature_reserve",
+        "name": "Parc National de Toubkal المنتزه الوطني لتوبقال",
+        "name:ar": "المنتزه الوطني لتوبقال",
+        "name:ber": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵜⵓⴳⴽⴰⵍ",
+        "name:en": "Toubkal National Park",
+        "name:fr": "Parc National de Toubkal",
+        "protect_class": "2",
+        "wikipedia": "ar:متنزه توبقال الوطني",
+        "wikipedia:ar": "متنزه توبقال الوطني"
+      },
+      "wikidata": null,
+      "wikipedia": "ar:متنزه توبقال الوطني",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1189951245",
+      "name": "Jnane Agresual",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-agresual-asni",
+      "category": "restaurants",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.923249,
+          31.156793
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Jnane Agresual"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1206470784",
+      "name": "Coopérative Adrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cooperative-adrar-asni",
+      "category": "souks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.236073,
+          31.237044
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "craft": "oil_press",
+        "name": "Coopérative Adrar",
+        "operator": "Hafida Ait Houssein",
+        "operator:type": "public",
+        "product": "honey",
+        "social_facility": "workshop",
+        "social_facility:for": "women"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1206613871",
+      "name": "Sidi Chamarouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-chamarouch-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911891,
+          31.097777
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Chamarouch",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1216369033",
+      "name": "Mosquée Tacheddirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tacheddirt-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.844497,
+          31.155822
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Tacheddirt",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1216369034",
+      "name": "Dar Bejmate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bejmate-asni",
+      "category": "hotels",
+      "city": "asni",
+      "address": "42152, Tacheddirt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.844972,
+          31.15591
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tacheddirt",
+        "addr:housenumber": "42152",
+        "building": "yes",
+        "layer": "1",
+        "name": "Dar Bejmate",
+        "phone": "+212 6 73 56 66 67",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 56 66 67",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1218323436",
+      "name": "Café amir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-amir-asni",
+      "category": "cafes",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952046,
+          31.419144
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café amir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1231747160",
+      "name": "Petit Musée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "petit-musee-asni",
+      "category": "art-museums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.826365,
+          31.401526
+        ]
+      },
+      "osm_tags": {
+        "air_conditioning": "yes",
+        "building": "yes",
+        "museum": "art",
+        "name": "Petit Musée",
+        "operator": "Anima Sarl A.U.",
+        "operator:type": "private",
+        "toilets": "no",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1233843473",
+      "name": "Mosquee errahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-errahma-asni",
+      "category": "mosques",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.838997,
+          31.425376
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee errahma",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1242195779",
+      "name": "Abderrahim-pizza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abderrahim-pizza-asni",
+      "category": "local-food",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.932144,
+          31.364444
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Abderrahim-pizza"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1322283203",
+      "name": "Smile Park",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "smile-park-asni",
+      "category": "theme-parks",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.864283,
+          31.458213
+        ]
+      },
+      "osm_tags": {
+        "name": "Smile Park",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1349811190",
+      "name": "Lalla Takerkoust",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-takerkoust-asni",
+      "category": "mausoleums",
+      "city": "asni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.133652,
+          31.36109
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Lalla Takerkoust",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

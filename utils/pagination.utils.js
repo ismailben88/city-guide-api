@@ -4,7 +4,7 @@
  */
 const getPagination = ({ page = 1, limit = 20 } = {}) => {
   const p = Math.max(1, parseInt(page, 10));
-  const l = Math.min(300, Math.max(1, parseInt(limit, 10)));
+  const l = Math.min(1000, Math.max(1, parseInt(limit, 10)));
   return { skip: (p - 1) * l, limit: l, page: p };
 };
 
