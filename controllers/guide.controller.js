@@ -74,7 +74,7 @@ exports.getGuides = asyncHandler(async (req, res) => {
 
   // Public listings only — same predicate as the service's public branch.
   const filter = {
-    $or: [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }],
+    isPublished: true,
     isPaused: { $ne: true },
   };
   if (resolvedCityId) filter.cityIds = resolvedCityId;
