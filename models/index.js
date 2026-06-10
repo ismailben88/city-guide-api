@@ -13,4 +13,5 @@ module.exports = {
   AdminLog:       require("./AdminLog"),
   Favorite:       require("./Favorite"),
   Notification:   require("./Notification"),
+  PageView:       require("./PageView"),
 };
