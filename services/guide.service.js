@@ -53,7 +53,7 @@ const getGuides = async (query) => {
   if (userId) {
     filter.userId = userId;
   } else {
-    filter.$or = [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }];
+    filter.isPublished = true;
     filter.isPaused = { $ne: true };
     if (cityId) filter.cityIds = cityId;
   }
@@ -68,7 +68,7 @@ const getGuides = async (query) => {
 };
 
 const getNearbyGuides = async () => {
-  const guides = await GuideProfile.find({ $or: [{ isPublished: true }, { verificationStatus: "verified" }, { certified: true }], isPaused: { $ne: true } })
+  const guides = await GuideProfile.find({ isPublished: true, isPaused: { $ne: true } })
     .populate(POPULATE_GUIDE)
     .limit(20);
   return guides.map(toFrontend);
@@ -106,7 +106,8 @@ const submitVerificationDocuments = async (guideId, userId, { idDocumentUrl, ent
   const guide = await GuideProfile.findById(guideId);
   if (!guide) throw new ApiError(404, "Guide introuvable");
   if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
-  if (guide.verificationStatus === "verified") throw new ApiError(400, "Profil déjà vérifié");
+  if (guide.certified) throw new ApiError(400, "Profil déjà certifié");
+  if (guide.verificationStatus === "pending") throw new ApiError(400, "Demande de vérification déjà en cours");
   if (!idDocumentUrl || !entrepreneurDocUrl) throw new ApiError(400, "Les deux documents sont requis");
 
   const now = new Date();

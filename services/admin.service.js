@@ -80,6 +80,10 @@ const approvePendingRequest = async (id, adminId) => {
 
     await User.findByIdAndUpdate(userId, { isGuide: true });
     cacheService.delByPrefix("guides");
+    // Purge identity documents submitted with the application (privacy)
+    if (payload.idDocumentUrl || payload.entrepreneurDocUrl) {
+      purgeVerificationDocs({ idDocumentUrl: payload.idDocumentUrl, entrepreneurDocUrl: payload.entrepreneurDocUrl }).catch(() => {});
+    }
     await AdminLog.create({
       adminId, action: "approve_guide_application",
       targetType: "GuideProfile", targetId: userId,
@@ -137,6 +141,10 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
       await GuideProfile.findByIdAndDelete(payload.guideId);
       await User.findByIdAndUpdate(userId, { isGuide: false });
       cacheService.delByPrefix("guides");
+    }
+    // Purge identity documents submitted with the application (privacy)
+    if (payload.idDocumentUrl || payload.entrepreneurDocUrl) {
+      purgeVerificationDocs({ idDocumentUrl: payload.idDocumentUrl, entrepreneurDocUrl: payload.entrepreneurDocUrl }).catch(() => {});
     }
     await AdminLog.create({
       adminId, action: "reject_guide_application",
