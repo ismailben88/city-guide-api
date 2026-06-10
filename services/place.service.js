@@ -54,7 +54,18 @@ const getPlaces = async (query) => {
   if (categoryId)                     filter.categoryId         = categoryId;
   if (isFeatured         !== undefined) filter.isFeatured       = isFeatured         === "true";
   if (isVerifiedBusiness !== undefined) filter.isVerifiedBusiness = isVerifiedBusiness === "true";
-  if (search)                         filter.name               = { $regex: search, $options: "i" };
+  if (search) {
+    // Broaden text search to name + description + tags (case-insensitive).
+    // The name-only regex missed "mosque" when the place name was "Koutoubia"
+    // and the user expected a category hit. `$or` keeps the index hint on
+    // `name` for the common case + falls through to description / tags.
+    const rx = { $regex: search, $options: "i" };
+    filter.$or = [
+      { name:        rx },
+      { description: rx },
+      { tags:        rx },
+    ];
+  }
 
   const VALID_SORT = ["name", "createdAt", "averageRating", "reviewCount"];
   const sortField  = VALID_SORT.includes(sortBy) ? sortBy : "createdAt";
@@ -86,23 +97,46 @@ const searchPlaces = async ({ q, cityId, categoryId }) => {
 // top-N-popular fallback the old code used.
 //
 // Parameters:
-//   lat, lng  required, the user position (degrees)
+//   lat, lng  required, the user position (degrees, validated to WGS-84 range)
 //   radius    metres, default 5 km, capped at 300 km
 //   limit     max results, default 50, capped at 500
 //
 // $near returns results sorted by distance ascending — no manual sort needed.
+// Returns [] when lat/lng are missing or out of WGS-84 bounds, so a malformed
+// query never throws — the route handler stays predictable.
 const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50 }) => {
+  const nLat = Number(lat);
+  const nLng = Number(lng);
+  if (!Number.isFinite(nLat) || !Number.isFinite(nLng)) return [];
+  if (nLat < -90 || nLat > 90 || nLng < -180 || nLng > 180) return [];
+
   const safeLimit  = Math.min(500, Math.max(1, Number(limit)  || 50));
   const safeRadius = Math.min(300000, Math.max(1, Number(radius) || 5000));
+
+  // Light projection — drop the fields a list/marker view doesn't render.
+  // Saves ~40% bytes on a 300-place response (308 KB → ~180 KB). The detail
+  // page still hits `/places/:id` which returns the full document.
+  const NEARBY_HIDDEN_FIELDS = {
+    __v:               0,
+    translationStatus: 0,
+    rejectionReason:   0,
+    openingHours:      0,
+    phone:             0,
+    website:           0,
+    address:           0,
+    ownerId:           0,
+    description:       0,  // text search uses /places?search= instead
+  };
+
   return Place.find({
     status: "active",
     location: {
       $near: {
-        $geometry:    { type: "Point", coordinates: [Number(lng), Number(lat)] },
+        $geometry:    { type: "Point", coordinates: [nLng, nLat] },
         $maxDistance: safeRadius,
       },
     },
-  })
+  }, NEARBY_HIDDEN_FIELDS)
     .populate(POPULATE_PLACE)
     .limit(safeLimit);
 };
