@@ -52,6 +52,24 @@ const approvePendingRequest = async (id, adminId) => {
   if (!request) throw new ApiError(404, "Demande introuvable");
   if (request.status !== "pending") throw new ApiError(400, "Cette demande a déjà été traitée");
 
+  // Guard: for business requests, verify the listing still exists and was not deleted by the owner
+  if (request.requestType === "business_verification") {
+    const place = await Place.findById(request.placeId).select("status").lean();
+    if (!place || place.status === "archived") {
+      await PendingRequest.findByIdAndUpdate(id, {
+        status:     "rejected",
+        reviewedBy: adminId,
+        reason:     "Listing was removed by the owner before this request was processed.",
+      });
+      await AdminLog.create({
+        adminId, action: "auto_reject_business",
+        targetType: "Place", targetId: request.placeId,
+        metadata: { requestId: id, reason: "owner_deleted" },
+      });
+      throw new ApiError(409, "This listing was deleted by its owner. The request has been automatically rejected.");
+    }
+  }
+
   request.status     = "approved";
   request.reviewedBy = adminId;
   await request.save();

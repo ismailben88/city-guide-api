@@ -236,7 +236,9 @@ const getTopPerCity = async ({ perCity = 6, minRating = 0 } = {}) => {
 const getPlaceById = async (id) => {
   if (!id || id === "undefined") throw new ApiError(400, "ID invalide");
 
-  const place = await Place.findById(id)
+  const isObjectId = /^[0-9a-f]{24}$/i.test(id);
+  const query      = isObjectId ? Place.findById(id) : Place.findOne({ slug: id });
+  const place      = await query
     .populate(POPULATE_PLACE)
     .populate("ownerId", "firstName lastName avatarUrl");
 
