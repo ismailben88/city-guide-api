@@ -42,6 +42,9 @@ const userSchema = new Schema(
     isVerified:  { type: Boolean, default: false },
     isActive:    { type: Boolean, default: true },
     isPaused:    { type: Boolean, default: false },
+    // Bumped to invalidate all previously-issued JWTs (e.g. on password change).
+    // Tokens embed `tv`; `protect` rejects any whose `tv` no longer matches.
+    tokenVersion:{ type: Number, default: 0 },
     isEmailVerified: { type: Boolean, default: false },
     lastLoginAt: { type: Date },
 

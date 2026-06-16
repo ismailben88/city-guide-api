@@ -70,8 +70,10 @@ exports.changeMyPassword = asyncHandler(async (req, res) => {
   const { currentPassword, newPassword } = req.body;
   if (!currentPassword || !newPassword)
     throw new ApiError(400, "currentPassword and newPassword are required");
-  await userService.changePassword(req.user._id, currentPassword, newPassword);
-  res.json({ message: "Password updated successfully" });
+  const token = await userService.changePassword(req.user._id, currentPassword, newPassword);
+  // Return a fresh token: the password change bumped tokenVersion, invalidating
+  // the caller's current token — the client must swap in this one to stay in.
+  res.json({ message: "Password updated successfully", token });
 });
 
 // DELETE /users/me — self-service account deactivation

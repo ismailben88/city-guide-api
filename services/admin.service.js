@@ -12,6 +12,7 @@ const ApiError       = require("../utils/ApiError");
 const notify         = require("../helpers/notify");
 const cacheService   = require("./cache.service");
 const { deleteUploadedFiles } = require("./fileCleanup.service");
+const { reconcileEventStatusesThrottled } = require("./eventStatus.service");
 const { getPagination } = require("../utils/pagination.utils");
 
 // Purge verification documents from DB + disk — called after any guide_verification decision
@@ -54,7 +55,7 @@ const approvePendingRequest = async (id, adminId) => {
 
   // Guard: for business requests, verify the listing still exists and was not deleted by the owner
   if (request.requestType === "business_verification") {
-    const place = await Place.findById(request.placeId).select("status").lean();
+    const place = await Place.findById(request.placeId).select("status ownerId").lean();
     if (!place || place.status === "archived") {
       await PendingRequest.findByIdAndUpdate(id, {
         status:     "rejected",
@@ -67,6 +68,12 @@ const approvePendingRequest = async (id, adminId) => {
         metadata: { requestId: id, reason: "owner_deleted" },
       });
       throw new ApiError(409, "This listing was deleted by its owner. The request has been automatically rejected.");
+    }
+    // Ownership guard: never transfer an already-claimed listing to a different
+    // user through a verification request. Only unowned listings (or ones the
+    // requester already owns) may be assigned on approval.
+    if (place.ownerId && place.ownerId.toString() !== request.requestedBy.toString()) {
+      throw new ApiError(409, "This listing already belongs to another owner and cannot be reassigned.");
     }
   }
 
@@ -222,6 +229,9 @@ const getAdminLogs = async (query) => {
 // ─── Dashboard & Stats ────────────────────────────────────────────────────────
 
 const getStats = async () => {
+  // "upcoming events" is counted off the stored status — make sure it's fresh.
+  reconcileEventStatusesThrottled();
+
   const todayStart = new Date();
   todayStart.setHours(0, 0, 0, 0);
 

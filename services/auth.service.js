@@ -2,6 +2,7 @@ const User         = require("../models/User");
 const Notification = require("../models/Notification");
 const ApiError     = require("../utils/ApiError");
 const { signToken } = require("../utils/jwt.utils");
+const { assertStrongPassword } = require("../utils/passwordPolicy");
 const notify       = require("../helpers/notify");
 
 // Send welcome + profile-reminder notifications the first time a user has none.
@@ -28,11 +29,13 @@ const toPublicUser = (user) => ({
 });
 
 const registerUser = async ({ firstName, lastName, email, password, authProvider, avatarUrl }) => {
+  assertStrongPassword(password);
+
   const exists = await User.findOne({ email });
   if (exists) throw new ApiError(400, "Email déjà utilisé");
 
   const user  = await User.create({ firstName, lastName, email, passwordHash: password, authProvider, avatarUrl });
-  const token = signToken(user._id);
+  const token = signToken(user);
 
   // Fire-and-forget: welcome + profile completion reminder
   notify.welcomeUser(user._id, user.firstName).catch(() => {});
@@ -54,7 +57,7 @@ const loginUser = async ({ email, password }) => {
   // Fire-and-forget: send onboarding notifications if user has never received any
   sendOnboardingIfNew(user._id, user.firstName).catch(() => {});
 
-  const token = signToken(user._id);
+  const token = signToken(user);
   return { token, user: toPublicUser(user) };
 };
 
@@ -86,7 +89,7 @@ const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
     notify.profileIncompleteReminder(user._id).catch(() => {});
   }
 
-  const token = signToken(user._id);
+  const token = signToken(user);
   return { token, user: toPublicUser(user) };
 };
 

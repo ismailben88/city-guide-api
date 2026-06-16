@@ -27,8 +27,9 @@ const guideProfileSchema = new Schema(
     // Stored as { code, level } objects; accepts plain strings from older data
     spokenLanguages: [{ code: String, level: { type: String, default: "fluent" } }],
 
-    cityIds:      [{ type: Types.ObjectId, ref: "City" }],
-    pricePerHour: { type: Number, default: 0, min: 0 },
+    cityIds:         [{ type: Types.ObjectId, ref: "City" }],
+    pricePerHour:    { type: Number, default: 0, min: 0 },
+    experienceYears: { type: Number, default: 0, min: 0 },
 
     isPublished:          { type: Boolean, default: false },
     isPaused:             { type: Boolean, default: false },
