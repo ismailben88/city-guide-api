@@ -45,13 +45,21 @@ const resolveCityIds = async (rawIds = []) => {
   return [...ids, ...docs.map((d) => d._id)];
 };
 
-const getGuides = async (query) => {
+const getGuides = async (query, requester = null) => {
   const { cityId, userId, ...rest } = query;
   const { skip, limit, page } = getPagination(rest);
 
   const filter = {};
   if (userId) {
     filter.userId = userId;
+    // Only the owner (or an admin) may see an unpublished/paused profile via a
+    // direct userId lookup; anyone else gets the public predicate.
+    const isPrivileged = requester &&
+      (requester.role === "admin" || requester._id.toString() === String(userId));
+    if (!isPrivileged) {
+      filter.isPublished = true;
+      filter.isPaused = { $ne: true };
+    }
   } else {
     filter.isPublished = true;
     filter.isPaused = { $ne: true };
@@ -164,6 +172,11 @@ const updateGuideProfile = async (id, userId, data) => {
     if (p > 0 && p < 50)      throw new ApiError(400, "Minimum rate is 50 MAD");
     update.pricePerHour = p;
   }
+  if (update.experienceYears !== undefined) {
+    const y = Number(update.experienceYears);
+    if (isNaN(y) || y < 0 || y > 80) throw new ApiError(400, "Invalid experience");
+    update.experienceYears = y;
+  }
 
   if (update.cityIds) update.cityIds = await resolveCityIds(update.cityIds);
 
@@ -196,9 +209,12 @@ const deleteGuideProfile = async (id) => {
   await Media.deleteMany({ parentId: id, parentType: "GuideProfile" });
 };
 
-const updateAvailability = async (id, availability) => {
-  const guide = await GuideProfile.findByIdAndUpdate(id, { availability }, { new: true });
+const updateAvailability = async (id, userId, availability) => {
+  const guide = await GuideProfile.findById(id).select("userId availability");
   if (!guide) throw new ApiError(404, "Guide introuvable");
+  if (guide.userId.toString() !== userId.toString()) throw new ApiError(403, "Accès refusé");
+  guide.availability = availability;
+  await guide.save();
   return guide.availability;
 };
 

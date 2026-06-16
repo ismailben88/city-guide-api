@@ -7,6 +7,7 @@ const PendingRequest = require("../models/PendingRequest");
 const User           = require("../models/User");
 const Comment        = require("../models/Comment");
 const notify         = require("../helpers/notify");
+const { upsertScore, removeScore, recalcRating } = require("../services/rating.service");
 
 async function notifyAdmins(fn) {
   try {
@@ -36,8 +37,19 @@ exports.getMyPendingRequests = asyncHandler(async (req, res) => {
 });
 
 // POST /pendingRequests
+// Only the demand-defining fields are accepted; `status`, `reviewedBy`, `reason`
+// etc. are server-controlled and must never be mass-assigned by the requester.
+const PENDING_REQUEST_USER_FIELDS = ["requestType", "placeId", "payload"];
+
 exports.submitPendingRequest = asyncHandler(async (req, res) => {
-  const request = await PendingRequest.create({ ...req.body, requestedBy: req.user._id });
+  const safe = Object.fromEntries(
+    Object.entries(req.body || {}).filter(([k]) => PENDING_REQUEST_USER_FIELDS.includes(k))
+  );
+  const request = await PendingRequest.create({
+    ...safe,
+    status:      "pending",
+    requestedBy: req.user._id,
+  });
 
   // Notify all admins (fire-and-forget)
   const user = await User.findById(req.user._id).select("firstName lastName").lean();
@@ -109,6 +121,14 @@ exports.getAllComments = asyncHandler(async (req, res) => {
 exports.softDeleteComment = asyncHandler(async (req, res) => {
   const comment = await Comment.findByIdAndUpdate(req.params.id, { status: "deleted" }, { new: true });
   if (!comment) throw new ApiError(404, "Commentaire introuvable");
+  // A moderated review must stop counting toward the rating: drop its Score
+  // and recompute averageRating + reviewCount so they match what's visible.
+  if ((comment.rating ?? 0) > 0) {
+    await removeScore(comment.targetId, comment.targetType, comment.authorId);
+    await recalcRating(comment.targetId, comment.targetType);
+  } else {
+    await recalcRating(comment.targetId, comment.targetType);
+  }
   res.json(comment);
 });
 
@@ -116,6 +136,12 @@ exports.softDeleteComment = asyncHandler(async (req, res) => {
 exports.restoreComment = asyncHandler(async (req, res) => {
   const comment = await Comment.findByIdAndUpdate(req.params.id, { status: "active" }, { new: true });
   if (!comment) throw new ApiError(404, "Commentaire introuvable");
+  // Restoring a review re-instates its Score (if it carried a rating) and
+  // recomputes the denormalised counters.
+  if ((comment.rating ?? 0) > 0) {
+    await upsertScore(comment.targetId, comment.targetType, comment.authorId, comment.rating);
+  }
+  await recalcRating(comment.targetId, comment.targetType);
   res.json(comment);
 });
 

@@ -47,9 +47,14 @@ async function resolveGuideCityId(value) {
 // New contract response:
 //   { data, pagination: { page, limit, total, totalPages, hasNextPage, hasPrevPage }, guides: data }
 exports.getGuides = asyncHandler(async (req, res) => {
+  // A `?userId=` self-lookup can return the owner's unpublished profile, so its
+  // response is request-specific and must never be shared via the public cache.
+  const isPrivateLookup = !!(req.user && req.query.userId);
   const key = cacheService.buildKey(PREFIX, req.query);
-  const cached = cacheService.get(key);
-  if (cached) return res.json(cached);
+  if (!isPrivateLookup) {
+    const cached = cacheService.get(key);
+    if (cached) return res.json(cached);
+  }
 
   const { city, specialty, language, priceMin, priceMax, sort, page, limit } = req.query;
   const usesNewContract = [city, specialty, language, priceMin, priceMax, sort, page, limit]
@@ -58,8 +63,8 @@ exports.getGuides = asyncHandler(async (req, res) => {
   if (!usesNewContract) {
     // Legacy path — preserves the raw array response for callers that have
     // not migrated yet (eg. useGuides({ userId }), useGuidesByCity).
-    const guides = await guideService.getGuides(req.query);
-    cacheService.set(key, guides, cacheService.TTL.GUIDES);
+    const guides = await guideService.getGuides(req.query, req.user);
+    if (!isPrivateLookup) cacheService.set(key, guides, cacheService.TTL.GUIDES);
     return res.json(guides);
   }
 
@@ -80,10 +85,10 @@ exports.getGuides = asyncHandler(async (req, res) => {
   if (resolvedCityId) filter.cityIds = resolvedCityId;
   if (specialty)      filter.specialties = specialty;
   if (language)       filter["spokenLanguages.code"] = language;
-  if (priceMin || priceMax) {
+  if (priceMin !== undefined || priceMax !== undefined) {
     filter.pricePerHour = {};
-    if (priceMin) filter.pricePerHour.$gte = Number(priceMin);
-    if (priceMax) filter.pricePerHour.$lte = Number(priceMax);
+    if (priceMin !== undefined) filter.pricePerHour.$gte = Number(priceMin);
+    if (priceMax !== undefined) filter.pricePerHour.$lte = Number(priceMax);
   }
 
   const sortSpec = GUIDE_SORT_PRESETS[sort] || GUIDE_SORT_PRESETS.rating;
@@ -176,7 +181,7 @@ exports.deleteGuideProfile = asyncHandler(async (req, res) => {
 
 // PUT /guideProfiles/:id/availability
 exports.updateAvailability = asyncHandler(async (req, res) => {
-  const availability = await guideService.updateAvailability(req.params.id, req.body.availability);
+  const availability = await guideService.updateAvailability(req.params.id, req.user._id, req.body.availability);
   cacheService.delByPrefix(PREFIX);
   res.json({ availability });
 });
@@ -216,9 +221,21 @@ exports.selfDeleteGuideProfile = asyncHandler(async (req, res) => {
 // PATCH /guideProfiles/:id/certified  (admin only)
 exports.toggleCertified = asyncHandler(async (req, res) => {
   const GuideProfile = require("../models/GuideProfile");
+  const AdminLog     = require("../models/AdminLog");
   const ApiError     = require("../utils/ApiError");
   const { certified } = req.body;
   if (typeof certified !== "boolean") throw new ApiError(400, "certified must be boolean");
+
+  // A guide cannot be certified unless their identity is verified — the badge
+  // must reflect a real verification, never stand on its own.
+  if (certified) {
+    const current = await GuideProfile.findById(req.params.id).select("verificationStatus");
+    if (!current) throw new ApiError(404, "Guide profile not found");
+    if (current.verificationStatus !== "verified") {
+      throw new ApiError(400, "Guide must be verified before being certified");
+    }
+  }
+
   const guide = await GuideProfile.findByIdAndUpdate(
     req.params.id,
     { certified },
@@ -226,12 +243,20 @@ exports.toggleCertified = asyncHandler(async (req, res) => {
   );
   if (!guide) throw new ApiError(404, "Guide profile not found");
   cacheService.delByPrefix(PREFIX);
+
+  await AdminLog.create({
+    adminId: req.user._id,
+    action: certified ? "certify_guide" : "uncertify_guide",
+    targetType: "GuideProfile", targetId: guide._id,
+  });
+
   res.json({ certified: guide.certified });
 });
 
 // PATCH /guideProfiles/:id/publish  (admin only)
 exports.togglePublish = asyncHandler(async (req, res) => {
   const GuideProfile = require("../models/GuideProfile");
+  const AdminLog     = require("../models/AdminLog");
   const ApiError     = require("../utils/ApiError");
   const { isPublished } = req.body;
   if (typeof isPublished !== "boolean") throw new ApiError(400, "isPublished must be boolean");
@@ -242,24 +267,47 @@ exports.togglePublish = asyncHandler(async (req, res) => {
   );
   if (!guide) throw new ApiError(404, "Guide profile not found");
   cacheService.delByPrefix(PREFIX);
+
+  await AdminLog.create({
+    adminId: req.user._id,
+    action: isPublished ? "publish_guide" : "unpublish_guide",
+    targetType: "GuideProfile", targetId: guide._id,
+  });
+
   res.json({ isPublished: guide.isPublished });
 });
 
 // PATCH /guideProfiles/:id/verify  (admin only)
 exports.verifyGuideProfile = asyncHandler(async (req, res) => {
   const GuideProfile = require("../models/GuideProfile");
+  const AdminLog     = require("../models/AdminLog");
   const ApiError     = require("../utils/ApiError");
   const { status } = req.body;
   const VALID = ["unverified", "pending", "verified", "rejected"];
   if (!VALID.includes(status)) throw new ApiError(400, "Invalid verification status");
 
+  // verifiedBy only makes sense for a "verified" decision; clear it otherwise.
+  // Losing verification also drops the certified badge (it can't outlive it).
+  const update = {
+    verificationStatus: status,
+    verifiedBy: status === "verified" ? req.user._id : null,
+  };
+  if (status !== "verified") update.certified = false;
+
   const guide = await GuideProfile.findByIdAndUpdate(
     req.params.id,
-    { verificationStatus: status, verifiedBy: req.user._id },
+    update,
     { new: true }
   ).populate("userId", "firstName lastName email avatarUrl");
 
   if (!guide) throw new ApiError(404, "Guide profile not found");
   cacheService.delByPrefix(PREFIX);
+
+  await AdminLog.create({
+    adminId: req.user._id,
+    action: `verify_guide_${status}`,
+    targetType: "GuideProfile", targetId: guide._id,
+  });
+
   res.json(guide);
 });

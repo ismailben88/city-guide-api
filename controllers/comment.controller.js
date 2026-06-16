@@ -1,46 +1,13 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Comment      = require("../models/Comment");
-const Score        = require("../models/Score");
+const CommentLike  = require("../models/CommentLike");
 const Place        = require("../models/Place");
 const GuideProfile = require("../models/GuideProfile");
 const Event        = require("../models/Event");
 const notify       = require("../helpers/notify");
 const { Types }    = require("mongoose");
-
-const SCORE_TARGETS = ["Place", "GuideProfile"];
-
-async function upsertScore(targetId, targetType, authorId, rating) {
-  if (!SCORE_TARGETS.includes(targetType) || !rating || rating < 1) return false;
-  await Score.findOneAndUpdate(
-    { targetId, targetType, authorId },
-    { $set: { score: rating } },
-    { upsert: true, new: true, runValidators: true }
-  );
-  return true;
-}
-
-// Recalculate and persist averageRating (from scored reviews) + reviewCount
-// (all active top-level comments) on Place or GuideProfile.
-// Always awaited before the HTTP response so the frontend refetch sees fresh data.
-async function recalcRating(targetId, targetType) {
-  if (!SCORE_TARGETS.includes(targetType)) return;
-  const objId = new Types.ObjectId(targetId);
-  const commentFilter = {
-    targetId: { $in: [String(objId), objId] },
-    targetType, parentCommentId: null, status: "active",
-  };
-  const [scoreStats, commentCount] = await Promise.all([
-    Score.aggregate([
-      { $match: { targetId: objId, targetType } },
-      { $group: { _id: null, avg: { $avg: "$score" } } },
-    ]),
-    Comment.countDocuments(commentFilter),
-  ]);
-  const avg   = scoreStats[0] ? +scoreStats[0].avg.toFixed(2) : 0;
-  const Model = targetType === "Place" ? Place : GuideProfile;
-  await Model.findByIdAndUpdate(targetId, { averageRating: avg, reviewCount: commentCount });
-}
+const { SCORE_TARGETS, upsertScore, removeScore, recalcRating } = require("../services/rating.service");
 
 // Resolves the owner userId and display name for any comment target entity
 async function getEntityOwner(targetId, targetType) {
@@ -66,10 +33,23 @@ async function getEntityOwner(targetId, targetType) {
 // GET /comments?targetId=&targetType=&parentCommentId=
 // Comment.targetId is Schema.Types.Mixed → historic docs store it as String,
 // new docs as ObjectId. Match both forms so seed + live data coexist.
+// Hard cap so a single request can never scan/return the whole collection.
+const COMMENTS_MAX = 500;
+
 exports.getComments = asyncHandler(async (req, res) => {
   const { targetId, targetType, parentCommentId } = req.query;
+  const hasTarget = targetId && targetId !== "undefined";
+  const hasParent = parentCommentId && parentCommentId !== "undefined";
+
+  // Require a scope — without one this used to return every active comment in
+  // the DB (an unbounded scan / accidental data dump). The public callers always
+  // pass either a targetId (a listing's reviews) or a parentCommentId (replies).
+  if (!hasTarget && !hasParent) {
+    throw new ApiError(400, "targetId ou parentCommentId requis");
+  }
+
   const filter = { status: "active" };
-  if (targetId && targetId !== "undefined") {
+  if (hasTarget) {
     if (Types.ObjectId.isValid(targetId) && String(new Types.ObjectId(targetId)) === targetId) {
       filter.targetId = { $in: [targetId, new Types.ObjectId(targetId)] };
     } else {
@@ -81,7 +61,22 @@ exports.getComments = asyncHandler(async (req, res) => {
 
   const comments = await Comment.find(filter)
     .populate("authorId", "firstName lastName avatarUrl")
-    .sort({ createdAt: -1 });
+    .sort({ createdAt: -1 })
+    .limit(COMMENTS_MAX)
+    .lean();
+
+  // Annotate `likedByMe` for the authenticated reader so the like button can
+  // show + toggle the correct state (likes live in CommentLike, not on the doc).
+  if (req.user && comments.length) {
+    const likedIds = await CommentLike.find({
+      userId: req.user._id,
+      commentId: { $in: comments.map((c) => c._id) },
+    }).select("commentId").lean();
+    const likedSet = new Set(likedIds.map((l) => l.commentId.toString()));
+    comments.forEach((c) => { c.likedByMe = likedSet.has(c._id.toString()); });
+  } else {
+    comments.forEach((c) => { c.likedByMe = false; });
+  }
 
   res.json(comments);
 });
@@ -103,10 +98,15 @@ exports.postComment = asyncHandler(async (req, res) => {
     }
   }
 
-  // One website review per user
-  if (targetType === "website" && !parentCommentId) {
+  // One top-level review per user per target. Replies (parentCommentId) are
+  // unlimited; only top-level reviews are capped so reviewCount === unique
+  // reviewers and a single Score per (target, author) stays consistent.
+  if (!parentCommentId) {
     const existing = await Comment.findOne({
-      targetId, targetType, authorId: req.user._id, status: "active",
+      targetId: SCORE_TARGETS.includes(targetType) && Types.ObjectId.isValid(targetId)
+        ? { $in: [targetId, new Types.ObjectId(targetId)] }
+        : targetId,
+      targetType, authorId: req.user._id, status: "active",
     });
     if (existing) throw new ApiError(409, "You have already submitted a review.");
   }
@@ -158,8 +158,14 @@ exports.updateComment = asyncHandler(async (req, res) => {
     { new: true, runValidators: true }
   );
   if (!comment) throw new ApiError(404, "Commentaire introuvable ou non autorisé");
-  const scoreUpdated = await upsertScore(comment.targetId, comment.targetType, req.user._id, req.body.rating);
-  if (scoreUpdated) await recalcRating(comment.targetId, comment.targetType);
+  // Reconcile the Score with the edited rating: a positive rating upserts it,
+  // clearing the rating (0 / falsy) removes it so the mean reflects reality.
+  if (req.body.rating !== undefined) {
+    const changed = Number(req.body.rating) >= 1
+      ? await upsertScore(comment.targetId, comment.targetType, req.user._id, req.body.rating)
+      : await removeScore(comment.targetId, comment.targetType, req.user._id);
+    if (changed) await recalcRating(comment.targetId, comment.targetType);
+  }
   res.json(comment);
 });
 
@@ -175,26 +181,34 @@ exports.deleteComment = asyncHandler(async (req, res) => {
 
   // Remove the associated Score and immediately recalculate averageRating
   if ((comment.rating ?? 0) > 0) {
-    await Score.findOneAndDelete({
-      targetId:   comment.targetId,
-      targetType: comment.targetType,
-      authorId:   comment.authorId,
-    });
+    await removeScore(comment.targetId, comment.targetType, comment.authorId);
     await recalcRating(comment.targetId, comment.targetType);
   }
 
   res.json({ message: "Commentaire supprimé" });
 });
 
-// PATCH /comments/:id — toggle like
-// Body: { delta: 1 } to like, { delta: -1 } to unlike
+// PATCH /comments/:id — toggle like (idempotent, per-user)
+// Body: { delta: 1 } to like, { delta: -1 } to unlike. The like is tracked per
+// user in CommentLike, so repeated calls can't inflate the count and likeCount
+// can never go negative (it's recomputed from the actual like documents).
 exports.toggleLike = asyncHandler(async (req, res) => {
-  const delta = req.body.delta === -1 ? -1 : 1;
-  const comment = await Comment.findByIdAndUpdate(
-    req.params.id,
-    { $inc: { likeCount: delta } },
-    { new: true }
-  );
+  const comment = await Comment.findById(req.params.id).select("_id");
   if (!comment) throw new ApiError(404, "Commentaire introuvable");
-  res.json({ likeCount: comment.likeCount });
+
+  const wantsLike = req.body.delta !== -1;
+  if (wantsLike) {
+    // upsert — duplicate key (already liked) is a no-op
+    await CommentLike.updateOne(
+      { commentId: comment._id, userId: req.user._id },
+      { $setOnInsert: { commentId: comment._id, userId: req.user._id } },
+      { upsert: true }
+    );
+  } else {
+    await CommentLike.deleteOne({ commentId: comment._id, userId: req.user._id });
+  }
+
+  const likeCount = await CommentLike.countDocuments({ commentId: comment._id });
+  await Comment.findByIdAndUpdate(comment._id, { likeCount });
+  res.json({ likeCount, liked: wantsLike });
 });

@@ -8,6 +8,7 @@ const City         = require("../models/City");
 const { escapeRegex } = require("../utils/regex.utils");
 const cacheService = require("../services/cache.service");
 const notify       = require("../helpers/notify");
+const { reconcileEventStatusesThrottled } = require("../services/eventStatus.service");
 
 const PREFIX = "events";
 
@@ -76,6 +77,9 @@ function pickUserFields(body, allowed) {
 //   { data, pagination: { page, limit, total, totalPages, hasNextPage, hasPrevPage } }
 // Also retains legacy fields (`events`, `total`, `hasNext`, `hasPrev`).
 exports.getEvents = asyncHandler(async (req, res) => {
+  // Keep stored statuses fresh so `?status=` filtering is accurate (throttled).
+  reconcileEventStatusesThrottled();
+
   const key    = cacheService.buildKey(PREFIX, req.query);
   const cached = cacheService.get(key);
   if (cached) return res.json(cached);
