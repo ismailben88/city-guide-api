@@ -341,12 +341,37 @@ const claimBusiness = async ({ placeId, userId, payload }) => {
   });
 };
 
+// Real place count per category across the WHOLE active dataset — powers the
+// accurate filter-chip badges on PlacesPage (the frontend otherwise had to
+// estimate from a small loaded sample, e.g. "Restaurants 46" when the true
+// total is 961). Optionally scoped to a city. Cached (cheap, hot path).
+const getCategoryCounts = async ({ cityId } = {}) => {
+  const key = cacheService.buildKey("places:cat-counts", { cityId: cityId || "all" });
+  const cached = cacheService.get(key);
+  if (cached) return cached;
+
+  const match = { status: "active" };
+  if (cityId) match.cityId = new (require("mongoose").Types.ObjectId)(cityId);
+
+  const rows = await Place.aggregate([
+    { $match: match },
+    { $group: { _id: "$categoryId", count: { $sum: 1 } } },
+  ]);
+  const result = rows
+    .filter((r) => r._id)
+    .map((r) => ({ categoryId: String(r._id), count: r.count }));
+
+  cacheService.set(key, result, cacheService.TTL.PLACES);
+  return result;
+};
+
 module.exports = {
   getPlaces,
   searchPlaces,
   getNearbyPlaces,
   getTopPlaces,
   getTopPerCity,
+  getCategoryCounts,
   getMarkers,
   getPlaceById,
   createPlace,

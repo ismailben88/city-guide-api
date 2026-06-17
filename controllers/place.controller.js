@@ -200,6 +200,13 @@ exports.getTopPlaces = asyncHandler(async (req, res) => {
   res.json(places);
 });
 
+// GET /places/category-counts?cityId=  — real per-category totals (active places)
+exports.getCategoryCounts = asyncHandler(async (req, res) => {
+  const cityId = isObjectId(req.query.cityId) ? req.query.cityId : undefined;
+  const counts = await placeService.getCategoryCounts({ cityId });
+  res.json(counts);
+});
+
 // GET /places/top-per-city?perCity=6&minRating=4
 exports.getTopPerCity = asyncHandler(async (req, res) => {
   const places = await placeService.getTopPerCity({
