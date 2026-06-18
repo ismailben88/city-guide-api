@@ -39,9 +39,24 @@ async function resolveCityId(value) {
  */
 async function resolveCategoryId(value) {
   if (!value) return null;
-  if (isObjectId(value)) return value;
+  const raw = String(value);
+  // Comma-separated list (a parent group's leaf categories, e.g.
+  // "restaurants,cafes,street-food") → resolve each and return an ARRAY of ids.
+  // `getPlaces`/`getMarkers` turn an array into a `$in` filter so a parent group
+  // browses its WHOLE catalogue server-side instead of a client-side sample.
+  if (raw.includes(",")) {
+    const parts = raw.split(",").map((s) => s.trim()).filter(Boolean);
+    const ids = [];
+    for (const part of parts) {
+      if (isObjectId(part)) { ids.push(part); continue; }
+      const doc = await Category.findOne({ $or: [{ slug: part.toLowerCase() }, { name: part }] }).select("_id");
+      if (doc) ids.push(doc._id);
+    }
+    return ids.length ? ids : undefined;
+  }
+  if (isObjectId(raw)) return raw;
   const doc = await Category.findOne({
-    $or: [{ slug: String(value).toLowerCase() }, { name: value }],
+    $or: [{ slug: raw.toLowerCase() }, { name: value }],
   }).select("_id");
   return doc ? doc._id : undefined;
 }

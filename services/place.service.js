@@ -51,7 +51,7 @@ const getPlaces = async (query) => {
   const filter = {};
   if (status !== "all")               filter.status             = status;
   if (cityId)                         filter.cityId             = cityId;
-  if (categoryId)                     filter.categoryId         = categoryId;
+  if (categoryId)                     filter.categoryId         = Array.isArray(categoryId) ? { $in: categoryId } : categoryId;
   if (isFeatured         !== undefined) filter.isFeatured       = isFeatured         === "true";
   if (isVerifiedBusiness !== undefined) filter.isVerifiedBusiness = isVerifiedBusiness === "true";
   if (search) {
@@ -152,7 +152,7 @@ const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50 }) => {
 const getMarkers = async ({ cityId, categoryId, status = "active" } = {}) => {
   const filter = { status };
   if (cityId)     filter.cityId     = cityId;
-  if (categoryId) filter.categoryId = categoryId;
+  if (categoryId) filter.categoryId = Array.isArray(categoryId) ? { $in: categoryId } : categoryId;
 
   return Place.aggregate([
     { $match: filter },
