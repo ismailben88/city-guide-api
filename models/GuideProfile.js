@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
+const { GUIDE_SPECIALTIES } = require("../constants/guideSpecialties");
 
 const slotSchema = new Schema(
   { start: { type: String }, end: { type: String } },
@@ -22,7 +23,10 @@ const guideProfileSchema = new Schema(
     bio:      { type: String, default: "" },
     bannerUrl:{ type: String, default: "" },
 
-    specialties: [{ type: String, trim: true }],
+    // Constrained to the canonical taxonomy — free-text specialties are rejected
+    // at write time so the Become-a-Guide form, hero search and Guides filter all
+    // stay aligned on the same 16 ids.
+    specialties: [{ type: String, trim: true, enum: GUIDE_SPECIALTIES }],
 
     // Stored as { code, level } objects; accepts plain strings from older data
     spokenLanguages: [{ code: String, level: { type: String, default: "fluent" } }],
