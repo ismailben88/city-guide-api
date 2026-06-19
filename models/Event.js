@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
+const { EVENT_CATEGORIES } = require("../constants/eventCategories");
 
 const eventSchema = new Schema(
   {
@@ -20,7 +21,7 @@ const eventSchema = new Schema(
 
     category: {
       type: String,
-      enum: ["concert", "exhibition", "theatre", "sport", "festival", "music", "culture", "art", "workshop", "other"],
+      enum: EVENT_CATEGORIES,
       default: "other",
     },
 

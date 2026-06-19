@@ -49,7 +49,7 @@ const loginUser = async ({ email, password }) => {
   if (!user || !(await user.verifyPassword(password)))
     throw new ApiError(401, "Email ou mot de passe incorrect");
 
-  if (!user.isActive) throw new ApiError(403, "Compte désactivé");
+  if (!user.isActive) throw new ApiError(403, "auth_error.account_disabled");
 
   user.lastLoginAt = new Date();
   await user.save({ validateBeforeSave: false });
@@ -69,7 +69,7 @@ const socialAuth = async ({ provider, accountId, email, name, avatar }) => {
   let user = await User.findOne({ email });
 
   if (user) {
-    if (!user.isActive) throw new ApiError(403, "Compte désactivé");
+    if (!user.isActive) throw new ApiError(403, "auth_error.account_disabled");
     user.lastLoginAt = new Date();
     await user.save({ validateBeforeSave: false });
     // Fire-and-forget: onboarding notifications for existing social users
