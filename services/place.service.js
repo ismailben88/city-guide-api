@@ -99,23 +99,28 @@ const searchPlaces = async ({ q, cityId, categoryId }) => {
 // Parameters:
 //   lat, lng  required, the user position (degrees, validated to WGS-84 range)
 //   radius    metres, default 5 km, capped at 300 km
-//   limit     max results, default 50, capped at 500
+//   limit     max results, default 50, capped at 800
+//   perCity   max results PER city, default 80, capped at 200
 //
-// $near returns results sorted by distance ascending — no manual sort needed.
-// Returns [] when lat/lng are missing or out of WGS-84 bounds, so a malformed
-// query never throws — the route handler stays predictable.
-const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50 }) => {
+// FAIR REGIONAL COVERAGE: a plain `$near … .limit(N)` returns the N nearest
+// places overall, sorted by distance. When a dense metro sits near the user
+// (e.g. Casablanca + Mohammedia ≈ 300 places) it consumes the whole budget and
+// STARVES farther-but-in-radius cities (El Jadida has 209 places ~86 km away yet
+// showed zero). Travel-map UIs avoid this by capping each city's contribution.
+// We `$geoNear` (distance-sorted), keep the `perCity` nearest per city, then
+// apply the global limit — so every in-radius city is represented.
+// Returns [] when lat/lng are missing or out of WGS-84 bounds.
+const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50, perCity = 80 }) => {
   const nLat = Number(lat);
   const nLng = Number(lng);
   if (!Number.isFinite(nLat) || !Number.isFinite(nLng)) return [];
   if (nLat < -90 || nLat > 90 || nLng < -180 || nLng > 180) return [];
 
-  const safeLimit  = Math.min(500, Math.max(1, Number(limit)  || 50));
-  const safeRadius = Math.min(300000, Math.max(1, Number(radius) || 5000));
+  const safeLimit   = Math.min(800, Math.max(1, Number(limit)   || 50));
+  const safeRadius  = Math.min(300000, Math.max(1, Number(radius) || 5000));
+  const safePerCity = Math.min(200, Math.max(10, Number(perCity) || 80));
 
   // Light projection — drop the fields a list/marker view doesn't render.
-  // Saves ~40% bytes on a 300-place response (308 KB → ~180 KB). The detail
-  // page still hits `/places/:id` which returns the full document.
   const NEARBY_HIDDEN_FIELDS = {
     __v:               0,
     translationStatus: 0,
@@ -128,17 +133,30 @@ const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50 }) => {
     description:       0,  // text search uses /places?search= instead
   };
 
-  return Place.find({
-    status: "active",
-    location: {
-      $near: {
-        $geometry:    { type: "Point", coordinates: [nLng, nLat] },
-        $maxDistance: safeRadius,
-      },
-    },
-  }, NEARBY_HIDDEN_FIELDS)
-    .populate(POPULATE_PLACE)
-    .limit(safeLimit);
+  const docs = await Place.aggregate([
+    // $geoNear MUST be first; outputs docs sorted by ascending distance.
+    { $geoNear: {
+        near:          { type: "Point", coordinates: [nLng, nLat] },
+        distanceField: "distance",
+        maxDistance:   safeRadius,
+        spherical:     true,
+        query:         { status: "active" },
+    }},
+    // Keep only the `perCity` nearest per city (the $push order is the
+    // distance order from $geoNear), so a dense metro can't starve neighbours.
+    { $group:       { _id: "$cityId", docs: { $push: "$$ROOT" } } },
+    { $project:     { docs: { $slice: ["$docs", safePerCity] } } },
+    { $unwind:      "$docs" },
+    { $replaceRoot: { newRoot: "$docs" } },
+    { $sort:        { distance: 1 } },
+    { $limit:       safeLimit },
+    { $project:     NEARBY_HIDDEN_FIELDS },
+  ]);
+
+  // Populate city + category on the plain aggregate objects (Model.populate
+  // works on POJOs, same shape the old .populate() produced).
+  await Place.populate(docs, POPULATE_PLACE);
+  return docs;
 };
 
 // Light marker list for map views. Ultra-light projection (~280 B / pin) —
