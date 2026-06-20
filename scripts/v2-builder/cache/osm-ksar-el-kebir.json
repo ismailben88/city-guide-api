@@ -1,0 +1,1462 @@
+{
+  "city": "ksar-el-kebir",
+  "fetched_at": "2026-06-08T11:29:19.925Z",
+  "raw_count": 474,
+  "places": [
+    {
+      "osm_id": "node/1709947318",
+      "name": "Hotel Ksar al Yamama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ksar-al-yamama-ksar-el-kebir",
+      "category": "hotels",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.904444,
+          34.993926
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Ksar al Yamama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4825267294",
+      "name": "Masjid Alnor DarRati",
+      "name_fr": "Masjid Alnor DarRati",
+      "name_ar": "مسجد النور دار الراطي",
+      "slug": "masjid-alnor-darrati-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "طريق دار الراطي, دار الراطي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.717494,
+          35.167121
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "دار الراطي",
+        "addr:street": "طريق دار الراطي",
+        "amenity": "place_of_worship",
+        "description": "مسجد النور مدشر دار الراطي جماعة زعرورة اقليم العرائش المغرب",
+        "name": "مسجد النور دار الراطي",
+        "name:ar": "مسجد النور دار الراطي",
+        "name:en": "Masjid Alnor DarRati",
+        "name:fr": "Masjid Alnor DarRati",
+        "religion": "muslim",
+        "service_times": "24",
+        "website": "https://www.facebook.com/Darrati/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/Darrati/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4825271512",
+      "name": "Baqal DarRati",
+      "name_fr": "Baqal DarRati",
+      "name_ar": "بقال دار الراطي",
+      "slug": "baqal-darrati-ksar-el-kebir",
+      "category": "food-markets",
+      "city": "ksar-el-kebir",
+      "address": "طريق دار الراطي, دار الراطي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.720838,
+          35.166436
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "دار الراطي",
+        "addr:street": "طريق دار الراطي",
+        "name": "بقال دار الراطي",
+        "name:ar": "بقال دار الراطي",
+        "name:en": "Baqal DarRati",
+        "name:fr": "Baqal DarRati",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4825298806",
+      "name": "Masjid Alhjar DarRati",
+      "name_fr": "Masjid Alhjar DarRati",
+      "name_ar": "مسجد الحجار",
+      "slug": "masjid-alhjar-darrati-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "طريق قلعة حجر النسر, دار الراطي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.715792,
+          35.173367
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "دار الراطي",
+        "addr:street": "طريق قلعة حجر النسر",
+        "amenity": "place_of_worship",
+        "name": "مسجد الحجار",
+        "name:ar": "مسجد الحجار",
+        "name:en": "Masjid Alhjar DarRati",
+        "name:fr": "Masjid Alhjar DarRati",
+        "religion": "muslim",
+        "service_times": "24/7",
+        "website": "https://www.facebook.com/Darrati/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/Darrati/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4825301921",
+      "name": "Qal3a Hajr Alnisr DarRati",
+      "name_fr": "Qal3a Hajr Alnisr DarRati",
+      "name_ar": "قلعة حجرة النسر دار الراطي",
+      "slug": "qal3a-hajr-alnisr-darrati-ksar-el-kebir",
+      "category": "roman-ruins",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.719202,
+          35.171206
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "description": "قلعة حجر النسر تلك هي قلعة حصينة شاهقة شيدها ابن عم أحمد مزوار الإدريسي، الأمير محمد بن إبراهيم بن محمد بن أبي القاسم بن إدريس الأزهر. ولما تلاحق الأدارسة بهذه القلعة زحف إليهم موسى بن أبي العافية سنة 317 هـ/ 929-930م وحاصرهم بها مدة يريد استئصال شأفتهم",
+        "historic": "archaeological_site",
+        "name": "قلعة حجرة النسر دار الراطي",
+        "name:ar": "قلعة حجرة النسر دار الراطي",
+        "name:en": "Qal3a Hajr Alnisr DarRati",
+        "name:fr": "Qal3a Hajr Alnisr DarRati"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246060430",
+      "name": "Douae",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "douae-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.890414,
+          35.006765
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Douae"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246075571",
+      "name": "Charika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "charika-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.906096,
+          35.003089
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Charika"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246075572",
+      "name": "Bayrout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bayrout-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.906241,
+          35.0026
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Bayrout"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246075573",
+      "name": "Athena",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "athena-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.906002,
+          35.002565
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Athena"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246101293",
+      "name": "Panorama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panorama-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.90499,
+          35.000784
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Panorama"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246101295",
+      "name": "Papertrie Hamdouni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "papertrie-hamdouni-ksar-el-kebir",
+      "category": "food-markets",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.9048,
+          35.00064
+        ]
+      },
+      "osm_tags": {
+        "name": "Papertrie Hamdouni",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246101297",
+      "name": "Istanbul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "istanbul-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.907203,
+          35.001511
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Istanbul"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246110147",
+      "name": "Volga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "volga-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.922505,
+          35.005457
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Volga"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246110166",
+      "name": "Basatine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "basatine-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.921559,
+          35.00504
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Basatine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246110167",
+      "name": "Ismaali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ismaali-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915565,
+          35.003525
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Ismaali"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246110168",
+      "name": "Virginia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "virginia-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915476,
+          35.003725
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Virginia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246123259",
+      "name": "Temsamani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "temsamani-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.912038,
+          35.002555
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Temsamani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246131168",
+      "name": "Anas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "anas-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.905777,
+          34.992727
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Anas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7009731627",
+      "name": "Mutanazih DarRati Zaaroura",
+      "name_fr": "Mutanazih DarRati Zaaroura",
+      "name_ar": "متنزه دار الراطي زعرورة",
+      "slug": "mutanazih-darrati-zaaroura-ksar-el-kebir",
+      "category": "national-parks",
+      "city": "ksar-el-kebir",
+      "address": "طريق دار الراطي, دار الراطي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.730563,
+          35.172215
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "دار الراطي",
+        "addr:street": "طريق دار الراطي",
+        "leisure": "park",
+        "name": "متنزه دار الراطي زعرورة",
+        "name:ar": "متنزه دار الراطي زعرورة",
+        "name:en": "Mutanazih DarRati Zaaroura",
+        "name:fr": "Mutanazih DarRati Zaaroura",
+        "opening_hours": "24/7"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/8465738074",
+      "name": "Ayoub SUPER MARCHE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ayoub-super-marche-ksar-el-kebir",
+      "category": "food-markets",
+      "city": "ksar-el-kebir",
+      "address": "43, RISSANA, Rissana Chamalia ريصانة الشمالية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.955287,
+          35.224453
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Rissana Chamalia ريصانة الشمالية",
+        "addr:housenumber": "43",
+        "addr:street": "RISSANA",
+        "brand": "COCACOLA",
+        "name": "Ayoub SUPER MARCHE",
+        "opening_hours": "24/7",
+        "operator": "MUFIT",
+        "payment:cash": "yes",
+        "payment:visa": "yes",
+        "phone": "+212 6 58 23 47 44",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 58 23 47 44",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/9238344845",
+      "name": "Horifaya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "horifaya-ksar-el-kebir",
+      "category": "national-parks",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.081254,
+          35.084599
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Horifaya"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10267866696",
+      "name": "Camp d’el Mers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-d-el-mers-ksar-el-kebir",
+      "category": "roman-ruins",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915204,
+          35.142249
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "historic:civilization": "ancient_roman",
+        "name": "Camp d’el Mers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11700986108",
+      "name": "CAMPUS",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "campus-ksar-el-kebir",
+      "category": "restaurants",
+      "city": "ksar-el-kebir",
+      "address": "12, RUE LEMFEDDEL CHERKAOUI, RABAT",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.059533,
+          34.85327
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "RABAT",
+        "addr:housenumber": "12",
+        "addr:street": "RUE LEMFEDDEL CHERKAOUI",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "CAMPUS"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11771154024",
+      "name": "Mohammadi Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mohammadi-mosque-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.922063,
+          34.914098
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mohammadi Mosque",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13798222003",
+      "name": "مقهى فرنسا",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.898543,
+          35.000991
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "مقهى فرنسا"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13798222201",
+      "name": "Al Yaqut",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-yaqut-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.896906,
+          35.00272
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Al Yaqut"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13798222203",
+      "name": "Arena in",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arena-in-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.905237,
+          34.995552
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Arena in"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13798222301",
+      "name": "Boulangerie Bakali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-bakali-ksar-el-kebir",
+      "category": "restaurants",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.898623,
+          35.000883
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Boulangerie Bakali"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13798222701",
+      "name": "Grand Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grand-palace-ksar-el-kebir",
+      "category": "cafes",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.90264,
+          34.993827
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Grand Palace"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455750975",
+      "name": "Masjid Al Houda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-houda-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.894711,
+          34.998145
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "muslim",
+        "name": "Masjid Al Houda",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455751976",
+      "name": "Masjid Hassan II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-hassan-ii-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.903606,
+          35.000558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Hassan II",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455752174",
+      "name": "Masjid Said",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-said-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.90468,
+          34.998618
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Said",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455752316",
+      "name": "Masjid Zawia Mjouelia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-zawia-mjouelia-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.903646,
+          34.998454
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Zawia Mjouelia",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455754028",
+      "name": "Masjid Arajae Fi Lah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-arajae-fi-lah-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.901395,
+          34.99546
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Arajae Fi Lah",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455754114",
+      "name": "Masjid La Grande",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-la-grande-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.907887,
+          34.991681
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid La Grande",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455755440",
+      "name": "Masjid Al Qods",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-qods-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.911001,
+          35.004689
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Qods",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455755860",
+      "name": "Masjid Omar ibn al khattab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-omar-ibn-al-khattab-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915788,
+          35.002478
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Omar ibn al khattab",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455756053",
+      "name": "Masjid Zaytuna مسجد الزيتونة",
+      "name_fr": "Masjid Zaytuna",
+      "name_ar": "مسجد الزيتونة",
+      "slug": "masjid-zaytuna-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.9115,
+          34.996882
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Zaytuna مسجد الزيتونة",
+        "name:ar": "مسجد الزيتونة",
+        "name:fr": "Masjid Zaytuna",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455757386",
+      "name": "Masjid Yosr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-yosr-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.887123,
+          35.002203
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Yosr",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455757595",
+      "name": "Masjid Aruah مسجد اروافة العليا",
+      "name_fr": "Masjid Aruah",
+      "name_ar": "مسجد اروافة العليا",
+      "slug": "masjid-aruah-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.892342,
+          35.000252
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Aruah مسجد اروافة العليا",
+        "name:ar": "مسجد اروافة العليا",
+        "name:fr": "Masjid Aruah",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455757830",
+      "name": "Masjid Takemouti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-takemouti-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.891738,
+          35.00723
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Takemouti",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455757842",
+      "name": "Masjid Al-Taqwa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-taqwa-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.893691,
+          35.007003
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al-Taqwa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455757939",
+      "name": "Al Salama Mosque",
+      "name_fr": "Mosquée Al Salama",
+      "name_ar": "مسجد السلامة",
+      "slug": "al-salama-mosque-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "Ksar-el-Kebir القصر الكبير",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.898141,
+          35.010219
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ksar-el-Kebir القصر الكبير",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Al Salama Mosque",
+        "name:ar": "مسجد السلامة",
+        "name:en": "Al Salama Mosque",
+        "name:fr": "Mosquée Al Salama",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455758645",
+      "name": "Masjid Al Nour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-nour-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.916257,
+          35.019874
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Nour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/455759578",
+      "name": "Masjid Dar Doukhan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-dar-doukhan-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.910018,
+          35.008891
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Dar Doukhan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476342356",
+      "name": "Masjid al-Jaziri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-jaziri-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.904272,
+          34.997287
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid al-Jaziri",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476364057",
+      "name": "Masjid an-Nour مسجد النور",
+      "name_fr": "Masjid an-Nour",
+      "name_ar": "مسجد النور",
+      "slug": "masjid-an-nour-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.898389,
+          35.003604
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid an-Nour مسجد النور",
+        "name:ar": "مسجد النور",
+        "name:fr": "Masjid an-Nour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/667102739",
+      "name": "Salama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salama-ksar-el-kebir",
+      "category": "restaurants",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.97346,
+          35.017809
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Salama"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442654",
+      "name": "Sidi Moulay Thami",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moulay-thami-ksar-el-kebir",
+      "category": "mausoleums",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.853918,
+          35.028903
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moulay Thami",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1216224922",
+      "name": "MOSQUE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-ksar-el-kebir",
+      "category": "mosques",
+      "city": "ksar-el-kebir",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.896438,
+          34.920636
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "MOSQUE",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

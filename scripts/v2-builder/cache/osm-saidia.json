@@ -1,0 +1,4787 @@
+{
+  "city": "saidia",
+  "fetched_at": "2026-06-08T11:32:14.090Z",
+  "raw_count": 394,
+  "places": [
+    {
+      "osm_id": "node/845661119",
+      "name": "Djebel Zendel",
+      "name_fr": "Djebel Zendel",
+      "name_ar": "جبل زندل",
+      "slug": "djebel-zendel-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.027104,
+          35.03004
+        ]
+      },
+      "osm_tags": {
+        "ele": "613",
+        "name": "جبل زندل ⴰⴷⵔⴰⵔ ⵏ ⵣⵏⴷⵍ",
+        "name:ar": "جبل زندل",
+        "name:ber": "ⴰⴷⵔⴰⵔ ⵏ ⵣⵏⴷⵍ",
+        "name:en": "Djebel Zendel",
+        "name:fr": "Djebel Zendel",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1051303625",
+      "name": "Souk سوق",
+      "name_fr": "Souk",
+      "name_ar": "سوق",
+      "slug": "souk-saidia",
+      "category": "food-markets",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.424426,
+          35.137634
+        ]
+      },
+      "osm_tags": {
+        "name": "Souk سوق",
+        "name:ar": "سوق",
+        "name:fr": "Souk",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1167897639",
+      "name": "Pico Nido de Águila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pico-nido-de-aguila-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.442094,
+          35.17926
+        ]
+      },
+      "osm_tags": {
+        "ele": "137",
+        "name": "Pico Nido de Águila",
+        "name:es": "Pico Nido de Águila",
+        "name:it": "Picco del Nido dell'Aquila",
+        "name:pl": "Szczyt Orlego Gniazda",
+        "name:pt": "Pico do Ninho da Águia",
+        "name:ro": "Vârful Cuibul Vulturului",
+        "name:ru": "Пик Орлиного Гнезда",
+        "name:zh": "鹰巢峰",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2464544768",
+      "name": "Centre de Vacance Banque Populaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "centre-de-vacance-banque-populaire-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.279711,
+          35.090829
+        ]
+      },
+      "osm_tags": {
+        "name": "Centre de Vacance Banque Populaire",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3114551866",
+      "name": "Jaâra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jaara-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.383561,
+          34.92044
+        ]
+      },
+      "osm_tags": {
+        "name": "Jaâra",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305913361",
+      "name": "Bivouac libre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-libre-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.420493,
+          35.138804
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac libre",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3510258107",
+      "name": "غار الكراكر",
+      "name_fr": "Ghar el kraker",
+      "name_ar": "غار الكراكر",
+      "slug": "saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.001601,
+          35.06125
+        ]
+      },
+      "osm_tags": {
+        "name": "غار الكراكر",
+        "name:ar": "غار الكراكر",
+        "name:fr": "Ghar el kraker",
+        "natural": "cave_entrance"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3510271498",
+      "name": "Sidi Ali Taghilast",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-taghilast-saidia",
+      "category": "roman-ruins",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -1.997577,
+          35.051887
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Sidi Ali Taghilast"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3510276936",
+      "name": "Tazellalt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tazellalt-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -1.996399,
+          34.993697
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Tazellalt",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3510277341",
+      "name": "Tasemamt",
+      "name_fr": null,
+      "name_ar": "تاسممت",
+      "slug": "tasemamt-saidia",
+      "category": "roman-ruins",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.009883,
+          34.969109
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "تاسممت",
+        "name:ar": "تاسممت",
+        "name:en": "Tasemamt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3704562204",
+      "name": "9achla electro",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "9achla-electro-saidia",
+      "category": "food-markets",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.097167,
+          34.95145
+        ]
+      },
+      "osm_tags": {
+        "name": "9achla electro",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3750347733",
+      "name": "Marjane مرجان",
+      "name_fr": "Marjane",
+      "name_ar": "مرجان",
+      "slug": "marjane-saidia",
+      "category": "food-markets",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.344072,
+          34.919552
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjane مرجان",
+        "name:ar": "مرجان",
+        "name:fr": "Marjane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3962425357",
+      "name": "L'Amazone",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-amazone-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.218358,
+          35.084105
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "name": "L'Amazone"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3963443604",
+      "name": "Les Fleurs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-fleurs-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.221365,
+          35.085108
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Les Fleurs"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3963462634",
+      "name": "Picasso",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "picasso-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "Boulevard Mohamed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.223463,
+          35.086043
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Mohamed V",
+        "amenity": "cafe",
+        "name": "Picasso",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3963478588",
+      "name": "Le Nîmois",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-nimois-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "Place 20 Août",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.221871,
+          35.085527
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Place 20 Août",
+        "amenity": "restaurant",
+        "name": "Le Nîmois"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4009582982",
+      "name": "Bin lajraf ما بين الأجراف",
+      "name_fr": "Bin lajraf",
+      "name_ar": "ما بين الأجراف",
+      "slug": "bin-lajraf-saidia",
+      "category": "sunset-spots",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.211797,
+          35.05931
+        ]
+      },
+      "osm_tags": {
+        "name": "Bin lajraf ما بين الأجراف",
+        "name:ar": "ما بين الأجراف",
+        "name:fr": "Bin lajraf",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4038976810",
+      "name": "zawia al kadiria al boutchichia",
+      "name_fr": "Zawia Al-Kadiria Al-Boutchichia",
+      "name_ar": "الزاوية القادرية البودشيشية",
+      "slug": "zawia-al-kadiria-al-boutchichia-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.321848,
+          35.025811
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sufi",
+        "name": "Zawia Al Kadiria Al Boutchichia ⵣⴰⵡⵉⵜ ⵜⴰⵇⴰⴷⵉⵔⵉⵜ ⵜⴰⴱⵓⴷⵛⵉⵛⵉⵜ",
+        "name:ar": "الزاوية القادرية البودشيشية",
+        "name:ber": "ⵣⴰⵡⵉⵜ ⵜⴰⵇⴰⴷⵉⵔⵉⵜ ⵜⴰⴱⵓⴷⵛⵉⵛⵉⵜ",
+        "name:en": "zawia al kadiria al boutchichia",
+        "name:fr": "Zawia Al-Kadiria Al-Boutchichia",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4104381310",
+      "name": "Parc des Cigognes Blanches",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-des-cigognes-blanches-saidia",
+      "category": "national-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.339527,
+          34.922395
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc des Cigognes Blanches"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4112124734",
+      "name": "Le complexe Ramdani مجمع رمضاني",
+      "name_fr": "Le complexe Ramdani",
+      "name_ar": "مجمع رمضاني",
+      "slug": "le-complexe-ramdani-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.203712,
+          34.915824
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le complexe Ramdani مجمع رمضاني",
+        "name:ar": "مجمع رمضاني",
+        "name:fr": "Le complexe Ramdani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4141379510",
+      "name": "Carrefour Market كارفور",
+      "name_fr": "Carrefour Market",
+      "name_ar": "كارفور",
+      "slug": "carrefour-market-saidia",
+      "category": "food-markets",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.309557,
+          34.931099
+        ]
+      },
+      "osm_tags": {
+        "brand": "Carrefour Market",
+        "brand:wikidata": "Q2689639",
+        "name": "Carrefour Market كارفور",
+        "name:ar": "كارفور",
+        "name:fr": "Carrefour Market",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4144560502",
+      "name": "Arrkoub ijdaine ⵄⵔⵇⵓⴱ ⵉⵊⴷⴰⵢⵏ العرقوب",
+      "name_fr": "Arrkoub ijdaine",
+      "name_ar": "العرقوب",
+      "slug": "arrkoub-ijdaine-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.190059,
+          34.945364
+        ]
+      },
+      "osm_tags": {
+        "ele": "391",
+        "name": "Arrkoub ijdaine ⵄⵔⵇⵓⴱ ⵉⵊⴷⴰⵢⵏ العرقوب",
+        "name:ar": "العرقوب",
+        "name:ber": "ⵄⵔⵇⵓⴱ ⵉⵊⴷⴰⵢⵏ",
+        "name:fr": "Arrkoub ijdaine",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4144582423",
+      "name": "Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.276902,
+          34.932741
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "yes",
+        "name": "Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4144718052",
+      "name": "Mosquée Taqwa مسجد التقوى",
+      "name_fr": "Mosquée Taqwa",
+      "name_ar": "مسجد التقوى",
+      "slug": "mosquee-taqwa-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.418791,
+          35.132157
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Taqwa مسجد التقوى",
+        "name:ar": "مسجد التقوى",
+        "name:fr": "Mosquée Taqwa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4156200529",
+      "name": "Café Ramdani مقهى رمضاني",
+      "name_fr": "Café Ramdani",
+      "name_ar": "مقهى رمضاني",
+      "slug": "cafe-ramdani-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.204204,
+          34.917264
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Ramdani مقهى رمضاني",
+        "name:ar": "مقهى رمضاني",
+        "name:fr": "Café Ramdani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4156205329",
+      "name": "Ramdani رمضاني",
+      "name_fr": "Ramdani",
+      "name_ar": "رمضاني",
+      "slug": "ramdani-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.203931,
+          34.915918
+        ]
+      },
+      "osm_tags": {
+        "name": "Ramdani رمضاني",
+        "name:ar": "رمضاني",
+        "name:fr": "Ramdani",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4159769183",
+      "name": "boulangerie Beladi مخبزة بلادي",
+      "name_fr": "boulangerie Beladi",
+      "name_ar": "مخبزة بلادي",
+      "slug": "boulangerie-beladi-saidia",
+      "category": "bakeries",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.308232,
+          34.924478
+        ]
+      },
+      "osm_tags": {
+        "name": "boulangerie Beladi مخبزة بلادي",
+        "name:ar": "مخبزة بلادي",
+        "name:fr": "boulangerie Beladi",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4175596099",
+      "name": "Café Soussi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-soussi-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.313097,
+          34.929391
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Soussi",
+        "wifi": "free"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4188009789",
+      "name": "Café Des Etudiants",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-des-etudiants-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.327726,
+          34.922807
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Des Etudiants"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4190074173",
+      "name": "faryad فرياض",
+      "name_fr": "faryad",
+      "name_ar": "فرياض",
+      "slug": "faryad-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.316369,
+          34.921259
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "faryad فرياض",
+        "name:ar": "فرياض",
+        "name:fr": "faryad"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4196986700",
+      "name": "Latchina لتشينة",
+      "name_fr": "Latchina",
+      "name_ar": "لتشينة",
+      "slug": "latchina-saidia",
+      "category": "historical-sites",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.329929,
+          34.927955
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "name": "Latchina لتشينة",
+        "name:ar": "لتشينة",
+        "name:fr": "Latchina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197357628",
+      "name": "Café Titanic",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-titanic-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.331224,
+          34.925714
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Titanic",
+        "name:es": "Café Titanic"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197358599",
+      "name": "Café Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-royal-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.331916,
+          34.92636
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café Royal",
+        "name:es": "Café Real"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197360789",
+      "name": "Café le printemps",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-le-printemps-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.331599,
+          34.926046
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café le printemps",
+        "wifi": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197362633",
+      "name": "Café kadis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-kadis-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.331382,
+          34.925608
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café kadis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4197374633",
+      "name": "Café Faransa",
+      "name_fr": null,
+      "name_ar": "مقهى فرنسا",
+      "slug": "cafe-faransa-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.331143,
+          34.925388
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Faransa",
+        "name:ar": "مقهى فرنسا",
+        "name:es": "Café Francia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4200618115",
+      "name": "Café aghdal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-aghdal-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.308609,
+          34.924381
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café aghdal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4226803889",
+      "name": "Pizzeria Oscar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-oscar-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.327318,
+          34.922517
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "capacity": "200",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizzeria Oscar",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4226804890",
+      "name": "Café Al Missri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-missri-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.326744,
+          34.92238
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Al Missri"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4226991799",
+      "name": "Hammam adda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-adda-saidia",
+      "category": "hammams",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.315473,
+          34.920757
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hammam adda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4311309389",
+      "name": "Café Les Boules",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-les-boules-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.104109,
+          34.947969
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Les Boules"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4351925890",
+      "name": "Arrivé",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arrive-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.229178,
+          35.087513
+        ]
+      },
+      "osm_tags": {
+        "name": "Arrivé",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4462730592",
+      "name": "Attadamoun",
+      "name_fr": "Attadamoun",
+      "name_ar": "جمعية التضامن",
+      "slug": "attadamoun-saidia",
+      "category": "riads",
+      "city": "saidia",
+      "address": "السعيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.224077,
+          35.075127
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "السعيدية",
+        "addr:city:ar": "السعيدية",
+        "language:ar": "main",
+        "name": "جمعية التضامن",
+        "name:ar": "جمعية التضامن",
+        "name:en": "Attadamoun",
+        "name:fr": "Attadamoun",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4475628701",
+      "name": "Bine Ladjraf",
+      "name_fr": "Bine Ladjraf",
+      "name_ar": "ما بين الأجراف",
+      "slug": "bine-ladjraf-saidia",
+      "category": "sunset-spots",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.210878,
+          35.05892
+        ]
+      },
+      "osm_tags": {
+        "name": "Bine Ladjraf",
+        "name:ar": "ما بين الأجراف",
+        "name:fr": "Bine Ladjraf",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4600284890",
+      "name": "Restaurant LAVILLA",
+      "name_fr": "Restaurant LAVILLA",
+      "name_ar": null,
+      "slug": "restaurant-lavilla-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.220123,
+          35.085053
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant LAVILLA",
+        "name:fr": "Restaurant LAVILLA"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4685589810",
+      "name": "l'opéra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-opera-saidia",
+      "category": "seafood",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.423418,
+          35.146873
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "l'opéra"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4685594029",
+      "name": "Islas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "islas-saidia",
+      "category": "seafood",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.424405,
+          35.142991
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Islas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4724648256",
+      "name": "Café Restaurant Dina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-dina-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "Ras El Ma رأس الماء",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.424269,
+          35.147529
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ras El Ma رأس الماء",
+        "amenity": "cafe",
+        "cuisine": "fish;coffee_shop;seafood",
+        "internet_access": "wlan",
+        "name": "Café Restaurant Dina",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4724666655",
+      "name": "les Rochers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-rochers-saidia",
+      "category": "sunset-spots",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.423754,
+          35.148051
+        ]
+      },
+      "osm_tags": {
+        "name": "les Rochers",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4724679401",
+      "name": "Restaurant Al Jabal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-al-jabal-saidia",
+      "category": "seafood",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.425114,
+          35.146161
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Restaurant Al Jabal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4751438774",
+      "name": "Mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.263802,
+          35.00764
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4751490466",
+      "name": "Café al arrahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-arrahma-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.321979,
+          34.93243
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café al arrahma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4862336811",
+      "name": "Mosquée Ouarch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ouarch-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.321798,
+          34.917874
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Ouarch",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4864536342",
+      "name": "Restaurant Rascasse",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-rascasse-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.424177,
+          35.142406
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Rascasse",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4977947222",
+      "name": "Camping Moscarda",
+      "name_fr": null,
+      "name_ar": "مخيم موسكاردة",
+      "slug": "camping-moscarda-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "مرسى بن مهيدي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.189435,
+          35.085708
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "مرسى بن مهيدي",
+        "alt_name:ar": "مخيم موسكاردا",
+        "name": "Camping Moscarda",
+        "name:ar": "مخيم موسكاردة",
+        "name:en": "Camping Moscarda",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5619166763",
+      "name": "Meliá Saidia Garden Golf Resort",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "melia-saidia-garden-golf-resort-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.306938,
+          35.107783
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+        "name": "Meliá Saidia Garden Golf Resort",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5678103921",
+      "name": "kids café",
+      "name_fr": "Café al Atfal",
+      "name_ar": "مقهى الأطفال",
+      "slug": "kids-cafe-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "مرسى بن مهيدي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.202428,
+          35.082975
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "مرسى بن مهيدي",
+        "addr:country": "DZ",
+        "amenity": "cafe",
+        "name": "مقهى الأطفال",
+        "name:ar": "مقهى الأطفال",
+        "name:en": "kids café",
+        "name:fr": "Café al Atfal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5688201817",
+      "name": "Hotel La Renaissance",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-la-renaissance-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "Avenue Oujda",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.214351,
+          35.078238
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Oujda",
+        "name": "Hotel La Renaissance",
+        "source": "Kaart Ground Survey 2018",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5968681485",
+      "name": "Les chevauchées du Chergui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-chevauchees-du-chergui-saidia",
+      "category": "historical-sites",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.31525,
+          35.010683
+        ]
+      },
+      "osm_tags": {
+        "name": "Les chevauchées du Chergui",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5981810785",
+      "name": "pâtisserie Boulangerie PALAVAS",
+      "name_fr": "pâtisserie Boulangerie PALAVAS",
+      "name_ar": null,
+      "slug": "patisserie-boulangerie-palavas-saidia",
+      "category": "bakeries",
+      "city": "saidia",
+      "address": "Boulevard Al Hassan I",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.221674,
+          35.077326
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Al Hassan I",
+        "name": "pâtisserie Boulangerie PALAVAS",
+        "name:fr": "pâtisserie Boulangerie PALAVAS",
+        "phone": "+212 661114173",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 661114173",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6211289356",
+      "name": "Mousquée ouled boughlem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mousquee-ouled-boughlem-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.200318,
+          34.865071
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mousquée ouled boughlem",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6301828738",
+      "name": "Masdjid Beni Mahfoud مسجد بني محفوظ",
+      "name_fr": "Masdjid Beni Mahfoud",
+      "name_ar": "مسجد بني محفوظ",
+      "slug": "masdjid-beni-mahfoud-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "بني محفوظ",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.212483,
+          34.892287
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "بني محفوظ",
+        "addr:city:ar": "بني محفوظ",
+        "amenity": "place_of_worship",
+        "language:ar": "main",
+        "name": "Masdjid Beni Mahfoud مسجد بني محفوظ",
+        "name:ar": "مسجد بني محفوظ",
+        "name:fr": "Masdjid Beni Mahfoud",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6408987800",
+      "name": "Marché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.215228,
+          35.081119
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6744700958",
+      "name": "Grotte ifri ntafaghi مغارة افري نتفاغي",
+      "name_fr": null,
+      "name_ar": "مغارة افري نتفاغي",
+      "slug": "grotte-ifri-ntafaghi-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.21271,
+          34.86713
+        ]
+      },
+      "osm_tags": {
+        "name": "Grotte ifri ntafaghi مغارة افري نتفاغي",
+        "name:ar": "مغارة افري نتفاغي",
+        "natural": "cave_entrance"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6762185069",
+      "name": "Restaurant Pizza Ajoued",
+      "name_fr": "Restaurant Pizza Ajoued",
+      "name_ar": "مطعم بيتزا أجود",
+      "slug": "restaurant-pizza-ajoued-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "Rue du 5 Juillet, Bab El Assa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.030889,
+          34.961588
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Bab El Assa",
+        "addr:city:ar": "باب العسة",
+        "addr:city:fr": "Bab El Assa",
+        "addr:street": "Rue du 5 Juillet",
+        "addr:street:ar": "شارع 5 جويلية",
+        "addr:street:fr": "Rue du 5 Juillet",
+        "amenity": "restaurant",
+        "name": "Restaurant Pizza Ajoued",
+        "name:ar": "مطعم بيتزا أجود",
+        "name:fr": "Restaurant Pizza Ajoued",
+        "phone": "+213 675 60 94 55"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+213 675 60 94 55",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6762185070",
+      "name": "Café Al-Walaja",
+      "name_fr": "Café Al-Walaja",
+      "name_ar": "مقهى الولجة",
+      "slug": "cafe-al-walaja-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "Bab El Assa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.033227,
+          34.96122
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Bab El Assa",
+        "addr:city:ar": "باب العسة",
+        "addr:city:fr": "Bab El Assa",
+        "amenity": "cafe",
+        "name": "Café Al-Walaja",
+        "name:ar": "مقهى الولجة",
+        "name:fr": "Café Al-Walaja",
+        "opening_hours": "05:00-22:00",
+        "phone": "+213 663 62 45 46"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+213 663 62 45 46",
+      "stars": null,
+      "opening_hours": "05:00-22:00"
+    },
+    {
+      "osm_id": "node/6762206199",
+      "name": "Lahbib",
+      "name_fr": "Lahbib",
+      "name_ar": "الحبيب",
+      "slug": "lahbib-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "Rue du 5 Juillet, Bab El Assa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.031401,
+          34.963731
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Bab El Assa",
+        "addr:city:ar": "باب العسة",
+        "addr:city:fr": "Bab El Assa",
+        "addr:street": "Rue du 5 Juillet",
+        "addr:street:ar": "شارع 5 جويلية",
+        "addr:street:fr": "Rue du 5 Juillet",
+        "amenity": "marketplace",
+        "name": "Lahbib",
+        "name:ar": "الحبيب",
+        "name:arq": "لحبيب",
+        "name:fr": "Lahbib",
+        "opening_hours": "08:00-17:00; Fr off",
+        "phone": "+213 664 65 64 02"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+213 664 65 64 02",
+      "stars": null,
+      "opening_hours": "08:00-17:00; Fr off"
+    },
+    {
+      "osm_id": "node/7415542985",
+      "name": "Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.179963,
+          34.881161
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7415543185",
+      "name": "Camp 1",
+      "name_fr": "Camp 1",
+      "name_ar": "مخيم 1",
+      "slug": "camp-1-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.177823,
+          34.898316
+        ]
+      },
+      "osm_tags": {
+        "name": "مخيم 1",
+        "name:ar": "مخيم 1",
+        "name:en": "Camp 1",
+        "name:fr": "Camp 1",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7518369086",
+      "name": "Camping",
+      "name_fr": "Camp",
+      "name_ar": "مخيم",
+      "slug": "camping-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.179538,
+          34.872974
+        ]
+      },
+      "osm_tags": {
+        "name": "مخيم",
+        "name:ar": "مخيم",
+        "name:en": "Camping",
+        "name:fr": "Camp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7650705138",
+      "name": "Cafe IN",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-in-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.308205,
+          34.929874
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe IN"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8626107060",
+      "name": "inaar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "inaar-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.236615,
+          34.944784
+        ]
+      },
+      "osm_tags": {
+        "ele": "264",
+        "name": "inaar",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826968817",
+      "name": "Thimarssad Beach",
+      "name_fr": "Plage de Thimarssad",
+      "name_ar": null,
+      "slug": "thimarssad-beach-saidia",
+      "category": "historical-sites",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.489725,
+          35.100247
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء ثيمرصاد",
+        "name:en": "Thimarssad Beach",
+        "name:fr": "Plage de Thimarssad",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826970117",
+      "name": "Red Beach",
+      "name_fr": "Plage rouge",
+      "name_ar": null,
+      "slug": "red-beach-saidia",
+      "category": "historical-sites",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.480593,
+          35.104845
+        ]
+      },
+      "osm_tags": {
+        "name": "الشاطيء الأحمر",
+        "name:en": "Red Beach",
+        "name:fr": "Plage rouge",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9442602699",
+      "name": "Harcha حرشة",
+      "name_fr": "Harcha",
+      "name_ar": "حرشة",
+      "slug": "harcha-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.338316,
+          34.91122
+        ]
+      },
+      "osm_tags": {
+        "ele": "275",
+        "name": "Harcha حرشة",
+        "name:ar": "حرشة",
+        "name:fr": "Harcha",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9490403546",
+      "name": "Jorf El Henndia جرف الهنذية",
+      "name_fr": "Jorf El Henndia",
+      "name_ar": "جرف الهنذية",
+      "slug": "jorf-el-henndia-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.121435,
+          34.907183
+        ]
+      },
+      "osm_tags": {
+        "ele": "531",
+        "name": "Jorf El Henndia جرف الهنذية",
+        "name:ar": "جرف الهنذية",
+        "name:fr": "Jorf El Henndia",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9490424206",
+      "name": "Jbel Ichaouene جبل إشاوين",
+      "name_fr": "Jbel Ichaouene",
+      "name_ar": "جبل إشاوين",
+      "slug": "jbel-ichaouene-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.128806,
+          34.889635
+        ]
+      },
+      "osm_tags": {
+        "ele": "822",
+        "name": "Jbel Ichaouene جبل إشاوين",
+        "name:ar": "جبل إشاوين",
+        "name:fr": "Jbel Ichaouene",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9496706877",
+      "name": "Hajrat el Halouf",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hajrat-el-halouf-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.167875,
+          34.931591
+        ]
+      },
+      "osm_tags": {
+        "ele": "364",
+        "name": "Hajrat el Halouf",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9740054317",
+      "name": "Chez Farid",
+      "name_fr": "Chez Farid",
+      "name_ar": null,
+      "slug": "chez-farid-saidia",
+      "category": "seafood",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.424292,
+          35.142764
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name:fr": "Chez Farid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9848472933",
+      "name": "Radisson Blu Resort, Saidia Beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "radisson-blu-resort-saidia-beach-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.303755,
+          35.11063
+        ]
+      },
+      "osm_tags": {
+        "brand": "Radisson Blu",
+        "brand:wikidata": "Q7281341",
+        "name": "Radisson Blu Resort, Saidia Beach",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10110082987",
+      "name": "Guern Ech Chems",
+      "name_fr": "Guern Ech Chems",
+      "name_ar": null,
+      "slug": "guern-ech-chems-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.247038,
+          35.048494
+        ]
+      },
+      "osm_tags": {
+        "ele": "195",
+        "name": "Guern Ech Chems",
+        "name:fr": "Guern Ech Chems",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11119573606",
+      "name": "Maison d'hôtes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-saidia",
+      "category": "riads",
+      "city": "saidia",
+      "address": "7268",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.225179,
+          35.077638
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "7268",
+        "name": "Maison d'hôtes",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11900843572",
+      "name": "Café La Havana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-la-havana-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.224266,
+          35.085497
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café La Havana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12214713264",
+      "name": "kids restaurant",
+      "name_fr": "kids restaurant",
+      "name_ar": "مطعم الأطفال",
+      "slug": "kids-restaurant-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "مرسى بن مهيدي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.20267,
+          35.083107
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "مرسى بن مهيدي",
+        "addr:country": "DZ",
+        "amenity": "restaurant",
+        "name": "مطعم الأطفال",
+        "name:ar": "مطعم الأطفال",
+        "name:en": "kids restaurant",
+        "name:fr": "kids restaurant",
+        "source": "Algerie Mapper Team (Superadlen)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12392564450",
+      "name": "sidi slimane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-slimane-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.229759,
+          34.908086
+        ]
+      },
+      "osm_tags": {
+        "ele": "426",
+        "name": "sidi slimane",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12421724755",
+      "name": "Jbel Tassirart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jbel-tassirart-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.104465,
+          34.898064
+        ]
+      },
+      "osm_tags": {
+        "ele": "727",
+        "name": "Jbel Tassirart",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12421747097",
+      "name": "Jbel Afras",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jbel-afras-saidia",
+      "category": "mountains",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.08865,
+          34.905184
+        ]
+      },
+      "osm_tags": {
+        "ele": "663",
+        "name": "Jbel Afras",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13353409998",
+      "name": "El Zafrín",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-zafrin-saidia",
+      "category": "roman-ruins",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.439656,
+          35.178081
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "El Zafrín",
+        "wikidata": "Q5823717",
+        "wikipedia": "es:El Zafrín"
+      },
+      "wikidata": "Q5823717",
+      "wikipedia": "es:El Zafrín",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/40701812",
+      "name": "Camping de Chams",
+      "name_fr": "Camping de Chams",
+      "name_ar": null,
+      "slug": "camping-de-chams-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.217455,
+          35.082764
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "name": "Camping de Chams",
+        "name:fr": "Camping de Chams",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/40702615",
+      "name": "Camping de Mansour",
+      "name_fr": "Camping de Mansour",
+      "name_ar": null,
+      "slug": "camping-de-mansour-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.237944,
+          35.087519
+        ]
+      },
+      "osm_tags": {
+        "access": "private",
+        "area": "yes",
+        "name": "Camping de Mansour",
+        "name:fr": "Camping de Mansour",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/87266733",
+      "name": "Abdelhamid Ben Badis Mosque",
+      "name_fr": "Mosquée Abdelhamid Ben Badis",
+      "name_ar": "مسجد عبد الحميد بن باديس",
+      "slug": "abdelhamid-ben-badis-mosque-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "مرسى بن مهيدي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.201539,
+          35.082097
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "مرسى بن مهيدي",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "مسجد عبد الحميد بن باديس",
+        "name:ar": "مسجد عبد الحميد بن باديس",
+        "name:en": "Abdelhamid Ben Badis Mosque",
+        "name:fr": "Mosquée Abdelhamid Ben Badis",
+        "phone": "+213 793 46 52 43",
+        "religion": "muslim",
+        "wikidata": "Q125020056",
+        "wikimedia_commons": "Category:Abdelhamid Ben Badis Mosque (Marsa Ben M'Hidi)"
+      },
+      "wikidata": "Q125020056",
+      "wikipedia": null,
+      "website": null,
+      "phone": "+213 793 46 52 43",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/145798266",
+      "name": "Camping Estival de Tennis",
+      "name_fr": "Camping Estival de Tennis",
+      "name_ar": null,
+      "slug": "camping-estival-de-tennis-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.225909,
+          35.084692
+        ]
+      },
+      "osm_tags": {
+        "barrier": "fence",
+        "name": "Camping Estival de Tennis",
+        "name:fr": "Camping Estival de Tennis",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/149079689",
+      "name": "Hôtel Atlal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlal-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.224015,
+          35.085356
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hôtel Atlal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/149079693",
+      "name": "Camping L'Amazone",
+      "name_fr": "Camping L'Amazone",
+      "name_ar": null,
+      "slug": "camping-l-amazone-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.219318,
+          35.083574
+        ]
+      },
+      "osm_tags": {
+        "barrier": "wall",
+        "name": "Camping L'Amazone",
+        "name:fr": "Camping L'Amazone",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/150624765",
+      "name": "Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-saidia",
+      "category": "palaces-kasbahs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.215003,
+          35.079725
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/150624802",
+      "name": "Mosquée Hassan II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-hassan-ii-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Avenue Moulay Rachid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.21662,
+          35.079743
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Moulay Rachid",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Hassan II",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/153301581",
+      "name": "Plage de cap de l'eau شاطئ رأس الماء",
+      "name_fr": "Plage de cap de l'eau",
+      "name_ar": "شاطئ رأس الماء",
+      "slug": "plage-de-cap-de-l-eau-saidia",
+      "category": "beaches",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.394603,
+          35.135966
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de cap de l'eau شاطئ رأس الماء",
+        "name:ar": "شاطئ رأس الماء",
+        "name:fr": "Plage de cap de l'eau",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/178591183",
+      "name": "Place Al Alaouine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-al-alaouine-saidia",
+      "category": "national-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.213912,
+          35.079985
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place Al Alaouine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/204958385",
+      "name": "Plage El Halq الحلق",
+      "name_fr": "Plage El Halq",
+      "name_ar": "الحلق",
+      "slug": "plage-el-halq-saidia",
+      "category": "beaches",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.321228,
+          35.117189
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage El Halq الحلق",
+        "name:ar": "الحلق",
+        "name:fr": "Plage El Halq",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/204958387",
+      "name": "Palmeral Golf Saidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palmeral-golf-saidia-saidia",
+      "category": "golf",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.305229,
+          35.103951
+        ]
+      },
+      "osm_tags": {
+        "leisure": "golf_course",
+        "name": "Palmeral Golf Saidia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/249737273",
+      "name": "Jardin Mohammed V حديقة محمد الخامس",
+      "name_fr": "Jardin Mohammed V",
+      "name_ar": "حديقة محمد الخامس",
+      "slug": "jardin-mohammed-v-saidia",
+      "category": "national-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.099268,
+          34.954718
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin Mohammed V حديقة محمد الخامس",
+        "name:ar": "حديقة محمد الخامس",
+        "name:fr": "Jardin Mohammed V"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/292127525",
+      "name": "Camping Des Forces Auxiliaires",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-des-forces-auxiliaires-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.215959,
+          35.082719
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Des Forces Auxiliaires",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514165",
+      "name": "La Corniche",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-corniche-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.22109,
+          35.085993
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "La Corniche"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514166",
+      "name": "Sunny Playa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sunny-playa-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.223196,
+          35.086398
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Sunny Playa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514171",
+      "name": "Ski Hut",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ski-hut-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.22156,
+          35.086109
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Ski Hut"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514174",
+      "name": "Paloma Blanca",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paloma-blanca-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.220679,
+          35.085917
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Paloma Blanca"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514192",
+      "name": "Samy Playa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "samy-playa-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.227208,
+          35.087277
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Samy Playa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514506",
+      "name": "Eden Club",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "eden-club-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.232849,
+          35.088484
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Eden Club"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514507",
+      "name": "Small Fish Club",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "small-fish-club-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.229223,
+          35.087723
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Small Fish Club"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305514508",
+      "name": "Kim Club",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kim-club-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.231923,
+          35.088336
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Kim Club"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305538335",
+      "name": "Paradise",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paradise-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.234272,
+          35.088888
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Paradise"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/305585847",
+      "name": "Arabesk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arabesk-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.294895,
+          35.107404
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Arabesk",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 61 98 02 23"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 98 02 23",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "way/306483429",
+      "name": "La Grande Mosquée Mohammed V مسجد محمد الخامس",
+      "name_fr": "La Grande Mosquée Mohammed V",
+      "name_ar": "مسجد محمد الخامس",
+      "slug": "la-grande-mosquee-mohammed-v-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Avenue Mohamed V, Berkane بركان",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.337407,
+          34.923332
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Berkane بركان",
+        "addr:street": "Avenue Mohamed V",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "La Grande Mosquée Mohammed V مسجد محمد الخامس",
+        "name:ar": "مسجد محمد الخامس",
+        "name:fr": "La Grande Mosquée Mohammed V",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/306484775",
+      "name": "Souk Hebdomadaire السوق الاسبوعي الجملة",
+      "name_fr": "Souk Hebdomadaire",
+      "name_ar": "السوق الاسبوعي الجملة",
+      "slug": "souk-hebdomadaire-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.328327,
+          34.913689
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk Hebdomadaire السوق الاسبوعي الجملة",
+        "name:ar": "السوق الاسبوعي الجملة",
+        "name:fr": "Souk Hebdomadaire"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/309987617",
+      "name": "Club Le Patio",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "club-le-patio-saidia",
+      "category": "clubs",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.26167,
+          35.096457
+        ]
+      },
+      "osm_tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Club Le Patio"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/309990060",
+      "name": "Bellington Appart Hôtel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bellington-appart-hotel-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "Rue Dakhla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.226247,
+          35.086495
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue Dakhla",
+        "building": "hotel",
+        "building:levels": "2",
+        "name": "Bellington Appart Hôtel",
+        "source": "Kaart Ground Survey 2018",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/315626558",
+      "name": "شاطئ موسكاردة 2",
+      "name_fr": "Plage Moscarda 2",
+      "name_ar": "شاطئ موسكاردة 2",
+      "slug": "2-saidia",
+      "category": "beaches",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.185138,
+          35.08642
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "موسكاردا 2",
+        "name": "شاطئ موسكاردة 2",
+        "name:ar": "شاطئ موسكاردة 2",
+        "name:fr": "Plage Moscarda 2",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/315626559",
+      "name": "شاطئ موسكاردة 1 ⴰⴼⵜⵉⵙ ⵏ ⵎⵓⵙⴽⴰⵔⴷⴰ",
+      "name_fr": "Plage Moscarda 1",
+      "name_ar": "شاطئ موسكاردة 1",
+      "slug": "1-saidia",
+      "category": "beaches",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.189962,
+          35.086495
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "موسكاردا 1",
+        "name": "شاطئ موسكاردة 1 ⴰⴼⵜⵉⵙ ⵏ ⵎⵓⵙⴽⴰⵔⴷⴰ",
+        "name:ar": "شاطئ موسكاردة 1",
+        "name:ber": "ⴰⴼⵜⵉⵙ ⵏ ⵎⵓⵙⴽⴰⵔⴷⴰ 1",
+        "name:fr": "Plage Moscarda 1",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/383973570",
+      "name": "Be Live Collection Saidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "be-live-collection-saidia-saidia",
+      "category": "national-parks",
+      "city": "saidia",
+      "address": "Parcela H7 - Station Balnéaire, Saïdia",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.27405,
+          35.099654
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Saïdia",
+        "addr:country": "MA",
+        "addr:postcode": "60600",
+        "addr:province": "Berkane",
+        "addr:street": "Parcela H7 - Station Balnéaire",
+        "leisure": "park",
+        "name": "Be Live Collection Saidia",
+        "operator": "Be Live Hotels",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "http://www.belivehotels.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.belivehotels.com/",
+      "phone": null,
+      "stars": 5,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/383975058",
+      "name": "Iberostar Waves Saïdia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "iberostar-waves-saidia-saidia",
+      "category": "luxury-hotels",
+      "city": "saidia",
+      "address": "331, Hôtel Med Azur S.A, Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.281356,
+          35.102193
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+        "addr:housenumber": "331",
+        "addr:postcode": "60600",
+        "addr:street": "Hôtel Med Azur S.A",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Iberostar Hotels & Resorts",
+        "brand:wikidata": "Q2035939",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/IberostarSaidiaHotel/",
+        "contact:instagram": "https://www.instagram.com/iberostar/",
+        "description": "The Iberostar Waves Saïdia is a 5-star beachfronthotel in Saïdia. This hotel provides modern facilities such as an spa area, free Wi-Fi, comfort rooms, 3 swimming pools, meeting rooms, water sports, tennis courts, animation and playground.",
+        "email": "sairsv@iberostar.com",
+        "image": "https://apiimg.iberostar.com/uploads/image/39796/crops/1920:797/1920/image.jpeg",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "layer": "1",
+        "name": "Iberostar Waves Saïdia",
+        "opening_hours": "24/7",
+        "operator": "IBEROSTAR Hotels & Resorts",
+        "payment:american_express": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+212 5 36 63 00 10",
+        "reservation": "yes",
+        "rooms": "484",
+        "smoking": "outside",
+        "source": "local knowledge;www.iberostar.com",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.iberostar.com/en/hotels/berkane/iberostar-saidia/",
+        "wheelchair": "yes",
+        "wikidata": "Q135551610"
+      },
+      "wikidata": "Q135551610",
+      "wikipedia": null,
+      "website": "https://www.iberostar.com/en/hotels/berkane/iberostar-saidia/",
+      "phone": "+212 5 36 63 00 10",
+      "stars": 5,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "way/393045821",
+      "name": "Le Manège",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-manege-saidia",
+      "category": "theme-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.215734,
+          35.084262
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Manège",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/393045823",
+      "name": "Foire de Saïdia معرض السعيدية",
+      "name_fr": "Foire de Saïdia",
+      "name_ar": "معرض السعيدية",
+      "slug": "foire-de-saidia-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.217852,
+          35.084751
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Foire de Saïdia معرض السعيدية",
+        "name:ar": "معرض السعيدية",
+        "name:fr": "Foire de Saïdia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/393049435",
+      "name": "La Dorada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-dorada-saidia",
+      "category": "cafes",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.222902,
+          35.086287
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "La Dorada"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/393131544",
+      "name": "Hannour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hannour-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.221804,
+          35.085265
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hannour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/393131545",
+      "name": "Titanic تيتانيك",
+      "name_fr": "Titanic",
+      "name_ar": "تيتانيك",
+      "slug": "titanic-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.223102,
+          35.085881
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Titanic تيتانيك",
+        "name:ar": "تيتانيك",
+        "name:etymology": "تيتانيك",
+        "name:etymology:wikidata": "Q25173",
+        "name:etymology:wikipedia": "ar:آر إم إس تيتانيك",
+        "name:fr": "Titanic",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/403669280",
+      "name": "Hôtel Zaki نزل الزاكي",
+      "name_fr": "Hôtel Zaki",
+      "name_ar": "نزل الزاكي",
+      "slug": "hotel-zaki-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "27, N2",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.325632,
+          34.928651
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "27",
+        "addr:street": "N2",
+        "building": "yes",
+        "name": "Hôtel Zaki نزل الزاكي",
+        "name:ar": "نزل الزاكي",
+        "name:fr": "Hôtel Zaki",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/403671122",
+      "name": "Rosalina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rosalina-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.334482,
+          34.92493
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Rosalina",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/408437691",
+      "name": "Masjid Omar Ibn Al Khattab مسجد عمر ابن الخطاب",
+      "name_fr": "Masjid Omar Ibn Al Khattab",
+      "name_ar": "مسجد عمر ابن الخطاب",
+      "slug": "masjid-omar-ibn-al-khattab-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.325697,
+          34.920723
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Masjid Omar Ibn Al Khattab مسجد عمر ابن الخطاب",
+        "name:ar": "مسجد عمر ابن الخطاب",
+        "name:fr": "Masjid Omar Ibn Al Khattab",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/408517985",
+      "name": "Place Annasr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-annasr-saidia",
+      "category": "national-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.335056,
+          34.924609
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place Annasr"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/419731264",
+      "name": "Mosquée al qods مسجد القدس",
+      "name_fr": "Mosquée al qods",
+      "name_ar": "مسجد القدس",
+      "slug": "mosquee-al-qods-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.330256,
+          34.925862
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée al qods مسجد القدس",
+        "name:ar": "مسجد القدس",
+        "name:fr": "Mosquée al qods",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/420078978",
+      "name": "Mosquée Al Nor مسجد النور",
+      "name_fr": "Mosquée Al Nor",
+      "name_ar": "مسجد النور",
+      "slug": "mosquee-al-nor-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.309047,
+          34.922866
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Nor مسجد النور",
+        "name:ar": "مسجد النور",
+        "name:fr": "Mosquée Al Nor",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/422962595",
+      "name": "Mosquée Maâd Ben Jabal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-maad-ben-jabal-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.313993,
+          34.914089
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Maâd Ben Jabal",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/422982674",
+      "name": "Mosquée Al Imam Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-imam-ali-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.318648,
+          34.922452
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Imam Ali",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/478884002",
+      "name": "Marché couvert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-couvert-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.227041,
+          34.932112
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Marché couvert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/596610590",
+      "name": "Hotel Picasso",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-picasso-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "Boulevard Mohamed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.223523,
+          35.086029
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Mohamed V",
+        "building": "hotel",
+        "building:levels": "3",
+        "name": "Hotel Picasso",
+        "source": "Kaart Ground Survey 2018",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/597913437",
+      "name": "Mosquée Al Wifaq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-wifaq-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Boulevard Gaza",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.324671,
+          34.940419
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Gaza",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Al Wifaq",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/597919553",
+      "name": "Mosquée Hamza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-hamza-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.334497,
+          34.933113
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Hamza",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/597919554",
+      "name": "Mosquée Om Al Qora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-om-al-qora-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Rue 12",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.342369,
+          34.93307
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue 12",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Om Al Qora",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/598108540",
+      "name": "Mosquée Assounna ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵙⵓⵏⵏⴰ مسجد السنة",
+      "name_fr": "Mosquée Assounna",
+      "name_ar": "مسجد السنة",
+      "slug": "mosquee-assounna-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.325577,
+          34.935076
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Assounna ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵙⵓⵏⵏⴰ مسجد السنة",
+        "name:ar": "مسجد السنة",
+        "name:ber": "ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵙⵓⵏⵏⴰ",
+        "name:fr": "Mosquée Assounna",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/601763200",
+      "name": "Mosquée Al Atiq المسجد العتيق",
+      "name_fr": "Mosquée Al Atiq",
+      "name_ar": "المسجد العتيق",
+      "slug": "mosquee-al-atiq-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Avenue Hassan II",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.330105,
+          34.921512
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Hassan II",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Al Atiq المسجد العتيق",
+        "name:ar": "المسجد العتيق",
+        "name:fr": "Mosquée Al Atiq",
+        "religion": "muslim",
+        "source": "Kaart Ground Survey 2018"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/619502860",
+      "name": "La Legión",
+      "name_fr": null,
+      "name_ar": "الفيلق",
+      "slug": "la-legion-saidia",
+      "category": "historical-sites",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.429173,
+          35.182671
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "inscription": "Grabado en el suelo",
+        "inscription:ar": "محفورة على الأرض",
+        "memorial": "yes",
+        "name": "La Legión",
+        "name:ar": "الفيلق"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/720566938",
+      "name": "Mosquée Al-Wafaa",
+      "name_fr": "Mosquée Al-Wafaa",
+      "name_ar": "مسجد الوفاء",
+      "slug": "mosquee-al-wafaa-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Bab El Assa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.027877,
+          34.960135
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Bab El Assa",
+        "addr:city:ar": "باب العسة",
+        "addr:city:fr": "Bab El Assa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al-Wafaa",
+        "name:ar": "مسجد الوفاء",
+        "name:fr": "Mosquée Al-Wafaa",
+        "opening_hours": "24/7",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "way/720566942",
+      "name": "Marché vert",
+      "name_fr": "Marché vert",
+      "name_ar": "السوق الخضراء",
+      "slug": "marche-vert-saidia",
+      "category": "souks",
+      "city": "saidia",
+      "address": "Rue du 5 Juillet, Bab El Assa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.029598,
+          34.963819
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Bab El Assa",
+        "addr:city:ar": "باب العسة",
+        "addr:city:fr": "Bab El Assa",
+        "addr:street": "Rue du 5 Juillet",
+        "addr:street:ar": "شارع 5 جويلية",
+        "addr:street:fr": "Rue du 5 Juillet",
+        "amenity": "marketplace",
+        "name": "Marché vert",
+        "name:ar": "السوق الخضراء",
+        "name:fr": "Marché vert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/815935045",
+      "name": "Jnane berkane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-berkane-saidia",
+      "category": "restaurants",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.348959,
+          34.938547
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger;pizza;coffee_shop;sandwich;french;ice_cream;barbecue",
+        "name": "Jnane berkane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/816341904",
+      "name": "Mosquée Al Hijra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-hijra-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.318773,
+          34.93479
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Hijra",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/817949299",
+      "name": "Mosquée Moulay Idriss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-moulay-idriss-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.259803,
+          34.903709
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Moulay Idriss",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/819988368",
+      "name": "Mosquée Jabir ibn Abdullah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-jabir-ibn-abdullah-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.305865,
+          34.915435
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Jabir ibn Abdullah",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/820532886",
+      "name": "Mosquée Al Khadra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-khadra-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.283689,
+          34.868388
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Khadra",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/831410572",
+      "name": "Mosquée Ettawhid مسجد التوحيد",
+      "name_fr": "Mosquée Ettawhid",
+      "name_ar": "مسجد التوحيد",
+      "slug": "mosquee-ettawhid-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.347379,
+          34.892056
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Ettawhid مسجد التوحيد",
+        "name:ar": "مسجد التوحيد",
+        "name:fr": "Mosquée Ettawhid",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/834711196",
+      "name": "Mosquée Al Karam",
+      "name_fr": "Mosquée Al Karam",
+      "name_ar": "مسجد الكرم",
+      "slug": "mosquee-al-karam-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.340262,
+          34.941738
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Karam",
+        "name:ar": "مسجد الكرم",
+        "name:fr": "Mosquée Al Karam",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/836528221",
+      "name": "Mosquée Al Ghofrane مسجد الغفران",
+      "name_fr": "Mosquée Al Ghofrane",
+      "name_ar": "مسجد الغفران",
+      "slug": "mosquee-al-ghofrane-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.332401,
+          34.929656
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Ghofrane مسجد الغفران",
+        "name:ar": "مسجد الغفران",
+        "name:fr": "Mosquée Al Ghofrane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/848428993",
+      "name": "Mosquée Assalihin مسجد الصالحين",
+      "name_fr": "Mosquée Assalihin",
+      "name_ar": "مسجد الصالحين",
+      "slug": "mosquee-assalihin-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.302327,
+          34.893291
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Assalihin مسجد الصالحين",
+        "name:ar": "مسجد الصالحين",
+        "name:fr": "Mosquée Assalihin",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/867567222",
+      "name": "Alpamare Saidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alpamare-saidia-saidia",
+      "category": "theme-parks",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.279733,
+          35.095978
+        ]
+      },
+      "osm_tags": {
+        "name": "Alpamare Saidia",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/925738119",
+      "name": "restaurant bahia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-bahia-saidia",
+      "category": "seafood",
+      "city": "saidia",
+      "address": "الطريق الساحلية المتوسطية, Ras El Ma رأس الماء",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.397402,
+          35.13222
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ras El Ma رأس الماء",
+        "addr:street": "الطريق الساحلية المتوسطية",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "restaurant bahia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1023072658",
+      "name": "Mosquée Al Imam Al Boukhari مسجد الإمام البخاري",
+      "name_fr": "Mosquée Al Imam Al Boukhari",
+      "name_ar": "مسجد الإمام البخاري",
+      "slug": "mosquee-al-imam-al-boukhari-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Berkane",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.314889,
+          34.922726
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Berkane",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al Imam Al Boukhari مسجد الإمام البخاري",
+        "name:ar": "مسجد الإمام البخاري",
+        "name:fr": "Mosquée Al Imam Al Boukhari",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1029374869",
+      "name": "Mosquée Tawhid مسجد التوحيد",
+      "name_fr": "Mosquée Tawhid",
+      "name_ar": "مسجد التوحيد",
+      "slug": "mosquee-tawhid-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.212118,
+          34.935028
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Tawhid مسجد التوحيد",
+        "name:ar": "مسجد التوحيد",
+        "name:fr": "Mosquée Tawhid",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1097128838",
+      "name": "Mosquée Othmane Ibn Affane مسجد عثمان بن عفان",
+      "name_fr": "Mosquée Othmane Ibn Affane",
+      "name_ar": "مسجد عثمان بن عفان",
+      "slug": "mosquee-othmane-ibn-affane-saidia",
+      "category": "mosques",
+      "city": "saidia",
+      "address": "Avenue Allal Al Fassi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.336978,
+          34.930735
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Allal Al Fassi",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Othmane Ibn Affane مسجد عثمان بن عفان",
+        "name:ar": "مسجد عثمان بن عفان",
+        "name:fr": "Mosquée Othmane Ibn Affane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1353400577",
+      "name": "Sidi Mustafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mustafa-saidia",
+      "category": "mausoleums",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.104381,
+          34.953203
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mustafa",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/3389534",
+      "name": "Oriental Bay Beach Golf & Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oriental-bay-beach-golf-spa-saidia",
+      "category": "hotels",
+      "city": "saidia",
+      "address": "88, Zone Touristique, Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.309658,
+          35.112252
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Saidia ⵙⵄⵉⴷⵢⵢⴰ السعيدية",
+        "addr:housenumber": "88",
+        "addr:street": "Zone Touristique",
+        "building": "yes",
+        "building:use": "hotel",
+        "email": "orientalbay@hotelsatlas.com",
+        "name": "Oriental Bay Beach Golf & Spa",
+        "note": "fermé definitivement?",
+        "phone": "+212 536 63 0063",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.facebook.com/OrientalBayBeachGolfSpa/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/OrientalBayBeachGolfSpa/",
+      "phone": "+212 536 63 0063",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/4075566",
+      "name": "Plage de Saïdia شاطئ السعيدية",
+      "name_fr": "Plage de Saïdia",
+      "name_ar": "شاطئ السعيدية",
+      "slug": "plage-de-saidia-saidia",
+      "category": "beaches",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.253643,
+          35.097656
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Saïdia شاطئ السعيدية",
+        "name:ar": "شاطئ السعيدية",
+        "name:fr": "Plage de Saïdia",
+        "natural": "beach",
+        "opening_hours": "24/7",
+        "surface": "sand",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "relation/6264741",
+      "name": "Camping La Poste",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-la-poste-saidia",
+      "category": "desert-camps",
+      "city": "saidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -2.238341,
+          35.08895
+        ]
+      },
+      "osm_tags": {
+        "access": "private",
+        "name": "Camping La Poste",
+        "tourism": "camp_site",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

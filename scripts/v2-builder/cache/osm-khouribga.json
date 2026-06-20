@@ -1,0 +1,973 @@
+{
+  "city": "khouribga",
+  "fetched_at": "2026-06-08T11:53:29.440Z",
+  "raw_count": 100,
+  "places": [
+    {
+      "osm_id": "node/2208743703",
+      "name": "Golden Tulip",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "golden-tulip-khouribga",
+      "category": "hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.908864,
+          32.897159
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Golden Tulip",
+        "source": "Local Knowledge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517671816",
+      "name": "Hotel Es-Salam Hana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-es-salam-hana-khouribga",
+      "category": "hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923756,
+          32.899224
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Es-Salam Hana",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517672029",
+      "name": "Hôtel Chabab",
+      "name_fr": "Hôtel Chabab",
+      "name_ar": null,
+      "slug": "hotel-chabab-khouribga",
+      "category": "hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910763,
+          32.88535
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Chabab",
+        "name:fr": "Hôtel Chabab",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517673613",
+      "name": "Hotel des hôtes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-des-hotes-khouribga",
+      "category": "hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912078,
+          32.884552
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel des hôtes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517673614",
+      "name": "Hôtel Oulad",
+      "name_fr": "Hôtel Oulad",
+      "name_ar": null,
+      "slug": "hotel-oulad-khouribga",
+      "category": "hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910342,
+          32.885272
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Oulad",
+        "name:fr": "Hôtel Oulad",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2576985939",
+      "name": "Jotyya Lebriq ( Marché populaire quartier Labriq )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jotyya-lebriq-marche-populaire-quartier-labriq-khouribga",
+      "category": "souks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923405,
+          32.886249
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Jotyya Lebriq ( Marché populaire quartier Labriq )"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2576990879",
+      "name": "Marché Régional Hebdomadaire ( Dimanche )",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-regional-hebdomadaire-dimanche-khouribga",
+      "category": "souks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.918057,
+          32.897806
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Régional Hebdomadaire ( Dimanche )"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2577009035",
+      "name": "Tombeau Choukrani Naïma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tombeau-choukrani-naima-khouribga",
+      "category": "mosques",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923331,
+          32.872619
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Tombeau Choukrani Naïma",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2907753746",
+      "name": "Mosquée Al Imane",
+      "name_fr": null,
+      "name_ar": "مسجد الإيمان",
+      "slug": "mosquee-al-imane-khouribga",
+      "category": "mosques",
+      "city": "khouribga",
+      "address": "KHOURIBGA, KHOURIBGA",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.891597,
+          32.889448
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "KHOURIBGA",
+        "addr:full": "Bloc f Avenue Ahmed Elhiba n°223 Massira 25013 KHOURIBGA",
+        "addr:place": "Bloc f Massira",
+        "addr:postcode": "25013",
+        "addr:suburb": "KHOURIBGA",
+        "amenity": "place_of_worship",
+        "comment": "Précision de 3 décimal",
+        "fixme": "resurvey",
+        "name": "Mosquée Al Imane",
+        "name:ar": "مسجد الإيمان",
+        "operator": "Barid Al Maghrib",
+        "post_office:type": "agence ABB",
+        "ref:code_mecano": "87063.0",
+        "religion": "muslim",
+        "source": "data.gov.ma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4245978309",
+      "name": "hay salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hay-salam-khouribga",
+      "category": "riads",
+      "city": "khouribga",
+      "address": "6, oued nounehay salam n:6",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.89949,
+          32.876022
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "22000",
+        "addr:street": "oued nounehay salam n:6",
+        "email": "ayoub_boudiar@hotmail.com",
+        "internet_access": "wlan",
+        "name": "hay salam",
+        "opening_hours": "24/7",
+        "phone": "+212 6 18 15 09 53",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 18 15 09 53",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4405375289",
+      "name": "فرن شعبي",
+      "name_fr": null,
+      "name_ar": "فرن شعبي",
+      "slug": "khouribga",
+      "category": "bakeries",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.925357,
+          32.880335
+        ]
+      },
+      "osm_tags": {
+        "name": "فرن شعبي",
+        "name:ar": "فرن شعبي",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5463277522",
+      "name": "Apparts in Khouribga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "apparts-in-khouribga-khouribga",
+      "category": "boutique-hotels",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917303,
+          32.885688
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Apparts in Khouribga",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8426994079",
+      "name": "Alimentation Général Chez Al Bouazaoui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alimentation-general-chez-al-bouazaoui-khouribga",
+      "category": "food-markets",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.061401,
+          32.809089
+        ]
+      },
+      "osm_tags": {
+        "name": "Alimentation Général Chez Al Bouazaoui",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "operator": "Al Bouazaoui",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-23:00"
+    },
+    {
+      "osm_id": "node/8426994080",
+      "name": "Mosquée La Grande Ferme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-la-grande-ferme-khouribga",
+      "category": "mosques",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.058151,
+          32.807806
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "fixme": "il faut mettre à jour l'image satellite de cet endroit. maintenant il y'a bien une mosquée qui est construite à cette emplacement",
+        "name": "Mosquée La Grande Ferme",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11745222367",
+      "name": "Beni Aamir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beni-aamir-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914081,
+          32.895359
+        ]
+      },
+      "osm_tags": {
+        "garden:type": "community",
+        "leisure": "garden",
+        "name": "Beni Aamir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/295738463",
+      "name": "Marjane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjane-khouribga",
+      "category": "food-markets",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907833,
+          32.887265
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/400838898",
+      "name": "Parc Ibn Yassine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-ibn-yassine-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911981,
+          32.874289
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc Ibn Yassine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/400839040",
+      "name": "Parc de La Fontaine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-de-la-fontaine-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910644,
+          32.87775
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc de La Fontaine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/400904358",
+      "name": "Palais Royale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-royale-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917747,
+          32.881282
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Palais Royale",
+        "name:es": "Palacio Real"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/516479546",
+      "name": "Al-Mohammadi Mosque",
+      "name_fr": "Mosquée Al-Mohammadi",
+      "name_ar": "المسجد المحمدي",
+      "slug": "al-mohammadi-mosque-khouribga",
+      "category": "mosques",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.902609,
+          32.874848
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Mosquée Al-Mohammadi المسجد المحمدي",
+        "name:ar": "المسجد المحمدي",
+        "name:en": "Al-Mohammadi Mosque",
+        "name:fr": "Mosquée Al-Mohammadi",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/516495909",
+      "name": "Peace Park",
+      "name_fr": "Parc La Paix",
+      "name_ar": "حديقة السلام",
+      "slug": "peace-park-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.900262,
+          32.873257
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc La Paix حديقة السلام",
+        "name:ar": "حديقة السلام",
+        "name:en": "Peace Park",
+        "name:fr": "Parc La Paix"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/516495912",
+      "name": "Badr Park",
+      "name_fr": "Parc Badr",
+      "name_ar": "حديقة بدر",
+      "slug": "badr-park-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.89475,
+          32.871963
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc Badr حديقة بدر",
+        "name:ar": "حديقة بدر",
+        "name:en": "Badr Park",
+        "name:fr": "Parc Badr"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/530082684",
+      "name": "McDonald's",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mcdonald-s-khouribga",
+      "category": "local-food",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907538,
+          32.886247
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/698762518",
+      "name": "Paradise Parc Central (Al Firdaouss) - منتزه الفردوس المركزي",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paradise-parc-central-al-firdaouss-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909358,
+          32.888709
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Paradise Parc Central (Al Firdaouss) - منتزه الفردوس المركزي",
+        "opening_hours": "09:00-17:00",
+        "opening_hours:covid19": "closed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "09:00-17:00"
+    },
+    {
+      "osm_id": "way/738689402",
+      "name": "Parc Yasmina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-yasmina-khouribga",
+      "category": "national-parks",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.896031,
+          32.890645
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc Yasmina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/738689429",
+      "name": "Mosquee Hay Riyad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-hay-riyad-khouribga",
+      "category": "mosques",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.928811,
+          32.875979
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquee Hay Riyad",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/781165754",
+      "name": "terrain parma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "terrain-parma-khouribga",
+      "category": "kids-activities",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.921176,
+          32.87172
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "max_age": "99",
+        "min_age": "0",
+        "name": "terrain parma",
+        "playground:theme": "playground",
+        "surface": "asphalt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886203",
+      "name": "Sidi al Rafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-rafa-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.946171,
+          32.773845
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Rafa",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886204",
+      "name": "Sidi al Haj Abdelkader Charkaouki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-haj-abdelkader-charkaouki-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923183,
+          32.87406
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Haj Abdelkader Charkaouki",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1356886205",
+      "name": "Sidi bin Baoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bin-baoud-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.906159,
+          32.912925
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi bin Baoud",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1357212889",
+      "name": "Sidi Abdallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdallah-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.661849,
+          32.889249
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdallah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1357212890",
+      "name": "Sidi Idriss al Manziel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-idriss-al-manziel-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.661441,
+          32.889019
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Idriss al Manziel",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1357212892",
+      "name": "Sidi Abdou al Khâliq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdou-al-khaliq-khouribga",
+      "category": "mausoleums",
+      "city": "khouribga",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.925775,
+          32.925034
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdou al Khâliq",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

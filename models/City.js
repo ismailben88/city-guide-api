@@ -5,6 +5,8 @@ const citySchema = new Schema(
     name:   { type: String, required: true, trim: true },
     slug:   { type: String, required: true, unique: true, lowercase: true },
     region: { type: String, default: "" },
+    coverImage: { type: String, default: "" },
+    description: { type: String, default: "" },
     location: {
       type:        { type: String, enum: ["Point"], default: "Point" },
       coordinates: { type: [Number], default: [0, 0] },

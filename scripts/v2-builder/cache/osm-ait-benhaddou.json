@@ -1,0 +1,5652 @@
+{
+  "city": "ait-benhaddou",
+  "fetched_at": "2026-06-08T11:43:39.510Z",
+  "raw_count": 874,
+  "places": [
+    {
+      "osm_id": "node/318771709",
+      "name": "Atlas Studios",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-studios-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.966914,
+          30.941782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "studio",
+        "name": "Atlas Studios",
+        "phone": "+212 5 24 88 22 23",
+        "studio": "video",
+        "tourism": "attraction",
+        "website": "https://ouarzazatestudios.com/",
+        "wikidata": "Q757166",
+        "wikimedia_commons": "Category:Atlas Corporation Studios",
+        "wikipedia": "en:Atlas Corporation Studios"
+      },
+      "wikidata": "Q757166",
+      "wikipedia": "en:Atlas Corporation Studios",
+      "website": "https://ouarzazatestudios.com/",
+      "phone": "+212 5 24 88 22 23",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/318772007",
+      "name": "Marché Couvert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-couvert-ait-benhaddou",
+      "category": "souks",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920095,
+          30.922889
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Couvert"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439251201",
+      "name": "Kasbah de Tifoultoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-de-tifoultoute-ait-benhaddou",
+      "category": "palaces-kasbahs",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.990421,
+          30.926595
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Kasbah de Tifoultoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439366795",
+      "name": "Kasbah de Tamdaght",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-de-tamdaght-ait-benhaddou",
+      "category": "palaces-kasbahs",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.146011,
+          31.085451
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Kasbah de Tamdaght"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439366796",
+      "name": "Kasbah de Aït Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-de-ait-ben-haddou-ait-benhaddou",
+      "category": "palaces-kasbahs",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129,
+          31.046436
+        ]
+      },
+      "osm_tags": {
+        "historic": "castle",
+        "name": "Kasbah de Aït Ben Haddou",
+        "name:zh": "阿伊特本哈杜村"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439425011",
+      "name": "Chez Dimitri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-dimitri-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "Av. Mohamed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915262,
+          30.920556
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Av. Mohamed V",
+        "amenity": "restaurant",
+        "name": "Chez Dimitri"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/439425013",
+      "name": "Supermarché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "supermarche-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915337,
+          30.920209
+        ]
+      },
+      "osm_tags": {
+        "alcohol": "yes",
+        "name": "Supermarché",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/620936604",
+      "name": "La Kasbah du Jardin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-kasbah-du-jardin-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.135654,
+          31.047706
+        ]
+      },
+      "osm_tags": {
+        "name": "La Kasbah du Jardin",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/620936606",
+      "name": "Camping Zaitoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-zaitoune-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.135114,
+          31.047199
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Zaitoune",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/704490194",
+      "name": "Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91602,
+          30.920958
+        ]
+      },
+      "osm_tags": {
+        "name": "Atlas",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954684021",
+      "name": "Rose de Sable",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rose-de-sable-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134263,
+          31.046017
+        ]
+      },
+      "osm_tags": {
+        "amenity": "telephone",
+        "check_date": "2024-03-13",
+        "name": "Rose de Sable",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1138995313",
+      "name": "Dar Mouna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-mouna-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.12954,
+          31.043679
+        ]
+      },
+      "osm_tags": {
+        "email": "info@darmouna.com",
+        "fax": "+212 5 28 84 30 54",
+        "internet_access": "wlan",
+        "name": "Dar Mouna",
+        "phone": "+212 5 28 84 30 54",
+        "tourism": "hotel",
+        "website": "https://www.darmouna.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darmouna.com/",
+      "phone": "+212 5 28 84 30 54",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1161748255",
+      "name": "Le Musée Régional de la Résistance et de l'Armée de Liberation",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-musee-regional-de-la-resistance-et-de-l-armee-de-liberation-ait-benhaddou",
+      "category": "history-museums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92016,
+          30.929908
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Musée Régional de la Résistance et de l'Armée de Liberation",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1161748311",
+      "name": "Cae Mehdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cae-mehdi-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91449,
+          30.920596
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cae Mehdi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1175041317",
+      "name": "Le Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-carrefour-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104805,
+          30.975008
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Carrefour",
+        "source": "survey",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1245736363",
+      "name": "Hema",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hema-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "Avenue Moulay Ettahar Bed Abdulkarim",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.928472,
+          30.926642
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Moulay Ettahar Bed Abdulkarim",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "الهمة",
+        "name:en": "Hema",
+        "opening_hours": "PH,Mo-Su 08:00-22:45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "PH,Mo-Su 08:00-22:45"
+    },
+    {
+      "osm_id": "node/1449354800",
+      "name": "Riad Ksar Ighnda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ksar-ighnda-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.142779,
+          31.065718
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Ksar Ighnda",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833032025",
+      "name": "Imini Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imini-hotel-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.251853,
+          31.061589
+        ]
+      },
+      "osm_tags": {
+        "name": "Imini Hotel",
+        "note": "Grade A, > 10 EUR",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833032040",
+      "name": "Les Grotte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-grotte-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131488,
+          31.131618
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Grotte",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834471264",
+      "name": "Filmset",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "filmset-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.072643,
+          31.017721
+        ]
+      },
+      "osm_tags": {
+        "name": "Filmset",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834471273",
+      "name": "Gas Haven (scenery \"Hills Have Eyes\" (2006) Gas Station)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gas-haven-scenery-hills-have-eyes-2006-gas-station-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "N10",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.233005,
+          30.922721
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "N10",
+        "name": "Gas Haven (scenery \"Hills Have Eyes\" (2006) Gas Station)",
+        "name:ru": "Бензиновый приют (декорации к фильму \"У холмов есть глаза\" (2006), АЗС)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834473717",
+      "name": "Rabab Bazaar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rabab-bazaar-ait-benhaddou",
+      "category": "souks",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915168,
+          30.920216
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Rabab Bazaar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902487",
+      "name": "Cae Tamda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cae-tamda-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914765,
+          30.920565
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cae Tamda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902488",
+      "name": "Cuisine divers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cuisine-divers-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913733,
+          30.921729
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Cuisine divers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902489",
+      "name": "Des Habouss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "des-habouss-ait-benhaddou",
+      "category": "bakeries",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914278,
+          30.921631
+        ]
+      },
+      "osm_tags": {
+        "name": "Des Habouss",
+        "phone": "+212 44 882699",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 44 882699",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902490",
+      "name": "El Mouahidine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-mouahidine-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913877,
+          30.921719
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "El Mouahidine"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902491",
+      "name": "Galas Café Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "galas-cafe-restaurant-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912248,
+          30.920362
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Galas Café Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902492",
+      "name": "Hotel Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-essalam-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915016,
+          30.920236
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Essalam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902493",
+      "name": "Hotel Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-royal-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915109,
+          30.920556
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Hotel Royal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021902495",
+      "name": "La Fibule",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-fibule-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915521,
+          30.920517
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Fibule"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904303",
+      "name": "Bab Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-sahara-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.913366,
+          30.921747
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "internet_access": "wlan",
+        "internet_access:password": "babsahara@2024",
+        "internet_access:ssid": "HOTEL_BABSAHARA_4G",
+        "name": "Bab Sahara",
+        "stars": "2",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 2,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904423",
+      "name": "Salon de The Habous",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salon-de-the-habous-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914171,
+          30.921707
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Salon de The Habous"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2021904424",
+      "name": "Snack El Hassania",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-el-hassania-ait-benhaddou",
+      "category": "local-food",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915444,
+          30.920987
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack El Hassania"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2024387623",
+      "name": "Auberge Trid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-trid-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129111,
+          31.042046
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "contact:email": "hollywoodofafrica8@gmail.com",
+        "cuisine": "pizza",
+        "name": "Auberge Trid",
+        "phone": "+212 6 00 99 83 97",
+        "tourism": "guest_house",
+        "website": "https://hotelhollywoodafrica.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://hotelhollywoodafrica.com",
+      "phone": "+212 6 00 99 83 97",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2024387624",
+      "name": "Bin El Ouidane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bin-el-ouidane-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128543,
+          31.043558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Bin El Ouidane",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2024387625",
+      "name": "Cafe Restaurant Assaha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-assaha-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131231,
+          31.043753
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Cafe Restaurant Assaha"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2024388271",
+      "name": "Superette Bel Ayme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-bel-ayme-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.132422,
+          31.044817
+        ]
+      },
+      "osm_tags": {
+        "name": "Superette Bel Ayme",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2024388272",
+      "name": "lokfel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lokfel-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129397,
+          31.042317
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "lokfel",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2078788728",
+      "name": "Mosquée Al Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-massira-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.922061,
+          30.933701
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Al Massira",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2142689755",
+      "name": "Bagdad Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bagdad-cafe-ait-benhaddou",
+      "category": "luxury-hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130202,
+          31.042936
+        ]
+      },
+      "osm_tags": {
+        "name": "Bagdad Cafe",
+        "note": "Extra ordinary hotel",
+        "stars": "5",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 5,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2197769708",
+      "name": "Auberge Tiguami Khadija",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-tiguami-khadija-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130316,
+          31.043468
+        ]
+      },
+      "osm_tags": {
+        "email": "pension_khadija@hotmail.com",
+        "internet_access": "no",
+        "name": "Auberge Tiguami Khadija",
+        "phone": "+212 6 60 85 31 84",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 60 85 31 84",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2291947179",
+      "name": "Kasbah La Cigogne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-la-cigogne-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.145731,
+          31.086391
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah La Cigogne",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2329883238",
+      "name": "Azoul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azoul-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923475,
+          30.921666
+        ]
+      },
+      "osm_tags": {
+        "name": "Azoul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2412002969",
+      "name": "Des Grottes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "des-grottes-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131509,
+          31.131484
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Des Grottes",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2439312293",
+      "name": "Jardin des Aromes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-des-aromes-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915414,
+          30.920242
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Jardin des Aromes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517631648",
+      "name": "Auberge Achahoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-achahoud-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.135077,
+          31.150319
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Achahoud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517633491",
+      "name": "La Baraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-baraka-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Ait Ben Haddou, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130476,
+          31.043163
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "40500",
+        "addr:street": "Ait Ben Haddou",
+        "atm": "no",
+        "contact:email": "taroula@gmail.com",
+        "fax": "+212 5 24886273",
+        "internet_access": "wlan",
+        "name": "La Baraka",
+        "opening_hours": "24/7",
+        "phone": "+212 5 24890305",
+        "source": "Local knowledge",
+        "tourism": "hotel",
+        "website": "http://www.hotellabaraka.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.hotellabaraka.com",
+      "phone": "+212 5 24890305",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/2517633492",
+      "name": "Etoile Filant d'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "etoile-filant-d-or-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134444,
+          31.046158
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2024-03-13",
+        "name": "Etoile Filant d'Or",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517633494",
+      "name": "auberge kasbah tifaoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-kasbah-tifaoute-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.144858,
+          31.062674
+        ]
+      },
+      "osm_tags": {
+        "name": "auberge kasbah tifaoute",
+        "tourism": "hotel",
+        "website": "https://www.tifaoute-ait-ben-haddou.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.tifaoute-ait-ben-haddou.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517635652",
+      "name": "on d'hôtes Nouflla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "on-d-hotes-nouflla-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.127856,
+          31.040886
+        ]
+      },
+      "osm_tags": {
+        "name": "on d'hôtes Nouflla",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517638240",
+      "name": "Auberge le carfour Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-le-carfour-ben-haddou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104741,
+          30.97522
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge le carfour Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639665",
+      "name": "Camping Auberge l'escale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-auberge-l-escale-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097671,
+          30.975165
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Auberge l'escale",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639675",
+      "name": "Hotel l'Escale de Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-l-escale-de-ouarzazate-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "route national 10",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097728,
+          30.975088
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "route national 10",
+        "bar": "yes",
+        "capacity": "10",
+        "charge": "Entre 30 Euro chambre (room) double 85 pour une chambre (room) family",
+        "fee": "yes",
+        "fixme": "jeux enfant et petanque = yes; télévision = yes; air conditioned = yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Hotel l'Escale de Ouarzazate",
+        "operator": "naoual",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "restaurant": "yes",
+        "rooms": "10",
+        "swimming_pool": "yes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517639899",
+      "name": "Maison d'hôtes Tigminou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-tigminou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097446,
+          30.976177
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison d'hôtes Tigminou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2517641895",
+      "name": "Imoudal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imoudal-ait-benhaddou",
+      "category": "bakeries",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92639,
+          30.922326
+        ]
+      },
+      "osm_tags": {
+        "name": "Imoudal",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2975917867",
+      "name": "Patisserie El Janoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisserie-el-janoub-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912437,
+          30.921152
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Patisserie El Janoub"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3306161374",
+      "name": "Camp Defat Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-defat-kasbah-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.141343,
+          31.071134
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Defat Kasbah",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3915475897",
+      "name": "Irocha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "irocha-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.325001,
+          31.126353
+        ]
+      },
+      "osm_tags": {
+        "name": "Irocha",
+        "note": "Grade A, > 32 EUR",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3915477167",
+      "name": "Dar Tisselday",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tisselday-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.326757,
+          31.126778
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Tisselday",
+        "note": "Grade A, > 35 EUR",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916592021",
+      "name": "Kasbah Tebi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tebi-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129364,
+          31.046744
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Tebi",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916592022",
+      "name": "Kasbah Hajja",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-hajja-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130029,
+          31.046693
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Hajja",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916596576",
+      "name": "Caravane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravane-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.138582,
+          31.050388
+        ]
+      },
+      "osm_tags": {
+        "name": "Caravane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916616915",
+      "name": "Le Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-kasbah-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131355,
+          31.045562
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Kasbah",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916621274",
+      "name": "Chez Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-brahim-ait-benhaddou",
+      "category": "luxury-hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129816,
+          31.044176
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Brahim",
+        "stars": "5",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 5,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3916649386",
+      "name": "Kasbah Isfoula and Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-isfoula-and-spa-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "douar Assfalou tamdakht - Ait Ben Haddou, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.141513,
+          31.070984
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "addr:street": "douar Assfalou tamdakht - Ait Ben Haddou",
+        "email": "kasbah-isfoula@hotmail.fr",
+        "internet_access": "wlan",
+        "name": "Kasbah Isfoula and Spa",
+        "phone": "+212 5 24 88 59 55",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 88 59 55",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4195766536",
+      "name": "Tanaldat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tanaldat-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.210353,
+          31.044506
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Tanaldat",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4195766537",
+      "name": "Convenience store",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "convenience-store-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.210421,
+          31.044203
+        ]
+      },
+      "osm_tags": {
+        "name": "Convenience store",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4217528989",
+      "name": "Marmar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marmar-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Avenue Moulay Abdellah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924318,
+          30.928291
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Moulay Abdellah",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Marmar",
+        "phone": "+212 5 24 88 88 87",
+        "smoking": "separated",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "hotel-marmar.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "hotel-marmar.com",
+      "phone": "+212 5 24 88 88 87",
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4242842184",
+      "name": "Auberge Bilal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-bilal-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128946,
+          31.043077
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Bilal",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4248672856",
+      "name": "Lions",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lions-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.967549,
+          30.942519
+        ]
+      },
+      "osm_tags": {
+        "name": "Lions",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4248688220",
+      "name": "Ship",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ship-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.965212,
+          30.942346
+        ]
+      },
+      "osm_tags": {
+        "name": "Ship",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4257978589",
+      "name": "jawhara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jawhara-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "rue alkifah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.338906,
+          31.176114
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "212",
+        "addr:street": "rue alkifah",
+        "amenity": "cafe",
+        "name": "jawhara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4344447593",
+      "name": "Snack Resto Elbahja",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-resto-elbahja-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924893,
+          30.924253
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan;local",
+        "name": "Snack Resto Elbahja"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4370237292",
+      "name": "Chez Nabil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-nabil-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911795,
+          30.922931
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Nabil"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5211047534",
+      "name": "Dar Joud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-joud-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.104317,
+          30.97753
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Joud",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5238042767",
+      "name": "Dades Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dades-market-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.911855,
+          30.923046
+        ]
+      },
+      "osm_tags": {
+        "name": "Dades Market",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5296057623",
+      "name": "L'Oasis D'or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-oasis-d-or-ait-benhaddou",
+      "category": "moroccan-cuisine",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134028,
+          31.046484
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "L'Oasis D'or"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5361828921",
+      "name": "Superette",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.133135,
+          31.045527
+        ]
+      },
+      "osm_tags": {
+        "name": "Superette",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5361829022",
+      "name": "Noufl",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "noufl-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.127813,
+          31.040749
+        ]
+      },
+      "osm_tags": {
+        "name": "Noufl",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5461466121",
+      "name": "Accord majeur",
+      "name_fr": null,
+      "name_ar": "اكورد مجور",
+      "slug": "accord-majeur-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.910282,
+          30.923507
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "اكورد مجور",
+        "name:ar": "اكورد مجور",
+        "name:en": "Accord majeur"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5467991321",
+      "name": "Kasbah Ellouze",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ellouze-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.146231,
+          31.086456
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:de": "Kasbah Ellouze",
+        "name:en": "Kasbah Ellouze",
+        "operator": "Michel et Colette",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5649789221",
+      "name": "carrefour familial",
+      "name_fr": "carrefour familiale",
+      "name_ar": null,
+      "slug": "carrefour-familial-ait-benhaddou",
+      "category": "specialty-coffee",
+      "city": "ait-benhaddou",
+      "address": "route principale tisseldei",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.326197,
+          31.126496
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "route principale tisseldei",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "carrefour familial",
+        "name:fr": "carrefour familiale"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5876727844",
+      "name": "maison d'hotes nouflla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-nouflla-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "ait ben haddou, ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.127813,
+          31.040749
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "ouarzazate",
+        "addr:postcode": "45122",
+        "addr:street": "ait ben haddou",
+        "amenity": "cafe",
+        "cuisine": "regional;pizza;coffee_shop;tagine;couscous;the_a_la_menthe;pain",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Maison d'hotes nouflla",
+        "name": "maison d'hotes nouflla",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:paypal": "yes",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5996691485",
+      "name": "La Gironde",
+      "name_fr": "La Gironde",
+      "name_ar": null,
+      "slug": "la-gironde-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "83, Rue des FAR",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.919563,
+          30.921354
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "83",
+        "addr:postcode": "45000",
+        "addr:street": "Rue des FAR",
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "name": "La Gironde",
+        "name:de": "La Gironde",
+        "name:en": "La Gironde",
+        "name:fr": "La Gironde",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-23:00"
+    },
+    {
+      "osm_id": "node/6001734494",
+      "name": "Camping Zaythoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-zaythoune-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134629,
+          31.04686
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "no",
+        "name": "Camping Zaythoune",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6001734495",
+      "name": "L'Oasis Dor Ait Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-oasis-dor-ait-ben-haddou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.1339,
+          31.046162
+        ]
+      },
+      "osm_tags": {
+        "name": "L'Oasis Dor Ait Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6035136250",
+      "name": "L'oasis Du Bonheur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-oasis-du-bonheur-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.139533,
+          31.051169
+        ]
+      },
+      "osm_tags": {
+        "name": "L'oasis Du Bonheur",
+        "phone": "+212 6 27 63 79 43",
+        "tourism": "guest_house",
+        "website": "oasisdubonheur.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "oasisdubonheur.com",
+      "phone": "+212 6 27 63 79 43",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6056863025",
+      "name": "Tawesna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tawesna-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131061,
+          31.046772
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "contact:facebook": "tawesna",
+        "contact:instagram": "Tawesna",
+        "cuisine": "local;moroccan;tea",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "azdoulaila@gmail.com",
+        "name": "Tawesna",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 69 94 40 75"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 69 94 40 75",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6083534586",
+      "name": "الركن الذهبي",
+      "name_fr": "Coin d'or",
+      "name_ar": "الركن الذهبي",
+      "slug": "ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.907824,
+          30.92599
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "الركن الذهبي",
+        "name:ar": "الركن الذهبي",
+        "name:fr": "Coin d'or"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6147879485",
+      "name": "La Fibule Dor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-fibule-dor-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129597,
+          31.044006
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "La Fibule Dor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6303750385",
+      "name": "Snack Souss",
+      "name_fr": null,
+      "name_ar": "Snack Souss & Sandwich 12 dirhams",
+      "slug": "snack-souss-ait-benhaddou",
+      "category": "local-food",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915054,
+          30.92136
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich;moroccan",
+        "name": "Snack Souss",
+        "name:ar": "Snack Souss & Sandwich 12 dirhams"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6391961585",
+      "name": "Auberge restaurant Tombouctou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-restaurant-tombouctou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Ksar d'Aït-Ben-Haddou",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131509,
+          31.045511
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Ksar d'Aït-Ben-Haddou",
+        "name": "Auberge restaurant Tombouctou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186098",
+      "name": "Tafarnout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tafarnout-ait-benhaddou",
+      "category": "local-food",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.927349,
+          30.925476
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza;sandwich",
+        "name:en": "Tafarnout"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186891",
+      "name": "Oscar Fast Food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oscar-fast-food-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915522,
+          30.92026
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza;moroccan;local",
+        "name:en": "Oscar Fast Food"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6418186986",
+      "name": "Libre service",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "libre-service-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92707,
+          30.92506
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Libre service",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6837592785",
+      "name": "Etole Filante d'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "etole-filante-d-or-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134335,
+          31.046199
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Etole Filante d'Or",
+        "name:zh": "渊凯城"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6979098385",
+      "name": "Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.145095,
+          31.086782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Mosque",
+        "name:ru": "Мечеть",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980190528",
+      "name": "Café al Hizame",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-hizame-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.926851,
+          30.927375
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café al Hizame"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980199191",
+      "name": "La Halte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-halte-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912276,
+          30.921176
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Halte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6984915923",
+      "name": "Hotel Le Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-le-kasbah-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129402,
+          31.043161
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Le Kasbah",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7032203213",
+      "name": "Séville",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "seville-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.973081,
+          30.938781
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Séville"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7035781392",
+      "name": "Kasbah dar Talouste",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-dar-talouste-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.256734,
+          31.068285
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kasbah dar Talouste",
+        "takeaway": "no",
+        "toilets:wheelchair": "no",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7089433085",
+      "name": "Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.919276,
+          30.91994
+        ]
+      },
+      "osm_tags": {
+        "brand": "Carrefour",
+        "brand:wikidata": "Q217599",
+        "name": "Carrefour",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7090382186",
+      "name": "Ouchtou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouchtou-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916754,
+          30.931558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Ouchtou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7092823685",
+      "name": "View point of Ouarzazate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-point-of-ouarzazate-ait-benhaddou",
+      "category": "sunset-spots",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916589,
+          30.919335
+        ]
+      },
+      "osm_tags": {
+        "name:en": "View point of Ouarzazate",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7092823785",
+      "name": "View point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "view-point-ait-benhaddou",
+      "category": "sunset-spots",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.916158,
+          30.918351
+        ]
+      },
+      "osm_tags": {
+        "name:en": "View point",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7295255562",
+      "name": "Amerzegane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amerzegane-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.210666,
+          31.044243
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Amerzegane",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7403053687",
+      "name": "Dar Bergui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bergui-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Siddi Hssain;Siddi Hssayne Ben Naser",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.918137,
+          30.927348
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "45000",
+        "addr:street": "Siddi Hssain;Siddi Hssayne Ben Naser",
+        "name": "Dar Bergui",
+        "name:es": "Riad Dar Bergui",
+        "phone": "+212 6 68 67 51 64",
+        "tourism": "hotel",
+        "website": "http://www.darbergui.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.darbergui.com",
+      "phone": "+212 6 68 67 51 64",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9052047510",
+      "name": "Nebras",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nebras-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "454, Hay Mohammady Avenue Moulay Ettahar Bed Abdulkarim, Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.937358,
+          30.939526
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:housenumber": "454",
+        "addr:postcode": "45000",
+        "addr:street": "Hay Mohammady Avenue Moulay Ettahar Bed Abdulkarim",
+        "name": "Nebras",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "opening_hours:covid19": "Mo-Sa 09:00-21:00",
+        "operator": "Nebras",
+        "payment:cash": "yes",
+        "phone": "+212 6 67 48 73 71",
+        "shop": "supermarket",
+        "website": "https://www.nebras.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.nebras.ma/",
+      "phone": "+212 6 67 48 73 71",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-22:00"
+    },
+    {
+      "osm_id": "node/9404648168",
+      "name": "Camping Atlas View",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-atlas-view-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.103794,
+          31.014237
+        ]
+      },
+      "osm_tags": {
+        "email": "houma798@gmail.com",
+        "name": "Camping Atlas View",
+        "phone": "+212 6 64 44 15 30",
+        "tourism": "camp_site",
+        "website": "https://chezhouma.blogspot.com/?m=1"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://chezhouma.blogspot.com/?m=1",
+      "phone": "+212 6 64 44 15 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9404665738",
+      "name": "Salon de thé chez del Maroc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salon-de-the-chez-del-maroc-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128083,
+          31.164209
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Salon de thé chez del Maroc",
+        "phone": "+212 6 96 99 10 11"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 99 10 11",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9951416817",
+      "name": "Etoiles 5",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "etoiles-5-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909723,
+          30.925832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Etoiles 5"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003051406",
+      "name": "Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ait-benhaddou",
+      "category": "roman-ruins",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.134799,
+          31.212897
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "name": "Kasbah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003061844",
+      "name": "Riad Ouinz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ouinz-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128074,
+          31.040312
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Ouinz",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003071074",
+      "name": "La Belle Vue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-belle-vue-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128026,
+          31.040507
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La Belle Vue"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003072075",
+      "name": "Café Restaurant Assif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-assif-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.132694,
+          31.046151
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Restaurant Assif"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003073799",
+      "name": "Complexe Al Baraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "complexe-al-baraka-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.983964,
+          30.939798
+        ]
+      },
+      "osm_tags": {
+        "name": "Complexe Al Baraka",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003081730",
+      "name": "Hotel Restaurant Ksar Aït Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-ksar-ait-ben-haddou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.135197,
+          31.046729
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Restaurant Ksar Aït Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10112119717",
+      "name": "kasbah tazentoute",
+      "name_fr": "kasbah tazentoute",
+      "name_ar": null,
+      "slug": "kasbah-tazentoute-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.092336,
+          30.969248
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "kasbah tazentoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10262097620",
+      "name": "Cafe Etmel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-etmel-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917152,
+          30.920412
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;tea",
+        "internet_access": "wlan",
+        "name:en": "Cafe Etmel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10689020807",
+      "name": "Station service - Décor de film",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "station-service-decor-de-film-ait-benhaddou",
+      "category": "historical-sites",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.23296,
+          30.923022
+        ]
+      },
+      "osm_tags": {
+        "name": "Station service - Décor de film",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10797702405",
+      "name": "Riad Chay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-chay-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.985945,
+          30.930571
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Riad Chay",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10941761231",
+      "name": "Kasbah Rayane Ait Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-rayane-ait-ben-haddou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.111684,
+          31.040096
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Rayane Ait Ben Haddou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11077224905",
+      "name": "Hostel Riad Amlal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hostel-riad-amlal-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917305,
+          30.920896
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Hostel Riad Amlal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11711849969",
+      "name": "Kasbah El Hajja",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-el-hajja-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.12881,
+          31.047287
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Kasbah El Hajja",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11728214246",
+      "name": "Tanmirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tanmirt-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.132483,
+          31.044363
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tanmirt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11728217332",
+      "name": "Superette Labaraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-labaraka-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131125,
+          31.043109
+        ]
+      },
+      "osm_tags": {
+        "name": "Superette Labaraka",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11728219386",
+      "name": "Chez Mehdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-mehdi-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.13218,
+          31.044034
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez Mehdi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11728233137",
+      "name": "Passage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "passage-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131336,
+          31.04368
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Passage"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11728236552",
+      "name": "Apizzeria Akij",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "apizzeria-akij-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.133457,
+          31.045192
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Apizzeria Akij"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11795116809",
+      "name": "Dar Zara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-zara-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.362543,
+          31.128349
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Zara",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11830963171",
+      "name": "Café de Rennes",
+      "name_fr": "Café de Rennes",
+      "name_ar": null,
+      "slug": "cafe-de-rennes-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.949943,
+          30.943971
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:fr": "Café de Rennes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11832563719",
+      "name": "Point de vue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "point-de-vue-ait-benhaddou",
+      "category": "sunset-spots",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130022,
+          31.047746
+        ]
+      },
+      "osm_tags": {
+        "name": "Point de vue",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11879682969",
+      "name": "La Terrazza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-terrazza-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.12948,
+          31.044467
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name:en": "La Terrazza"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12081787472",
+      "name": "Jus Master",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jus-master-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912418,
+          30.923596
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Jus Master"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12208942402",
+      "name": "La Grilla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-grilla-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.9103,
+          30.926015
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Grilla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12458834171",
+      "name": "Itrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "itrane-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129786,
+          31.042299
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Itrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12458840738",
+      "name": "Snack & Grilladerie Riyad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-grilladerie-riyad-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.13139,
+          31.043177
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack & Grilladerie Riyad"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12544283443",
+      "name": "Tombouctou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tombouctou-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.143301,
+          31.055724
+        ]
+      },
+      "osm_tags": {
+        "name": "Tombouctou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12604627901",
+      "name": "Hotel Iazal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-iazal-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.927562,
+          30.927408
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Iazal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12652732458",
+      "name": "Superette Lahroumi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-lahroumi-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.917604,
+          30.93283
+        ]
+      },
+      "osm_tags": {
+        "name": "Superette Lahroumi",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12749439963",
+      "name": "Guest House Dar Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "guest-house-dar-brahim-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128781,
+          31.165263
+        ]
+      },
+      "osm_tags": {
+        "addr:place": "Tizgui Nbarda",
+        "building": "yes",
+        "name": "Guest House Dar Brahim",
+        "phone": "+212 6 97 19 00 52",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 97 19 00 52",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12919565602",
+      "name": "Hotel Ksar Ljanoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ksar-ljanoub-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.142819,
+          31.058468
+        ]
+      },
+      "osm_tags": {
+        "email": "Ksarljanoub@gmail.com",
+        "internet_access": "wlan",
+        "name": "Hotel Ksar Ljanoub",
+        "phone": "+212 6 61 80 80 71",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 80 80 71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12919645201",
+      "name": "Cooperative Tapis Akhnif Lglaoui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cooperative-tapis-akhnif-lglaoui-ait-benhaddou",
+      "category": "berber-crafts",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.130364,
+          31.044976
+        ]
+      },
+      "osm_tags": {
+        "name": "Cooperative Tapis Akhnif Lglaoui",
+        "shop": "carpet"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13167934306",
+      "name": "Abdo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abdo-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.145759,
+          31.083749
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Abdo"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13167934311",
+      "name": "Kasbah Titritte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-titritte-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.146128,
+          31.086864
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Titritte",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13167934312",
+      "name": "A'Kabah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "a-kabah-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.143784,
+          31.084615
+        ]
+      },
+      "osm_tags": {
+        "name": "A'Kabah",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13320026786",
+      "name": "La Gazelle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-gazelle-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.926367,
+          30.923814
+        ]
+      },
+      "osm_tags": {
+        "name": "La Gazelle",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13585137001",
+      "name": "Grotte troglodyte (Tazaght)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grotte-troglodyte-tazaght-ait-benhaddou",
+      "category": "mountains",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.159217,
+          31.095517
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "fee": "no",
+        "loc_name": "tazaght",
+        "name": "Grotte troglodyte (Tazaght)",
+        "natural": "cave_entrance",
+        "website": "https://fint-tours.com/nos-excursions-a-la-journee/destination-telouet/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://fint-tours.com/nos-excursions-a-la-journee/destination-telouet/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13588119638",
+      "name": "Café Restaurant La Kasbah Ait Ben Hadou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-la-kasbah-ait-ben-hadou-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128964,
+          31.043305
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Restaurant La Kasbah Ait Ben Hadou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13588119639",
+      "name": "Snack les amies",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-les-amies-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.133335,
+          31.045209
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "international;moroccan",
+        "name": "Snack les amies"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13612566801",
+      "name": "Dar Amghar Green Garden",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-amghar-green-garden-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.128884,
+          31.047715
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Dar Amghar Green Garden"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13617983101",
+      "name": "Délices de Chongqing Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "delices-de-chongqing-restaurant-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131954,
+          31.044878
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Délices de Chongqing Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13690986329",
+      "name": "Riad Aït Ben Haddou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-ait-ben-haddou-ait-benhaddou",
+      "category": "riads",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131112,
+          31.041532
+        ]
+      },
+      "osm_tags": {
+        "contact:email": "riadaitbenhaddou@gmail.com",
+        "contact:phone": "+212 5 24 88 66 79",
+        "contact:website": "https://www.riadaitbenhaddou.com/",
+        "name": "Riad Aït Ben Haddou",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadaitbenhaddou.com/",
+      "phone": "+212 5 24 88 66 79",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13711261010",
+      "name": "Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.912641,
+          30.924389
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13866660581",
+      "name": "Kasbah Zitoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-zitoune-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.999021,
+          30.921365
+        ]
+      },
+      "osm_tags": {
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kasbah Zitoune",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13910079635",
+      "name": "Dar Bikouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bikouch-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.141402,
+          31.070631
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Bikouch",
+        "phone": "+212667965554",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212667965554",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/140647686",
+      "name": "Club Hanane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "club-hanane-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.908933,
+          30.925161
+        ]
+      },
+      "osm_tags": {
+        "name": "Club Hanane",
+        "operator": "yes",
+        "smoking": "separated",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/141126429",
+      "name": "Glacier 3 Mars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "glacier-3-mars-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.924134,
+          30.921976
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Glacier 3 Mars"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191607426",
+      "name": "Marché central",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-central-ait-benhaddou",
+      "category": "souks",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.915392,
+          30.921192
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "landuse": "commercial",
+        "name": "Marché central"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/191873480",
+      "name": "Camping de l'Escale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-de-l-escale-ait-benhaddou",
+      "category": "desert-camps",
+      "city": "ait-benhaddou",
+      "address": "route national 10, Ouarzazate tazentoute",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.097694,
+          30.974753
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "addr:city": "Ouarzazate tazentoute",
+        "addr:postcode": "45000",
+        "addr:street": "route national 10",
+        "barrier": "wall",
+        "capacity": "40",
+        "charge": "7 Euro Electricité 2 euro",
+        "fee": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Camping de l'Escale",
+        "operator": "naoual",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa_debit": "yes",
+        "swimming_pool": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/209569671",
+      "name": "Sidi Ali ou Amar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-ou-amar-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129177,
+          31.050678
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "denomination": "sunni",
+        "historic": "tomb",
+        "name": "Sidi Ali ou Amar",
+        "religion": "muslim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/224158241",
+      "name": "Marché hebdomadaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-hebdomadaire-ait-benhaddou",
+      "category": "souks",
+      "city": "ait-benhaddou",
+      "address": "Ouarzazate ورزازات",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.935242,
+          30.936039
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate ورزازات",
+        "addr:postcode": "45000",
+        "amenity": "marketplace",
+        "name": "Marché hebdomadaire",
+        "opening_hours": "Su"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Su"
+    },
+    {
+      "osm_id": "way/224528136",
+      "name": "Café Noura",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-noura-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.92543,
+          30.922379
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Noura"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/224528137",
+      "name": "Café septièmle art",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-septiemle-art-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.925256,
+          30.922766
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café septièmle art"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/284022562",
+      "name": "Kasbah Aït Ougram",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-ait-ougram-ait-benhaddou",
+      "category": "history-museums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.129096,
+          31.04665
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "building:material": "rammed earth",
+        "name": "Kasbah Aït Ougram",
+        "tourism": "museum",
+        "wikidata": "Q124454126"
+      },
+      "wikidata": "Q124454126",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310493575",
+      "name": "Mosquée Mohammed VI",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mohammed-vi-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.914991,
+          30.928272
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Mohammed VI",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/398996144",
+      "name": "Mosquée Somalie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-somalie-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.91699,
+          30.919921
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Somalie",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399103381",
+      "name": "Mosquée Al mouqaouma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-mouqaouma-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.923127,
+          30.92628
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Al mouqaouma",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399301511",
+      "name": "Mesla مصلى",
+      "name_fr": "Mesla",
+      "name_ar": "مصلى",
+      "slug": "mesla-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "Avenue Moulay Abdellah, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909896,
+          30.930314
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:postcode": "45000",
+        "addr:street": "Avenue Moulay Abdellah",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mesla مصلى",
+        "name:ar": "مصلى",
+        "name:fr": "Mesla",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399341768",
+      "name": "Berbere Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "berbere-palace-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Rue Al-Mansour Ad-Dabhi, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909287,
+          30.923731
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:street": "Rue Al-Mansour Ad-Dabhi",
+        "name": "Berbere Palace",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399341769",
+      "name": "La Palmeraie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-palmeraie-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "Avenue Al Maghreb Al Arabi, Ouarzazate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.909571,
+          30.924863
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ouarzazate",
+        "addr:street": "Avenue Al Maghreb Al Arabi",
+        "name": "La Palmeraie",
+        "smoking": "separated",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399343351",
+      "name": "Al Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-massira-ait-benhaddou",
+      "category": "mosques",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.922057,
+          30.933649
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Al Massira",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/399343694",
+      "name": "HCAR",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hcar-ait-benhaddou",
+      "category": "history-museums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920171,
+          30.92985
+        ]
+      },
+      "osm_tags": {
+        "name": "HCAR",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/412883009",
+      "name": "Oscar Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oscar-hotel-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.96739,
+          30.941205
+        ]
+      },
+      "osm_tags": {
+        "name": "Oscar Hotel",
+        "phone": "+212 5 24 88 22 12",
+        "tourism": "hotel",
+        "website": "https://oscarhotelbyatlasstudios.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://oscarhotelbyatlasstudios.com/",
+      "phone": "+212 5 24 88 22 12",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/434053296",
+      "name": "Paradise of Silence",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paradise-of-silence-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.136327,
+          31.041753
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Paradise of Silence",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/640592108",
+      "name": "Kasbah Valentine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-valentine-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131367,
+          31.04257
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "description": "Hotel & Restaurant",
+        "email": "kasbahvalentine@gmail.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Kasbah Valentine",
+        "operator": "Chez Zaid",
+        "phone": "+212 6 68 39 89 91",
+        "tourism": "hotel",
+        "website": "https://www.kasbahvalentine.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbahvalentine.com/",
+      "phone": "+212 6 68 39 89 91",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/643689759",
+      "name": "Auberge Cafe Restaurant Tamlalte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-cafe-restaurant-tamlalte-ait-benhaddou",
+      "category": "restaurants",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131569,
+          31.045841
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "breakfast": "yes",
+        "building": "hotel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Auberge Cafe Restaurant Tamlalte",
+        "rooms": "3",
+        "smoking": "outside",
+        "toilets": "yes",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/750544638",
+      "name": "Hotel Maghni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-maghni-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.928807,
+          30.92363
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Maghni",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/754253685",
+      "name": "Sidi Jafr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-jafr-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.103768,
+          30.979796
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Jafr",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755519938",
+      "name": "Sidi Abdoullah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdoullah-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.141366,
+          31.089625
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdoullah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755519939",
+      "name": "Sidi Abdou Ahmad Wali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdou-ahmad-wali-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.145696,
+          31.086064
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdou Ahmad Wali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642244",
+      "name": "Sidi Abelrahman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abelrahman-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.098743,
+          30.983314
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abelrahman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755654862",
+      "name": "Sidi Lahsan ou Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-lahsan-ou-ali-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.199564,
+          31.137717
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Lahsan ou Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756080927",
+      "name": "Sidi Mohammad ou Charki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mohammad-ou-charki-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.966648,
+          30.919335
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mohammad ou Charki",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442663",
+      "name": "Sidi Tidli",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-tidli-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.030769,
+          30.844382
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Tidli",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759825534",
+      "name": "Hotel Dar Rita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dar-rita-ait-benhaddou",
+      "category": "luxury-hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.931838,
+          30.922739
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Dar Rita",
+        "rooms": "8",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.darrita.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darrita.com/",
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759835130",
+      "name": "Perle du Sud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "perle-du-sud-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.920033,
+          30.920493
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Perle du Sud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/781402316",
+      "name": "Maison d'hotes Kasbah Ounila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-kasbah-ounila-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.139831,
+          31.096288
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "hotel",
+        "name": "Maison d'hotes Kasbah Ounila",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692419",
+      "name": "Sidi Ahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahma-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.123084,
+          30.940352
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahma",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/936679952",
+      "name": "Maboutique",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maboutique-ait-benhaddou",
+      "category": "food-markets",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131619,
+          31.044338
+        ]
+      },
+      "osm_tags": {
+        "building": "retail",
+        "name": "Maboutique",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/936679958",
+      "name": "La Place",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-place-ait-benhaddou",
+      "category": "cafes",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.131656,
+          31.044008
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "La Place",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1209110292",
+      "name": "Abandoned Movie Set of Temple Mount Jerusalem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abandoned-movie-set-of-temple-mount-jerusalem-ait-benhaddou",
+      "category": "roman-ruins",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.99768,
+          30.911814
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "ruins",
+        "name": "Abandoned Movie Set of Temple Mount Jerusalem",
+        "wheelchair": "no",
+        "wikipedia": "https://de.wikipedia.org/wiki/Killing_Jesus?wprov=sfla1"
+      },
+      "wikidata": null,
+      "wikipedia": "https://de.wikipedia.org/wiki/Killing_Jesus?wprov=sfla1",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1221039021",
+      "name": "Sidi Hounsal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-hounsal-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.093315,
+          30.967489
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Hounsal",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1224873964",
+      "name": "Sidi Outhman",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-outhman-ait-benhaddou",
+      "category": "mausoleums",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.940744,
+          30.912849
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Outhman",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/10832923",
+      "name": "Maison d'hotes Kasbah du Peintre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-kasbah-du-peintre-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.139788,
+          31.095956
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Maison d'hotes Kasbah du Peintre",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/12646045",
+      "name": "Riad Maktoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-maktoub-ait-benhaddou",
+      "category": "hotels",
+      "city": "ait-benhaddou",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.132075,
+          31.04359
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Riad Maktoub",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

@@ -1,0 +1,1856 @@
+{
+  "city": "sidi-ifni",
+  "fetched_at": "2026-06-08T11:39:25.264Z",
+  "raw_count": 970,
+  "places": [
+    {
+      "osm_id": "node/256918420",
+      "name": "Rocher Tagadirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rocher-tagadirt-sidi-ifni",
+      "category": "historical-sites",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.053593,
+          29.568369
+        ]
+      },
+      "osm_tags": {
+        "name": "Rocher Tagadirt",
+        "natural": "cliff",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1065908241",
+      "name": "Le Soleil Couchant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-soleil-couchant-sidi-ifni",
+      "category": "cafes",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.051494,
+          29.568967
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Le Soleil Couchant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1065908439",
+      "name": "Dar Najmat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-najmat-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.05183,
+          29.570625
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Najmat",
+        "phone": "+212 5 28 71 90 56",
+        "tourism": "hotel",
+        "website": "https://www.darnajmat.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darnajmat.com/",
+      "phone": "+212 5 28 71 90 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1712890074",
+      "name": "Auberge Chez Abdoul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-abdoul-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.115529,
+          29.446555
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Chez Abdoul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834084414",
+      "name": "Hôtel Belle Vue",
+      "name_fr": "Hôtel Belle Vue",
+      "name_ar": "فندق المنظر الجميل",
+      "slug": "hotel-belle-vue-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.176448,
+          29.381442
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Belle Vue",
+        "name:ar": "فندق المنظر الجميل",
+        "name:fr": "Hôtel Belle Vue",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834084431",
+      "name": "B&B Xanadu",
+      "name_fr": "B&B Xanadu",
+      "name_ar": null,
+      "slug": "b-b-xanadu-sidi-ifni",
+      "category": "riads",
+      "city": "sidi-ifni",
+      "address": "5, Rue El Jadida, Sidi Ifni",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173255,
+          29.380715
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Sidi Ifni",
+        "addr:city:es": "Sidi Ifni",
+        "addr:housename": "Xanadu",
+        "addr:housenumber": "5",
+        "addr:postcode": "85200",
+        "addr:street": "Rue El Jadida",
+        "addr:street:es": "Calle El Yadida",
+        "name": "B&B Xanadu",
+        "name:es": "B&B Xanadu",
+        "name:fr": "B&B Xanadu",
+        "operator": "Patrick Jacquin",
+        "phone": "+212 528876718",
+        "tourism": "guest_house",
+        "website": "http://maisonxanadu.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://maisonxanadu.com",
+      "phone": "+212 528876718",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834084469",
+      "name": "Hôtel Suerte Loca",
+      "name_fr": "Hôtel Suerte Loca",
+      "name_ar": null,
+      "slug": "hotel-suerte-loca-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173463,
+          29.383406
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Suerte Loca",
+        "name:fr": "Hôtel Suerte Loca",
+        "tourism": "hotel",
+        "website": "https://www.facebook.com/pages/Suerte-Loca-Hotel-Sidi-Ifni/328042283922398"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/pages/Suerte-Loca-Hotel-Sidi-Ifni/328042283922398",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834181788",
+      "name": "Lanzarote",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lanzarote-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174013,
+          29.379312
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Lanzarote",
+        "name:es": "Lanzarote"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834181792",
+      "name": "Restaurante Laroussi",
+      "name_fr": null,
+      "name_ar": "مطعم لعروسي",
+      "slug": "restaurante-laroussi-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173108,
+          29.378601
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurante Laroussi",
+        "name:ar": "مطعم لعروسي",
+        "name:es": "Restaurante Laroussi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2014792535",
+      "name": "Ocean Miramar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ocean-miramar-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173028,
+          29.382942
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ocean Miramar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2015785251",
+      "name": "Al Hourria",
+      "name_fr": "Al Hourria",
+      "name_ar": null,
+      "slug": "al-hourria-sidi-ifni",
+      "category": "cafes",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.172558,
+          29.382327
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Al Hourria",
+        "name:fr": "Al Hourria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2074839358",
+      "name": "Camping Solymar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-solymar-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.171287,
+          29.384363
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Solymar",
+        "name:es": "Camping Solymar",
+        "source": "claude91 ...GPS ..",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2074849695",
+      "name": "Camping Sidi Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-sidi-ifni-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173285,
+          29.384401
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Camping Sidi Ifni",
+        "name:es": "Camping Sidi Ifni",
+        "source": "claude91",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2419962763",
+      "name": "Ait Babmrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ait-babmrane-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052191,
+          29.566245
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ait Babmrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2419962764",
+      "name": "Bivouac Du Soleil Couchant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-du-soleil-couchant-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.05147,
+          29.569066
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac Du Soleil Couchant",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2539871538",
+      "name": "Adrar Tamernut",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adrar-tamernut-sidi-ifni",
+      "category": "mountains",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.927137,
+          29.313049
+        ]
+      },
+      "osm_tags": {
+        "ele": "920",
+        "name": "Adrar Tamernut",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2566698950",
+      "name": "Mehasain",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mehasain-sidi-ifni",
+      "category": "mountains",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052107,
+          29.328948
+        ]
+      },
+      "osm_tags": {
+        "ele": "610",
+        "name": "Mehasain",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305531145",
+      "name": "Camp Erkounte Park",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-erkounte-park-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.067724,
+          29.508598
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Erkounte Park",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3672991236",
+      "name": "Legzira Arc",
+      "name_fr": "Legzira Arc",
+      "name_ar": null,
+      "slug": "legzira-arc-sidi-ifni",
+      "category": "historical-sites",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.121338,
+          29.439726
+        ]
+      },
+      "osm_tags": {
+        "name": "Legzira Arc",
+        "name:fr": "Legzira Arc",
+        "natural": "arch",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3796766950",
+      "name": "Sidi El Wafi Tomb",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-el-wafi-tomb-sidi-ifni",
+      "category": "mosques",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.063768,
+          29.539744
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Sidi El Wafi Tomb",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111841780",
+      "name": "Mar Pequeño",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mar-pequeno-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "Sidi Ifni",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175297,
+          29.382339
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Sidi Ifni",
+        "amenity": "restaurant",
+        "name": "Mar Pequeño",
+        "name:es": "Mar Pequeño"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5277827284",
+      "name": "Camping Tamhrouchte مخيم تامحروسهت",
+      "name_fr": "Camping Tamhrouchte",
+      "name_ar": "مخيم تامحروسهت",
+      "slug": "camping-tamhrouchte-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.14972,
+          29.396179
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Camping Tamhrouchte مخيم تامحروسهت",
+        "name:ar": "مخيم تامحروسهت",
+        "name:fr": "Camping Tamhrouchte",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5277827297",
+      "name": "Camping Gran Canaria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-gran-canaria-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.171786,
+          29.383871
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Camping Gran Canaria",
+        "name:es": "Camping Gran Canaria",
+        "tents": "no",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280176043",
+      "name": "Gran Canaria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gran-canaria-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174193,
+          29.378194
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "internet_access": "wlan",
+        "level": "0;1",
+        "name": "Gran Canaria",
+        "name:es": "Gran Canaria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280176044",
+      "name": "La Tour d'Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-tour-d-ifni-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.17493,
+          29.377882
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Tour d'Ifni"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280176081",
+      "name": "Pagaduría",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pagaduria-sidi-ifni",
+      "category": "local-food",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174601,
+          29.382517
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Pagaduría",
+        "name:es": "Pagaduría"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280176082",
+      "name": "Mosquée Al Maghariba",
+      "name_fr": "Mosquée Al Maghariba",
+      "name_ar": "مسجد المغاربة",
+      "slug": "mosquee-al-maghariba-sidi-ifni",
+      "category": "mosques",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175082,
+          29.382086
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name:ar": "مسجد المغاربة",
+        "name:fr": "Mosquée Al Maghariba",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280467600",
+      "name": "Afriquia",
+      "name_fr": "Afriquia",
+      "name_ar": "أفريقيا",
+      "slug": "afriquia-sidi-ifni",
+      "category": "cafes",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175836,
+          29.378527
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "brand": "أفريقيا",
+        "brand:ar": "أفريقيا",
+        "brand:es": "Afriquia",
+        "brand:wikidata": "Q2829178",
+        "brand:wikipedia": "ar:مجموعة أكوا",
+        "brand:wikipedia:ar": "مجموعة أكوا",
+        "level": "0;1",
+        "name": "Afriquia أفريقيا",
+        "name:ar": "أفريقيا",
+        "name:en": "Afriquia",
+        "name:es": "Afriquia",
+        "name:fr": "Afriquia",
+        "operator": "مجموعة أكوا",
+        "operator:ar": "مجموعة أكوا",
+        "operator:es": "Grupo Akwa",
+        "operator:wikidata": "Q2829178",
+        "operator:wikipedia": "ar:مجموعة أكوا",
+        "operator:wikipedia:ar": "مجموعة أكوا"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5280876457",
+      "name": "Hôtel Aït Baâmrane",
+      "name_fr": "Hôtel Aït Baâmrane",
+      "name_ar": null,
+      "slug": "hotel-ait-baamrane-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174057,
+          29.384335
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Aït Baâmrane",
+        "name:fr": "Hôtel Aït Baâmrane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5286732670",
+      "name": "Pesca del Día",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pesca-del-dia-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.178393,
+          29.364383
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pesca del Día"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5355083227",
+      "name": "Midi Ifni, Logis la Marine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "midi-ifni-logis-la-marine-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174774,
+          29.382881
+        ]
+      },
+      "osm_tags": {
+        "name": "Midi Ifni, Logis la Marine",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5411773673",
+      "name": "Auberge Cafe Restaurant Sidi Ouarzek",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-cafe-restaurant-sidi-ouarzek-sidi-ifni",
+      "category": "riads",
+      "city": "sidi-ifni",
+      "address": "Sidi Ouarzek",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.282464,
+          29.264661
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Sidi Ouarzek",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Auberge Cafe Restaurant Sidi Ouarzek",
+        "name:ca": "Hotel Dayane, es pot aparcar vehicles vivienda fora, et cobren 20dh. per dutxa d'aigua calenta i pots fer servir els lavabos, lloc tranquil, i en bona cuina típica de la zona",
+        "rooms": "5",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5838946185",
+      "name": "The Big Blue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "the-big-blue-sidi-ifni",
+      "category": "riads",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.051288,
+          29.573707
+        ]
+      },
+      "osm_tags": {
+        "name": "The Big Blue",
+        "tourism": "guest_house",
+        "website": "https://abnb.me/GxdWOcRSsP"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://abnb.me/GxdWOcRSsP",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5899238457",
+      "name": "Nomad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nomad-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175135,
+          29.381984
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Nomad"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5981294472",
+      "name": "Supermarché Marina",
+      "name_fr": "Supermarché Marina",
+      "name_ar": null,
+      "slug": "supermarche-marina-sidi-ifni",
+      "category": "food-markets",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.17813,
+          29.378002
+        ]
+      },
+      "osm_tags": {
+        "name": "Supermarché Marina",
+        "name:es": "Supermercado Marina",
+        "name:fr": "Supermarché Marina",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6016394882",
+      "name": "Restaurant \"Chez Abdoul\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-chez-abdoul-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.11559,
+          29.446444
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant \"Chez Abdoul\""
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6123839687",
+      "name": "Aït Baâmrane",
+      "name_fr": "Aït Baâmrane",
+      "name_ar": null,
+      "slug": "ait-baamrane-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173828,
+          29.377293
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Aït Baâmrane",
+        "name:fr": "Aït Baâmrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6123839691",
+      "name": "Cafe Restaurant Tagoute",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-tagoute-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175537,
+          29.382095
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Restaurant Tagoute"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9921034623",
+      "name": "Café Gran Canaria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-gran-canaria-sidi-ifni",
+      "category": "cafes",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174156,
+          29.37823
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Gran Canaria",
+        "name:es": "Café Gran Canaria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9921034624",
+      "name": "Hôtel Ére Nouvelle",
+      "name_fr": "Hôtel Ére Nouvelle",
+      "name_ar": null,
+      "slug": "hotel-ere-nouvelle-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.173085,
+          29.378552
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Ére Nouvelle",
+        "name:fr": "Hôtel Ére Nouvelle",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9990307809",
+      "name": "Mosquée El Fath",
+      "name_fr": "Mosquée El Fath",
+      "name_ar": "مسجد الفتح",
+      "slug": "mosquee-el-fath-sidi-ifni",
+      "category": "mosques",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.181965,
+          29.372674
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name:ar": "مسجد الفتح",
+        "name:es": "Mezquita El Fath",
+        "name:fr": "Mosquée El Fath",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10604388944",
+      "name": "Ilel seafood",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ilel-seafood-sidi-ifni",
+      "category": "seafood",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174252,
+          29.382264
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Ilel seafood"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10673458005",
+      "name": "Restaurant",
+      "name_fr": "Restaurant",
+      "name_ar": null,
+      "slug": "restaurant-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.17467,
+          29.378388
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10752370905",
+      "name": "Harbour Surfspot",
+      "name_fr": "Spot de surf du port",
+      "name_ar": null,
+      "slug": "harbour-surfspot-sidi-ifni",
+      "category": "historical-sites",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.195039,
+          29.348591
+        ]
+      },
+      "osm_tags": {
+        "name": "Spot de surf du port",
+        "name:en": "Harbour Surfspot",
+        "name:fr": "Spot de surf du port",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11245409037",
+      "name": "Sidi Ouarzeg",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ouarzeg-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.280605,
+          29.254115
+        ]
+      },
+      "osm_tags": {
+        "name": "Sidi Ouarzeg",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11508481215",
+      "name": "Boto",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boto-sidi-ifni",
+      "category": "restaurants",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174287,
+          29.37768
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "description": "Restaurant & Snack ( mehr Fastfood)",
+        "name": "Boto"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12009077901",
+      "name": "Ilel Resto",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ilel-resto-sidi-ifni",
+      "category": "seafood",
+      "city": "sidi-ifni",
+      "address": "Boulevard El Mourabitine شارع المورابطين, Sidi Ifni",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.17511,
+          29.381709
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Sidi Ifni",
+        "addr:postcode": "85200",
+        "addr:street": "Boulevard El Mourabitine شارع المورابطين",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Ilel Resto",
+        "opening_hours": "Mo-Th 12:00-17:00,19:00-23:00; Fr off; Sa-Su 12:00-17:00,19:00-23:00",
+        "phone": "+212 6 17 88 70 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 17 88 70 45",
+      "stars": null,
+      "opening_hours": "Mo-Th 12:00-17:00,19:00-23:00; Fr off; Sa-Su 12:00-17:00,19:00-23:00"
+    },
+    {
+      "osm_id": "node/13184847016",
+      "name": "Sidi Mouhammad ou Abdallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mouhammad-ou-abdallah-sidi-ifni",
+      "category": "mausoleums",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052338,
+          29.567354
+        ]
+      },
+      "osm_tags": {
+        "historic": "tomb",
+        "name": "Sidi Mouhammad ou Abdallah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13264760302",
+      "name": "Legzira, Wohnmobil Stellplatz in der Ferienanlage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "legzira-wohnmobil-stellplatz-in-der-ferienanlage-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.114401,
+          29.446261
+        ]
+      },
+      "osm_tags": {
+        "name": "Legzira, Wohnmobil Stellplatz in der Ferienanlage",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13586974401",
+      "name": "Pieds dans l'eau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pieds-dans-l-eau-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.116251,
+          29.445847
+        ]
+      },
+      "osm_tags": {
+        "name": "Pieds dans l'eau",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725141",
+      "name": "Marabout Beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marabout-beach-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.052993,
+          29.568606
+        ]
+      },
+      "osm_tags": {
+        "name": "Marabout Beach",
+        "name:en": "Marabout Beach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725294",
+      "name": "Plage de Tamehrocht ⵜⴰⵎⵃⵔⵓⵛⵜ شاطئ تامحروشت",
+      "name_fr": "Plage de Tamehrocht",
+      "name_ar": "شاطئ تامحروشت",
+      "slug": "plage-de-tamehrocht-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.058372,
+          29.553687
+        ]
+      },
+      "osm_tags": {
+        "alt_name:fr": "Plage Sauvage",
+        "name": "Plage de Tamehrocht ⵜⴰⵎⵃⵔⵓⵛⵜ شاطئ تامحروشت",
+        "name:ar": "شاطئ تامحروشت",
+        "name:ber": "ⵜⴰⵎⵃⵔⵓⵛⵜ",
+        "name:fr": "Plage de Tamehrocht",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725306",
+      "name": "Sidi lwafi Beach",
+      "name_fr": "Plage de Sidi lwafi",
+      "name_ar": "شاطئ سيدي الوافي",
+      "slug": "sidi-lwafi-beach-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.067575,
+          29.537146
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Sidi lwafi شاطئ سيدي الوافي",
+        "name:ar": "شاطئ سيدي الوافي",
+        "name:en": "Sidi lwafi Beach",
+        "name:fr": "Plage de Sidi lwafi",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725327",
+      "name": "Plage aftas --- dwar rkont",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-aftas-dwar-rkont-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.071571,
+          29.515054
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage aftas --- dwar rkont",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/23725460",
+      "name": "Plage Ftaysa hda dwar rkont",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-ftaysa-hda-dwar-rkont-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.078905,
+          29.499838
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Ftaysa hda dwar rkont",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/159192837",
+      "name": "Plage Legzira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-legzira-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.118151,
+          29.443695
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Legzira",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/190874283",
+      "name": "Plage d'Ifni",
+      "name_fr": "Plage d'Ifni",
+      "name_ar": "شاطئ إفني",
+      "slug": "plage-d-ifni-sidi-ifni",
+      "category": "beaches",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.182141,
+          29.375685
+        ]
+      },
+      "osm_tags": {
+        "name:ar": "شاطئ إفني",
+        "name:es": "Playa de Sidi Ifni",
+        "name:fr": "Plage d'Ifni",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/546397101",
+      "name": "Safa",
+      "name_fr": "Safa",
+      "name_ar": null,
+      "slug": "safa-sidi-ifni",
+      "category": "hotels",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.178148,
+          29.378345
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Safa",
+        "name:fr": "Safa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/546397116",
+      "name": "Marché Municipal السوق البلدي",
+      "name_fr": "Marché Municipal",
+      "name_ar": "السوق البلدي",
+      "slug": "marche-municipal-sidi-ifni",
+      "category": "souks",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.174479,
+          29.378179
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Municipal السوق البلدي",
+        "name:ar": "السوق البلدي",
+        "name:es": "Zoco Municipal",
+        "name:fr": "Marché Municipal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/655085162",
+      "name": "Camping El Barco",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-el-barco-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "Sidi Ifni",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.175422,
+          29.382907
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Sidi Ifni",
+        "addr:city:es": "Sidi Ifni",
+        "name": "Camping El Barco",
+        "name:es": "Camping El Barco",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755665971",
+      "name": "Sidi Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ifni-sidi-ifni",
+      "category": "mausoleums",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.171582,
+          29.388296
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ifni",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755673547",
+      "name": "Sidi Warzig",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-warzig-sidi-ifni",
+      "category": "mausoleums",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.284574,
+          29.262988
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Warzig",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/763073031",
+      "name": "Camping Municipal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-municipal-sidi-ifni",
+      "category": "desert-camps",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.178966,
+          29.377897
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Municipal",
+        "name:es": "Camping Municipal",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/833928884",
+      "name": "Plaza Hasán II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plaza-hasan-ii-sidi-ifni",
+      "category": "national-parks",
+      "city": "sidi-ifni",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -10.176297,
+          29.380769
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Plaza Hasán II",
+        "name:es": "Plaza Hasán II"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

@@ -10,5 +10,6 @@ const favoriteSchema = new Schema(
 );
 
 favoriteSchema.index({ userId: 1, targetId: 1, targetType: 1 }, { unique: true });
+favoriteSchema.index({ userId: 1, createdAt: -1 });
 
 module.exports = model("Favorite", favoriteSchema);

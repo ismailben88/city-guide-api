@@ -2,6 +2,7 @@ const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Report       = require("../models/Report");
 const { getPagination } = require("../utils/pagination.utils");
+const { escapeRegex }   = require("../utils/regex.utils");
 
 // GET /reports  (admin)
 exports.getReports = asyncHandler(async (req, res) => {
@@ -11,7 +12,7 @@ exports.getReports = asyncHandler(async (req, res) => {
   const filter = {};
   if (status)     filter.status     = status;
   if (targetType) filter.targetType = targetType;
-  if (search)     filter.reason     = { $regex: search, $options: "i" };
+  if (search)     filter.reason     = { $regex: escapeRegex(search), $options: "i" };
 
   const [reports, total] = await Promise.all([
     Report.find(filter)

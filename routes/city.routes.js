@@ -4,8 +4,11 @@ const { protect, restrict } = require("../middlewares/auth.middleware");
 const lang      = require("../middlewares/lang.middleware");
 const translate = require("../middlewares/translateResponse.middleware");
 
-router.get   ("/",    lang, translate, ctrl.getCities);
-router.get   ("/:id", lang, translate, ctrl.getCityById);
+router.get   ("/with-counts",     lang, translate, ctrl.getCitiesWithCounts);
+// Stats endpoint — declared before /:id so the slug param isn't shadowed.
+router.get   ("/:slug/stats",     lang, translate, ctrl.getCityStats);
+router.get   ("/",                lang, translate, ctrl.getCities);
+router.get   ("/:id",             lang, translate, ctrl.getCityById);
 router.post  ("/",    protect, restrict("admin"), ctrl.createCity);
 router.put   ("/:id", protect, restrict("admin"), ctrl.updateCity);
 router.delete("/:id", protect, restrict("admin"), ctrl.deleteCity);

@@ -7,10 +7,12 @@ const User           = require("../models/User");
 const Event          = require("../models/Event");
 const Comment        = require("../models/Comment");
 const Report         = require("../models/Report");
+const PageView       = require("../models/PageView");
 const ApiError       = require("../utils/ApiError");
 const notify         = require("../helpers/notify");
 const cacheService   = require("./cache.service");
 const { deleteUploadedFiles } = require("./fileCleanup.service");
+const { reconcileEventStatusesThrottled } = require("./eventStatus.service");
 const { getPagination } = require("../utils/pagination.utils");
 
 // Purge verification documents from DB + disk — called after any guide_verification decision
@@ -51,6 +53,30 @@ const approvePendingRequest = async (id, adminId) => {
   if (!request) throw new ApiError(404, "Demande introuvable");
   if (request.status !== "pending") throw new ApiError(400, "Cette demande a déjà été traitée");
 
+  // Guard: for business requests, verify the listing still exists and was not deleted by the owner
+  if (request.requestType === "business_verification") {
+    const place = await Place.findById(request.placeId).select("status ownerId").lean();
+    if (!place || place.status === "archived") {
+      await PendingRequest.findByIdAndUpdate(id, {
+        status:     "rejected",
+        reviewedBy: adminId,
+        reason:     "Listing was removed by the owner before this request was processed.",
+      });
+      await AdminLog.create({
+        adminId, action: "auto_reject_business",
+        targetType: "Place", targetId: request.placeId,
+        metadata: { requestId: id, reason: "owner_deleted" },
+      });
+      throw new ApiError(409, "This listing was deleted by its owner. The request has been automatically rejected.");
+    }
+    // Ownership guard: never transfer an already-claimed listing to a different
+    // user through a verification request. Only unowned listings (or ones the
+    // requester already owns) may be assigned on approval.
+    if (place.ownerId && place.ownerId.toString() !== request.requestedBy.toString()) {
+      throw new ApiError(409, "This listing already belongs to another owner and cannot be reassigned.");
+    }
+  }
+
   request.status     = "approved";
   request.reviewedBy = adminId;
   await request.save();
@@ -79,6 +105,10 @@ const approvePendingRequest = async (id, adminId) => {
 
     await User.findByIdAndUpdate(userId, { isGuide: true });
     cacheService.delByPrefix("guides");
+    // Purge identity documents submitted with the application (privacy)
+    if (payload.idDocumentUrl || payload.entrepreneurDocUrl) {
+      purgeVerificationDocs({ idDocumentUrl: payload.idDocumentUrl, entrepreneurDocUrl: payload.entrepreneurDocUrl }).catch(() => {});
+    }
     await AdminLog.create({
       adminId, action: "approve_guide_application",
       targetType: "GuideProfile", targetId: userId,
@@ -136,6 +166,10 @@ const rejectPendingRequest = async (id, adminId, reason = "") => {
       await GuideProfile.findByIdAndDelete(payload.guideId);
       await User.findByIdAndUpdate(userId, { isGuide: false });
       cacheService.delByPrefix("guides");
+    }
+    // Purge identity documents submitted with the application (privacy)
+    if (payload.idDocumentUrl || payload.entrepreneurDocUrl) {
+      purgeVerificationDocs({ idDocumentUrl: payload.idDocumentUrl, entrepreneurDocUrl: payload.entrepreneurDocUrl }).catch(() => {});
     }
     await AdminLog.create({
       adminId, action: "reject_guide_application",
@@ -195,7 +229,13 @@ const getAdminLogs = async (query) => {
 // ─── Dashboard & Stats ────────────────────────────────────────────────────────
 
 const getStats = async () => {
-  const [users, places, events, guides, pendingRequests, comments, reports] = await Promise.all([
+  // "upcoming events" is counted off the stored status — make sure it's fresh.
+  reconcileEventStatusesThrottled();
+
+  const todayStart = new Date();
+  todayStart.setHours(0, 0, 0, 0);
+
+  const [users, places, events, guides, pendingRequests, comments, reports, totalVisits, todayVisits, uniqueVisitorsRes, uniqueVisitorsTodayRes] = await Promise.all([
     User.countDocuments({ isActive: true }),
     Place.countDocuments({ status: "active" }),
     Event.countDocuments({ status: "upcoming" }),
@@ -203,9 +243,16 @@ const getStats = async () => {
     PendingRequest.countDocuments({ status: "pending" }),
     Comment.countDocuments({ status: "active" }),
     Report.countDocuments({ status: "open" }),
+    PageView.countDocuments(),
+    PageView.countDocuments({ createdAt: { $gte: todayStart } }),
+    PageView.aggregate([{ $group: { _id: "$sessionId" } }, { $count: "count" }]),
+    PageView.aggregate([{ $match: { createdAt: { $gte: todayStart } } }, { $group: { _id: "$sessionId" } }, { $count: "count" }]),
   ]);
 
-  return { users, places, events, guides, pendingRequests, comments, reports };
+  const uniqueVisitors      = uniqueVisitorsRes[0]?.count      ?? 0;
+  const uniqueVisitorsToday = uniqueVisitorsTodayRes[0]?.count ?? 0;
+
+  return { users, places, events, guides, pendingRequests, comments, reports, totalVisits, todayVisits, uniqueVisitors, uniqueVisitorsToday };
 };
 
 const getDashboard = async () => {
@@ -257,14 +304,19 @@ const getAnalytics = async () => {
   const [
     monthlyUsers,
     monthlyEvents,
+    monthlyVisits,
     placesByCat,
     placesByCity,
+    eventsByCity,
+    guidesByCity,
     userRoles,
     featuredPlaces,
     featuredEvents,
+    topPages,
   ] = await Promise.all([
     groupByMonth(User),
     groupByMonth(Event),
+    groupByMonth(PageView),
     Place.aggregate([
       { $group: { _id: "$categoryId", count: { $sum: 1 } } },
       { $lookup: { from: "categories", localField: "_id", foreignField: "_id", as: "cat" } },
@@ -279,7 +331,19 @@ const getAnalytics = async () => {
       { $unwind: { path: "$city", preserveNullAndEmptyArrays: true } },
       { $project: { name: { $ifNull: ["$city.name", "Unknown"] }, count: 1 } },
       { $sort: { count: -1 } },
-      { $limit: 8 },
+    ]),
+    Event.aggregate([
+      { $group: { _id: "$cityId", count: { $sum: 1 } } },
+      { $lookup: { from: "cities", localField: "_id", foreignField: "_id", as: "city" } },
+      { $unwind: { path: "$city", preserveNullAndEmptyArrays: true } },
+      { $project: { name: { $ifNull: ["$city.name", "Unknown"] }, count: 1 } },
+    ]),
+    GuideProfile.aggregate([
+      { $unwind: { path: "$cityIds", preserveNullAndEmptyArrays: false } },
+      { $group: { _id: "$cityIds", count: { $sum: 1 } } },
+      { $lookup: { from: "cities", localField: "_id", foreignField: "_id", as: "city" } },
+      { $unwind: { path: "$city", preserveNullAndEmptyArrays: true } },
+      { $project: { name: { $ifNull: ["$city.name", "Unknown"] }, count: 1 } },
     ]),
     User.aggregate([
       { $group: { _id: "$role", count: { $sum: 1 } } },
@@ -287,16 +351,33 @@ const getAnalytics = async () => {
     ]),
     Place.countDocuments({ isFeatured: true }),
     Event.countDocuments({ isFeatured: true }),
+    PageView.aggregate([
+      { $group: { _id: "$path", visits: { $sum: 1 } } },
+      { $sort: { visits: -1 } },
+      { $limit: 6 },
+      { $project: { _id: 0, path: "$_id", visits: 1 } },
+    ]),
   ]);
+
+  // Merge places + events + guides per city into a single overview array
+  const cityMap = {};
+  const ensureCity = (name) => { if (!cityMap[name]) cityMap[name] = { city: name, places: 0, events: 0, guides: 0 }; };
+  placesByCity.forEach(({ name, count }) => { ensureCity(name); cityMap[name].places = count; });
+  eventsByCity.forEach(({ name, count }) => { ensureCity(name); cityMap[name].events = count; });
+  guidesByCity.forEach(({ name, count }) => { ensureCity(name); cityMap[name].guides = count; });
+  const citiesOverview = Object.values(cityMap)
+    .sort((a, b) => (b.places + b.events + b.guides) - (a.places + a.events + a.guides));
 
   return {
     monthlyUsers:     fillMonths(monthlyUsers),
     monthlyEvents:    fillMonths(monthlyEvents),
+    monthlyVisits:    fillMonths(monthlyVisits),
     placesByCategory: placesByCat.map((p) => ({ name: p.name, icon: p.icon, value: p.count })),
-    placesByCity:     placesByCity.map((p) => ({ city: p.name, places: p.count })),
+    citiesOverview,
     userRoles:        userRoles.map((r) => ({ role: r.role || "unknown", count: r.count })),
     featuredPlaces,
     featuredEvents,
+    topPages,
   };
 };
 

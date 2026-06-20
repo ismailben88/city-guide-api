@@ -1,0 +1,1435 @@
+{
+  "city": "oualidia",
+  "fetched_at": "2026-06-08T11:22:22.299Z",
+  "raw_count": 134,
+  "places": [
+    {
+      "osm_id": "node/1614299046",
+      "name": "L'initale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-initale-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.044372,
+          32.735175
+        ]
+      },
+      "osm_tags": {
+        "name": "L'initale",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2237233619",
+      "name": "L'Araignée Gourmande",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-araignee-gourmande-oualidia",
+      "category": "seafood",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.043097,
+          32.733565
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "L'Araignée Gourmande",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2371586991",
+      "name": "La Sultana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-sultana-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.030816,
+          32.739629
+        ]
+      },
+      "osm_tags": {
+        "name": "La Sultana",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2371586992",
+      "name": "Dar Beldi Maison d'hôtes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-beldi-maison-d-hotes-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.027972,
+          32.737294
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Beldi Maison d'hôtes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3878528029",
+      "name": "Ostréa II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ostrea-ii-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.023695,
+          32.74607
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "mobile": "+212 664 491 276",
+        "name": "Ostréa II",
+        "name:zh": "生蠔餐",
+        "note": "Sur le parc à huîtres 007",
+        "phone": "+212 523 366 451"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 523 366 451",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3878528030",
+      "name": "Villa Esméralda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "villa-esmeralda-oualidia",
+      "category": "riads",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.049148,
+          32.729108
+        ]
+      },
+      "osm_tags": {
+        "name": "Villa Esméralda",
+        "phone": "+212 664 763 296",
+        "tourism": "guest_house",
+        "website": "www.appartementoualidia.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.appartementoualidia.com",
+      "phone": "+212 664 763 296",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4160108591",
+      "name": "Beautiful villa with ocean view",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beautiful-villa-with-ocean-view-oualidia",
+      "category": "riads",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.044587,
+          32.735614
+        ]
+      },
+      "osm_tags": {
+        "name": "Beautiful villa with ocean view",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4416535496",
+      "name": "Hôtel restaurant - La rose des sables",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-la-rose-des-sables-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.224079,
+          32.584823
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel restaurant - La rose des sables",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4418974889",
+      "name": "Café La Jeunesse",
+      "name_fr": "Café La Jeunesse",
+      "name_ar": null,
+      "slug": "cafe-la-jeunesse-oualidia",
+      "category": "cafes",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.033161,
+          32.734614
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café La Jeunesse",
+        "name:fr": "Café La Jeunesse"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5253601021",
+      "name": "Oualidia",
+      "name_fr": "Oualidia",
+      "name_ar": null,
+      "slug": "oualidia-oualidia",
+      "category": "desert-camps",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.043931,
+          32.732065
+        ]
+      },
+      "osm_tags": {
+        "drinking_water": "yes",
+        "fee": "yes",
+        "name": "Oualidia",
+        "name:fr": "Oualidia",
+        "power_supply": "no",
+        "sanitary_dump_station": "yes",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5299021321",
+      "name": "Hôtel Château Eden El Rouh",
+      "name_fr": "Hôtel Château Eden El Rouh",
+      "name_ar": null,
+      "slug": "hotel-chateau-eden-el-rouh-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "Boulevard Hassan II",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.033414,
+          32.734881
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Hassan II",
+        "building:levels": "4",
+        "email": "contact@chateau-edenelrouh.com",
+        "internet_access": "wlan",
+        "name": "Hôtel Château Eden El Rouh",
+        "name:en": "Hôtel Château Eden El Rouh",
+        "name:fr": "Hôtel Château Eden El Rouh",
+        "phone": "+212 5 23 36 60 10",
+        "tourism": "hotel",
+        "website": "https://chateau-edenelrouh.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://chateau-edenelrouh.com/",
+      "phone": "+212 5 23 36 60 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306098721",
+      "name": "La Sultana Oualidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-sultana-oualidia-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "No3, Parc à huitres",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.027385,
+          32.742543
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "No3",
+        "addr:postcode": "24252",
+        "addr:street": "Parc à huitres",
+        "email": "conciergerie@lasultanaoualidia.com",
+        "internet_access": "wlan",
+        "name:en": "La Sultana Oualidia",
+        "phone": "+212 5 23 36 65 95",
+        "tourism": "hotel",
+        "website": "https://www.lasultanahotels.com/oualidia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.lasultanahotels.com/oualidia",
+      "phone": "+212 5 23 36 65 95",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5478244122",
+      "name": "Laguna Park",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "laguna-park-oualidia",
+      "category": "desert-camps",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.042823,
+          32.725947
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "Laguna Park",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6297923044",
+      "name": "Sunset's House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sunset-s-house-oualidia",
+      "category": "riads",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.0227,
+          32.741802
+        ]
+      },
+      "osm_tags": {
+        "name": "Sunset's House",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6316902187",
+      "name": "Kasba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasba-oualidia",
+      "category": "riads",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.023055,
+          32.741177
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Kasba",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6316910187",
+      "name": "Les deux amis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-deux-amis-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.039979,
+          32.732534
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Les deux amis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6316910485",
+      "name": "Snack pedro",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-pedro-oualidia",
+      "category": "local-food",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.026927,
+          32.737834
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack pedro"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8321489917",
+      "name": "Azali Beach Cottage",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azali-beach-cottage-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.227184,
+          32.580964
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Azali Beach Cottage",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8791549023",
+      "name": "La Vila d'amel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vila-d-amel-oualidia",
+      "category": "boutique-hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.022828,
+          32.742043
+        ]
+      },
+      "osm_tags": {
+        "name": "La Vila d'amel",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10049795127",
+      "name": "Oualidia Surfcamp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oualidia-surfcamp-oualidia",
+      "category": "surf-spots",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.042498,
+          32.731191
+        ]
+      },
+      "osm_tags": {
+        "name": "Oualidia Surfcamp",
+        "phone": "+212 6 56 94 18 74",
+        "sport": "surfing"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 56 94 18 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10050484252",
+      "name": "Restaurant El Chami",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-el-chami-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.040269,
+          32.732584
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant El Chami"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10050514191",
+      "name": "Restaurant Bahri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-bahri-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "PXM5+3R8, Oualidia, Morocco",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.040561,
+          32.732568
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "PXM5+3R8, Oualidia, Morocco",
+        "amenity": "restaurant",
+        "name": "Restaurant Bahri"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10050519656",
+      "name": "Time Food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "time-food-oualidia",
+      "category": "local-food",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.032981,
+          32.733932
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Time Food"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10050529785",
+      "name": "Octopus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "octopus-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.03955,
+          32.732654
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Octopus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11078960413",
+      "name": "Bab Oualidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-oualidia-oualidia",
+      "category": "historical-sites",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.031949,
+          32.736559
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Bab Oualidia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11258228137",
+      "name": "Surfland",
+      "name_fr": "Surfland",
+      "name_ar": null,
+      "slug": "surfland-oualidia",
+      "category": "desert-camps",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.037972,
+          32.732305
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Surfland",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12010257669",
+      "name": "Le Temps Perdu Guesthouse",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-temps-perdu-guesthouse-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.022727,
+          32.7438
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Temps Perdu Guesthouse",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12138798501",
+      "name": "Hôtel Restaurant Thalassa",
+      "name_fr": "Hôtel Restaurant Thalassa",
+      "name_ar": null,
+      "slug": "hotel-restaurant-thalassa-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "Boulevard Hassan II شارع الحسن الثاني",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.034359,
+          32.733149
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Hassan II شارع الحسن الثاني",
+        "internet_access": "wlan",
+        "name:fr": "Hôtel Restaurant Thalassa",
+        "outdoor_seating": "no",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12138798502",
+      "name": "O kalamar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "o-kalamar-oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "Boulevard du 20 Août شارع 20 غشت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.033515,
+          32.732531
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard du 20 Août شارع 20 غشت",
+        "amenity": "restaurant",
+        "cuisine": "fish_and_chips;friture;local",
+        "name": "O kalamar",
+        "outdoor_seating": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12138798601",
+      "name": "المحيط",
+      "name_fr": "L'océan",
+      "name_ar": null,
+      "slug": "oualidia",
+      "category": "restaurants",
+      "city": "oualidia",
+      "address": "Rue Chari3 Charif Edrisi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.032007,
+          32.733232
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue Chari3 Charif Edrisi",
+        "amenity": "restaurant",
+        "cuisine": "fish;fish_and_chips;grill;local;pizza;seafood;steak_house",
+        "name": "المحيط",
+        "name:fr": "L'océan",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12140685501",
+      "name": "Grotte Oualidia",
+      "name_fr": "Grotte Oualidia",
+      "name_ar": null,
+      "slug": "grotte-oualidia-oualidia",
+      "category": "mountains",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.055001,
+          32.727319
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Grotte Oualidia",
+        "natural": "cave_entrance",
+        "outdoor_seating": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13668828891",
+      "name": "Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-oualidia",
+      "category": "cafes",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.853375,
+          32.880636
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736438916",
+      "name": "Kali Camp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kali-camp-oualidia",
+      "category": "riads",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.009321,
+          32.75627
+        ]
+      },
+      "osm_tags": {
+        "name": "Kali Camp",
+        "phone": "+212 6 93 93 45 44",
+        "tourism": "guest_house",
+        "website": "https://www.kalicamp.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kalicamp.com",
+      "phone": "+212 6 93 93 45 44",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/287052731",
+      "name": "Sidi Ahmad Bareni",
+      "name_fr": "Sidi Ahmad Bareni",
+      "name_ar": null,
+      "slug": "sidi-ahmad-bareni-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.030338,
+          32.736046
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad Bareni",
+        "name:fr": "Sidi Ahmad Bareni",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323479273",
+      "name": "Mosquée centrale",
+      "name_fr": "Mosquée centrale",
+      "name_ar": null,
+      "slug": "mosquee-centrale-oualidia",
+      "category": "mosques",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.036109,
+          32.731247
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée centrale",
+        "name:fr": "Mosquée centrale",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323479292",
+      "name": "Hôtel Hippocampe",
+      "name_fr": "Hôtel Hippocampe",
+      "name_ar": null,
+      "slug": "hotel-hippocampe-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.036612,
+          32.734697
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Hippocampe",
+        "name:fr": "Hôtel Hippocampe",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/323479294",
+      "name": "Hôtel Beach View Oualidiya",
+      "name_fr": "Hôtel Beach View Oualidiya",
+      "name_ar": null,
+      "slug": "hotel-beach-view-oualidiya-oualidia",
+      "category": "hotels",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.036786,
+          32.732016
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Beach View Oualidiya",
+        "name:fr": "Hôtel Beach View Oualidiya",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/481545746",
+      "name": "plages sdau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plages-sdau-oualidia",
+      "category": "national-parks",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.244506,
+          32.569056
+        ]
+      },
+      "osm_tags": {
+        "boundary": "protected_area",
+        "name": "plages sdau"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/481552263",
+      "name": "no edificable sdau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "no-edificable-sdau-oualidia",
+      "category": "national-parks",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.149817,
+          32.64355
+        ]
+      },
+      "osm_tags": {
+        "boundary": "protected_area",
+        "name": "no edificable sdau"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482046683",
+      "name": "Plage Sdau",
+      "name_fr": "Plage Sdau",
+      "name_ar": null,
+      "slug": "plage-sdau-oualidia",
+      "category": "beaches",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.850688,
+          32.890061
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Sdau",
+        "name:fr": "Plage Sdau",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482047199",
+      "name": "SDAU",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sdau-oualidia",
+      "category": "national-parks",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.896134,
+          32.847465
+        ]
+      },
+      "osm_tags": {
+        "boundary": "protected_area",
+        "name": "SDAU",
+        "natural": "wetland"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482050351",
+      "name": "SDAU PLAGE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sdau-plage-oualidia",
+      "category": "beaches",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.890647,
+          32.851718
+        ]
+      },
+      "osm_tags": {
+        "name": "SDAU PLAGE",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756021761",
+      "name": "Sidi Bouksou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bouksou-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.181843,
+          32.608401
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bouksou",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756021762",
+      "name": "Sidi Coramdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-coramdi-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.064358,
+          32.716109
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Coramdi",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756033827",
+      "name": "Sidi Lahsan سيدي لحسن",
+      "name_fr": "Sidi Lahsan",
+      "name_ar": "سيدي لحسن",
+      "slug": "sidi-lahsan-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.066225,
+          32.70408
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Lahsan سيدي لحسن",
+        "name:ar": "سيدي لحسن",
+        "name:fr": "Sidi Lahsan",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756033828",
+      "name": "Sidi Sitar سيدي سيتار",
+      "name_fr": "Sidi Sitar",
+      "name_ar": "سيدي سيتار",
+      "slug": "sidi-sitar-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.066202,
+          32.704158
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Sitar سيدي سيتار",
+        "name:ar": "سيدي سيتار",
+        "name:fr": "Sidi Sitar",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756033829",
+      "name": "Sidi Daoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-daoud-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.022685,
+          32.753484
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Daoud",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758397366",
+      "name": "Sidi Moussa Ben Amroua",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moussa-ben-amroua-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.968292,
+          32.775713
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moussa Ben Amroua",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692405",
+      "name": "Sidi Broucherkat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-broucherkat-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.064185,
+          32.716486
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Broucherkat",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1351890497",
+      "name": "Sidi Tagharmat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-tagharmat-oualidia",
+      "category": "mausoleums",
+      "city": "oualidia",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.218973,
+          32.579762
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Tagharmat",
+        "ruined": "yes",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

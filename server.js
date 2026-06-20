@@ -12,12 +12,34 @@ const mongoSanitize  = require("express-mongo-sanitize");
 const connectDB      = require("./config/db");
 const apiRouter      = require("./routes/index");
 const errorHandler   = require("./middlewares/error.middleware");
+const { securityHeaders } = require("./middlewares/security.middleware");
 const { setIO }      = require("./utils/socket");
 const { injectSpeedInsights } = require("./utils/speedInsights");
+const { reconcileEventStatuses } = require("./services/eventStatus.service");
+
 
 connectDB();
 
+// Keep event statuses (upcoming/ongoing/past) in sync with their dates. Runs
+// shortly after boot, then hourly for long-lived processes. Read paths also
+// trigger a throttled reconcile, which covers serverless cold starts.
+const EVENT_RECONCILE_INTERVAL_MS = 60 * 60 * 1000;
+setTimeout(() => reconcileEventStatuses().catch(() => {}), 5000);
+if (!process.env.VERCEL) {
+  setInterval(() => reconcileEventStatuses().catch(() => {}), EVENT_RECONCILE_INTERVAL_MS).unref?.();
+}
+
 const app = express();
+
+// Don't advertise the framework (info disclosure / fingerprinting).
+app.disable("x-powered-by");
+
+// Behind a proxy (Vercel) the real client IP is in x-forwarded-for — trust the
+// first hop so rate limiters bucket per real IP rather than the proxy's.
+app.set("trust proxy", 1);
+
+// Security headers on every response (must run before routes).
+app.use(securityHeaders);
 
 // ─── CORS ─────────────────────────────────────────────────────────────────────
 const allowedOrigins = [
@@ -58,7 +80,18 @@ app.use((req, res, next) => {
 const uploadsDir = process.env.VERCEL
   ? "/tmp/uploads"
   : path.join(__dirname, "uploads");
-app.use("/uploads", express.static(uploadsDir));
+// Defense in depth for user-uploaded files: even if a non-media file slips past
+// the upload filter, this CSP + nosniff (set globally) neutralises any script
+// it might contain when served/opened directly. Images still render (a media
+// response has no sub-resources for `default-src 'none'` to block).
+app.use(
+  "/uploads",
+  (req, res, next) => {
+    res.setHeader("Content-Security-Policy", "default-src 'none'; sandbox");
+    next();
+  },
+  express.static(uploadsDir)
+);
 
 // ─── Routes API v1 ───────────────────────────────────────────────────────────
 app.use("/api/v1", apiRouter);
