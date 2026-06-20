@@ -1,0 +1,2833 @@
+{
+  "city": "larache",
+  "fetched_at": "2026-06-08T11:27:22.552Z",
+  "raw_count": 228,
+  "places": [
+    {
+      "osm_id": "node/499186921",
+      "name": "Le Village Solitaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-village-solitaire-larache",
+      "category": "desert-camps",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.001873,
+          35.334772
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Village Solitaire",
+        "note": "sous réserve",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960549",
+      "name": "Hotel Malaga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-malaga-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151888,
+          35.196333
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Malaga",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960723",
+      "name": "Hotel Tanger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tanger-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153934,
+          35.193805
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Tanger",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960747",
+      "name": "Shawarma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shawarma-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153373,
+          35.194668
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Shawarma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686961054",
+      "name": "Hotel España",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-espana-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152388,
+          35.196511
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel España",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686961230",
+      "name": "Hotel Hay Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-hay-essalam-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15208,
+          35.195911
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Hay Essalam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687018940",
+      "name": "Juice store",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "juice-store-larache",
+      "category": "bars-lounges",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152228,
+          35.195991
+        ]
+      },
+      "osm_tags": {
+        "amenity": "pub",
+        "name": "Juice store"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687018947",
+      "name": "Valencia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "valencia-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15231,
+          35.196132
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Valencia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687019016",
+      "name": "Triana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "triana-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15264,
+          35.196196
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Triana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687660265",
+      "name": "Rabah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rabah-larache",
+      "category": "bakeries",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152441,
+          35.196026
+        ]
+      },
+      "osm_tags": {
+        "name": "Rabah",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1698217659",
+      "name": "Restaurant del Sol",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-del-sol-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151968,
+          35.196351
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Restaurant del Sol"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1698217726",
+      "name": "Cafe Espana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-espana-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15231,
+          35.196321
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Espana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1698217773",
+      "name": "Pension Salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pension-salam-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153173,
+          35.195713
+        ]
+      },
+      "osm_tags": {
+        "name": "Pension Salam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1875028131",
+      "name": "Aire de service Larache",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aire-de-service-larache-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.121705,
+          35.169058
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Aire de service Larache"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2689650720",
+      "name": "Hôtel Espanol",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-espanol-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153758,
+          35.196382
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Espanol",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2689650726",
+      "name": "Lixus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lixus-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152873,
+          35.197009
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Lixus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2689650729",
+      "name": "Balcon Attlantico",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "balcon-attlantico-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153557,
+          35.19767
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Balcon Attlantico"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2689650732",
+      "name": "Arabia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arabia-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153633,
+          35.197434
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Arabia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2689650747",
+      "name": "La Ezquina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-ezquina-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.154515,
+          35.194803
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La Ezquina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3187001485",
+      "name": "Delice",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "delice-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153415,
+          35.197636
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Delice"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3305477567",
+      "name": "Bivouac libre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-libre-larache",
+      "category": "desert-camps",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.148342,
+          35.204507
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac libre",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3359885849",
+      "name": "Camp Larache",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-larache-larache",
+      "category": "desert-camps",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.141917,
+          35.162117
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Larache",
+        "note": "Camp Larache",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3847583871",
+      "name": "Tutti Frutti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tutti-frutti-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "Larache",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151992,
+          35.195605
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Larache",
+        "amenity": "cafe",
+        "cuisine": "Fast Food & local dishes",
+        "internet_access": "wlan",
+        "name": "Tutti Frutti",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4405045791",
+      "name": "خاي احمد",
+      "name_fr": null,
+      "name_ar": "خاي احمد",
+      "slug": "larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.146319,
+          35.186888
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "خاي احمد",
+        "name:ar": "خاي احمد"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4579691791",
+      "name": "Au Maroc المغرب",
+      "name_fr": "Au Maroc",
+      "name_ar": "المغرب",
+      "slug": "au-maroc-larache",
+      "category": "bars-lounges",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.140553,
+          35.185669
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Au Maroc المغرب",
+        "name:ar": "المغرب",
+        "name:fr": "Au Maroc"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4599335592",
+      "name": "Brahim",
+      "name_fr": "Brahim",
+      "name_ar": null,
+      "slug": "brahim-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.142476,
+          35.156222
+        ]
+      },
+      "osm_tags": {
+        "name": "Brahim",
+        "name:fr": "Brahim",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4651713389",
+      "name": "Café Sidi Elyamani",
+      "name_fr": null,
+      "name_ar": "مقهى سيدي اليمني",
+      "slug": "cafe-sidi-elyamani-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.006791,
+          35.33207
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "مقهى سيدي اليمني",
+        "name:ar": "مقهى سيدي اليمني",
+        "name:en": "Café Sidi Elyamani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4990310662",
+      "name": "Lixus Beach Resort",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lixus-beach-resort-larache",
+      "category": "luxury-hotels",
+      "city": "larache",
+      "address": "Port Lixus, Larache, Larache العرائش",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.13446,
+          35.235306
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Larache العرائش",
+        "addr:postcode": "92000",
+        "addr:street": "Port Lixus, Larache",
+        "description": "Au coeur d’une région historique et idyllique, le Lixus Beach Resort se caractérise par une architecture contemporaine parfaitement intégrée à son environnement authentique.",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Lixus Beach Resort",
+        "phone": "+212 5 29 03 01 00",
+        "rooms": "234",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.lixusbeachresort.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.lixusbeachresort.com/",
+      "phone": "+212 5 29 03 01 00",
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5542993921",
+      "name": "Masjid al-Kissariya al-Jadida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-kissariya-al-jadida-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153035,
+          35.195126
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Masjid al-Kissariya al-Jadida",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5543155169",
+      "name": "Salle de prière - Aire de service Larache",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salle-de-priere-aire-de-service-larache-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.121311,
+          35.16912
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Salle de prière - Aire de service Larache",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5543167603",
+      "name": "Marjane Larache ⵎⴰⵔⵊⴰⵏ ⵍⵄⴰⵔⴰⵉⵛ مرجان العرائش",
+      "name_fr": "Marjane Larache",
+      "name_ar": "مرجان العرائش",
+      "slug": "marjane-larache-larache",
+      "category": "food-markets",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.141401,
+          35.14808
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjane Larache ⵎⴰⵔⵊⴰⵏ ⵍⵄⴰⵔⴰⵉⵛ مرجان العرائش",
+        "name:ar": "مرجان العرائش",
+        "name:ber": "ⵎⴰⵔⵊⴰⵏ ⵍⵄⴰⵔⴰⵉⵛ",
+        "name:fr": "Marjane Larache",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6246196116",
+      "name": "Corniche Balcon Atlantico",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "corniche-balcon-atlantico-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.154245,
+          35.197025
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Corniche Balcon Atlantico"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7855210638",
+      "name": "Thursday Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "thursday-market-larache",
+      "category": "souks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.080212,
+          35.253518
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Thursday Market"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8465738074",
+      "name": "Ayoub SUPER MARCHE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ayoub-super-marche-larache",
+      "category": "food-markets",
+      "city": "larache",
+      "address": "43, RISSANA, Rissana Chamalia ريصانة الشمالية",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.955287,
+          35.224453
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Rissana Chamalia ريصانة الشمالية",
+        "addr:housenumber": "43",
+        "addr:street": "RISSANA",
+        "brand": "COCACOLA",
+        "name": "Ayoub SUPER MARCHE",
+        "opening_hours": "24/7",
+        "operator": "MUFIT",
+        "payment:cash": "yes",
+        "payment:visa": "yes",
+        "phone": "+212 6 58 23 47 44",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 58 23 47 44",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/9122392296",
+      "name": "Chez Mounir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-mounir-larache",
+      "category": "riads",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.086692,
+          35.369334
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Mounir",
+        "phone": "+212 6 96 34 60 58",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 34 60 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9142194504",
+      "name": "Burger King",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "burger-king-larache",
+      "category": "local-food",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.122394,
+          35.170494
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9238344845",
+      "name": "Horifaya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "horifaya-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.081254,
+          35.084599
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Horifaya"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10267866696",
+      "name": "Camp d’el Mers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-d-el-mers-larache",
+      "category": "roman-ruins",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915204,
+          35.142249
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "historic:civilization": "ancient_roman",
+        "name": "Camp d’el Mers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11304191969",
+      "name": "Maison haute",
+      "name_fr": "Maison haute",
+      "name_ar": null,
+      "slug": "maison-haute-larache",
+      "category": "riads",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151435,
+          35.197618
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Maison haute",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11403964115",
+      "name": "Al Watan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-watan-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151699,
+          35.197654
+        ]
+      },
+      "osm_tags": {
+        "name": "Al Watan",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11403964118",
+      "name": "Hôtel Larache",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-larache-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151761,
+          35.194257
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Larache",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11405422253",
+      "name": "Jean Genet",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jean-genet-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152181,
+          35.199016
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Jean Genet"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11405534245",
+      "name": "Pension Palmera",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pension-palmera-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153899,
+          35.195271
+        ]
+      },
+      "osm_tags": {
+        "name": "Pension Palmera",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11409589899",
+      "name": "Hotel Karam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-karam-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.144783,
+          35.164988
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Karam",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11716688253",
+      "name": "champs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "champs-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.141991,
+          35.155345
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "champs"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11716699405",
+      "name": "foret",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "foret-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.146246,
+          35.157709
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "foret"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12078983170",
+      "name": "Cafe Royal",
+      "name_fr": null,
+      "name_ar": "مقهى رويال",
+      "slug": "cafe-royal-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.145016,
+          35.177546
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Royal",
+        "name:ar": "مقهى رويال"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12078987369",
+      "name": "Cafe Al Manzah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-manzah-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.145145,
+          35.177367
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Al Manzah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12078992569",
+      "name": "Ponte Vecchio",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ponte-vecchio-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.144462,
+          35.172324
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Ponte Vecchio"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12081980369",
+      "name": "Cafe Al Mazar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-mazar-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.139104,
+          35.17262
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Al Mazar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12207318906",
+      "name": "Cafe Paloma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-paloma-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.142021,
+          35.172393
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cafe Paloma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13740993102",
+      "name": "Fischhalle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fischhalle-larache",
+      "category": "historical-sites",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.14353,
+          35.19716
+        ]
+      },
+      "osm_tags": {
+        "name": "Fischhalle",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818613002",
+      "name": "Rico Rico",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rico-rico-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151606,
+          35.187101
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Rico Rico"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818652501",
+      "name": "Quatro Caminos",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "quatro-caminos-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.148478,
+          35.189096
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Quatro Caminos"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818652601",
+      "name": "Hôtel & Restaurant Salime-Al Khozama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-restaurant-salime-al-khozama-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.149166,
+          35.190976
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel & Restaurant Salime-Al Khozama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818652701",
+      "name": "San Francisco",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "san-francisco-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.149446,
+          35.192119
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "San Francisco"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818663802",
+      "name": "La Luna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-luna-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151062,
+          35.191178
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La Luna"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818674901",
+      "name": "Pâtisseries El Glop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisseries-el-glop-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152229,
+          35.191106
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pâtisseries El Glop"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13818690702",
+      "name": "Chliaba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chliaba-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15484,
+          35.178263
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Chliaba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/176997524",
+      "name": "Tour de la cigogne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tour-de-la-cigogne-larache",
+      "category": "palaces-kasbahs",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.149851,
+          35.195259
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "castle",
+        "name": "Tour de la cigogne"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/263552029",
+      "name": "Plaza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plaza-larache",
+      "category": "souks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15561,
+          35.195076
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Plaza"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/435851916",
+      "name": "fish-salting factory",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fish-salting-factory-larache",
+      "category": "roman-ruins",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.111237,
+          35.196915
+        ]
+      },
+      "osm_tags": {
+        "historic": "ruins",
+        "historic:civilization": "ancient_roman",
+        "name": "fish-salting factory"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454386002",
+      "name": "Masjid Mohamed VI",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-mohamed-vi-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.159126,
+          35.194932
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Mohamed VI",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454386232",
+      "name": "Masjid Al Qods",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-qods-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.157057,
+          35.19452
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Qods",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454386776",
+      "name": "Masjid Hassan II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-hassan-ii-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.156826,
+          35.192124
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Hassan II",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454387134",
+      "name": "Grande Mosquée المسجد الأعظم",
+      "name_fr": "Grande Mosquée",
+      "name_ar": "المسجد الأعظم",
+      "slug": "grande-mosquee-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.150626,
+          35.197188
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Grande Mosquée المسجد الأعظم",
+        "name:ar": "المسجد الأعظم",
+        "name:fr": "Grande Mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454387874",
+      "name": "Masjid Al Bir Wa L'ihssane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-bir-wa-l-ihssane-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.14803,
+          35.189882
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Bir Wa L'ihssane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454698522",
+      "name": "Espanol (Lukus)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espanol-lukus-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.153815,
+          35.196381
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Espanol (Lukus)",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/467030189",
+      "name": "La Grande Mosquée",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-grande-mosquee-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.149269,
+          35.196208
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "La Grande Mosquée",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/467030190",
+      "name": "Bordj Essadien KBIBATE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bordj-essadien-kbibate-larache",
+      "category": "palaces-kasbahs",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152777,
+          35.199411
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "building:levels": "5",
+        "historic": "castle",
+        "name": "Bordj Essadien KBIBATE"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/467040580",
+      "name": "Mosquée Nassiria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-nassiria-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.148873,
+          35.198222
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Nassiria",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/467040582",
+      "name": "Mosquée Mesbahia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mesbahia-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.1515,
+          35.198404
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Mesbahia",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476254631",
+      "name": "Masjid Abdul-Rahman مسجد عبد الرحمان",
+      "name_fr": "Masjid Abdul-Rahman",
+      "name_ar": "مسجد عبد الرحمان",
+      "slug": "masjid-abdul-rahman-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.13865,
+          35.171515
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Abdul-Rahman مسجد عبد الرحمان",
+        "name:ar": "مسجد عبد الرحمان",
+        "name:fr": "Masjid Abdul-Rahman",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476255009",
+      "name": "Masjid al-Ouafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-ouafa-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.146925,
+          35.175809
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid al-Ouafa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476258609",
+      "name": "Masjid al-Furqan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-furqan-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.156649,
+          35.176396
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid al-Furqan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476261367",
+      "name": "Masjid as-Salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-as-salam-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.142486,
+          35.181419
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid as-Salam",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/496472992",
+      "name": "Chez Jawad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-jawad-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.147829,
+          35.198143
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Chez Jawad",
+        "url": "https://babelbahr.tumblr.com/image/164367422563"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/496473150",
+      "name": "Miramar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "miramar-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.15108,
+          35.198774
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Miramar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/496481750",
+      "name": "Loukos",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "loukos-larache",
+      "category": "restaurants",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.147198,
+          35.198438
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Loukos",
+        "url": "https://babelbahr.tumblr.com/image/164367785838"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/496738720",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-larache",
+      "category": "hammams",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.150291,
+          35.197874
+        ]
+      },
+      "osm_tags": {
+        "amenity": "public_bath",
+        "building": "yes",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/578557865",
+      "name": "Masjid Quba مسجد قباء",
+      "name_fr": "Masjid Quba",
+      "name_ar": "مسجد قباء",
+      "slug": "masjid-quba-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152999,
+          35.170993
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Quba مسجد قباء",
+        "name:ar": "مسجد قباء",
+        "name:fr": "Masjid Quba",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/664245724",
+      "name": "Marche Centrale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-centrale-larache",
+      "category": "souks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.150451,
+          35.179397
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marche Centrale"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/681014952",
+      "name": "Sidi Mugaits Beach",
+      "name_fr": "La plage de Sidi Mugaits",
+      "name_ar": null,
+      "slug": "sidi-mugaits-beach-larache",
+      "category": "beaches",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.087116,
+          35.365801
+        ]
+      },
+      "osm_tags": {
+        "name": "La plage de Sidi Mugaits",
+        "name:en": "Sidi Mugaits Beach",
+        "name:fr": "La plage de Sidi Mugaits",
+        "natural": "beach",
+        "surface": "sand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/744896822",
+      "name": "Sidi Mghayt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mghayt-larache",
+      "category": "mausoleums",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.082234,
+          35.384728
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mghayt",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442655",
+      "name": "Sidi Oumarrihia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-oumarrihia-larache",
+      "category": "mausoleums",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.955342,
+          35.341706
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Oumarrihia",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692429",
+      "name": "Sidi al Yamani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-yamani-larache",
+      "category": "mausoleums",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.973293,
+          35.365652
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Yamani",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/841978506",
+      "name": "mosquee tayeb",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tayeb-larache",
+      "category": "mosques",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.075206,
+          35.272907
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "mosquee tayeb",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/987394483",
+      "name": "Plage de Sidi Mghait ضريح سيدي مغايت",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-de-sidi-mghait-larache",
+      "category": "beaches",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.084426,
+          35.380819
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Sidi Mghait ضريح سيدي مغايت",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1007495274",
+      "name": "Roman amphitheater",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "roman-amphitheater-larache",
+      "category": "roman-ruins",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.108658,
+          35.199943
+        ]
+      },
+      "osm_tags": {
+        "building": "ruins",
+        "historic": "ruins",
+        "historic:civilization": "ancient_roman",
+        "name": "Roman amphitheater",
+        "wikidata": "Q18640103",
+        "wikimedia_commons": "Category:Ancient Roman amphitheatre (Lixus)",
+        "wikipedia": "ar:مدرج ليكسوس"
+      },
+      "wikidata": "Q18640103",
+      "wikipedia": "ar:مدرج ليكسوس",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071742",
+      "name": "Paradise beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paradise-beach-larache",
+      "category": "beaches",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.066921,
+          35.415771
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Rmilate",
+        "name:en": "Paradise beach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071745",
+      "name": "Les Figuiettes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-figuiettes-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.063074,
+          35.383949
+        ]
+      },
+      "osm_tags": {
+        "email": "cecile.aubert@laposte.net",
+        "name": "Les Figuiettes",
+        "phone": "+33 6 22 92 29 54",
+        "tourism": "hotel",
+        "website": "https://www.les-figuiettes.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.les-figuiettes.com/",
+      "phone": "+33 6 22 92 29 54",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071753",
+      "name": "Dmina House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dmina-house-larache",
+      "category": "hotels",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.061394,
+          35.383377
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Dmina House",
+        "phone": "+212 6 57 00 00 02",
+        "tourism": "hotel",
+        "website": "https://dminahouse.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dminahouse.com/",
+      "phone": "+212 6 57 00 00 02",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1076249366",
+      "name": "Place La Marche Verte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-la-marche-verte-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151253,
+          35.196262
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place La Marche Verte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1149774984",
+      "name": "Place de la Libération",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-de-la-liberation-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.152305,
+          35.197106
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place de la Libération"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1149774988",
+      "name": "Vega M6",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "vega-m6-larache",
+      "category": "local-food",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.155112,
+          35.196234
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "Vega M6",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1229911880",
+      "name": "Malibu",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "malibu-larache",
+      "category": "cafes",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.154465,
+          35.196626
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Malibu"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1230313904",
+      "name": "Jardin des lions",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-des-lions-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.150071,
+          35.195088
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin des lions",
+        "opening_hours": "24/7"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "way/1289198835",
+      "name": "Dar Saad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-saad-larache",
+      "category": "riads",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.060622,
+          35.389053
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Dar Saad",
+        "phone": "+212 6 73 73 69 80",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 73 69 80",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1390452341",
+      "name": "Marché du gros",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-du-gros-larache",
+      "category": "souks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.151343,
+          35.17956
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché du gros"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1413241602",
+      "name": "olampica2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "olampica2-larache",
+      "category": "national-parks",
+      "city": "larache",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.155719,
+          35.193596
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "fee": "no",
+        "garden:type": "community",
+        "leisure": "garden",
+        "name": "olampica2"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

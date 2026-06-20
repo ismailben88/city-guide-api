@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
+const { EVENT_CATEGORIES } = require("../constants/eventCategories");
 
 const eventSchema = new Schema(
   {
@@ -20,7 +21,7 @@ const eventSchema = new Schema(
 
     category: {
       type: String,
-      enum: ["concert", "exhibition", "theatre", "sport", "festival", "music", "culture", "art", "workshop", "other"],
+      enum: EVENT_CATEGORIES,
       default: "other",
     },
 
@@ -38,5 +39,24 @@ const eventSchema = new Schema(
 eventSchema.index({ location: "2dsphere" });
 eventSchema.index({ cityId: 1, "dateRange.from": 1 });
 eventSchema.index({ status: 1, isFeatured: 1 });
+// Filter "upcoming/this_week/this_month" in EventsPage hits this hot path.
+eventSchema.index({ status: 1, "dateRange.from": 1 });
+eventSchema.index({ category: 1, status: 1, "dateRange.from": 1 });
+eventSchema.index({ organizedBy: 1, createdAt: -1 });
+
+// ── Indexes added for the paginated /events contract ──────────────────────
+// `_id` tail gives the planner a deterministic cursor for skip/limit.
+eventSchema.index({ cityId: 1, category: 1, status: 1, _id: 1 });
+// Standalone date index — useful for `?sort=date_asc/date_desc` without a
+// status filter.
+eventSchema.index({ "dateRange.from": 1 });
+
+// Validate that dateRange.to >= dateRange.from when both are present.
+eventSchema.pre("validate", function (next) {
+  if (this.dateRange?.to && this.dateRange?.from && this.dateRange.to < this.dateRange.from) {
+    return next(new Error("dateRange.to must be greater than or equal to dateRange.from"));
+  }
+  next();
+});
 
 module.exports = model("Event", eventSchema);

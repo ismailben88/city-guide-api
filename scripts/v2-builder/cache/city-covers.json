@@ -1,0 +1,186 @@
+{
+  "marrakech": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pavillon_Menarag%C3%A4rten.jpg",
+    "description": "Marrakesh or Marrakech is the fourth-largest city in Morocco. It is one of the four imperial cities of Morocco and is the capital of the Marrakesh-Safi region. The city lies west of the foothills of the Atlas Mountains."
+  },
+  "fes": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bab_Bou_Jeloud_Frame_Minaret_Fes_Nov25_A7CR_09127-8_HDR3.jpg/3840px-Bab_Bou_Jeloud_Frame_Minaret_Fes_Nov25_A7CR_09127-8_HDR3.jpg",
+    "description": "Fez or Fes is a city in northern inland Morocco and the capital of the Fez-Meknes administrative region. It is one of the largest cities in Morocco, with a population of 1.256 million, according to the 2024 census. Located to the northwest of the Atlas Mountains, it is surrounded by hills and the old city is centered around the Fez River flowing from west to east."
+  },
+  "meknes": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Entrada_a_Meknes%2C_Marruecos._-_panoramio.jpg",
+    "description": "Meknes is one of the four Imperial cities of Morocco, located in northern central Morocco and the sixth largest city by population in the kingdom. Founded in the 11th century by the Almoravids as a military settlement, Meknes became the capital of Morocco during the reign of Sultan Ismail Ibn Sharif (1672–1727), son of the founder of the Alaouite dynasty."
+  },
+  "rabat": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Morocco_-_Rabat_%2831387775324%29.jpg",
+    "description": "Rabat is the capital city of Morocco, located on the northwestern coasts of the Atlantic Ocean. Rabat is the country's seventh-largest city with a population of 515,619 (2024) and the second largest metropolitan area after Casablanca, with a population of approximately 2.1 million (2025). It is also the capital city of the Rabat-Salé-Kénitra administrative region."
+  },
+  "casablanca": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Casa_finance_city_6_%28cropped%29.jpg",
+    "description": "Casablanca is the largest city in Morocco and the country's economic and business centre. Located on the Atlantic coast of the Chaouia plain in the central-western part of Morocco, the city has a population of about 3.22 million in the urban area, and over 4.27 million in Greater Casablanca, making it the most populous city in the Maghreb region, and the ninth-largest in the Arab world."
+  },
+  "mohammedia": {
+    "image": "",
+    "description": ""
+  },
+  "el-jadida": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Forteresse_Jadida_01.JPG/3840px-Forteresse_Jadida_01.JPG",
+    "description": "El Jadida is a major port city on the Atlantic coast of Morocco. It is located in the province of El Jadida, Casablanca-Settat, 96 kilometres (60 mi) south of the city of Casablanca. It has a population of 237,564 as of 2024."
+  },
+  "safi": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ETH-BIB-Safi%2C_Panorama_IV.-Dia_247-09191.tif/lossy-page1-1920px-ETH-BIB-Safi%2C_Panorama_IV.-Dia_247-09191.tif.jpg",
+    "description": ""
+  },
+  "essaouira": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Morocco_-_Essaouira_Part_2_%2831679848385%29.jpg",
+    "description": "Essaouira, known until the 1960s as Mogador, is a port city in the western Moroccan region of Marrakesh-Safi, on the Atlantic coast. It has 77,966 inhabitants as of 2014."
+  },
+  "oualidia": {
+    "image": "",
+    "description": "Oualidia or Loualidia is a village in Morocco's Atlantic coast in the Casablanca-Settat region and at the border of Merrakch-Asfi. It is situated between El Jadida and Asfi and is located beside a protected natural lagoon and has been called Morocco's \"oyster capital,\" a reference to the significant role shellfish harvesting plays in the local economy."
+  },
+  "sale": {
+    "image": "",
+    "description": ""
+  },
+  "kenitra": {
+    "image": "",
+    "description": ""
+  },
+  "tangier": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Tanger_cor.jpg",
+    "description": "Tangier is a city in northwestern Morocco, on the coasts of the Mediterranean Sea and the Atlantic Ocean. The city is the capital of the Tangier-Tetouan-Al Hoceima region, as well as the Tangier-Assilah Prefecture of Morocco."
+  },
+  "tetouan": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/View_of_Moulay_el_Mehdi_-_panoramio.jpg",
+    "description": "Tétouan is a city in northern Morocco. It lies along the Martil Valley and is one of the two major ports of Morocco on the Mediterranean Sea, a few miles south of the Strait of Gibraltar, and about 60 kilometres (37 mi) E.S.E. of Tangier. The city has an estimated population of 469,465 inhabitants as of 2024. It is part of the administrative division Tanger-Tetouan-Al Hoceima."
+  },
+  "chefchaouen": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Chefchaouen_%2852189357475%29.jpg/3840px-Chefchaouen_%2852189357475%29.jpg",
+    "description": "Chefchaouen is a city in northwest Morocco. It is the chief town of the province of the same name and is noted for its buildings in shades of blue, for which it is nicknamed the \"Blue City\". It is situated in a mountainous region in northern Morocco, between Tétouan and Ouazzane."
+  },
+  "asilah": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Asilah_seafront.jpg",
+    "description": "Asilah is a fortified town on the northwest tip of the Atlantic coast of Morocco, about 31 km (19 mi) south of Tangier. Its ramparts and gateworks remain fully intact."
+  },
+  "larache": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Larache_de_nuit_%2814161711729%29.jpg/3840px-Larache_de_nuit_%2814161711729%29.jpg",
+    "description": "Larache is a city in northwestern Morocco. It is on the Moroccan coast, where the Loukkos River meets the Atlantic Ocean. Larache is one of the most important cities of the Tanger-Tetouan-Al Hoceima region."
+  },
+  "al-hoceima": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Al_Hoceima_Quemado.jpg/3840px-Al_Hoceima_Quemado.jpg",
+    "description": "Al Hoceima is a city in the north of Morocco, on the northern edge of the Rif Mountains and on the Mediterranean coast. It is the capital city of the Al Hoceima Province. Located in the heart of the Central Rif, Al Hoceima is surrounded by the highest peaks of the Rif mountain range, including Mount Tidghin (2,452m)."
+  },
+  "akchour": {
+    "image": "",
+    "description": ""
+  },
+  "ksar-el-kebir": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/%D8%A7%D9%84%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1.JPG",
+    "description": "Ksar el-Kebir, also known as al-Qasr al-Kabir, is a city in northwestern Morocco, about 160 kilometres (99 mi) north of Rabat, 32 kilometres (20 mi) east of Larache and 110 kilometres (68 mi) south of Tangier. It recorded a population of 126,617 in the 2014 Moroccan census."
+  },
+  "nador": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Nador-Morocco-10.jpg",
+    "description": "Nador is a coastal city and provincial capital in the northeastern Rif region of Morocco with a population of about 158,202 . It is the capital of the homonymous Nador Province with more than 600,000 inhabitants. Nador is considered the second largest city in the Oriental Region after Oujda and the largest predominantly Riffian city of Morocco."
+  },
+  "saidia": {
+    "image": "",
+    "description": ""
+  },
+  "berkane": {
+    "image": "",
+    "description": ""
+  },
+  "oujda": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Oujda.mosque_et_mairie.jpg",
+    "description": "Oujda is a major city in northeast Morocco near the border with Algeria. Oujda is the largest city and capital of the Oriental region of northeastern Morocco and has a population of 506,224 people. It is located about 15 kilometres west of the Moroccan-Algerian border in the south of the Beni Iznassen Mountains and about 55 km south of the Mediterranean coast."
+  },
+  "agadir": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/South_view_sea_side_from_Kasbah_of_Agadir_Oufella.jpg/3840px-South_view_sea_side_from_Kasbah_of_Agadir_Oufella.jpg",
+    "description": "Agadir is a major city in Morocco, on the shore of the Atlantic Ocean near the foot of the Atlas Mountains, just north of the point where the Souss River flows into the ocean, and 509 kilometres (316 mi) south of Casablanca. Agadir is the capital of the Souss-Massa region and the seat of Agadir-Ida Ou Tanane Prefecture."
+  },
+  "taghazout": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Blue_fishing_boats_in_Taghazout%2C_Morocco_%288628196631%29.jpg",
+    "description": "Taghazout is a small Berber fishing village 19 km (12 mi) north of the city of Agadir in southwestern Morocco. The inhabitants are mostly of Berber origin. Fishing, tourism, and the production of Argan oil being the main source of income. In recent years, tourism has been increasing in importance to the local economy and it is a popular surfing destination."
+  },
+  "mirleft": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Mirleft_fort.jpg",
+    "description": "Mirleft is a small town and rural commune in Sidi Ifni Province of the Guelmim-Oued Noun region of Morocco. At the 2004 census, the commune had a total population of 7026 people living in 1303 households."
+  },
+  "sidi-ifni": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Die_wei%C3%9F-blauen_H%C3%A4user_von_Sidi_Ifni.jpg",
+    "description": "Sidi Ifni is a city located on the west coast of Morocco, on the shores of the Atlantic Ocean, with a population of 20,051 people. The economic base of the city is fishing. It is located in Guelmim-Oued Noun region and Sidi Ifni Province. Its inhabitants are Shilha from the Aït Baâmrane tribe. In 2000, an important fishing port was completed, which serves as a base for fish exports."
+  },
+  "taroudant": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Al_Kassbah%2C_Taroudant%2C_Morocco_-_panoramio.jpg",
+    "description": "Taroudant is a city in the Sous in southwestern Morocco. It is situated east of Agadir on the road to Ouarzazate and south of Marrakesh. Today, it is a small market town and a tourist destination."
+  },
+  "tafraoute": {
+    "image": "",
+    "description": ""
+  },
+  "dakhla": {
+    "image": "",
+    "description": ""
+  },
+  "laayoune": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/El_Aai%C3%BAn-La%C3%A2youne_Collage.png",
+    "description": "Laayoune or El Aaiún is the largest city of the disputed territory of Western Sahara, with a population of 262,791 in 2024. The city is the de jure capital of the Sahrawi Arab Democratic Republic, though it is under de facto Moroccan administration as occupied territory. The modern city is thought to have been founded by the Spanish captain Antonio de Oro in 1938."
+  },
+  "ouarzazate": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kasbah_Taourirt_in_Ouarzazate_2011.jpg",
+    "description": "Ouarzazate is a city and capital of Ouarzazate Province in the region of Drâa-Tafilalet, south-central Morocco."
+  },
+  "ait-benhaddou": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg/3840px-Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg",
+    "description": "Aït Benhaddou is a historic ighrem or ksar along the former caravan route between the Sahara and Marrakesh in Morocco. It is considered a great example of Moroccan earthen clay architecture and has been a UNESCO World Heritage Site since 1987."
+  },
+  "merzouga": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Merzouga%2C_Morocco.jpg",
+    "description": "Merzouga is a village in southeastern Morocco. The village is near the Erg Chebbi dunes, among the tallest in the Sahara. It is about 35 kilometres (22 mi) southeast of Rissani, about 55 kilometres (34 mi) from Erfoud and about 50 kilometres (31 mi) from the Algerian border. Some of the other villages near the dunes are Hassilabied, Tanamoust, Takoujt, Khamlia, and Tisserdmine."
+  },
+  "errachidia": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Inbound798505067365682367.jpg",
+    "description": "Errachidia, formerly known as Ksar es-Souk, is a city in Morocco, located in the Errachidia Province, and is the capital of the Drâa-Tafilalet region."
+  },
+  "tinghir": {
+    "image": "",
+    "description": ""
+  },
+  "zagora": {
+    "image": "",
+    "description": ""
+  },
+  "mhamid": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/M%27hamid-CafeUndShop.jpg",
+    "description": "M'Hamid El Ghizlane, also known as Lamhamid Ghozlane, is a small oasis town in Zagora Province, Drâa-Tafilalet, Morocco, with about 7500 inhabitants."
+  },
+  "ifrane": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Neige_ifrane.jpg",
+    "description": "Ifrane is a city geographically located in the Middle Atlas region of northern Morocco. With an approximate population of 13,964, the capital of Ifrane Province in the region of Fès-Meknès is located at an elevation of more than 1,650 m (5,410 ft)."
+  },
+  "imlil": {
+    "image": "",
+    "description": ""
+  },
+  "asni": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Asni-Nicolas_L%C5%93uillet-crop.jpg",
+    "description": "Asni is a small town in the foothills of the High Atlas mountains near Marrakesh, Morocco."
+  },
+  "midelt": {
+    "image": "",
+    "description": ""
+  },
+  "sefrou": {
+    "image": "",
+    "description": ""
+  },
+  "beni-mellal": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beni_Mellal_centre_of_city_january_2020.jpg",
+    "description": "Beni Mellal is a city in north-central Morocco. It is the capital of the Béni Mellal-Khénifra Region and has a population of 192,676. It sits at the foot of Jbel Tassemit, next to the plains of Beni Amir. The modern town dates back to 1688, when Moulay Isma'il founded a kasbah (fort)."
+  },
+  "khouribga": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Khouribga_%D8%AE%D8%B1%D9%8A%D8%A8%D9%83%D8%A9_%D8%A7%D9%84%D9%86%D8%A7%D9%81%D9%88%D8%B1%D8%A9_%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1%D8%A9_La_grande_Fountain_AZ.jpg",
+    "description": "Khouribga is the capital of Khouribga Province in the Béni Mellal-Khénifra region, Morocco. With a population of 342,125, Khouribga owes its growth to the phosphate deposits nearby."
+  }
+}

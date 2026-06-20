@@ -1,0 +1,2271 @@
+{
+  "city": "al-hoceima",
+  "fetched_at": "2026-06-08T11:28:57.076Z",
+  "raw_count": 233,
+  "places": [
+    {
+      "osm_id": "node/1347868368",
+      "name": "Shrif",
+      "name_fr": null,
+      "name_ar": "شريف",
+      "slug": "shrif-al-hoceima",
+      "category": "specialty-coffee",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.841091,
+          35.101857
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Shrif",
+        "name:ar": "شريف",
+        "name:es": "Shrif",
+        "wifi": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1347870336",
+      "name": "Hasan the Butcher",
+      "name_fr": null,
+      "name_ar": "حسن الجزار",
+      "slug": "hasan-the-butcher-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.84129,
+          35.102168
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Hasan the Butcher",
+        "name:ar": "حسن الجزار",
+        "name:es": "Hasán el Carnicero"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1578859936",
+      "name": "Ghinia مسجد غينيا",
+      "name_fr": "Ghinia",
+      "name_ar": "مسجد غينيا",
+      "slug": "ghinia-al-hoceima",
+      "category": "mosques",
+      "city": "al-hoceima",
+      "address": "الحسيمة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.9313,
+          35.241911
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "الحسيمة",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Ghinia مسجد غينيا",
+        "name:ar": "مسجد غينيا",
+        "name:fr": "Ghinia",
+        "religion": "muslim",
+        "short_name:ar": "غينيا"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1578879010",
+      "name": "Café Miramar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-miramar-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.928569,
+          35.242108
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Café Miramar",
+        "name:es": "Café Miramar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1602471150",
+      "name": "Morro Viejo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "morro-viejo-al-hoceima",
+      "category": "souks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.926611,
+          35.240872
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Morro Viejo",
+        "name:es": "Morro Viejo"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1833701541",
+      "name": "L'Ambassadeur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-ambassadeur-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.846454,
+          35.132619
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "L'Ambassadeur"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834822313",
+      "name": "Plage souani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-souani-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.856948,
+          35.197716
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage souani",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1887742767",
+      "name": "Miramar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "miramar-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.928627,
+          35.24216
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Miramar",
+        "name:es": "Miramar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2136707115",
+      "name": "Plage Rhacheth",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-rhacheth-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.78086,
+          35.214473
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Rhacheth",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2308117571",
+      "name": "café noumidia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-noumidia-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.864822,
+          35.172944
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "café noumidia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2308124820",
+      "name": "Rif Land",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rif-land-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.865016,
+          35.173571
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Rif Land"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2308126740",
+      "name": "sandwish",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sandwish-al-hoceima",
+      "category": "local-food",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.864951,
+          35.173558
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "regional",
+        "name": "sandwish"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2308127485",
+      "name": "el baraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-baraka-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.865841,
+          35.173791
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "el baraka"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2308128793",
+      "name": "super marcher",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "super-marcher-al-hoceima",
+      "category": "food-markets",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.866035,
+          35.173887
+        ]
+      },
+      "osm_tags": {
+        "name": "super marcher",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2338987671",
+      "name": "Palm Beach Motel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palm-beach-motel-al-hoceima",
+      "category": "riads",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.845499,
+          35.19217
+        ]
+      },
+      "osm_tags": {
+        "name": "Palm Beach Motel",
+        "source": "Owner",
+        "tourism": "guest_house",
+        "website": "https://www.booking.com/hotel/ma/villa-al-hoceima-souani.fr.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/villa-al-hoceima-souani.fr.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2401542217",
+      "name": "Mosquée de Souani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-de-souani-al-hoceima",
+      "category": "mosques",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.847143,
+          35.191689
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée de Souani",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2584485724",
+      "name": "Cafe Numibia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-numibia-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.902427,
+          35.211993
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Numibia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4339061557",
+      "name": "Al-Amira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-amira-al-hoceima",
+      "category": "local-food",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.849574,
+          35.147656
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "Al-Amira"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4339061562",
+      "name": "Panorama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panorama-al-hoceima",
+      "category": "local-food",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.849378,
+          35.147591
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Panorama"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4463834981",
+      "name": "Chafarina's Beach",
+      "name_fr": null,
+      "name_ar": "شاطئ إشفارن",
+      "slug": "chafarina-s-beach-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "ازمورن",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.981177,
+          35.235199
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "ازمورن",
+        "name": "شاطئ إشفارن",
+        "name:ar": "شاطئ إشفارن",
+        "name:en": "Chafarina's Beach",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5133407473",
+      "name": "Plage Sfiha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-sfiha-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.903262,
+          35.211937
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Sfiha",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5421164500",
+      "name": "Parc Thazrout N'tber",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-thazrout-n-tber-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.692702,
+          35.210252
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Parc Thazrout N'tber"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5951104638",
+      "name": "Plage des 700 marches",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-des-700-marches-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.086356,
+          35.219537
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage des 700 marches",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5951114086",
+      "name": "Plage de Tikkit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-de-tikkit-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.140218,
+          35.198773
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Tikkit",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5951117874",
+      "name": "Boumehdi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boumehdi-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.009375,
+          35.232139
+        ]
+      },
+      "osm_tags": {
+        "name": "Boumehdi",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5951133046",
+      "name": "Toppes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toppes-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.176582,
+          35.197325
+        ]
+      },
+      "osm_tags": {
+        "name": "Toppes",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6031554827",
+      "name": "Baie de Nekkour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "baie-de-nekkour-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.894444,
+          35.208595
+        ]
+      },
+      "osm_tags": {
+        "name": "Baie de Nekkour",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6282514886",
+      "name": "Palm's",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palm-s-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.923401,
+          35.233699
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Palm's",
+        "phone": "+212 5 39 84 12 82"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 39 84 12 82",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6305316985",
+      "name": "Ohana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ohana-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "Avenue Mohammed 5 شارع محمد الخامس",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.929524,
+          35.24158
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohammed 5 شارع محمد الخامس",
+        "amenity": "cafe",
+        "name:en": "Ohana",
+        "phone": "+212 5 39 84 11 63"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 39 84 11 63",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6426930825",
+      "name": "Al Hoceima Bay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-hoceima-bay-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.900907,
+          35.208959
+        ]
+      },
+      "osm_tags": {
+        "name": "Al Hoceima Bay",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6433099292",
+      "name": "Place Rif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-rif-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.928327,
+          35.241081
+        ]
+      },
+      "osm_tags": {
+        "name": "Place Rif",
+        "name:es": "Plaza Rif",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6435339786",
+      "name": "Mohammed V Square",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mohammed-v-square-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.929676,
+          35.245182
+        ]
+      },
+      "osm_tags": {
+        "name": "annar n imjahden",
+        "name:en": "Mohammed V Square",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8825577522",
+      "name": "Panoramic",
+      "name_fr": "Panoramique",
+      "name_ar": null,
+      "slug": "panoramic-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.10507,
+          35.205805
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "بانوراما",
+        "name:en": "Panoramic",
+        "name:fr": "Panoramique"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8825594218",
+      "name": "Cornice Morro Viejo",
+      "name_fr": "Corniche Morro Viejo",
+      "name_ar": null,
+      "slug": "cornice-morro-viejo-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.922108,
+          35.241206
+        ]
+      },
+      "osm_tags": {
+        "name": "كورنيش مورو ڤييخو",
+        "name:en": "Cornice Morro Viejo",
+        "name:fr": "Corniche Morro Viejo",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8825594219",
+      "name": "Miramar Space",
+      "name_fr": "Espace Miramar",
+      "name_ar": "فضاء ميرامار",
+      "slug": "miramar-space-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.928736,
+          35.242419
+        ]
+      },
+      "osm_tags": {
+        "name": "فضاء ميرامار",
+        "name:ar": "فضاء ميرامار",
+        "name:en": "Miramar Space",
+        "name:es": "Espacio Miramar",
+        "name:fr": "Espace Miramar",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8825618517",
+      "name": "Moro viejo",
+      "name_fr": "Moro viejo",
+      "name_ar": null,
+      "slug": "moro-viejo-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.920517,
+          35.241033
+        ]
+      },
+      "osm_tags": {
+        "name": "مورو ڤييخو",
+        "name:en": "Moro viejo",
+        "name:fr": "Moro viejo",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826184429",
+      "name": "Rmod Beach",
+      "name_fr": "Plage Rmod",
+      "name_ar": null,
+      "slug": "rmod-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.965728,
+          35.243738
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء الرمود",
+        "name:en": "Rmod Beach",
+        "name:fr": "Plage Rmod",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826192417",
+      "name": "Izdhi Beach",
+      "name_fr": "Plage Izdhi",
+      "name_ar": null,
+      "slug": "izdhi-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.963093,
+          35.245354
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء إيزدي",
+        "name:en": "Izdhi Beach",
+        "name:fr": "Plage Izdhi",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826194417",
+      "name": "Maktoâa Beach",
+      "name_fr": "Plage Maktoâa",
+      "name_ar": null,
+      "slug": "maktoaa-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.918911,
+          35.229623
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء مقطوعة",
+        "name:en": "Maktoâa Beach",
+        "name:fr": "Plage Maktoâa",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826745917",
+      "name": "Taydiwine Beach",
+      "name_fr": "Plage de Taydiwine",
+      "name_ar": null,
+      "slug": "taydiwine-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.084384,
+          35.219703
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء تايدوين",
+        "name:en": "Taydiwine Beach",
+        "name:fr": "Plage de Taydiwine",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826982917",
+      "name": "Los Frailes",
+      "name_fr": "Los Frailes",
+      "name_ar": null,
+      "slug": "los-frailes-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.929535,
+          35.261559
+        ]
+      },
+      "osm_tags": {
+        "name": "الرهبان",
+        "name:en": "Los Frailes",
+        "name:fr": "Los Frailes",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8826986117",
+      "name": "Matadero Beach",
+      "name_fr": "Plage Matadero",
+      "name_ar": "شاطيء المطاديرو",
+      "slug": "matadero-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.923375,
+          35.236735
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء المطاديرو",
+        "name:ar": "شاطيء المطاديرو",
+        "name:en": "Matadero Beach",
+        "name:es": "Playa Matadero",
+        "name:fr": "Plage Matadero",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8835743817",
+      "name": "Markjmar Beach",
+      "name_fr": "Plage Markjmar",
+      "name_ar": null,
+      "slug": "markjmar-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.990991,
+          35.234288
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء مرقجمار",
+        "name:en": "Markjmar Beach",
+        "name:fr": "Plage Markjmar",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8845418617",
+      "name": "Taoussarte Beach",
+      "name_fr": "Plage Taoussarte",
+      "name_ar": null,
+      "slug": "taoussarte-beach-al-hoceima",
+      "category": "historical-sites",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.11371,
+          35.204957
+        ]
+      },
+      "osm_tags": {
+        "name": "شاطيء تاوسارت",
+        "name:en": "Taoussarte Beach",
+        "name:fr": "Plage Taoussarte",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8851946718",
+      "name": "الماوى القروي السياحي \"إغشامن\"",
+      "name_fr": "gîte rural Ighachaman",
+      "name_ar": null,
+      "slug": "al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.679255,
+          35.183916
+        ]
+      },
+      "osm_tags": {
+        "name": "الماوى القروي السياحي \"إغشامن\"",
+        "name:fr": "gîte rural Ighachaman",
+        "phone": "+212 6 66 48 41 57",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 48 41 57",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9854508417",
+      "name": "Beautiful view in the evening",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beautiful-view-in-the-evening-al-hoceima",
+      "category": "sunset-spots",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.928531,
+          35.253912
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Beautiful view in the evening",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10128584910",
+      "name": "Radisson Blu Resort,Al Hoceima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "radisson-blu-resort-al-hoceima-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.885594,
+          35.20261
+        ]
+      },
+      "osm_tags": {
+        "brand": "Radisson Blu",
+        "brand:wikidata": "Q7281341",
+        "name": "Radisson Blu Resort,Al Hoceima",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10147935017",
+      "name": "Hôtel Basilic",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-basilic-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.930621,
+          35.245033
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Basilic",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10151372817",
+      "name": "Club nautique",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "club-nautique-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.924364,
+          35.247657
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Club nautique"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11097253406",
+      "name": "Aman Jet Park",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aman-jet-park-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.958008,
+          35.248199
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Aiman Jet Park",
+        "name:en": "Aman Jet Park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11115030805",
+      "name": "Miraluna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "miraluna-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.879213,
+          35.195796
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Miraluna"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11124782684",
+      "name": "Cafe Cala Iris Plaza",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-cala-iris-plaza-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "Al Hoceima الحسيمة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.924312,
+          35.249775
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Al Hoceima الحسيمة",
+        "amenity": "restaurant",
+        "cuisine": "regional;moroccan",
+        "diet:fish": "yes",
+        "diet:halal": "yes",
+        "name": "Cafe Cala Iris Plaza"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11128735362",
+      "name": "Cafe Espace Imzouren",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-espace-imzouren-al-hoceima",
+      "category": "bars-lounges",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.848806,
+          35.148083
+        ]
+      },
+      "osm_tags": {
+        "amenity": "pub",
+        "name": "Cafe Espace Imzouren"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11154471704",
+      "name": "Nekor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nekor-al-hoceima",
+      "category": "roman-ruins",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.81233,
+          35.08466
+        ]
+      },
+      "osm_tags": {
+        "access": "unknown",
+        "historic": "ruins",
+        "name": "Nekor",
+        "wikipedia": "en:Nekor"
+      },
+      "wikidata": null,
+      "wikipedia": "en:Nekor",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11905267309",
+      "name": "Hôtel la marina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-la-marina-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.927865,
+          35.233534
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel la marina",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11906773409",
+      "name": "La Perla Bleue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-perla-bleue-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.927319,
+          35.233516
+        ]
+      },
+      "osm_tags": {
+        "name": "La Perla Bleue",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12572184554",
+      "name": "مقهى VEER ZARA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "veer-zara-al-hoceima",
+      "category": "cafes",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.856336,
+          35.164399
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan;rifaine",
+        "name": "مقهى VEER ZARA",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-22:00"
+    },
+    {
+      "osm_id": "node/13058728054",
+      "name": "La Vogue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-vogue-al-hoceima",
+      "category": "restaurants",
+      "city": "al-hoceima",
+      "address": "Madinat Bades, Al Hoceima الحسيمة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.959661,
+          35.245504
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Al Hoceima الحسيمة",
+        "addr:postcode": "32000",
+        "addr:street": "Madinat Bades",
+        "amenity": "restaurant",
+        "cuisine": "pizza;burger;sushi;italian;sandwich",
+        "diet:halal": "yes",
+        "name": "La Vogue",
+        "opening_hours": "Mo-Su 09:00-03:00",
+        "website": "https://instagram.com/lavoguealhoceima"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://instagram.com/lavoguealhoceima",
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-03:00"
+    },
+    {
+      "osm_id": "way/40609340",
+      "name": "Jardín Almuñécar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-almunecar-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.925362,
+          35.234553
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardín Almuñécar",
+        "name:es": "Jardín Almuñécar",
+        "note": "Camping rasé en 2007-2008"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/144418385",
+      "name": "Parque Chita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parque-chita-al-hoceima",
+      "category": "kids-activities",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.931858,
+          35.244155
+        ]
+      },
+      "osm_tags": {
+        "leisure": "playground",
+        "name": "Parque Chita"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/151806517",
+      "name": "Playa Quemado",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "playa-quemado-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.926074,
+          35.243945
+        ]
+      },
+      "osm_tags": {
+        "name": "Playa Quemado",
+        "name:es": "Playa Quemado",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/152078230",
+      "name": "Playa Cala Bonita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "playa-cala-bonita-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.922947,
+          35.234645
+        ]
+      },
+      "osm_tags": {
+        "name": "Playa Cala Bonita",
+        "name:es": "Playa Cala Bonita",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/178570443",
+      "name": "Place la marche verte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-la-marche-verte-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.849374,
+          35.148317
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place la marche verte"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/178738323",
+      "name": "Place De 24 Fevriere",
+      "name_fr": null,
+      "name_ar": "ساحة 24 فبراير",
+      "slug": "place-de-24-fevriere-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.849327,
+          35.146336
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place De 24 Fevriere",
+        "name:ar": "ساحة 24 فبراير",
+        "name:es": "Plaza 24 de Febrero"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/179377195",
+      "name": "Mosquée Mohamed VI",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mohamed-vi-al-hoceima",
+      "category": "mosques",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.941746,
+          35.247131
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Mohamed VI",
+        "name:es": "Mezquita Mohamed VI",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/179377224",
+      "name": "Marjane مرجان",
+      "name_fr": "Marjane",
+      "name_ar": "مرجان",
+      "slug": "marjane-al-hoceima",
+      "category": "food-markets",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.938616,
+          35.245743
+        ]
+      },
+      "osm_tags": {
+        "brand": "Marjane مرجان",
+        "brand:ar": "مرجان",
+        "brand:fr": "Marjane",
+        "brand:wikidata": "Q136333342",
+        "building": "supermarket",
+        "name": "Marjane مرجان",
+        "name:ar": "مرجان",
+        "name:fr": "Marjane",
+        "parking": "rooftop",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/179378376",
+      "name": "Plage Rhach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-rhach-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.799164,
+          35.208647
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Rhach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/252775158",
+      "name": "Casa Paca Alhucemas Guesthouse B&B",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-paca-alhucemas-guesthouse-b-b-al-hoceima",
+      "category": "riads",
+      "city": "al-hoceima",
+      "address": "Ait Youssef Ou Ali آيت يوسف أو علي",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.905799,
+          35.210689
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ait Youssef Ou Ali آيت يوسف أو علي",
+        "addr:postcode": "32003",
+        "building": "house",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Casa Paca Wi-Fi",
+        "name": "Casa Paca Alhucemas Guesthouse B&B",
+        "phone": "+212 539802732",
+        "rooms": "6",
+        "smoking": "no",
+        "tourism": "guest_house",
+        "website": "https://www.casapacamarruecos.com/",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.casapacamarruecos.com/",
+      "phone": "+212 539802732",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/285343708",
+      "name": "Talla Yousef تالا يوسف",
+      "name_fr": "Talla Yousef",
+      "name_ar": "تالا يوسف",
+      "slug": "talla-yousef-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.976245,
+          35.238175
+        ]
+      },
+      "osm_tags": {
+        "name": "Talla Yousef تالا يوسف",
+        "name:ar": "تالا يوسف",
+        "name:fr": "Talla Yousef",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/376437991",
+      "name": "Mira Palace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mira-palace-al-hoceima",
+      "category": "luxury-hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.945557,
+          35.249287
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Mira Palace",
+        "smoking": "yes",
+        "stars": "4",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/449431892",
+      "name": "Plage de Boussekour",
+      "name_fr": "Plage de Boussekour",
+      "name_ar": null,
+      "slug": "plage-de-boussekour-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.034308,
+          35.233251
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Boussekour",
+        "name:fr": "Plage de Boussekour",
+        "natural": "beach",
+        "surface": "sand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/528167675",
+      "name": "Hotel Al Hoceima Bay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-al-hoceima-bay-al-hoceima",
+      "category": "luxury-hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.899915,
+          35.207599
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Al Hoceima Bay",
+        "operator": "HRM",
+        "phone": "+212 539 80 20 11",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.hotel-alhoceima-bay.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotel-alhoceima-bay.com/",
+      "phone": "+212 539 80 20 11",
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/697210199",
+      "name": "Mosque Haj Yahya",
+      "name_fr": null,
+      "name_ar": "مسجد الحاج يحيى",
+      "slug": "mosque-haj-yahya-al-hoceima",
+      "category": "mosques",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.954565,
+          35.22399
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "مسجد الحاج يحيى",
+        "name:ar": "مسجد الحاج يحيى",
+        "name:en": "Mosque Haj Yahya",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/701465797",
+      "name": "Mercure",
+      "name_fr": null,
+      "name_ar": "ميركيور",
+      "slug": "mercure-al-hoceima",
+      "category": "hotels",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.926608,
+          35.244729
+        ]
+      },
+      "osm_tags": {
+        "brand": "Mercure",
+        "brand:ar": "ميركيور",
+        "brand:es": "Mercure",
+        "brand:wikidata": "Q1709809",
+        "brand:wikipedia": "en:Mercure (hotel)",
+        "brand:wikipedia:ar": "ميركيور",
+        "building": "yes",
+        "name": "Mercure",
+        "name:ar": "ميركيور",
+        "name:es": "Mercure",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/904765937",
+      "name": "Place Mirador",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "place-mirador-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.946358,
+          35.250661
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Place Mirador",
+        "name:es": "Plaza Mirador"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1109768358",
+      "name": "Cafe Villa Florido",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-villa-florido-al-hoceima",
+      "category": "bars-lounges",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -3.92836,
+          35.241045
+        ]
+      },
+      "osm_tags": {
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Cafe Villa Florido"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1421006196",
+      "name": "Plage Tikkit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-tikkit-al-hoceima",
+      "category": "beaches",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.140126,
+          35.198907
+        ]
+      },
+      "osm_tags": {
+        "lifeguard": "no",
+        "name": "Plage Tikkit",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "pebblestone"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/8853939",
+      "name": "Al Hoceima National Park",
+      "name_fr": "Parc National d'Al Hoceima",
+      "name_ar": "المنتزه الوطني الحسيمة",
+      "slug": "al-hoceima-national-park-al-hoceima",
+      "category": "national-parks",
+      "city": "al-hoceima",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.169245,
+          35.181575
+        ]
+      },
+      "osm_tags": {
+        "boundary": "national_park",
+        "check_date": "2024-11-30",
+        "leisure": "nature_reserve",
+        "name": "Parc National d'Al Hoceima ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵍⵃⵓⵙⵉⵎⴰ المنتزه الوطني للحسيمة",
+        "name:ar": "المنتزه الوطني الحسيمة",
+        "name:en": "Al Hoceima National Park",
+        "name:es": "Parque nacional de Alhucemas",
+        "name:fr": "Parc National d'Al Hoceima",
+        "name:ru": "Национальный парк Эль Хосейма",
+        "name:zgh": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵍⵃⵓⵙⵉⵎⴰ",
+        "note": "zone d'étude 47021.37",
+        "protect_class": "2",
+        "type": "multipolygon",
+        "wikidata": "Q3132083",
+        "wikipedia": "en:Al Hoceima National Park"
+      },
+      "wikidata": "Q3132083",
+      "wikipedia": "en:Al Hoceima National Park",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

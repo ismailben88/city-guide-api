@@ -195,6 +195,8 @@ router.put("/:id", protect, async (req, res, next) => {
     updates.isVerifiedBusiness = false;
     updates.rejectionReason    = "";
 
+    // Replace any existing pending request to avoid duplicate entries in the admin queue
+    await PendingRequest.deleteMany({ placeId: existing._id, status: "pending" });
     await PendingRequest.create({
       requestType: "business_verification",
       requestedBy: req.user._id,
@@ -227,6 +229,8 @@ router.delete("/:id", protect, async (req, res, next) => {
     if (business.ownerId?.toString() !== req.user._id.toString())
       return res.status(403).json({ message: "Accès refusé" });
 
+    // Cancel any pending review request so it no longer appears in the admin queue
+    await PendingRequest.deleteMany({ placeId: req.params.id, status: "pending" });
     await Place.findByIdAndUpdate(req.params.id, { status: "archived" });
 
     const owner = await User.findById(req.user._id).select("firstName lastName").lean();

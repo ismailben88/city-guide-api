@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
+const { GUIDE_SPECIALTIES } = require("../constants/guideSpecialties");
 
 const slotSchema = new Schema(
   { start: { type: String }, end: { type: String } },
@@ -22,13 +23,17 @@ const guideProfileSchema = new Schema(
     bio:      { type: String, default: "" },
     bannerUrl:{ type: String, default: "" },
 
-    specialties: [{ type: String, trim: true }],
+    // Constrained to the canonical taxonomy — free-text specialties are rejected
+    // at write time so the Become-a-Guide form, hero search and Guides filter all
+    // stay aligned on the same 16 ids.
+    specialties: [{ type: String, trim: true, enum: GUIDE_SPECIALTIES }],
 
     // Stored as { code, level } objects; accepts plain strings from older data
     spokenLanguages: [{ code: String, level: { type: String, default: "fluent" } }],
 
-    cityIds:      [{ type: Types.ObjectId, ref: "City" }],
-    pricePerHour: { type: Number, default: 0, min: 0 },
+    cityIds:         [{ type: Types.ObjectId, ref: "City" }],
+    pricePerHour:    { type: Number, default: 0, min: 0 },
+    experienceYears: { type: Number, default: 0, min: 0 },
 
     isPublished:          { type: Boolean, default: false },
     isPaused:             { type: Boolean, default: false },
@@ -67,5 +72,19 @@ guideProfileSchema.index({ isPublished: 1 });
 guideProfileSchema.index({ verificationStatus: 1 });
 guideProfileSchema.index({ certified: 1 });
 guideProfileSchema.index({ averageRating: -1 });
+// Hot path: GuidesPage featured listing — published + certified + top-rated.
+guideProfileSchema.index({ isPublished: 1, certified: 1, averageRating: -1 });
+// Hot path: GuidesPage filter by city — published only, sorted by rating.
+guideProfileSchema.index({ isPublished: 1, cityIds: 1, averageRating: -1 });
+
+// ── Indexes added for the paginated /guideProfiles contract ────────────────
+// NOTE: MongoDB cannot build a compound index over two array fields
+// (cityIds + specialties are both arrays → "parallel arrays" error). We
+// keep two single-array compounds; the planner picks the cheapest and
+// filters the other array in memory.
+guideProfileSchema.index({ cityIds: 1, _id: 1 });
+guideProfileSchema.index({ specialties: 1, _id: 1 });
+// Mirrors the most common `?city=...&sort=rating` query.
+guideProfileSchema.index({ cityIds: 1, averageRating: -1 });
 
 module.exports = model("GuideProfile", guideProfileSchema);

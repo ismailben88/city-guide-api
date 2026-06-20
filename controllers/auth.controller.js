@@ -1,6 +1,7 @@
 const asyncHandler               = require("../utils/asyncHandler");
 const { signToken, verifyToken } = require("../utils/jwt.utils");
 const { registerUser, loginUser, googleAuth, facebookAuth } = require("../services/auth.service");
+const User     = require("../models/User");
 const ApiError = require("../utils/ApiError");
 
 // POST /auth/register
@@ -39,8 +40,13 @@ exports.refreshToken = asyncHandler(async (req, res) => {
   const { refreshToken } = req.body;
   if (!refreshToken) throw new ApiError(400, "refreshToken requis");
   const decoded = verifyToken(refreshToken);
-  const token   = signToken(decoded.id);
-  res.json({ token });
+  // Validate the user still exists, is active, and the token wasn't revoked
+  // (stale tokenVersion) before minting a fresh one.
+  const user = await User.findById(decoded.id);
+  if (!user || !user.isActive) throw new ApiError(401, "Utilisateur invalide");
+  if ((decoded.tv ?? 0) !== (user.tokenVersion ?? 0))
+    throw new ApiError(401, "Session expirée, veuillez vous reconnecter");
+  res.json({ token: signToken(user) });
 });
 
 // GET /auth/me — req.user already populated by protect middleware, no extra DB query needed

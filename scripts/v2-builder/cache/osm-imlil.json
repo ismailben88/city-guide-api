@@ -1,0 +1,5934 @@
+{
+  "city": "imlil",
+  "fetched_at": "2026-06-08T11:50:05.994Z",
+  "raw_count": 2081,
+  "places": [
+    {
+      "osm_id": "node/87828608",
+      "name": "Toubkal",
+      "name_fr": "Jbel Toubkal",
+      "name_ar": "جبل توبقال",
+      "slug": "toubkal-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914944,
+          31.059832
+        ]
+      },
+      "osm_tags": {
+        "alt_name:en": "Tubkal",
+        "ele": "4167",
+        "int_name": "Jabal Tūbqāl",
+        "isolation": "2078",
+        "name": "Jbel Toubkal جبل توبقال",
+        "name:ar": "جبل توبقال",
+        "name:ber": "ⵜⵓⴱⵇⴰⵍ",
+        "name:cs": "Džabal Tubkal",
+        "name:de": "Jbel Toubkal",
+        "name:en": "Toubkal",
+        "name:fr": "Jbel Toubkal",
+        "name:ru": "Тубкаль",
+        "name:uk": "Тубкаль",
+        "natural": "peak",
+        "note": "Altitud elipsoidal tomada en 2022 fue 4219. La altura del geoide EGM2008 es de 62 m, luego, teóricamente, la altura ortométrica debería ser 4157 m y no la que indican todos los mapas, que es la altitud otrométrica que dan todos los GNSS que no tienen en c",
+        "prominence": "3747",
+        "ref:refuges.info": "4192",
+        "source:prominence": "4167-420 (El Meniaa)",
+        "wikidata": "Q503433",
+        "wikimedia_commons": "Category:Jbel Toubkal",
+        "wikipedia": "fr:Djebel Toubkal"
+      },
+      "wikidata": "Q503433",
+      "wikipedia": "fr:Djebel Toubkal",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/87828619",
+      "name": "Kasbah Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-toubkal-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919032,
+          31.132571
+        ]
+      },
+      "osm_tags": {
+        "created_by": "JOSM",
+        "name": "Kasbah Toubkal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/87828621",
+      "name": "Dar Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-imlil-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918643,
+          31.135629
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Imlil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/954902552",
+      "name": "Auberge Lepiney",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-lepiney-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.925785,
+          31.134354
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Lepiney",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1074922700",
+      "name": "Timesguida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "timesguida-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.947127,
+          31.036491
+        ]
+      },
+      "osm_tags": {
+        "ele": "4088",
+        "name": "Timesguida",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226305791",
+      "name": "Aguerd-n-Ourtene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aguerd-n-ourtene-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.770261,
+          31.192936
+        ]
+      },
+      "osm_tags": {
+        "ele": "1960.0",
+        "name": "Aguerd-n-Ourtene",
+        "operator": "Gite d'Etape",
+        "tourism": "hostel",
+        "wpt_symbol": "Residence"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1226364853",
+      "name": "Gites d'Etape",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gites-d-etape-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.7685,
+          31.194183
+        ]
+      },
+      "osm_tags": {
+        "ele": "1968.0",
+        "name": "Gites d'Etape",
+        "tourism": "hostel",
+        "wpt_symbol": "Residence"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724011526",
+      "name": "Azzaden Trekking Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azzaden-trekking-lodge-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "BP31 Asni, Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.975657,
+          31.135295
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "addr:street": "BP31 Asni",
+        "name": "Azzaden Trekking Lodge",
+        "rooms": "4",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724011545",
+      "name": "Famille Ait Hammou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "famille-ait-hammou-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Ait Souka",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914871,
+          31.138002
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ait Souka",
+        "name": "Famille Ait Hammou",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1724012303",
+      "name": "Guest house Imsker",
+      "name_fr": "Gîte Imsker",
+      "name_ar": "مأوى إمسكر",
+      "slug": "guest-house-imsker-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.938512,
+          31.205501
+        ]
+      },
+      "osm_tags": {
+        "ele": "1440",
+        "name": "Gîte Imsker مأوى إمسكر",
+        "name:ar": "مأوى إمسكر",
+        "name:en": "Guest house Imsker",
+        "name:fr": "Gîte Imsker",
+        "opening_hours": "24/7",
+        "operator": "El housseine",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/1833948106",
+      "name": "Hotel Au Sanglier Qui Fume",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-au-sanglier-qui-fume-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.074351,
+          31.177008
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Au Sanglier Qui Fume",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834362234",
+      "name": "souk asni ⵙⵙⵓⵇ ⵏ ⴰⵙⵏⵉ",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-asni-imlil",
+      "category": "souks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978425,
+          31.249252
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "souk asni ⵙⵙⵓⵇ ⵏ ⴰⵙⵏⵉ",
+        "opening_hours": "Sa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Sa"
+    },
+    {
+      "osm_id": "node/1947789150",
+      "name": "Kasbah Angour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-angour-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942901,
+          31.325517
+        ]
+      },
+      "osm_tags": {
+        "name": "Kasbah Angour",
+        "phone": "+212 5244 8 41 21",
+        "tourism": "hotel",
+        "website": "https://kasbahangour.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://kasbahangour.com/",
+      "phone": "+212 5244 8 41 21",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2098987210",
+      "name": "Taourirt-n-Ikis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taourirt-n-ikis-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.779723,
+          31.219486
+        ]
+      },
+      "osm_tags": {
+        "ele": "3195",
+        "name": "Taourirt-n-Ikis",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2098987212",
+      "name": "Tirsafene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tirsafene-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.814368,
+          31.218968
+        ]
+      },
+      "osm_tags": {
+        "ele": "3066",
+        "name": "Tirsafene",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2138956992",
+      "name": "Restaurant Dar Assarou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-dar-assarou-imlil",
+      "category": "moroccan-cuisine",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916694,
+          31.135639
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Restaurant Dar Assarou"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2138957020",
+      "name": "Dar Assarou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-assarou-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916765,
+          31.135655
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "designation": "Guest House 1st Category",
+        "name": "Dar Assarou",
+        "smoking": "outside",
+        "source": "Tourism Office",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2186773999",
+      "name": "Akioud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "akioud-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.949666,
+          31.046547
+        ]
+      },
+      "osm_tags": {
+        "ele": "4035",
+        "name": "Akioud",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370493475",
+      "name": "Aourirt n'Ouassif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aourirt-n-ouassif-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903922,
+          31.155168
+        ]
+      },
+      "osm_tags": {
+        "ele": "2726",
+        "name": "Aourirt n'Ouassif",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763775",
+      "name": "Iferouane",
+      "name_fr": null,
+      "name_ar": "ادرار ن درن افروان",
+      "slug": "iferouane-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.763033,
+          31.082814
+        ]
+      },
+      "osm_tags": {
+        "ele": "4001",
+        "name": "Iferouane",
+        "name:ar": "ادرار ن درن افروان",
+        "natural": "peak",
+        "note": "La altitud original que tenía este nodo es de 3990 m. En algunos otros mapas siempre ha tenido 4001. La altitud elipsoidal tomada con varios GNSS, uno doble frecuencia, fue constante de 4063 o 4064 m. La altura del geoide en estas coordenadas: 61 m...",
+        "source": "survey;gps"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763782",
+      "name": "Bou Iguenouane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bou-iguenouane-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.812332,
+          31.135747
+        ]
+      },
+      "osm_tags": {
+        "ele": "3882",
+        "name": "Bou Iguenouane",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763786",
+      "name": "Aksoual",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aksoual-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.85838,
+          31.118591
+        ]
+      },
+      "osm_tags": {
+        "ele": "3912",
+        "name": "Aksoual",
+        "natural": "peak",
+        "wikidata": "Q27529317"
+      },
+      "wikidata": "Q27529317",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2370763800",
+      "name": "Jbel Angmer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jbel-angmer-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.793277,
+          31.151541
+        ]
+      },
+      "osm_tags": {
+        "ele": "3860",
+        "name": "Jbel Angmer",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2390689414",
+      "name": "Borj-n-Oufraou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "borj-n-oufraou-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.676615,
+          31.156705
+        ]
+      },
+      "osm_tags": {
+        "ele": "3850",
+        "name": "Borj-n-Oufraou",
+        "natural": "peak",
+        "source": "OSM - OpenCycleMap;local knowledge"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411970132",
+      "name": "Sti Fatma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sti-fatma-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.67554,
+          31.22532
+        ]
+      },
+      "osm_tags": {
+        "name": "Sti Fatma",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411975842",
+      "name": "Lepiney",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lepiney-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.928662,
+          31.134266
+        ]
+      },
+      "osm_tags": {
+        "name": "Lepiney",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411984516",
+      "name": "Au Sanglier qui Fume",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "au-sanglier-qui-fume-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.074402,
+          31.177082
+        ]
+      },
+      "osm_tags": {
+        "name": "Au Sanglier qui Fume",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411988265",
+      "name": "La Bergerie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-bergerie-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.057793,
+          31.193332
+        ]
+      },
+      "osm_tags": {
+        "name": "La Bergerie",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2444303853",
+      "name": "Douar Samra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "douar-samra-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903982,
+          31.141686
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "email": "bonjour@douar-samra.net",
+        "name": "Douar Samra",
+        "tourism": "hotel",
+        "website": "https://www.douar-samra.net/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.douar-samra.net/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2637082461",
+      "name": "Aroumd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aroumd-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91703,
+          31.124832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Aroumd",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3050777570",
+      "name": "Auberge Mazik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-mazik-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.92974,
+          31.135231
+        ]
+      },
+      "osm_tags": {
+        "email": "azdourviajes@hotmail.fr",
+        "internet_access": "no",
+        "name": "Auberge Mazik",
+        "phone": "+212 661 240 811",
+        "tourism": "hostel",
+        "website": "http://www.azdourlahcen.com/",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.azdourlahcen.com/",
+      "phone": "+212 661 240 811",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3097315570",
+      "name": "Café Pied de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-pied-de-toubkal-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917434,
+          31.086424
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Pied de Toubkal",
+        "name:hu": "Kávézó a Toubkal lábánál",
+        "phone": "+212 6 59 97 38 81"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 59 97 38 81",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3101189987",
+      "name": "Gite Atlas Mazik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-atlas-mazik-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926926,
+          31.136476
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Atlas Mazik",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3203582762",
+      "name": "Kasbah Tamadot",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tamadot-imlil",
+      "category": "luxury-hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.971105,
+          31.222119
+        ]
+      },
+      "osm_tags": {
+        "brand": "Virgin Limited Edition",
+        "name": "Kasbah Tamadot",
+        "phone": "+212 5 24 36 82 00",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.virginlimitededition.com/en/kasbah-tamadot"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.virginlimitededition.com/en/kasbah-tamadot",
+      "phone": "+212 5 24 36 82 00",
+      "stars": 5,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277193",
+      "name": "Accueil - Info Point",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "accueil-info-point-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.941992,
+          31.305741
+        ]
+      },
+      "osm_tags": {
+        "name": "Accueil - Info Point",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277194",
+      "name": "Entrée Terres d'Amanar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "entree-terres-d-amanar-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943095,
+          31.313882
+        ]
+      },
+      "osm_tags": {
+        "name": "Entrée Terres d'Amanar",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277195",
+      "name": "Espace Acropark",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-acropark-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.944088,
+          31.303648
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Acropark",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277196",
+      "name": "Espace Hébergement",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-hebergement-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943413,
+          31.307625
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Hébergement",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277198",
+      "name": "Espace Park Aerien",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-park-aerien-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942146,
+          31.303859
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Park Aerien",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277199",
+      "name": "Espace Piscine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-piscine-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.941476,
+          31.308552
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Piscine",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277200",
+      "name": "Espace Quad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-quad-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942521,
+          31.305919
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Quad",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277201",
+      "name": "Espace Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-restaurant-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94124,
+          31.308892
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Restaurant",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277202",
+      "name": "Espace Tir à l'Arc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-tir-a-l-arc-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94171,
+          31.306595
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace Tir à l'Arc",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277203",
+      "name": "Espace VTT - MTB",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-vtt-mtb-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.942447,
+          31.305707
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace VTT - MTB",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277204",
+      "name": "Espace chevaux",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espace-chevaux-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.943511,
+          31.313435
+        ]
+      },
+      "osm_tags": {
+        "name": "Espace chevaux",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3492277205",
+      "name": "Terres D'Amanar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "terres-d-amanar-imlil",
+      "category": "theme-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.94151,
+          31.309994
+        ]
+      },
+      "osm_tags": {
+        "name": "Terres D'Amanar",
+        "place": "locality",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3731023754",
+      "name": "Mountain Guide",
+      "name_fr": "Guide De Montagne",
+      "name_ar": null,
+      "slug": "mountain-guide-imlil",
+      "category": "food-markets",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920613,
+          31.136554
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:pobox": "BP 5",
+        "addr:postcode": "42152",
+        "name": "Guide De Montagne",
+        "name:en": "Mountain Guide",
+        "name:fr": "Guide De Montagne",
+        "operator": "LAHCEN ASQUARRAY",
+        "shop": "supermarket",
+        "tourism": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3749647424",
+      "name": "Riad Atlas Prestige",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-prestige-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920174,
+          31.133626
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Atlas Prestige",
+        "tourism": "hotel",
+        "website": "https://www.atlas-prestige.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.atlas-prestige.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3903735214",
+      "name": "2200 m",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "2200-m-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918245,
+          31.105442
+        ]
+      },
+      "osm_tags": {
+        "ele": "2200",
+        "name": "2200 m",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3914807936",
+      "name": "Toubkal Western Peak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-western-peak-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.924561,
+          31.055885
+        ]
+      },
+      "osm_tags": {
+        "ele": "4018",
+        "name": "Toubkal Sommet ouest",
+        "name:en": "Toubkal Western Peak",
+        "name:es": "Toubkal oeste",
+        "name:hu": "Toubkal nyugati csúcs",
+        "natural": "peak",
+        "note": "Altitud elipsoidal menos altura geoide en ese punto según EGM2008",
+        "source": "gps"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3917617579",
+      "name": "Café Ouissemeln",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ouissemeln-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.912969,
+          31.097576
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Café Ouissemeln",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 50 54 76 74"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 50 54 76 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4037173443",
+      "name": "Riad Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-toubkal-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917902,
+          31.135401
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "email": "riadatlastoubkal@gmail.com",
+        "name": "Riad Atlas Toubkal",
+        "tourism": "hotel",
+        "website": "https://riad-atlas-toubkal.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://riad-atlas-toubkal.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111769943",
+      "name": "Le Mouflon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-mouflon-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.081922,
+          31.174984
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Mouflon",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4111769944",
+      "name": "Auberge Chez Momo II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-chez-momo-ii-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.077488,
+          31.173701
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Chez Momo II",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/ma/auberge-chez-momo.en-gb.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/auberge-chez-momo.en-gb.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4139695094",
+      "name": "Chez Juju",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-juju-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.861802,
+          31.203906
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Juju",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4153599491",
+      "name": "Bango's store متجر بنعو",
+      "name_fr": "Bango's store",
+      "name_ar": "متجر بنعو",
+      "slug": "bango-s-store-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.861662,
+          31.017287
+        ]
+      },
+      "osm_tags": {
+        "name": "Bango's store متجر بنعو",
+        "name:ar": "متجر بنعو",
+        "name:fr": "Bango's store",
+        "phone": "+212 6 15 18 44 74",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 15 18 44 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4163939491",
+      "name": "Riad Dar Oussagou (Ouassaggou)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-oussagou-ouassaggou-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.9102,
+          31.137989
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "email": "contact@guesthouseouassaggou.com",
+        "guest_house": "pension",
+        "internet_access": "wlan",
+        "name": "Riad Dar Oussagou (Ouassaggou)",
+        "phone": "+212 667 491352",
+        "tourism": "guest_house",
+        "website": "https://www.guesthouseouassaggou.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.guesthouseouassaggou.com",
+      "phone": "+212 667 491352",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4314487189",
+      "name": "Café Chamharouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-chamharouch-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.912833,
+          31.098675
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Chamharouch",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4314487289",
+      "name": "Hotel Solei Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-solei-imlil-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920303,
+          31.136891
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Solei Imlil",
+        "ref:refuges.info": "4190",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4476883189",
+      "name": "fb cafe-aljazira asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fb-cafe-aljazira-asni-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "203",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.98058,
+          31.248887
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "203",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;tea;moroccan",
+        "fixme": "incorrect position",
+        "internet_access": "wlan",
+        "name": "cafe restaurant Al Jazeera Asni",
+        "name:en": "fb cafe-aljazira asni",
+        "phone": "+212 5 24 48 56 71"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 48 56 71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4558864790",
+      "name": "Dar Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-atlas-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Ait Souka Imlil, Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911364,
+          31.139457
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:postcode": "42152",
+        "addr:street": "Ait Souka Imlil",
+        "email": "daradouss@gmail.com",
+        "guest_house": "albergue",
+        "internet_access": "wlan",
+        "name": "Dar Adouss",
+        "name:en": "Dar Atlas",
+        "name:nl": "Dar Adous",
+        "opening_hours": "24/7",
+        "operator": "Lahcen ALAHIANE",
+        "phone": "+212 6 66 57 26 38",
+        "rooms": "8",
+        "tourism": "guest_house",
+        "website": "https://redcitygetaways.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://redcitygetaways.com",
+      "phone": "+212 6 66 57 26 38",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4587210839",
+      "name": "Café Tizi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-tizi-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.888813,
+          31.148321
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan;tea",
+        "ele": "2302",
+        "name": "Café Tizi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4587214574",
+      "name": "Camping Tachdirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-tachdirt-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.843704,
+          31.148699
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "contact:instagram": "camping_tachdirt",
+        "email": "simo@gmail.com",
+        "name:en": "Camping Tachdirt",
+        "phone": "+212648668631",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212648668631",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4688818289",
+      "name": "Atri",
+      "name_fr": "Atri",
+      "name_ar": "اتري",
+      "slug": "atri-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.04843,
+          31.197458
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "african;arab;barbecue;breakfast;kebab;regional;tea;turkish",
+        "diet:vegetarian": "yes",
+        "name": "Atri اتري",
+        "name:ar": "اتري",
+        "name:en": "Atri",
+        "name:fr": "Atri",
+        "opening_hours": "Mo-Su 08:00-23:30",
+        "phone": "+212 696 202257"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 696 202257",
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-23:30"
+    },
+    {
+      "osm_id": "node/4721899978",
+      "name": "DAR IMPERIAL",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-imperial-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "AREMD, IMLIL, Aroumd",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.915574,
+          31.126428
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Aroumd",
+        "addr:housenumber": "AREMD",
+        "addr:postcode": "42152",
+        "addr:street": "IMLIL",
+        "ele": "2000",
+        "internet_access": "yes",
+        "internet_access:ssid": "Internet adsl",
+        "name": "DAR IMPERIAL",
+        "operator": "ALOJAMIENTO RURAL",
+        "rooms": "9",
+        "smoking": "separated",
+        "tourism": "guest_house",
+        "website": "https://www.darimperial.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.darimperial.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4743071008",
+      "name": "Dar Adrar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-adrar-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920283,
+          31.133413
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Adrar",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/ma/dar-adrar.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/dar-adrar.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747221420",
+      "name": "Ras Ouanoukrim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ras-ouanoukrim-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.9458,
+          31.041536
+        ]
+      },
+      "osm_tags": {
+        "ele": "4083",
+        "name": "Ras Ouanoukrim",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223021",
+      "name": "Biiguinoussenne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "biiguinoussenne-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.950288,
+          31.065771
+        ]
+      },
+      "osm_tags": {
+        "ele": "3976",
+        "name": "Biiguinoussenne",
+        "natural": "peak",
+        "note": "4002m is not correct as it’s the ellipsoidal altitude, 3976m is the orthometric elevation (means above the sea) and was measured through a survey, please don’t change it back, thanks"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223022",
+      "name": "Afella",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afella-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952278,
+          31.052488
+        ]
+      },
+      "osm_tags": {
+        "ele": "4043",
+        "name": "Afella",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223023",
+      "name": "Talat n'Ifri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "talat-n-ifri-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.959829,
+          31.058472
+        ]
+      },
+      "osm_tags": {
+        "ele": "3980",
+        "name": "Talat n'Ifri",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223036",
+      "name": "Igger n'Abdeli",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "igger-n-abdeli-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.930435,
+          31.035379
+        ]
+      },
+      "osm_tags": {
+        "ele": "3815",
+        "name": "Igger n'Abdeli",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4747223037",
+      "name": "Bou Ouzzal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bou-ouzzal-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.934403,
+          31.043225
+        ]
+      },
+      "osm_tags": {
+        "ele": "3860",
+        "name": "Bou Ouzzal",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4763620661",
+      "name": "Tagadirt Bour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tagadirt-bour-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.097195,
+          31.152145
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tagadirt Bour",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4915423820",
+      "name": "Boutique boisson محل المشروبات",
+      "name_fr": "Boutique boisson",
+      "name_ar": "محل المشروبات",
+      "slug": "boutique-boisson-imlil",
+      "category": "bars-lounges",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.888521,
+          31.031864
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Boutique boisson محل المشروبات",
+        "name:ar": "محل المشروبات",
+        "name:fr": "Boutique boisson"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4917515828",
+      "name": "Epave moteur avion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "epave-moteur-avion-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917311,
+          31.06849
+        ]
+      },
+      "osm_tags": {
+        "name": "Epave moteur avion",
+        "natural": "peak",
+        "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4917532223",
+      "name": "Tombe des passagers de l'avion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tombe-des-passagers-de-l-avion-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.929761,
+          31.068194
+        ]
+      },
+      "osm_tags": {
+        "historic": "tomb",
+        "name": "Tombe des passagers de l'avion",
+        "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.baaa-acro.com/crash/crash-lockheed-l-749a-constellation-mt-tibhirine-8-killed",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5129080621",
+      "name": "Youth hostel Asni",
+      "name_fr": null,
+      "name_ar": "مأوى الشباب أسني Youth hostel Asni",
+      "slug": "youth-hostel-asni-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.97896,
+          31.248089
+        ]
+      },
+      "osm_tags": {
+        "name": "مأوى الشباب أسني Youth hostel Asni",
+        "name:ar": "مأوى الشباب أسني Youth hostel Asni",
+        "name:en": "Youth hostel Asni",
+        "opening_hours": "24/7",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5129117921",
+      "name": "Camping",
+      "name_fr": null,
+      "name_ar": "مكان للتخييم",
+      "slug": "camping-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.930932,
+          31.202361
+        ]
+      },
+      "osm_tags": {
+        "name": "مكان للتخييم",
+        "name:ar": "مكان للتخييم",
+        "name:en": "Camping",
+        "opening_hours": "24/7",
+        "operator": "Edda Houssa",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/5292506421",
+      "name": "atlas imoula",
+      "name_fr": null,
+      "name_ar": "دار الضيافة أطلس ايمولا",
+      "slug": "atlas-imoula-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.913531,
+          31.146394
+        ]
+      },
+      "osm_tags": {
+        "name": "دار الضيافة أطلس ايمولا",
+        "name:ar": "دار الضيافة أطلس ايمولا",
+        "name:en": "atlas imoula",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5318901721",
+      "name": "Café Restaurant Nzaha",
+      "name_fr": "Café Restaurant Nzaha",
+      "name_ar": null,
+      "slug": "cafe-restaurant-nzaha-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "Tahannaout تحناوت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946846,
+          31.362232
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahannaout تحناوت",
+        "amenity": "restaurant",
+        "cuisine": "regional;pizza",
+        "name": "Café Restaurant Nzaha",
+        "name:fr": "Café Restaurant Nzaha",
+        "outdoor_seating": "yes",
+        "phone": "+212-5 24 48 51 70/71"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212-5 24 48 51 70/71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5456914659",
+      "name": "Ksar Sharma",
+      "name_fr": "Ksar Sharma",
+      "name_ar": null,
+      "slug": "ksar-sharma-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.048977,
+          31.198901
+        ]
+      },
+      "osm_tags": {
+        "name": "Ksar Sharma",
+        "name:fr": "Ksar Sharma",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5529275126",
+      "name": "Tizi n'Ou Addi pass (2934 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-ou-addi-pass-2934-m-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.85176,
+          31.171862
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Ou Addi pass (2934 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5530112322",
+      "name": "Tizi n'Tamatert pass (2358 m)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-n-tamatert-pass-2358-m-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.883948,
+          31.146542
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tizi n'Tamatert pass (2358 m)",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5586569222",
+      "name": "Chalet Mostapha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chalet-mostapha-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.864848,
+          31.207118
+        ]
+      },
+      "osm_tags": {
+        "name": "Chalet Mostapha",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5884263588",
+      "name": "Free Camping",
+      "name_fr": "Camping gratuit",
+      "name_ar": null,
+      "slug": "free-camping-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.860685,
+          31.060926
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping gratuit",
+        "name:en": "Free Camping",
+        "name:fr": "Camping gratuit",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5986231486",
+      "name": "Roches Aremd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "roches-aremd-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916088,
+          31.12649
+        ]
+      },
+      "osm_tags": {
+        "name": "Roches Aremd",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6022944045",
+      "name": "Tamatert Guesthouse",
+      "name_fr": "Gîte Tamatert",
+      "name_ar": null,
+      "slug": "tamatert-guesthouse-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.906938,
+          31.141588
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "check_date": "2026-05-14",
+        "email": "tamatert32@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Gîte Tamatert",
+        "name:en": "Tamatert Guesthouse",
+        "name:fr": "Gîte Tamatert",
+        "phone": "+212 662091240",
+        "tourism": "guest_house",
+        "website": "https://www.atlasguest.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.atlasguest.com/",
+      "phone": "+212 662091240",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068851545",
+      "name": "Dar Ait Souka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-ait-souka-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.910054,
+          31.139822
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Ait Souka",
+        "phone": "+212 6 68 04 53 10",
+        "tourism": "guest_house",
+        "website": "https://www.dar-aitsouka.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dar-aitsouka.com/",
+      "phone": "+212 6 68 04 53 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068870902",
+      "name": "Musque Ikkiss Amssakrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musque-ikkiss-amssakrou-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.889481,
+          31.166045
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Musque Ikkiss Amssakrou",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068899021",
+      "name": "Café entre les vallées",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-entre-les-vallees-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.860107,
+          31.151081
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café entre les vallées",
+        "phone": "+212 6 10 48 68 30"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 10 48 68 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6092869386",
+      "name": "Waterfall",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "waterfall-imlil",
+      "category": "sunset-spots",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914637,
+          31.129771
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Waterfall",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6103701099",
+      "name": "Ouirgane Eco-Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouirgane-eco-lodge-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.045181,
+          31.186224
+        ]
+      },
+      "osm_tags": {
+        "name": "Ouirgane Eco-Lodge",
+        "tourism": "hotel",
+        "website": "https://www.ouirgane-ecolodge.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ouirgane-ecolodge.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6149624785",
+      "name": "Gite Tamsoulte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-tamsoulte-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927984,
+          31.135662
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Tamsoulte",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356885",
+      "name": "Décollage Parapente",
+      "name_fr": "Décollage Parapente",
+      "name_ar": null,
+      "slug": "decollage-parapente-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.065482,
+          31.297118
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Décollage Parapente",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356886",
+      "name": "Décollage Parapente Aznag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "decollage-parapente-aznag-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.072176,
+          31.294675
+        ]
+      },
+      "osm_tags": {
+        "name": "Décollage Parapente Aznag",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356887",
+      "name": "Chez Latifa",
+      "name_fr": "Chez Latifa",
+      "name_ar": null,
+      "slug": "chez-latifa-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.093627,
+          31.300679
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:fr": "Chez Latifa",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6341356985",
+      "name": "Aznag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aznag-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.072943,
+          31.294261
+        ]
+      },
+      "osm_tags": {
+        "name": "Aznag",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6365496466",
+      "name": "Toubkal Ecolodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-ecolodge-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.906118,
+          31.142184
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2026-05-14",
+        "contact:facebook": "riadToubkalecolodge",
+        "email": "rachidtour@gmail.com",
+        "internet_access": "wlan",
+        "name": "Toubkal Ecolodge",
+        "tourism": "guest_house",
+        "website": "https://www.toubkalecolodge.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.toubkalecolodge.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6391961685",
+      "name": "Dar Atlas Charme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-atlas-charme-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil 40000 morocco",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903353,
+          31.142005
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Imlil 40000 morocco",
+        "check_date": "2026-05-14",
+        "name": "Dar Atlas Charme",
+        "phone": "+212657794841",
+        "rooms": "3",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212657794841",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6412099033",
+      "name": "Mosquée IMAM MALEK",
+      "name_fr": null,
+      "name_ar": "مسجد الإمام مالك",
+      "slug": "mosquee-imam-malek-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.93549,
+          31.360288
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée IMAM MALEK",
+        "name:ar": "مسجد الإمام مالك",
+        "name:ary": "مسجد الإمام مالك",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6430084985",
+      "name": "Gite Ogog Tachedirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-ogog-tachedirt-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.841384,
+          31.155258
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Ogog Tachedirt",
+        "phone": "+212 6 96 02 90 13",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 02 90 13",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6761188451",
+      "name": "Imouzzer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imouzzer-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91248,
+          31.066181
+        ]
+      },
+      "osm_tags": {
+        "ele": "3966",
+        "name": "Imouzzer",
+        "natural": "peak",
+        "note": "La altitud que estaba puesta anteriormente, superior a 4000 m no era la ortométrica, sino la elipsoidal claramente"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6761188522",
+      "name": "Afella norte",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afella-norte-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.951283,
+          31.055867
+        ]
+      },
+      "osm_tags": {
+        "ele": "4025",
+        "name": "Afella norte",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6966667426",
+      "name": "Aiguille d'Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aiguille-d-ifni-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91278,
+          31.059241
+        ]
+      },
+      "osm_tags": {
+        "ele": "4080",
+        "name": "Aiguille d'Ifni",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980170278",
+      "name": "Angour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "angour-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.825498,
+          31.174776
+        ]
+      },
+      "osm_tags": {
+        "ele": "3616",
+        "name": "Angour",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980175141",
+      "name": "Mount Oukaimeden",
+      "name_fr": null,
+      "name_ar": "جبل أوكايمدن",
+      "slug": "mount-oukaimeden-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.862142,
+          31.182178
+        ]
+      },
+      "osm_tags": {
+        "ele": "3255",
+        "name": "Adrar n' Oukaïmeden",
+        "name:ar": "جبل أوكايمدن",
+        "name:en": "Mount Oukaimeden",
+        "name:zgh": "ⴰⴷⵔⴰⵔ ⵏ ⵓⴽⴰⵢⴻⵎⴷⴰⵏ",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6980177524",
+      "name": "Adrar Hadj",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adrar-hadj-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.945479,
+          31.107947
+        ]
+      },
+      "osm_tags": {
+        "ele": "3140",
+        "name": "Adrar Hadj",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6987671385",
+      "name": "Atlas Chateau (true location)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-chateau-true-location-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911366,
+          31.140701
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Atlas Chateau (true location)",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7086622285",
+      "name": "added values view",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "added-values-view-imlil",
+      "category": "sunset-spots",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.061473,
+          31.265158
+        ]
+      },
+      "osm_tags": {
+        "name:en": "added values view",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7093353003",
+      "name": "ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵓⵎⵙⵍⴰⵏ مسجد أمسلان",
+      "name_fr": null,
+      "name_ar": "مسجد أمسلان",
+      "slug": "imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.068272,
+          31.063835
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "مسجد إمسلان",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "language:ar": "main",
+        "name": "ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵓⵎⵙⵍⴰⵏ مسجد أمسلان",
+        "name:ar": "مسجد أمسلان",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7137075485",
+      "name": "Dar Tassa (Correct Location)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tassa-correct-location-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.027643,
+          31.163896
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Tassa (Correct Location)",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7705143986",
+      "name": "Cafe Restaurant Tazrbit",
+      "name_fr": null,
+      "name_ar": "مطعم مقهى تزربت",
+      "slug": "cafe-restaurant-tazrbit-imlil",
+      "category": "moroccan-cuisine",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.083464,
+          31.175042
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "email": "caferestaurant.tazrbit@gmail.com",
+        "name": "مطعم مقهى تزربت",
+        "name:ar": "مطعم مقهى تزربت",
+        "name:en": "Cafe Restaurant Tazrbit",
+        "phone": "+212 6 26 82 48 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 26 82 48 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8255011585",
+      "name": "Djebel n'Ouhattar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "djebel-n-ouhattar-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.818811,
+          31.199046
+        ]
+      },
+      "osm_tags": {
+        "ele": "3246",
+        "name": "Djebel n'Ouhattar",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8390288218",
+      "name": "Cafe Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-atlas-toubkal-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919061,
+          31.13612
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "42152",
+        "amenity": "cafe",
+        "name:en": "Cafe Atlas Toubkal",
+        "opening_hours": "Mo-Su 09:00-18:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-18:00"
+    },
+    {
+      "osm_id": "node/8392255417",
+      "name": "Bucle Imlil Aremd Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bucle-imlil-aremd-imlil-imlil",
+      "category": "sunset-spots",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926839,
+          31.134179
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Bucle Imlil Aremd Imlil",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8847012917",
+      "name": "Azib n ouarai 3000",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "azib-n-ouarai-3000-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.803453,
+          31.061973
+        ]
+      },
+      "osm_tags": {
+        "name": "عزيب ن وراي",
+        "name:en": "Azib n ouarai 3000",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8881292776",
+      "name": "Les jardins du Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-jardins-du-toubkal-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.90251,
+          31.14282
+        ]
+      },
+      "osm_tags": {
+        "name": "Les jardins du Toubkal",
+        "phone": "+212 6 61 25 36 00",
+        "tourism": "hotel",
+        "website": "lesjardinsdutoubkal.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "lesjardinsdutoubkal.com",
+      "phone": "+212 6 61 25 36 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8944774505",
+      "name": "Kasbah Aftica",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-aftica-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.04797,
+          31.165964
+        ]
+      },
+      "osm_tags": {
+        "email": "info@kasbahafrica.com",
+        "name": "Kasbah Aftica",
+        "phone": "+212 5 24 35 71 85",
+        "tourism": "hotel",
+        "website": "https://www.kasbahafrica.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.kasbahafrica.com/",
+      "phone": "+212 5 24 35 71 85",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9051318720",
+      "name": "Arjout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arjout-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.669537,
+          31.186578
+        ]
+      },
+      "osm_tags": {
+        "ele": "3741",
+        "name": "Arjout",
+        "natural": "peak",
+        "source": "local knowledge"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9051390978",
+      "name": "Tichki",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tichki-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "Douar Talaoul Path",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.888576,
+          31.088656
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Douar Talaoul Path",
+        "ele": "3753",
+        "name": "Tichki",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9105812309",
+      "name": "Dome d'Ifni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dome-d-ifni-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.90332,
+          31.053675
+        ]
+      },
+      "osm_tags": {
+        "description": "peak",
+        "ele": "3876",
+        "name": "Dome d'Ifni",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9105820554",
+      "name": "Afekhoi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afekhoi-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.903799,
+          31.075201
+        ]
+      },
+      "osm_tags": {
+        "ele": "3755",
+        "name": "Afekhoi",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9169939241",
+      "name": "Saida Berber House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saida-berber-house-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.10978,
+          31.212311
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "yes",
+        "name": "Saida Berber House",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9169950920",
+      "name": "Logement Imouzar (watch out for bedbugs)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "logement-imouzar-watch-out-for-bedbugs-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.782889,
+          31.18252
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "no",
+        "name": "Logement Imouzar (watch out for bedbugs)",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9396411417",
+      "name": "Amenzal Eco gite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amenzal-eco-gite-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.726427,
+          31.170185
+        ]
+      },
+      "osm_tags": {
+        "name": "Amenzal Eco gite",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9775474517",
+      "name": "Dar Amadine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-amadine-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919403,
+          31.131595
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dar Amadine",
+        "tourism": "guest_house",
+        "website": "https://daramadine.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://daramadine.com",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9831648060",
+      "name": "Chez Aicha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-aicha-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.933819,
+          31.362365
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Aicha",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9968717986",
+      "name": "Tazgart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tazgart-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.083911,
+          30.976946
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Tazgart",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003051405",
+      "name": "Mount Toubkal Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mount-toubkal-lodge-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918078,
+          31.124842
+        ]
+      },
+      "osm_tags": {
+        "name": "Mount Toubkal Lodge",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10003066689",
+      "name": "Riyad Dar Amsouzart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riyad-dar-amsouzart-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.835495,
+          31.016547
+        ]
+      },
+      "osm_tags": {
+        "email": "riyad.dar.amsouzart@gmail.com",
+        "name": "Riyad Dar Amsouzart",
+        "phone": "+212 673 16 92 29",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 673 16 92 29",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10154783917",
+      "name": "Riad Malak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-malak-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.078079,
+          31.174427
+        ]
+      },
+      "osm_tags": {
+        "email": "contact@riadmalak.com",
+        "name": "Riad Malak",
+        "phone": "+212 674 679 435",
+        "tourism": "guest_house",
+        "website": "https://www.riadmalak.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadmalak.com",
+      "phone": "+212 674 679 435",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10260888484",
+      "name": "Imi n'Ouasif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imi-n-ouasif-imlil",
+      "category": "desert-camps",
+      "city": "imlil",
+      "address": "Douar Talaoul Path",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918203,
+          31.042471
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Douar Talaoul Path",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "name": "Imi n'Ouasif",
+        "note": "no buildings present!",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10586772027",
+      "name": "Amazigh Familly Riad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amazigh-familly-riad-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926486,
+          31.137787
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Amazigh Familly Riad",
+        "note": "Name modified (Family -> Familly) as it is locally indicated",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767135",
+      "name": "Café grand atlas asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-grand-atlas-asni-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.981634,
+          31.247519
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café grand atlas asni"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767136",
+      "name": "Boulangerie Pâtisserie Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-patisserie-asni-imlil",
+      "category": "bakeries",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.979729,
+          31.249429
+        ]
+      },
+      "osm_tags": {
+        "name": "Boulangerie Pâtisserie Asni",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767137",
+      "name": "Ajiaire tagines",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ajiaire-tagines-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978399,
+          31.250297
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Ajiaire tagines"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767138",
+      "name": "CAFE RESTAURANT AWRIK",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-awrik-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978332,
+          31.250371
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "CAFE RESTAURANT AWRIK"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767145",
+      "name": "Toubkal Pizzeria",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "toubkal-pizzeria-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978263,
+          31.25088
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Toubkal Pizzeria"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10778767147",
+      "name": "Dar Al Oumouma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-oumouma-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978148,
+          31.251133
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Al Oumouma",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10837257105",
+      "name": "Kasbah Imoula",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-imoula-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920049,
+          31.135869
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Kasbah Imoula",
+        "opening_hours": "24/7",
+        "phone": "+212 6 61 14 01 05",
+        "website": "http://Kasbahimoula.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://Kasbahimoula.com",
+      "phone": "+212 6 61 14 01 05",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/10871824205",
+      "name": "Atlas Tichka",
+      "name_fr": "Atlas Tichka",
+      "name_ar": null,
+      "slug": "atlas-tichka-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.91736,
+          31.136721
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Atlas Tichka"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10951317132",
+      "name": "Tassgimout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tassgimout-imlil",
+      "category": "mountains",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.954012,
+          31.127108
+        ]
+      },
+      "osm_tags": {
+        "name": "Tassgimout",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10981676733",
+      "name": "Tawont n'Tkhssa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tawont-n-tkhssa-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918076,
+          31.105825
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Tawont n'Tkhssa",
+        "opening_hours:signed": "no",
+        "phone": "+212 673 91 14 45"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 673 91 14 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11048205061",
+      "name": "Gite Village Gliz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-village-gliz-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.884939,
+          31.19524
+        ]
+      },
+      "osm_tags": {
+        "email": "hassan1mahtot@gmail.com",
+        "name": "Gite Village Gliz",
+        "phone": "+212 645190567",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 645190567",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11049103887",
+      "name": "Auberge Matat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-matat-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946158,
+          31.156173
+        ]
+      },
+      "osm_tags": {
+        "email": "aubegematat@gmail.com",
+        "name": "Auberge Matat",
+        "phone": "+212 648 71 99 83",
+        "tourism": "hostel",
+        "website": "https://www.aubergematat.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.aubergematat.com",
+      "phone": "+212 648 71 99 83",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11051496651",
+      "name": "Camping Auberge Atlas Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-auberge-atlas-toubkal-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.921415,
+          31.123287
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Auberge Atlas Toubkal",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11052144549",
+      "name": "Café Restaurant Hadj Belaid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-hadj-belaid-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.861402,
+          31.017315
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Café Restaurant Hadj Belaid",
+        "opening_hours:signed": "no",
+        "phone": "+212 678 39 06 48"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 678 39 06 48",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11052144563",
+      "name": "Auberge Amssouzart Ait sti idar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-amssouzart-ait-sti-idar-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.833617,
+          31.014577
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Amssouzart Ait sti idar",
+        "phone": "+212 678 39 06 51",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 678 39 06 51",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11053502955",
+      "name": "Café Restaurant Bab Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-bab-toubkal-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919367,
+          31.127978
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant Bab Toubkal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11182734275",
+      "name": "Gite Tizi Oussem",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-tizi-oussem-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.973373,
+          31.117608
+        ]
+      },
+      "osm_tags": {
+        "name": "Gite Tizi Oussem",
+        "phone": "+212 673 27 95 58",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 673 27 95 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11191130781",
+      "name": "Alla N'Mzagheni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alla-n-mzagheni-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.121355,
+          31.024857
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Alla N'Mzagheni"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11534026879",
+      "name": "sandwiches served",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sandwiches-served-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.138491,
+          31.071951
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "sandwiches served"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11534050183",
+      "name": "HOT MEAL SERVED",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hot-meal-served-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.091818,
+          31.020652
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "HOT MEAL SERVED"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11534188848",
+      "name": "Hot Meals Served",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hot-meals-served-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.105861,
+          31.021929
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Hot Meals Served"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11534208674",
+      "name": "Tajgalt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tajgalt-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.097342,
+          31.01472
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Tajgalt",
+        "operator": "WCK"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11534226172",
+      "name": "312 sandwiches",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "312-sandwiches-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.097464,
+          31.015256
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "312 sandwiches"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11766584568",
+      "name": "Riad ASLDA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-aslda-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.970568,
+          31.249593
+        ]
+      },
+      "osm_tags": {
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Riad ASLDA",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11922025771",
+      "name": "Shortcut to Tinerhourhine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shortcut-to-tinerhourhine-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.890509,
+          31.164479
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Shortcut to Tinerhourhine",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11922048869",
+      "name": "Shortcut to Ikkiss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shortcut-to-ikkiss-imlil",
+      "category": "historical-sites",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.885023,
+          31.158548
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Shortcut to Ikkiss",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11925376169",
+      "name": "Gite panorama",
+      "name_fr": "Gite panorama",
+      "name_ar": null,
+      "slug": "gite-panorama-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920281,
+          31.132715
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "42152",
+        "internet_access": "wlan",
+        "name:en": "Gite panorama",
+        "name:fr": "Gite panorama",
+        "phone": "+212 6 66 08 07 65",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 66 08 07 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12061377570",
+      "name": "Les Etoiles de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-etoiles-de-toubkal-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920749,
+          31.136901
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;moroccan",
+        "name": "Les Etoiles de Toubkal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12388201873",
+      "name": "Dar Tizi Mizik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tizi-mizik-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927777,
+          31.133837
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Tizi Mizik",
+        "tourism": "guest_house",
+        "website": "https://www.natur-atlas.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.natur-atlas.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12471754401",
+      "name": "Imlil Valley Gargen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "imlil-valley-gargen-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.919968,
+          31.135123
+        ]
+      },
+      "osm_tags": {
+        "email": "aziambrahim60@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Imlil Valley Gargen",
+        "phone": "+212 5 24 48 52 16",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 48 52 16",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12511045861",
+      "name": "Auberge Hassan",
+      "name_fr": "Chez Hassan",
+      "name_ar": null,
+      "slug": "auberge-hassan-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.929406,
+          31.135103
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge Hassan",
+        "name:fr": "Chez Hassan",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12896348201",
+      "name": "Maison d'hôte Khalid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hote-khalid-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Tamatert",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.902528,
+          31.142442
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Tamatert",
+        "internet_access": "wlan",
+        "name": "Maison d'hôte Khalid",
+        "opening_hours": "24/7",
+        "phone": "+212 6 73 10 62 07",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 10 62 07",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/13267115801",
+      "name": "Snack moulid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-moulid-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.920142,
+          31.136193
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "american;chicken;pizza",
+        "name": "Snack moulid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13662744801",
+      "name": "Annexe Les Mouflons",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "annexe-les-mouflons-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "Commune d'Asni, Village d'Imlil, Commune d'Asni, El Houz - Marrakech Village d'Imlil, Marrakech 4215",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.922263,
+          31.135422
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Commune d'Asni, Village d'Imlil, Commune d'Asni, El Houz - Marrakech Village d'Imlil, Marrakech 4215",
+        "amenity": "restaurant",
+        "contact:instagram": "annexelesmouflons",
+        "cuisine": "breakfast;burger;cake;coffee_shop;deli;diner;fine_dining",
+        "name": "Annexe Les Mouflons",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+212 5 24 44 97 67"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 24 44 97 67",
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-21:00"
+    },
+    {
+      "osm_id": "node/13736045124",
+      "name": "Smile House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "smile-house-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917027,
+          31.136578
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "smilehouseimlil@gmail.com",
+        "guest_house": "pension",
+        "mobile": "+212 6 62 05 82 51",
+        "name": "Smile House",
+        "phone": "+212 5 24 48 48 15",
+        "tourism": "guest_house",
+        "website": "https://www.smilehouseimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.smilehouseimlil.com",
+      "phone": "+212 5 24 48 48 15",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045129",
+      "name": "Afla Views",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afla-views-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911073,
+          31.139211
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "air_conditioning": "yes",
+        "contact:instagram": "afla_views",
+        "email": "contactaflaviews@gmail.com",
+        "internet_access": "wlan",
+        "name": "Afla Views",
+        "phone": "+212 6 48 70 82 41",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 48 70 82 41",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045133",
+      "name": "Riad Jnane Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-jnane-imlil-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916634,
+          31.134526
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "riadjnaneimlil@gmail.com",
+        "mobile": "+212 6 68 85 10 01",
+        "name": "Riad Jnane Imlil",
+        "phone": "+212 5 24 48 47 04",
+        "tourism": "guest_house",
+        "website": "https://www.riadjnaneimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadjnaneimlil.com",
+      "phone": "+212 5 24 48 47 04",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045134",
+      "name": "Snack Koukouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-koukouch-imlil",
+      "category": "local-food",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.918605,
+          31.136034
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "fast_food",
+        "cuisine": "Burger, Pizza, Sandwich",
+        "name": "Snack Koukouch"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045136",
+      "name": "Riad otos views",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-otos-views-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911221,
+          31.13952
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "email": "riadotosv@gmail.com",
+        "name": "Riad otos views",
+        "phone": "+212 6 76 55 94 56",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 76 55 94 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045144",
+      "name": "Riad Atlas Imlil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-atlas-imlil-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.914923,
+          31.136403
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "addr:place": "Douar Targa Imoula",
+        "email": "riadatlasimlil@gmail.com",
+        "mobile": "+212 6 67 94 12 60",
+        "name": "Riad Atlas Imlil",
+        "phone": "+212 6 67 27 78 41",
+        "tourism": "guest_house",
+        "website": "https://www.riadatlasimlil.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadatlasimlil.com",
+      "phone": "+212 6 67 27 78 41",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13736045149",
+      "name": "Cafe & Snack Tamazirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-snack-tamazirt-imlil",
+      "category": "cafes",
+      "city": "imlil",
+      "address": "Imlil",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.916163,
+          31.13555
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Imlil",
+        "amenity": "cafe",
+        "name": "Cafe & Snack Tamazirt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13789815166",
+      "name": "targa imoula luxe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "targa-imoula-luxe-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "22003",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917026,
+          31.135859
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "22003",
+        "addr:housename": "targa imoula luxe",
+        "addr:place": "Targa Imoula",
+        "email": "essalmi266@gmail.com",
+        "guest_house": "guest_house",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "targa imoula luxe",
+        "phone": "+212602319606",
+        "rooms": "10",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212602319606",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13846883781",
+      "name": "Cafe Hucein",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-hucein-imlil",
+      "category": "specialty-coffee",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.923793,
+          31.156561
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Hucein",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13847065615",
+      "name": "House of Brothers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "house-of-brothers-imlil",
+      "category": "riads",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.976149,
+          31.134642
+        ]
+      },
+      "osm_tags": {
+        "level": "1",
+        "name": "House of Brothers",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/48924739",
+      "name": "LallaFatma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lallafatma-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.679209,
+          31.223492
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "LallaFatma",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/60232620",
+      "name": "Arumd",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arumd-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.921727,
+          31.123084
+        ]
+      },
+      "osm_tags": {
+        "name": "Arumd",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/250768130",
+      "name": "Arumd-Sidi Chamarouch-CAF Refuge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arumd-sidi-chamarouch-caf-refuge-imlil",
+      "category": "hiking-trekking",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.917326,
+          31.109448
+        ]
+      },
+      "osm_tags": {
+        "highway": "path",
+        "name": "Arumd-Sidi Chamarouch-CAF Refuge",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/282509049",
+      "name": "AppartHotel Nzaha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "apparthotel-nzaha-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "Centre Tahannaout, Tahannaout تحناوت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.946691,
+          31.362676
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahannaout تحناوت",
+        "addr:street": "Centre Tahannaout",
+        "building": "yes",
+        "building:levels": "2",
+        "email": "nzahahotel@gmail.com",
+        "fax": "+ 212-5 24 48 51 73",
+        "internet_access": "yes",
+        "name": "AppartHotel Nzaha",
+        "phone": "+212-5 24 48 51 70/71",
+        "tourism": "hotel",
+        "website": "https://www.hotelnzaha.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotelnzaha.com/",
+      "phone": "+212-5 24 48 51 70/71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/318729555",
+      "name": "Mosquée Ait Souka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ait-souka-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "Ait Souka",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911109,
+          31.140404
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Ait Souka",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Ait Souka",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/360640157",
+      "name": "Masjid Mouley Brahim مسجد مولاي إبراهيم",
+      "name_fr": "Masjid Mouley Brahim",
+      "name_ar": "مسجد مولاي إبراهيم",
+      "slug": "masjid-mouley-brahim-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.968545,
+          31.285987
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "1",
+        "denomination": "sunni",
+        "name": "Masjid Mouley Brahim مسجد مولاي إبراهيم",
+        "name:ar": "مسجد مولاي إبراهيم",
+        "name:fr": "Masjid Mouley Brahim",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/383046157",
+      "name": "Ecomusée du Parc national de Toubkal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecomusee-du-parc-national-de-toubkal-imlil",
+      "category": "history-museums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.970282,
+          31.218953
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Ecomusée du Parc national de Toubkal",
+        "source": "Parc national de Toubkal",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/431827743",
+      "name": "Hotel Vallee Verte Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-vallee-verte-asni-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.984845,
+          31.236019
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Vallee Verte Asni",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/431828029",
+      "name": "Auberge Jeunesse Asni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-jeunesse-asni-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.979106,
+          31.247888
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Auberge Jeunesse Asni",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/484437254",
+      "name": "Asni Souk",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asni-souk-imlil",
+      "category": "souks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.978466,
+          31.24904
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Asni Souk",
+        "opening_hours": "Sa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Sa"
+    },
+    {
+      "osm_id": "way/525228972",
+      "name": "Domaine Malika",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "domaine-malika-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.055654,
+          31.194747
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Domaine Malika",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/585637315",
+      "name": "Domaine de la Roseraie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "domaine-de-la-roseraie-imlil",
+      "category": "luxury-hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.07262,
+          31.17827
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Domaine de la Roseraie",
+        "smoking": "separated",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/586833391",
+      "name": "Tigmi Tachddirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tigmi-tachddirt-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "4000, Douar Tachddirt, Tacheddirt ⵜⴰⵛⴷⴷⵉⵔⵜ",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.845386,
+          31.155798
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tacheddirt ⵜⴰⵛⴷⴷⵉⵔⵜ",
+        "addr:housenumber": "4000",
+        "addr:street": "Douar Tachddirt",
+        "building": "yes",
+        "name": "Tigmi Tachddirt",
+        "phone": "+212 6 67 59 11 47",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 67 59 11 47",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/684407688",
+      "name": "Souk de Tahannaout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-de-tahannaout-imlil",
+      "category": "souks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.926667,
+          31.362102
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Souk de Tahannaout",
+        "opening_hours": "Tu"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Tu"
+    },
+    {
+      "osm_id": "way/700641330",
+      "name": "TIGMI NOMADE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tigmi-nomade-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "Tahanout",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.927644,
+          31.338851
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tahanout",
+        "addr:postcode": "42300",
+        "building": "yes",
+        "email": "momo@tigminomade.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "TIGMI NOMADE",
+        "payment:cash": "yes",
+        "phone": "+212 6 62 10 56 00",
+        "tourism": "hotel",
+        "website": "https://tigminomade.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://tigminomade.com/",
+      "phone": "+212 6 62 10 56 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755665958",
+      "name": "Moulay Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "moulay-brahim-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.063685,
+          31.168737
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Moulay Brahim",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756051565",
+      "name": "Sidi Ali ou Moughit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-ou-moughit-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.952265,
+          31.351725
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali ou Moughit",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275887",
+      "name": "Sidi Salah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-salah-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.955437,
+          31.342095
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Salah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275888",
+      "name": "Sidi Moulay Brahim Ben Ahmed Mghari",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-moulay-brahim-ben-ahmed-mghari-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.964944,
+          31.286142
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Moulay Brahim Ben Ahmed Mghari",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/756275893",
+      "name": "Sidi Ali ou Fars",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ali-ou-fars-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.805902,
+          31.272751
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ali ou Fars",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/833586999",
+      "name": "L'amandier",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-amandier-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.048454,
+          31.18459
+        ]
+      },
+      "osm_tags": {
+        "name": "L'amandier",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/997555990",
+      "name": "Toubkal National Park",
+      "name_fr": "Parc National de Toubkal",
+      "name_ar": "المنتزه الوطني لتوبقال",
+      "slug": "toubkal-national-park-imlil",
+      "category": "national-parks",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.866699,
+          31.087712
+        ]
+      },
+      "osm_tags": {
+        "alt_name:ar": "منتزه توبقال الوطني;متنزه توبقال الوطني",
+        "boundary": "national_park",
+        "communication:amateur_radio:pota": "MA-0010",
+        "leisure": "nature_reserve",
+        "name": "Parc National de Toubkal المنتزه الوطني لتوبقال",
+        "name:ar": "المنتزه الوطني لتوبقال",
+        "name:ber": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵜⵓⴳⴽⴰⵍ",
+        "name:en": "Toubkal National Park",
+        "name:fr": "Parc National de Toubkal",
+        "protect_class": "2",
+        "wikipedia": "ar:متنزه توبقال الوطني",
+        "wikipedia:ar": "متنزه توبقال الوطني"
+      },
+      "wikidata": null,
+      "wikipedia": "ar:متنزه توبقال الوطني",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1189951245",
+      "name": "Jnane Agresual",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jnane-agresual-imlil",
+      "category": "restaurants",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.923249,
+          31.156793
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Jnane Agresual"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1206613871",
+      "name": "Sidi Chamarouch",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-chamarouch-imlil",
+      "category": "mausoleums",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.911891,
+          31.097777
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Chamarouch",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1216369033",
+      "name": "Mosquée Tacheddirt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tacheddirt-imlil",
+      "category": "mosques",
+      "city": "imlil",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.844497,
+          31.155822
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Tacheddirt",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1216369034",
+      "name": "Dar Bejmate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-bejmate-imlil",
+      "category": "hotels",
+      "city": "imlil",
+      "address": "42152, Tacheddirt",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -7.844972,
+          31.15591
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tacheddirt",
+        "addr:housenumber": "42152",
+        "building": "yes",
+        "layer": "1",
+        "name": "Dar Bejmate",
+        "phone": "+212 6 73 56 66 67",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 56 66 67",
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

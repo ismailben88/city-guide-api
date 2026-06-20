@@ -1,0 +1,4140 @@
+{
+  "city": "taroudant",
+  "fetched_at": "2026-06-08T11:39:45.370Z",
+  "raw_count": 560,
+  "places": [
+    {
+      "osm_id": "node/619519800",
+      "name": "Palais Salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-salam-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.871303,
+          30.472915
+        ]
+      },
+      "osm_tags": {
+        "name": "Palais Salam",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/913515199",
+      "name": "Bab Zargane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-zargane-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878272,
+          30.465123
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "fixme": "Bab Ben Yara ?",
+        "historic": "city_gate",
+        "name": "Bab Zargane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/913515201",
+      "name": "Café Restaurant Oasis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-oasis-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.883329,
+          30.469137
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant Oasis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1108762965",
+      "name": "Dar Zitoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-zitoune-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.88022,
+          30.452155
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Zitoune",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1109134648",
+      "name": "Kasbah Tiout",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-tiout-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.694872,
+          30.385742
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Kasbah Tiout",
+        "phone": "+212 528550575",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 528550575",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1138964758",
+      "name": "Saadiens",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "saadiens-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.881811,
+          30.472682
+        ]
+      },
+      "osm_tags": {
+        "name": "Saadiens",
+        "operational_status": "closed",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687605611",
+      "name": "Riad El Aissi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-el-aissi-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.940686,
+          30.476078
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Riad El Aissi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1802073310",
+      "name": "Suq el Hed",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "suq-el-hed-taroudant",
+      "category": "souks",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.87607,
+          30.48467
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Suq el Hed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834029315",
+      "name": "Hotel Les Arcades",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-les-arcades-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882712,
+          30.469667
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Hotel Les Arcades",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1834029316",
+      "name": "Hotel Tiouit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tiouit-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876073,
+          30.469265
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Tiouit",
+        "stars": "2",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 2,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2175105555",
+      "name": "Kasbah Gousteau",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-gousteau-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877795,
+          30.439311
+        ]
+      },
+      "osm_tags": {
+        "designation": "bed and breakfast",
+        "internet_access": "wlan",
+        "name": "Kasbah Gousteau",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2212556769",
+      "name": "Dar Zahia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-zahia-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.881204,
+          30.474045
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Zahia",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3306173194",
+      "name": "Camp Le jardin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-le-jardin-taroudant",
+      "category": "desert-camps",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.84351,
+          30.477054
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Le jardin",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3941315732",
+      "name": "Riad Taroudant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-taroudant-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "243, Av. Al Qods, Derb Jdid, Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880921,
+          30.466362
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "addr:housenumber": "243",
+        "addr:postcode": "83000",
+        "addr:street": "Av. Al Qods",
+        "addr:suburb": "Derb Jdid",
+        "email": "ryadtaroudant@gmail.com",
+        "name": "Riad Taroudant",
+        "phone": "+212 528 852 572",
+        "tourism": "hotel",
+        "website": "https://www.riadtaroudant.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.riadtaroudant.com/",
+      "phone": "+212 528 852 572",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4154134789",
+      "name": "Riad Benyara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-benyara-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878688,
+          30.466589
+        ]
+      },
+      "osm_tags": {
+        "fixme": "correct position?",
+        "name": "Riad Benyara",
+        "phone": "+212 6 76 02 32 77",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 76 02 32 77",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4485500490",
+      "name": "cafe restaurant/snack Al Masjid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-snack-al-masjid-taroudant",
+      "category": "moroccan-cuisine",
+      "city": "taroudant",
+      "address": "Ave de Prince Héritier",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877546,
+          30.468826
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "83000",
+        "addr:street": "Ave de Prince Héritier",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name:en": "cafe restaurant/snack Al Masjid",
+        "phone": "+212 5 28 85 37 12"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 85 37 12",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4485530689",
+      "name": "Café Les Cafés",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-les-cafes-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "Av. Prince Heritier Sidi Mohamed",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.87646,
+          30.468577
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "83000",
+        "addr:street": "Av. Prince Heritier Sidi Mohamed",
+        "amenity": "cafe",
+        "cuisine": "balkan;moroccan",
+        "internet_access": "wlan",
+        "name:en": "Café Les Cafés",
+        "phone": "+212 5 28 85 06 16"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 85 06 16",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4485575694",
+      "name": "Hotel El Warda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-el-warda-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "8, Place Talmoklate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880441,
+          30.468489
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Place Talmoklate",
+        "name": "Hotel El Warda",
+        "phone": "+212 5 28 85 27 63",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 85 27 63",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4488590489",
+      "name": "Residence Roudana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "residence-roudana-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "65, Av. Mohammed V.",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.884745,
+          30.469303
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "65",
+        "addr:postcode": "83000",
+        "addr:street": "Av. Mohammed V.",
+        "internet_access": "wlan",
+        "name:en": "Residence Roudana",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4712118710",
+      "name": "Convenient store",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "convenient-store-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.886452,
+          30.472893
+        ]
+      },
+      "osm_tags": {
+        "name": "Convenient store",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4773667327",
+      "name": "Antiquaire Haut-Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "antiquaire-haut-atlas-taroudant",
+      "category": "berber-crafts",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880448,
+          30.469371
+        ]
+      },
+      "osm_tags": {
+        "fixme": "correct position?",
+        "name": "Antiquaire Haut-Atlas",
+        "shop": "antiques"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4773682818",
+      "name": "Hotel Taroudannt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-taroudannt-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.883478,
+          30.46919
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Taroudannt",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4773696682",
+      "name": "Pâtisserie Oumnia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisserie-oumnia-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879711,
+          30.470696
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "correct position?",
+        "name": "Pâtisserie Oumnia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4774511741",
+      "name": "Galerie Bab Ezzorgane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "galerie-bab-ezzorgane-taroudant",
+      "category": "berber-crafts",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.875534,
+          30.465252
+        ]
+      },
+      "osm_tags": {
+        "fixme": "correct position?",
+        "name": "Galerie Bab Ezzorgane",
+        "shop": "art"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4774538819",
+      "name": "Café Sindibad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-sindibad-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882611,
+          30.469075
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "fixme": "correct position?",
+        "name": "Café Sindibad"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4774542525",
+      "name": "Café d'éponge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-d-eponge-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878381,
+          30.465278
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "fixme": "correct position?",
+        "name": "Café d'éponge"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786064027",
+      "name": "Café Arena",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-arena-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.887607,
+          30.469523
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Arena"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786064028",
+      "name": "Café Oulabas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-oulabas-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888035,
+          30.469711
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Oulabas",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786073698",
+      "name": "Café de la gare",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-de-la-gare-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877119,
+          30.465119
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café de la gare",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786073699",
+      "name": "Epicerie Elwaltiti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "epicerie-elwaltiti-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.875394,
+          30.466553
+        ]
+      },
+      "osm_tags": {
+        "name": "Epicerie Elwaltiti",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786077392",
+      "name": "Café Restaurant Jnan Soussia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-jnan-soussia-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.88225,
+          30.46416
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant Jnan Soussia",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786081919",
+      "name": "Café Achkid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-achkid-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.866743,
+          30.474136
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Achkid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786702761",
+      "name": "Mosquée Oulad Aarfa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-oulad-aarfa-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.824108,
+          30.483331
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Oulad Aarfa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4786702762",
+      "name": "Boulangerie Oulad Aarfa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-oulad-aarfa-taroudant",
+      "category": "bakeries",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.824035,
+          30.483577
+        ]
+      },
+      "osm_tags": {
+        "name": "Boulangerie Oulad Aarfa",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788946554",
+      "name": "Supérette Achkide",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-achkide-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.869251,
+          30.471314
+        ]
+      },
+      "osm_tags": {
+        "name": "Supérette Achkide",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788946555",
+      "name": "Restaurant Anas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-anas-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.869467,
+          30.471433
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Anas",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788946582",
+      "name": "Café France",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-france-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.869864,
+          30.471432
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café France",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788979126",
+      "name": "Mosquée Mhaita",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-mhaita-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.861657,
+          30.476015
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Mhaita",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788979436",
+      "name": "Riad El Hanaoui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-el-hanaoui-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.857412,
+          30.467152
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad El Hanaoui",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013732",
+      "name": "Mosquée Badr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-badr-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.891174,
+          30.463354
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Badr",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013734",
+      "name": "Café Celo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-celo-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.865812,
+          30.478182
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Celo",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013735",
+      "name": "Café Brothers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-brothers-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.865505,
+          30.478045
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Brothers",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013736",
+      "name": "Café Draa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-draa-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.864896,
+          30.477751
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Draa",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013737",
+      "name": "Café J Good",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-j-good-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.86473,
+          30.477682
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café J Good",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789013740",
+      "name": "Mosquée Ennour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ennour-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.863717,
+          30.47763
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Ennour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789424925",
+      "name": "Mosquée Tasoukt Ighezifen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tasoukt-ighezifen-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.875979,
+          30.468789
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Tasoukt Ighezifen",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4789424926",
+      "name": "Café Masjid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-masjid-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877414,
+          30.468668
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Masjid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4790977321",
+      "name": "السوق البلدي جنان الجامع",
+      "name_fr": null,
+      "name_ar": "السوق البلدي جنان الجامع",
+      "slug": "taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "Place Talmoklate",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879839,
+          30.467287
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "83000",
+        "addr:street": "Place Talmoklate",
+        "name": "السوق البلدي جنان الجامع",
+        "name:ar": "السوق البلدي جنان الجامع",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4794897909",
+      "name": "Café Yassmina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-yassmina-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882352,
+          30.469458
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Yassmina",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4794921691",
+      "name": "Café Al Fath",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-fath-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882772,
+          30.469066
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Al Fath",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4795354136",
+      "name": "Café Darna 2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-darna-2-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.862766,
+          30.477868
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Darna 2"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4795354746",
+      "name": "Alimentation generale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alimentation-generale-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.861764,
+          30.478192
+        ]
+      },
+      "osm_tags": {
+        "name": "Alimentation generale",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4877928221",
+      "name": "Riad Anma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-anma-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.811823,
+          30.481858
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Riad Anma",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5006491621",
+      "name": "chez NADA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-nada-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877389,
+          30.472914
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "chez NADA"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5252839095",
+      "name": "Opera Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "opera-cafe-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.921517,
+          30.4671
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Opera Café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5254824878",
+      "name": "Royale Snack",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "royale-snack-taroudant",
+      "category": "bars-lounges",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877912,
+          30.472905
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Royale Snack"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5265756857",
+      "name": "Riad Freija",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-freija-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.782846,
+          30.488224
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Freija",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303005187",
+      "name": "Palais Oumensour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-oumensour-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "Al Mansour Borj Oumensour Tadjount, Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880793,
+          30.472531
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "addr:street": "Al Mansour Borj Oumensour Tadjount",
+        "name": "Palais Oumensour",
+        "phone": "+212 5 28 55 02 15",
+        "tourism": "hotel",
+        "website": "https://www.palaisoumensour.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.palaisoumensour.com/",
+      "phone": "+212 5 28 55 02 15",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5602700721",
+      "name": "Hotel Atlas sgl rm 90d w bath",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlas-sgl-rm-90d-w-bath-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876007,
+          30.466885
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Atlas sgl rm 90d w bath",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5722281721",
+      "name": "Camperplaats Taroudant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camperplaats-taroudant-taroudant",
+      "category": "desert-camps",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.870622,
+          30.473472
+        ]
+      },
+      "osm_tags": {
+        "name": "Camperplaats Taroudant",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6017398652",
+      "name": "Yassmina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yassmina-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882336,
+          30.469441
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Yassmina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6061465755",
+      "name": "Café",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876201,
+          30.469297
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6064577243",
+      "name": "Hammam Al Andalus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-al-andalus-taroudant",
+      "category": "hammams",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.874236,
+          30.46644
+        ]
+      },
+      "osm_tags": {
+        "amenity": "public_bath",
+        "bath:type": "hammam",
+        "level": "0",
+        "name": "Hammam Al Andalus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-22:00"
+    },
+    {
+      "osm_id": "node/6103837616",
+      "name": "Musée Claudio Bravo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musee-claudio-bravo-taroudant",
+      "category": "history-museums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876964,
+          30.549929
+        ]
+      },
+      "osm_tags": {
+        "name": "Musée Claudio Bravo",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6198108891",
+      "name": "Chez l’habitant",
+      "name_fr": "Chez l’habitant",
+      "name_ar": null,
+      "slug": "chez-l-habitant-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.692971,
+          30.389641
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Chez l’habitant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6310840686",
+      "name": "Restaurant Azzarda",
+      "name_fr": null,
+      "name_ar": "Restaurant Azzarda",
+      "slug": "restaurant-azzarda-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882497,
+          30.469033
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "steak_house;moroccan;sandwich;local",
+        "name": "Restaurant Azzar",
+        "name:ar": "Restaurant Azzarda",
+        "name:en": "Restaurant Azzarda"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6385794691",
+      "name": "Farid coffee",
+      "name_fr": null,
+      "name_ar": "مقهى فريد",
+      "slug": "farid-coffee-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.883218,
+          30.472739
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "مقهى فريد",
+        "name:ar": "مقهى فريد",
+        "name:en": "Farid coffee"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6388153285",
+      "name": "dar fatima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-fatima-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876169,
+          30.468236
+        ]
+      },
+      "osm_tags": {
+        "name": "dar fatima",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6691082594",
+      "name": "mosquee ait mhand said",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ait-mhand-said-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.007354,
+          30.52437
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosquee ait mhand said",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6691082595",
+      "name": "mosquée ait ben bihi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ait-ben-bihi-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.008533,
+          30.543668
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosquée ait ben bihi",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6691082596",
+      "name": "mosquée baakila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-baakila-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.02193,
+          30.476298
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosquée baakila",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6691082597",
+      "name": "mosquée chraga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-chraga-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.007429,
+          30.517007
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "mosquée chraga",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6815141783",
+      "name": "Café Oasis / Waha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-oasis-waha-taroudant",
+      "category": "bars-lounges",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.884027,
+          30.473683
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Café Oasis / Waha"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7198141279",
+      "name": "Riad Tafilag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-tafilag-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878381,
+          30.474969
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Riad Tafilag",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9008685817",
+      "name": "Le jardin des épices",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-jardin-des-epices-taroudant",
+      "category": "riads",
+      "city": "taroudant",
+      "address": "Rue du Jardin des Épices",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.908404,
+          30.462226
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue du Jardin des Épices",
+        "email": "lejardindesepices@gmail.com",
+        "internet_access": "wlan",
+        "name": "Le jardin des épices",
+        "opening_hours": "24/7",
+        "tourism": "guest_house",
+        "website": "https://www.lejardindesepices.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.lejardindesepices.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/9772907517",
+      "name": "Oasis de TIOUT Hôtel",
+      "name_fr": "Oasis de TIOUT Hôtel",
+      "name_ar": null,
+      "slug": "oasis-de-tiout-hotel-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.6918,
+          30.390721
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Oasis de TIOUT Hôtel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10285205009",
+      "name": "Snack Immim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-immim-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879339,
+          30.468782
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken;friture;sandwich",
+        "name:en": "Snack Immim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10559741609",
+      "name": "Good chicken 25dhm",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "good-chicken-25dhm-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879061,
+          30.469087
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack Itran",
+        "name:en": "Good chicken 25dhm"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10567855509",
+      "name": "Good coffee",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "good-coffee-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.687818,
+          30.398067
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Good coffee"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10836739606",
+      "name": "Espace Bachar",
+      "name_fr": "Espace Bachar",
+      "name_ar": null,
+      "slug": "espace-bachar-taroudant",
+      "category": "bars-lounges",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.874579,
+          30.472013
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "cuisine": "coffee_shop;pizza",
+        "name:fr": "Espace Bachar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11209423757",
+      "name": "Supérette d'alimentation générale TRD",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "superette-d-alimentation-generale-trd-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.88874,
+          30.473427
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "name": "Supérette d'alimentation générale TRD",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11209423758",
+      "name": "Market INO",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "market-ino-taroudant",
+      "category": "food-markets",
+      "city": "taroudant",
+      "address": "Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888722,
+          30.473586
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "name": "Market INO",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11209423759",
+      "name": "Bab Agafay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-agafay-taroudant",
+      "category": "palaces-kasbahs",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888167,
+          30.47305
+        ]
+      },
+      "osm_tags": {
+        "historic": "fort",
+        "name": "Bab Agafay"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11446304569",
+      "name": "Le Moulin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-moulin-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.887934,
+          30.476601
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name:en": "Le Moulin",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11764509591",
+      "name": "Dar Randigaba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-randigaba-taroudant",
+      "category": "riads",
+      "city": "taroudant",
+      "address": "140, Rue Chef Aziz",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.889221,
+          30.472339
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "140",
+        "addr:street": "Rue Chef Aziz",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "+212 6 71 83 80 08",
+        "name": "Dar Randigaba",
+        "phone": "+212 5 28 85 10 11",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 85 10 11",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378403",
+      "name": "Warda",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "warda-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880305,
+          30.468162
+        ]
+      },
+      "osm_tags": {
+        "name": "Warda",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378404",
+      "name": "Mentaga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mentaga-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.880342,
+          30.468002
+        ]
+      },
+      "osm_tags": {
+        "name": "Mentaga",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378607",
+      "name": "Aniloul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aniloul-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879683,
+          30.468753
+        ]
+      },
+      "osm_tags": {
+        "name": "Aniloul",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378608",
+      "name": "Ennasr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ennasr-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878903,
+          30.46856
+        ]
+      },
+      "osm_tags": {
+        "name": "Ennasr",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415378804",
+      "name": "Riad souss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-souss-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.875409,
+          30.466825
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad souss",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12415380501",
+      "name": "Houara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "houara-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.879113,
+          30.468624
+        ]
+      },
+      "osm_tags": {
+        "name": "Houara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12757758818",
+      "name": "Dar El Hana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-el-hana-taroudant",
+      "category": "riads",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.883403,
+          30.466681
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar El Hana",
+        "swimming_pool": "outdoor",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13362559986",
+      "name": "Hotel Roudani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-roudani-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882976,
+          30.469612
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Roudani",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13587283228",
+      "name": "Riad Amnay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-amnay-taroudant",
+      "category": "riads",
+      "city": "taroudant",
+      "address": "18, Derb souf",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.881924,
+          30.469047
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Derb souf",
+        "guest_house": "guest_house",
+        "internet_access": "wlan",
+        "name": "Riad Amnay",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/220454481",
+      "name": "Mosquée Sidi Belkass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-sidi-belkass-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.897118,
+          30.470085
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Sidi Belkass",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/269874050",
+      "name": "Sidi Aamara سيدي عمارة",
+      "name_fr": "Sidi Aamara",
+      "name_ar": "سيدي عمارة",
+      "slug": "sidi-aamara-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.870956,
+          30.444624
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Aamara سيدي عمارة",
+        "name:ar": "سيدي عمارة",
+        "name:fr": "Sidi Aamara",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/484622170",
+      "name": "Mosque Arrachad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-arrachad-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.873662,
+          30.467766
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Mosque Arrachad",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/484696842",
+      "name": "Bab Zorgane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-zorgane-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876053,
+          30.465182
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "layer": "1",
+        "name": "Bab Zorgane",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/484698547",
+      "name": "Kasbah gardens",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasbah-gardens-taroudant",
+      "category": "national-parks",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.871824,
+          30.473546
+        ]
+      },
+      "osm_tags": {
+        "leisure": "garden",
+        "name": "Jardin Kasbah",
+        "name:de": "Kasbah Gärten",
+        "name:en": "Kasbah gardens"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485019878",
+      "name": "Bab El Khemis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-el-khemis-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.874378,
+          30.478563
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "Bab El Khemis",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485089393",
+      "name": "Bab Ouled Bounouna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-ouled-bounouna-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.88754,
+          30.477221
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "layer": "1",
+        "name": "Bab Ouled Bounouna",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485096312",
+      "name": "Bab Sedra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-sedra-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.874622,
+          30.472513
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "bicycle": "yes",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "foot": "yes",
+        "height": "8",
+        "historic": "city_gate",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "name": "Bab Sedra",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485213650",
+      "name": "Mosquee Assarag",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-assarag-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.882386,
+          30.468953
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Mosquee Assarag",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485453277",
+      "name": "1. Bab Snisla (chaine)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "1-bab-snisla-chaine-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.873711,
+          30.471894
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "historic:civilization": "medieval",
+        "name": "1. Bab Snisla (chaine)",
+        "roof:colour": "#CD853F",
+        "start_date": "1200"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485555735",
+      "name": "Palais Taroudant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-taroudant-taroudant",
+      "category": "riads",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877332,
+          30.468678
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Palais Taroudant",
+        "tourism": "guest_house",
+        "website": "https://www.instagram.com/palaistaroudant/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.instagram.com/palaistaroudant/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485615572",
+      "name": "Bab Lahjer",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-lahjer-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.872803,
+          30.475181
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Bab El Jdid",
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "Bab Lahjer",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485844722",
+      "name": "2. Bab Lblalia باب البلاليع",
+      "name_fr": "Bab Lblalia",
+      "name_ar": "باب البلاليع",
+      "slug": "2-bab-lblalia-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.872525,
+          30.469094
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "2. Bab Lblalia باب البلاليع",
+        "name:ar": "باب البلاليع",
+        "name:fr": "Bab Lblalia",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/485852654",
+      "name": "Brahim Roudani Garden",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "brahim-roudani-garden-taroudant",
+      "category": "national-parks",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.869647,
+          30.474269
+        ]
+      },
+      "osm_tags": {
+        "leisure": "garden",
+        "name": "Jardin Brahim Roudani",
+        "name:de": "Brahim Roudani Gärten",
+        "name:en": "Brahim Roudani Garden"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486221150",
+      "name": "Mosquée Nadim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-nadim-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.862311,
+          30.469074
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Nadim",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486221153",
+      "name": "Mosqué Belakchach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-belakchach-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.869025,
+          30.469543
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosqué Belakchach",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486225436",
+      "name": "Mosquée Bouikido",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-bouikido-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.856892,
+          30.477165
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Mosquée Bouikido",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486972543",
+      "name": "Kissariat des Habouss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kissariat-des-habouss-taroudant",
+      "category": "souks",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.88022,
+          30.468892
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Kissariat des Habouss"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486987915",
+      "name": "Bab Targhount باب اكافاي",
+      "name_fr": "Bab Targhount",
+      "name_ar": "باب اكافاي",
+      "slug": "bab-targhount-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888234,
+          30.472999
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "Bab Targhount باب اكافاي",
+        "name:ar": "باب اكافاي",
+        "name:fr": "Bab Targhount",
+        "roof:colour": "#CD853F"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/486995631",
+      "name": "Mosque Agafay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-agafay-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.885208,
+          30.473176
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Mosque Agafay",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/524168324",
+      "name": "Riad Dar Dzahra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-dar-dzahra-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "73, Derb Akka, Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.883929,
+          30.467746
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "addr:housenumber": "73",
+        "addr:postcode": "83000",
+        "addr:street": "Derb Akka",
+        "name": "Riad Dar Dzahra",
+        "operator": "Yves SARL Assarag Dzahra",
+        "stars": "2",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 2,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/580229525",
+      "name": "Grand Camping de Taroudant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grand-camping-de-taroudant-taroudant",
+      "category": "desert-camps",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.819052,
+          30.497536
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Grand Camping de Taroudant",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/644941964",
+      "name": "Complexe El Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "complexe-el-kasbah-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.87467,
+          30.471177
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "building:use": "foodservice",
+        "check_date": "2023-05-09",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Complexe El Kasbah",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "limited",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-22:00"
+    },
+    {
+      "osm_id": "way/644994409",
+      "name": "Hotel Dar Fatima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dar-fatima-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876193,
+          30.468413
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "building:levels": "3",
+        "email": "contact@darfatima.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Dar Fatima",
+        "phone": "+212 674 10 41 60",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "www.darfatima.com",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "www.darfatima.com",
+      "phone": "+212 674 10 41 60",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/645070133",
+      "name": "Bar Palais Salam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bar-palais-salam-taroudant",
+      "category": "bars-lounges",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.871175,
+          30.472553
+        ]
+      },
+      "osm_tags": {
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Bar Palais Salam",
+        "toilets": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/645417814",
+      "name": "Riad Maia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-maia-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.876007,
+          30.468546
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Riad Maia",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/650724437",
+      "name": "Palais Musée Claudio Bravo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-musee-claudio-bravo-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877058,
+          30.550085
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Palais Musée Claudio Bravo",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/650724439",
+      "name": "Mausolée Claudio Bravo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mausolee-claudio-bravo-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.87608,
+          30.55093
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Mausolée Claudio Bravo",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/743094351",
+      "name": "Riad le Jasmin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-le-jasmin-taroudant",
+      "category": "restaurants",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.830855,
+          30.47803
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Riad le Jasmin",
+        "source": "survey"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642229",
+      "name": "Sidi Ahmad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.861361,
+          30.556859
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642230",
+      "name": "Zawiat Sidi Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zawiat-sidi-ali-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.857969,
+          30.561852
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Zawiat Sidi Ali",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642231",
+      "name": "Sidi Abdallah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdallah-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.803688,
+          30.664244
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdallah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/755642232",
+      "name": "Sidi Abdallah ou Msaoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdallah-ou-msaoud-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.829143,
+          30.613126
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdallah ou Msaoud",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757432701",
+      "name": "Zawiat Sidi Tahar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zawiat-sidi-tahar-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.115803,
+          30.477999
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Zawiat Sidi Tahar",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758755658",
+      "name": "Sidi Ahmad Dahbi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-dahbi-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.873461,
+          30.472996
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad Dahbi",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758795917",
+      "name": "Sidi Boushah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-boushah-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878862,
+          30.474891
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Boushah",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692407",
+      "name": "Sidi Birka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-birka-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.696412,
+          30.395962
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Birka",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692408",
+      "name": "Sidi Abdelkader",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-abdelkader-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.695874,
+          30.38715
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Abdelkader",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692409",
+      "name": "Sidi Ahmad al Haj",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmad-al-haj-taroudant",
+      "category": "mausoleums",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.698161,
+          30.379638
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmad al Haj",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1206986727",
+      "name": "Café & Billard",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-billard-taroudant",
+      "category": "cafes",
+      "city": "taroudant",
+      "address": "Taroudant",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.774441,
+          30.466189
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudant",
+        "addr:place": "F68G+F59",
+        "amenity": "cafe",
+        "building": "service",
+        "name": "Café & Billard"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1208057074",
+      "name": "Mosquée Arrahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-arrahma-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877612,
+          30.476934
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Arrahma",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1209951251",
+      "name": "Terrain Erreda (playgroud)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "terrain-erreda-playgroud-taroudant",
+      "category": "national-parks",
+      "city": "taroudant",
+      "address": "Taroudan",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.778494,
+          30.464679
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Taroudan",
+        "addr:place": "F67C+VHG",
+        "leisure": "park",
+        "name": "Terrain Erreda (playgroud)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2915168",
+      "name": "Mosquée Ferq Lahbab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-ferq-lahbab-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.878557,
+          30.473757
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Ferq Lahbab",
+        "religion": "muslim",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/2915220",
+      "name": "Grand Mosquée الجامع الكبير",
+      "name_fr": "Grand Mosquée",
+      "name_ar": "الجامع الكبير",
+      "slug": "grand-mosquee-taroudant",
+      "category": "mosques",
+      "city": "taroudant",
+      "address": "Tarudant تارودانت",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.877752,
+          30.468469
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tarudant تارودانت",
+        "addr:city:ar": "تارودانت",
+        "addr:city:es": "Tarudant",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Grand Mosquée الجامع الكبير",
+        "name:ar": "الجامع الكبير",
+        "name:de": "Große Moschee",
+        "name:es": "Gran Mezquita",
+        "name:fr": "Grand Mosquée",
+        "religion": "muslim",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/7132589",
+      "name": "Bab Targhont",
+      "name_fr": null,
+      "name_ar": "باب تارغونت",
+      "slug": "bab-targhont-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.888251,
+          30.469434
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "Bab Targhont",
+        "name:ar": "باب تارغونت",
+        "roof:colour": "#CD853F",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/7140580",
+      "name": "Riad Maryam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-maryam-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.886532,
+          30.468975
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "name": "Riad Maryam",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/7143124",
+      "name": "Bab El Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-el-kasbah-taroudant",
+      "category": "medinas",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -8.873641,
+          30.472036
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "building:colour": "#CD853F",
+        "height": "8",
+        "historic": "city_gate",
+        "name": "Bab El Kasbah",
+        "roof:colour": "#CD853F",
+        "type": "building"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/10722849",
+      "name": "La Tour de Toile",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-tour-de-toile-taroudant",
+      "category": "hotels",
+      "city": "taroudant",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -9.061482,
+          30.468422
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "La Tour de Toile",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

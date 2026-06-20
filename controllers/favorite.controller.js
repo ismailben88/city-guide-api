@@ -1,6 +1,11 @@
 const asyncHandler = require("../utils/asyncHandler");
 const ApiError     = require("../utils/ApiError");
 const Favorite     = require("../models/Favorite");
+const Place        = require("../models/Place");
+const GuideProfile = require("../models/GuideProfile");
+const Event        = require("../models/Event");
+
+const FAVORITE_MODELS = { Place, GuideProfile, Event };
 
 // GET /favorites — returns the authenticated user's own favorites
 exports.getFavorites = asyncHandler(async (req, res) => {
@@ -18,6 +23,14 @@ exports.getFavorites = asyncHandler(async (req, res) => {
 // POST /favorites
 exports.addFavorite = asyncHandler(async (req, res) => {
   const { targetId, targetType } = req.body;
+  if (!targetId || !targetType) throw new ApiError(400, "targetId and targetType are required");
+
+  const Model = FAVORITE_MODELS[targetType];
+  if (!Model) throw new ApiError(400, "targetType invalide");
+  // Reject favorites pointing at a non-existent entity (orphan guard).
+  const exists = await Model.exists({ _id: targetId });
+  if (!exists) throw new ApiError(404, "Cible introuvable");
+
   try {
     const favorite = await Favorite.create({ userId: req.user._id, targetId, targetType });
     res.status(201).json(favorite);
@@ -28,7 +41,13 @@ exports.addFavorite = asyncHandler(async (req, res) => {
 });
 
 // DELETE /favorites/:id
+// SECURITY: scoped by both _id AND userId to prevent IDOR — a user with a
+// known favorite ID belonging to someone else must not be able to delete it.
 exports.deleteFavorite = asyncHandler(async (req, res) => {
-  await Favorite.findByIdAndDelete(req.params.id);
+  const deleted = await Favorite.findOneAndDelete({
+    _id:    req.params.id,
+    userId: req.user._id,
+  });
+  if (!deleted) throw new ApiError(404, "Favori introuvable");
   res.json({ message: "Retiré des favoris" });
 });

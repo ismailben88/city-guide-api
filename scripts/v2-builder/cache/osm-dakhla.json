@@ -1,0 +1,4903 @@
+{
+  "city": "dakhla",
+  "fetched_at": "2026-06-08T11:41:30.829Z",
+  "raw_count": 408,
+  "places": [
+    {
+      "osm_id": "node/1899855656",
+      "name": "Masdjid Assunna",
+      "name_fr": null,
+      "name_ar": "مسجد السنة",
+      "slug": "masdjid-assunna-dakhla",
+      "category": "mosques",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.935765,
+          23.696578
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "مسجد السنة",
+        "name:ar": "مسجد السنة",
+        "name:en": "Masdjid Assunna",
+        "name:es": "Mezquita de la Sunna",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3179223545",
+      "name": "Chtokan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chtokan-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.890107,
+          23.567515
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chtokan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3180998659",
+      "name": "Pointe de l'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pointe-de-l-or-dakhla",
+      "category": "mountains",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.804561,
+          23.921874
+        ]
+      },
+      "osm_tags": {
+        "name": "Pointe de l'Or",
+        "name:es": "Monte de la Decepción",
+        "natural": "peak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3273657418",
+      "name": "Bush camp El Argoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bush-camp-el-argoub-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.877456,
+          23.597671
+        ]
+      },
+      "osm_tags": {
+        "camp_type": "informal",
+        "impromptu": "yes",
+        "name": "Bush camp El Argoub",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3302465994",
+      "name": "Bivouac libre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-libre-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.867542,
+          23.831063
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac libre",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4069715505",
+      "name": "Dar Rio Oro",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-rio-oro-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.925559,
+          23.703255
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar Rio Oro",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 3,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4303226624",
+      "name": "Café Hôtel Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-hotel-sahara-dakhla",
+      "category": "bars-lounges",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931414,
+          23.697859
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Café Hôtel Sahara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4332164889",
+      "name": "Bab Al Bahar Hotel & Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-al-bahar-hotel-spa-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "Avenue Mohamed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933917,
+          23.69352
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohamed V",
+        "email": "babreception1@gmail.com",
+        "internet_access": "wlan",
+        "name": "Bab Al Bahar Hotel & Spa",
+        "opening_hours": "24/7",
+        "phone": "+212 5 28 93 14 40",
+        "tourism": "hotel",
+        "website": "https://www.bab-al-bahar.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.bab-al-bahar.com/",
+      "phone": "+212 5 28 93 14 40",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/4697641492",
+      "name": "Wanny",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wanny-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.937088,
+          23.693755
+        ]
+      },
+      "osm_tags": {
+        "name": "Wanny",
+        "name:en": "Wanny",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4707071289",
+      "name": "Panini Vegetal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "panini-vegetal-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.93036,
+          23.69901
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Panini Vegetal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4937255623",
+      "name": "Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931472,
+          23.697871
+        ]
+      },
+      "osm_tags": {
+        "name": "Sahara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5249527141",
+      "name": "Dakhla Attitude",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-attitude-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.771376,
+          23.893932
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "yes",
+        "name": "Dakhla Attitude",
+        "tourism": "hotel",
+        "website": "https://dakhla-attitude.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dakhla-attitude.ma/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5249528069",
+      "name": "Ritaj",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ritaj-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929295,
+          23.700719
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Ritaj",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5265787321",
+      "name": "Chic Choc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chic-choc-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.9301,
+          23.69885
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Chic Choc",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5268088423",
+      "name": "Ostrich",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ostrich-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.912383,
+          23.794275
+        ]
+      },
+      "osm_tags": {
+        "name": "Autruches",
+        "name:en": "Ostrich",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5268157221",
+      "name": "Free camp place",
+      "name_fr": "Bivouac libre",
+      "name_ar": null,
+      "slug": "free-camp-place-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.913652,
+          23.7958
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac libre",
+        "name:en": "Free camp place",
+        "name:fr": "Bivouac libre",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5302329603",
+      "name": "Il Postino",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "il-postino-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.927694,
+          23.702899
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Il Postino",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5302330123",
+      "name": "Hotel Doumss فندق دومس",
+      "name_fr": "Hotel Doumss",
+      "name_ar": "فندق دومس",
+      "slug": "hotel-doumss-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.926107,
+          23.707731
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Doumss فندق دومس",
+        "name:ar": "فندق دومس",
+        "name:fr": "Hotel Doumss",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5302330166",
+      "name": "Café Miramar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-miramar-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.916278,
+          23.735155
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Miramar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303302622",
+      "name": "La dune blanche",
+      "name_fr": "La dune blanche",
+      "name_ar": null,
+      "slug": "la-dune-blanche-dakhla",
+      "category": "sunset-spots",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.744757,
+          23.821995
+        ]
+      },
+      "osm_tags": {
+        "name": "La dune blanche",
+        "name:fr": "La dune blanche",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397560",
+      "name": "Hotel Dubai",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-dubai-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930827,
+          23.698761
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Dubai",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397568",
+      "name": "La Baie d'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-baie-d-or-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.9306,
+          23.698999
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger;pizza;sandwich",
+        "name": "La Baie d'Or",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397573",
+      "name": "Mod مود",
+      "name_fr": "Mod",
+      "name_ar": "مود",
+      "slug": "mod-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "Boulevard Al Moukaouama شارع ا؛مقاومة, Dakhla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930622,
+          23.700819
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dakhla",
+        "addr:postcode": "73002",
+        "addr:street": "Boulevard Al Moukaouama شارع ا؛مقاومة",
+        "name": "Mod مود",
+        "name:ar": "مود",
+        "name:fr": "Mod",
+        "note:fr": "Mini Marché Oued Eddahab",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "administrative",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397584",
+      "name": "Ramsis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ramsis-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929769,
+          23.700604
+        ]
+      },
+      "osm_tags": {
+        "name": "Ramsis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397585",
+      "name": "Café Villa Cisneros",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-villa-cisneros-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928583,
+          23.702775
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Villa Cisneros",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397589",
+      "name": "Prestigia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "prestigia-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930757,
+          23.701629
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Prestigia",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397602",
+      "name": "Lagune Food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lagune-food-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.927472,
+          23.702231
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;seafood",
+        "name": "Lagune Food",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303397615",
+      "name": "Hotel Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlas-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931089,
+          23.698882
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Atlas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303854501",
+      "name": "French Burgers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "french-burgers-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92782,
+          23.703241
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "French Burgers"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303875282",
+      "name": "El Kassam القسم",
+      "name_fr": "El Kassam",
+      "name_ar": "القسم",
+      "slug": "el-kassam-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.915484,
+          23.735701
+        ]
+      },
+      "osm_tags": {
+        "name": "El Kassam القسم",
+        "name:ar": "القسم",
+        "name:fr": "El Kassam",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5303875284",
+      "name": "Hotel Calipau Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-calipau-sahara-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.908624,
+          23.748816
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Calipau Sahara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115007",
+      "name": "Hotel Aigue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-aigue-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931566,
+          23.697943
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Aigue",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115012",
+      "name": "Tasty",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tasty-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933012,
+          23.694983
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Tasty",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115015",
+      "name": "Rayan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rayan-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929183,
+          23.70101
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger;pizza",
+        "name": "Rayan",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115017",
+      "name": "Snack Ikram",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-ikram-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929895,
+          23.698858
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza;sandwich",
+        "name": "Snack Ikram",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115019",
+      "name": "Café Meraliz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-meraliz-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.932761,
+          23.694901
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Meraliz",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115624",
+      "name": "Hassan Fruit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hassan-fruit-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929147,
+          23.701182
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "diet:vegetarian": "yes",
+        "name": "Hassan Fruit",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115627",
+      "name": "Hotel Tirs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tirs-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931901,
+          23.697663
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Tirs",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115629",
+      "name": "Villa Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "villa-dakhla-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931163,
+          23.6971
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Villa Dakhla",
+        "name:es": "Villa Dajla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115632",
+      "name": "Diamant du Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "diamant-du-sahara-dakhla",
+      "category": "seafood",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.932852,
+          23.695155
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Diamant du Sahara",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115633",
+      "name": "Café Venizia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-venizia-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.929808,
+          23.699066
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Venizia",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115637",
+      "name": "Hotel Al Quds",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-al-quds-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931355,
+          23.698557
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Al Quds",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115641",
+      "name": "Hotel Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-mansour-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931629,
+          23.697556
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Mansour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115642",
+      "name": "Hotel Annakhil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-annakhil-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.932107,
+          23.698112
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Annakhil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305115645",
+      "name": "Café Ocarina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ocarina-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933068,
+          23.694913
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Ocarina",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5305488939",
+      "name": "Peninsule de Dakhla شبه جزيرة الداخلة",
+      "name_fr": "Peninsule de Dakhla",
+      "name_ar": "شبه جزيرة الداخلة",
+      "slug": "peninsule-de-dakhla-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928781,
+          23.70104
+        ]
+      },
+      "osm_tags": {
+        "historic": "monument",
+        "name": "Peninsule de Dakhla شبه جزيرة الداخلة",
+        "name:ar": "شبه جزيرة الداخلة",
+        "name:fr": "Peninsule de Dakhla"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441293",
+      "name": "La Pause",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-pause-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.927608,
+          23.703784
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La Pause",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441296",
+      "name": "Café Minimax",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-minimax-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.925698,
+          23.708806
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Minimax",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441298",
+      "name": "Flaman Rose",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "flaman-rose-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.916128,
+          23.735527
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Flaman Rose",
+        "outdoor_seating": "yes",
+        "phone": "+212 6 89 94 43 21"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 89 94 43 21",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441300",
+      "name": "Baghdad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "baghdad-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.916228,
+          23.733701
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Baghdad",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441301",
+      "name": "Surf House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "surf-house-dakhla",
+      "category": "riads",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.915758,
+          23.735002
+        ]
+      },
+      "osm_tags": {
+        "name": "Surf House",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306441305",
+      "name": "Mad Camel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mad-camel-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.917142,
+          23.732767
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Mad Cafe",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Mad Camel",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306696006",
+      "name": "Bahia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bahia-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930586,
+          23.698478
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;spanish",
+        "name": "Bahia",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306696009",
+      "name": "فندق بولوتاد",
+      "name_fr": "Hotel Inyan Dakhla",
+      "name_ar": "فندق بولوتاد",
+      "slug": "dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933544,
+          23.694478
+        ]
+      },
+      "osm_tags": {
+        "name": "فندق بولوتاد",
+        "name:ar": "فندق بولوتاد",
+        "name:fr": "Hotel Inyan Dakhla",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306696011",
+      "name": "La Maison du Thé",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-maison-du-the-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933535,
+          23.693941
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Maison du Thé"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306696013",
+      "name": "Casa Luis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-luis-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930708,
+          23.698414
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name": "Casa Luis",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5306696014",
+      "name": "Primo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "primo-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.9309,
+          23.69817
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Primo",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433326",
+      "name": "Café Prince",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-prince-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.925718,
+          23.707548
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Prince",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433333",
+      "name": "Para Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "para-dakhla-dakhla",
+      "category": "argan-products",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.925287,
+          23.707366
+        ]
+      },
+      "osm_tags": {
+        "name": "Para Dakhla",
+        "shop": "cosmetics"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433334",
+      "name": "12 Cool",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "12-cool-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92816,
+          23.703223
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "regional",
+        "name": "12 Cool",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433335",
+      "name": "Dakhla Shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-shop-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931243,
+          23.697001
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla Shop",
+        "shop": "convenience",
+        "toilets:wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433339",
+      "name": "Casa Lola",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-lola-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92752,
+          23.70417
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name": "Casa Lola"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433342",
+      "name": "Chez Rahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-rahim-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928214,
+          23.703052
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "La Saveur du Sud",
+        "amenity": "restaurant",
+        "name": "Chez Rahim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308433344",
+      "name": "A savoir faire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "a-savoir-faire-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.927467,
+          23.704313
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "A savoir faire",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5308507706",
+      "name": "Kaiser Wilhelm",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kaiser-wilhelm-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.917116,
+          23.732843
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Kaiser Wilhelm"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5309099823",
+      "name": "Café Rawan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-rawan-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.935391,
+          23.692236
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Rawan",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5309099826",
+      "name": "Yves Rochez Najat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yves-rochez-najat-dakhla",
+      "category": "argan-products",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.936545,
+          23.694443
+        ]
+      },
+      "osm_tags": {
+        "name": "Yves Rochez Najat",
+        "shop": "cosmetics"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225791",
+      "name": "Hotel El Pescador",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-el-pescador-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940014,
+          23.690157
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel El Pescador",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225792",
+      "name": "Café Al Hoceima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-hoceima-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940204,
+          23.689093
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Al Hoceima",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225799",
+      "name": "Le Palais Rhoul Hotel & Spa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-palais-rhoul-hotel-spa-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.933445,
+          23.694045
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Palais Rhoul Hotel & Spa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225805",
+      "name": "Relax",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "relax-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.935824,
+          23.691698
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "ice_cream;italian;pizza",
+        "name": "Relax"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225806",
+      "name": "Tiznit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tiznit-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940429,
+          23.690359
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Tiznit"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225807",
+      "name": "Snack du Poissons",
+      "name_fr": "Snack du Poissons",
+      "name_ar": null,
+      "slug": "snack-du-poissons-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.93972,
+          23.690216
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "name": "Snack du Poissons",
+        "name:fr": "Snack du Poissons",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225813",
+      "name": "Café Assabah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-assabah-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940421,
+          23.689175
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Assabah",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312225816",
+      "name": "Hotel El Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-el-massira-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940699,
+          23.690792
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel El Massira",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312226223",
+      "name": "Erraha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "erraha-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.937799,
+          23.689907
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Erraha",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312226231",
+      "name": "Hotel Tafoudart",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-tafoudart-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.938308,
+          23.689863
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Tafoudart",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5312226232",
+      "name": "Hotel Erraha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-erraha-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.937693,
+          23.689773
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Erraha",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113746",
+      "name": "Elboughaze",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "elboughaze-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.943321,
+          23.68955
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Elboughaze",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113750",
+      "name": "Dolina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dolina-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950192,
+          23.691067
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Dolina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113758",
+      "name": "Café Leglat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-leglat-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950485,
+          23.69046
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Leglat",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113767",
+      "name": "Café Al Akssa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-akssa-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950271,
+          23.69033
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Al Akssa",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113770",
+      "name": "Café La Marine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-la-marine-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.949756,
+          23.690779
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café La Marine",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113774",
+      "name": "Ait Oubaha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ait-oubaha-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.941818,
+          23.688946
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Ait Oubaha",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113779",
+      "name": "La Repère",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-repere-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950588,
+          23.690726
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "La Repère"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113780",
+      "name": "Nile",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "nile-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.949012,
+          23.69025
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Nile",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113781",
+      "name": "Snack El Karam سناك الكرم",
+      "name_fr": "Snack El Karam",
+      "name_ar": "سناك الكرم",
+      "slug": "snack-el-karam-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950019,
+          23.69034
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Snack El Karam سناك الكرم",
+        "name:ar": "سناك الكرم",
+        "name:fr": "Snack El Karam",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113784",
+      "name": "Al Akssa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-akssa-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950163,
+          23.690342
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Al Akssa",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113788",
+      "name": "Café Dalas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-dalas-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950365,
+          23.691016
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Dalas",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113789",
+      "name": "Taha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "taha-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.94878,
+          23.690444
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Taha",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113792",
+      "name": "La Fontaine",
+      "name_fr": null,
+      "name_ar": "النافورة",
+      "slug": "la-fontaine-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "Dajla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.94926,
+          23.690541
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dajla",
+        "addr:city:ar": "الداخلة",
+        "addr:city:es": "Dajla",
+        "amenity": "cafe",
+        "name": "La Fontaine",
+        "name:ar": "النافورة",
+        "name:es": "La Fuente"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113795",
+      "name": "Jour et Nuit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jour-et-nuit-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940712,
+          23.688869
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Jour et Nuit",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113801",
+      "name": "Al Arabia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-arabia-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.949819,
+          23.690911
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Al Arabia",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113807",
+      "name": "Brazilia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "brazilia-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.94924,
+          23.690297
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Brazilia",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113817",
+      "name": "Prince",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "prince-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.944667,
+          23.689759
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Prince"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315113818",
+      "name": "Café France",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-france-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.948325,
+          23.690372
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café France"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315114324",
+      "name": "Café Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-royal-dakhla",
+      "category": "cafes",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.944268,
+          23.689501
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Royal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5315114326",
+      "name": "Bismillah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bismillah-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.948005,
+          23.690344
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "seafood",
+        "name": "Bismillah",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5559242331",
+      "name": "Dakhla Spirit",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-spirit-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.785464,
+          23.90384
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla Spirit",
+        "tourism": "hotel",
+        "website": "https://dakhlaspirit.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dakhlaspirit.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5798760053",
+      "name": "Auberge des Nomades du Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-des-nomades-du-sahara-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.77392,
+          23.918205
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge des Nomades du Sahara",
+        "tourism": "hotel",
+        "website": "https://www.auberge-des-nomades-du-sahara.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.auberge-des-nomades-du-sahara.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5947093785",
+      "name": "dunes blanches",
+      "name_fr": "dunes blanches",
+      "name_ar": null,
+      "slug": "dunes-blanches-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.748025,
+          23.817979
+        ]
+      },
+      "osm_tags": {
+        "name": "dunes blanches",
+        "name:fr": "dunes blanches",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6068486285",
+      "name": "mini market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mini-market-dakhla",
+      "category": "food-markets",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.916119,
+          23.733626
+        ]
+      },
+      "osm_tags": {
+        "name": "mini market",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6130503785",
+      "name": "imlili",
+      "name_fr": "imlili",
+      "name_ar": "سبخة امليلي",
+      "slug": "imlili-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.918046,
+          23.288122
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "73000",
+        "name": "سبخة امليلي",
+        "name:ar": "سبخة امليلي",
+        "name:en": "imlili",
+        "name:fr": "imlili",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6181547543",
+      "name": "DreamKite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dreamkite-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.783197,
+          23.910064
+        ]
+      },
+      "osm_tags": {
+        "name": "DreamKite",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6319173987",
+      "name": "Dakhla Hostel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-hostel-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.914418,
+          23.734586
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Dakhla Hostel",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6349333834",
+      "name": "Fish Pools",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fish-pools-dakhla",
+      "category": "sunset-spots",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.915261,
+          23.276808
+        ]
+      },
+      "osm_tags": {
+        "description": "Saline pools in Sebkla Imlili with rare fish.",
+        "name": "Fish Pools",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6403523886",
+      "name": "Bureau de Sahara Sailing",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bureau-de-sahara-sailing-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.914521,
+          23.735132
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Bureau de Sahara Sailing",
+        "opening_hours": "Mo-Fr 10:00-12:00",
+        "phone": "+212 6 19 25 04 54",
+        "tourism": "attraction",
+        "website": "https://saharasailing.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://saharasailing.com/",
+      "phone": "+212 6 19 25 04 54",
+      "stars": null,
+      "opening_hours": "Mo-Fr 10:00-12:00"
+    },
+    {
+      "osm_id": "node/6845574485",
+      "name": "Ocean Vagabond Lassarga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ocean-vagabond-lassarga-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.99804,
+          23.634622
+        ]
+      },
+      "osm_tags": {
+        "name": "Ocean Vagabond Lassarga",
+        "phone": "+212 6 71 01 03 01",
+        "tourism": "hotel",
+        "website": "https://www.oceanvagabond.com/fr/dakhla-maroc/dakhla-lassarga/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.oceanvagabond.com/fr/dakhla-maroc/dakhla-lassarga/",
+      "phone": "+212 6 71 01 03 01",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6847571487",
+      "name": "Talha Mar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "talha-mar-dakhla",
+      "category": "seafood",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.858338,
+          23.842285
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Talha Mar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6881905966",
+      "name": "Hotel El Bachir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-el-bachir-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.922539,
+          23.718274
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel El Bachir",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6881905967",
+      "name": "Hotel Imperial Playa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-imperial-playa-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92433,
+          23.706189
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Imperial Playa",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7108323785",
+      "name": "Clean hotel with good price if negociate a bit, no problem with bicycle",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "clean-hotel-with-good-price-if-negociate-a-bit-no-problem-with-bicycle-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931283,
+          23.697763
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hotel al Ahram",
+        "name:en": "Clean hotel with good price if negociate a bit, no problem with bicycle",
+        "name:es": "Hotel limpio y barato si se negocia un poco, sin problema subir la bicicleta",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7846052200",
+      "name": "Marché couvert Municipal El Massira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-couvert-municipal-el-massira-dakhla",
+      "category": "souks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940227,
+          23.691116
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché couvert Municipal El Massira"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7846057376",
+      "name": "Ostéiculteur",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "osteiculteur-dakhla",
+      "category": "souks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.738077,
+          23.801377
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Ostéiculteur"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8321449218",
+      "name": "Jacuzzi Souffre",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jacuzzi-souffre-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.910542,
+          23.795951
+        ]
+      },
+      "osm_tags": {
+        "name": "جاكوزي الكبريت",
+        "name:en": "Jacuzzi Souffre",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8540603833",
+      "name": "Dar Tawarta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-tawarta-dakhla",
+      "category": "riads",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.920924,
+          23.768978
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "yes",
+        "name": "Dar Tawarta",
+        "phone": "+212 6 61 16 86 58",
+        "tourism": "guest_house",
+        "website": "https://dartawartadakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dartawartadakhla.com/",
+      "phone": "+212 6 61 16 86 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11015219609",
+      "name": "Dakhla Club",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-club-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.769698,
+          23.900284
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla Club",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11024972525",
+      "name": "Marché Du Moutons",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-du-moutons-dakhla",
+      "category": "souks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.979145,
+          23.677801
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Du Moutons"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11339206871",
+      "name": "Dakhla South Bay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-south-bay-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.906809,
+          23.766536
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla South Bay",
+        "tourism": "hotel",
+        "website": "https://www.dakhlasouthbay.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dakhlasouthbay.ma/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11372122732",
+      "name": "Jus Ismael",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jus-ismael-dakhla",
+      "category": "local-food",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.93898,
+          23.692573
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Jus Ismael"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11372122766",
+      "name": "Snack \"Med\"",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-med-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.930159,
+          23.69964
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack \"Med\""
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11383187370",
+      "name": "Snack-Restau Al Akhawayne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-restau-al-akhawayne-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928003,
+          23.702919
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Snack-Restau Al Akhawayne"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11849900040",
+      "name": "Hotel Ayouz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-ayouz-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.94388,
+          23.689091
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Ayouz",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11860632156",
+      "name": "La Tour D'Éole",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-tour-d-eole-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.783587,
+          23.73745
+        ]
+      },
+      "osm_tags": {
+        "name": "La Tour D'Éole",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11871346878",
+      "name": "Mohamdou Agah Sidi Brahim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mohamdou-agah-sidi-brahim-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.8533,
+          23.6411
+        ]
+      },
+      "osm_tags": {
+        "name": "Mohamdou Agah Sidi Brahim",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11871358851",
+      "name": "Oasis Hotel 212",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-hotel-212-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "Route d’El Argoub, Dakhla 73000",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.8605,
+          23.6306
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Route d’El Argoub, Dakhla 73000",
+        "name": "Oasis Hotel 212",
+        "tourism": "hotel",
+        "website": "https://www.oasis212.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.oasis212.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12153266373",
+      "name": "Camping des pecheurs",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-des-pecheurs-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.926304,
+          23.549448
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping des pecheurs",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361568161",
+      "name": "La Crique",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-crique-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.902373,
+          23.770425
+        ]
+      },
+      "osm_tags": {
+        "name": "La Crique",
+        "tourism": "hotel",
+        "website": "https://lacrique.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://lacrique.ma/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361582185",
+      "name": "Caravan by Habitas Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "caravan-by-habitas-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.781348,
+          23.91391
+        ]
+      },
+      "osm_tags": {
+        "name": "Caravan by Habitas Dakhla",
+        "tourism": "hotel",
+        "website": "https://www.ourhabitas.com/caravan-dakhla/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.ourhabitas.com/caravan-dakhla/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361593128",
+      "name": "La verda Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-verda-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.900227,
+          23.791533
+        ]
+      },
+      "osm_tags": {
+        "name": "La verda Dakhla",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/ma/la-verda-dakhla-dakhla.fr.html"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.booking.com/hotel/ma/la-verda-dakhla-dakhla.fr.html",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361595613",
+      "name": "Bavaro Beach Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bavaro-beach-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.894066,
+          23.797583
+        ]
+      },
+      "osm_tags": {
+        "name": "Bavaro Beach Dakhla",
+        "tourism": "hotel",
+        "website": "https://bavarobeachdakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://bavarobeachdakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361648806",
+      "name": "Dakhla Evasion",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-evasion-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.77828,
+          23.914101
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla Evasion",
+        "tourism": "hotel",
+        "website": "https://www.dakhla-evasion.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dakhla-evasion.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361651445",
+      "name": "PK25 Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pk25-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.785099,
+          23.901666
+        ]
+      },
+      "osm_tags": {
+        "name": "PK25 Dakhla",
+        "tourism": "hotel",
+        "website": "https://www.dakhlapk25.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.dakhlapk25.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361687910",
+      "name": "White Dune Canyon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "white-dune-canyon-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.734392,
+          23.807154
+        ]
+      },
+      "osm_tags": {
+        "name": "White Dune Canyon",
+        "tourism": "hotel",
+        "website": "https://whitedunecanyon.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://whitedunecanyon.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361689699",
+      "name": "Secret Spot",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "secret-spot-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.714684,
+          23.817291
+        ]
+      },
+      "osm_tags": {
+        "name": "Secret Spot",
+        "tourism": "hotel",
+        "website": "https://secretspot-dakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://secretspot-dakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361690092",
+      "name": "Heliophora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "heliophora-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.854997,
+          23.638576
+        ]
+      },
+      "osm_tags": {
+        "name": "Heliophora",
+        "tourism": "hotel",
+        "website": "https://heliophora-dakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://heliophora-dakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12361696622",
+      "name": "Paraiso Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paraiso-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.734357,
+          23.852275
+        ]
+      },
+      "osm_tags": {
+        "name": "Paraiso Dakhla",
+        "tourism": "hotel",
+        "website": "https://www.paraisodakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.paraisodakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12362410543",
+      "name": "Foum El Bouir Parc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "foum-el-bouir-parc-dakhla",
+      "category": "national-parks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.919794,
+          23.767331
+        ]
+      },
+      "osm_tags": {
+        "garden:type": "botanical",
+        "leisure": "garden",
+        "name": "Foum El Bouir Parc"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12362432432",
+      "name": "Chiringuito Cabana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chiringuito-cabana-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.923454,
+          23.771378
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chiringuito Cabana",
+        "phone": "+212 8 08 62 37 78"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 8 08 62 37 78",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12362447811",
+      "name": "La Merveille",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-merveille-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.922776,
+          23.772727
+        ]
+      },
+      "osm_tags": {
+        "contact:instagram": "lamerveilledakhla",
+        "email": "lamerveilledakhla@gmail.com",
+        "name": "La Merveille",
+        "phone": "+212 6 61 75 39 25",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 75 39 25",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12362470224",
+      "name": "Résidence Johara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "residence-johara-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.913384,
+          23.738089
+        ]
+      },
+      "osm_tags": {
+        "name": "Résidence Johara",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12372376457",
+      "name": "Dakhla quad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-quad-dakhla",
+      "category": "historical-sites",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.78689,
+          23.901923
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla quad",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13128222201",
+      "name": "Echarfaa Food",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "echarfaa-food-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.950719,
+          23.691948
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Echarfaa Food",
+        "opening_hours": "Mo-Su 07:00-22:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 07:00-22:00"
+    },
+    {
+      "osm_id": "node/13128885801",
+      "name": "Gladys",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gladys-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "Boulevard 4 Mars شارع 4 مارس",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931245,
+          23.69891
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard 4 Mars شارع 4 مارس",
+        "amenity": "restaurant",
+        "name": "Gladys",
+        "opening_hours": "Mo-Su 12:00-00:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 12:00-00:00"
+    },
+    {
+      "osm_id": "node/13130466501",
+      "name": "Hôtel Rias Dakhla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-rias-dakhla-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "Avenue Abderrahim Bouaâbid",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.940771,
+          23.687966
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Abderrahim Bouaâbid",
+        "internet_access": "wlan",
+        "name": "Hôtel Rias Dakhla",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13131564502",
+      "name": "Teranga",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "teranga-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "Boulevard Al Walaa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92807,
+          23.703155
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Boulevard Al Walaa",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "internet_access": "wlan",
+        "name": "Teranga",
+        "opening_hours": "Mo-Sa 13:00-21:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Sa 13:00-21:00"
+    },
+    {
+      "osm_id": "node/13133279301",
+      "name": "Polpo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "polpo-dakhla",
+      "category": "seafood",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.946647,
+          23.697015
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name": "Polpo"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13307751638",
+      "name": "Camping Tawarta",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-tawarta-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.914952,
+          23.79513
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Tawarta",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13340408801",
+      "name": "Patisserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patisserie-dakhla",
+      "category": "bakeries",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931254,
+          23.699008
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Patisserie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13430491752",
+      "name": "Boutique Hôtel Albaraka",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boutique-hotel-albaraka-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "Boulevard Allal Ben Abdelleh شارع علال بن عبد ﷲ, Dakhla ⴷⴰⵅⵍⴰ الداخلة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.926604,
+          23.702199
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dakhla ⴷⴰⵅⵍⴰ الداخلة",
+        "addr:postcode": "73000",
+        "addr:street": "Boulevard Allal Ben Abdelleh شارع علال بن عبد ﷲ",
+        "internet_access": "yes",
+        "name": "Boutique Hôtel Albaraka",
+        "phone": "+212 5 28 93 47 44",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 28 93 47 44",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/179579683",
+      "name": "Camping Moussafir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-moussafir-dakhla",
+      "category": "desert-camps",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.906696,
+          23.762929
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "name": "Camping Moussafir",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/179591892",
+      "name": "Jardin Public",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-public-dakhla",
+      "category": "national-parks",
+      "city": "dakhla",
+      "address": "Dajla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.947619,
+          23.686873
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dajla",
+        "addr:city:ar": "الداخلة",
+        "addr:city:es": "Dajla",
+        "leisure": "park",
+        "name": "Jardin Public",
+        "name:es": "Jardín Público"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/251760808",
+      "name": "Oasis Eco Lodge",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oasis-eco-lodge-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.763549,
+          23.914577
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "contact:instagram": "lagonenergy",
+        "name": "Oasis Eco Lodge",
+        "phone": "+212 6 13 03 78 61",
+        "tourism": "hotel",
+        "website": "https://lagonenergydakhla.com"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://lagonenergydakhla.com",
+      "phone": "+212 6 13 03 78 61",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/251777250",
+      "name": "JARDIN ALMONTAZAH",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-almontazah-dakhla",
+      "category": "national-parks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.942088,
+          23.69631
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "fee": "no",
+        "garden:type": "street_side",
+        "leisure": "garden",
+        "name": "JARDIN ALMONTAZAH",
+        "operator": "Public",
+        "operator:type": "public/government"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/310870235",
+      "name": "Masjid an-Nasr مسجد النصر",
+      "name_fr": null,
+      "name_ar": "مسجد النصر",
+      "slug": "masjid-an-nasr-dakhla",
+      "category": "mosques",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.924999,
+          23.70931
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Masjid an-Nasr مسجد النصر",
+        "name:ar": "مسجد النصر",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/312047720",
+      "name": "Porto Rico",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "porto-rico-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.952583,
+          23.477948
+        ]
+      },
+      "osm_tags": {
+        "name": "Porto Rico",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/312255423",
+      "name": "Dakhla Palm Lagon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dakhla-palm-lagon-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.900663,
+          23.778789
+        ]
+      },
+      "osm_tags": {
+        "name": "Dakhla Palm Lagon",
+        "tourism": "hotel",
+        "website": "https://palmlagoondakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://palmlagoondakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/312270446",
+      "name": "Mosquée Eddarham",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-eddarham-dakhla",
+      "category": "mosques",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.93826,
+          23.690574
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mosquée Eddarham",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/312273906",
+      "name": "La Grande Mosquée",
+      "name_fr": null,
+      "name_ar": "الجامع الكبير",
+      "slug": "la-grande-mosquee-dakhla",
+      "category": "mosques",
+      "city": "dakhla",
+      "address": "Dajla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.949721,
+          23.687764
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dajla",
+        "addr:city:ar": "الداخلة",
+        "addr:city:es": "Dajla",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "La Grande Mosquée",
+        "name:ar": "الجامع الكبير",
+        "name:es": "La Gran Mezquita",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/430913741",
+      "name": "Jardin al Ghofrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-al-ghofrane-dakhla",
+      "category": "national-parks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.938339,
+          23.697268
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin al Ghofrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/549010870",
+      "name": "Sahara Regency",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sahara-regency-dakhla",
+      "category": "luxury-hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928119,
+          23.702144
+        ]
+      },
+      "osm_tags": {
+        "building": "hotel",
+        "internet_access": "wlan",
+        "name": "Sahara Regency",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": 4,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/549010875",
+      "name": "Jardin de Saint-Germain-en-Laye حديقه سان جيرمان اون لاي",
+      "name_fr": "Jardin de Saint-Germain-en-Laye",
+      "name_ar": "حديقه سان جيرمان اون لاي",
+      "slug": "jardin-de-saint-germain-en-laye-dakhla",
+      "category": "national-parks",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.928827,
+          23.702622
+        ]
+      },
+      "osm_tags": {
+        "leisure": "garden",
+        "name": "Jardin de Saint-Germain-en-Laye حديقه سان جيرمان اون لاي",
+        "name:ar": "حديقه سان جيرمان اون لاي",
+        "name:fr": "Jardin de Saint-Germain-en-Laye"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/549229952",
+      "name": "Samarkand",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "samarkand-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931479,
+          23.696525
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;seafood",
+        "internet_access": "wlan",
+        "name": "Samarkand",
+        "name:es": "Samarcanda",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/812791992",
+      "name": "Mezquita",
+      "name_fr": null,
+      "name_ar": "مسجد",
+      "slug": "mezquita-dakhla",
+      "category": "mosques",
+      "city": "dakhla",
+      "address": "Dajla",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.944442,
+          23.696485
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dajla",
+        "addr:city:es": "Dajla",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Mezquita",
+        "name:ar": "مسجد",
+        "name:de": "Moschee",
+        "name:es": "Mezquita",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/921269105",
+      "name": "Westpoint Dakhla Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "westpoint-dakhla-hotel-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92414,
+          23.768416
+        ]
+      },
+      "osm_tags": {
+        "name": "Westpoint Dakhla Hotel",
+        "phone": "+212 6 61 83 50 10",
+        "tourism": "hotel",
+        "website": "https://westpointdakhla.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://westpointdakhla.ma/",
+      "phone": "+212 6 61 83 50 10",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/921269106",
+      "name": "Pescador",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pescador-dakhla",
+      "category": "restaurants",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.925105,
+          23.767542
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Pescador"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1226330192",
+      "name": "Hotel Ahram",
+      "name_fr": null,
+      "name_ar": "الاهرام",
+      "slug": "hotel-ahram-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "Dakhla ⴷⴰⵅⵍⴰ الداخلة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.931322,
+          23.697749
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Dakhla ⴷⴰⵅⵍⴰ الداخلة",
+        "building": "yes",
+        "name": "Hotel Ahram",
+        "name:ar": "الاهرام",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1336572177",
+      "name": "Tulum Beach Resort",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tulum-beach-resort-dakhla",
+      "category": "hotels",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.923955,
+          23.771255
+        ]
+      },
+      "osm_tags": {
+        "name": "Tulum Beach Resort",
+        "tourism": "hotel",
+        "website": "https://tulumbeachdakhla.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://tulumbeachdakhla.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1338100127",
+      "name": "Lassarga beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lassarga-beach-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.994993,
+          23.631898
+        ]
+      },
+      "osm_tags": {
+        "lifeguard": "no",
+        "name": "La plage de Lassarga",
+        "name:en": "Lassarga beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "wikimedia_commons": "Category:Lassarga_beach,_Marocco"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1500200126",
+      "name": "Oum Labouir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "oum-labouir-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.92238,
+          23.762721
+        ]
+      },
+      "osm_tags": {
+        "name": "Oum Labouir",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/4181306",
+      "name": "Beach of Pikín",
+      "name_fr": "Plage de Pikín",
+      "name_ar": null,
+      "slug": "beach-of-pikin-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.920563,
+          23.550653
+        ]
+      },
+      "osm_tags": {
+        "name": "Playa de Pikin",
+        "name:en": "Beach of Pikín",
+        "name:es": "Playa de Pikin",
+        "name:fr": "Plage de Pikín",
+        "natural": "beach",
+        "type": "multipolygon",
+        "wikidata": "Q23935598"
+      },
+      "wikidata": "Q23935598",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/4181802",
+      "name": "Playa de los Patos",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "playa-de-los-patos-dakhla",
+      "category": "beaches",
+      "city": "dakhla",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -15.957801,
+          23.463305
+        ]
+      },
+      "osm_tags": {
+        "name": "Playa de los Patos",
+        "name:es": "Playa de los Patos",
+        "natural": "beach",
+        "type": "multipolygon",
+        "wikidata": "Q23935592"
+      },
+      "wikidata": "Q23935592",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

@@ -1,0 +1,4097 @@
+{
+  "city": "ifrane",
+  "fetched_at": "2026-06-08T11:14:06.519Z",
+  "raw_count": 330,
+  "places": [
+    {
+      "osm_id": "node/539074734",
+      "name": "Camp Amazigh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-amazigh-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.170441,
+          33.449297
+        ]
+      },
+      "osm_tags": {
+        "name": "Camp Amazigh",
+        "phone": "+212 6 65 36 16 40",
+        "tourism": "camp_site",
+        "website": "https://www.camping-amazigh.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.camping-amazigh.com/",
+      "phone": "+212 6 65 36 16 40",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/550174695",
+      "name": "Cèdre de Gouraud",
+      "name_fr": "Cèdre de Gouraud",
+      "name_ar": null,
+      "slug": "cedre-de-gouraud-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.155379,
+          33.426368
+        ]
+      },
+      "osm_tags": {
+        "circumference": "8 m",
+        "height": "40",
+        "name": "Cèdre de Gouraud",
+        "name:fr": "Cèdre de Gouraud",
+        "name:ru": "Кедровый лес",
+        "natural": "tree",
+        "tourism": "attraction",
+        "wikidata": "Q2602978",
+        "wikimedia_commons": "Category:Cèdre Gouraud",
+        "wikipedia": "ar:غابة أرز غورو"
+      },
+      "wikidata": "Q2602978",
+      "wikipedia": "ar:غابة أرز غورو",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/982795800",
+      "name": "Hotel Panorama",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-panorama-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.214972,
+          33.435437
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Panorama",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1117532344",
+      "name": "Hotel El Fath",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-el-fath-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.22234,
+          33.437746
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel El Fath",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329828073",
+      "name": "Wild Monkeys",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wild-monkeys-ifrane",
+      "category": "kids-activities",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.177857,
+          33.420379
+        ]
+      },
+      "osm_tags": {
+        "name": "Wild Monkeys",
+        "tourism": "zoo"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1329833626",
+      "name": "Palais de Cerisiers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-de-cerisiers-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.180419,
+          33.444674
+        ]
+      },
+      "osm_tags": {
+        "name": "Palais de Cerisiers",
+        "source": "Local Knowledge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1654407788",
+      "name": "Auberge de Jeunesse d'Azrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-de-jeunesse-d-azrou-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.209445,
+          33.438895
+        ]
+      },
+      "osm_tags": {
+        "name": "Auberge de Jeunesse d'Azrou",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1654421913",
+      "name": "Musée Régional Berbère",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musee-regional-berbere-ifrane",
+      "category": "history-museums",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222881,
+          33.434764
+        ]
+      },
+      "osm_tags": {
+        "name": "Musée Régional Berbère",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1654533154",
+      "name": "Hotel Azrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-azrou-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.2262,
+          33.433476
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Azrou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576863",
+      "name": "Restaurants",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurants-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.105772,
+          33.539309
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurants"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576875",
+      "name": "Chez Said",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-said-ifrane",
+      "category": "local-food",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.1164,
+          33.526135
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Chez Said"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576879",
+      "name": "AUI Shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aui-shop-ifrane",
+      "category": "food-markets",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.106258,
+          33.539123
+        ]
+      },
+      "osm_tags": {
+        "name": "AUI Shop",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576906",
+      "name": "Cafeteria Newrest",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafeteria-newrest-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.10607,
+          33.539275
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafeteria Newrest"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576910",
+      "name": "Restaurant Al-Akhawayn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-al-akhawayn-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.115885,
+          33.525664
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Al-Akhawayn"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576987",
+      "name": "Restaurant Chez Amal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-chez-amal-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.116126,
+          33.525764
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Chez Amal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660576992",
+      "name": "Chicken Restaurant",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chicken-restaurant-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.115651,
+          33.526077
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "fixme": "name",
+        "name": "Chicken Restaurant"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1660577048",
+      "name": "La Paix",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-paix-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107063,
+          33.528589
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "La Paix"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1683516741",
+      "name": "Hotel Beauséjour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-beausejour-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220291,
+          33.434879
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Beauséjour",
+        "source": "Wikimapia",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1698451237",
+      "name": "Grand Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "grand-hotel-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.108716,
+          33.527896
+        ]
+      },
+      "osm_tags": {
+        "name": "Grand Hotel",
+        "name:es": "Gran Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1698451245",
+      "name": "Forest",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "forest-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107372,
+          33.529044
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Forest"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1723400082",
+      "name": "Restaurant Annour - Chez Hassan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-annour-chez-hassan-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.221031,
+          33.437012
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "mediterranean;grill;barbecue",
+        "name": "Restaurant Annour - Chez Hassan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2312523062",
+      "name": "Mandar Ito",
+      "name_fr": "Mandar Ito",
+      "name_ar": "مندرايطو",
+      "slug": "mandar-ito-ifrane",
+      "category": "sunset-spots",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.321556,
+          33.545794
+        ]
+      },
+      "osm_tags": {
+        "name": "مندرايطو",
+        "name:ar": "مندرايطو",
+        "name:en": "Mandar Ito",
+        "name:fr": "Mandar Ito",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2464563023",
+      "name": "centre de Vacance Marsa Maroc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "centre-de-vacance-marsa-maroc-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.130257,
+          33.52376
+        ]
+      },
+      "osm_tags": {
+        "name": "centre de Vacance Marsa Maroc",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2793706811",
+      "name": "Platene",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "platene-ifrane",
+      "category": "moroccan-cuisine",
+      "city": "ifrane",
+      "address": "IFRANE",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.11615,
+          33.525885
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "IFRANE",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "cuisine": "moroccan",
+        "name": "Platene",
+        "smoking": "outside",
+        "website": "https://www.facebook.com/RestaurantPlatane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/RestaurantPlatane",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2962416814",
+      "name": "Diamant de l'atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "diamant-de-l-atlas-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222219,
+          33.43479
+        ]
+      },
+      "osm_tags": {
+        "name": "Diamant de l'atlas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2964329851",
+      "name": "La Perle d'Azrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-perle-d-azrou-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.294809,
+          33.414379
+        ]
+      },
+      "osm_tags": {
+        "name": "La Perle d'Azrou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3144344635",
+      "name": "Jbel Hebri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jbel-hebri-ifrane",
+      "category": "mountains",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.142982,
+          33.360291
+        ]
+      },
+      "osm_tags": {
+        "ele": "2104",
+        "name": "Jbel Hebri",
+        "natural": "peak",
+        "wikidata": "Q19286542",
+        "wikipedia": "ar:جبل هبري"
+      },
+      "wikidata": "Q19286542",
+      "wikipedia": "ar:جبل هبري",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3206571368",
+      "name": "Chamonix ⵛⴰⵎⵓⵏⵉ شاموني",
+      "name_fr": "Chamonix",
+      "name_ar": "شاموني",
+      "slug": "chamonix-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "إفران",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.106703,
+          33.52853
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "إفران",
+        "addr:city:ar": "إفران",
+        "name": "Chamonix ⵛⴰⵎⵓⵏⵉ شاموني",
+        "name:ar": "شاموني",
+        "name:ber": "ⵛⴰⵎⵓⵏⵉ",
+        "name:etymology": "شاموني",
+        "name:etymology:wikidata": "Q83236",
+        "name:etymology:wikipedia": "ar:شاموني",
+        "name:fr": "Chamonix",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3206574753",
+      "name": "Le Master",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-master-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107342,
+          33.52869
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Le Master"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3206574966",
+      "name": "Akhawain",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "akhawain-ifrane",
+      "category": "food-markets",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107446,
+          33.528948
+        ]
+      },
+      "osm_tags": {
+        "name": "Akhawain",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3238092824",
+      "name": "petite cascade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "petite-cascade-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.004947,
+          33.719737
+        ]
+      },
+      "osm_tags": {
+        "name": "petite cascade",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3304408877",
+      "name": "Camping ARZ (Complexe touristique)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-arz-complexe-touristique-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.134693,
+          33.514355
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping ARZ (Complexe touristique)",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3323950478",
+      "name": "Farah Inn ifrane",
+      "name_fr": "Farah Inn ifrane",
+      "name_ar": "فرح ان افران",
+      "slug": "farah-inn-ifrane-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "nouvelle station touristique biladi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.133075,
+          33.518382
+        ]
+      },
+      "osm_tags": {
+        "addr:postcode": "53000",
+        "addr:street": "nouvelle station touristique biladi",
+        "email": "resa@farahinnifrane.ma",
+        "internet_access": "wlan",
+        "name": "Farah Inn ifrane فرح ان افران",
+        "name:ar": "فرح ان افران",
+        "name:en": "Farah Inn ifrane",
+        "name:fr": "Farah Inn ifrane",
+        "opening_hours": "24/7",
+        "phone": "+212 5 35 56 71 24",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 35 56 71 24",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/3839529861",
+      "name": "Mecafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mecafe-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "AZROU",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220075,
+          33.435833
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "AZROU",
+        "amenity": "cafe",
+        "name": "Mecafe",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3839540706",
+      "name": "Restaurant Bilal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-bilal-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "65, Place Mohamed 5, Azrou ⴰⵣⵔⵓ أزرو",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220981,
+          33.435618
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Azrou ⴰⵣⵔⵓ أزرو",
+        "addr:housenumber": "65",
+        "addr:street": "Place Mohamed 5",
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop;regional",
+        "name": "Restaurant Bilal",
+        "outdoor_seating": "yes",
+        "phone": "+212 8 08 53 20 29"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 8 08 53 20 29",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4335444974",
+      "name": "Ghazal grocer's",
+      "name_fr": "Épicerie Ghazal",
+      "name_ar": "بقالة غزال",
+      "slug": "ghazal-grocer-s-ifrane",
+      "category": "food-markets",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.121349,
+          33.522862
+        ]
+      },
+      "osm_tags": {
+        "name": "Épicerie Ghazal ⵜⴰⵃⴰⵏⵓⵜ ⵏ ⵖⴰⵣⴰⵍ بقالة غزال",
+        "name:ar": "بقالة غزال",
+        "name:ber": "ⵜⴰⵃⴰⵏⵓⵜ ⵏ ⵖⴰⵣⴰⵍ",
+        "name:en": "Ghazal grocer's",
+        "name:fr": "Épicerie Ghazal",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4348057789",
+      "name": "ضايةعوا",
+      "name_fr": null,
+      "name_ar": "ضايةعوا",
+      "slug": "ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.029577,
+          33.652324
+        ]
+      },
+      "osm_tags": {
+        "name": "ضايةعوا",
+        "name:ar": "ضايةعوا",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4433787791",
+      "name": "Monkeys",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "monkeys-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.123574,
+          33.494487
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Monkeys",
+        "name:ro": "Maimuțe",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4433846789",
+      "name": "Auberge du derniere lion de l'Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "auberge-du-derniere-lion-de-l-atlas-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.231651,
+          33.449632
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Auberge du derniere lion de l'Atlas",
+        "name:ro": "Auberge du derniere lion de l'Atlas",
+        "tourism": "hostel",
+        "website": "http://www.dernierlionatlas.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.dernierlionatlas.ma/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4756658193",
+      "name": "Hanut Ain Sultan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hanut-ain-sultan-ifrane",
+      "category": "food-markets",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.004763,
+          33.72242
+        ]
+      },
+      "osm_tags": {
+        "name": "Hanut Ain Sultan",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4758142727",
+      "name": "Cascade d'Immouzer Kandar (temporaire)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cascade-d-immouzer-kandar-temporaire-ifrane",
+      "category": "sunset-spots",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.014306,
+          33.718142
+        ]
+      },
+      "osm_tags": {
+        "name": "Cascade d'Immouzer Kandar (temporaire)",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4758213310",
+      "name": "Atlas Escale",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-escale-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.011484,
+          33.715372
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Atlas Escale"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4788311694",
+      "name": "Ain Soltane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ain-soltane-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.002452,
+          33.718745
+        ]
+      },
+      "osm_tags": {
+        "name": "Ain Soltane",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5075066023",
+      "name": "Gîte Takchmirte",
+      "name_fr": "Gîte Takchmirte",
+      "name_ar": null,
+      "slug": "gite-takchmirte-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.20907,
+          33.447986
+        ]
+      },
+      "osm_tags": {
+        "name": "Gîte Takchmirte",
+        "name:fr": "Gîte Takchmirte",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5103660999",
+      "name": "L'escalade",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-escalade-ifrane",
+      "category": "bakeries",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.221168,
+          33.435609
+        ]
+      },
+      "osm_tags": {
+        "name": "L'escalade",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5103664460",
+      "name": "Prince Café Pâtisserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "prince-cafe-patisserie-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.226361,
+          33.441594
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Prince Café Pâtisserie"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5332192857",
+      "name": "L'Empreinte d'Ifrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-empreinte-d-ifrane-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107502,
+          33.529342
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "L'Empreinte d'Ifrane",
+        "outdoor_seating": "yes",
+        "smoking": "separated",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5332192858",
+      "name": "Bonsai Sushi Bar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bonsai-sushi-bar-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.109806,
+          33.528921
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "capacity": "35",
+        "cuisine": "sushi;asian;japanese",
+        "delivery": "no",
+        "name": "Bonsai Sushi Bar",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5332192859",
+      "name": "Hani Cook",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hani-cook-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.109735,
+          33.529134
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "capacity": "30",
+        "cuisine": "fast_food;Cakes",
+        "delivery": "no",
+        "name": "Hani Cook",
+        "outdoor_seating": "no",
+        "smoking": "yes",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5508120014",
+      "name": "sweet azrou holiday",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sweet-azrou-holiday-ifrane",
+      "category": "boutique-hotels",
+      "city": "ifrane",
+      "address": "65, Atlas 2",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.22962,
+          33.450767
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "65",
+        "addr:street": "Atlas 2",
+        "name": "sweet azrou holiday",
+        "phone": "+212 6 65 16 39 44",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 65 16 39 44",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5876473288",
+      "name": "Lion Statue",
+      "name_fr": "Statue de Lion",
+      "name_ar": "تمثال الأسد",
+      "slug": "lion-statue-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.105888,
+          33.528424
+        ]
+      },
+      "osm_tags": {
+        "access": "yes",
+        "historic": "monument",
+        "name": "Statue de Lion تمثال الأسد",
+        "name:ar": "تمثال الأسد",
+        "name:en": "Lion Statue",
+        "name:es": "Estatua de León",
+        "name:fr": "Statue de Lion"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5876491086",
+      "name": "L’address",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "l-address-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107371,
+          33.528588
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "L’address"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5885873685",
+      "name": "Centre Estivage ONCF",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "centre-estivage-oncf-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.130477,
+          33.527976
+        ]
+      },
+      "osm_tags": {
+        "name": "Centre Estivage ONCF",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6180880485",
+      "name": "Cave",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cave-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.997879,
+          33.727439
+        ]
+      },
+      "osm_tags": {
+        "name": "cave",
+        "name:en": "Cave",
+        "name:zh": "山洞",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6180880685",
+      "name": "Cave Discovery",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cave-discovery-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -4.997769,
+          33.727282
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Cave Discovery",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6274886786",
+      "name": "Monkey forest",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "monkey-forest-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.075919,
+          33.419674
+        ]
+      },
+      "osm_tags": {
+        "name": "Monkey forest",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6337517285",
+      "name": "Restaurant Vitel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-vitel-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.115953,
+          33.525514
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Restaurant Vitel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6441649385",
+      "name": "Farmhouse - Gîte Dayet Aoua",
+      "name_fr": "Gîte Dayet Aoua",
+      "name_ar": "مأوى ضاية عوا",
+      "slug": "farmhouse-gite-dayet-aoua-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "Lac Dayet Aoua, Km7, D'Immouzer à Ifrane",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.011236,
+          33.653362
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Lac Dayet Aoua, Km7, D'Immouzer à Ifrane",
+        "email": "Contact@gitedayetaoua.com",
+        "internet_access": "wlan",
+        "name": "مأوى ضاية عوا",
+        "name:ar": "مأوى ضاية عوا",
+        "name:en": "Farmhouse - Gîte Dayet Aoua",
+        "name:fr": "Gîte Dayet Aoua",
+        "opening_hours": "24/7",
+        "phone": "+212 5 35 61 05 75",
+        "tourism": "guest_house",
+        "website": "https://www.gitedayetaoua.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.gitedayetaoua.com/",
+      "phone": "+212 5 35 61 05 75",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/6556942287",
+      "name": "hôtel dar maroc ito",
+      "name_fr": "hôtel dar maroc ito",
+      "name_ar": null,
+      "slug": "hotel-dar-maroc-ito-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.257114,
+          33.481007
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "hôtel dar maroc ito",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6609331031",
+      "name": "Beethoven",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beethoven-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.10986,
+          33.528982
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Beethoven",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6781564141",
+      "name": "Parque de jeux enfants",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parque-de-jeux-enfants-ifrane",
+      "category": "theme-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.114257,
+          33.525315
+        ]
+      },
+      "osm_tags": {
+        "name": "Parque de jeux enfants",
+        "tourism": "theme_park"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6896951986",
+      "name": "Ifrane forêt",
+      "name_fr": "Ifrane forêt",
+      "name_ar": null,
+      "slug": "ifrane-foret-ifrane",
+      "category": "sunset-spots",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.155571,
+          33.478666
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Ifrane forêt",
+        "tourism": "viewpoint"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7184867286",
+      "name": "PISO MOHAMMED",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "piso-mohammed-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.218589,
+          33.434457
+        ]
+      },
+      "osm_tags": {
+        "name": "PISO MOHAMMED",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7909098941",
+      "name": "Yummy",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "yummy-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.226023,
+          33.44137
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese;mexican;pizza;poiss;burger;sandwich;kebab",
+        "name": "Yummy",
+        "opening_hours": "24/7"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/8281084169",
+      "name": "Gîte Foreste Tagroumt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gite-foreste-tagroumt-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "Route N8 Azrou Ifraine",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.155666,
+          33.444406
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Route N8 Azrou Ifraine",
+        "name": "Gîte Foreste Tagroumt",
+        "phone": "+212 6 62 64 76 86",
+        "tourism": "guest_house",
+        "website": "https://gite-foreste-tagroumt.business.site/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://gite-foreste-tagroumt.business.site/",
+      "phone": "+212 6 62 64 76 86",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10830600205",
+      "name": "Le rocher de l'Atlas",
+      "name_fr": "Le rocher de l'Atlas",
+      "name_ar": null,
+      "slug": "le-rocher-de-l-atlas-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.23166,
+          33.448335
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Le rocher de l'Atlas"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10910016950",
+      "name": "Abbaye de Tioumliline",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "abbaye-de-tioumliline-ifrane",
+      "category": "mausoleums",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.208997,
+          33.420789
+        ]
+      },
+      "osm_tags": {
+        "amenity": "monastery",
+        "name": "Abbaye de Tioumliline"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11125734205",
+      "name": "Le Chamonix",
+      "name_fr": "Le Chamonix",
+      "name_ar": null,
+      "slug": "le-chamonix-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.106531,
+          33.528516
+        ]
+      },
+      "osm_tags": {
+        "name:fr": "Le Chamonix",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11635270669",
+      "name": "Green café",
+      "name_fr": "Green café",
+      "name_ar": null,
+      "slug": "green-cafe-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.10741,
+          33.528778
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:fr": "Green café"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11786397092",
+      "name": "CAFE NOUR",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-nour-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.012166,
+          33.72969
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "CAFE NOUR"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11841174584",
+      "name": "Hammam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-ifrane",
+      "category": "hammams",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119694,
+          33.520931
+        ]
+      },
+      "osm_tags": {
+        "leisure": "sauna",
+        "name": "Hammam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12032969724",
+      "name": "Riad Azrou",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-azrou-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220344,
+          33.434868
+        ]
+      },
+      "osm_tags": {
+        "name": "Riad Azrou",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12032979089",
+      "name": "Hotel Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-atlas-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220414,
+          33.434863
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Atlas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12032990103",
+      "name": "Restaurant Rif",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-rif-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.22192,
+          33.435276
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Rif"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12033002204",
+      "name": "Snack la forêt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-la-foret-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222019,
+          33.435241
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Snack la forêt"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12033033287",
+      "name": "Vanilla boulangerie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "vanilla-boulangerie-ifrane",
+      "category": "bakeries",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222549,
+          33.432954
+        ]
+      },
+      "osm_tags": {
+        "name": "Vanilla boulangerie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12036743818",
+      "name": "Le Sapin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-sapin-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.225613,
+          33.440752
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Le Sapin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12046785685",
+      "name": "Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-ifrane",
+      "category": "food-markets",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.230269,
+          33.446478
+        ]
+      },
+      "osm_tags": {
+        "brand": "Carrefour",
+        "brand:wikidata": "Q217599",
+        "name": "Carrefour",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12050220797",
+      "name": "salle de prière",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salle-de-priere-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.204529,
+          33.433186
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "salle de prière",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12058037869",
+      "name": "Station de Pisciculture Ras El Ma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "station-de-pisciculture-ras-el-ma-ifrane",
+      "category": "historical-sites",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.148528,
+          33.464258
+        ]
+      },
+      "osm_tags": {
+        "name": "Station de Pisciculture Ras El Ma",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12058037870",
+      "name": "Park Ras Elma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park-ras-elma-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.13657,
+          33.476901
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Park Ras Elma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12058037871",
+      "name": "Camping Ras El Ma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-ras-el-ma-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.134772,
+          33.479343
+        ]
+      },
+      "osm_tags": {
+        "name": "Camping Ras El Ma",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12058046870",
+      "name": "Sidi Rashid Park (Ras Al Ma'a)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-rashid-park-ras-al-ma-a-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.148531,
+          33.458418
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Sidi Rashid Park (Ras Al Ma'a)"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12062115151",
+      "name": "Restaurant Al Madina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-al-madina-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.227848,
+          33.443125
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Restaurant Al Madina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13257355901",
+      "name": "Wildcamp",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "wildcamp-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.238994,
+          33.345118
+        ]
+      },
+      "osm_tags": {
+        "name": "Wildcamp",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13433034849",
+      "name": "Maison d'hôtes Duffal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-duffal-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.214161,
+          33.43652
+        ]
+      },
+      "osm_tags": {
+        "air_conditioning": "yes",
+        "name": "Maison d'hôtes Duffal",
+        "short_name": "Maison Duffal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13696104001",
+      "name": "foodies",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "foodies-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.109014,
+          33.528807
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger;sandwich",
+        "name": "foodies"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13704212801",
+      "name": "Cafe Atyal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-atyal-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.232427,
+          33.447808
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Atyal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13704212901",
+      "name": "foodie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "foodie-ifrane",
+      "category": "local-food",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.232354,
+          33.447863
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "foodie"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13755178459",
+      "name": "École Hôtelière Ersat",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ecole-hoteliere-ersat-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "Quartier Michelifen Ahadaf",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.231223,
+          33.438661
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Quartier Michelifen Ahadaf",
+        "air_conditioning": "yes",
+        "description": "École hôtelière restaurant sur place",
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "École Hôtelière Ersat",
+        "phone": "+212 5355-62070",
+        "smoking": "no",
+        "swimming_pool": "no",
+        "tourism": "hotel",
+        "website": "https://www.hotelschoolazrou.com/",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.hotelschoolazrou.com/",
+      "phone": "+212 5355-62070",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779781605",
+      "name": "Lemsieh Appartements Meublés",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lemsieh-appartements-meubles-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.118199,
+          33.543594
+        ]
+      },
+      "osm_tags": {
+        "name": "Lemsieh Appartements Meublés",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779781717",
+      "name": "Restaurant les Saveurs des Monts",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-les-saveurs-des-monts-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.137192,
+          33.517335
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant les Saveurs des Monts"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779781718",
+      "name": "Houari Grill",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "houari-grill-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119695,
+          33.522853
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Houari Grill"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779781719",
+      "name": "Tonton shawarma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tonton-shawarma-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119754,
+          33.537061
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Tonton shawarma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782004",
+      "name": "Arz Village Appart Hotel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arz-village-appart-hotel-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.134125,
+          33.517476
+        ]
+      },
+      "osm_tags": {
+        "name": "Arz Village Appart Hotel",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782208",
+      "name": "Perk & Roll",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "perk-roll-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.121157,
+          33.51772
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Perk & Roll"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782507",
+      "name": "Boulangerie Pâtisserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "boulangerie-patisserie-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119689,
+          33.52402
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Boulangerie Pâtisserie"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782508",
+      "name": "Chez mi'ma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-mi-ma-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.121142,
+          33.523714
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Chez mi'ma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782509",
+      "name": "La Bella Napoli",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-bella-napoli-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.120843,
+          33.524516
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Bella Napoli"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13779782510",
+      "name": "Lechalet Coffee shop",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lechalet-coffee-shop-ifrane",
+      "category": "cafes",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119715,
+          33.534846
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Lechalet Coffee shop"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13816254703",
+      "name": "King of Crepes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "king-of-crepes-ifrane",
+      "category": "restaurants",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.10689,
+          33.528572
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "King of Crepes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/96006546",
+      "name": "Dar Maroc",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-maroc-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.257147,
+          33.480989
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Dar Maroc",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/96444912",
+      "name": "Grande Mosquée Ennour المسجد الكبير النور",
+      "name_fr": "Grande Mosquée Ennour",
+      "name_ar": "المسجد الكبير النور",
+      "slug": "grande-mosquee-ennour-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.221823,
+          33.436479
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Grande Mosquée Ennour المسجد الكبير النور",
+        "name:ar": "المسجد الكبير النور",
+        "name:fr": "Grande Mosquée Ennour",
+        "religion": "muslim",
+        "source": "survey+Bing"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/147207982",
+      "name": "Parc D'Ifrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-d-ifrane-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107397,
+          33.541826
+        ]
+      },
+      "osm_tags": {
+        "landuse": "forest",
+        "leisure": "park",
+        "name": "Parc D'Ifrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/153351507",
+      "name": "Marché",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-ifrane",
+      "category": "souks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.115295,
+          33.52628
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché",
+        "name:es": "Mercado"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/157598917",
+      "name": "Masjid Al Akhawayn",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-akhawayn-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.106879,
+          33.539445
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Akhawayn",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/292707235",
+      "name": "Jardin Ennour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-ennour-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222536,
+          33.435802
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin Ennour"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/292874447",
+      "name": "Palais des cerisiers",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-des-cerisiers-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.180499,
+          33.444286
+        ]
+      },
+      "osm_tags": {
+        "name": "Palais des cerisiers",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/292877377",
+      "name": "Le vallon vert",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-vallon-vert-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.266274,
+          33.431745
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Le vallon vert",
+        "tourism": "hotel",
+        "website": "http://www.vallon-vert.com/fr"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "http://www.vallon-vert.com/fr",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/311634039",
+      "name": "Ifrane National Park",
+      "name_fr": "Parc National D'Ifrane",
+      "name_ar": "المنتزه الوطني إفران",
+      "slug": "ifrane-national-park-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "إفران",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.140201,
+          33.444559
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "إفران",
+        "addr:city:ar": "إفران",
+        "alt_name:ar": "المنتزه الوطني لإفران",
+        "boundary": "national_park",
+        "leisure": "nature_reserve",
+        "name": "Parc National D'Ifrane المنتزه الوطني إفران",
+        "name:ar": "المنتزه الوطني إفران",
+        "name:ber": "ⴰⴼⵔⴰⴳ ⴰⵏⴰⵎⵓⵔ ⵏ ⵉⴼⵔⴰⵏ",
+        "name:en": "Ifrane National Park",
+        "name:fr": "Parc National D'Ifrane",
+        "protect_class": "2",
+        "wikidata": "Q1438561",
+        "wikimedia_commons": "Category:Ifrane National Park",
+        "wikipedia": "ar:المنتزه الوطني إفران",
+        "wikipedia:ar": "المنتزه الوطني إفران"
+      },
+      "wikidata": "Q1438561",
+      "wikipedia": "ar:المنتزه الوطني إفران",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/311634040",
+      "name": "Maison de la cédraie (Site Moudmame)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-de-la-cedraie-site-moudmame-ifrane",
+      "category": "history-museums",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.177192,
+          33.420107
+        ]
+      },
+      "osm_tags": {
+        "museum": "écomusée",
+        "name": "Maison de la cédraie (Site Moudmame)",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/325551843",
+      "name": "Hotel Michliffen",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-michliffen-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107741,
+          33.534537
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Hotel Michliffen",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/325764375",
+      "name": "Park Essalam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park-essalam-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.119905,
+          33.52026
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Park Essalam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/363938520",
+      "name": "Park Mohammed 5",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park-mohammed-5-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.110562,
+          33.527069
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Park Mohammed 5",
+        "name:es": "Parque Mohamed V"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/363940892",
+      "name": "Masjid Niger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-niger-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.116125,
+          33.523806
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Niger",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/441673528",
+      "name": "Camping Municipal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camping-municipal-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.016268,
+          33.726934
+        ]
+      },
+      "osm_tags": {
+        "description:en": "More a parc, with a lot of rubbish.",
+        "description:fr": "C'est plus une parque public. No supervision ou clôture.",
+        "name": "Camping Municipal",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/457241658",
+      "name": "Mosquée Mohamed V مسجد محمد الخامس",
+      "name_fr": "Mosquée Mohamed V",
+      "name_ar": "مسجد محمد الخامس",
+      "slug": "mosquee-mohamed-v-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.010425,
+          33.733077
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "name": "Mosquée Mohamed V مسجد محمد الخامس",
+        "name:ar": "مسجد محمد الخامس",
+        "name:fr": "Mosquée Mohamed V",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475879321",
+      "name": "Masjid Assabab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-assabab-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.217947,
+          33.433298
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Assabab",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475879960",
+      "name": "Masjid Si Mohamed",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-si-mohamed-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.222419,
+          33.433925
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Si Mohamed",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475880058",
+      "name": "Masjid Moulay al-Hassan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-moulay-al-hassan-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.221608,
+          33.435338
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Moulay al-Hassan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475880250",
+      "name": "Masjid Assaâda مسجد السعادة",
+      "name_fr": "Masjid Assaâda",
+      "name_ar": "مسجد السعادة",
+      "slug": "masjid-assaada-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.227479,
+          33.437833
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Assaâda مسجد السعادة",
+        "name:ar": "مسجد السعادة",
+        "name:fr": "Masjid Assaâda",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475882159",
+      "name": "Masjid Ahadaf مسجد أحداف",
+      "name_fr": "Masjid Ahadaf",
+      "name_ar": "مسجد أحداف",
+      "slug": "masjid-ahadaf-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.225425,
+          33.441625
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Ahadaf مسجد أحداف",
+        "name:ar": "مسجد أحداف",
+        "name:fr": "Masjid Ahadaf",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475882250",
+      "name": "Masjid Jadid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-jadid-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.224783,
+          33.443635
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Jadid",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475882460",
+      "name": "Masjid Al Ikhlass مسجد الاخلاص",
+      "name_fr": "Masjid Al Ikhlass",
+      "name_ar": "مسجد الاخلاص",
+      "slug": "masjid-al-ikhlass-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.226292,
+          33.446997
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Ikhlass مسجد الاخلاص",
+        "name:ar": "مسجد الاخلاص",
+        "name:fr": "Masjid Al Ikhlass",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475882683",
+      "name": "Masjid al-Falah مسجد الفلاح",
+      "name_fr": "Masjid al-Falah",
+      "name_ar": "مسجد الفلاح",
+      "slug": "masjid-al-falah-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.229659,
+          33.451736
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid al-Falah مسجد الفلاح",
+        "name:ar": "مسجد الفلاح",
+        "name:fr": "Masjid al-Falah",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475882823",
+      "name": "Masjid Arraha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-arraha-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.218219,
+          33.446075
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Arraha",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475883525",
+      "name": "Masjid al-Ihsan مسجد الإحسان",
+      "name_fr": "Masjid al-Ihsan",
+      "name_ar": "مسجد الإحسان",
+      "slug": "masjid-al-ihsan-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.230575,
+          33.442227
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid al-Ihsan مسجد الإحسان",
+        "name:ar": "مسجد الإحسان",
+        "name:fr": "Masjid al-Ihsan",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/475885204",
+      "name": "Mosquée Tarik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tarik-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.233,
+          33.451238
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Tarik",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482573087",
+      "name": "Masjid Mohammed VI مسجد محمد السادس",
+      "name_fr": "Masjid Mohammed VI",
+      "name_ar": "مسجد محمد السادس",
+      "slug": "masjid-mohammed-vi-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.122187,
+          33.521056
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Mohammed VI مسجد محمد السادس",
+        "name:ar": "مسجد محمد السادس",
+        "name:fr": "Masjid Mohammed VI",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482865443",
+      "name": "Masjid an-Nour مسجد النور",
+      "name_fr": "Masjid an-Nour",
+      "name_ar": "مسجد النور",
+      "slug": "masjid-an-nour-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "IMOUZZER KANDAR",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.014844,
+          33.729684
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "IMOUZZER KANDAR",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Masjid an-Nour مسجد النور",
+        "name:ar": "مسجد النور",
+        "name:fr": "Masjid an-Nour",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/482891772",
+      "name": "Masjid Quartier Atlas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-quartier-atlas-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.118749,
+          33.536348
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Quartier Atlas",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/531546979",
+      "name": "Hotel Royal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-royal-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.009988,
+          33.730692
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Royal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/553062288",
+      "name": "Atlas house",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "atlas-house-ifrane",
+      "category": "riads",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.167978,
+          33.505828
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Atlas house",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/625120868",
+      "name": "De La Paix Botanical Garden حديقة السلام",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "de-la-paix-botanical-garden-ifrane",
+      "category": "national-parks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.107449,
+          33.528182
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "De La Paix Botanical Garden حديقة السلام"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/757950320",
+      "name": "Sidi Addi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-addi-ifrane",
+      "category": "mausoleums",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.326459,
+          33.39496
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Addi",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/900954497",
+      "name": "Souk Weekly Tuesday",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-weekly-tuesday-ifrane",
+      "category": "souks",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.215386,
+          33.44996
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "سوق الثلاثاء الأسبوعي",
+        "name:en": "Souk Weekly Tuesday"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1172877846",
+      "name": "Euro Camping Emirates",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "euro-camping-emirates-ifrane",
+      "category": "desert-camps",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.190234,
+          33.442919
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "fee": "yes",
+        "name": "Euro Camping Emirates",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1271413344",
+      "name": "Masjid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.22358,
+          33.445598
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1271417778",
+      "name": "Masjid Khadija",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-khadija-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.195018,
+          33.44299
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Khadija",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1271419453",
+      "name": "Masjid Abou Bakr Seddik",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-abou-bakr-seddik-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.118566,
+          33.540131
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Abou Bakr Seddik",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1271579347",
+      "name": "Mosquée al Kuds",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-kuds-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.01843,
+          33.695737
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "fixme": "is the mosque open or still under construction?",
+        "name": "Mosquée al Kuds",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1298973713",
+      "name": "Hotel des cèdres",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-des-cedres-ifrane",
+      "category": "hotels",
+      "city": "ifrane",
+      "address": "AZROU",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.220105,
+          33.435876
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "AZROU",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Hotel des cèdres",
+        "smoking": "yes",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1300635631",
+      "name": "Mosquée Adam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-adam-ifrane",
+      "category": "mosques",
+      "city": "ifrane",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.232193,
+          33.447326
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquée Adam",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

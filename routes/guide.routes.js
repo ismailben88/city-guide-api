@@ -1,10 +1,10 @@
 const router = require("express").Router();
 const ctrl   = require("../controllers/guide.controller");
-const { protect, restrict } = require("../middlewares/auth.middleware");
+const { protect, optionalProtect, restrict } = require("../middlewares/auth.middleware");
 
 router.get("/nearby", ctrl.getNearbyGuides);
 
-router.get   ("/",                   ctrl.getGuides);
+router.get   ("/",                   optionalProtect, ctrl.getGuides);
 router.get   ("/:id",                ctrl.getGuideById);
 router.post  ("/",                   protect, ctrl.createGuideProfile);
 router.put   ("/:id",                protect, ctrl.updateGuideProfile);

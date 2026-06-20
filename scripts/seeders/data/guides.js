@@ -11,13 +11,7 @@ module.exports = [
     tagline:    "Unlock the secrets of the world's oldest living city",
     bio:        "Born and raised inside Fes el-Bali, I've been a licensed guide for 12 years. I know every hidden alley, every master craftsman, and every family-run riad the tourist brochures miss. My tours focus on genuine encounters: watching leatherworkers dye hides at Chouara, joining a family lunch in a traditional Fassi home, and finding the exact spot where the call to prayer creates perfect harmonics across the medina. I graduated from the Institut de Formation Touristique de Fès and speak four languages.",
     bannerUrl:  "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Fes el-Bali Medina",
-      "Islamic Architecture",
-      "Chouara Tanneries",
-      "Fassi Gastronomy",
-      "Moroccan Culinary History",
-    ],
+    specialties: ["history", "art", "food", "cooking"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },
@@ -47,13 +41,7 @@ module.exports = [
     tagline:    "Marrakech beyond the tourist trail — with a local who loves it",
     bio:        "I was born in the Mouassine quarter of the Marrakech medina and have watched the city transform while its soul remains unchanged. As an official guide since 2010, I specialise in slow travel — not a list of sights, but genuine immersion. I lead culinary tours through the souks, private cooking classes in traditional riads, and women-led craft workshops with cooperative artisans. My background in Berber culture studies gives me a unique perspective on the intersection of Amazigh and Arab heritage that defines Marrakech.",
     bannerUrl:  "https://images.unsplash.com/photo-1566073771259-21e3c547f9f1?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Marrakech Medina",
-      "Moroccan Cuisine & Cooking Classes",
-      "Berber Culture & Crafts",
-      "Authentic Souk Shopping",
-      "Women's Cooperative Visits",
-    ],
+    specialties: ["history", "cooking", "berber", "souks", "art"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },
@@ -83,13 +71,7 @@ module.exports = [
     tagline:    "The Sahara is not a desert — it's a living world. Let me show you.",
     bio:        "I have been guiding desert tours from Ouarzazate since 2009, born to a Berber family from the Draa Valley. I know the Erg Chebbi, Erg Chigaga, and Draa palm groves the way city people know their streets. Beyond standard camel treks, I offer multi-day 4x4 expeditions into the deep Sahara, overnight stays in authentic nomadic camps, and treks to petroglyphs and forgotten kasbahs that appear on no tourist map. The desert is spiritual — I want you to feel it, not just photograph it.",
     bannerUrl:  "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Erg Chebbi & Merzouga",
-      "4x4 Deep Sahara Expeditions",
-      "Draa Valley & Kasbahs",
-      "Nomadic Berber Culture",
-      "Aït Benhaddou UNESCO Site",
-    ],
+    specialties: ["desert", "hidden", "berber", "history"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "ber", level: "native" },
@@ -119,13 +101,7 @@ module.exports = [
     tagline:    "Morocco's capital is its best-kept secret — until now",
     bio:        "Rabat is consistently overlooked by tourists rushing to Marrakech, and as a Rabati born and raised, I consider this my personal mission to fix. With a Masters in Art History from Mohammed V University, I offer deep-dive tours of the city's UNESCO sites — the Kasbah of the Udayas, Hassan Tower, and Chellah — alongside contemporary art gallery circuits and food experiences in the city's underrated restaurant scene. I also lead private tours of the Mohammed VI Museum of Modern Art, one of Africa's finest collections.",
     bannerUrl:  "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Rabat UNESCO World Heritage Sites",
-      "Moroccan Modern & Contemporary Art",
-      "Chellah Roman Ruins",
-      "Kasbah of the Udayas",
-      "Rabat Food & Restaurant Scene",
-    ],
+    specialties: ["history", "art", "food"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },
@@ -155,13 +131,7 @@ module.exports = [
     tagline:    "The Atlantic is Morocco's most powerful landscape — come feel it",
     bio:        "I'm an ISA Level 2 certified surf instructor who grew up surfing the point breaks of Taghazout before they were on any map. Today I run surf lessons for all levels at Anchor Point, Killer Point, and Hash Point, and I lead guided ocean kayaking, snorkelling, and coastal hiking tours along the Agadir-Essaouira coastline. For non-surfers, I offer 'ocean culture' tours — visiting fishing villages, fish markets, and the argan cooperative villages of the Souss region. The Atlantic coast has a completely different Morocco to share.",
     bannerUrl:  "https://images.unsplash.com/photo-1519671282429-b44660ead0a7?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Taghazout Surf Instruction",
-      "Point Break Surfing Tours",
-      "Atlantic Coastal Hiking",
-      "Fishing Village Visits",
-      "Souss Valley & Argan Culture",
-    ],
+    specialties: ["beaches", "hiking", "hidden", "berber"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },
@@ -190,13 +160,7 @@ module.exports = [
     tagline:    "The blue city and its wild mountains — far more than an Instagram backdrop",
     bio:        "I'm a certified guide and environmental educator based in Chefchaouen, offering tours that go beyond the famous blue staircases. I lead half-day hikes to the Spanish Mosque viewpoint and full-day treks to the Akchour waterfalls and God's Bridge through the Talembote gorge. I also offer medina food walks sampling Rif Berber cuisine — kefta, wild herb salads, and fresh goat cheese from mountain farms — and cultural walks exploring Chefchaouen's Andalusian-Berber hybrid heritage. Sustainable, low-impact tourism is my personal commitment.",
     bannerUrl:  "https://images.unsplash.com/photo-1570524096943-de3b7e9af00f?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Chefchaouen Blue Medina",
-      "Rif Mountain Trekking",
-      "Akchour Waterfalls Hike",
-      "Rif Berber Cuisine & Food Walks",
-      "Sustainable Tourism",
-    ],
+    specialties: ["photo", "hiking", "food", "hidden"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "ber", level: "fluent" },
@@ -227,13 +191,7 @@ module.exports = [
     tagline:    "Casa isn't just a city — it's Morocco's beating economic heart",
     bio:        "I'm a Casablanca native with a background in architecture who fell into guiding after realising visitors were missing 90% of what makes my city remarkable. I run Art Deco walking tours of the city's extraordinary 1930s architectural heritage — Casablanca has one of the world's finest intact Art Deco districts, completely unknown to most tourists. I also lead street food crawls through the Habous quarter, Marina dinners, and for business travellers, tailored networking events connecting visitors with Morocco's startup and creative industries ecosystem.",
     bannerUrl:  "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Casablanca Art Deco Architecture",
-      "Hassan II Mosque",
-      "Street Food & Habous Quarter",
-      "Contemporary Moroccan Art Scene",
-      "Morocco Startup & Business Network",
-    ],
+    specialties: ["history", "spiritual", "food", "art"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },
@@ -262,13 +220,7 @@ module.exports = [
     tagline:    "Where the Atlantic wind carries the sound of Gnaoua — welcome to Essaouira",
     bio:        "Essaouira is the most soulful city in Morocco and I've made it my life's work to share that soul. I offer medina history tours focused on the city's remarkable multicultural past — Berber, Arab, Portuguese, Jewish, and French layers are all still visible in its architecture and neighbourhoods. My Gnaoua music heritage walks include visits to Maalem (master musician) homes and an introduction to the healing ritual traditions behind the music. I also lead wellness retreats combining hammam experiences, argan oil beauty treatments, and yoga on the beach.",
     bannerUrl:  "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80&auto=format&fit=crop",
-    specialties: [
-      "Essaouira Medina History",
-      "Gnaoua Music & Culture",
-      "Jewish Heritage of Essaouira",
-      "Hammam & Wellness Experiences",
-      "Kitesurfing Introduction",
-    ],
+    specialties: ["history", "music", "spiritual", "hammam", "beaches"],
     spokenLanguages: [
       { code: "ar", level: "native" },
       { code: "fr", level: "fluent" },

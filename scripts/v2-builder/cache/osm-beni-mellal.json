@@ -1,0 +1,4445 @@
+{
+  "city": "beni-mellal",
+  "fetched_at": "2026-06-08T11:53:21.654Z",
+  "raw_count": 524,
+  "places": [
+    {
+      "osm_id": "node/1976902364",
+      "name": "Marjane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marjane-beni-mellal",
+      "category": "food-markets",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360565,
+          32.343858
+        ]
+      },
+      "osm_tags": {
+        "name": "Marjane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2208730064",
+      "name": "Les Belles Terrasses",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-belles-terrasses-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.359218,
+          32.325229
+        ]
+      },
+      "osm_tags": {
+        "name": "Les Belles Terrasses",
+        "source": "Local Knowledge",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2411946124",
+      "name": "Hotel Jnane Ait Asserdoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-jnane-ait-asserdoun-beni-mellal",
+      "category": "desert-camps",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.333139,
+          32.410516
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Hotel Jnane Ait Asserdoun",
+        "tourism": "caravan_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4119778989",
+      "name": "Iman Alkhalil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "iman-alkhalil-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.373436,
+          32.33759
+        ]
+      },
+      "osm_tags": {
+        "internet_access": "wlan",
+        "name": "Iman Alkhalil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4147498175",
+      "name": "notre maison",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "notre-maison-beni-mellal",
+      "category": "riads",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366053,
+          32.34013
+        ]
+      },
+      "osm_tags": {
+        "name": "notre maison",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4154283692",
+      "name": "Café Mehdi Ouled Si Mimoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-mehdi-ouled-si-mimoun-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.482102,
+          32.380299
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Mehdi Ouled Si Mimoun"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4221318023",
+      "name": "La Petite Maison",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-petite-maison-beni-mellal",
+      "category": "restaurants",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.3516,
+          32.336475
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "La Petite Maison"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4221318024",
+      "name": "Tasmmet",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tasmmet-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.352411,
+          32.335837
+        ]
+      },
+      "osm_tags": {
+        "name": "Tasmmet",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228230205",
+      "name": "Focus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "focus-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362933,
+          32.33236
+        ]
+      },
+      "osm_tags": {
+        "addr:full": "Résidence OUTMANE, Angle Avenue Hassan II et Avenue Mohammed V",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Focus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228604151",
+      "name": "Café kassabah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-kassabah-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360238,
+          32.333383
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café kassabah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228604167",
+      "name": "Café Cesar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-cesar-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "56, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361813,
+          32.331534
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "56",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café Cesar",
+        "phone": "+212 5 23 48 48 47"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 48 47",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701840",
+      "name": "Café des Roses",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-des-roses-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "4, Avenue Hassan II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.365293,
+          32.335527
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "4",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café des Roses",
+        "phone": "+212 6 61 71 58 22",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 71 58 22",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701841",
+      "name": "Café Charm Cheikh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-charm-cheikh-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "27, Angle Avenue Ibn Khaldoun et Avenue El Farabi, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366273,
+          32.335412
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "27",
+        "addr:street": "Angle Avenue Ibn Khaldoun et Avenue El Farabi",
+        "amenity": "cafe",
+        "name": "Café Charm Cheikh",
+        "phone": "+212 6 45 03 42 76",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 45 03 42 76",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701842",
+      "name": "Café Voltaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-voltaire-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364476,
+          32.3345
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Voltaire",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701843",
+      "name": "Café Table d'or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-table-d-or-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "27, Avenue Hassan II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364059,
+          32.333932
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "27",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Table d'or"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701844",
+      "name": "Café Bla Bla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-bla-bla-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36727,
+          32.335902
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Bla Bla",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701845",
+      "name": "Café Ahalina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ahalina-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Ibn Khaldoun, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.368053,
+          32.336103
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:street": "Ibn Khaldoun",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "name": "Café Ahalina",
+        "phone": "+212 6 22 59 48 52",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 22 59 48 52",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701846",
+      "name": "Laiterie et Café Marina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "laiterie-et-cafe-marina-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "140, Avenue Ibn Khaldoun Ouled Hamdan",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36864,
+          32.336244
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "140",
+        "addr:street": "Avenue Ibn Khaldoun Ouled Hamdan",
+        "amenity": "cafe",
+        "email": "marina.bm.ma@gmail.com",
+        "internet_access": "wlan",
+        "name": "Laiterie et Café Marina",
+        "phone": "+212 5 23 48 37 53",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 37 53",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701847",
+      "name": "Café Major",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-major-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "213, Avenue Hassan II Quartier Al Ramz, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366557,
+          32.337268
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "213",
+        "addr:street": "Avenue Hassan II Quartier Al Ramz",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Major",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701848",
+      "name": "Café San Marina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-san-marina-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "310, Avenue Hassan II Lotissement NAIMA, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366377,
+          32.337544
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "310",
+        "addr:street": "Avenue Hassan II Lotissement NAIMA",
+        "amenity": "cafe",
+        "name": "Café San Marina",
+        "phone": "+212 5 23 48 68 58",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 68 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701849",
+      "name": "Café Brichia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-brichia-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Lotissement Al HAMDANIA, Quartier AL RAMZ BENI MELLAL, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366761,
+          32.338101
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:street": "Lotissement Al HAMDANIA, Quartier AL RAMZ BENI MELLAL",
+        "amenity": "cafe",
+        "name": "Café Brichia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701850",
+      "name": "Café AL RAMZ",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-ramz-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "362, Avenue HASSAN II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366982,
+          32.338353
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "362",
+        "addr:street": "Avenue HASSAN II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café AL RAMZ",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701851",
+      "name": "Café Al Fadila",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-fadila-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Quartier AL RAMZ, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.367499,
+          32.3385
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:street": "Avenue Hassan II, Quartier AL RAMZ",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Al Fadila",
+        "phone": "+212 6 70 24 58 45",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 70 24 58 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701852",
+      "name": "Café NEW DAY",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-new-day-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "355, Lotissement AL HAMDANIA Avenue HASSAN II, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366384,
+          32.338312
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "355",
+        "addr:street": "Lotissement AL HAMDANIA Avenue HASSAN II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café NEW DAY",
+        "phone": "+212 6 70 24 58 45",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 70 24 58 45",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228701853",
+      "name": "Café Silver",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-silver-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363303,
+          32.335701
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:full": "Bloc 5, angle Avenue CHABBI et Avenue MOTANABI",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Silver"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228739023",
+      "name": "Café La belle vue",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-la-belle-vue-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361656,
+          32.331397
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café La belle vue"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228739024",
+      "name": "Mosquée Arrahmane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-arrahmane-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "Avenue Tamagnounte, béni mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.355314,
+          32.332035
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "béni mellal",
+        "addr:street": "Avenue Tamagnounte",
+        "amenity": "place_of_worship",
+        "name": "Mosquée Arrahmane",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228748389",
+      "name": "Hotel Gharnata",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-gharnata-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "Avenue Mohammed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.35846,
+          32.334318
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohammed V",
+        "email": "arsalaneabdouz@gmail.com",
+        "name": "Hotel Gharnata",
+        "phone": "+212 5 23 42 24 27",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 24 27",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228803928",
+      "name": "Ain Alassal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ain-alassal-beni-mellal",
+      "category": "bakeries",
+      "city": "beni-mellal",
+      "address": "Avenue Tamagnounte, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.356094,
+          32.332936
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Tamagnounte",
+        "name": "Ain Alassal",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4228803929",
+      "name": "Café Annakhil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-annakhil-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Tamagnounte, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.356402,
+          32.333294
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Tamagnounte",
+        "amenity": "cafe",
+        "name": "Café Annakhil"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4229941033",
+      "name": "Café Imilchil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-imilchil-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360764,
+          32.330031
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café Imilchil",
+        "phone": "+212 5 23 42 04 23"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 04 23",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4229941034",
+      "name": "Café Abd Alkrim Alkhattabi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-abd-alkrim-alkhattabi-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Abdelakrim Elkhattabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.356422,
+          32.332884
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Abdelakrim Elkhattabi",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café Abd Alkrim Alkhattabi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4229941035",
+      "name": "Café Pizzeria Corridore",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-pizzeria-corridore-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Abdelakrim Elkhattabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.359369,
+          32.330523
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Abdelakrim Elkhattabi",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Café Pizzeria Corridore",
+        "phone": "+212 6 61 35 14 43"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 35 14 43",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230083459",
+      "name": "Dounya Day",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dounya-day-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361884,
+          32.332817
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Dounya Day",
+        "phone": "+212 5 23 48 22 31"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 22 31",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230083461",
+      "name": "Café Glassier alkhaima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-glassier-alkhaima-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Mohammed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361702,
+          32.332886
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name": "Café Glassier alkhaima"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230261092",
+      "name": "Café Farhate",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-farhate-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "249, Avenue Mohammed V",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.358869,
+          32.334169
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "249",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Café Farhate",
+        "phone": "+212 527776414"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 527776414",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230351670",
+      "name": "Café Ljolan",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ljolan-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "297, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361315,
+          32.333313
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "297",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Ljolan"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230364615",
+      "name": "Café Prada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-prada-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "303, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361489,
+          32.333256
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "303",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Prada",
+        "phone": "+212 523484302"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 523484302",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230386929",
+      "name": "Café Loisis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-loisis-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "309, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361555,
+          32.333235
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "309",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café Loisis",
+        "phone": "+212 618609538"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 618609538",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230604964",
+      "name": "Magic Ice",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "magic-ice-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Résidence BOUJAAFAR",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362286,
+          32.331635
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Avenue Hassan II, Résidence BOUJAAFAR",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Magic Ice",
+        "phone": "+212 5 23 48 19 72"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 19 72",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4230721161",
+      "name": "Café Galaxy",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-galaxy-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "355, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36258,
+          32.332898
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "355",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Galaxy",
+        "phone": "+212 5 23 42 09 00",
+        "smoking": "outside"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 09 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4231010289",
+      "name": "Hotel Béni - Mellal Atlass",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-beni-mellal-atlass-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "angle Avenue Hassan II et BD. Chawki, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363616,
+          32.333849
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "angle Avenue Hassan II et BD. Chawki",
+        "fax": "+212 5 23 48 82 98",
+        "name": "Hotel Béni - Mellal Atlass",
+        "phone": "+212 5 23 48 92 11",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 92 11",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4231982694",
+      "name": "Café La Flamme",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-la-flamme-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Chawki, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36103,
+          32.334894
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki",
+        "amenity": "cafe",
+        "name": "Café La Flamme",
+        "phone": "+212 5 23 48 04 18"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 04 18",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4231996703",
+      "name": "Snack Beverly",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-beverly-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "9, Avenue Hassan II Quartier al adarissa, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363642,
+          32.333373
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "9",
+        "addr:street": "Avenue Hassan II Quartier al adarissa",
+        "amenity": "fast_food",
+        "name": "Snack Beverly",
+        "phone": "+212 5 23 48 20 00",
+        "smoking": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 20 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232000791",
+      "name": "Restaurant DALAS Diner",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-dalas-diner-beni-mellal",
+      "category": "restaurants",
+      "city": "beni-mellal",
+      "address": "110, Chawki 1, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361217,
+          32.334827
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "110",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 1",
+        "amenity": "restaurant",
+        "email": "dallasdinner@yahoo.com",
+        "name": "Restaurant DALAS Diner",
+        "phone": "+212 5 40 03 39 30"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 40 03 39 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232001121",
+      "name": "Snack El Bahja",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-el-bahja-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "98, Chawki 1, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361389,
+          32.334778
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "98",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 1",
+        "amenity": "fast_food",
+        "name": "Snack El Bahja"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232001540",
+      "name": "SAFA Glace",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "safa-glace-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "Chawki 2, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361596,
+          32.334973
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 2",
+        "amenity": "fast_food",
+        "cuisine": "pizza,_Glace,_Pâtisserie",
+        "name": "SAFA Glace",
+        "phone": "+212 5 23 42 45 95"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 45 95",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232003677",
+      "name": "Snack Pic vite",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-pic-vite-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "140, Avenue Ibn khaldoun ouled hamdane, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.368502,
+          32.336201
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "140",
+        "addr:street": "Avenue Ibn khaldoun ouled hamdane",
+        "amenity": "fast_food",
+        "name": "Snack Pic vite",
+        "phone": "+212 6 93 40 33 29"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 93 40 33 29",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232008530",
+      "name": "Snack Ali",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-ali-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "Avenue AL motanabi quartier al wafa, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363382,
+          32.335663
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue AL motanabi quartier al wafa",
+        "amenity": "fast_food",
+        "name": "Snack Ali",
+        "phone": "+212 6 05 33 02 80"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 05 33 02 80",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232011070",
+      "name": "Snack Grillada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-grillada-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "A cote de café al worode avenue al motanabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36521,
+          32.336361
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "A cote de café al worode avenue al motanabi",
+        "amenity": "fast_food",
+        "name": "Snack Grillada",
+        "phone": "+212 5 23 42 99 14"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 99 14",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232023813",
+      "name": "AREDOUAN",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aredouan-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "Chawki 1, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362207,
+          32.334638
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 1",
+        "amenity": "place_of_worship",
+        "name": "AREDOUAN",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232028426",
+      "name": "Safa Snack",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "safa-snack-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "88, Jabaliya 4, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362644,
+          32.334552
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "88",
+        "addr:postcode": "23000",
+        "addr:street": "Jabaliya 4",
+        "amenity": "fast_food",
+        "name": "Safa Snack",
+        "phone": "+212 6 11 57 88 62"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 11 57 88 62",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232029389",
+      "name": "Snack ITRAN",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-itran-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "Jabaliya 4, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362754,
+          32.334792
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Jabaliya 4",
+        "amenity": "fast_food",
+        "name": "Snack ITRAN"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232032289",
+      "name": "Snack TAMAZIRT",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-tamazirt-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "6, Jabaliya 4, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362765,
+          32.334442
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "6",
+        "addr:postcode": "23000",
+        "addr:street": "Jabaliya 4",
+        "amenity": "fast_food",
+        "name": "Snack TAMAZIRT",
+        "phone": "+212 6 61 59 60 85",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 61 59 60 85",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232032805",
+      "name": "Snack Asdikaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-asdikaa-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "rue 4 quartier al wafa, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364235,
+          32.336022
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "rue 4 quartier al wafa",
+        "amenity": "fast_food",
+        "name": "Snack Asdikaa",
+        "phone": "+212 6 26 95 52 36"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 26 95 52 36",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232049723",
+      "name": "Mosquée Al adarissa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-adarissa-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "Quartier al adarissa, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366011,
+          32.33477
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Quartier al adarissa",
+        "amenity": "place_of_worship",
+        "name": "Mosquée Al adarissa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232053507",
+      "name": "Mosqué qobaa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosque-qobaa-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "sakakim ouled hamdane",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366271,
+          32.336065
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "sakakim ouled hamdane",
+        "amenity": "place_of_worship",
+        "name": "Mosqué qobaa",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232072330",
+      "name": "Café Le petit Poin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-le-petit-poin-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "5, Jabaliya, Bloc 2, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363218,
+          32.334135
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "5",
+        "addr:postcode": "23000",
+        "addr:street": "Jabaliya, Bloc 2",
+        "amenity": "cafe",
+        "name": "Café Le petit Poin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232083723",
+      "name": "Snack Khalifa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-khalifa-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "4, Chawki 1, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363374,
+          32.33392
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "4",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 1",
+        "amenity": "fast_food",
+        "name": "Snack Khalifa",
+        "phone": "+212 6 77 32 74 59"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 77 32 74 59",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232160596",
+      "name": "Café LOUDAYA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-loudaya-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "77, Mimouna, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361877,
+          32.333555
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "77",
+        "addr:postcode": "23000",
+        "addr:street": "Mimouna",
+        "amenity": "cafe",
+        "name": "Café LOUDAYA"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4232165525",
+      "name": "Shwarma Anoual",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "shwarma-anoual-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "35, Rue Taif, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362438,
+          32.333444
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "35",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Taif",
+        "amenity": "fast_food",
+        "name": "Shwarma Anoual",
+        "phone": "+212 664304010"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 664304010",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233800116",
+      "name": "Snack MouLay",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-moulay-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "37, Rue Taif, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362469,
+          32.333504
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "37",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Taif",
+        "amenity": "fast_food",
+        "name": "Snack MouLay",
+        "phone": "+212 6 69 09 77 02"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 69 09 77 02",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233804375",
+      "name": "Snack SAN SIRO",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-san-siro-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "37, Rue Taif, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362517,
+          32.333545
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "37",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Taif",
+        "amenity": "fast_food",
+        "name": "Snack SAN SIRO"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233812422",
+      "name": "Snack Bahri",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-bahri-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "59, Rue Taif, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362748,
+          32.333851
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "59",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Taif",
+        "amenity": "fast_food",
+        "name": "Snack Bahri"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233813727",
+      "name": "Café ESPANOLE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-espanole-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "31, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362917,
+          32.333299
+        ]
+      },
+      "osm_tags": {
+        "addr:block": "4",
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "31",
+        "addr:postcode": "23000",
+        "amenity": "cafe",
+        "name": "Café ESPANOLE"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233819498",
+      "name": "Restaurant EZZERDA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-ezzerda-beni-mellal",
+      "category": "restaurants",
+      "city": "beni-mellal",
+      "address": "Hay Mimouna, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363089,
+          32.33381
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Hay Mimouna",
+        "amenity": "restaurant",
+        "name": "Restaurant EZZERDA",
+        "phone": "+212 6 59 68 85 97"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 59 68 85 97",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233819987",
+      "name": "Snack Azreg",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-azreg-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "Rue Mimouna, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363137,
+          32.333872
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Mimouna",
+        "amenity": "fast_food",
+        "name": "Snack Azreg"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233826983",
+      "name": "Tropic Jus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tropic-jus-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "70, Rue Jabaliya, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363806,
+          32.335051
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "70",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Jabaliya",
+        "amenity": "fast_food",
+        "cuisine": "pancake",
+        "name": "Tropic Jus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233842516",
+      "name": "Hamam Al Andalus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-al-andalus-beni-mellal",
+      "category": "hammams",
+      "city": "beni-mellal",
+      "address": "68, Rue Jabaliya, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36306,
+          32.334796
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "68",
+        "addr:postcode": "23000",
+        "addr:street": "Rue Jabaliya",
+        "leisure": "sauna",
+        "name": "Hamam Al Andalus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233844623",
+      "name": "Hamam Ain Asserdoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hamam-ain-asserdoun-beni-mellal",
+      "category": "hammams",
+      "city": "beni-mellal",
+      "address": "37, Chawki 1, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362971,
+          32.335111
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "37",
+        "addr:postcode": "23000",
+        "addr:street": "Chawki 1",
+        "leisure": "sauna",
+        "name": "Hamam Ain Asserdoun"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233887670",
+      "name": "Café FRANCE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-france-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "150, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36449,
+          32.33505
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "150",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café FRANCE",
+        "phone": "+212 5 26 11 85 77"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 26 11 85 77",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233961415",
+      "name": "Snak Ayoub",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snak-ayoub-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "Avenue Abdelkrim Elkhattabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.359892,
+          32.330109
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Abdelkrim Elkhattabi",
+        "amenity": "fast_food",
+        "name": "Snak Ayoub",
+        "phone": "+21223484379/+2120604781814"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+21223484379/+2120604781814",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233974900",
+      "name": "Café Boulzano",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-boulzano-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "313, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361672,
+          32.333199
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "313",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café Boulzano",
+        "phone": "+212 6 26 00 66 74"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 26 00 66 74",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233977769",
+      "name": "Café Ouzoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ouzoud-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "318, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361727,
+          32.333174
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "318",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café Ouzoud",
+        "phone": "+212 670708184"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 670708184",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233982027",
+      "name": "Café L'ELYSEE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-l-elysee-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "319, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361895,
+          32.333121
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "319",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café L'ELYSEE",
+        "phone": "+212 5 23 48 54 30"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 54 30",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233987249",
+      "name": "Café ALAYAM",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-alayam-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "331, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362025,
+          32.333077
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "331",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café ALAYAM"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233988756",
+      "name": "Café Verdor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-verdor-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "323, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361961,
+          32.333105
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "323",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "email": "verdornet@menara.ma",
+        "name": "Café Verdor",
+        "phone": "+212 5 23 48 65 56"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 65 56",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234036227",
+      "name": "Café HALA SPACE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-hala-space-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "349, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362475,
+          32.332922
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "349",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café HALA SPACE",
+        "phone": "+212 5 23 48 99 06"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 99 06",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234074582",
+      "name": "Café Nejma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-nejma-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "357, Avenue Mohammed V, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.362645,
+          32.332867
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "357",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Mohammed V",
+        "amenity": "cafe",
+        "name": "Café Nejma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234078047",
+      "name": "Café ADOUNISE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-adounise-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "70, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363001,
+          32.333021
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "70",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "name": "Café ADOUNISE"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234097104",
+      "name": "Café AZAHR",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-azahr-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363218,
+          32.333306
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "name": "Café AZAHR"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234121493",
+      "name": "Café IG BOOday",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ig-booday-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363436,
+          32.33358
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "name": "Café IG BOOday"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234408618",
+      "name": "Snack Yassismae",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-yassismae-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "16, Avenue Moutanabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364304,
+          32.33516
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "16",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Moutanabi",
+        "amenity": "fast_food",
+        "description": "SNACK",
+        "name": "Snack Yassismae",
+        "phone": "+212 6 76 38 72 04",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 76 38 72 04",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234408619",
+      "name": "Snack ABLANA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-ablana-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "20, avenue Moutanabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364228,
+          32.335185
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "20",
+        "addr:postcode": "23000",
+        "addr:street": "avenue Moutanabi",
+        "amenity": "fast_food",
+        "description": "SNACK",
+        "name": "Snack ABLANA",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234679023",
+      "name": "Café Le Bon Coin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-le-bon-coin-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "92, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363924,
+          32.334224
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "92",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "name": "Café Le Bon Coin",
+        "phone": "+212 5 23 48 13 53"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 13 53",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234679024",
+      "name": "Café CRISTAL COFEE",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-cristal-cofee-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.36399,
+          32.334324
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "name": "Café CRISTAL COFEE",
+        "phone": "+212 5 23 48 58 71"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 48 58 71",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234679025",
+      "name": "Café AL JAZIRA",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-al-jazira-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "156, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364225,
+          32.334634
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "156",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café AL JAZIRA",
+        "phone": "+212 6 69 66 17 31",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 69 66 17 31",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234679026",
+      "name": "Café Epis d'Or",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-epis-d-or-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "187, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364468,
+          32.334935
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "187",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Epis d'Or",
+        "smoking": "separated"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4234679027",
+      "name": "Café CN NOUR",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-cn-nour-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "16, avenue Moutanabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364384,
+          32.335133
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "16",
+        "addr:postcode": "23000",
+        "addr:street": "avenue Moutanabi",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café CN NOUR",
+        "smoking": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4235341329",
+      "name": "Hammam al ramz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-al-ramz-beni-mellal",
+      "category": "hammams",
+      "city": "beni-mellal",
+      "address": "Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.368893,
+          32.33768
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:full": "Lotissement al hamdania quartier al ramz",
+        "leisure": "sauna",
+        "name": "Hammam al ramz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4235345557",
+      "name": "hammam al wafa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-al-wafa-beni-mellal",
+      "category": "hammams",
+      "city": "beni-mellal",
+      "address": "Béni mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366616,
+          32.338364
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni mellal",
+        "addr:full": "Lotissement al hamdania quartier al ramz",
+        "leisure": "sauna",
+        "name": "hammam al wafa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4235348189",
+      "name": "Hammam Ouled Hamdane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hammam-ouled-hamdane-beni-mellal",
+      "category": "hammams",
+      "city": "beni-mellal",
+      "address": "Avenue Mohammed V, Béni mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.365956,
+          32.337783
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni mellal",
+        "addr:street": "Avenue Mohammed V",
+        "leisure": "sauna",
+        "name": "Hammam Ouled Hamdane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4235663258",
+      "name": "Snack Sydney",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-sydney-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "108, Avenue Hassan II, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.363479,
+          32.333646
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:housenumber": "108",
+        "addr:postcode": "23000",
+        "addr:street": "Avenue Hassan II",
+        "amenity": "fast_food",
+        "name": "Snack Sydney",
+        "phone": "+212 5 23 42 19 19"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 23 42 19 19",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4244127630",
+      "name": "Mosquée Errahman مسجد الرحمن",
+      "name_fr": "Mosquée Errahman",
+      "name_ar": "مسجد الرحمن",
+      "slug": "mosquee-errahman-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.357604,
+          32.332773
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Errahman مسجد الرحمن",
+        "name:ar": "مسجد الرحمن",
+        "name:fr": "Mosquée Errahman",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4264465267",
+      "name": "Sté El Firdaous HP",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ste-el-firdaous-hp-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue Abdelkrim Elkhattabi, Béni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.359406,
+          32.330495
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Béni Mellal",
+        "addr:street": "Avenue Abdelkrim Elkhattabi",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Sté El Firdaous HP"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4433485192",
+      "name": "hhhhhh",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hhhhhh-beni-mellal",
+      "category": "bars-lounges",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.443559,
+          32.368779
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "hhhhhh",
+        "phone": "+212 6 93 62 97 98"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 93 62 97 98",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4731397022",
+      "name": "بني ملال",
+      "name_fr": null,
+      "name_ar": "بني ملال",
+      "slug": "beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.426235,
+          32.295549
+        ]
+      },
+      "osm_tags": {
+        "name": "بني ملال",
+        "name:ar": "بني ملال",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4739447563",
+      "name": "La Luna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-luna-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.378596,
+          32.324878
+        ]
+      },
+      "osm_tags": {
+        "name": "La Luna",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749285891",
+      "name": "hôtel La Luna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-la-luna-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.378482,
+          32.324801
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel La Luna",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749302868",
+      "name": "hôtel Charaf",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-charaf-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.357664,
+          32.344144
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel Charaf",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749312111",
+      "name": "Mosquée Assafae مسجد الصفا",
+      "name_fr": "Mosquée Assafae",
+      "name_ar": "مسجد الصفا",
+      "slug": "mosquee-assafae-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366295,
+          32.343494
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosquée Assafae مسجد الصفا",
+        "name:ar": "مسجد الصفا",
+        "name:fr": "Mosquée Assafae",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749316489",
+      "name": "hôtel al bassatine",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-al-bassatine-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.373833,
+          32.336597
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel al bassatine",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749320272",
+      "name": "hôtel Beni Day",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-beni-day-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.37354,
+          32.337392
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel Beni Day",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749320282",
+      "name": "hotel Imane Al khalil",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-imane-al-khalil-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.373268,
+          32.337758
+        ]
+      },
+      "osm_tags": {
+        "name": "hotel Imane Al khalil",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4749327630",
+      "name": "hôtel Beni mellal Ouzoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-beni-mellal-ouzoud-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.380392,
+          32.322286
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel Beni mellal Ouzoud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4750991699",
+      "name": "hôtel Hannioui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-hannioui-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.361694,
+          32.34422
+        ]
+      },
+      "osm_tags": {
+        "name": "hôtel Hannioui",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5229869325",
+      "name": "Café Maroma",
+      "name_fr": "Café Maroma",
+      "name_ar": null,
+      "slug": "cafe-maroma-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Avenue du 20 Aout, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.349611,
+          32.345706
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:city:ar": "بني ملال",
+        "addr:city:fr": "Beni Mellal",
+        "addr:street": "Avenue du 20 Aout",
+        "addr:street:fr": "Avenue du 20 Aout",
+        "amenity": "cafe",
+        "name": "Café Maroma",
+        "name:fr": "Café Maroma"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5523544421",
+      "name": "Porta Romana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "porta-romana-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.372806,
+          32.336808
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name": "Porta Romana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5533956258",
+      "name": "Italiana",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "italiana-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.376058,
+          32.329798
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "mediterranean",
+        "name": "Italiana"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6104540676",
+      "name": "Masdjid Imam Malik مسجد الإمام مالك",
+      "name_fr": "Masdjid Imam Malik",
+      "name_ar": "مسجد الإمام مالك",
+      "slug": "masdjid-imam-malik-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "بني ملال",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360409,
+          32.355666
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "بني ملال",
+        "addr:city:ar": "بني ملال",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Masdjid Imam Malik مسجد الإمام مالك",
+        "name:ar": "مسجد الإمام مالك",
+        "name:fr": "Masdjid Imam Malik",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6222851786",
+      "name": "Souk -Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "souk-market-beni-mellal",
+      "category": "food-markets",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.431598,
+          32.294558
+        ]
+      },
+      "osm_tags": {
+        "name": "Souk -Market",
+        "opening_hours": "Th 08:00-16:00",
+        "shop": "convenience"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Th 08:00-16:00"
+    },
+    {
+      "osm_id": "node/6411871087",
+      "name": "Coffee House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "coffee-house-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.359854,
+          32.157293
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "brand": "Coffee House",
+        "brand:wikidata": "Q11855430",
+        "brand:wikipedia": "fi:Coffee House",
+        "name": "Coffee House"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6875961745",
+      "name": "Hotel VelSatis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-velsatis-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.372598,
+          32.328398
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel VelSatis",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7093333519",
+      "name": "Mosquée de la Lumière مسجد النور ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⴰⵏⵏⵓⵔ",
+      "name_fr": "Mosquée de la Lumière",
+      "name_ar": "مسجد النور",
+      "slug": "mosquee-de-la-lumiere-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.366064,
+          32.544675
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée de la Lumière مسجد النور ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⴰⵏⵏⵓⵔ",
+        "name:ar": "مسجد النور",
+        "name:fr": "Mosquée de la Lumière",
+        "name:zgh": "ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⴰⵏⵏⵓⵔ",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7093341549",
+      "name": "Mosquée de Douar Oulad Ain Nas مسجد أولاد عين الناس ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵡⵍⴰⴷ ⵄⵉⵏ ⵏⵏⴰⵙ",
+      "name_fr": "Mosquée de Douar Oulad Ain Nas",
+      "name_ar": "مسجد أولاد عين الناس",
+      "slug": "mosquee-de-douar-oulad-ain-nas-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.378863,
+          32.548506
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée de Douar Oulad Ain Nas مسجد أولاد عين الناس ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵡⵍⴰⴷ ⵄⵉⵏ ⵏⵏⴰⵙ",
+        "name:ar": "مسجد أولاد عين الناس",
+        "name:fr": "Mosquée de Douar Oulad Ain Nas",
+        "name:zgh": "ⵜⵉⵎⵣⴳⵉⴷⴰ ⵏ ⵡⵍⴰⴷ ⵄⵉⵏ ⵏⵏⴰⵙ",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7093353903",
+      "name": "Marché Hebdomadaire Ouled Said Le Oued السوق الأسبوعي لأولاد سعيد الوادي ⴰⵙⵉⵀⴰⵔ ⵏ ⵡⵍⴰⴷ ⵙⵄⵉⴷ ⵍⵡⴰⴷ",
+      "name_fr": "Marché Hebdomadaire Ouled Saïd L'Oued",
+      "name_ar": "السوق الأسبوعي لأولاد سعيد الوادي",
+      "slug": "marche-hebdomadaire-ouled-said-le-oued-beni-mellal",
+      "category": "souks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.373861,
+          32.545584
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché Hebdomadaire Ouled Said Le Oued السوق الأسبوعي لأولاد سعيد الوادي ⴰⵙⵉⵀⴰⵔ ⵏ ⵡⵍⴰⴷ ⵙⵄⵉⴷ ⵍⵡⴰⴷ",
+        "name:ar": "السوق الأسبوعي لأولاد سعيد الوادي",
+        "name:fr": "Marché Hebdomadaire Ouled Saïd L'Oued",
+        "name:zgh": "ⴰⵙⵉⵀⴰⵔ ⵏ ⵡⵍⴰⴷ ⵙⵄⵉⴷ ⵍⵡⴰⴷ",
+        "opening_hours": "Sa 06:00-16:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Sa 06:00-16:00"
+    },
+    {
+      "osm_id": "node/7135249538",
+      "name": "Masjid march 2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-march-2-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "Beni Mellal ⴰⵢⵜ ⵎⵍⵍⴰⵍ بني ملال",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.364257,
+          32.353641
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal ⴰⵢⵜ ⵎⵍⵍⴰⵍ بني ملال",
+        "amenity": "place_of_worship",
+        "name": "Masjid march 2",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8322558310",
+      "name": "Duamo Cafe",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "duamo-cafe-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.368598,
+          32.544618
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Duamo Cafe"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9175370063",
+      "name": "Café Adam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-adam-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.455482,
+          32.275183
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Café Adam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9238339017",
+      "name": "Rio",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rio-beni-mellal",
+      "category": "restaurants",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.354688,
+          32.331327
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Rio"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9510059045",
+      "name": "Hôtel Hadaik Ain Asserdoune",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-hadaik-ain-asserdoune-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.370018,
+          32.340887
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Hadaik Ain Asserdoune",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10088617407",
+      "name": "Mgoun Tours",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mgoun-tours-beni-mellal",
+      "category": "historical-sites",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.399103,
+          32.131292
+        ]
+      },
+      "osm_tags": {
+        "name": "Mgoun Tours",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10120051428",
+      "name": "Maison d'hotes Ait Bou Izryane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "maison-d-hotes-ait-bou-izryane-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.465801,
+          32.216401
+        ]
+      },
+      "osm_tags": {
+        "name": "Maison d'hotes Ait Bou Izryane",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11176313771",
+      "name": "Liverpool Cafe ⵜⴰⵏⵖⵍⵓⵙⵜ ⵏ ⵍⵉⵠⵔ ⵒⵒⵓⵍ مقهى ليڤرپول",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "liverpool-cafe-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.369099,
+          32.343508
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Liverpool Cafe ⵜⴰⵏⵖⵍⵓⵙⵜ ⵏ ⵍⵉⵠⵔ ⵒⵒⵓⵍ مقهى ليڤرپول"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11530528782",
+      "name": "Kasr Ain Asserdoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "kasr-ain-asserdoun-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.337589,
+          32.323803
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "fast_food": "cafeteria",
+        "name": "Kasr Ain Asserdoun"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11845530369",
+      "name": "Ftah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ftah-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.353652,
+          32.334246
+        ]
+      },
+      "osm_tags": {
+        "name": "Ftah",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11865884669",
+      "name": "Tizi Ghnim",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tizi-ghnim-beni-mellal",
+      "category": "historical-sites",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.395527,
+          32.195937
+        ]
+      },
+      "osm_tags": {
+        "historic": "memorial",
+        "name": "Tizi Ghnim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11919560078",
+      "name": "CAFE OUALID",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-oualid-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.461208,
+          32.280105
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "CAFE OUALID"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/12128680992",
+      "name": "AFA Nuts",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "afa-nuts-beni-mellal",
+      "category": "food-markets",
+      "city": "beni-mellal",
+      "address": "m4, zohour al atlas, Beni Mellal",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.358936,
+          32.32232
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal",
+        "addr:housenumber": "m4",
+        "addr:postcode": "23000",
+        "addr:street": "zohour al atlas",
+        "name": "AFA Nuts",
+        "opening_hours": "24/7",
+        "operator": "épicerie fine et fruit sec",
+        "payment:cash": "yes",
+        "payment:visa": "yes",
+        "phone": "+212 6 44 03 73 36",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 44 03 73 36",
+      "stars": null,
+      "opening_hours": "24/7"
+    },
+    {
+      "osm_id": "node/13701320832",
+      "name": "Carrefour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-beni-mellal",
+      "category": "food-markets",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.386097,
+          32.321224
+        ]
+      },
+      "osm_tags": {
+        "name": "Carrefour",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13704212902",
+      "name": "Tighbola",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tighbola-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.540636,
+          32.208912
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Tighbola"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13720484047",
+      "name": "Alecanti",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "alecanti-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "Beni Mellal ⴰⵢⵜ ⵎⵍⵍⴰⵍ بني ملال",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.356645,
+          32.339711
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Beni Mellal ⴰⵢⵜ ⵎⵍⵍⴰⵍ بني ملال",
+        "amenity": "cafe",
+        "name": "Alecanti",
+        "outdoor_seating": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/248681346",
+      "name": "Ouzoud",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ouzoud-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.380117,
+          32.322027
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Ouzoud",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/257907033",
+      "name": "Jardin massira khadra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-massira-khadra-beni-mellal",
+      "category": "national-parks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.35615,
+          32.335231
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin massira khadra"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/258710776",
+      "name": "Rehab",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rehab-beni-mellal",
+      "category": "cafes",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.344578,
+          32.340726
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Rehab"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/258711021",
+      "name": "Parc Aïn Asserdoun",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "parc-ain-asserdoun-beni-mellal",
+      "category": "national-parks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.336174,
+          32.325703
+        ]
+      },
+      "osm_tags": {
+        "heritage": "yes",
+        "leisure": "park",
+        "name": "Parc Aïn Asserdoun",
+        "nat_name": "منتزه عين اسردون"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/258711098",
+      "name": "Mohammed VI Mosque 10",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mohammed-vi-mosque-10-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.333929,
+          32.318821
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mohammed VI Mosque 10",
+        "religion": "muslim",
+        "wikidata": "Q138224081"
+      },
+      "wikidata": "Q138224081",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/304317641",
+      "name": "Jardin",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jardin-beni-mellal",
+      "category": "national-parks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.532794,
+          32.210885
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Jardin"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/575658764",
+      "name": "Carrefour Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "carrefour-market-beni-mellal",
+      "category": "food-markets",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.352868,
+          32.331693
+        ]
+      },
+      "osm_tags": {
+        "brand": "Carrefour Market",
+        "brand:wikidata": "Q2689639",
+        "building": "supermarket",
+        "name": "Carrefour Market",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "shop": "supermarket",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 09:00-23:00"
+    },
+    {
+      "osm_id": "way/661756364",
+      "name": "McDonald's",
+      "name_fr": "McDonald's",
+      "name_ar": "مكدونالدز",
+      "slug": "mcdonald-s-beni-mellal",
+      "category": "local-food",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.367942,
+          32.330487
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:ar": "مكدونالدز",
+        "brand:es": "McDonald's",
+        "brand:fr": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "fr:McDonald's",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "name:ar": "مكدونالدز",
+        "name:es": "McDonald's",
+        "name:fr": "McDonald's",
+        "takeaway": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/959922560",
+      "name": "park2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park2-beni-mellal",
+      "category": "national-parks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360431,
+          32.327761
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "park2"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/959923252",
+      "name": "park3",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "park3-beni-mellal",
+      "category": "national-parks",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.360349,
+          32.327638
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "park3"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1240992817",
+      "name": "Club Kahrama Béni Mellal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "club-kahrama-beni-mellal-beni-mellal",
+      "category": "hotels",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.342001,
+          32.322961
+        ]
+      },
+      "osm_tags": {
+        "name": "Club Kahrama Béni Mellal",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1240992825",
+      "name": "Castle of Béni Mellal",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "castle-of-beni-mellal-beni-mellal",
+      "category": "palaces-kasbahs",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.337649,
+          32.324533
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Kasbah of Beni Mellal",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Castle of Béni Mellal",
+        "wikidata": "Q57313472",
+        "wikimedia_commons": "File:Ain Asserdoun Castle.jpg"
+      },
+      "wikidata": "Q57313472",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1491238583",
+      "name": "Ayat Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ayat-mosque-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.346198,
+          32.325408
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Ayat Mosque",
+        "religion": "muslim",
+        "wikidata": "Q138211384"
+      },
+      "wikidata": "Q138211384",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1491238584",
+      "name": "Amagor Tasmit Mosque",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "amagor-tasmit-mosque-beni-mellal",
+      "category": "mosques",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.293537,
+          32.322765
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Amagor Tasmit Mosque",
+        "religion": "muslim",
+        "wikidata": "Q138217391"
+      },
+      "wikidata": "Q138217391",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/20676365",
+      "name": "Ksar El Aïn Asserdoun ⵜⴰⴳⴰⴷⵉⵔⵜ ⵏ ⵟⵉⵟⵟ ⴰⵙⵔⴷⵓⵏ",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ksar-el-ain-asserdoun-beni-mellal",
+      "category": "palaces-kasbahs",
+      "city": "beni-mellal",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.337629,
+          32.324454
+        ]
+      },
+      "osm_tags": {
+        "area:highway": "pedestrian",
+        "heritage": "yes",
+        "highway": "pedestrian",
+        "historic": "castle",
+        "name": "Ksar El Aïn Asserdoun ⵜⴰⴳⴰⴷⵉⵔⵜ ⵏ ⵟⵉⵟⵟ ⴰⵙⵔⴷⵓⵏ",
+        "place": "square",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

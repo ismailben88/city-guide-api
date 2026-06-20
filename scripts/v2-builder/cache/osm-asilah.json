@@ -1,0 +1,4133 @@
+{
+  "city": "asilah",
+  "fetched_at": "2026-06-08T11:27:12.370Z",
+  "raw_count": 265,
+  "places": [
+    {
+      "osm_id": "node/499186921",
+      "name": "Le Village Solitaire",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "le-village-solitaire-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.001873,
+          35.334772
+        ]
+      },
+      "osm_tags": {
+        "name": "Le Village Solitaire",
+        "note": "sous réserve",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1395520112",
+      "name": "Mzoura",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mzoura-asilah",
+      "category": "roman-ruins",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.943928,
+          35.404171
+        ]
+      },
+      "osm_tags": {
+        "alt_name:es": "Mzora",
+        "historic": "archaeological_site",
+        "name": "Mzoura",
+        "name:es": "Enzora",
+        "wikidata": "Q1140859",
+        "wikimedia_commons": "Category:Msoura",
+        "wikipedia": "ar:مزورة (المغرب)"
+      },
+      "wikidata": "Q1140859",
+      "wikipedia": "ar:مزورة (المغرب)",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1664224356",
+      "name": "Bab Al Kasbah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-al-kasbah-asilah",
+      "category": "sunset-spots",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036552,
+          35.466671
+        ]
+      },
+      "osm_tags": {
+        "barrier": "sally_port",
+        "name": "Bab Al Kasbah",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960317",
+      "name": "Pizzéria Yali",
+      "name_fr": "Pizzéria Yali",
+      "name_ar": null,
+      "slug": "pizzeria-yali-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036922,
+          35.465619
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pizzéria Yali",
+        "name:fr": "Pizzéria Yali"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960366",
+      "name": "Cafe-Restaurant All Manar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-restaurant-all-manar-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035872,
+          35.466642
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe-Restaurant All Manar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960508",
+      "name": "Juice store",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "juice-store-asilah",
+      "category": "bars-lounges",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035818,
+          35.462827
+        ]
+      },
+      "osm_tags": {
+        "amenity": "bar",
+        "name": "Juice store"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960578",
+      "name": "Al Amir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-amir-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03548,
+          35.466457
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Al Amir"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960614",
+      "name": "Pizzeria Badis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-badis-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036801,
+          35.465749
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Pizzeria Badis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686960874",
+      "name": "Pizzeria Calairis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-calairis-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036609,
+          35.465832
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Calairis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1686961078",
+      "name": "Fruit and vegetable market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fruit-and-vegetable-market-asilah",
+      "category": "souks",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03816,
+          35.464857
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name:en": "Fruit and vegetable market"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1687660180",
+      "name": "Al-Medina المدينة",
+      "name_fr": "Al-Medina",
+      "name_ar": "المدينة",
+      "slug": "al-medina-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037854,
+          35.466009
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Al-Medina المدينة",
+        "name:ar": "المدينة",
+        "name:fr": "Al-Medina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1875028127",
+      "name": "Aire se service Assilah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aire-se-service-assilah-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.00468,
+          35.469848
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Aire se service Assilah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/1875028215",
+      "name": "Aire service Assilah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "aire-service-assilah-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.004541,
+          35.469761
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Aire service Assilah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2437402963",
+      "name": "Al Khaima",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-khaima-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.025645,
+          35.474944
+        ]
+      },
+      "osm_tags": {
+        "name": "Al Khaima",
+        "phone": "+212 5 39 41 74 28",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 39 41 74 28",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2437416068",
+      "name": "Hotel Azayla",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-azayla-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.033801,
+          35.467152
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Azayla",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/2719778855",
+      "name": "Dchar Jdid (Assilah)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dchar-jdid-assilah-asilah",
+      "category": "roman-ruins",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.915353,
+          35.522332
+        ]
+      },
+      "osm_tags": {
+        "historic": "archaeological_site",
+        "name": "Dchar Jdid (Assilah)",
+        "wikidata": "Q730328",
+        "wikimedia_commons": "Category:Asilah",
+        "wikipedia": "fr:Assilah"
+      },
+      "wikidata": "Q730328",
+      "wikipedia": "fr:Assilah",
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/3302271817",
+      "name": "Bivouac possible",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bivouac-possible-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.025671,
+          35.474282
+        ]
+      },
+      "osm_tags": {
+        "name": "Bivouac possible",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4233750990",
+      "name": "MIA hostel",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mia-hostel-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "55, Lotissement El Menzah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.028317,
+          35.469043
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "55",
+        "addr:street": "Lotissement El Menzah",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "MIA hostel",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4476508641",
+      "name": "Hotel Al Alba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-al-alba-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "35, Lot. Nakhil, Assilah أصيلة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.028359,
+          35.470971
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Assilah أصيلة",
+        "addr:housenumber": "35",
+        "addr:postcode": "90050",
+        "addr:street": "Lot. Nakhil",
+        "description": "Restaurante / Hammam-Spa",
+        "internet_access": "wlan",
+        "name": "Hotel Al Alba",
+        "rooms": "10",
+        "smoking": "outside",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4495377258",
+      "name": "Al Andalus Apartments",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-andalus-apartments-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "Assilah أصيلة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038558,
+          35.462645
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Assilah أصيلة",
+        "internet_access": "no",
+        "name": "Al Andalus Apartments",
+        "name:en": "Al Andalus Apartments",
+        "operator": "Al Andalus Apartments",
+        "phone": "+212 6 43 40 73 27",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "https://www.facebook.com/Alandalusapartmets.ma/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/Alandalusapartmets.ma/",
+      "phone": "+212 6 43 40 73 27",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4509633944",
+      "name": "Mosquée Al-Houda",
+      "name_fr": "Mosquée Al-Houda",
+      "name_ar": null,
+      "slug": "mosquee-al-houda-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036599,
+          35.464826
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name": "Mosquée Al-Houda",
+        "name:fr": "Mosquée Al-Houda",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4515534294",
+      "name": "Tipico locale fish S/N",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tipico-locale-fish-s-n-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031957,
+          35.466218
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "arab;fish",
+        "name": "Tipico locale fish S/N",
+        "opening_hours": "Mo-Su 10:00-14:00"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 10:00-14:00"
+    },
+    {
+      "osm_id": "node/4532555590",
+      "name": "Berbari Maison d'hotes",
+      "name_fr": "Berbari Maison d'hotes",
+      "name_ar": null,
+      "slug": "berbari-maison-d-hotes-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.008196,
+          35.415891
+        ]
+      },
+      "osm_tags": {
+        "name": "Berbari Maison d'hotes",
+        "name:fr": "Berbari Maison d'hotes",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4631616791",
+      "name": "Casa Garcia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-garcia-asilah",
+      "category": "seafood",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.033067,
+          35.468217
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Casa Garcia",
+        "name:es": "Casa Garcia",
+        "phone": "+212 5 39 41 74 65",
+        "website": "https://www.facebook.com/pages/Casa-Garcia-Asilah/267002060045516/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.facebook.com/pages/Casa-Garcia-Asilah/267002060045516/",
+      "phone": "+212 5 39 41 74 65",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4647422990",
+      "name": "Café Restaurant ELBARAKA مقهى مطعم البركة",
+      "name_fr": "Café Restaurant ELBARAKA",
+      "name_ar": "مقهى مطعم البركة",
+      "slug": "cafe-restaurant-elbaraka-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.877185,
+          35.391257
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Café Restaurant ELBARAKA مقهى مطعم البركة",
+        "name:ar": "مقهى مطعم البركة",
+        "name:fr": "Café Restaurant ELBARAKA"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4651713389",
+      "name": "Café Sidi Elyamani",
+      "name_fr": null,
+      "name_ar": "مقهى سيدي اليمني",
+      "slug": "cafe-sidi-elyamani-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.006791,
+          35.33207
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "مقهى سيدي اليمني",
+        "name:ar": "مقهى سيدي اليمني",
+        "name:en": "Café Sidi Elyamani"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/4688064789",
+      "name": "Riad Aicha",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-aicha-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "39, Rue M'Jimaa, Assilah أصيلة",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039407,
+          35.464584
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Assilah أصيلة",
+        "addr:housenumber": "39",
+        "addr:street": "Rue M'Jimaa",
+        "name": "Riad Aicha",
+        "name:zh": "艾西拉麦迪那",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5099618321",
+      "name": "Restaurant Alibaba",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-alibaba-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037813,
+          35.463728
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Alibaba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5155853721",
+      "name": "Marché Anoual",
+      "name_fr": null,
+      "name_ar": "سوق أنوال",
+      "slug": "marche-anoual-asilah",
+      "category": "food-markets",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037374,
+          35.46106
+        ]
+      },
+      "osm_tags": {
+        "name": "سوق أنوال",
+        "name:ar": "سوق أنوال",
+        "name:en": "Marché Anoual",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221166222",
+      "name": "Seven Sea",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "seven-sea-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030382,
+          35.471126
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Seven Sea"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5221215321",
+      "name": "El Hambra",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-hambra-asilah",
+      "category": "boutique-hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030454,
+          35.470717
+        ]
+      },
+      "osm_tags": {
+        "name:en": "El Hambra",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5503095225",
+      "name": "Veu Le Havre Apartment",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "veu-le-havre-apartment-asilah",
+      "category": "boutique-hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030198,
+          35.470557
+        ]
+      },
+      "osm_tags": {
+        "name": "Veu Le Havre Apartment",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5617330821",
+      "name": "Dar al Andalous",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-andalous-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035156,
+          35.465939
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar al Andalous",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5904473389",
+      "name": "Riad Asilah",
+      "name_fr": "Riad Asilah",
+      "name_ar": null,
+      "slug": "riad-asilah-asilah",
+      "category": "riads",
+      "city": "asilah",
+      "address": "64, Rue Bab R'mel Antigua, Assilah",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038228,
+          35.465042
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Assilah",
+        "addr:city:ar": "أصيلة",
+        "addr:city:fr": "Assilah",
+        "addr:housenumber": "64",
+        "addr:street": "Rue Bab R'mel Antigua",
+        "addr:street:fr": "Rue Bab R'mel Antigua",
+        "name": "Riad Asilah",
+        "name:fr": "Riad Asilah",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5941277085",
+      "name": "Factory",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "factory-asilah",
+      "category": "shopping",
+      "city": "asilah",
+      "address": "Rue M'Jimaa",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039057,
+          35.464833
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "Rue M'Jimaa",
+        "email": "gumicside@gmail.com",
+        "name": "Factory",
+        "name:en": "Factory",
+        "opening_hours": "Mo-Su 11:00-14:00, 17:00-20:00",
+        "phone": "+212 6 55 10 99 20",
+        "shop": "jewelry"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 55 10 99 20",
+      "stars": null,
+      "opening_hours": "Mo-Su 11:00-14:00, 17:00-20:00"
+    },
+    {
+      "osm_id": "node/5985235503",
+      "name": "Dar Al Maghrebia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-al-maghrebia-asilah",
+      "category": "moroccan-cuisine",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034057,
+          35.466094
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Dar Al Maghrebia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/5985235539",
+      "name": "Árabe Elegante Chez Ba Driss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "arabe-elegante-chez-ba-driss-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.033985,
+          35.466015
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Árabe Elegante Chez Ba Driss"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6058755989",
+      "name": "Pattiserie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pattiserie-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.029568,
+          35.470381
+        ]
+      },
+      "osm_tags": {
+        "name": "Pattiserie",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6061332285",
+      "name": "Alibaba",
+      "name_fr": "Alibaba",
+      "name_ar": null,
+      "slug": "alibaba-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037622,
+          35.463764
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Alibaba",
+        "name:fr": "Alibaba"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6210028485",
+      "name": "Médina",
+      "name_fr": "Médina",
+      "name_ar": null,
+      "slug": "medina-asilah",
+      "category": "historical-sites",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038166,
+          35.465531
+        ]
+      },
+      "osm_tags": {
+        "name": "Médina",
+        "name:fr": "Médina",
+        "tourism": "attraction"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6424286000",
+      "name": "Waslat al boughaz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "waslat-al-boughaz-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034903,
+          35.464567
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;pizza;burger;cake;pancake;breakfast;coffee_shop",
+        "internet_access": "wlan",
+        "name:en": "Waslat al boughaz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6424286294",
+      "name": "Lixus",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lixus-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034055,
+          35.46635
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza;tapas;pasta;fish;moroccan",
+        "name:en": "Lixus"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6424286295",
+      "name": "Tanger",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tanger-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032771,
+          35.466804
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Tanger",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6550913985",
+      "name": "Jawharat Achamal",
+      "name_fr": "Jawharat Achamal",
+      "name_ar": null,
+      "slug": "jawharat-achamal-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032732,
+          35.46769
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Jawharat Achamal"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/6800396086",
+      "name": "Casa la Place",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "casa-la-place-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "7, Avenue Moulay El Hassan Ben Medhi",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035869,
+          35.46706
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Avenue Moulay El Hassan Ben Medhi",
+        "amenity": "restaurant",
+        "cuisine": "moroccan;seafood",
+        "name": "Casa la Place",
+        "phone": "+212 5 39 41 73 26"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 5 39 41 73 26",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7048921185",
+      "name": "Riad del Cielo",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "riad-del-cielo-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "20, Rue Ibn Kaddour",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039796,
+          35.464561
+        ]
+      },
+      "osm_tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Rue Ibn Kaddour",
+        "name": "Riad del Cielo",
+        "name:en": "Riad del Cielo",
+        "tourism": "hostel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7264816786",
+      "name": "Cafe Zrirak",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-zrirak-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036788,
+          35.466898
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Cafe Zrirak"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7264842285",
+      "name": "Cafe La Esquina",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-la-esquina-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03224,
+          35.467254
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Cafe La Esquina"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282405485",
+      "name": "Centrale One",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "centrale-one-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037391,
+          35.462293
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Centrale One"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282438086",
+      "name": "Local bakery",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "local-bakery-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037383,
+          35.460463
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Local bakery",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282454985",
+      "name": "Koffiehuis",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "koffiehuis-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036057,
+          35.459336
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Koffiehuis"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282454986",
+      "name": "Snack Istanbul",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-istanbul-asilah",
+      "category": "local-food",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034545,
+          35.458496
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name:en": "Snack Istanbul"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282454987",
+      "name": "Snack Khalid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-khalid-asilah",
+      "category": "local-food",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034445,
+          35.458749
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name:en": "Snack Khalid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282472386",
+      "name": "Snack Salihi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "snack-salihi-asilah",
+      "category": "local-food",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035458,
+          35.458744
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name:en": "Snack Salihi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282476286",
+      "name": "Dar El Marrakchia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-el-marrakchia-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036675,
+          35.460187
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Dar El Marrakchia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282487685",
+      "name": "Asilah Mar 2",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asilah-mar-2-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036052,
+          35.459192
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Asilah Mar 2"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282487688",
+      "name": "Salon de thé",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salon-de-the-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035195,
+          35.463066
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Salon de thé"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282488985",
+      "name": "La Boulangerie Amira",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-boulangerie-amira-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035988,
+          35.459268
+        ]
+      },
+      "osm_tags": {
+        "name:en": "La Boulangerie Amira",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282488987",
+      "name": "Rachid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "rachid-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03714,
+          35.460766
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Rachid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282493185",
+      "name": "Gaudi",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "gaudi-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036998,
+          35.460359
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Gaudi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282502285",
+      "name": "Adam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "adam-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037261,
+          35.461657
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Adam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282526585",
+      "name": "Florida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "florida-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036433,
+          35.462674
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Florida"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282526587",
+      "name": "La Patata de Mariam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-patata-de-mariam-asilah",
+      "category": "local-food",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03553,
+          35.462882
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name:en": "La Patata de Mariam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282533385",
+      "name": "Jus Valencia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jus-valencia-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037607,
+          35.462713
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Jus Valencia"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282560985",
+      "name": "Salon de thé Al Boughaz",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "salon-de-the-al-boughaz-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034753,
+          35.464664
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Salon de thé Al Boughaz"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282566419",
+      "name": "Pizzeria Amsterdam",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "pizzeria-amsterdam-asilah",
+      "category": "local-food",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035259,
+          35.465415
+        ]
+      },
+      "osm_tags": {
+        "amenity": "fast_food",
+        "name:en": "Pizzeria Amsterdam"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282566565",
+      "name": "Restaurant Farah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurant-farah-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035684,
+          35.465817
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Restaurant Farah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282566792",
+      "name": "Musée d’Asilah (en construction)",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "musee-d-asilah-en-construction-asilah",
+      "category": "history-museums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030191,
+          35.465206
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Musée d’Asilah (en construction)",
+        "tourism": "museum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282568236",
+      "name": "Hotel Las Palmas",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-las-palmas-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035059,
+          35.465123
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Hotel Las Palmas",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282578587",
+      "name": "Ifrane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ifrane-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.033355,
+          35.46659
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Ifrane"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282598285",
+      "name": "Al Jawhara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "al-jawhara-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032021,
+          35.467058
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Al Jawhara"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282654986",
+      "name": "Sidq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidq-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037911,
+          35.464748
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Sidq"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282660585",
+      "name": "Khay Ahmed",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "khay-ahmed-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037806,
+          35.463906
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Khay Ahmed"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7282835485",
+      "name": "Mosquée Molay Driss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-molay-driss-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037078,
+          35.466158
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Mosquée Molay Driss",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7285022688",
+      "name": "Monalisa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "monalisa-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031523,
+          35.465987
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Monalisa"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7285022689",
+      "name": "Crèmerie Al Andalouss",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cremerie-al-andalouss-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032091,
+          35.46537
+        ]
+      },
+      "osm_tags": {
+        "name:en": "Crèmerie Al Andalouss",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7285030387",
+      "name": "Espagne",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "espagne-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03195,
+          35.465289
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Espagne"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7285038585",
+      "name": "Annasr",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "annasr-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031809,
+          35.466159
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Annasr"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7285274085",
+      "name": "Cafe Daya",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-daya-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.042121,
+          35.463828
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "moroccan",
+        "name:en": "Cafe Daya",
+        "phone": "+212 6 99 63 80 59"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 99 63 80 59",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7288600385",
+      "name": "Picasso",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "picasso-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.040816,
+          35.463205
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name:en": "Picasso"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7668112100",
+      "name": "Resort & Spa Hilton Tanger Al Houara",
+      "name_fr": "Resort & Spa Hilton Tanger Al Houara",
+      "name_ar": "منتجع وسبا هيلتون طنجة الهوارة",
+      "slug": "resort-spa-hilton-tanger-al-houara-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "Tanger",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.965774,
+          35.667332
+        ]
+      },
+      "osm_tags": {
+        "addr:city": "Tanger",
+        "addr:city:ar": "طنجة",
+        "addr:city:fr": "Tanger",
+        "addr:postcode": "90100",
+        "brand": "Hilton",
+        "brand:ar": "هيلتون",
+        "brand:fr": "Hilton",
+        "brand:wikidata": "Q598884",
+        "brand:wikipedia": "fr:Hilton Hotels & Resorts",
+        "contact:facebook": "https://www.facebook.com/HiltonTangierAlHouaraResortandSpa",
+        "contact:instagram": "https://www.instagram.com/hiltontangieralhouara/",
+        "contact:linkedin": "https://www.linkedin.com/company/hilton-tangier-al-houara-resort-spa",
+        "contact:twitter": "https://twitter.com/HiltonTangier",
+        "email": "tngah_hotel@hilton.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Resort & Spa Hilton Tanger Al Houara",
+        "name:ar": "منتجع وسبا هيلتون طنجة الهوارة",
+        "name:fr": "Resort & Spa Hilton Tanger Al Houara",
+        "operator": "Hilton",
+        "operator:ar": "هيلتون",
+        "operator:fr": "Hilton",
+        "operator:wikidata": "Q598884",
+        "operator:wikipedia": "fr:Hilton Hotels & Resorts",
+        "phone": "+212 5 39 40 94 00",
+        "rooms": "304",
+        "tourism": "hotel",
+        "website": "https://www.hiltonhotels.com/fr_FR/maroc/hilton-tangier-al-houara-resort-and-spa/",
+        "wikidata": "Q73139954"
+      },
+      "wikidata": "Q73139954",
+      "wikipedia": null,
+      "website": "https://www.hiltonhotels.com/fr_FR/maroc/hilton-tangier-al-houara-resort-and-spa/",
+      "phone": "+212 5 39 40 94 00",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/7855210638",
+      "name": "Thursday Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "thursday-market-asilah",
+      "category": "souks",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.080212,
+          35.253518
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Thursday Market"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/8388134418",
+      "name": "Zahora",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "zahora-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032074,
+          35.469276
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "Zahora"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9122392296",
+      "name": "Chez Mounir",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chez-mounir-asilah",
+      "category": "riads",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.086692,
+          35.369334
+        ]
+      },
+      "osm_tags": {
+        "name": "Chez Mounir",
+        "phone": "+212 6 96 34 60 58",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 96 34 60 58",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9825274919",
+      "name": "Casa Pepe El Oceano",
+      "name_fr": "Casa Pepe El Oceano",
+      "name_ar": null,
+      "slug": "casa-pepe-el-oceano-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035834,
+          35.466578
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Casa Pepe El Oceano",
+        "name:es": "Casa Pepe El Oceano",
+        "name:fr": "Casa Pepe El Oceano"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/9825283718",
+      "name": "La perle d’Asilah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "la-perle-d-asilah-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030971,
+          35.469838
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:en": "La perle d’Asilah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10173931317",
+      "name": "Port XIV",
+      "name_fr": "Port XIV",
+      "name_ar": null,
+      "slug": "port-xiv-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030095,
+          35.471359
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name:fr": "Port XIV"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10313680409",
+      "name": "Coffee guadi",
+      "name_fr": "Café guadi",
+      "name_ar": null,
+      "slug": "coffee-guadi-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036986,
+          35.460348
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "قهوة غادي",
+        "name:en": "Coffee guadi",
+        "name:fr": "Café guadi"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/10688271809",
+      "name": "Cafeteria Gibraltar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafeteria-gibraltar-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038224,
+          35.460793
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafeteria Gibraltar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11394574972",
+      "name": "Hotel Sahara",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-sahara-asilah",
+      "category": "riads",
+      "city": "asilah",
+      "address": "rue de Tarfaya",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031591,
+          35.467432
+        ]
+      },
+      "osm_tags": {
+        "addr:street": "rue de Tarfaya",
+        "guest_house": "guest_house",
+        "name": "Hotel Sahara",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11394574986",
+      "name": "Patio de la Luna",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "patio-de-la-luna-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035642,
+          35.46648
+        ]
+      },
+      "osm_tags": {
+        "name": "Patio de la Luna",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11396090727",
+      "name": "Ayah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "ayah-asilah",
+      "category": "bakeries",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032894,
+          35.465845
+        ]
+      },
+      "osm_tags": {
+        "name": "Ayah",
+        "name:en": "Ayah",
+        "shop": "bakery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11396090731",
+      "name": "Marché aux poissons",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-aux-poissons-asilah",
+      "category": "souks",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031936,
+          35.466663
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "name": "Marché aux poissons"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11396090741",
+      "name": "Hôtel Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-mansour-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031415,
+          35.468328
+        ]
+      },
+      "osm_tags": {
+        "name": "Hôtel Mansour",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11396090755",
+      "name": "El Espigon",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "el-espigon-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.030819,
+          35.470856
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "El Espigon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11398186219",
+      "name": "Beach Housse",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "beach-housse-asilah",
+      "category": "riads",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.041807,
+          35.46367
+        ]
+      },
+      "osm_tags": {
+        "name": "Beach Housse",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11401349743",
+      "name": "Fatima Market",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fatima-market-asilah",
+      "category": "food-markets",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03968,
+          35.460821
+        ]
+      },
+      "osm_tags": {
+        "name": "Fatima Market",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11739148953",
+      "name": "Cafe Classico مقهى الكلاسيكو",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-classico-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038291,
+          35.459142
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Classico مقهى الكلاسيكو"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11739168160",
+      "name": "Cafe Bettiwi مقهى البطيوي",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-bettiwi-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038254,
+          35.458677
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "Cafe Bettiwi مقهى البطيوي"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11739176779",
+      "name": "cafe El Barca مقهى البارصا",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-el-barca-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037903,
+          35.458068
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "cafe El Barca مقهى البارصا"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/11739176780",
+      "name": "cafe Ibisa مقهى إيبيزا",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "cafe-ibisa-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037539,
+          35.457431
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "name": "cafe Ibisa مقهى إيبيزا"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13194422355",
+      "name": "Chambre Tata",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "chambre-tata-asilah",
+      "category": "boutique-hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035947,
+          35.464893
+        ]
+      },
+      "osm_tags": {
+        "name": "Chambre Tata",
+        "tourism": "apartment"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13194422356",
+      "name": "Soufiane",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "soufiane-asilah",
+      "category": "food-markets",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.035674,
+          35.464321
+        ]
+      },
+      "osm_tags": {
+        "check_date": "2025-10-04",
+        "name": "Soufiane",
+        "shop": "supermarket"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13194422367",
+      "name": "Restaurante Asilah Cultural Andalousie",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "restaurante-asilah-cultural-andalousie-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.034076,
+          35.465696
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-10-04",
+        "name": "Restaurante Asilah Cultural Andalousie"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13196965374",
+      "name": "Dar pabia 21",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-pabia-21-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039951,
+          35.464288
+        ]
+      },
+      "osm_tags": {
+        "name": "Dar pabia 21",
+        "tourism": "hotel"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13196965376",
+      "name": "Monassilah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "monassilah-asilah",
+      "category": "contemporary-art",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039486,
+          35.46537
+        ]
+      },
+      "osm_tags": {
+        "name": "Monassilah",
+        "tourism": "gallery"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13196965382",
+      "name": "Jus Farid",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "jus-farid-asilah",
+      "category": "restaurants",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038862,
+          35.46566
+        ]
+      },
+      "osm_tags": {
+        "amenity": "restaurant",
+        "name": "Jus Farid"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13380497401",
+      "name": "Hotel Camping Briech",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hotel-camping-briech-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.997316,
+          35.529233
+        ]
+      },
+      "osm_tags": {
+        "name": "Hotel Camping Briech",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "node/13765957002",
+      "name": "Marcafè Gran Cafè",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marcafe-gran-cafe-asilah",
+      "category": "cafes",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.033859,
+          35.466102
+        ]
+      },
+      "osm_tags": {
+        "amenity": "cafe",
+        "cuisine": "italian;moroccan;tea",
+        "name": "Marcafè Gran Cafè",
+        "opening_hours": "Mo-Su 08:00-13:30"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": "Mo-Su 08:00-13:30"
+    },
+    {
+      "osm_id": "way/40966901",
+      "name": "Briech",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "briech-asilah",
+      "category": "national-parks",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.997323,
+          35.529025
+        ]
+      },
+      "osm_tags": {
+        "leisure": "park",
+        "name": "Briech",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/156439958",
+      "name": "Marché central d'asilah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "marche-central-d-asilah-asilah",
+      "category": "souks",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032123,
+          35.466491
+        ]
+      },
+      "osm_tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Marché central d'asilah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/256611202",
+      "name": "Asilah Marina Golf",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "asilah-marina-golf-asilah",
+      "category": "golf",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.050823,
+          35.443245
+        ]
+      },
+      "osm_tags": {
+        "leisure": "golf_course",
+        "name": "Asilah Marina Golf"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454401623",
+      "name": "Masjid Al Quds",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-al-quds-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.032207,
+          35.464165
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Al Quds",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/454401865",
+      "name": "Masjid Hassan II",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-hassan-ii-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.031485,
+          35.465571
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Hassan II",
+        "religion": "muslim",
+        "wheelchair": "limited"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/468055255",
+      "name": "Hilton Club de Golf",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "hilton-club-de-golf-asilah",
+      "category": "golf",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.954146,
+          35.668952
+        ]
+      },
+      "osm_tags": {
+        "leisure": "golf_course",
+        "name": "Hilton Club de Golf"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/476269037",
+      "name": "Masjid Moulay Abdesalam مسجل مولاي عبد السلام",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "masjid-moulay-abdesalam-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036414,
+          35.458956
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Masjid Moulay Abdesalam مسجل مولاي عبد السلام",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/681014952",
+      "name": "Sidi Mugaits Beach",
+      "name_fr": "La plage de Sidi Mugaits",
+      "name_ar": null,
+      "slug": "sidi-mugaits-beach-asilah",
+      "category": "beaches",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.087116,
+          35.365801
+        ]
+      },
+      "osm_tags": {
+        "name": "La plage de Sidi Mugaits",
+        "name:en": "Sidi Mugaits Beach",
+        "name:fr": "La plage de Sidi Mugaits",
+        "natural": "beach",
+        "surface": "sand"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/744896822",
+      "name": "Sidi Mghayt",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-mghayt-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.082234,
+          35.384728
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Mghayt",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442655",
+      "name": "Sidi Oumarrihia",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-oumarrihia-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.955342,
+          35.341706
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Oumarrihia",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/758442656",
+      "name": "Sidi al Assili",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-assili-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.03605,
+          35.46621
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Assili",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/759444135",
+      "name": "Sidi Bin'Ysa",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-bin-ysa-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038057,
+          35.466218
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Bin'Ysa",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/797692429",
+      "name": "Sidi al Yamani",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-al-yamani-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.973293,
+          35.365652
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi al Yamani",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/841978506",
+      "name": "mosquee tayeb",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-tayeb-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.075206,
+          35.272907
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "mosquee tayeb",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/987394483",
+      "name": "Plage de Sidi Mghait ضريح سيدي مغايت",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-de-sidi-mghait-asilah",
+      "category": "beaches",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.084426,
+          35.380819
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage de Sidi Mghait ضريح سيدي مغايت",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071742",
+      "name": "Paradise beach",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "paradise-beach-asilah",
+      "category": "beaches",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.066921,
+          35.415771
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Rmilate",
+        "name:en": "Paradise beach",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071745",
+      "name": "Les Figuiettes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "les-figuiettes-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.063074,
+          35.383949
+        ]
+      },
+      "osm_tags": {
+        "email": "cecile.aubert@laposte.net",
+        "name": "Les Figuiettes",
+        "phone": "+33 6 22 92 29 54",
+        "tourism": "hotel",
+        "website": "https://www.les-figuiettes.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://www.les-figuiettes.com/",
+      "phone": "+33 6 22 92 29 54",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1065071753",
+      "name": "Dmina House",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dmina-house-asilah",
+      "category": "hotels",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.061394,
+          35.383377
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Dmina House",
+        "phone": "+212 6 57 00 00 02",
+        "tourism": "hotel",
+        "website": "https://dminahouse.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://dminahouse.com/",
+      "phone": "+212 6 57 00 00 02",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1155921683",
+      "name": "Plage Briech",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "plage-briech-asilah",
+      "category": "beaches",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.003652,
+          35.546216
+        ]
+      },
+      "osm_tags": {
+        "name": "Plage Briech",
+        "natural": "beach"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1155923466",
+      "name": "Mosquee Briech",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-briech-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.995664,
+          35.539386
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee Briech",
+        "religion": "muslim",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1228863452",
+      "name": "Palais Rassouni",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "palais-rassouni-asilah",
+      "category": "palaces-kasbahs",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.040236,
+          35.465729
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Palais Rassouni"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1228863463",
+      "name": "Al Qamra Tower",
+      "name_fr": "Tour Al Qamra",
+      "name_ar": "برج القمرة",
+      "slug": "al-qamra-tower-asilah",
+      "category": "historical-sites",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037789,
+          35.466248
+        ]
+      },
+      "osm_tags": {
+        "alt_name": "Al-Kamra;Alqamra;Borj al-Kamra",
+        "building": "yes",
+        "building:material": "stone",
+        "historic": "watchtower",
+        "int_name": "Alqamra Tower",
+        "man_made": "tower",
+        "name": "برج القمرة",
+        "name:ar": "برج القمرة",
+        "name:en": "Al Qamra Tower",
+        "name:fr": "Tour Al Qamra",
+        "start_date": "C16",
+        "tourism": "attraction",
+        "tower:construction": "freestanding",
+        "tower:type": "defensive",
+        "wikidata": "Q55188883",
+        "wikimedia_commons": "File:Al Qamra tower - Asilah.jpg"
+      },
+      "wikidata": "Q55188883",
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1289198835",
+      "name": "Dar Saad",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "dar-saad-asilah",
+      "category": "riads",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.060622,
+          35.389053
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "name": "Dar Saad",
+        "phone": "+212 6 73 73 69 80",
+        "tourism": "guest_house"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": "+212 6 73 73 69 80",
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1327375305",
+      "name": "Tahadart Camping & Holiday Homes",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "tahadart-camping-holiday-homes-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.990715,
+          35.568362
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "internet_access": "wlan",
+        "name": "Tahadart Camping & Holiday Homes",
+        "tourism": "camp_site",
+        "website": "https://tahadart.com/"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": "https://tahadart.com/",
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1328473385",
+      "name": "Mosquee Dar Flaq",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-dar-flaq-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.81076,
+          35.516707
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee Dar Flaq",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1328473390",
+      "name": "Mosquee Al Gor",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "mosquee-al-gor-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -5.81652,
+          35.491522
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mosquee Al Gor",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1353129855",
+      "name": "Lalla Rahma",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-rahma-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.039896,
+          35.463689
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Lalla Rahma",
+        "tomb": "mausoleum"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1353203156",
+      "name": "Sidi Ahmed Ben Mansour",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "sidi-ahmed-ben-mansour-asilah",
+      "category": "mausoleums",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.041693,
+          35.464907
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "tomb",
+        "name": "Sidi Ahmed Ben Mansour",
+        "tomb": "mausoleum",
+        "tourism": "yes"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1353203558",
+      "name": "Camp As Saada",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-as-saada-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.02879,
+          35.471936
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Camp As Saada",
+        "power_supply": "yes",
+        "shower": "yes",
+        "static_caravans": "yes",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1353203559",
+      "name": "Camp Echrigui",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "camp-echrigui-asilah",
+      "category": "desert-camps",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.028121,
+          35.472637
+        ]
+      },
+      "osm_tags": {
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "name": "Camp Echrigui",
+        "power_supply": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "tourism": "camp_site"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1495739488",
+      "name": "Bab Al Homar",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "bab-al-homar-asilah",
+      "category": "medinas",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037999,
+          35.465071
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Bab Al Homar"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1495739491",
+      "name": "Fort Antonio da Fonseca",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "fort-antonio-da-fonseca-asilah",
+      "category": "palaces-kasbahs",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038932,
+          35.464482
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Fort Antonio da Fonseca"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1495739492",
+      "name": "Borj Sidi Al Assili",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "borj-sidi-al-assili-asilah",
+      "category": "palaces-kasbahs",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036211,
+          35.466343
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "fort",
+        "name": "Borj Sidi Al Assili"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1495739493",
+      "name": "Borj Al Kasabah",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "borj-al-kasabah-asilah",
+      "category": "palaces-kasbahs",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.036524,
+          35.466915
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "fort",
+        "name": "Borj Al Kasabah"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "way/1495739509",
+      "name": "Lalla Saida",
+      "name_fr": null,
+      "name_ar": null,
+      "slug": "lalla-saida-asilah",
+      "category": "mosques",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.038036,
+          35.466289
+        ]
+      },
+      "osm_tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Lalla Saida",
+        "religion": "muslim"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    },
+    {
+      "osm_id": "relation/20404669",
+      "name": "Bab el Bahr",
+      "name_fr": "Bab el Bahr",
+      "name_ar": "باب البحر",
+      "slug": "bab-el-bahr-asilah",
+      "category": "medinas",
+      "city": "asilah",
+      "address": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -6.037863,
+          35.466332
+        ]
+      },
+      "osm_tags": {
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Bab el Bahr باب البحر",
+        "name:ar": "باب البحر",
+        "name:en": "Bab el Bahr",
+        "name:fr": "Bab el Bahr",
+        "name:it": "Bab el Bahr",
+        "type": "multipolygon"
+      },
+      "wikidata": null,
+      "wikipedia": null,
+      "website": null,
+      "phone": null,
+      "stars": null,
+      "opening_hours": null
+    }
+  ]
+}

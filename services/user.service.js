@@ -1,5 +1,7 @@
 const User          = require("../models/User");
 const ApiError      = require("../utils/ApiError");
+const { assertStrongPassword } = require("../utils/passwordPolicy");
+const { signToken } = require("../utils/jwt.utils");
 const { USER_ROLES } = require("../config/constants");
 const { getPagination } = require("../utils/pagination.utils");
 const { deleteUploadedFile } = require("./fileCleanup.service");
@@ -49,8 +51,7 @@ const deactivateUser = async (id) => {
 };
 
 const changePassword = async (userId, currentPassword, newPassword) => {
-  if (!newPassword || newPassword.length < 8)
-    throw new ApiError(400, "Le mot de passe doit faire au moins 8 caractères");
+  assertStrongPassword(newPassword);
 
   const user = await User.findById(userId).select("+passwordHash");
   if (!user) throw new ApiError(404, "Utilisateur introuvable");
@@ -59,7 +60,12 @@ const changePassword = async (userId, currentPassword, newPassword) => {
   if (!valid) throw new ApiError(401, "Mot de passe actuel incorrect");
 
   user.passwordHash = newPassword;
+  // Invalidate every previously-issued token (e.g. a session opened with the
+  // old/leaked password) by bumping tokenVersion, then mint a fresh token so
+  // the device that just changed the password stays signed in.
+  user.tokenVersion = (user.tokenVersion ?? 0) + 1;
   await user.save();
+  return signToken(user);
 };
 
 const deactivateMyAccount = async (userId) => {
