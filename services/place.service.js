@@ -1,4 +1,5 @@
 const Place               = require("../models/Place");
+const { Types }           = require("mongoose");
 const Favorite            = require("../models/Favorite");
 const PendingRequest      = require("../models/PendingRequest");
 const Media               = require("../models/Media");
@@ -169,8 +170,13 @@ const getNearbyPlaces = async ({ lat, lng, radius = 5000, limit = 50, perCity = 
 // Saves ~40% on Marrakech (311 markers): 175 KB → ~100 KB.
 const getMarkers = async ({ cityId, categoryId, status = "active" } = {}) => {
   const filter = { status };
-  if (cityId)     filter.cityId     = cityId;
-  if (categoryId) filter.categoryId = Array.isArray(categoryId) ? { $in: categoryId } : categoryId;
+  // $match in aggregation does NOT auto-cast strings to ObjectIds the way
+  // Place.find() does, so convert explicitly.
+  if (cityId)     filter.cityId     = typeof cityId === "string" ? new Types.ObjectId(cityId) : cityId;
+  if (categoryId) {
+    const toOid = (v) => typeof v === "string" ? new Types.ObjectId(v) : v;
+    filter.categoryId = Array.isArray(categoryId) ? { $in: categoryId.map(toOid) } : toOid(categoryId);
+  }
 
   return Place.aggregate([
     { $match: filter },
@@ -181,7 +187,7 @@ const getMarkers = async ({ cityId, categoryId, status = "active" } = {}) => {
     { $unwind: { path: "$_city", preserveNullAndEmptyArrays: true } },
     { $lookup: {
         from: "categories", localField: "categoryId", foreignField: "_id", as: "_category",
-        pipeline: [{ $project: { name: 1 } }],
+        pipeline: [{ $project: { name: 1, slug: 1 } }],
     }},
     { $unwind: { path: "$_category", preserveNullAndEmptyArrays: true } },
     { $project: {
@@ -194,6 +200,7 @@ const getMarkers = async ({ cityId, categoryId, status = "active" } = {}) => {
         images:        { $slice: ["$images", 1] },
         cityName:      "$_city.name",
         categoryName:  "$_category.name",
+        categorySlug:  "$_category.slug",
     }},
     { $limit: 2000 },
   ]);
